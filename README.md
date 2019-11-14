@@ -13,6 +13,9 @@ This website was created with [Docusaurus](https://docusaurus.io/).
 1. Make sure all the dependencies for the website are installed:
 
 ```sh
+# Navigate to the website directory
+$ cd website
+
 # Install dependencies
 $ yarn
 ```
