@@ -1,10 +1,12 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Introduction": ["hubs-getting-started", "spoke-building-scenes"],
+    "Hubs Reference": [ "hubs-features", "hubs-controls", "hubs-moderation-tools", "hubs-discord"],
+    "Spoke Reference": ["spoke-creating-projects", "spoke-adding-scene-content", "spoke-publishing", "lighting-and-shadows", "physics-and-navigation", "spoke-controls"],
+    "For Developers": ["system-overview", "customizing-avatars", "contributing", "hubs-permission-list", "conntecting-admin-console", "dev-testing-hubs-sids", "running-hubs-on-aws-cloud9", "local-ubuntu-vm-setup"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
   }
 }
+
