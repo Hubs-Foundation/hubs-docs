@@ -1,21 +1,11 @@
 ---
 id: hubs-controls
-title: Hubs Controls
+title: Controls
 ---
 <!-- 
 https://truben.no/table/ to edit these tables
 https://magnetikonline.github.io/markdown-toc-generate/ to generate a table of contents
 -->
-
-- [Touchscreen Controls](#touchscreen-controls)
-- [Keyboard and Mouse Controls](#keyboard-and-mouse-controls)
-- [Oculus Touch Controls](#oculus-touch-controls)
-- [Vive Controls](#vive-controls)
-- [Windows Mixed Reality Controls](#windows-mixed-reality-controls)
-- [Oculus Go and Samsung Gear VR Controls](#oculus-go-and-samsung-gear-vr-controls)
-- [Google Daydream Controls](#google-daydream-controls)
-- [Gamepad Controls](#gamepad-controls)
-
 
 ## Touchscreen Controls
 <table>

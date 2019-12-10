@@ -4,13 +4,7 @@ title: Building Scenes with Spoke
 sidebar_label: Building Scenes with Spoke
 ---
 
-* Intro text about Spoke  
-* What is Spoke for 
-* Why use Spoke
-
-Welcome to the Spoke wiki!
-
-Spoke is an online 3D scene editor developed by the Mozilla Mixed Reality team. With Spoke, you can compose assets, lights, images, videos, and more to create an environment that can be used in Hubs rooms or exported as a glTF 3D model file.
+To create new worlds for Hubs, you can use Spoke. Spoke is an online 3D scene editor developed by the Mozilla Mixed Reality team. With Spoke, you can compose assets, lights, images, videos, and more to create an environment that can be used in Hubs rooms or exported as a glTF 3D model file.
 
  Discover: Explore images, videos, and 3D models from around the web, all without opening up a new tab. With media integrations from Sketchfab and Google Poly, you'll be on your way to creating a scene in no time.
 

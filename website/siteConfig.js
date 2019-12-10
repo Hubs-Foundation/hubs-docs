@@ -38,7 +38,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'hubs-getting-started', label: 'Docs'},
+    {doc: 'welcome', label: 'Docs'},
     {page: 'help', label: 'Help'},
   ],
 
@@ -53,7 +53,7 @@ const siteConfig = {
   /* Colors for website */
   colors: {
     primaryColor: '#15171b',
-    secondaryColor: '#00ff00',
+    secondaryColor: '#ff3464',
   },
 
   /* Custom fonts for website */
@@ -92,7 +92,7 @@ const siteConfig = {
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
-  // docsSideNavCollapsible: true,
+  docsSideNavCollapsible: true,
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,

@@ -1,9 +1,9 @@
 {
   "docs": {
-    "Introduction": ["hubs-getting-started", "spoke-building-scenes"],
-    "Hubs Reference": [ "hubs-features", "hubs-controls", "hubs-moderation-tools", "hubs-discord"],
-    "Spoke Reference": ["spoke-creating-projects", "spoke-adding-scene-content", "spoke-publishing", "lighting-and-shadows", "physics-and-navigation", "spoke-controls"],
-    "For Developers": ["system-overview", "customizing-avatars", "contributing", "hubs-permission-list", "conntecting-admin-console", "dev-testing-hubs-sids", "running-hubs-on-aws-cloud9", "local-ubuntu-vm-setup"]
+    "Introduction": ["welcome", "hubs-getting-started", "spoke-building-scenes"],
+    "Hubs Documentation": [ "hubs-joining-room", "hubs-features", "hubs-user-settings", "hubs-room-settings", "hubs-controls", "hubs-discord-bot", "hubs-faq"],
+    "Spoke Documentation": ["spoke-creating-projects", "spoke-adding-scene-content", "spoke-publishing", "lighting-and-shadows", "physics-and-navigation", "spoke-controls"],
+    "For Developers": ["system-overview", "customizing-avatars", "contributing", "hubs-permission-list", "conntecting-admin-console", "running-hubs-on-aws-cloud9", "local-ubuntu-vm-setup"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
