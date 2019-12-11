@@ -4,13 +4,13 @@ title: Hubs Getting Started Guide
 sidebar_label: Getting Started With Hubs 
 ---
 
-## Create a New Room
+<!-- ## Create a New Room -->
+In the following guide we will show you the basics of how to use Hubs - Let's get started! 
 
-Head to [hubs.mozilla.com](hubs.mozilla.com) and click “Create a Room.” 
-
-This room is private. No one else can join until you invite them.
+Head to [hubs.mozilla.com](hubs.mozilla.com) and click “Create a Room.” This room is private. No one else can join until you invite them.
 
 ![Hubs Image](../img/create_room.png)
+
 
 <center>🎉 _Congratulations - you now have your very own virtual space!_ 🎉</center>
 

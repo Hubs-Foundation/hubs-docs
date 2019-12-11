@@ -4,7 +4,10 @@ title: Room Settings
 ---
 
 ## Change Scenes
-There are lots of scenes to choose from in our Featured Scenes list and Scenes Database. You can also upload your own using our scene editor [Spoke](./spoke-getting-started). Find the scene browser by opening the dropdown menu and selecting Choose a Scene. Note that feature scenes have been tested for performance across devices. For more information on how these are selected, take a look at our [content curation guidelines]()
+There are lots of scenes to choose from in our Featured Scenes list and Scenes Database. You can also upload your own using our scene editor [Spoke](./spoke-getting-started). Find the scene browser by opening the dropdown menu and selecting Choose a Scene. Note that feature scenes have been tested for performance across devices. For more information on how these are selected, take a look at our [content curation guidelines](). Room moderators only.
+
+## Change Room Name
+You can change the name of a room. To change it select 'Room Settings' from the dropdown menu and create a new name.Room moderators only.
 
 ## Object Permissions
 You can specify whether users in the room are able to create and move objects, pin content, and draw with the pen. By default these features are enabled. To toggle them select 'Room Settings' from the dropdown menu and toggle the permissions you want to set. 
@@ -13,7 +16,7 @@ You can specify whether users in the room are able to create and move objects, p
 When in a room with other trusted users, the room owner can promote other users to also have moderation permissions. Promoted moderators will have all of the same permissions as a room owner. It is important to ensure that users who are promoted to moderator are trusted parties, as they will have additional abilities to rename, change scenes, and close the room. To promote other users to moderators, select the user from the user list and click the 'Promote' button. Users need to be signed in to be promoted to moderators.
 
 ## Maximum Capacity
-Hubs rooms have a maximum capacity of 25 people in-room to ensure performance accross devices. Significantly more than this can watch from the lobby even when the room is full. Users in the lobby can hear what is going on inside the room, and can interact through chat with the people in the space. 
+Hubs rooms have a maximum capacity of 25 people in-room to ensure performance across devices. Significantly more than this can watch from the lobby even when the room is full. Users in the lobby can hear what is going on inside the room, and can interact through chat with the people in the space. 
 
 ## Camera Mode
 To ensure that users are able to see exactly what they are meant to inside of the scene, the room moderator can turn on "Camera Mode" from the dropdown menu. This broadcasts their point of view to the people watching in the lobby, so they don't miss a thing! 

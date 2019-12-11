@@ -2,8 +2,8 @@
 id: hubs-discord-bot
 title: Discord bot
 ---
-
-## What is the Hubs Discord bot?
+<!-- 
+## What is the Hubs Discord bot? -->
 The Hubs Discord bot makes it easy to connect Hubs rooms to your Discord chat server. When a Hubs room is associated with a Discord channel, users will be assigned abilities in the Hubs room based on their Discord roles. For example, Discord owners and moderators will be able to change settings on a Hubs room and be able to moderate users in the room.
 
 ### Features
@@ -43,3 +43,7 @@ The following features outline the current bot commands and how they can be acce
 🦆!hubs stats - Shows some summary statistics about room usage.
 
 🦆!hubs remove - Removes the room URL from the topic and stops bridging this Discord channel with Hubs.
+
+🦆 !hubs notify set [datetime] - Sets a one-time notification to notify @​here to join the room at some future time.
+
+🦆 !hubs notify clear - Removes all pending notifications.

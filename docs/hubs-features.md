@@ -47,12 +47,12 @@ You can use text chat to communicate with users in the room from both the lobby 
  * /duck - create a duck object
  * /debug Toggle physics debug rendering
  * /vrstats Toggle stats in VR
- * /scene <scene url> Change the scne
- * /rename <new name> Rename the room
+ * /scene <scene url> Change the scene (*moderators only)
+ * /rename <new name> Rename the room (*moderators only)
 
 ### 10. Favorite Rooms
 
-Make it easy to return to a room by adding it to your list of favourites. 
+Make it easy to return to a room by adding it to your list of favorites. 
 
 ## Menus 
 

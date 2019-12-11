@@ -3,12 +3,20 @@ id: hubs-joining-room
 title: Entering Hubs
 ---
 
-## Joining an existing Hubs Room
-You can open an existing Hubs room using either a URL or a numeric code. Navigate to the URL in your browser or enter the code into [hubs.link](hubs.link).
+To create your own room, head to [hubs.mozilla.com](hubs.mozilla.com) and click “Create a Room.” 
 
-This will bring you to the room's lobby. You can see what's going on in the room but you can only interact with the others in the room using text chat. 
+## Receiving Invites
+You can join an existing Hubs room using either a URL or a numeric code. Navigate to the URL in your browser or enter the code into [hubs.link](hubs.link).
 
-Entering the room is a bit different depending on your device.
+
+## Lobby
+Before entering the room, you are in the room's lobby. You can see what's going on in the room but you can only interact with the others in the room using text chat. 
+
+
+## Enter Room
+This process is a bit different depending on your device.
+
+
 
 ### On Desktop / Mobile 
 

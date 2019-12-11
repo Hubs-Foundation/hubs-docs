@@ -5,7 +5,9 @@ title: Troubleshooting
 
 ## There is echo in the room
 
-Echo is often caused by a participant not wearing heaphones. You can ask the room to mute their mic, or as a room moderator you can mute them yourself in their avatar menu. 
+Echo is often caused by a participant not wearing headphones. You can ask the room to mute their mic, or as a room moderator you can mute them yourself in their avatar menu. 
+
+You may also click the "-" button above their head while in freeze mode to lower their volume all the way to 0, but this will only reduce their volume on your client will mean that you can't hear them at all anymore.
 
 ## Images aren't displaying properly
 
