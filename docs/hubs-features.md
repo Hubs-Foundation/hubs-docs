@@ -58,7 +58,7 @@ Make it easy to return to a room by adding it to your list of favorites.
 
 ### Object Menu
 
-Open object menus on objects and media in the room. 
+Open object menus on objects and media in the room. Open using tab or space on user.
 ![Hubs Image](../img/object-menu.png)
 
 
@@ -75,17 +75,9 @@ Open object menus on objects and media in the room.
 
 ![Hubs Image](../img/avatar-menu.png)
 
-* Hide - Click on the "Hide" button in the avatar menu to block a user. When you block a user, they disappear from your view and you stop receiving their audio. Other users can still see users that you choose to block.
+* Hide - Click on the "Hide" button in the avatar menu to block a user. This only applies to the current session (once you refresh you will see them again). When you block a user, they disappear from your view and you stop receiving their audio. Other users can still see users that you choose to block.
 * Mute - turn off the user's microphone
 * Kick - temporarily kick a user from the room
-
-## Camera Menu
-
-Mirror Mode
-You can toggle the camera into "mirror" mode. This changes your view on desktop to display what the camera is seeing.
-Focus and Track Mode
-
-You can also "focus" the camera or toggle it into "track" mode by clicking on respective buttons on an object. The camera will point towards or follow the object when it is moved.
 
 ## Drawing Menu
 
@@ -101,6 +93,8 @@ You can also "focus" the camera or toggle it into "track" mode by clicking on re
 * focus and track mode
 * Rotate
 * Trash
+
+You can also "focus" the camera or toggle it into "track" mode by clicking on respective buttons on an object. The camera will point towards or follow the object when it is moved.
 
 ## Emoji Spawners
 

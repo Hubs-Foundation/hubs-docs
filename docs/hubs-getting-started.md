@@ -52,7 +52,7 @@ You can also add media or by dragging and dropping a file into the room, or past
 
 Additional controls for objects, videos, drawings can be found in their object menu.
 
-To reveal these controls hovering your cursor over the object and pressing the space or tab key on Desktop. 
+To reveal these controls hover your cursor over the object and pressing the space or tab key on Desktop. 
 
 For VR and mobile controls see our complete list of [Hubs Controls](./hubs-controls). 
 

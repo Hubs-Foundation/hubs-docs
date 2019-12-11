@@ -29,7 +29,7 @@ If you opened the URL on your desktop or smartphone, choose "Enter on Standalone
 Open the browser in your VR headset, navigate to [hubs.link](hubs.link) and enter the code. 
 
 ### On a Wired-in VR Headset
-We recommend [Mozilla Firefox]() for wired-in headsets (e.g. Oculus Rift, Windows Mixed Reality, Vive). To use WebVR with your headset, the Oculus app (Oculus Rift) or SteamVR (Windows Mixed Reality, Vive) must also be open.
+We recommend [Mozilla Firefox]() for wired-in headsets (e.g. Oculus Rift, Windows Mixed Reality, Vive). To use desktop VR device with your headset, the Oculus app (Oculus Rift) or SteamVR (Windows Mixed Reality, Vive) must also be open.
 
 On your computer, click "Enter Room" and follow the prompts to select a username/avatar and set up the mic. On the final prompt before entering you should see an option to select "Connected VR Headset."
 

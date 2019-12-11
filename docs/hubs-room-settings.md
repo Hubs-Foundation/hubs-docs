@@ -9,6 +9,9 @@ There are lots of scenes to choose from in our Featured Scenes list and Scenes D
 ## Change Room Name
 You can change the name of a room. To change it select 'Room Settings' from the dropdown menu and create a new name.Room moderators only.
 
+## Favorite Rooms
+Add a room to your list of favorites by clicking the star icon in the lower corner of the screen. This lets you easily find it when you come back to Hubs.
+
 ## Object Permissions
 You can specify whether users in the room are able to create and move objects, pin content, and draw with the pen. By default these features are enabled. To toggle them select 'Room Settings' from the dropdown menu and toggle the permissions you want to set. 
 
