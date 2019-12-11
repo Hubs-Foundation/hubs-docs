@@ -1,13 +1,7 @@
 ---
 id: customizing-avatars
-title: Customizing Avatars
+title: Design Custom Avatars
 ---
-
-# Avatar assets and templates for Mozilla Hubs
-
-This contains some useful working files for editing avatars for [Mozilla Hubs](https://hubs.mozilla.com). 
-
-**IMPORTANT:  If you are cloning this repo, _you MUST first install [GitLFS](https://git-lfs.github.com/)_ or else many of the files will not work.**
 
 Depending on how involved you'd like to get in the avatar creation process, you might choose to simply 're-skin' the existing robot avatar by painting your own texture maps, or create your own fully custom 3D model.
 
@@ -42,7 +36,14 @@ The default avatar is currently using:
 
 **It is _highly_ recommended that texture resolution be kept at 1024x1024 or below.** This is mostly due to Hubs being a web-based application where large download times for bigger files can hurt performance, especially on mobile devices. _All textures MUST be powers of 2 (64, 128, 256, 512, etc.)_
 
+
+
+
 ## Making your own custom avatar model
+
+**IMPORTANT:  If you are cloning this repo, _you MUST first install [GitLFS](https://git-lfs.github.com/)_ or else many of the files will not work.**
+
+
 
 We offer the following resources if you'd like to modify our Robot avatar:
 
@@ -60,9 +61,3 @@ Files with the suffix *_base* refer to the most barebones, basic robot avatar te
 
 The armature is based largely upon the same hierarchy and naming conventions of the skeleton provided by [High Fidelity](https://docs.highfidelity.com/en/rc80/create/avatars/avatar-standards.html#skeleton). This also happens to have a similar structure to VRChat in terms of bone orientations.
 However, in our current implementation in Hubs, we have eliminated some of the bones within the hierarchy, namely the lower body and arm joints since we are not using any sort of inverse kinematics (IK) at the moment. This may change in future iterations.
-
-# License
-
-All assets are licensed with the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
-
-Code is licensed with the [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/).

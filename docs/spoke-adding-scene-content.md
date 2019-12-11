@@ -1,7 +1,16 @@
 ---
 id: spoke-adding-scene-content
-title: Adding Scene Content
+title: Adding Content
 ---
 
-This is a link to [another document.](doc3.md)  
-This is a link to an [external page.](http://www.example.com)
+## Architecture & rock Kit
+### Models are one sided
+### Different components
+
+## 3d models
+
+## Videos
+
+## Images
+
+## Gifs

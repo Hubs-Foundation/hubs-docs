@@ -1,9 +1,12 @@
 {
   "docs": {
-    "Introduction": ["welcome", "hubs-getting-started", "spoke-building-scenes"],
+    "Introduction": ["welcome", "hubs-getting-started", "spoke-building-scenes", "uploading-custom-avatars"],
     "Hubs Documentation": [ "hubs-joining-room", "hubs-features", "hubs-user-settings", "hubs-room-settings", "hubs-controls", "hubs-discord-bot", "hubs-faq"],
-    "Spoke Documentation": ["spoke-creating-projects", "spoke-adding-scene-content", "spoke-publishing", "lighting-and-shadows", "physics-and-navigation", "spoke-controls"],
-    "For Developers": ["system-overview", "customizing-avatars", "contributing", "hubs-permission-list", "conntecting-admin-console", "running-hubs-on-aws-cloud9", "local-ubuntu-vm-setup"]
+    "Spoke Documentation": ["spoke-user-interface", "spoke-creating-projects", "spoke-adding-scene-content",  "lighting-and-shadows", "physics-and-navigation", "spoke-controls"],
+    "For Creators": ["customizing-avatars", "spoke-optimization", "content-guidelines"],
+    "For Developers": ["contributing", "admin-panel", "system-overview", "build-custom-client"],
+    "Hubs Cloud": ["hubs-cloud"]
+
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]

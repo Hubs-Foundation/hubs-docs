@@ -3,26 +3,99 @@ id: spoke-controls
 title: Spoke Controls
 ---
 
-Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
-## Lorem
+## Mouse
+<table>
+<tr>
+<th> Action </th>			<th> Button </th>					<th> Notes </th>
+</tr>
+<tr>
+<td> Rotate Scene </td>		<td> Left Mouse Button </td>				<td> In the Viewport panel </td>
+</tr>
+<tr>
+<td> Pan Scene </td>		<td> Middle Mouse Button </td>				<td> In the Viewport panel </td>
+</tr>
+<tr>
+<td> Fly </td>		<td> Right Mouse Button + WASD keys </td>				<td> In the Viewport panel </td>
+</tr>
+<tr>
+<td> Zoom Scene </td>		<td> Scrollwheel </td>					<td> In the Viewport panel </td>
+</tr>
+<tr>
+<td> Focus Object </td>		<td> Double-click </td>					<td> In the Hierarchy panel </td>
+</tr>
+</table> 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.
+## Keyboard
+<table>
+<tr>
+<th> Action </th>			<th> Key </th>						<th> Notes </th>
+</tr>
+<tr>
+<td> Translate Tool </td>		<td> T </td>					<td> Only in the Viewport panel </td>
+</tr>
+<tr>
+<td> Rotate Tool </td>		<td> R </td>					<td> Only in the Viewport panel </td>
+</tr>
+<tr>
+<td> Scale Tool </td>		<td> Y </td>					<td> Only in the Viewport panel </td>
+</tr>
+<tr>
+<td> Focus Selection </td>		<td> F </td>					<td> Only in the Viewport panel </td>
+</tr>
+<tr>
+<td> Toggle Global/Local Transform Space</td>	<td> Z </td>					<td> Only in the Viewport panel </td>
+</tr>
+<tr>
+<td> Toggle Center/Selection Pivot </td>		<td> X </td>					<td> Only in the Viewport panel </td>
+</tr>
+<tr>
+<td> Increase Grid Height</td>		<td> = </td>					<td> Only in the Viewport panel </td>
+</tr>
+<tr>
+<td> Decrease Grid Height</td>		<td> - </td>					<td> Only in the Viewport panel </td>
+</tr>
+<tr>
+<td> Rotate Selected Object Left</td>		<td> Q </td>					<td> Only in the Viewport panel </td>
+</tr>
+<tr>
+<td> Rotate Selected Object Right</td>		<td> E </td>					<td> Only in the Viewport panel </td>
+</tr>
+<tr>
+<td> Toggle Snap Mode </td>		<td> C </td>					<td> Only in the Viewport panel </td>
+</tr>
+<tr>
+<td> Invert Snap Mode </td>		<td> Ctrl/Cmd </td>				<td> While dragging objects in the Viewport panel </td>
+</tr>
+<tr>
+<td> Delete </td>			<td> Delete, Backspace </td>	<td> In the Viewport panel and the Hierarchy panel </td>
+</tr>
+<tr>
+<td> Duplicate </td>		<td> Ctrl/Cmd + D </td>			<td> In the Viewport panel and the Hierarchy panel </td>
+</tr>
+<tr>
+<td> Group Selected </td>		<td> Ctrl/Cmd + G </td>			<td> In the Viewport panel and the Hierarchy panel </td>
+</tr>
+<tr>
+<td> Copy Selected </td>		<td> Ctrl/Cmd + C </td>			<td> In the Viewport panel and the Hierarchy panel </td>
+</tr>
+<tr>
+<td> Paste Selected </td>		<td> Ctrl/Cmd + V </td>			<td> In the Viewport panel and the Hierarchy panel </td>
+</tr>
+<tr>
+<td> Undo </td>			<td> Ctrl/Cmd + Z </td>			<td> In the Viewport panel and the Hierarchy panel </td>
+</tr>
+<tr>
+<td> Redo </td>			<td> Ctrl/Cmd + Shift + Z </td>		<td> In the Viewport panel and the Hierarchy panel </td>
+</tr>
+<tr>
+<td> Save </td>			<td> Ctrl/Cmd + S </td>			<td> In the Viewport panel and the Hierarchy panel </td>
+</tr>
+<tr>
+<td> Scrub faster </td>		<td> Shift </td>				<td> While scrubbing numeric properties </td>
+</tr>
+<tr>
+<td> Scrub slower </td>		<td> Alt/Option </td>				<td> While scrubbing numeric properties </td>
+</tr>
+</table>
 
-## Mauris In Code
-
-```
-Mauris vestibulum ullamcorper nibh, ut semper purus pulvinar ut. Donec volutpat orci sit amet mauris malesuada, non pulvinar augue aliquam. Vestibulum ultricies at urna ut suscipit. Morbi iaculis, erat at imperdiet semper, ipsum nulla sodales erat, eget tincidunt justo dui quis justo. Pellentesque dictum bibendum diam at aliquet. Sed pulvinar, dolor quis finibus ornare, eros odio facilisis erat, eu rhoncus nunc dui sed ex. Nunc gravida dui massa, sed ornare arcu tincidunt sit amet. Maecenas efficitur sapien neque, a laoreet libero feugiat ut.
-```
-
-## Nulla
-
-Nulla facilisi. Maecenas sodales nec purus eget posuere. Sed sapien quam, pretium a risus in, porttitor dapibus erat. Sed sit amet fringilla ipsum, eget iaculis augue. Integer sollicitudin tortor quis ultricies aliquam. Suspendisse fringilla nunc in tellus cursus, at placerat tellus scelerisque. Sed tempus elit a sollicitudin rhoncus. Nulla facilisi. Morbi nec dolor dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras et aliquet lectus. Pellentesque sit amet eros nisi. Quisque ac sapien in sapien congue accumsan. Nullam in posuere ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin lacinia leo a nibh fringilla pharetra.
-
-## Orci
-
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin venenatis lectus dui, vel ultrices ante bibendum hendrerit. Aenean egestas feugiat dui id hendrerit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur in tellus laoreet, eleifend nunc id, viverra leo. Proin vulputate non dolor vel vulputate. Curabitur pretium lobortis felis, sit amet finibus lorem suscipit ut. Sed non mollis risus. Duis sagittis, mi in euismod tincidunt, nunc mauris vestibulum urna, at euismod est elit quis erat. Phasellus accumsan vitae neque eu placerat. In elementum arcu nec tellus imperdiet, eget maximus nulla sodales. Curabitur eu sapien eget nisl sodales fermentum.
-
-## Phasellus
-
-Phasellus pulvinar ex id commodo imperdiet. Praesent odio nibh, sollicitudin sit amet faucibus id, placerat at metus. Donec vitae eros vitae tortor hendrerit finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque vitae purus dolor. Duis suscipit ac nulla et finibus. Phasellus ac sem sed dui dictum gravida. Phasellus eleifend vestibulum facilisis. Integer pharetra nec enim vitae mattis. Duis auctor, lectus quis condimentum bibendum, nunc dolor aliquam massa, id bibendum orci velit quis magna. Ut volutpat nulla nunc, sed interdum magna condimentum non. Sed urna metus, scelerisque vitae consectetur a, feugiat quis magna. Donec dignissim ornare nisl, eget tempor risus malesuada quis.
