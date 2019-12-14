@@ -9,7 +9,6 @@ pkg_upstream_url="https://hubs.mozilla.com/docs"
 pkg_deps=(
   core/node10
   core/coreutils
-  core/python
 )
 pkg_build_deps=(
   core/bash
