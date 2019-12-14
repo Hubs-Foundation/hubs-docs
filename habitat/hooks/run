@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+exec 2>&1
+
+cd {{ pkg.svc_var_path }}
+cp -R "{{ pkg.path }}/hubs-docs" "{{ pkg.svc_var_path }}"
+cd "{{ pkg.svc_var_path }}/hubs-docs"
+python -m http.server {{ cfg.general.port }}
