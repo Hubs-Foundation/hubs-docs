@@ -46,6 +46,7 @@ pipeline {
           def (major, minor, version) = packageIdent.tokenize('/')[2].tokenize('.')
           def hubsDocsVersion = "${major}.${minor}.${version}.${packageTimeVersion}"
 
+          sh 'sudo /usr/bin/hab-ret-pkg-upload $(ls -rt results/*.hart | head -n 1)'
           sh "sudo /usr/bin/hab-ret-pkg-promote ${packageIdent} stable"
 
           def gitMessage = sh(returnStdout: true, script: "git log -n 1 --pretty=format:'[%an] %s'").trim()
