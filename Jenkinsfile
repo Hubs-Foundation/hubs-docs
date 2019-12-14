@@ -53,7 +53,7 @@ pipeline {
           def text = (
             "*<http://localhost:8080/job/${env.JOB_NAME}/${env.BUILD_NUMBER}|#${env.BUILD_NUMBER}>* *${env.JOB_NAME}* " +
             "<https://github.com/mozilla/hubs/commit/$gitSha|$gitSha> ${hubsDocsVersion} " +
-            "Hubs Docs Pushed: ```${gitSha} ${gitMessage}```\n" +
+            "Hubs Docs Pushed: ```${gitSha} ${gitMessage}```\n"
           )
           def payload = 'payload=' + JsonOutput.toJson([
             text      : text,
