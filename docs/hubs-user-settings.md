@@ -9,6 +9,8 @@ The first time you enter a Hubs room you will choose a name and avatar. You can 
 
 Use one of our featured avatars or [upload your own](customizing-avatars)
 
+![Avatar Selection Screen](../img/placeholder.jpeg)
+
 ## User Accounts
 
 You don't need an account to use Hubs, but some features are only available if you sign in. These include:
@@ -31,3 +33,5 @@ To remove the room from your favorites, open the room and click the star icon ag
 ## My Avatars
 
 Avatars in the Featured and Newest lists can be saved to "My Avatars" for quick access. To make a copy, select the "Copy to my Avatars" button. 
+
+![My Avatar Selection](../img/placeholder.jpeg)
