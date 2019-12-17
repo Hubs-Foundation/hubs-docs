@@ -24,7 +24,7 @@ const siteConfig = {
   title: 'Hubs by Mozilla', // Title for your website.
   tagline: 'Hold tight as we get our docs in a row 🦆🦆🦆',
   url: 'https://hubs.mozilla.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  baseUrl: '/docs/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
