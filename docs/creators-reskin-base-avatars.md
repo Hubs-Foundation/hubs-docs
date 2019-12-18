@@ -1,6 +1,6 @@
 ---
-id: customizing-avatars
-title: Design Custom Avatars
+id: creators-reskin-base-avatars
+title: Reskin Avatars
 ---
 
 Depending on how involved you'd like to get in the avatar creation process, you might choose to simply 're-skin' the existing robot avatar by painting your own texture maps, or create your own fully custom 3D model.
@@ -35,6 +35,15 @@ The default avatar is currently using:
 **NOTE: Ambient Occlusion, Roughness, and Metallic must be combined in one singular image with each texture occupying the Red, Green, and Blue channels respectively.** This is sometimes referred to as an _'ORM'_ texture.
 
 **It is _highly_ recommended that texture resolution be kept at 1024x1024 or below.** This is mostly due to Hubs being a web-based application where large download times for bigger files can hurt performance, especially on mobile devices. _All textures MUST be powers of 2 (64, 128, 256, 512, etc.)_
+
+
+
+
+
+
+
+
+
 
 
 

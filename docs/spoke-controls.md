@@ -3,6 +3,7 @@ id: spoke-controls
 title: Spoke Controls
 ---
 
+We recommend using spoke on a desktop or laptop computer as some features are not accessible without a mouse and keyboard. 
 
 ## Mouse
 <table>

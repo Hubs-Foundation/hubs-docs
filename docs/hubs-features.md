@@ -52,7 +52,7 @@ You can use text chat to communicate with users in the room from both the lobby 
 
 ### 10. Favorite Rooms
 
-Make it easy to return to a room by adding it to your list of favorites. 
+Make it easy to return to a room by adding it to your list of favorites. Learn how in the [room settings](./hubs-room-settings)
 
 ## Menus 
 
@@ -60,7 +60,6 @@ Make it easy to return to a room by adding it to your list of favorites.
 
 Open object menus on objects and media in the room. Open using tab or space on user.
 ![Hubs Image](../img/object-menu.png)
-
 
 * pin - By default, objects disappear when their owners (the person that last touched them) leaves the room. If you would like an object to stay in the room permanently, you can click on the "pin" button. 
 * rotate - rotate the object
@@ -71,7 +70,7 @@ Open object menus on objects and media in the room. Open using tab or space on u
 * open link - open the URL of the object in a new tab
 * gravity - make the object fall to the floor
 
-## Avatar Menu
+### Avatar Menu
 
 ![Hubs Image](../img/avatar-menu.png)
 
@@ -79,13 +78,17 @@ Open object menus on objects and media in the room. Open using tab or space on u
 * Mute - turn off the user's microphone
 * Kick - temporarily kick a user from the room
 
-## Drawing Menu
+### Drawing Menu
+
+![Enter room on Wired in device](../img/placeholder.jpeg)
 
 * create button - makes a drawing into a 3D object
 * undo - undo the last stroke
 * trash - delete the drawing
 
 ### Camera Menus
+
+![Enter room on Wired in device](../img/placeholder.jpeg)
 
 * Photo - take a photo
 * Video - records a short video (use the arrows to make shorter or longer)
@@ -96,12 +99,15 @@ Open object menus on objects and media in the room. Open using tab or space on u
 
 You can also "focus" the camera or toggle it into "track" mode by clicking on respective buttons on an object. The camera will point towards or follow the object when it is moved.
 
-## Emoji Spawners
+### Emoji Spawners
+
+![Enter room on Wired in device](../img/placeholder.jpeg)
 
 Menu that lets you spawn grabbable emojis that emit particles when shaken
 
 ### Video & Media controls
 
+![Enter room on Wired in device](../img/placeholder.jpeg)
 * volume
 * play pause
 * time 

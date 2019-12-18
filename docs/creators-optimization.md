@@ -15,3 +15,6 @@ title: Optimizing Scenes
 
 ## Improving performance on mobile/Quest
 ### AO
+
+
+gifs can be hard on yoru scene

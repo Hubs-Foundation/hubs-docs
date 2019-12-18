@@ -1,7 +1,9 @@
 ---
-id: connecting-admin-console
-title: Connecting to Admin Console
+id: admin-panel
+title: Admin Panel
 ---
+
+
 ## Setup
 
 - Make sure you have the 2FA token set up

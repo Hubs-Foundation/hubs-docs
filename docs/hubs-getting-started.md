@@ -24,6 +24,7 @@ You are now in your room's lobby. You can see what's going on in the room but yo
 
 ![Hubs Image](../img/enter_room.png)
 
+
 ## Explore Hubs
 
 ### Look around
