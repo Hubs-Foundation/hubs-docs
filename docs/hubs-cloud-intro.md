@@ -1,10 +1,10 @@
 ---
 id: hubs-cloud-intro
-title: Introduction to Hubs Cloud
+title: Hubs Cloud
 sidebar_label: Introduction
 ---
 
-![Hubs Cloud](https://hubs-cloud.s3-us-west-1.amazonaws.com/hubs-cloud-logo.png)
+![Hubs Cloud](../img/hubs-cloud-logo.png)
 
 Hubs Cloud allows you to run your own hub on a private server.
 
