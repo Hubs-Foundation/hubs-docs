@@ -5,7 +5,14 @@
     "Spoke Documentation": ["spoke-creating-projects", "spoke-user-interface", "spoke-controls", "spoke-adding-scene-content", "spoke-architecture-kit", "spoke-grid",  "spoke-skyboxes", "lighting-and-shadows", "physics-and-navigation", "spoke-publish-scenes"],
     "For Creators": ["creators-custom-avatar-models", "creators-custom-avatar-models", "spoke-optimization", "content-guidelines"],
     "For Developers": ["admin-panel", "system-overview", "build-custom-client", "contributing"],
-    "Hubs Cloud": ["hubs-cloud"]
+    "Hubs Cloud": [
+      "hubs-cloud-intro",
+      {
+        "type": "subcategory", "label": "Hubs Cloud on AWS", "ids": [
+          "hubs-cloud-aws-quick-start"
+        ]
+      }
+    ]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
