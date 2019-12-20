@@ -21,7 +21,22 @@
           "hubs-cloud-aws-costs"
         ]
       },
-      "hubs-cloud-custom-clients"
+      {
+        "type": "subcategory", "label": "Using Hubs Cloud", "ids": [
+          "hubs-cloud-getting-started",
+          "hubs-cloud-importing-content",
+          "hubs-cloud-asset-packs",
+          "hubs-cloud-customing-look-and-feel",
+          "hubs-cloud-managing-content",
+          "hubs-cloud-adding-administrators",
+          "hubs-cloud-permissive-rooms",
+          "hubs-cloud-enable-media-browser",
+          "hubs-cloud-custom-smtp",
+          "hubs-cloud-accessing-servers",
+          "hubs-cloud-content-cdn",
+          "hubs-cloud-custom-clients"
+        ]
+      }
     ]
   },
   "docs-other": {

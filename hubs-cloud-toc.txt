@@ -10,3 +10,4 @@
 - Recipe: Full Media Browser
 - Advanced: Custom SMTP
 - Advanced: Accessing Servers
+- Advanced: Content CDN
