@@ -71,7 +71,7 @@ To simplify setup, it's highly recommended you transfer any relevant domains to 
   - **Outgoing Email Domain**: `mysite.com`
   - **Outgoing Email Subdomain Prefix**: `mail`
 
-### Recipe 4: Dedicated domain not on Route 53
+### Recipe 4: Domain not on Route 53
 
 - You want to run your site on the top level domain `mysite.com`
 - `mysite.com` is *not* registered on Route 53.
@@ -91,7 +91,7 @@ To simplify setup, it's highly recommended you transfer any relevant domains to 
   - **Outgoing Email Subdomain Prefix**: `mail`
 - Follow the steps around SSL certificates in [Using an Existing Domain](./hubs-cloud-aws-existing-domain.md)
 
-### Recipe 5: Dedicated subdomain not on Route 53
+### Recipe 5: Subdomain not on Route 53
 
 - You want to run your site on the top level domain `hub.mysite.com`
 - `mysite.com` is *not* registered on Route 53.
