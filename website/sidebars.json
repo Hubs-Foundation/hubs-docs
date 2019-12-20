@@ -9,7 +9,16 @@
       "hubs-cloud-intro",
       {
         "type": "subcategory", "label": "Hubs Cloud on AWS", "ids": [
-          "hubs-cloud-aws-quick-start"
+          "hubs-cloud-aws-quick-start",
+          "hubs-cloud-aws-domain-recipes",
+          "hubs-cloud-aws-existing-domain",
+          "hubs-cloud-aws-existing-email-provider",
+          "hubs-cloud-aws-creating-the-stack",
+          "hubs-cloud-aws-updating-the-stack",
+          "hubs-cloud-aws-backup-and-restore",
+          "hubs-cloud-aws-custom-clients",
+          "hubs-cloud-aws-known-issues",
+          "hubs-cloud-aws-costs"
         ]
       }
     ]
