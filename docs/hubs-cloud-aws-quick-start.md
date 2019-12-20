@@ -19,4 +19,4 @@ sidebar_label: AWS Quick Start
 - After the stack is created:
   - Click on the link in the AWS verification email you received.
   - Hit your site. After 20 or 30 seconds, it should be up.
-  - Proceed with the login + setup process.
+  - Proceed with the login + setup process. Documentation can be found in the [Getting Started with Hubs Cloud](./hubs-cloud-getting-started.md) guide.
