@@ -1,6 +1,6 @@
 ---
 id: hubs-cloud-intro
-title: Hubs Cloud
+title: Introduction to Hubs Cloud
 sidebar_label: Introduction
 ---
 
@@ -18,4 +18,7 @@ Key Features:
 
 Currently, Hubs Cloud is offered on AWS and DigitalOcean.
 
-To get started, read the setup documentation for your preferred provider as well as the "Using Hubs Cloud" section for general documentation.
+To set up your hub:
+  - For AWS, see the [AWS Quick Start](./hubs-cloud-aws-quick-start.md)
+  - For DigitalOcean, see the [DigitalOcean Quick Start](./hubs-cloud-do-quick-start.md)
+  - Once your hub is up, see the [Getting Started Guide](./hubs-cloud-getting-started.md)
