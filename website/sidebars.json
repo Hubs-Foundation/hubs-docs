@@ -7,37 +7,31 @@
     "For Developers": ["admin-panel", "system-overview", "build-custom-client", "contributing"],
     "Hubs Cloud": [
       "hubs-cloud-intro",
-      {
-        "type": "subcategory", "label": "Hubs Cloud on AWS", "ids": [
-          "hubs-cloud-aws-quick-start",
-          "hubs-cloud-aws-domain-recipes",
-          "hubs-cloud-aws-existing-domain",
-          "hubs-cloud-aws-existing-email-provider",
-          "hubs-cloud-aws-creating-the-stack",
-          "hubs-cloud-aws-updating-the-stack",
-          "hubs-cloud-aws-backup-and-restore",
-          "hubs-cloud-aws-known-issues",
-          "hubs-cloud-aws-architecture",
-          "hubs-cloud-aws-costs"
-        ]
-      },
-      {
-        "type": "subcategory", "label": "Using Hubs Cloud", "ids": [
-          "hubs-cloud-getting-started",
-          "hubs-cloud-importing-content",
-          "hubs-cloud-asset-packs",
-          "hubs-cloud-customing-look-and-feel",
-          "hubs-cloud-managing-content",
-          "hubs-cloud-adding-administrators",
-          "hubs-cloud-permissive-rooms",
-          "hubs-cloud-enable-media-browser",
-          "hubs-cloud-enable-scene-editor",
-          "hubs-cloud-custom-smtp",
-          "hubs-cloud-accessing-servers",
-          "hubs-cloud-content-cdn",
-          "hubs-cloud-custom-clients"
-        ]
-      }
+      "hubs-cloud-getting-started",
+      "hubs-cloud-importing-content",
+      "hubs-cloud-asset-packs",
+      "hubs-cloud-customizing-look-and-feel",
+      "hubs-cloud-managing-content",
+      "hubs-cloud-adding-administrators",
+      "hubs-cloud-permissive-rooms",
+      "hubs-cloud-enable-media-browser",
+      "hubs-cloud-enable-scene-editor",
+      "hubs-cloud-custom-smtp",
+      "hubs-cloud-accessing-servers",
+      "hubs-cloud-content-cdn",
+      "hubs-cloud-custom-clients"
+    ],
+    "Hubs Cloud on AWS": [
+       "hubs-cloud-aws-quick-start",
+       "hubs-cloud-aws-domain-recipes",
+       "hubs-cloud-aws-existing-domain",
+       "hubs-cloud-aws-existing-email-provider",
+       "hubs-cloud-aws-creating-the-stack",
+       "hubs-cloud-aws-updating-the-stack",
+       "hubs-cloud-aws-backup-and-restore",
+       "hubs-cloud-aws-known-issues",
+       "hubs-cloud-aws-architecture",
+       "hubs-cloud-aws-costs"
     ]
   },
   "docs-other": {
