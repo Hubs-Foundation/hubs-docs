@@ -22,6 +22,7 @@ do_build() {
   cd website
   npm ci --verbose --no-progress
   fix_interpreter node_modules/.bin/docusaurus-build core/coreutils bin/env
+  rm -rf website/build
   npm run build
   cd ..
 }
