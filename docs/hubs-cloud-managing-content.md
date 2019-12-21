@@ -40,7 +40,7 @@ To feature content, first you'll need to navigate to the content in the **Approv
 
 ### Editing content
 
-Approved Content can have one or more **tags**. To update these tags, click on the **Edit** button at the far right of the list for the item you want to edit. There you can edit the name, status, and tags of the item:
+To update content, click on the **Edit** button at the far right of the list for the item you want to edit. There you can edit the name, status, and tags of the item:
 
 ![Hubs Cloud Edit Scene](img/hubs-cloud-edit-scene.png)
 

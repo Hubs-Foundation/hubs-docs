@@ -28,8 +28,8 @@ Once you've specified the content URL, you will see a preview of the content you
 
 When ready, click the Import button to begin importing your content.
 
-### special tags
-You should also set the proper special tags for the imported items for your hub to be ready to use:
+### Special tags
+You should also set the proper tags for the imported items for your hub to be ready to use:
 
 - Import at least one **Default** avatar, which new visitors will have by default.
 - Import at least one **Default** scene, which new rooms will have by default.
