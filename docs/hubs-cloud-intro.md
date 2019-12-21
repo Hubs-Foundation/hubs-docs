@@ -4,7 +4,7 @@ title: Introduction to Hubs Cloud
 sidebar_label: Introduction
 ---
 
-![Hubs Cloud](../img/hubs-cloud-logo.png)
+![Hubs Cloud](img/hubs-cloud-logo.png)
 
 Hubs Cloud allows you to run your own hub on a private server.
 

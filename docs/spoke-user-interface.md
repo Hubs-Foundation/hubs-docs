@@ -6,7 +6,7 @@ title: User Interface
 
 
 ## Toolbar
-![Hubs Image](../img/spoke-user-interface.png)
+![Hubs Image](img/spoke-user-interface.png)
 
 
 
@@ -33,20 +33,20 @@ like, rotate a car 45 degrees. Then, to go 'forward', you'd want to switch to th
 
 
 ## Viewport
-![Hubs Image](../img/spoke-user-interface.png)
+![Hubs Image](img/spoke-user-interface.png)
 
 
 The viewport shows 
 
 
 ## Hierarchy Panel
-![Hubs Image](../img/spoke-user-interface.png)
+![Hubs Image](img/spoke-user-interface.png)
 * view different objects in the room
 
 
 
 ## Properties Panel
-![Hubs Image](../img/spoke-user-interface.png)
+![Hubs Image](img/spoke-user-interface.png)
 
 Additional object properties can be set in the properties panel. This includes things like shadows, light color, and more.
 
@@ -55,7 +55,7 @@ Objects are added to Spoke and can be customized by changing their properties. D
 
 
 ## assets panel
-![Hubs Image](../img/spoke-user-interface.png)
+![Hubs Image](img/spoke-user-interface.png)
 
 Your main path to adding content to a scene is through the Assets panel. Using the Assets panel, you can add content from your local computer, by searching the media browser, or linking to urls of files on the web. The Elements tab allows you to create objects without specifying properties. You can also create objects that contain specific properties by using the ‘Models’, ‘Videos’ or ‘Images’ tab to search. The ‘My Assets’ tab stores models, images, or videos that you have uploaded to your account from your local machine.
 

@@ -3,7 +3,7 @@ id: hubs-features
 title: Hubs Features
 ---
 
-![Hubs Image](../img/user_interface_placeholder.png)
+![Hubs Image](img/user_interface_placeholder.png)
 
 ### 1. Screen/Cam Sharing
 
@@ -59,7 +59,7 @@ Make it easy to return to a room by adding it to your list of favorites. Learn h
 ### Object Menu
 
 Open object menus on objects and media in the room. Open using tab or space on user.
-![Hubs Image](../img/object-menu.png)
+![Hubs Image](img/object-menu.png)
 
 * pin - By default, objects disappear when their owners (the person that last touched them) leaves the room. If you would like an object to stay in the room permanently, you can click on the "pin" button. 
 * rotate - rotate the object
@@ -72,7 +72,7 @@ Open object menus on objects and media in the room. Open using tab or space on u
 
 ### Avatar Menu
 
-![Hubs Image](../img/avatar-menu.png)
+![Hubs Image](img/avatar-menu.png)
 
 * Hide - Click on the "Hide" button in the avatar menu to block a user. This only applies to the current session (once you refresh you will see them again). When you block a user, they disappear from your view and you stop receiving their audio. Other users can still see users that you choose to block.
 * Mute - turn off the user's microphone
@@ -80,7 +80,7 @@ Open object menus on objects and media in the room. Open using tab or space on u
 
 ### Drawing Menu
 
-![Enter room on Wired in device](../img/placeholder.jpeg)
+![Enter room on Wired in device](img/placeholder.jpeg)
 
 * create button - makes a drawing into a 3D object
 * undo - undo the last stroke
@@ -88,7 +88,7 @@ Open object menus on objects and media in the room. Open using tab or space on u
 
 ### Camera Menus
 
-![Enter room on Wired in device](../img/placeholder.jpeg)
+![Enter room on Wired in device](img/placeholder.jpeg)
 
 * Photo - take a photo
 * Video - records a short video (use the arrows to make shorter or longer)
@@ -101,13 +101,13 @@ You can also "focus" the camera or toggle it into "track" mode by clicking on re
 
 ### Emoji Spawners
 
-![Enter room on Wired in device](../img/placeholder.jpeg)
+![Enter room on Wired in device](img/placeholder.jpeg)
 
 Menu that lets you spawn grabbable emojis that emit particles when shaken
 
 ### Video & Media controls
 
-![Enter room on Wired in device](../img/placeholder.jpeg)
+![Enter room on Wired in device](img/placeholder.jpeg)
 * volume
 * play pause
 * time 

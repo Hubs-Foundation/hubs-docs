@@ -9,7 +9,7 @@ You can publish a scene either directly to Hubs, or you can export it as a .glb 
 
 When you publish to Hubs, your scene will have a unique URL. On this landing page there is a link to ‘Create a Room with this Scene’ that you can use to create Hubs rooms that uses the scene as a base, and a link that others can use to remix in Spoke. 
 
-![Hubs Image](../img/spoke-scene-remixing.png)
+![Hubs Image](img/spoke-scene-remixing.png)
 
 Always remember to generate a floor plan before exporting your scene to Hubs! For more information check out the [Floorplan](section)
 

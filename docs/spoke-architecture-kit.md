@@ -9,7 +9,7 @@ We first talked about the components of the Architecture Kit back in March. With
 
 We wanted the Architecture Kit to be configurable beyond just the meshes. Buildings exist in a variety of contexts, so different pieces of the Kit can have one or more material slots with unique textures and materials that can be applied. This allows you to customize a wall with a window trim to have, for example, a brick wall and a wood trim. You can choose from the built-in textures of the Architecture Kit pieces directly in Spoke, or download the entire kit from GitHub.
 
-![Hubs Image](../img/CoastalCliffHouseShot1.jpg)
+![Hubs Image](img/CoastalCliffHouseShot1.jpg)
 
 ## Architecture Kit Components
 
@@ -40,4 +40,4 @@ pdf? gif
 
 ## Adding trim
 
-![Hubs Image](../img/CoastalCliffHouseShot2.jpg)
+![Hubs Image](img/CoastalCliffHouseShot2.jpg)

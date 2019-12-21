@@ -23,4 +23,4 @@ For help with the **Restore from Backup** section, see [Backup and Restore](./hu
 
 This is the stack creation form you'll see on AWS after visiting https://gethubscloud.com:
 
-![Stack-Create](../img/hubs-cloud-aws-stack-setup.png)
+![Stack-Create](img/hubs-cloud-aws-stack-setup.png)

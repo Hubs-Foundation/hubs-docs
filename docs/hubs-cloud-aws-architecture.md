@@ -4,7 +4,7 @@ title: AWS System Architecture
 sidebar_label: System Architecture
 ---
 
-![AWS Architecture](../img/hubs-cloud-aws-architecture.png)
+![AWS Architecture](img/hubs-cloud-aws-architecture.png)
 
 When you create your stack, a new VPC is created with two public subnets.
 

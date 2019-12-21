@@ -8,13 +8,13 @@ In Spoke, you can either create a new project from Scratch, remix an existing Hu
 
 To create a new Spoke project head to [hubs.mozilla.com/spoke](hubs.mozilla.com/spoke) and click ‘Get Started’.
 
-![Spoke Landing Page](../img/spoke-landing-page.png)
+![Spoke Landing Page](img/spoke-landing-page.png)
 
 If it's your first time, you will have the option to follow a tutorial to get familiar with the features. If you've created scenes in Spoke before and are signed in, you will see your previous projects listed here. 
 
 Select 'New Project' and select a project template.
 
-![Spoke Templates](../img/spoke-templates.png)
+![Spoke Templates](img/spoke-templates.png)
 
  From here you can customize your scene entirely to your liking! Try [adding content](./spoke-adding-scene-content.md) to your scene, or building a house with our [architecture kit](./spoke-architecture-kit.md).
 
@@ -28,7 +28,7 @@ Scenes that are published to Hubs with a creative commons license are remixable.
     Select ‘Remix in Spoke‘
 
 
-![Hubs Image](../img/spoke-scene-remixing.png)
+![Hubs Image](img/spoke-scene-remixing.png)
 
 ##  Import a .spoke file
 

@@ -6,17 +6,17 @@ sidebar_label: Getting Started
 
 Once you've logged into Hubs Cloud for the first time, you should see the Hubs Cloud Admin Console. It should look like this:
 
-![Hubs Cloud Admin Landing](../img/hubs-cloud-admin-landing.png)
+![Hubs Cloud Admin Landing](img/hubs-cloud-admin-landing.png)
 
 If so, congratulations! You've successfully deployed your own personal Social VR hub, powered by Hubs by Mozilla.
 
 You can always get back to the Admin Console by navigating to your site and looking for the "Admin" link in the top navigation bar:
 
-![Hubs Cloud Admin Bar](../img/hubs-cloud-admin-bar.png)
+![Hubs Cloud Admin Bar](img/hubs-cloud-admin-bar.png)
 
 Now that your site is up and running, you can create a room by clicking on the "Create a Room" link from the homepage:
 
-![Hubs Cloud Create Room](../img/hubs-cloud-create-room.png)
+![Hubs Cloud Create Room](img/hubs-cloud-create-room.png)
 
 The first thing you'll notice... is your room is totally empty! Hubs Cloud isn't very useful until you [import some scenes and avatars](./hubs-cloud-importing-content.md).
 

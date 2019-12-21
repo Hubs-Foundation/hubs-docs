@@ -12,7 +12,7 @@ Hubs works across platforms. Got a VR headset? Awesome! If not, you can use your
 
 Hubs is open source and customizable. You can choose how you represent yourself by [uploading your own avatar](insert-avatar-url), or build your own world using Hubs' environment editor [Spoke](https://hubs.mozilla.com/spoke).
 
-![Hubs Image](../img/hubs.png)
+![Hubs Image](img/hubs.png)
 
 
 ### Who is Hubs for?

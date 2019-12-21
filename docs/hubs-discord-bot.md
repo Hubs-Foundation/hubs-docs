@@ -11,7 +11,7 @@ The Hubs Discord bot makes it easy to connect Hubs rooms to your Discord chat se
 * Saves a record of photos and text chat created in Hubs
 * Posts in the Discord channel when someone joins or leaves the Hubs room
 
-![Discord Bot](../img/discord-bot.png)
+![Discord Bot](img/discord-bot.png)
 
 ## Setup 
 1. [Click here](https://discordapp.com/oauth2/authorize?client_id=509129921826914304&permissions=536890368&scope=bot) to invite the Hubs Discord bot to your Discord server 

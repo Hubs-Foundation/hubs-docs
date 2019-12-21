@@ -9,7 +9,7 @@ There are lots of scenes to choose from in our Featured Scenes list and Scenes D
 
 For more information on how these are selected, take a look at our [content curation guidelines](./creators-content-guidelines.md). Room moderators only.
 
-![Enter room on Wired in device](../img/placeholder.jpeg)
+![Enter room on Wired in device](img/placeholder.jpeg)
 
 ## Change Room Name
 
@@ -31,7 +31,7 @@ When in a room with other trusted users, the room owner can promote other users 
 
 Hubs rooms have a maximum capacity of 25 people in-room to ensure performance across devices. Significantly more than this can watch from the lobby even when the room is full. Users in the lobby can hear what is going on inside the room, and can interact through chat with the people in the space. 
 
-![Room is Full](../img/placeholder.jpeg)
+![Room is Full](img/placeholder.jpeg)
 
 ## Camera Mode
 

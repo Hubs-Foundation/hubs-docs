@@ -11,7 +11,7 @@ You can join an existing Hubs room using either a URL or a numeric code. Navigat
 ## Lobby
 Before entering the room, you are in the room's lobby. You can see what's going on in the room but you can only interact with the others in the room using text chat. 
 
-![Hubs Lobby](../img/placeholder.jpeg)
+![Hubs Lobby](img/placeholder.jpeg)
 
 ## Enter Room
 This process is a bit different depending on your device.
@@ -34,7 +34,7 @@ On your computer, click "Enter Room" and follow the prompts to select a username
 
 For troubleshooting information visit the Hubs [troubleshooting](./hubs-faq) page.
 
-![Enter room on Wired in device](../img/placeholder.jpeg)
+![Enter room on Wired in device](img/placeholder.jpeg)
 
 
 ### On Cardboard
@@ -47,7 +47,7 @@ Hubs works across many different platforms. Some features may be limited on cert
 
 <center> *Insert compatibility table* </center>
 
-![Compatability Table](../img/placeholder.jpeg)
+![Compatability Table](img/placeholder.jpeg)
 
 
 

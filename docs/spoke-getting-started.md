@@ -16,7 +16,7 @@ Spoke is an online 3D scene editor developed by the Mozilla Mixed Reality team. 
 
 To get started, check out Spoke's [interactive tutorial](https://hubs.mozilla.com/spoke/projects/tutorial) or check out the [documentation]().
 
-![Spoke Image](../img/spoke-screenshot.png)
+![Spoke Image](img/spoke-screenshot.png)
 
 
 
