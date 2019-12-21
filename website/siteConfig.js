@@ -15,7 +15,7 @@ const users = [
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
     image: '/img/undraw_open_source.svg',
-    infoLink: 'https://www.facebook.com',
+    infoLink: 'https://hubs.mozilla.com/',
     pinned: true,
   },
 ];
@@ -39,6 +39,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'welcome', label: 'Docs'},
+    {href: "https://github.com/mozilla/hubs", label: "GitHub" },
     {page: 'help', label: 'Help'},
   ],
 
@@ -85,6 +86,9 @@ const siteConfig = {
   onPageNav: 'separate',
   // No .html extensions for paths.
   cleanUrl: false,
+
+  // remove 'docs' folder from the URL
+  docsUrl: '',
 
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',

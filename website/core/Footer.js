@@ -13,7 +13,7 @@ class Footer extends React.Component {
     const docsUrl = this.props.config.docsUrl;
     const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
     const langPart = `${language ? `${language}/` : ''}`;
-    return `${baseUrl}${docsPart}${langPart}${doc}`;
+    return `${baseUrl}${docsPart}${doc}`;
   }
 
   pageUrl(doc, language) {
@@ -37,30 +37,30 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('doc1.html', this.props.language)}>
-              Getting Started (or other categories)
+            <a href={this.docUrl('welcome.html', this.props.language)}>
+             Introduction
             </a>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides (or other categories)
+            <a href={this.docUrl('entering-hubs.html', this.props.language)}>
+              Hubs Documentation
             </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              API Reference (or other categories)
+            <a href={this.docUrl('create-project.html', this.props.language)}>
+             Spoke Documentation
+            </a>
+            <a href={this.docUrl('creator-intro.html', this.props.language)}>
+             For Creators
+            </a>
+            <a href={this.docUrl('developer-intro.html', this.props.language)}>
+             For Developers
+            </a>
+            <a href={this.docUrl('hubs-cloud-intro.html', this.props.language)}>
+            Hubs Cloud
             </a>
           </div>
           <div>
             <h5>Community</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              User Showcase
-            </a>
+            <a href="http://discord.gg/wHmY4nd">Discord Chat</a>
             <a
-              href="https://stackoverflow.com/questions/tagged/"
-              target="_blank"
-              rel="noreferrer noopener">
-              Stack Overflow
-            </a>
-            <a href="https://discordapp.com/">Project Chat</a>
-            <a
-              href="https://twitter.com/"
+              href="https://twitter.com/byhubs"
               target="_blank"
               rel="noreferrer noopener">
               Twitter
@@ -68,18 +68,9 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>More</h5>
-            <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
-            <a href="https://github.com/">GitHub</a>
-            <a
-              className="github-button"
-              href={this.props.config.repoUrl}
-              data-icon="octicon-star"
-              data-count-href="/facebook/docusaurus/stargazers"
-              data-show-count="true"
-              data-count-aria-label="# stargazers on GitHub"
-              aria-label="Star this project on GitHub">
-              Star
-            </a>
+            <a href="https://hubs.mozilla.com/">Hubs</a>
+            <a href="https://hubs.mozilla.com/spoke/">Spoke</a>
+            <a href="https://github.com/mozilla/hubs/">GitHub</a>
             {this.props.config.twitterUsername && (
               <div className="social">
                 <a
@@ -104,19 +95,6 @@ class Footer extends React.Component {
             )}
           </div>
         </section>
-
-        <a
-          href="https://opensource.facebook.com/"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="fbOpenSource">
-          <img
-            src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="Facebook Open Source"
-            width="170"
-            height="45"
-          />
-        </a>
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );
