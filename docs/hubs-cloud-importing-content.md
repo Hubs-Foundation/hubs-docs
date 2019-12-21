@@ -28,7 +28,7 @@ Once you've specified the content URL, you will see a preview of the content you
 
 When ready, click the Import button to begin importing your content.
 
-#### Content Flags
+### Content Flags
 You should also set the proper content flags for the imported items for your hub to be ready to use:
 
 - Import at least one **Default** avatar, which new visitors will have by default.
@@ -37,3 +37,7 @@ You should also set the proper content flags for the imported items for your hub
 - Optionally **Feature** one or more items, which will cause those items to be easily discoverable by visitors.
 
 For more information about content flags, see [Managing Content](./hubs-cloud-managing-content.md).
+
+### Updating Imported Content
+
+To refresh content you've imported, simply import it again. If you've previously imported the same content, the existing avatar or scene in your hub will be updated in-place with the newest version of the imported content.
