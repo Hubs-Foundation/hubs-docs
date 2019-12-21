@@ -22,7 +22,7 @@ When viewing a queue, you will see a list of all the unreviewed scene or avatars
 
 ![Hubs Cloud Pending Scene](img/hubs-cloud-pending-scene.png)
 
-- **Approving** an item will remove it from the queue and add it to the content library. Visitors will be able to discover the item through the Media Browser.
+- **Approving** an item will remove it from the queue and add it to the content library. If it's an update, the changes will be applied to the content library. Visitors will be able to discover the item through the Media Browser.
 
 - **Denying** an item will remove it from the queue and *not* add it to the content library. The item will not be removed, and will be accessible to anyone who has the URL. However, visitors will not be able to discover it through the Media Browser.
 
