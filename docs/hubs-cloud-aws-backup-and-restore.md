@@ -32,9 +32,11 @@ If you want to revert an existing stack to data in a backup, you will first need
 
 The info you need to provide can be found in the RDS and AWS Backup consoles:
 
-- The RDS snapshot ID to restore from
+- The RDS snapshot ARN to restore from
 - The AWS Backup vault name to restore from
 - The recovery point ARN to restore from, from the vault
+
+**Note**: If you are restoring the stack to a new region, different than the original stack, you first must create a copy of the RDS snapshot you'd like to restore to the new region. To do so, under "Actions" on the snapshot in the RDS console choose "Copy". Once the copy finishes, you should then specify the ARN to the new, copied snapshot when creating your stack in the new region.
 
 #### Restoring Secrets
 
