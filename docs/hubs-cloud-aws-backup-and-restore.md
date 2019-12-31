@@ -26,17 +26,15 @@ If you are planning on restoring from this backup, before proceeding make sure b
 
 ### Restoring from a backup
 
-To restore from a backup, you will [create a new stack](./hubs-cloud-aws-creating-the-stack.md), and you need to provide the necessary information in the stack creation form in the "Restore from Backup" section. **Do *not* perform a stack update to an existing stack to try to restore from a backup** -- this will not work and will likely break things. You **must** create a new stack to restore from a backup.
+To restore from a backup, you will [create a new stack](./hubs-cloud-aws-creating-the-stack.md), and you need to provide the necessary information in the stack creation form in the "Restore from Backup" section. Note that you can only restore backups to stacks in the same region as the original stack, since AWS Backup does not currently support cross-region restores. **Do *not* perform a stack update to an existing stack to try to restore from a backup** -- this will not work and will likely break things. You **must** create a new stack to restore from a backup.
 
 If you want to revert an existing stack to data in a backup, you will first need to delete the stack and then create a new one restored from the backup. Deleting the stack is safe once you have confirmed you have a completed database snapshot and a restore point taken at the time you would like to restore to. However, it is suggested you first create a new, separate stack on a different domain from the backup before deleting the old stack, to confirm the backup contains the data you expect it to.
 
 The info you need to provide can be found in the RDS and AWS Backup consoles:
 
-- The RDS snapshot ARN to restore from
+- The RDS snapshot ID to restore from
 - The AWS Backup vault name to restore from
 - The recovery point ARN to restore from, from the vault
-
-**Note**: If you are restoring the stack to a new region, different than the original stack, you first must create a copy of the RDS snapshot you'd like to restore to the new region. To do so, under "Actions" on the snapshot in the RDS console choose "Copy". Once the copy finishes, you should then specify the ARN to the new, copied snapshot when creating your stack in the new region.
 
 #### Restoring Secrets
 
@@ -44,6 +42,6 @@ There are some secrets like encryption keys that are needed to restore from a ba
 
 - The first secret you'll need is the database secret for the stack whose backups you are restoring. To find this, go to AWS Secrets Manager and look for the secret "*Stack Name* Database Secret." You'll need to provide the ARN to this secret in the stack create form for the new stack.
   
-- Additionally, there are some secrets stored in AWS Parameter Store. You will **not** need to dig these up. As long as you haven't gone in and deleted them manually, these secrets can be looked up automatically by providing the stack name and the stack region for the stack whose backup you are restoring from. You'll need to specify these values in the "Backup and Restore" section of the creation form. (Even if you've deleted the stack you are restoring the backups from.)
+- Additionally, there are some secrets stored in AWS Parameter Store. You will **not** need to dig these up. As long as you haven't gone in and deleted them manually, these secrets can be looked up automatically by providing the stack name for the stack whose backup you are restoring from. You'll need to specify these values in the "Backup and Restore" section of the creation form. (Even if you've deleted the stack you are restoring the backups from.)
 
 Once you've filled these values out and create the stack it should be restored from the backup. It should behave identically to the original stack, except you will need to configure the "Server Settings" in the Admin console, which are not backed up. **Note**: if you perform a stack update on a stack that was restored from backup, it is critical you do **not** change the parameters under the "Restore from Backup" section -- leave them filled in and don't touch them!
