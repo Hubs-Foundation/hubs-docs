@@ -1,5 +1,5 @@
 ---
-id: hubs-cloud-asset-packs
+id: hubs-cloud-customizing-look-and-feel
 title: Customizing Look and Feel
 sidebar_label: Customizing Look & Feel
 ---
