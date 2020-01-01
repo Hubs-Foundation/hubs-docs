@@ -40,8 +40,8 @@ Sign up as a [Twitch Developer](https://dev.twitch.tv/) and [Get a Client ID](ht
 
 ### Twitter
 
-To let visitors tweet out videos and photos they've taken, sign up as a [Twitter Developer](https://developer.twitter.com/) and create an application to your access tokens and secrets.
+To let visitors tweet out videos and photos they've taken, sign up as a [Twitter Developer](https://developer.twitter.com/) and create an application to get your access tokens and secrets.
 
 ### Analytics and Error Logging
 
-Add [Google Analytics](https://analytics.google.com/analytics/web/) tracking IDs and [Sentry](https://sentry.io/welcome/) DSNs to enable visitor tracking and error reporting.
+Add [Google Analytics](https://analytics.google.com/analytics/web/) tracking IDs and [Sentry](https://sentry.io/welcome/) DSNs to enable aggregated page tracking and error reporting. Note that full URLs which include room, avatar, and scene identifiers will not be sent to analytics services.
