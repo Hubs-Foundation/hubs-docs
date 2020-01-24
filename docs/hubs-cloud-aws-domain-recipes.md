@@ -21,7 +21,7 @@ To simplify setup, it's highly recommended you transfer any relevant domains to 
 - You want to run your site on the top level domain `myhub.com`
 - `myhub.com` is registered on Route 53.
 - You want short links on `myhub.link`, and mail from `mail.myhub.com`
-- You are *not* using `mysite.com` for other sites or purposes
+- You are *not* using `myhub.com` for other sites or purposes
 
 #### Recipe:
 
