@@ -50,7 +50,6 @@ title: Hubs Features
 
 Room objects and avatars have their own menus. To reveal them on desktop computers, hover your cursor on the object, and press the space bar (or tab). For VR devices See the [Hubs controls](./hubs-controls) section of the docs. 
  
-
 ### Object Menu
 
 ![Hubs Image](img/object-menu.png)
@@ -72,18 +71,15 @@ Room objects and avatars have their own menus. To reveal them on desktop compute
 
 1. __Volume:__ Changes the volume of the user's mic (does not affect the volume for others in the room)
 2. __Hide:__ Hides a user's avatar and voice from you. This only applies to the current session (once you refresh you will see them again). Other room members can still see the user.
-3. __Mute:__ Turns off the user's microphone (moderators only)
-4. __Kick:__ Temporarily kick a user from the room (moderators only)
-
+3. __Mute:__ Turns off the user's microphone (moderators only).
+4. __Kick:__ Temporarily kick a user from the room (moderators only).
 
 ### Camera Menus
 
 ![Enter room on Wired in device](img/hubs-camera-menu.png)
 ![Enter room on Wired in device](img/hubs-camera-menu2.png)
 1. __Photo:__ Takes a still image
-2. __Video:__ Records a video (use the arrows to change the length in seconds). 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Note that video recordings are saved temporarily to browser storage, videos in progress may be lost if the browser runs out  of space. If you wish to record an event, we recommend using a screen recording tool, such as [OBS](https://obsproject.com/)
+2 Note that video recordings are saved temporarily to browser storage, videos in progress may be lost if the browser runs out  of space. If you wish to record an event, we recommend using a screen recording tool, such as [OBS](https://obsproject.com/)
 3. __Unmute/Mute Camera__
 4. __Focus and track mode__
 5. __Rotate__
