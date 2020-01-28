@@ -3,122 +3,124 @@ id: hubs-features
 title: Hubs Features
 ---
 
-![Hubs Image](img/user_interface_placeholder.png)
+![Hubs Image](img/ui-image.jpg)
 
-### 1. Screen/Cam Sharing
+## User Interface
 
-You can share your desktop screen, webcam or phone camera with users in the room. The shared media will appear like a video in the room. You can remove the shared media in the object's menu.
+1. __Menu Button:__ Reveals links to user preferences, room controls and other useful information.
 
-###  2. Muting
+2. __Screen & Camera Sharing:__ Allows you to share your desktop, webcam, or phone camera with room members. The shared media will appear like a video in the room. Select this button again to remove the media.
 
-Click on the microphone icon to mute yourself.
+3. __Mute:__ Turns on/off your microphone.
 
-### 3. Media Browser
+4. __Share Room:__ Opens a dialog box with information on sharing the room with friends. More info provided in the [Share Room Dialog](./hubs-features#share-room-dialog) section at the bottom of this page.
 
-An easy way to search through content like 3D models, videos, and gifs.
+5. __Pen:__ Lets you draw in 3D space. You can change the pen's size and color, undo strokes, and generate 3D models from your drawing.
 
-### 4. Pen Tool
+6. __Camera:__ Creates a camera object that can take photos of the room and adds them to room as image objects. When you take a photo, a link also appears in the chat box.     
 
-The pen lets you draw in 3D space. You can change the pen's size and color and undo strokes.
+7. __Media Browser:__ Opens a search tool to find media you can bring into the room. Select from 3D models, videos, scenes, avatars, gifs and images. 
 
-### 5. Camera
+8. __Object Browser:__ Displays a list of the media items that exist in the room. Click on the objects in the list for further options.
 
-The camera lets you take photos of the room and adds those photos to the room as image objects. When you take a photo, it also appears in chat, where you can copy the URL or tweet it with the share button.
+9. __Member list:__ Displays information on the people in the room and lobby. Shows the number of room members, their names, and their device type. You can also access advanced user controls from this list.
 
-### 6. Media List
+10. __Help:__ Opens resources to learn about Hubs.
 
-A list of the media items that have been shared to the room. Click on these objects to see further options. 
+11. __Send Message:__ Sends text written in the the chat to all room members (including those in the lobby).
 
-### 7. User list
+12. __Create Object:__ Creates a room object out of the information in the chat box. For example, if there is text in the chat box, it will be converted into an image and pasted into the room. If there is a link to a media object (e.g. YouTube URL, Sketchfab object) the object will spawn in the room. 
 
-The user list tells you how many users are present, their names, device types and whether they've entered the room or are still in the lobby.
+13. __Chat:__ Allows you to communicate via text chat, create objects or enter commands, including:
 
-### 8. Feedback Duck
 
-An easy way to report problems and feature requests back to the Hubs' team. 
+    /leave - Disconnect from the room
+    /fly - Toggle fly mode
+    /grow - Increase your avatar's size
+    /shrink - Decrease your avatar's size
+    /duck - create a duck object
+    /debug Toggle physics debug rendering
+    /vrstats Toggle stats in VR
+    /scene <scene url> Change the scene (moderators only)
+    /rename <new name> Rename the room (moderators only)
 
-### 9. Chat box
-You can use text chat to communicate with users in the room from both the lobby and after you've entered the room. You can create text objects, or other media objets by typing or adding a URL and then pressing the magic wand tool. You can also run certain shortcuts by entering them into the chatbox 
-
- * /leave - Disconnect from the room
- * /fly - Toggle fly mode
- * /grow - Increase your avatar's size
- * /shrink - Decrease your avatar's size
- * /duck - create a duck object
- * /debug Toggle physics debug rendering
- * /vrstats Toggle stats in VR
- * /scene <scene url> Change the scene (*moderators only)
- * /rename <new name> Rename the room (*moderators only)
-
-### 10. Favorite Rooms
-
-Make it easy to return to a room by adding it to your list of favorites. Learn how in the [room settings](./hubs-room-settings)
+14. __Favorite Room:__ Saves the room to your list of favorites, making it easy to find when you return to Hubs.
 
 ## Menus 
 
+Room objects and avatars have their own menus. To reveal them on desktop computers, hover your cursor on the object, and press the space bar (or tab). For VR devices See the [Hubs controls](./hubs-controls) section of the docs. 
+ 
+
 ### Object Menu
 
-Open object menus on objects and media in the room. Open using tab or space on user.
 ![Hubs Image](img/object-menu.png)
 
-* pin - By default, objects disappear when their owners (the person that last touched them) leaves the room. If you would like an object to stay in the room permanently, you can click on the "pin" button. 
-* rotate - rotate the object
-* target - have the camera follow the object
-* resize - resize the object
-* clone - make a dupicate of an object
-* trash - remove the object from the scene
-* open link - open the URL of the object in a new tab
-* gravity - make the object fall to the floor
+1. __Focus:__ Re-orients your camera to face the object.
+2. __Track:__ Makes your camera follow the object.
+1. __Pin:__  Makes object stay in the room when you leave. By default, the objects disappear when their owners exit. 
+2. __Rotate:__ Rotates the object.
+3. __Target:__ Opens a focused view on the object.
+4. __Resize:__ Resizes the object.
+5. __Clone:__ Makes a duplicate of an object.
+6. __Trash:__ Removes the object from the scene.
+7. __Open link:__ Opens the URL of the object in a new tab.
+8. __Gravity:__ Make the object fall to the floor.
 
 ### Avatar Menu
 
-![Hubs Image](img/avatar-menu.png)
+![Hubs Image](img/intro-hubs-avatar-menu-min.png)
 
-* Hide - Click on the "Hide" button in the avatar menu to block a user. This only applies to the current session (once you refresh you will see them again). When you block a user, they disappear from your view and you stop receiving their audio. Other users can still see users that you choose to block.
-* Mute - turn off the user's microphone
-* Kick - temporarily kick a user from the room
+1. __Volume:__ Changes the volume of the user's mic (does not affect the volume for others in the room)
+2. __Hide:__ Hides a user's avatar and voice from you. This only applies to the current session (once you refresh you will see them again). Other room members can still see the user.
+3. __Mute:__ Turns off the user's microphone (moderators only)
+4. __Kick:__ Temporarily kick a user from the room (moderators only)
 
-### Drawing Menu
-
-![Enter room on Wired in device](img/placeholder.jpeg)
-
-* create button - makes a drawing into a 3D object
-* undo - undo the last stroke
-* trash - delete the drawing
 
 ### Camera Menus
 
-![Enter room on Wired in device](img/placeholder.jpeg)
+![Enter room on Wired in device](img/hubs-camera-menu.png)
+![Enter room on Wired in device](img/hubs-camera-menu2.png)
+1. __Photo:__ Takes a still image
+2. __Video:__ Records a video (use the arrows to change the length in seconds). 
 
-* Photo - take a photo
-* Video - records a short video (use the arrows to make shorter or longer)
-* Mute Camera
-* focus and track mode
-* Rotate
-* Trash
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Note that video recordings are saved temporarily to browser storage, videos in progress may be lost if the browser runs out  of space. If you wish to record an event, we recommend using a screen recording tool, such as [OBS](https://obsproject.com/)
+3. __Unmute/Mute Camera__
+4. __Focus and track mode__
+5. __Rotate__
+6. __Trash__
 
 You can also "focus" the camera or toggle it into "track" mode by clicking on respective buttons on an object. The camera will point towards or follow the object when it is moved.
 
-### Emoji Spawners
+### Drawing Menu
 
-![Enter room on Wired in device](img/placeholder.jpeg)
+![Hubs Image](img/hubs-drawing-menu.png)
+
+1. __create button__ makes a drawing into a 3D object
+2. __undo__ - undo the last stroke
+3. __trash__ - delete the drawing
+
+
+## Video & Media controls
+
+![Enter room on Wired in device](img/hubs-media-controls.png)
+1. __Scrrenshot:__ 
+2. __Volume:__
+3. __Play/Pause Button:__
+4. __Time:__ 
+
+## Emoji Spawners
 
 Menu that lets you spawn grabbable emojis that emit particles when shaken
 
-### Video & Media controls
+![Enter room on Wired in device](img/hubs-emoji-spawners.png)
 
-![Enter room on Wired in device](img/placeholder.jpeg)
-* volume
-* play pause
-* time 
 
-## Sharing Invites
+## Share Room Dialog
+
+![Enter room on Wired in device](img/hubs-sharing-dialogue.png)
+
+This includes a room code you can enter at [hub.link](https://hub.link), a permalink, and an embed code to add your room to another website. Note that permalinks and embed codes are permanent, [hub.link](https://hub.link) codes expire after 72 hours.
 
 The invite dialog gives you the information you need to share with others for them to join you in the room. You can use the numeric code to share a link verbally, share the current room URL or the shortened hub.link URL.
 
 A checkbox on the invite dialog allows you to sign up for notifications that alert you when another user has entered the room. You can sign up for notifications on your phone or desktop. You do not need to remain in the room to receive notifications.
-
-
-## Receiving Invites
-
-If you're given a numeric code, simply visit hub.link and type the code in to go directly to the room.

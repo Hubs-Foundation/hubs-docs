@@ -5,3 +5,6 @@ img[src*="../img/hubs-cloud-aws-stack-setup.png"]{
 img[src*="../img/hubs-cloud-aws-architecture.png"]{
 	max-width: calc(100% + 22vw);
 }
+video {
+	max-width: 100%;
+}

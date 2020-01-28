@@ -1,10 +1,43 @@
 {
   "docs": {
-    "Introduction": ["welcome", "hubs-getting-started", "spoke-building-scenes", "uploading-custom-avatars"],
-    "Hubs Documentation": [ "hubs-joining-room", "hubs-features", "hubs-user-settings", "hubs-room-settings", "hubs-controls", "hubs-discord-bot", "hubs-faq"],
-    "Spoke Documentation": ["spoke-creating-projects", "spoke-user-interface", "spoke-controls", "spoke-adding-scene-content", "spoke-architecture-kit", "spoke-grid",  "spoke-skyboxes", "lighting-and-shadows", "physics-and-navigation", "spoke-publish-scenes"],
-    "For Creators": ["creators-custom-avatar-models", "creators-custom-avatar-models", "spoke-optimization", "content-guidelines"],
-    "For Developers": ["admin-panel", "system-overview", "build-custom-client", "contributing"],
+    "Introduction": [
+      "welcome",
+      "intro-hubs",
+      "intro-spoke",
+      "intro-avatars"
+    ],
+    "Hubs Documentation": [ 
+      "hubs-create-join-rooms",
+      "hubs-features",
+      "hubs-user-settings",
+      "hubs-room-settings",
+      "hubs-controls",
+      "hubs-discord-bot",
+      "hubs-troubleshooting"
+    ],
+    "Spoke Documentation": [
+      "spoke-creating-projects",
+      "spoke-user-interface",
+      "spoke-controls",
+      "spoke-adding-scene-content",
+      "spoke-architecture-kit",
+      "spoke-grid", 
+      "spoke-skyboxes",
+      "lighting-and-shadows",
+      "physics-and-navigation",
+      "spoke-publish-scenes"
+    ],
+    "For Creators": [
+      "creators-advanced-avatar-customization",
+      "spoke-optimization",
+      "content-guidelines"
+    ],
+    "For Developers": [
+      "admin-panel",
+      "system-overview",
+      "build-custom-client",
+      "contributing"
+    ],
     "Hubs Cloud": [
       "hubs-cloud-intro",
       "hubs-cloud-getting-started",
@@ -33,9 +66,6 @@
        "hubs-cloud-aws-architecture",
        "hubs-cloud-aws-costs"
     ]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
   }
 }
 

@@ -17,4 +17,4 @@ title: Optimizing Scenes
 ### AO
 
 
-gifs can be hard on yoru scene
+gifs can be hard on your scene
