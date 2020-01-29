@@ -45,7 +45,7 @@ For VR and mobile controls see our list of [Hubs controls](./hubs-controls).
 
 Take a moment to take a look around the user interface. You can mute your mic, take photos, share your screen, create objects, and more. We'll introduce some of these controls in this guide. For more detailed information check out [Hubs Features](hubs-features) in the documentation.
 
-![Hubs Image](img/ui-image.jpg)
+![Hubs Image](img/hubs-user-interface.png)
 
 ### Import Media
 

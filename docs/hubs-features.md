@@ -3,7 +3,7 @@ id: hubs-features
 title: Hubs Features
 ---
 
-![Hubs Image](img/ui-image.jpg)
+![Hubs Image](img/hubs-user-interface.png)
 
 ## User Interface
 
@@ -52,10 +52,8 @@ Room objects and avatars have their own menus. To reveal them on desktop compute
  
 ### Object Menu
 
-![Hubs Image](img/object-menu.png)
+![Hubs Image](img/hubs-object-menu.png)
 
-1. __Focus:__ Re-orients your camera to face the object.
-2. __Track:__ Makes your camera follow the object.
 1. __Pin:__  Makes object stay in the room when you leave. By default, the objects disappear when their owners exit. 
 2. __Rotate:__ Rotates the object.
 3. __Target:__ Opens a focused view on the object.
@@ -67,56 +65,54 @@ Room objects and avatars have their own menus. To reveal them on desktop compute
 
 ### Avatar Menu
 
-![Hubs Image](img/intro-hubs-avatar-menu-min.png)
+![Hubs Image](img/hubs-avatar-menu.png)
 
-1. __Volume:__ Changes the volume of the user's mic (does not affect the volume for others in the room)
+1. __Volume:__ Changes the volume of the user's mic (does not affect the volume for others in the room).
 2. __Hide:__ Hides a user's avatar and voice from you. This only applies to the current session (once you refresh you will see them again). Other room members can still see the user.
-3. __Mute:__ Turns off the user's microphone (moderators only).
+3. __Mute:__ Mutes the user's microphone (moderators only).
 4. __Kick:__ Temporarily kick a user from the room (moderators only).
 
 ### Camera Menus
 
 ![Enter room on Wired in device](img/hubs-camera-menu.png)
-![Enter room on Wired in device](img/hubs-camera-menu2.png)
-1. __Photo:__ Takes a still image
-2 Note that video recordings are saved temporarily to browser storage, videos in progress may be lost if the browser runs out  of space. If you wish to record an event, we recommend using a screen recording tool, such as [OBS](https://obsproject.com/)
-3. __Unmute/Mute Camera__
-4. __Focus and track mode__
-5. __Rotate__
-6. __Trash__
 
-You can also "focus" the camera or toggle it into "track" mode by clicking on respective buttons on an object. The camera will point towards or follow the object when it is moved.
+1. __Photo:__ Takes a still image
+2. __Video:__ Records a video, use the arrows to increase or decrease the length. Note that video recordings are saved temporarily to browser storage, videos in progress may be lost if the browser runs out  of space. If you wish to record an event, we recommend using a screen recording tool, such as [OBS](https://obsproject.com/)
+3. __Unmute/Mute Camera:__
+4. __Camera Track__ Reorients the camera so it faces you.
+5. __Rotate:__ Rotates the camera.
+6. __Trash:__ Removes the camera from the scene.
+7. __Object Focus:__ Reorients your camera to face the object.
+8. __Object Track:__ Makes your camera follow the object.
+
 
 ### Drawing Menu
 
 ![Hubs Image](img/hubs-drawing-menu.png)
 
-1. __create button__ makes a drawing into a 3D object
-2. __undo__ - undo the last stroke
-3. __trash__ - delete the drawing
+1. __Create:__ Makes the drawing into a 3D object.
+2. __Undo:__ - Removes the last stroke.
+3. __Trash__ - Removes the drawing from the scene.
 
 
-## Video & Media controls
+## Video & Audio controls
 
 ![Enter room on Wired in device](img/hubs-media-controls.png)
-1. __Scrrenshot:__ 
-2. __Volume:__
-3. __Play/Pause Button:__
-4. __Time:__ 
+1. __Screenshot:__ Takes a screenshot of the video.
+2. __Volume:__ Changes the volume of the media (does not affect the volume for others in the room)
+3. __Play/Pause Button:__ Plays/pauses the media.
+4. __Time Controls:__ Jumps forwards/backwards in the media.
 
 ## Emoji Spawners
-
-Menu that lets you spawn grabbable emojis that emit particles when shaken
-
 ![Enter room on Wired in device](img/hubs-emoji-spawners.png)
+
+Menu that lets you spawn grabbable emojis that emit particles when shaken. Reveal the emoji spawners the same way as you open [object menus](./hubs-features#menus).
 
 
 ## Share Room Dialog
 
 ![Enter room on Wired in device](img/hubs-sharing-dialogue.png)
 
-This includes a room code you can enter at [hub.link](https://hub.link), a permalink, and an embed code to add your room to another website. Note that permalinks and embed codes are permanent, [hub.link](https://hub.link) codes expire after 72 hours.
-
-The invite dialog gives you the information you need to share with others for them to join you in the room. You can use the numeric code to share a link verbally, share the current room URL or the shortened hub.link URL.
+The share room dialog gives you the information you need to share with others for them to join you in the room. You can use the numeric code to share a link verbally, share the current room URL or the shortened hub.link URL. Note that codes expire after 72 hours.
 
 A checkbox on the invite dialog allows you to sign up for notifications that alert you when another user has entered the room. You can sign up for notifications on your phone or desktop. You do not need to remain in the room to receive notifications.
