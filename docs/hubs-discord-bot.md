@@ -50,3 +50,4 @@ The following features outline the current bot commands and how they can be acce
 🦆 !hubs notify set [datetime] - Sets a one-time notification to notify @​here to join the room at some future time.
 
 🦆 !hubs notify clear - Removes all pending notifications.
+
