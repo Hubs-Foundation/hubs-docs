@@ -62,3 +62,4 @@ The last step is inviting your bot to your server. To do so, go back to the OAut
 ![Discord Bot Invite Permissions](img/discord-bot-invite-permissions.png)
 
 Then use the generated invite link to add your bot!
+
