@@ -6,7 +6,7 @@ sidebar_label: Recipe: Discord Bot
 
 If you have a Discord server, you can install the [Hubs Discord Bot](./hubs-discord-bot.md) onto your Hubs Cloud server. 
 
-# Discord Setup
+## Discord Setup
 
 You'll need to first set things up on Discord to get your **Bot Token**.
 
@@ -26,7 +26,7 @@ Finally, under the OAuth2 panel, you'll need to set a proper redirect URL for yo
 
 ![Discord OAuth Redirect](img/discord-oauth-redirect.png)
 
-# Key Configuration
+## Key Configuration
 
 First, go to the [Admin Console](./hubs-cloud-getting-started.md) and under "Server Settings" -> "API Keys" you'll need to set the **Discord Client ID**, **Discord Client Secret**, and **Discord Bot Token**
 
@@ -40,7 +40,7 @@ Your **Bot Token** can be found under your Bot's settings page on Discord.
 
 ![Discord Bot Token](img/discord-bot-token.png)
 
-# Server Setup
+## Server Setup
 
 You will install the Hubs Discord Bot on one of your Hubs Cloud servers.
 
@@ -55,7 +55,7 @@ curl "https://raw.githubusercontent.com/mozilla/hubs-cloud/master/scripts/instal
 
 After it installs, your bot should now be up and running. Note that if you re-create your server, you'll need to run this command again.
 
-# Inviting Your Bot
+## Inviting Your Bot
 
 The last step is inviting your bot to your server. To do so, go back to the OAuth2 settings for your application and in the **OAuth 2 URL Generator**, select the "bot" scope, and the following permissions:
 
