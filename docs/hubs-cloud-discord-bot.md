@@ -22,7 +22,7 @@ Unselect the *Public Bot* setting and save changes. Otherwise, other users on Di
 
 ![Discord Public Bot](img/discord-public-bot.png)
 
-Finally, under the OAuth2 panel, you'll need to set a proper redirect URL for your site. Just replace `yoursite.com` with your Hubs Cloud domain.
+Finally, under the OAuth2 panel, you'll need to set a proper redirect URL for your site. Set it to `https://<your site>/api/v1/oauth/discord` replacing `<your site>` with your Hubs Cloud domain.
 
 ![Discord OAuth Redirect](img/discord-oauth-redirect.png)
 
