@@ -18,9 +18,9 @@ sidebar_label: AWS Quick Start
   - Choose a setting for `Restrict SSH Access`
   - Review the other options, or keep the defaults. You can update most of these later via a [Stack Update](./hubs-cloud-aws-updating-the-stack.md).
   - If you are using an existing domain not on AWS Route 53, you'll need to perform a few extra steps -- see [Using an existing domain](./hubs-cloud-aws-existing-domain.md).
-7. The stack takes about 20-30 minutes to initialize.
-8. You will receive a verification email while the stack is being created to your `Administrator Email Address`, be sure to click through to verify that address.
-9. After the stack is created:
+8. The stack takes about 20-30 minutes to initialize.
+9. You will receive a verification email while the stack is being created to your `Administrator Email Address`, be sure to click through to verify that address.
+10. After the stack is created:
   - Hit your site at your primary domain. After 20 or 30 seconds, it should be up.
   - Log in via your `Administrator Email Address`. You should see the Hubs Cloud Admin Console.
   - Proceed with the setup process. Documentation can be found in the [Getting Started with Hubs Cloud](./hubs-cloud-getting-started.md) guide.
