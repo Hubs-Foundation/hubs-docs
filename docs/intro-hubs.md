@@ -8,7 +8,7 @@ In the following guide we'll show you the basics of Hubs!
 
 To get started, head to [hubs.mozilla.com](https://hubs.mozilla.com/). Make your own room by clicking “Create a Room.” 
 
-<video autoplay loop muted controls width="784" height="490">
+<video autoplay loop muted controls >
   <source src="img/create-a-room.mp4" type="video/mp4">
   <img src="img/intro-hubs-enter-room-min.jpeg" alt="Screenshot of how to enter a Hubs room">
   Your browser does not support HTML5 video.
@@ -50,7 +50,7 @@ In Hubs you can import 3D models, images, videos and PDFs from almost anywhere o
 
 Try searching for media in the Media Browser (the magic wand button at the top of the screen). 
 
-<video autoplay loop muted controls width="784" height="490">
+<video autoplay loop muted controls >
   <source src="img/import-video-from-browser.mp4" type="video/mp4">
   <img src="img/intro-hubs-media-browser-min.jpeg" alt="Screenshot of the Media Browser">
   Your browser does not support HTML5 video.
@@ -59,7 +59,7 @@ Try searching for media in the Media Browser (the magic wand button at the top o
 
 You can also add media or by dragging and dropping a file into the room, or pasting a URL to the media (Ctrl+V or Command+V).
 
-<video autoplay loop muted controls width="784" height="490">
+<video autoplay loop muted controls >
   <source src="img/object-creation.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
@@ -88,7 +88,7 @@ Hubs' isn't limited to the default environment, there are lots of scenes to choo
 
 Note, only room moderators can change the scene, and you will need to be logged in to Hubs. To sign up, all you need is an email address for authentication. Signing up is optional, but comes with other benefits such as being able to save favorite rooms, and upload custom avatars.  
 
-<video autoplay loop muted controls width="784" height="490">
+<video autoplay loop muted controls >
   <source src="img/change-the-scene.mp4" type="video/mp4">
   <img src="img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser">
   Your browser does not support HTML5 video.

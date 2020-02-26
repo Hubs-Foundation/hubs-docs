@@ -9,7 +9,7 @@ There are lots of scenes to choose from in our Featured Scenes list and Scenes D
 
 Note that only featured scenes have been tested for performance across devices. For more information on how featured scenes are selected take a look at our [content curation guidelines](./creators-content-guidelines.md). 
 
-<video autoplay loop muted controls width="784" height="490">
+<video autoplay loop muted controls >
   <source src="img/change-the-scene.mp4" type="video/mp4">
   <img src="img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser">
   Your browser does not support HTML5 video.
