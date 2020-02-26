@@ -13,13 +13,13 @@ Use one of our featured avatars or [upload your own](intro-avatars).
 
 For quick access to your favorite avatars, you can save them to "My Avatars" for quick access. Press the 'Copy to my Avatars' from the avatar selection screen. 
 
-![Screenshot of avatar selection screen](img/hubs-save-avatar.png)
+![Screenshot of avatar selection screen](img/hubs-save-avatar.jpeg)
 
 ## User Preferences
 
 Advanced user preferences (e.g. movement controls, media volume, graphics resolution, etc), can be found in the user preferences section of the dropdown menu.
 
-![Screenshot of avatar selection screen](img/hubs-user-preferences.png)
+![Screenshot of avatar selection screen](img/hubs-user-preferences.jpeg)
 
 ## User Accounts
 

@@ -3,11 +3,11 @@ id: spoke-user-interface
 title: User Interface
 ---
 
-![Hubs Image](img/spoke-user-interface.png)
+![Hubs Image](img/spoke-user-interface.jpeg)
 
 ## Toolbar
 
-![Hubs Image](img/spoke-toolbar-interface.png)
+![Hubs Image](img/spoke-toolbar-interface.jpeg)
 
 ### 1. Dropdown Menu
 
@@ -39,17 +39,17 @@ __Toggle Grid Visibility:__ Shows/hides the grid on 3D grid. In placement mode, 
 
 
 ## Viewport
-![Hubs Image](img/spoke-user-interface.png)
+![Hubs Image](img/spoke-user-interface.jpeg)
 
 The viewport shows a preview of what your scene will look like. Note that whatever the viewport is looking at when you upload it to hubs will be the scene's thumbnail image. 
 
 
 ## Hierarchy Panel
-![Hubs Image](img/spoke-user-interface.png)
+![Hubs Image](img/spoke-user-interface.jpeg)
 Objects you add to the scene show up in the hierarchy panel. Double click the object to add focus to it. you can also press the f key to focus the selected object
 
 ## Properties Panel
-![Hubs Image](img/spoke-user-interface.png)
+![Hubs Image](img/spoke-user-interface.jpeg)
 
 Additional object properties can be set in the properties panel. This includes things like shadows, light color, and more.
 
@@ -58,7 +58,7 @@ Objects are added to Spoke and can be customized by changing their properties. D
 
 
 ## Assets Panel
-![Hubs Image](img/spoke-user-interface.png)
+![Hubs Image](img/spoke-user-interface.jpeg)
 
 Your main path to adding content to a scene is through the Assets panel. Using the Assets panel, you can add content from your local computer, by searching the media browser, or linking to urls of files on the web. The Elements tab allows you to create objects without specifying properties. You can also create objects that contain specific properties by using the ‘Models’, ‘Videos’ or ‘Images’ tab to search. The ‘My Assets’ tab stores models, images, or videos that you have uploaded to your account from your local machine.
 

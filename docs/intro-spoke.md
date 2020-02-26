@@ -8,7 +8,7 @@ Want to build your own VR worlds for Hubs? Meet Spoke!
 
 Spoke is an online 3D scene editor developed by the Mozilla Mixed Reality team. With Spoke, you can compose assets, lights, images, videos, and more to create an environment that can be used in Hubs rooms or exported as a glTF 3D model file.
 
-![Screenshot of Spoke](img/intro-spoke-screenshot-min.png)
+![Screenshot of Spoke](img/intro-spoke-screenshot-min.jpeg)
 
 ### ✏️ Create
 

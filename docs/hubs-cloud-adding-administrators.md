@@ -26,12 +26,12 @@ Hubs Cloud does not store any personally identifying information in the database
 
 Once you have an account ID you'd like to grant access to, navigate to the **Accounts** section in the Admin Console:
 
-![Hubs Cloud Accounts](img/hubs-cloud-accounts.png)
+![Hubs Cloud Accounts](img/hubs-cloud-accounts.jpeg)
 
 From there, enter the Account ID you would like to change to administrator under **Search ID** and then click Edit:
 
-![Hubs Cloud Find Account](img/hubs-cloud-find-account.png)
+![Hubs Cloud Find Account](img/hubs-cloud-find-account.jpeg)
 
 Then set the account to **Is admin** and click **Save**:
 
-![Hubs Cloud Select Admin](img/hubs-cloud-select-admin.png)
+![Hubs Cloud Select Admin](img/hubs-cloud-select-admin.jpeg)

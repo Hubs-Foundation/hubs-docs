@@ -14,17 +14,17 @@ To start importing content, navigate to the "Import Content" tool from the Admin
 
 [^1]: 'Spoke' is the Mozilla trademarked name used for the Scene Editor on [hubs.mozilla.com](https://hubs.mozilla.com).
 
-![Hubs Cloud Import Content](img/hubs-cloud-import-content.png)
+![Hubs Cloud Import Content](img/hubs-cloud-import-content.jpeg)
 
 Once there, you'll need to specify a URL to import:
 
-![Hubs Cloud Import Content URL](img/hubs-cloud-import-content-url.png)
+![Hubs Cloud Import Content URL](img/hubs-cloud-import-content-url.jpeg)
 
 You can enter comma-separated URLs to scenes or avatars on another hub ([example scene](https://hubs.mozilla.com/scenes/rWgv5zN/winter-cheer), [example avatar](https://hubs.mozilla.com/avatars/PcJ8Sxb)). Or, you can specify a link to an [asset pack](./hubs-cloud-asset-packs.md).
 
 Once you've specified the content URL, you will see a preview of the content you're planning to import. You can then choose to exclude or include certain items and set special tags:
 
-![Hubs Cloud Import Content UI](img/hubs-cloud-import-ui.png)
+![Hubs Cloud Import Content UI](img/hubs-cloud-import-ui.jpeg)
 
 When ready, click the Import button to begin importing your content.
 

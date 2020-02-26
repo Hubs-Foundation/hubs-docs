@@ -12,10 +12,10 @@ However, sometimes you want to enable all permissions for all visitors for newly
 
 To change the default permissions of new rooms to be more permissive. First, open the [Admin Console](./hubs-cloud-getting-started.md) then choose **App Settings**:
 
-![Hubs Cloud App Settings](img/hubs-cloud-app-settings.png)
+![Hubs Cloud App Settings](img/hubs-cloud-app-settings.jpeg)
 
 Then, under **Features**, enable the **Permissive Rooms** option and click **Save**:
 
-![Hubs Cloud Permissive Rooms](img/hubs-cloud-permissive-rooms.png)
+![Hubs Cloud Permissive Rooms](img/hubs-cloud-permissive-rooms.jpeg)
 
 Once selected, new rooms will have all permissions turned on by default for all visitors, not just the room creator and promoted members.

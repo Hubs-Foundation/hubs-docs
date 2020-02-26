@@ -18,7 +18,7 @@ Click "Enter Room" and follow the prompts to select a username/avatar and set up
 
 <video controls>
   <source src="img/hubs-enter-room.mp4" type="video/mp4">
-  <img src="img/intro-hubs-enter-room-min.png" alt="Hubs Lobby">
+  <img src="img/intro-hubs-enter-room-min.jpeg" alt="Hubs Lobby">
   Your browser does not support HTML5 video.
 </video>
 
@@ -30,7 +30,7 @@ Open the browser in your VR headset, navigate to [hubs.link](hubs.link) and ente
 
 <video controls>
   <source src="img/hubs-enter-standalone-vr.mp4" type="video/mp4">
-  <img src="img/intro-hubs-enter-room-min.png" alt="Hubs Lobby">
+  <img src="img/intro-hubs-enter-room-min.jpeg" alt="Hubs Lobby">
   Your browser does not support HTML5 video.
 </video>
 
@@ -42,7 +42,7 @@ On your computer, click "Enter Room" and follow the prompts to select a username
 
 For troubleshooting information visit Hubs [troubleshooting](./hubs-troubleshooting) page.
 
-![Enter room on Wired in device](img/hubs-enter-connected-vr.png)
+![Enter room on Wired in device](img/hubs-enter-connected-vr.jpeg)
 
 ### On Cardboard
 
