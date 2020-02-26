@@ -16,6 +16,8 @@ The Hubs Discord bot makes it easy to connect Hubs rooms to your Discord chat se
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5HtRJolThZ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Setup 
+Using Hubs Cloud? You can [add the bot to your Hubs Cloud server](./hubs-cloud-discord-bot.md)
+
 1. [Click here](https://discordapp.com/oauth2/authorize?client_id=509129921826914304&permissions=536890368&scope=bot) to invite the Hubs Discord bot to your Discord server 
 2. Choose the channel(s) you want Hubs to run in or create new one(s)
 3. Give the bot appropriate permissions (see below) on these channels
@@ -48,3 +50,4 @@ The following features outline the current bot commands and how they can be acce
 🦆 !hubs notify set [datetime] - Sets a one-time notification to notify @​here to join the room at some future time.
 
 🦆 !hubs notify clear - Removes all pending notifications.
+

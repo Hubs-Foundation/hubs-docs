@@ -50,6 +50,7 @@
       "hubs-cloud-enable-media-browser",
       "hubs-cloud-enable-scene-editor",
       "hubs-cloud-custom-smtp",
+      "hubs-cloud-discord-bot",
       "hubs-cloud-accessing-servers",
       "hubs-cloud-content-cdn",
       "hubs-cloud-custom-clients"
