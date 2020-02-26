@@ -14,9 +14,16 @@ If it's your first time, you will have the option to follow a tutorial to get fa
 
 Select 'New Project' and select a project template.
 
-![Spoke Templates](img/spoke-templates.png)
+![Spoke Templates](img/spoke-template.png)
 
  From here you can customize your scene entirely to your liking! Try [adding content](./spoke-adding-scene-content.md) to your scene, or building a house with our [architecture kit](./spoke-architecture-kit.md).
+
+ <video controls>
+  <source src="img/spoke-rock-kit.mp4" type="video/mp4">
+  <img src="img/spoke-interface.png" alt="Screenshot of the Spoke Interface">
+  Your browser does not support HTML5 video.
+</video>
+
 
 ## Remix an existing Hubs scene
 
@@ -27,8 +34,11 @@ Scenes that are published to Hubs with a creative commons license are remixable.
     Click on the name of the scene to open its landing page
     Select ‘Remix in Spoke‘
 
-
-![Hubs Image](img/spoke-scene-remixing.png)
+ <video controls>
+  <source src="img/hubs-scene-remix.mp4" type="video/mp4">
+  <img src="img/spoke-scene-remixing.png" alt="Screenshot of the scene remixing screen">
+  Your browser does not support HTML5 video.
+</video>
 
 ##  Import a .spoke file
 

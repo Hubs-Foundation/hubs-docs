@@ -1,7 +1,5 @@
 ---
-id: content-guidelines
-title: These aren't the ducks you're looking for 
+id: creators-content-guidelines
+title: Featured Content Guidelines
 sidebar_label: Featured Content Guidelines
 ---
-
-<iframe src="https://giphy.com/embed/5T8tEJtCgvDuo" width="480" height="476" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
