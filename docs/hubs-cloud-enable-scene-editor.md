@@ -10,6 +10,6 @@ Out of the box, it is disabled for non-administrators. If you want your users to
 
 To do so, open the [Admin Console](./hubs-cloud-getting-started.md) then choose **App Settings**:
 
-![Hubs Cloud App Settings](img/hubs-cloud-app-settings.png)
+![Hubs Cloud App Settings](img/hubs-cloud-app-settings.jpeg)
 
 Then, under **Features**, enable the **Enable Scene Editor** option and click **Save**.

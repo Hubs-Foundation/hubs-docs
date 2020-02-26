@@ -8,7 +8,11 @@ In the following guide we'll show you the basics of Hubs!
 
 To get started, head to [hubs.mozilla.com](https://hubs.mozilla.com/). Make your own room by clicking “Create a Room.” 
 
-[<img src="img/intro-hubs-create-room-min.png" alt="Screenshot of how to create a Hubs room">](https://hubs.mozilla.com/)
+<video autoplay loop muted controls >
+  <source src="img/create-a-room.mp4" type="video/mp4">
+  <img src="img/intro-hubs-enter-room-min.jpeg" alt="Screenshot of how to enter a Hubs room">
+  Your browser does not support HTML5 video.
+</video>
 
 🎉 _Congratulations - you now have your very own VR space!_ 
 
@@ -26,13 +30,6 @@ Before entering, you are in the room's lobby. You can see what's going on inside
 
 * Take a look at the [instructions](./hubs-create-join-rooms#enter-the-room) in Hubs' documentation
 
-<video controls>
-  <source src="img/create-a-room.mp4" type="video/mp4">
-  <img src="img/intro-hubs-enter-room-min.png" alt="Screenshot of how to enter a Hubs room">
-  Your browser does not support HTML5 video.
-</video>
-
-
 ## Explore Hubs
 
 ### Look around
@@ -45,7 +42,7 @@ For VR and mobile controls see our list of [Hubs controls](./hubs-controls).
 
 Take a moment to take a look around the user interface. You can mute your mic, take photos, share your screen, create objects, and more. We'll introduce some of these controls in this guide. For more detailed information check out [Hubs Features](hubs-features) in the documentation.
 
-![Hubs Image](img/hubs-user-interface.png)
+![Hubs Image](img/hubs-user-interface.jpeg)
 
 ### Import Media
 
@@ -53,16 +50,16 @@ In Hubs you can import 3D models, images, videos and PDFs from almost anywhere o
 
 Try searching for media in the Media Browser (the magic wand button at the top of the screen). 
 
-<video controls>
+<video autoplay loop muted controls >
   <source src="img/import-video-from-browser.mp4" type="video/mp4">
-  <img src="img/intro-hubs-media-browser-min.png" alt="Screenshot of the Media Browser">
+  <img src="img/intro-hubs-media-browser-min.jpeg" alt="Screenshot of the Media Browser">
   Your browser does not support HTML5 video.
 </video>
 
 
 You can also add media or by dragging and dropping a file into the room, or pasting a URL to the media (Ctrl+V or Command+V).
 
-<video controls>
+<video autoplay loop muted controls >
   <source src="img/object-creation.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
@@ -75,7 +72,7 @@ To reveal these controls, hover your cursor over the object and press the space 
 
 For VR and mobile controls see our complete list of [Hubs Controls](./hubs-controls). 
 
-![Screenshot of the Object Menu](img/intro-hubs-object-menu-min.png)
+![Screenshot of the Object Menu](img/intro-hubs-object-menu-min.jpeg)
 
 ### Avatar Menus 
 
@@ -83,7 +80,7 @@ You can open up a menu on users just like on objects. This lets you control thei
 
 If you are a room moderator you will have extra permissions, like being able to mute the user's mic or temporarily kick them from the room. 
 
-![Screenshot of the Avatar Menu](img/intro-hubs-avatar-menu-min.png)
+![Screenshot of the Avatar Menu](img/intro-hubs-avatar-menu-min.jpeg)
 
 ### Change the Scene
 
@@ -91,9 +88,9 @@ Hubs' isn't limited to the default environment, there are lots of scenes to choo
 
 Note, only room moderators can change the scene, and you will need to be logged in to Hubs. To sign up, all you need is an email address for authentication. Signing up is optional, but comes with other benefits such as being able to save favorite rooms, and upload custom avatars.  
 
-<video controls>
+<video autoplay loop muted controls >
   <source src="img/change-the-scene.mp4" type="video/mp4">
-  <img src="img/intro-hubs-scene-browser-min.png" alt="Screenshot of the Scene Browser">
+  <img src="img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser">
   Your browser does not support HTML5 video.
 </video>
 
@@ -103,7 +100,7 @@ Now the fun begins!
 
 When you are ready to invite others click the "Share" button at the top of your screen. Copy the room URL or hubs.link code and send it to your friends. 
 
-![Screenshot of the Share pop-up](img/intro-hubs-share-popup-min.png)
+![Screenshot of the Share pop-up](img/intro-hubs-share-popup-min.jpeg)
 
 ## Next Steps
 This is just a quick introductions to some of Hubs' basic features. For a detailed overview of what you can do in Hubs check out [Hubs Features](./hubs-features) in the documentation.

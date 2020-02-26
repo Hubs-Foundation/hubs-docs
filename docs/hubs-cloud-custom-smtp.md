@@ -8,8 +8,8 @@ When you set up your server on some cloud providers like AWS, SMTP is automatica
 
 In the [Admin Console](./hubs-cloud-getting-started.md) choose **Server Settings**:
 
-![Hubs Cloud ](img/hubs-cloud-server-settings.png)
+![Hubs Cloud ](img/hubs-cloud-server-settings.jpeg)
 
 Then, under **Email** you can find the various SMTP server settings:
 
-![Hubs Cloud SMTP Settings](img/hubs-cloud-smtp-settings.png)
+![Hubs Cloud SMTP Settings](img/hubs-cloud-smtp-settings.jpeg)
