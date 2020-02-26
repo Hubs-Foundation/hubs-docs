@@ -16,7 +16,7 @@ Before entering a Hubs room you are in the room's lobby.  You can see what's goi
 
 Click "Enter Room" and follow the prompts to select a username/avatar and set up the mic. On the final prompt select "Enter Room" or "Enter on Phone" if on mobile. 
 
-<video controls>
+<video autoplay loop muted controls width="784" height="490">
   <source src="img/hubs-enter-room.mp4" type="video/mp4">
   <img src="img/intro-hubs-enter-room-min.jpeg" alt="Hubs Lobby">
   Your browser does not support HTML5 video.
@@ -28,7 +28,7 @@ If you opened the URL on your desktop or smartphone, choose "Enter on Standalone
 
 Open the browser in your VR headset, navigate to [hubs.link](hubs.link) and enter the code. 
 
-<video controls>
+<video autoplay loop muted controls width="784" height="490">
   <source src="img/hubs-enter-standalone-vr.mp4" type="video/mp4">
   <img src="img/intro-hubs-enter-room-min.jpeg" alt="Hubs Lobby">
   Your browser does not support HTML5 video.
