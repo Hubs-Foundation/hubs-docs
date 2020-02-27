@@ -9,15 +9,16 @@ There are lots of scenes to choose from in our Featured Scenes list and Scenes D
 
 Note that only featured scenes have been tested for performance across devices. For more information on how featured scenes are selected take a look at our [content curation guidelines](./creators-content-guidelines.md). 
 
+<video autoplay loop muted controls >
+  <source src="img/change-the-scene.mp4" type="video/mp4">
+  <img src="img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser">
+  Your browser does not support HTML5 video.
+</video>
+
 ## Change Room Name
 
 To change the name of a room, room moderators can select 'Room Settings' from the dropdown menu and enter a new name.
 
-## Favorite Rooms
-
-Add a room to your list of favorites by clicking the star icon in the lower left corner of the screen. Adding a room to your favorites makes it easier to find by adding it to your home screen.
-
-To remove the room from your favorites, open the room and click the star icon again. 
 
 
 ## Object Permissions
@@ -47,6 +48,12 @@ To temporarily kick a user from the room, open the avatar menu and select "kick.
 When you create a room in Hubs, it is private by default. Sharing the link or access code with other people allows them to enter that specific room, so generally, you want to be aware of who has the link.  
 
 You can link a Hubs room to a channel in a Discord server and have your server members join with their Discord accounts. Banning a user from your server or removing them from the channel will prevent them from being able to re-join the linked Hubs room, even if that user still has the link to the room. You can learn more about the Hubs Discord bot [here](./hubs-discord-bot). 
+
+## Favorite Rooms
+
+Add a room to your list of favorites by clicking the star icon in the lower left corner of the screen. Adding a room to your favorites makes it easier to find by adding it to your home screen.
+
+To remove the room from your favorites, open the room and click the star icon again. 
 
 ## Close a Room
 

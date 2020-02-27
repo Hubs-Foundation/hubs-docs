@@ -33,7 +33,7 @@ __NOTE: 'ORM' texture is composed of Ambient Occlusion, Roughness(black = glossy
 
 __It is highly recommended that texture resolution be kept at 1024x1024 or below.__ This is mostly due to Hubs being a web-based application where large download times for bigger files can hurt performance, especially on mobile devices. All textures MUST be powers of 2 (64, 128, 256, 512, etc.)
 
-![Hubs Avatar Customization](img/avatar-customization.png) 
+![Hubs Avatar Customization](img/avatar-customization.jpeg) 
 
 When you upload textures into Hubs The preview will be updated. You do not need to include all textures - any combination of maps are supported. Each of the slots listed handle a different texture type. You can learn more about [different types of maps here](https://www.khronos.org/blog/art-pipeline-for-gltf). 
 

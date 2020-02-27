@@ -8,15 +8,22 @@ In Spoke, you can either create a new project from Scratch, remix an existing Hu
 
 To create a new Spoke project head to [hubs.mozilla.com/spoke](hubs.mozilla.com/spoke) and click ‘Get Started’.
 
-![Spoke Landing Page](img/spoke-landing-page.png)
+![Spoke Landing Page](img/spoke-landing-page.jpeg)
 
 If it's your first time, you will have the option to follow a tutorial to get familiar with the features. If you've created scenes in Spoke before and are signed in, you will see your previous projects listed here. 
 
 Select 'New Project' and select a project template.
 
-![Spoke Templates](img/spoke-templates.png)
+![Spoke Templates](img/spoke-template.jpeg)
 
  From here you can customize your scene entirely to your liking! Try [adding content](./spoke-adding-scene-content.md) to your scene, or building a house with our [architecture kit](./spoke-architecture-kit.md).
+
+ <video autoplay loop muted controls >
+  <source src="img/spoke-rock-kit.mp4" type="video/mp4">
+  <img src="img/spoke-interface.jpeg" alt="Screenshot of the Spoke Interface">
+  Your browser does not support HTML5 video.
+</video>
+
 
 ## Remix an existing Hubs scene
 
@@ -27,8 +34,11 @@ Scenes that are published to Hubs with a creative commons license are remixable.
     Click on the name of the scene to open its landing page
     Select ‘Remix in Spoke‘
 
-
-![Hubs Image](img/spoke-scene-remixing.png)
+ <video autoplay loop muted controls >
+  <source src="img/hubs-scene-remix.mp4" type="video/mp4">
+  <img src="img/spoke-scene-remixing.jpeg" alt="Screenshot of the scene remixing screen">
+  Your browser does not support HTML5 video.
+</video>
 
 ##  Import a .spoke file
 

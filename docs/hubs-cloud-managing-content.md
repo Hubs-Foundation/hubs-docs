@@ -14,13 +14,13 @@ When a visitor creates a custom avatar or scene, they are offered the option to 
 
 All content marked as *Promotable* will be added to the **Pending Scene/Avatar Queue** when it is either created or updated. You can find these queues in your [Admin Console](./hubs-cloud-getting-started.md):
 
-![Hubs Cloud Pending Queue Menu](img/hubs-cloud-pending-queue-menu.png)
+![Hubs Cloud Pending Queue Menu](img/hubs-cloud-pending-queue-menu.jpeg)
 
 ### Approving Content
 
 When viewing a queue, you will see a list of all the unreviewed scene or avatars that have been created or updated. From here, you have to decide if you are going to **Approve** or **Deny** the item by clicking one of the buttons on the far right:
 
-![Hubs Cloud Pending Scene](img/hubs-cloud-pending-scene.png)
+![Hubs Cloud Pending Scene](img/hubs-cloud-pending-scene.jpeg)
 
 - **Approving** an item will remove it from the queue and add it to the content library. If it's an update, the changes will be applied to the content library. Visitors will be able to discover the item through the Media Browser.
 
@@ -32,17 +32,17 @@ You can browse all of the approved content in the content library via the **Appr
 
 In addition to approving content, you can also **feature** content. Featuring content will place it on the **Featured** tab in the Media Browser, which will increase its visibility to your vistors:
 
-![Hubs Cloud Featured Content](img/hubs-cloud-featured.png)
+![Hubs Cloud Featured Content](img/hubs-cloud-featured.jpeg)
 
 To feature content, first you'll need to navigate to the content in the **Approved Scenes** or **Approved Avatars**. Once you've found content you'd like to feature, just click the **Feature** button. You can un-feature content that has been featured by using the **Unfeature** button.
 
-![Hubs Cloud Pending Scene](img/hubs-cloud-approved-scene.png)
+![Hubs Cloud Pending Scene](img/hubs-cloud-approved-scene.jpeg)
 
 ### Editing content
 
 To update content, click on the **Edit** button at the far right of the list for the item you want to edit. There you can edit the name, status, and tags of the item:
 
-![Hubs Cloud Edit Scene](img/hubs-cloud-edit-scene.png)
+![Hubs Cloud Edit Scene](img/hubs-cloud-edit-scene.jpeg)
 
 The **status** for the item can be set to **active** or **delisted**. When an item is delisted, it is effectively removed from the content library.
 
