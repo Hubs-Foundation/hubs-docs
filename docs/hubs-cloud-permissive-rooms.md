@@ -14,7 +14,7 @@ To change the default permissions of new rooms to be more permissive. First, ope
 
 ![Hubs Cloud App Settings](img/hubs-cloud-app-settings.png)
 
-Then, under **Features**, enable the **Permissive Rooms** option and click **Save**:
+Then, under **Rooms**, enable the **Permissive Rooms** option and click **Save**:
 
 ![Hubs Cloud Permissive Rooms](img/hubs-cloud-permissive-rooms.png)
 
