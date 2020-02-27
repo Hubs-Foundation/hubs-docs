@@ -90,6 +90,8 @@ const siteConfig = {
   // remove 'docs' folder from the URL
   docsUrl: '',
 
+  editUrl: 'https://github.com/MozillaReality/hubs-docs/edit/master/docs/',
+
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
   twitterImage: 'img/undraw_tweetstorm.svg',

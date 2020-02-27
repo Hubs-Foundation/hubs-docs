@@ -7,7 +7,7 @@ title: User Interface
 
 ## Toolbar
 
-![Hubs Image](img/spoke-toolbar-interface.jpeg)
+![Toolbar](img/spoke-toolbar.jpeg)
 
 ### 1. Dropdown Menu
 
@@ -19,7 +19,7 @@ __Translate [T]:__ Reveals the translation gizmo, drag the arrows to move object
 
 __Rotate [R]:__ Reveals the rotation gizmo, drag the rings of the gizmo to rotate the object along the X, Y, or Z axis.
 
-__Scale [S]:__ Reveals the scale gizmo, drag the center cube of the gizmo to scale the object up or down.
+__Scale [Y]:__ Reveals the scale gizmo, drag the center cube of the gizmo to scale the object up or down.
 
 ### 3. Grid Tools
 
@@ -34,57 +34,81 @@ __Snap Mode Controls:__ determines how precisely your transformation tools are a
 
 __Toggle Grid Visibility:__ Shows/hides the grid on 3D grid. In placement mode, objects canbe placed on top of other objects or the grid. When building verticailly it can be seul to change the grid height 
 
-== increase grid height
--= decrease grid height
+- Press `=` to increase grid height 
+- Press `-` to decrease grid height
 
+### 4. Publish To Hubs
 
-## Viewport
-![Hubs Image](img/spoke-user-interface.jpeg)
+Click this button to open the publish dialog where you can edit your scene's information before publishing it to Hubs.
 
-The viewport shows a preview of what your scene will look like. Note that whatever the viewport is looking at when you upload it to hubs will be the scene's thumbnail image. 
+## Viewport Panel
+![Viewport Panel](img/spoke-viewport-panel.jpeg)
 
+The viewport shows a preview of your scene where you can select and move objects.
+  
+  > Note that whatever the viewport is looking at when you publish the scene to hubs will be the scene's thumbnail image.
+
+### Object Selection
+You can select objects by clicking on them (hold shift to select multiple objects). 
+
+### Camera Movement
+Left click and drag to orbit around your scene. Hold the right mouse button to enter fly mode where you can use your mouse to look around the scene and the WASD keys to move the camera. Press the `F` key to focus the selected objects.
+
+### Transform Gizmo
+When you have one or more objects selected, the transform gizmo will appear.
 
 ## Hierarchy Panel
-![Hubs Image](img/spoke-user-interface.jpeg)
-Objects you add to the scene show up in the hierarchy panel. Double click the object to add focus to it. you can also press the f key to focus the selected object
+![Hierarchy Panel](img/spoke-hierarchy-panel.jpeg)
+
+Objects you add to the scene show up in the hierarchy panel. Double click the object focus it in the viewport. You can drag objects inside the hierarchy panel to reorder or reparent them. You can also drag drop items from the assets panel and files from your computer into the hierarchy panel to add them to your scene.
 
 ## Properties Panel
-![Hubs Image](img/spoke-user-interface.jpeg)
+![Properties Panel](img/spoke-properties-panel.jpeg)
 
 Additional object properties can be set in the properties panel. This includes things like shadows, light color, and more.
 
-Objects are added to Spoke and can be customized by changing their properties. Different types of objects have different properties available to them (for example, a light will have an ‘intensity’ property, but a 3D model won’t). Most objects will have transform properties, which represent the physical position in the space. You can modify the position, rotation, and scale of items by using the ‘Properties’ panel in the bottom right corner of the screen, or by using the handles in the viewport. You can change which control is applied to an object selected in the scene with the buttons in the top left corner of the display.
-
-
-
+Objects are added to Spoke and can be customized by changing their properties. Different types of objects have different properties available to them (for example, a light will have an "intensity" property, but a 3D model won’t). Most objects will have transform properties, which represent the physical position in the space.
 ## Assets Panel
-![Hubs Image](img/spoke-user-interface.jpeg)
+![Assets Panel](img/spoke-assets-panel.jpeg)
 
-Your main path to adding content to a scene is through the Assets panel. Using the Assets panel, you can add content from your local computer, by searching the media browser, or linking to urls of files on the web. The Elements tab allows you to create objects without specifying properties. You can also create objects that contain specific properties by using the ‘Models’, ‘Videos’ or ‘Images’ tab to search. The ‘My Assets’ tab stores models, images, or videos that you have uploaded to your account from your local machine.
+You can find content to add to your scene in the assets panel. You can click on assets to add them to the scene. Assets can also be dragged from the assets panel and dropped onto the viewport, hierarchy panel, or properties panel. 
 
-* Elements
-* Architecture Kit
-* Rock Kit
-* Sketchfab
-* Google Poly
-* Bing Images
-* Bing Videos
-* Twitch 
-* Tenor Gifs
+### Asset Sources
 
+On the left side of the assets panel are a list of sources:
 
+#### Elements
+Elements are the basic building blocks in Spoke. You'll find lights, media, spawn points, and every other tyoe of object here.
 
+#### My Assets
+Upload and search your own 3D models, images, videos, and audio.
+
+#### Architecture Kit
+The Architecture Kit contains pieces that can be put together to construct a wide variety of structures. This kit contains floors, walls, stairs, and more.
+
+#### Rock Kit
+The Rock Kit contains a collection of realistic rock models that can be used to add detail to terrain, construct platforms, or anything else you might need a rock for.
+
+#### Sketchfab
+Sketchfab is an online marketplace for 3D models. It contains a wide variety of high quality models to help you fill out your scene.
+
+#### Google Poly
+Google Poly is another source for 3D models. Most models are in a flat low poly style.
+
+#### Bing Images
+Search Bing for images from around the web.
+
+#### Bing Videos
+Search Bing for videos from around the web.
+
+#### Twitch
+Find live streams of games and more on Twitch.
+
+#### Tenor Gifs
+Find animated gifs to add to your scene on Tenor.
 
 ## Experimental Features
 
 We're continuously working on new features for Spoke. To try them out, you can enable experimental features. Note that these features are still in testing stages, and may not continue to be supported.
 
-    In the menu, select Developer > Enable Experimental Features
-
-
-
-
-
-The assets panel, open in the Spoke editor, to show objects that can be added to the scene
-
-The assets panel can be expanded and collapsed to make more room in the viewport as you work. In the top bar of the assets panel, you can select between different asset types in the drop down menu, and add specific filters to narrow down searches.
+![Experimental Features](img/spoke-experimental-features.jpeg)
