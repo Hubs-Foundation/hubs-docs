@@ -22,7 +22,7 @@ To use a powerpoint in Hubs, you can convert it to a .pdf file and import it dir
 
 ## What devices does hubs run on?
 
-Because it runs in the browser, Hubs is very cross-platform compatible. It works on mobile, desktop, and VR devices, and runs on most modern browsers. For more information check out the [supported devices" & browsers](./hubs-create-join-rooms.html#supported-devices--browsers) section. 
+Because it runs in the browser, Hubs is very cross-platform compatible. It works on mobile, desktop, and VR devices, and runs on most modern browsers. For more information check out the [supported devices & browsers](./hubs-create-join-rooms.html#supported-devices--browsers) section. 
 
 ## Can I create custom environments?
 
