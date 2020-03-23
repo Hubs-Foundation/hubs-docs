@@ -100,6 +100,12 @@ If you are interested in hosting an event, or would like to create a customized 
 
 See previous answer. 
 
+## I can't connect. What's wrong?
+
+Your network may be blocking WebRTC traffic. In your router or firewall configuration, allow outgoing connections via UDP and TCP on following port ranges:
+- For hubs.mozilla.com, the range 20000-60999
+- For Hubs Cloud, the range 49152-60999
+
 ## Need help with something else?
 
 Let us know! hubs@mozilla.com
