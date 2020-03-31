@@ -22,6 +22,8 @@ Hubs is for anyone who wants to connect with others remotely! It's a great way t
 
 ![Screencapture from an event in Hubs](img/hubs-scenes3.jpeg)
 
+### What is Spoke? 
+Spoke is the built-in scene editor for creating environments that can be used in Hubs rooms. The editor runs entirely in the browser, and allows you to upload your own 3D models, images, and files to use in your projects. Spoke also contains building kits and integrations with various content providers to help you build!
 
 ### Key Features
 
