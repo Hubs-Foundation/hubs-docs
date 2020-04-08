@@ -13,7 +13,8 @@
       "hubs-room-settings",
       "hubs-controls",
       "hubs-discord-bot",
-      "hubs-troubleshooting"
+      "hubs-troubleshooting",
+      "hubs-faq"
     ],
     "Spoke Documentation": [
       "spoke-creating-projects",
@@ -33,7 +34,6 @@
       "content-guidelines"
     ],
     "For Developers": [
-      "admin-panel",
       "system-overview",
       "build-custom-client",
       "contributing"

@@ -3,6 +3,9 @@ id: lighting-and-shadows
 title: Lighting and Shadows
 ---
 
+## This page is under development 
+
+<!-- 
 ## Lights
 
 ### Types of Lights
@@ -44,7 +47,7 @@ A per pixel offset of your shadow, Use to fine tune the the position of your sha
 ### Shadow Radius
 
 Lights and Skyboxes
-Lights and skyboxes can significantly impact the ambience of your scene. Unless you have started from a template that removed the default elements, you should have a skybox in your scene when you begin. Lights can be set to have different colors, and be either point lights, directional lights, spotlights, ambient lights, or hemisphere lights.
+Lights and skyboxes can significantly impact the ambience of your scene. Unless you have started from a template that removed the default elements, you should have a skybox in your scene when you begin. Lights can be set to have different colors, and be either point lights, directional lights, spotlights, ambient lights, or hemisphere lights. -->
 
 <!-- 
 

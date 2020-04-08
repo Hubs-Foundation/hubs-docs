@@ -3,6 +3,9 @@ id: spoke-architecture-kit
 title: Architecture Kit
 ---
 
+
+## This page is under development 
+<!-- 
 ## What is it for
 the architecture kit is used 
 We first talked about the components of the Architecture Kit back in March. With the Architecture Kit, creators now have an additional way to build custom content for their 3D scenes without using an external tool. Specifically, we wanted to make it easier to take existing components that have already been optimized for VR and make it easy to configure those pieces to create original models and scenes. The Architecture Kit contains over 400 different pieces that are designed to be used together to create buildings - the kit includes wall, floor, ceiling, and roof pieces, as well as windows, trim, stairs, and doors. 
@@ -40,4 +43,4 @@ pdf? gif
 
 ## Adding trim
 
-![Hubs Image](img/CoastalCliffHouseShot2.jpg)
+![Hubs Image](img/CoastalCliffHouseShot2.jpg) -->

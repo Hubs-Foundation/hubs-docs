@@ -10,9 +10,11 @@ To create a new Spoke project head to [hubs.mozilla.com/spoke](hubs.mozilla.com/
 
 ![Spoke Landing Page](img/spoke-landing-page.jpeg)
 
-If it's your first time, you will have the option to follow a tutorial to get familiar with the features. If you've created scenes in Spoke before and are signed in, you will see your previous projects listed here. 
+If it's your first time, you will have the option to follow a tutorial to get familiar with the features. If you've created scenes in Spoke before and are signed in, you will see your previous projects listed here.
 
-Select 'New Project' and select a project template.
+![Spoke Projects Page](img/spoke-projects-page-welcome.jpeg)
+
+Select "New Project" and you'll be able to pick existing scenes from the community to remix or "New Empty Project" to start from scratch.
 
 ![Spoke Templates](img/spoke-template.jpeg)
 
@@ -25,14 +27,14 @@ Select 'New Project' and select a project template.
 </video>
 
 
-## Remix an existing Hubs scene
+## Remixing Scenes from Hubs
 
-Scenes that are published to Hubs with a creative commons license are remixable. You can import them to Spoke from Hubs as follows:
+Scenes that are published to Hubs with a creative commons license are remixable. You can import them into Spoke from Hubs as follows:
      
-    From inside a Hubs room using the scene open the dropdown menu
-    Select ‘Room & Scene Info‘
-    Click on the name of the scene to open its landing page
-    Select ‘Remix in Spoke‘
+  1. From inside a Hubs room using the scene open the dropdown menu
+  2. Select ‘Room & Scene Info‘
+  3. Click on the name of the scene to open its landing page
+  4. Select ‘Remix in Spoke‘
 
  <video autoplay loop muted controls >
   <source src="img/hubs-scene-remix.mp4" type="video/mp4">
