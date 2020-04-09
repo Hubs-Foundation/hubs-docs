@@ -5,7 +5,7 @@ title: Advanced Avatar Customization
 
 ## Advanced Re-skinning 
 
-As described in the [creating custom avatars](intro-avatars) page, the most straightforward way to customize an avatar for Hubs is to upload a custom texture set. The simplest version of re-skinning the robot avatar would be to simply paint a 'baseColor' map.
+As described in the [creating custom avatars](intro-avatars.html) page, the most straightforward way to customize an avatar for Hubs is to upload a custom texture set. The simplest version of re-skinning the robot avatar would be to simply paint a 'baseColor' map.
 
 For more advanced customization, you can use the following resources:
 

@@ -28,7 +28,7 @@ Before entering, you are in the room's lobby. You can see what's going on inside
 
 **On a VR headset or mobile device?** 
 
-* Take a look at the [instructions](./hubs-create-join-rooms#enter-the-room) in Hubs' documentation
+* Take a look at the [instructions](./hubs-create-join-rooms.html#enter-the-room) in Hubs' documentation
 
 ## Explore Hubs
 
