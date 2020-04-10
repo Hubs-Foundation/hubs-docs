@@ -61,5 +61,11 @@ If your event is semi-public or public, you should have a moderation strategy in
 
 If you are using the Discord Bot for moderation, you can remove a user permanently by revoking their Discord account from being able to access to the specific channel that is used for the Hubs room, or by removing them from your server.  
 
+
+### Code of Conduct
+We recommend that events that are semi-public or public have a prominent link to the code of conduct guidelines for the space. You can learn more about Mozilla's own [Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/) or provide a link to your own when you create an event. We also recommend adding an image to your event rooms that includes a link to your code of conduct, as well as information about how to report violations. 
+
+If you are requesting support from Mozilla to promote or assist with running your event, a code of conduct link is required.
+
 ## More Information
 If you have additional questions about hosting events or conferences using Hubs, please get in touch at hubs@mozilla.com or join the [Hubs Community Discord Server](https://discord.gg/wHmY4nd), and check out the #conferences channel.
