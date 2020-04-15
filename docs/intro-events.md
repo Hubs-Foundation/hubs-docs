@@ -12,7 +12,9 @@ If you're new to Mozilla Hubs, check out these getting started guides to familia
 2. [Familiarize yourself with Hubs Controls](./hubs-controls.html)
 
 ## Events in Hubs
-Hubs is a platform where you can create private rooms and meet with friends in a 3D environment online. Hubs rooms are capped at a room capacity of 24 users, but this limit can be increased to 30. Additional people can also view the room content from the room lobby. Client performance is an important consideration with Hubs, and it will vary based on the devices that your attendees are connecting with. Events in Hubs work best for meetups that are designed to have attendees engaged and participating actively with one another, or as a shared viewing environment for streamed video content. 
+Hubs is a platform where you can create private rooms and meet with friends in a 3D environment online. Hubs rooms are capped at a room capacity of 24 users, but this limit can be increased to 30. Additional people can also view the room content from the room lobby. Client performance is an important consideration with Hubs, and it will vary based on the devices that your attendees are connecting with. Mobile devices (phones, standalone headsets) may have performance challenges when there are more than 10 people in an individual room.  
+
+Events in Hubs work best for meetups that are designed to have attendees engaged and participating actively with one another, or as a shared viewing environment for streamed video content. 
 
 If you are interested in hosting a large event with multiple tracks, you may be interested in exploring [Hubs Cloud](./hubs-cloud-getting-started). Hubs Cloud allows you to customize your deployment of the Hubs platform, so that you manage and maintain the system, offers configuration tools for rooms and accounts, and is better suited for larger events. For events that have larger participant interest, we recommend creating several viewing rooms and streaming the primary content to a service like [Twitch](https://twitch.tv)
 
