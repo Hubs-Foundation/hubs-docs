@@ -16,10 +16,10 @@ The biome commandline tool is `bio`, and services run under the `hab` user.
 
 #### Logging
 
-Logging is sent to journald. To tail the log you can use [`journalctl`](https://www.freedesktop.org/software/systemd/man/journalctl.html):
+Logging is sent to journald. To tail the log, as `root` you can use [`journalctl`](https://www.freedesktop.org/software/systemd/man/journalctl.html):
 
 ```
-journalctl -u hab -f
+journalctl -f
 ```
 
 #### Managing services
