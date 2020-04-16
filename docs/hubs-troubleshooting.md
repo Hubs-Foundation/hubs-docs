@@ -28,7 +28,7 @@ Echo may occur if a participant is not wearing headphones. You can ask participa
 
 ## 'Unable to connect' error
 
-An error that says 'unable to connect' is often caused by a firewall. To fix this you either use a different internet connection, or open up ports 20000-65535 on UDP and TCP for Hubs on your router's firewall. Please note that for self-hosted versions of Hubs, like IEEEVR these port numbers are 49152-60999 on UDP and TCP. You will also need to open port 19302 on UDP and TCP.
+An error that says 'unable to connect' is often caused by a firewall. At a minimum, Hubs needs your computer to connect to external servers port 80 and 443, *both* via TLS. Ideally you should also open up ports 51610-65535 on UDP and TCP for Hubs on your router's firewall. Please note that for self-hosted versions of Hubs you need to open ports 49152-60999 on UDP and TCP. You will also need to open port 19302 on UDP and TCP.
 
 
 ## Hubs landing page is blank
