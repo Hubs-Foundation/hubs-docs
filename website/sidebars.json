@@ -4,7 +4,8 @@
       "welcome",
       "intro-hubs",
       "intro-spoke",
-      "intro-avatars"
+      "intro-avatars",
+      "intro-events"
     ],
     "Hubs Documentation": [ 
       "hubs-create-join-rooms",
