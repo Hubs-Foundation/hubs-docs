@@ -6,7 +6,7 @@ In Spoke, you can either create a new project from Scratch, remix an existing Hu
 
 ## Start a new project
 
-To create a new Spoke project head to [hubs.mozilla.com/spoke](hubs.mozilla.com/spoke) and click ‘Get Started’.
+To create a new Spoke project head to [hubs.mozilla.com/spoke](https://hubs.mozilla.com/spoke) and click ‘Get Started’.
 
 ![Spoke Landing Page](img/spoke-landing-page.jpeg)
 
