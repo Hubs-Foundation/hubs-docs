@@ -20,5 +20,5 @@ Currently, Hubs Cloud is offered on AWS and DigitalOcean.
 
 To set up your hub:
   - For AWS, see the [AWS Quick Start](./hubs-cloud-aws-quick-start.md)
-  - For DigitalOcean, see the [DigitalOcean Quick Start](./hubs-cloud-do-quick-start.md)
   - Once your hub is up, see the [Getting Started Guide](./hubs-cloud-getting-started.md)
+  - *Digital Ocean Quick Start - coming soon!*
