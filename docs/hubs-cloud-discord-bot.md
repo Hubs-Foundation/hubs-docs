@@ -46,6 +46,8 @@ You will install the Hubs Discord Bot on one of your Hubs Cloud servers.
 
 To proceed, first SSH into one of your servers. To access your servers over SSH, in the the [Admin Console](./hubs-cloud-getting-started.md) choose **Server Access** and follow the guide. Note that 2-factor authentication is set up by default, so you will need a 2FA device with an application installed like Google Authenticator to connect to your servers.
 
+If you are running multiple servers, you *must* run the bot on an *app* server, not a stream server.
+
 Once you've connected to your server, enter the following command in the command shell:
 
 ```
