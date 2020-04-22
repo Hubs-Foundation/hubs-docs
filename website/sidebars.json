@@ -38,7 +38,8 @@
     "For Developers": [
       "system-overview",
       "build-custom-client",
-      "contributing"
+      "contributing",
+      "hubs-query-string-parameters"
     ],
     "Hubs Cloud": [
       "hubs-cloud-intro",
