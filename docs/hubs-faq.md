@@ -92,9 +92,9 @@ Check out the [troubleshooting](hubs-troubleshooting.html#there-is-echo-in-the-r
 
 ## How much does Hubs cost for an event
 
-Creating private rooms on [hubs.mozilla.com](https://hubs.mozilla.com/spoke) is free!
+Creating private rooms on [hubs.mozilla.com](https://hubs.mozilla.com/) is free!
 
-If you are interested in hosting an event, or would like to create a customized Hubs environment on your own infrastructure/domain, please reach out to hubs@mozilla.com for information and pricing.
+If you are interested in hosting an event, or would like to create a customized Hubs environment on your own infrastructure/domain, check out [Hubs Cloud](https://hubs.mozilla.com/cloud) or fill out the [Hubs Events form](https://mzl.la/hubsevents) so we can provided tailored information for your event needs.
 
 ##  Is it possible for me to create a custom version of hubs which has different features or styling? 
 
