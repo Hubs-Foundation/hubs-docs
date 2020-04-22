@@ -38,7 +38,7 @@ After you've made changes to your client's code you can deploy the changes to yo
 npm run deploy
 ```
 
-> Note: When running a deploy, ensure webpack-dev-server (`npm start`) is **not** running. This may cause conflics in the build process.
+> Note: When running a deploy, ensure webpack-dev-server (`npm start`) is **not** running. This may cause conflicts in the build process.
 
 If at any point you want to revert your Hubs client back to using the Mozilla upstream version of the client, run `npm run undeploy`.
 
