@@ -32,6 +32,11 @@ https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/meeting-
 
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/scenic-scenes.pack
 
+**Event Starter Pack** - A collection of scenes and avatars for quickly populating a Hubs Cloud instance with professional use content 
+
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/event.pack
+
+
 ## More packs
 
 The full set of packs managed by Mozilla can be found in our [Hubs Cloud Github Repo](https://github.com/mozilla/hubs-cloud/tree/master/asset-packs).
