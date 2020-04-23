@@ -31,13 +31,15 @@
     ],
     "For Creators": [
       "creators-advanced-avatar-customization",
+      "creators-using-the-blender-gltf-exporter",
       "spoke-optimization",
       "content-guidelines"
     ],
     "For Developers": [
       "system-overview",
       "build-custom-client",
-      "contributing"
+      "contributing",
+      "hubs-query-string-parameters"
     ],
     "Hubs Cloud": [
       "hubs-cloud-intro",

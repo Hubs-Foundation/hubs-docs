@@ -11,7 +11,7 @@ When you publish to Hubs, your scene will have a unique URL. On this landing pag
 
 ![Hubs Image](img/spoke-scene-remixing.jpeg)
 
-Always remember to generate a floor plan before exporting your scene to Hubs! For more information check out the [Floorplan](section)
+Always remember to generate a floor plan before exporting your scene to Hubs! For more information check out the [Floorplan](./physics-and-navigation.html)
 
 Click the 'Publish to Hubs...' button in the upper right corner. You will receive a prompt to rename your scene. 
 

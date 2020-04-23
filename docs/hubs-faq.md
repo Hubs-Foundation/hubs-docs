@@ -11,11 +11,15 @@ Once a room is full, all additional users (participant #26 and beyond) can still
 
 If you want to scale Hubs for a larger event we recommend splitting crowds into multiple rooms with smaller groups, or live streaming the event, depending on the use case. 
 
-For more information on setting up Hubs for large events, contact hubs@mozilla.com.
+For more information on setting up Hubs for large events, we recommend exploring [Hubs Cloud](https://hubs.mozilla.com/cloud) as an option for your organization's event needs.
 
 ## How long does a Hubs room last 
 
 Hubs rooms stay open forever unless you choose the 'close room' option from the drop down menu. Unless a room has been 'closed' you will always be able to use the URL to revisit your room. If you plan to revisit a room, you might choose to add it to your favorites for easy access.
+
+## Can I play video content in Hubs? 
+
+Hubs has the ability to play videos in the room, which allows you to watch with friends or live stream content from an existing stream. For videos, Hubs supports standard video formats. Live stream content is supported in the HLS format. You can embed videos from popular video hosting websites like YouTube and Twitch, but due to high load these may sometimes be unreliable. For mission-critical content, we recommend hosting videos on the Hubs servers by uploading to your Hubs room or Spoke (there is a 128MB size limit for these videos) or on a hosting provider like Amazon S3.
 
 ## Can I share a powerpoint presentation in Hubs?
 
@@ -92,9 +96,9 @@ Check out the [troubleshooting](hubs-troubleshooting.html#there-is-echo-in-the-r
 
 ## How much does Hubs cost for an event
 
-Creating private rooms on [hubs.mozilla.com](https://hubs.mozilla.com/spoke) is free!
+Creating private rooms on [hubs.mozilla.com](https://hubs.mozilla.com/) is free!
 
-If you are interested in hosting an event, or would like to create a customized Hubs environment on your own infrastructure/domain, please reach out to hubs@mozilla.com for information and pricing.
+If you are interested in hosting an event, or would like to create a customized Hubs environment on your own infrastructure/domain, check out [Hubs Cloud](https://hubs.mozilla.com/cloud) or fill out the [Hubs Events form](https://mzl.la/hubsevents) so we can provided tailored information for your event needs.
 
 ##  Is it possible for me to create a custom version of hubs which has different features or styling? 
 
