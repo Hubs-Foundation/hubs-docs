@@ -7,7 +7,7 @@
       "intro-avatars",
       "intro-events"
     ],
-    "Hubs Documentation": [ 
+    "Hubs Documentation": [
       "hubs-create-join-rooms",
       "hubs-features",
       "hubs-user-settings",
@@ -23,7 +23,7 @@
       "spoke-controls",
       "spoke-adding-scene-content",
       "spoke-architecture-kit",
-      "spoke-grid", 
+      "spoke-grid",
       "spoke-skyboxes",
       "lighting-and-shadows",
       "physics-and-navigation",
@@ -44,6 +44,7 @@
     "Hubs Cloud": [
       "hubs-cloud-intro",
       "hubs-cloud-getting-started",
+      "hubs-cloud-faq",
       "hubs-cloud-importing-content",
       "hubs-cloud-asset-packs",
       "hubs-cloud-customizing-look-and-feel",
@@ -59,17 +60,17 @@
       "hubs-cloud-custom-clients"
     ],
     "Hubs Cloud on AWS": [
-       "hubs-cloud-aws-quick-start",
-       "hubs-cloud-aws-domain-recipes",
-       "hubs-cloud-aws-existing-domain",
-       "hubs-cloud-aws-existing-email-provider",
-       "hubs-cloud-aws-creating-the-stack",
-       "hubs-cloud-aws-updating-the-stack",
-       "hubs-cloud-aws-backup-and-restore",
-       "hubs-cloud-aws-known-issues",
-       "hubs-cloud-aws-architecture",
-       "hubs-cloud-aws-costs"
+      "hubs-cloud-aws-quick-start",
+      "hubs-cloud-aws-domain-recipes",
+      "hubs-cloud-aws-existing-domain",
+      "hubs-cloud-aws-existing-email-provider",
+      "hubs-cloud-aws-creating-the-stack",
+      "hubs-cloud-aws-updating-the-stack",
+      "hubs-cloud-aws-backup-and-restore",
+      "hubs-cloud-aws-troubleshooting",
+      "hubs-cloud-aws-known-issues",
+      "hubs-cloud-aws-architecture",
+      "hubs-cloud-aws-costs"
     ]
   }
 }
-
