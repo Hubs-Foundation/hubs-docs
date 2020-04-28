@@ -10,7 +10,13 @@ You finished deployment and can access the Hubs Admin console. The Hubs Admin co
 
 #### Solution options:
 
-1.  **Send request to AWS for a limit increase**
+1.  **Verify individual email addresses for administrators**
+    - If you only have a few people who will be administrating using your site, you can have them verify their email addresses with SES.
+    - Go to Simple Email Service on the AWS Console and then under "Email Addresses" add the email addresses who will be using the site.
+    - Each person will receive a verification email they will need to click on.
+    - Once they have verified their email address, they will be able to receive the "magic link" emails.
+
+2.  **Send request to AWS for a limit increase**
 
     - Use this process if you have 24 hours to wait for AWS technical support to grant your email service limit increase
     - Go to [AWS create case](https://console.aws.amazon.com/support/home?#/case/create?issueType=technical)
@@ -29,16 +35,17 @@ You finished deployment and can access the Hubs Admin console. The Hubs Admin co
     - Submit form
     - Email will arrive granting your service limit increase request
 
-2.  **Setup SMTP via SendGrid**
+3.  **Setup SMTP via SendGrid**
     - Use this process if you need an immediate fix
     - Sign up on [SendGrid](https://sendgrid.com/)
     - Create a new API Key
     - Grant the API key email send ability
     - Update settings in Hubs Cloud Admin console
       1.  Server settings > SMTP
-      2.  Enter API key as "Username" _and_ "Password"
-      3.  Enter "smtp.sendgrid.net" as "Host"
-      4.  Enter "587" as "Host" first - if emails are blocked by spam change to "2525"
+      2.  Enter "apikey" as "Username"
+      3.  Enter the API key itself as "Password"
+      4.  Enter "smtp.sendgrid.net" as "Host"
+      5.  Enter "2525" as "Port"
 
 ## My AWS stack says "rollback complete" after deploying, what went wrong?
 
