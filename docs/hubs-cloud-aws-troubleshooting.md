@@ -56,6 +56,10 @@ You encountered an issue during Hubs Cloud stack deployment. By default, AWS rol
 2. Continue with the stack creation and discover which error the stack failed on
 3. Delete the stack in AWS CloudFormation manually to restart the deployment process
 
+## The specified key does not exist. (Service: Amazon S3; Status Code: 404; Error Code: NoSuchKey
+
+This is a bug in AWS Cloudformation that Amazon is working to address. Unfortunately, you'll have to delete and re-create the stack.
+
 ## "ExternalZoneSSLCertLocalIfEast" error or timeout
 
 You have an issue with SSL certificate verification.
