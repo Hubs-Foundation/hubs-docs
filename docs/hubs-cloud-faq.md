@@ -14,6 +14,12 @@ sidebar_label: FAQ
 
 Check out [Updating the Stack](./hubs-cloud-aws-updating-the-stack.md) documentation.
 
+## Can I change the # of servers I am running?
+
+Yes, for Enterprise. [Update the Stack](./hubs-cloud-aws-updating-the-stack.md).
+
+No, for Personal.
+
 ## Can I change my domains or mail settings (like change from myhubssite.com to hubs.myhubssite.com)?
 
 No, you'll need to delete the current stack and remake it with those settings.

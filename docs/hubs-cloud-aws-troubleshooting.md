@@ -6,7 +6,7 @@ sidebar_label: AWS Troubleshooting
 
 ## You're in the "AWS Sandbox" and people don't receive "magic link" emails
 
-Your stack AWS email service is limited. The Hubs Admin console will also say you're in the "AWS Sandbox."
+You finished deployment and can access the Hubs Admin console. The Hubs Admin console will also say you're in the "AWS Sandbox." Your stack AWS email service is limited.
 
 #### Solution options:
 
@@ -40,9 +40,25 @@ Your stack AWS email service is limited. The Hubs Admin console will also say yo
       3.  Enter "smtp.sendgrid.net" as "Host"
       4.  Enter "587" as "Host" first - if emails are blocked by spam change to "2525"
 
+## My AWS stack says "rollback complete" after deploying, what went wrong?
+
+You encountered an issue during Hubs Cloud stack deployment. By default, AWS rolls back the changes and deletes the stack.
+
+#### To see the last error event
+
+1. Navigate to AWS EC2 > Select "Events" Tab on left sidebar
+2. Scroll down the list to any red error(s) in the "Status" column
+3. Log those errors for later troubleshooting
+
+#### To turn rollback completely off
+
+1. Start the [AWS Hubs deployment process](https://hubs.mozilla.com/cloud) > Finish steps 1 and 2 > "Step 3 Configure stack options" > "Advanced options" > Expand "Stack creation options" > Select "Disabled" for "Rollback on failure"
+2. Continue with the stack creation and discover which error the stack failed on
+3. Delete the stack in AWS CloudFormation manually to restart the deployment process
+
 ## "ExternalZoneSSLCertLocalIfEast" error or timeout
 
-You have an issue with SSL certificate verification
+You have an issue with SSL certificate verification.
 
 #### Potential solutions:
 
@@ -58,16 +74,6 @@ You have an issue with SSL certificate verification
    - Deploy the Hubs Cloud stack again
 4. **Are your Name Servers the default AWS ones?**
    - You may have changed your Name Servers to point ot another service. Delete the current ones to revert back to the defaults.
-
-## My AWS stack says "rollback complete" after deploying, what went wrong?
-
-You encountered an issue during Hubs Cloud stack deployment. By default, AWS rolls back the changes and deletes the stack.
-
-#### To turn rollback off to see the error
-
-1. Start the [AWS Hubs deployment process](https://hubs.mozilla.com/cloud) > Finish steps 1 and 2 > "Step 3 Configure stack options" > "Advanced options" > Expand "Stack creation options" > Select "Disa bled" for "Rollback on failure"
-2. Continue with the stack creation and discover which error the stack failed on
-3. Delete the stack in AWS CloudFormation manually to restart the deployment process
 
 ## Missing a solution?
 
