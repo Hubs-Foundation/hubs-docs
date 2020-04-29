@@ -26,6 +26,10 @@ If your wired-in headset isn't connecting, we recommend checking the following:
 
 Echo may occur if a participant is not wearing headphones. You can ask participants to mute their mic when they are not speaking, or as a room moderator you can mute them yourself in their avatar menu. You can also reduce the volume of the user in their avatar menu. See [Hubs Features](./hubs-features) for more information. 
 
+## I have generally bad performance in a room on an otherwise powerful computer
+
+Confirm that your browser has hardware acceleration enabled. This will allow your browser to utilize the graphics card, which is important for rendering Hubs with better performance. If you are on a laptop with a discrete GPU, you should also confirm that the browser is using the dedicated card in the computer settings.
+
 ## 'Unable to connect' error
 
 An error that says 'unable to connect' is often caused by a firewall. At a minimum, Hubs needs your computer to connect to external servers port 80 and 443, *both* via TLS. Ideally you should also open up ports 51610-65535 on UDP and TCP for Hubs on your router's firewall. Please note that for self-hosted versions of Hubs you need to open ports 49152-60999 on UDP and TCP. You will also need to open port 19302 on UDP and TCP.
