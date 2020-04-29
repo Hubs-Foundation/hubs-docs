@@ -25,7 +25,10 @@ Using Hubs Cloud? You can [add the bot to your Hubs Cloud server](./hubs-cloud-d
 webhook to bridge chat and send Hubs status updates. 
 4. Try out the bot! Type !hubs in a channel the bot is in to see some things you can do. 
 
-### Permissions: 
+### User Permissions: 
+Your room's user permissions will inherit the permissions that their Discord role has in the channel that the bot is bound to. Users with 'manage channel permissions' will have full rights as room owners. If you do not want your channel's members to have full room permissions (e.g. to change the scene, close the room, change the room settings), check that their role does not have the manage channel permissions enabled in Discord.
+
+### Bot Permissions: 
 The bot requires several permissions in order to work. 
 * "Send messages," "Read messages," and "Embed links" are necessary in order to bridge between the Hubs room that is linked to a channel and the messages that are sent within the channel on Discord. 
 * "Manage webhooks" is necessary in order for the bot to find and use a webhook for bridging chat. 
