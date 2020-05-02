@@ -8,7 +8,7 @@ Hubs Cloud DigitalOcean can be found on [DigitalOcean Marketplace](https://marke
 
 1. First, you'll need to [Create a New Project](https://cloud.digitalocean.com/projects/new) for your hub.
 
-2. You'll need two registered domain names, one for your site and one for short room links. We recommend using .link domains for short links.
+2. You'll need two registered domain names, one for your hub and one for short room links. We recommend using .link domains for short links.
 
 3. If possible, add your two domains to your DigitalOcean project by [adding them to networking](https://cloud.digitalocean.com/networking/domains) and then moving them to the project via the "Move Resources" button in the project view. 
     - If you do so, we'll be able to automatically add the necessary DNS records for you.
