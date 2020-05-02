@@ -59,7 +59,10 @@
       "hubs-cloud-content-cdn",
       "hubs-cloud-custom-clients"
     ],
-    "Hubs Cloud on AWS": [
+    "Hubs Cloud DigitalOcean": [
+      "hubs-cloud-do-quick-start"
+    ],
+    "Hubs Cloud AWS": [
       "hubs-cloud-aws-quick-start",
       "hubs-cloud-aws-domain-recipes",
       "hubs-cloud-aws-existing-domain",
