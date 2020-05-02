@@ -59,9 +59,6 @@
       "hubs-cloud-content-cdn",
       "hubs-cloud-custom-clients"
     ],
-    "Hubs Cloud DigitalOcean": [
-      "hubs-cloud-do-quick-start"
-    ],
     "Hubs Cloud AWS": [
       "hubs-cloud-aws-quick-start",
       "hubs-cloud-aws-domain-recipes",
@@ -74,6 +71,9 @@
       "hubs-cloud-aws-known-issues",
       "hubs-cloud-aws-architecture",
       "hubs-cloud-aws-costs"
+    ],
+    "Hubs Cloud DigitalOcean": [
+      "hubs-cloud-do-quick-start"
     ]
   }
 }
