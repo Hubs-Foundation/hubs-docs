@@ -28,6 +28,10 @@ No, you'll need to delete the current stack and remake it with those settings.
 
 No, you'll need to delete the current stack and remake it with those settings.
 
+## How much will Hubs Cloud cost for AWS?
+
+Check out our **rough** estimate guide here: [Estimated Cost Charts (alpha)](./hubs-cloud-aws-estimated-cost-charts.md)
+
 ## Don't see your question?
 
 If your question is about Hubs, check out the [Hubs FAQ](./hubs-cloud-faq.md)
