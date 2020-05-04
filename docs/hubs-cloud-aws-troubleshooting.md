@@ -11,6 +11,7 @@ You finished deployment and can access the Hubs Admin console. The Hubs Admin co
 #### Solution options:
 
 1.  **Verify individual email addresses for administrators**
+
     - If you only have a few people who will be administrating using your site, you can have them verify their email addresses with SES.
     - Go to Simple Email Service on the AWS Console and then under "Email Addresses" add the email addresses who will be using the site.
     - Each person will receive a verification email they will need to click on.
@@ -21,17 +22,17 @@ You finished deployment and can access the Hubs Admin console. The Hubs Admin co
     - Use this process if you have 24 hours to wait for AWS technical support to grant your email service limit increase
     - Go to [AWS create case](https://console.aws.amazon.com/support/home?#/case/create?issueType=technical)
     - Select "Service limit increase"
-    - Fill in your email and copy & paste this message below:
-
-    ```
-    Hi there, we are deploying a product called Hubs Cloud to our AWS infrastructure. This product uses "magic links" sent via email to log in users. The product does not support passwords, only email links to log in. As such, would like to use SES to send these emails. There are no other emails sent by the product other than these automated sign-in emails, sent at the time a user requests to log in. We do not send any unsolicited emails or other content-oriented emails, only sign in link emails. We do not store the email addresses of visitors. The emails are securely transmitted to our server at log-in time to send the email link.
-
-    We expect to have an influx of users over the coming weeks using Hubs Cloud. As such, we need to be able to send these log in emails for them to use the site.
-
-    We've set up bounce and complaints to forward to an administrative email address.
-    Thank you!
-    ```
-
+      - **Limit type:** "SES Sending Limits"
+      - **Mail Type:** "System Notifications"
+      - **Website URL - optional**
+      - **Describe ... who have requested your mail:** "We authenticate users using email links only. Users who want to join and connect to the hosted Mozilla Hubs Room, will enter their email address to get this 'magic hub' link to authenticate. Anyone can choose to not enter their email and not join."
+      - **Describe ... and complaint notifications:** "We've set up bounce and complaints to forward to an administrative email address. And we do not send any emails other than this 'magic' authentication email link to join a Hubs room. We don't store emails on our server."
+      - **Will you comply with AWS Service Terms?:** "Yes"
+    - Request 1
+      - Region: Select your AWS Hubs Cloud deployed region
+    - Case description: Answer the questions below in the message field:
+      - What does your Hubs Cloud instance do? Add anything relevant to your use case in the request
+      - Add this to your message: "The product does not support passwords, only email links to log in. As such, would like to use SES to send these emails. There are no other emails sent by the product other than these automated sign-in emails, sent at the time a user requests to log in. We do not send any unsolicited emails or other content-oriented emails, only sign in link emails. We do not store the email addresses of visitors. The emails are securely transmitted to our server at log-in time to send the email link."
     - Submit form
     - Email will arrive granting your service limit increase request
 
@@ -85,6 +86,24 @@ You have an issue with SSL certificate verification.
    - Deploy the Hubs Cloud stack again
 4. **Are your Name Servers the default AWS ones?**
    - You may have changed your Name Servers to point ot another service. Delete the current ones to revert back to the defaults.
+
+## My servers are Offline or "NoSuchKey" Error on my Hubs Cloud domain after successful deploy Hubs Cloud
+
+Did you choose "Offline mode" when creating the stack? If so, you deployed correctly but your servers aren't running!
+
+To get them running and take them "Online" follow the [Update the Stack Guide](./hubs-cloud-aws-updating-the-stack.md). When you want to take them "Offline" again, follow the same process and select "Offline".
+
+You can also specify a url to redirect traffic to when your servers are offline to avoid this error page.
+
+## Our users are experiencing "Unable to connect to this room, please try again later."
+
+We fixed this error with Hubs Cloud version 1.1.0 with an added TURN server. You need to upgrade from 1.0.0 to 1.1.0. Follow the process outlined in [Upgrade to a new stack release](./hubs-cloud-aws-updating-the-stack.html#upgrade-to-a-new-stack-release)
+
+And verify you're on 1.1.0 by following the steps in [Check if you're on version 1.1.0](./hubs-cloud-aws-updating-the-stack.html#check-if-youre-on-version-110)
+
+## How can I tell I'm on version 1.1.0?
+
+Follow steps in [Check if you're on version 1.1.0](./hubs-cloud-aws-updating-the-stack.html#check-if-youre-on-version-110)
 
 ## Missing a solution?
 
