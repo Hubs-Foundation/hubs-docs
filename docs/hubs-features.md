@@ -55,13 +55,14 @@ Room objects and avatars have their own menus. To reveal them on desktop compute
 ![Hubs Image](img/hubs-object-menu.jpeg)
 
 1. __Pin:__  Makes object stay in the room when you leave. By default, the objects disappear when their owners exit. 
-2. __Rotate:__ Rotates the object.
-3. __Target:__ Opens a focused view on the object.
-4. __Resize:__ Resizes the object.
-5. __Clone:__ Makes a duplicate of an object.
-6. __Trash:__ Removes the object from the scene.
-7. __Open link:__ Opens the URL of the object in a new tab.
-8. __Gravity:__ Make the object fall to the floor.
+2. __Target:__ Opens a focused view on the object.
+3. __Resize:__ Resizes the object.
+4. __Open link:__ Opens the URL of the object in a new tab.
+5. __Trash:__ Removes the object from the scene.
+6. __Gravity:__ Make the object fall to the floor.
+7. __Clone:__ Makes a duplicate of an object.
+8. __Rotate:__ Rotates the object. 
+
 
 ### Avatar Menu
 
