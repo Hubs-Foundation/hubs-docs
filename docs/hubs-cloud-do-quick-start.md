@@ -22,8 +22,10 @@ Hubs Cloud DigitalOcean can be found on [DigitalOcean Marketplace](https://marke
 6. [Create a writable DigitalOcean API token](https://cloud.digitalocean.com/account/api/tokens/new). This token will be needed during during setup for configuring DNS, firewall, etc.
     - The token **won't** be saved and you can remove it from your account once your hub is up.
 
-7. [Create your Droplet](https://marketplace.digitalocean.com/apps/hubs-cloud-personal) via the DigitalOcean Marketplace.
+7. [Create your Droplet](https://marketplace.digitalocean.com/apps/hubs-cloud-personal) via the DigitalOcean Marketplace. For testing a $5 droplet will work just fine. Larger droplets will be required to support more users. In the alpha stage we don't really have particular recomendations, so experiment and let us know what works for you!
 
-8. Once your droplet has started, SSH in to complete the setup process. Your hub will be up in no time!
+8. Once your droplet has started, SSH in as root to complete the setup process. Ex: `ssh root@x.x.x.x` You can find the ip address of your droplet at the top of the droplet detail page in the DigitalOcean dashboard. Depending on how you configured authentication when creating your droplet you will need to either provide the one time password given to you or simply use a pre-configured ssh key.
+
+9. Upon login the Hubs Cloud setup wizard will start automatically. This will guide you through all the rest of the steps required to get you Hubs Cloud instance up and running. If you ever need to change the settings you entered during setup or if you exited it for any other reason you can re-run it by running `/opt/polycosm/setup.sh`
 
 DigitalOcean is currently an **alpha** pre-release. Please report any issues to [Hubs Support](mailto:hubs@mozilla.com).
