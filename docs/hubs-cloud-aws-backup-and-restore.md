@@ -19,7 +19,7 @@ Your hub is backed up automatically every night. If you want to make an up-to-th
   - Select your database cluster in RDS and under "Actions" click "Take Snapshot".
   - If you're unsure which cluster is your hub's database, it can be found in the stack "Outputs" section under `AppDb`.
 - To create a new recovery point:
-  - Get the filesystem id from `StorageEFS`, the vault name from `DailyBackupVault`, and the IAM role under `DailyBackupRole` from the "Outputs" section of your stack in CloudFormation.
+  - Get the filesystem id from `StorageEFS`, the vault name from `DailyBackupVault`, and the IAM role under `DailyBackupRole` from the "Resources" section of your stack in CloudFormation.
   - In the AWS Backup console, go to "Protected Resources" and select the filesystem id you saw for `StorageEFS`.
   - Click "Create On-Demand backup."
   - Under the "Vault" section select the vault from `DailyBackupVault`, and under the IAM section select "Choose an IAM Role" and select the IAM role from `DailyBackupRole`.
