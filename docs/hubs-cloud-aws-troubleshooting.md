@@ -29,7 +29,7 @@ You finished deployment and can access the Hubs Admin console. The Hubs Admin co
       - **Describe ... and complaint notifications:** "We've set up bounce and complaints to forward to an administrative email address. And we do not send any emails other than this 'magic' authentication email link to join a Hubs room. We don't store emails on our server."
       - **Will you comply with AWS Service Terms?:** "Yes"
     - Request 1
-      - Region: Select your AWS Hubs Cloud deployed region
+      - Region: Select `us-east-1`
     - Case description: Answer the questions below in the message field:
       - What does your Hubs Cloud instance do? Add anything relevant to your use case in the request
       - Add this to your message: "The product does not support passwords, only email links to log in. As such, would like to use SES to send these emails. There are no other emails sent by the product other than these automated sign-in emails, sent at the time a user requests to log in. We do not send any unsolicited emails or other content-oriented emails, only sign in link emails. We do not store the email addresses of visitors. The emails are securely transmitted to our server at log-in time to send the email link."
