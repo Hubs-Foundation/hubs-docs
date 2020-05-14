@@ -22,6 +22,12 @@ https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/clothed-
 
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/stylized-robots.pack
 
+**Graduation Robots** - A collection of robot avatars in various color graduation robes.
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/graduation-robots.pack
+
+**Stylized Human Graduates** - A collection of stylized human avatars in black and blue graduation robes.
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/graduation-humans.pack
+
 ## Scene Packs
 
 **Meeting Scenes** - A collection of scenes that can be used for simple meetings.
