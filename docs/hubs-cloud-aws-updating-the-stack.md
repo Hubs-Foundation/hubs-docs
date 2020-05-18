@@ -8,7 +8,7 @@ You can change various settings of your hub's stack by performing a stack Update
 
 - Select the stack in the CloudFormation console
 - Go to Stack Actions -> Update Stack
-- Choose "Use the existing template"
+- Choose "Use current template"
 - Review the parameter selections and choose 'Update'
 
 Some of the things you can do via a stack update:
