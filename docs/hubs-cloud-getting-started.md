@@ -4,6 +4,10 @@ title: Getting Started With Hubs Cloud
 sidebar_label: Getting Started
 ---
 
+After successful Hubs Cloud deployment on AWS or DigitalOcean, navigate to your hub's hosted domain name (eg. myhub.com or hub.mydomain.com). 
+
+In the upper right corner, click "Sign In" and enter your admin email address you specified during CloudFormation. In your email inbox, click the received "magic link" to login (Issues with login? Check out the [AWS Troubleshooting Guide](./hubs-cloud-aws-troubleshooting.md)).
+
 Once you've logged into Hubs Cloud for the first time, you should see the Hubs Cloud Admin Console. It should look like this:
 
 ![Hubs Cloud Admin Landing](img/hubs-cloud-admin-landing.jpeg)
