@@ -32,3 +32,14 @@ Spoke is the built-in scene editor for creating environments that can be used in
 * Self-hosting options available
 * Built with [privacy](https://blog.mozvr.com/creating-privacy-centric-virtual-spaces/) in mind
 
+### Supported Browsers
+Hubs requires specific features that aren't supported by all browsers. Currently, Hubs is supported on the following browsers:  
+| Platform      | Browsers |
+| ----------- | ----------- |
+| Windows     | Firefox, Chrome, Edge (version 79+) |
+| Mac OS      | Firefox, Chrome, Safari        |
+| Linux       | Firefox | 
+| Android     | Firefox, Chrome | 
+| iOS         | Safari | 
+| Standalone VR      | Oculus Browser, Firefox Reality | 
+
