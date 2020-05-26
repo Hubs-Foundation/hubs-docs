@@ -82,6 +82,7 @@ To simplify setup, it's highly recommended you transfer any relevant domains to 
 - Purchase, register, and set up `myhub.link` on Amazon Route 53.
 - Purchase, register, and set up an *internal domain* on Amazon Route 53. This can be any name you want, and will not be seen by users. For example `mysite-internal.com`.
 - If you want a domain other than the internal domain for sent email, purchase, register and set up an *email domain* on Route 53. This will be used for outgoing email. If you have an existing email provider, you don't need a custom email domain and can specify your internal domain. For example `mysite-mail.com`.
+- Follow the steps around SSL certificates in [Using an Existing Domain](./hubs-cloud-aws-existing-domain.md)
 - Specify the following when creating the stack:
   - **Site Domain Name**: `mysite.com`
   - **Site is Set Up On Route 53**: `No`
@@ -89,7 +90,7 @@ To simplify setup, it's highly recommended you transfer any relevant domains to 
   - **Short Link Domain**: `myhub.link`
   - **Outgoing Email Domain**: `mysite-mail.com`
   - **Outgoing Email Subdomain Prefix**: `mail`
-- Follow the steps around SSL certificates in [Using an Existing Domain](./hubs-cloud-aws-existing-domain.md)
+- Once the stack is up, follow the steps around DNS in [Using an Existing Domain](./hubs-cloud-aws-existing-domain.md)
 
 ### Recipe 5: Subdomain not on Route 53
 
@@ -102,6 +103,7 @@ To simplify setup, it's highly recommended you transfer any relevant domains to 
 - Purchase, register, and set up `myhub.link` on Amazon Route 53.
 - Purchase, register, and set up an *internal domain* on Amazon Route 53. This can be any name you want, and will not be seen by users. For example `mysite-internal.com`.
 - If you want a domain other than the internal domain for sent email, purchase, register and set up an *email domain* on Route 53. This will be used for outgoing email. If you have an existing email provider, you don't need a custom email domain and can specify your internal domain. For example `mysite-mail.com`.
+- Follow the steps around SSL certificates in [Using an Existing Domain](./hubs-cloud-aws-existing-domain.md)
 - Specify the following when creating the stack:
   - **Site Domain Name**: `hub.mysite.com`
   - **Site is Set Up On Route 53**: `No`
@@ -109,4 +111,4 @@ To simplify setup, it's highly recommended you transfer any relevant domains to 
   - **Short Link Domain**: `myhub.link`
   - **Outgoing Email Domain**: `mysite-mail.com`
   - **Outgoing Email Subdomain Prefix**: `mail`
-- Follow the steps around SSL certificates in [Using an Existing Domain](./hubs-cloud-aws-existing-domain.md)
+- Once the stack is up, follow the steps around DNS in [Using an Existing Domain](./hubs-cloud-aws-existing-domain.md)
