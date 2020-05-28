@@ -81,7 +81,7 @@ Part of why this is difficult is because you must use the 'Background' node in y
 
 <video autoplay loop muted controls >
   <source src="img/BlenderShaderBackground.mp4" type="video/mp4">
-  <img src="" alt="Blender - Finding Background Node">
+  <img src="img/intro-custom-avatar.jpeg" alt="Blender - Finding Background Node">
   Your browser does not support HTML5 video.
 </video>
 
@@ -89,7 +89,7 @@ Once you have the Background node, you can plug your texture into it, and send t
 
 <video autoplay loop muted controls >
   <source src="img/BlenderShaderBackground2.mp4" type="video/mp4">
-  <img src="" alt="Blender - Using Background Node">
+  <img src="img/intro-custom-avatar.jpeg" alt="Blender - Using Background Node">
   Your browser does not support HTML5 video.
 </video>
 
