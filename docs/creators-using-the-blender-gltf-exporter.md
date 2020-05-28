@@ -79,11 +79,19 @@ While 'unlit' is a somewhat confusing name, it refers to materials where the lig
 
 Part of why this is difficult is because you must use the 'Background' node in your shader graph--but the 'Background' node is not listed with all the other nodes by default. Instead, you must find that node by switching the Shader editor to 'World' mode, then copy/paste it into your object's shader graph. You can add it to your Quick Favorites menu to make it easy to find later:
 
-![Blender - Finding Background Node](img/BlenderShaderBackground.mp4)
+<video autoplay loop muted controls >
+  <source src="img/BlenderShaderBackground.mp4" type="video/mp4">
+  <img src="" alt="Blender - Finding Background Node">
+  Your browser does not support HTML5 video.
+</video>
 
 Once you have the Background node, you can plug your texture into it, and send that to the Material Output. When you export to glb and bring the object into Spoke or Hubs, it will be 'unlit' (or fully lit, depending how you think of it.)
 
-![Blender - Using Background Node ](img/BlenderShaderBackground2.mp4)
+<video autoplay loop muted controls >
+  <source src="img/BlenderShaderBackground2.mp4" type="video/mp4">
+  <img src="" alt="Blender - Using Background Node">
+  Your browser does not support HTML5 video.
+</video>
 
 An Unlit material is the best type to use for a 'sky dome' since it will not be affected by any scene lights. Generally speaking, if your object doesn't require specular highlights or surfaces that change their look based on lighting, use an unlit material.
 
