@@ -36,7 +36,7 @@ Before entering, you are in the room's lobby. You can see what's going on inside
 
 Try exploring your new space. On desktop use your **WASD** keys to move around, or use your right mouse button to jump. Rotate your view using the **Q** and **E** keys, or hold down your left mouse button and drag. 
 
-For VR and mobile controls see our list of [Hubs controls](./hubs-controls).
+For VR and mobile controls see our list of [Hubs controls](hubs-controls).
 
 ### User Interface
 
@@ -70,7 +70,7 @@ Additional controls for objects, videos, and drawings can be found in the object
 
 To reveal these controls, hover your cursor over the object and press the space bar or tab key on Desktop. 
 
-For VR and mobile controls see our complete list of [Hubs Controls](./hubs-controls). 
+For VR and mobile controls see our complete list of [Hubs Controls](hubs-controls). 
 
 ![Screenshot of the Object Menu](img/intro-hubs-object-menu-min.jpeg)
 
@@ -84,7 +84,7 @@ If you are a room moderator you will have extra permissions, like being able to 
 
 ### Change the Scene
 
-Hubs' isn't limited to the default environment, there are lots of scenes to choose from. You can also create your own custom worlds using our scene editor [Spoke](./intro-spoke). Open the scene browser by opening the dropdown menu and selecting Choose a Scene.
+Hubs' isn't limited to the default environment, there are lots of scenes to choose from. You can also create your own custom worlds using our scene editor [Spoke](intro-spoke). Open the scene browser by opening the dropdown menu and selecting Choose a Scene.
 
 Note, only room moderators can change the scene, and you will need to be logged in to Hubs. To sign up, all you need is an email address for authentication. Signing up is optional, but comes with other benefits such as being able to save favorite rooms, and upload custom avatars.  
 
@@ -103,4 +103,4 @@ When you are ready to invite others click the "Share" button at the top of your 
 ![Screenshot of the Share pop-up](img/intro-hubs-share-popup-min.jpeg)
 
 ## Next Steps
-This is just a quick introductions to some of Hubs' basic features. For a detailed overview of what you can do in Hubs check out [Hubs Features](./hubs-features) in the documentation.
+This is just a quick introductions to some of Hubs' basic features. For a detailed overview of what you can do in Hubs check out [Hubs Features](hubs-features) in the documentation.
