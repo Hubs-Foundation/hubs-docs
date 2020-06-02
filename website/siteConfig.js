@@ -57,6 +57,12 @@ const siteConfig = {
     secondaryColor: '#ff3464',
   },
 
+  algolia: {
+    apiKey: '227afb429135813e4d9d2339ea8a18c7',
+    indexName: 'mozilla_hub',
+    algoliaOptions: {} // Optional, if provided by Algolia
+  },
+
   /* Custom fonts for website */
   /*
   fonts: {
