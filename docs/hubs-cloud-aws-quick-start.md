@@ -7,7 +7,7 @@ sidebar_label: AWS Quick Start
 1. Create an account on AWS and log into the console.
 2. Register a new domain name on Route 53 for your hub, and register another domain name on Route 53 for room short permalinks. We like using the `.link` TLD for the permalink domain. So if your hub is `myhub.com` your permalink domain would be `myhub.link`, or something similar. For more information about how to specify domains when creating your stack, see [Domain Recipes](./hubs-cloud-aws-domain-recipes.md).
 3. Set your console in the top right to the region you will be deploying your stack to.
-4. In the EC2 console, create a new SSH keypair, and save the private key. You'll need this to access your servers.
+4. In the EC2 console, create a new SSH keypair, and save the private key using your preferred format.  You'll need this to access your servers.
 5. Go to https://hubs.mozilla.com/cloud and choose which Hubs Cloud product you'd like to deploy.
    - For common questions like "Should I select Personal or Enterprise?" See our [Hubs Cloud FAQ](./hubs-cloud-faq.md)
 6. Review the pricing, then to proceed 'Continue to Subscribe', accept the license, 'Continue to Configuration', choose your region, 'Continue to Launch', and then 'Launch'
