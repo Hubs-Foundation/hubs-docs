@@ -32,6 +32,9 @@ No, you'll need to delete the current stack and remake it with those settings.
 
 Check out our **rough** estimate guide here: [Estimated Cost Charts (alpha)](./hubs-cloud-aws-estimated-cost-charts.md)
 
+## Can I use the Mozilla / Hubs logo on my Hubs Cloud site?
+Please review our [branding guidelines](./hubs-cloud-branding.md) for information about how the Hubs logos can be used.
+
 ## Don't see your question?
 
 If your question is about Hubs, check out the [Hubs FAQ](./hubs-cloud-faq.md)
