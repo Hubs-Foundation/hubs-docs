@@ -4,132 +4,95 @@ title: Domain Recipes
 sidebar_label: Domain Recipes
 ---
 
-When creating your Hubs Cloud stack on AWS you will be asked to provide a number of domains:
+This guide provides a few recipes for registering and purchasing necessary domains before creating your Hubs Cloud stack.
 
-Site Domains:
+Site domains: **Site Domain Name**, **Internal Domain**, and **Short Link Domain**
 
-- Your **Site Domain Name**
-- Your **Internal Domain**
-- Your **Short Link Domain**
-
-Email Domains:
-
-- Your **Outgoing Email Domain**
-- Your **Outgoing Email Subdomain Prefix**
-
-This guide provides a few recipes for setting up your domains before creating your stack.
+Email domains: **Outgoing Email Domain** and **Outgoing Email Subdomain Prefix**
 
 To simplify setup, it's highly recommended you transfer any relevant domains to Route 53, since Hubs Cloud will then be able to manage DNS and SSL certificate renewals for you.
 
-## Recipe 1: Dedicated domain OR subdomain connects to your Hubs + root domain manages internal server
+## Recipe 1: Dedicated domain on Route 53
 
-- `myhub.com` OR subdomain: `hub.myhub.com` connects to your Hubs
-- `myhub.com` is _NOT_ used for any other purpose or sites
+- `myhub.com` **OR subdomain** `hub.myhub.com` connects to your Hubs
+- `myhub.com` is **_NOT_** used for any other purpose or sites
 
-#### Instructions
+### Instructions
 
-- Purchase and register 2 domains on Route 53:
+**Purchase and register 2 domains on Route 53:**
 
-  1. `myhub.com` - Houses Hub site domain name + internal server domain
-  2. `myhub.link` - Short link domain name
+1. `myhub.com` - Houses Hub site domain name + internal server domain
+2. `myhub.link` - Short link domain name
 
-- Specify the following when creating the stack:
+**Next, specify the following when creating the stack:**
 
-  - **Site Domain Name**: `myhub.com` OR `hub.myhub.com`
-  - **Site is Set Up On Route 53**: `Yes`
-  - **Internal Domain**: `myhub.com`
-  - **Short Link Domain**: `myhub.link`
+| STACK OPTIONS                       | RECIPE 1                           |
+| ----------------------------------- | ---------------------------------- |
+| **Site Domain Name**                | `myhub.com` **OR** `hub.myhub.com` |
+| **Site is Set Up On Route 53**      | `Yes`                              |
+| **Internal Domain**                 | `myhub.com`                        |
+| **Short Link Domain**               | `myhub.link`                       |
+| **Outgoing Email Domain**           | `myhub.com`                        |
+| **Outgoing Email Subdomain Prefix** | `mail`                             |
 
-  - **Outgoing Email Domain**: `myhub.com`
-  - **Outgoing Email Subdomain Prefix**: `mail`
-
-## Recipe 2: Dedicated subdomain connects to your Hubs + root domain manages internal hubs server
-
-- `hub.mysite.com` connects to your Hubs
-- `mysite.com` is _NOT_ used for any other purpose or sites
-
-#### Instructions:
-
-- Purchase and register 2 domains on Route 53:
-
-  1. `mysite.com` - Houses subdomain as Hub site domain name + internal server domain
-  2. `myhub.link` - Short link domain name
-
-- Specify the following when creating the stack:
-
-  - **Site Domain Name**: `hub.mysite.com`
-  - **Site is Set Up On Route 53**: `Yes`
-  - **Internal Domain**: `mysite.com`
-  - **Short Link Domain**: `myhub.link`
-
-  - **Outgoing Email Domain**: `mysite.com`
-  - **Outgoing Email Subdomain Prefix**: `mail`
-
-## Recipe 3: Shared subdomain on Route 53
+## Recipe 2: Root domain is in-use, configure subdomain for Hubs on Route 53
 
 - `hub.mysite.com` connects to your Hubs
-- `mysite.com` _IS_ used for other sites or purposes
+- `mysite.com` **_IS_** used for other sites or purposes
 
-#### Instructions:
+### Instructions:
 
-- Purchase and register 3 domains on Route 53:
+Purchase and register 3 domains on Route 53:
 
-  1. `mysite.com` - Houses subdomain as Hub site domain name + the other sites or purposes at the root
-  2. `myhub.link` - Short link domain name
-  3. `mysite-internal.com` - Internal server domain. This can be any name you want, and will not be seen by users.
+1. `mysite.com` - Houses subdomain as Hub site domain name + the other sites or purposes at the root
+2. `myhub.link` - Short link domain name
+3. `mysite-internal.com` - Internal server domain. This can be any name you want, and will not be seen by users.
 
-- Specify the following when creating the stack:
+**Next, specify the following when creating the stack:**
 
-  - **Site Domain Name**: `hub.mysite.com`
-  - **Site is Set Up On Route 53**: `Yes`
-  - **Internal Domain**: `mysite-internal.com`
-  - **Short Link Domain**: `myhub.link`
+| STACK OPTIONS                       | RECIPE 2              |
+| ----------------------------------- | --------------------- |
+| **Site Domain Name**                | `hub.mysite.com`      |
+| **Site is Set Up On Route 53**      | `Yes`                 |
+| **Internal Domain**                 | `mysite-internal.com` |
+| **Short Link Domain**               | `myhub.link`          |
+| **Outgoing Email Domain**           | `mysite.com`          |
+| **Outgoing Email Subdomain Prefix** | `mail`                |
 
-  - **Outgoing Email Domain**: `mysite.com`
-  - **Outgoing Email Subdomain Prefix**: `mail`
+## Recipe 3: Domain NOT on Route 53
 
-## Recipe 4: Domain NOT on Route 53
+- `mysite.com` is **_NOT_** registered on Route 53
+- `mysite.com` connects to your hubs **OR** `hub.mysite.com` connects to your hubs
 
-- `mysite.com` is _NOT_ registered on Route 53
-- `mysite.com` connects to your hubs OR `hub.mysite.com` connects to your hubs
+### Instructions:
 
-#### Instructions:
+**Purchase and register 2 domains on Route 53 (optional 3 domains):**
 
-- Purchase and register 2 domains on Route 53 (optional 3 domains):
+1. `myhub.link` - Short link domain name
+2. `mysite-internal.com` - Internal server domain + email domain. This can be any name you want, and will not be seen by users.
+3. _(optional)_ `mysite-mail.com` - Email domain, if using `mysite-internal.com` for emails is not what you want.
 
-  1. `myhub.link` - Short link domain name
-  2. `mysite-internal.com` - Internal server domain + email domain. This can be any name you want, and will not be seen by users.
-  3. _(optional)_ `mysite-mail.com` - Email domain, if using `mysite-internal.com` for emails is not what you want.
+To use an existing email provider, read through our [Using an Existing Email Provider Guide](./hubs-cloud-aws-existing-email-provider.md)
 
-- Follow [Using an Existing Domain: SSL Certificates instructions](./hubs-cloud-aws-existing-domain.md)
-- Specify the following when creating the stack:
+**First, follow [Using an Existing Domain: SSL Certificates instructions](./hubs-cloud-aws-existing-domain.md)**
 
-  - **Site Domain Name**: `mysite.com` OR `hub.mysite.com`- not registered on Route 53 + SSL certificates configured in [Using an Existing Domain Instructions](./hubs-cloud-aws-existing-domain.md)
-  - **Site is Set Up On Route 53**: `No`
-  - **Internal Domain**: `mysite-internal.com`
-  - **Short Link Domain**: `myhub.link`
+**Next, specify the following when creating the stack:**
 
-  - **Outgoing Email Domain**: `mysite-mail.com`
-  - **Outgoing Email Subdomain Prefix**: `mail`
+| STACK OPTIONS                       | RECIPE 2                                                                                       |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------- |
+| **Site Domain Name**                | `mysite.com` **OR** `hub.mysite.com` + [SSL certificates](./hubs-cloud-aws-existing-domain.md) |
+| **Site is Set Up On Route 53**      | `No`                                                                                           |
+| **Internal Domain**                 | `mysite-internal.com`                                                                          |
+| **Short Link Domain**               | `myhub.link`                                                                                   |
+| **Outgoing Email Domain**           | `mysite-internal.com` **OR** `mysite-mail.com`                                                 |
+| **Outgoing Email Subdomain Prefix** | `mail`                                                                                         |
 
-- After the stack is successfully deployed, follow [Using an Existing Domain: DNS Setup instructions](./hubs-cloud-aws-existing-domain.md)
+**Lastly, after the stack is successfully deployed, follow [Using an Existing Domain: DNS Setup instructions](./hubs-cloud-aws-existing-domain.md)**
 
-#### Recipe:
-
-- Purchase, register, and set up `myhub.link` on Amazon Route 53.
-- Purchase, register, and set up an _internal domain_ on Amazon Route 53. This can be any name you want, and will not be seen by users. For example `mysite-internal.com`.
-- If you want a domain other than the internal domain for sent email, purchase, register and set up an _email domain_ on Route 53. This will be used for outgoing email. If you have an existing email provider, you don't need a custom email domain and can specify your internal domain. For example `mysite-mail.com`.
-- Follow the steps around SSL certificates in [Using an Existing Domain](./hubs-cloud-aws-existing-domain.md)
-- Specify the following when creating the stack:
-  - **Site Domain Name**: `mysite.com`
-  - **Site is Set Up On Route 53**: `No`
-  - **Internal Domain**: `mysite-internal.com`
-  - **Short Link Domain**: `myhub.link`
-  - **Outgoing Email Domain**: `mysite-mail.com`
-  - **Outgoing Email Subdomain Prefix**: `mail`
-- Once the stack is up, follow the steps around DNS in [Using an Existing Domain](./hubs-cloud-aws-existing-domain.md)
-
-### If you run into any rollback issues:
+### If you run into any issues:
 
 1. Check **Site Domain Name** is typed correctly with no typos.
-2.
+2. Check AWS Console > Route 53 > [Registered Domains](https://console.aws.amazon.com/route53/home?DomainListing:#DomainListing:) and all of the domains you listed above are registered on Route 53
+3. Find the rollback error in the stack output for your region [AWS Troubleshooting: see first stack error event](./hubs-cloud-aws-troubleshooting.md#my-aws-stack-says-rollback-complete-after-deploying-what-went-wrong)
+4. Troubleshoot any common errors via [AWS Troubleshooting documentation](./hubs-cloud-aws-troubleshooting.md)
+5. Email hubs-support@mozilla.com for additional assistance
