@@ -58,7 +58,8 @@
       "hubs-cloud-discord-bot",
       "hubs-cloud-accessing-servers",
       "hubs-cloud-content-cdn",
-      "hubs-cloud-custom-clients"
+      "hubs-cloud-custom-clients",
+      "hubs-cloud-branding"
     ],
     "Hubs Cloud AWS": [
       "hubs-cloud-aws-quick-start",
