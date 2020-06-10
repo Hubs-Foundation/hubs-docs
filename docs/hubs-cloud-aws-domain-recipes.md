@@ -4,7 +4,7 @@ title: Domain Recipes
 sidebar_label: Domain Recipes
 ---
 
-This guide provides a few recipes for registering and purchasing necessary domains before creating your Hubs Cloud stack.
+This guide provides a few recipes for registering and purchasing necessary domains before creating your hub Cloud stack.
 
 Site domains: **Site Domain Name**, **Internal Domain**, and **Short Link Domain**
 
@@ -14,14 +14,21 @@ To simplify setup, it's highly recommended you transfer any relevant domains to 
 
 ## Is my domain "set up on Route 53"?
 
-1. Your domains are set up to use AWS Route 53 DNS Hosting via Hosted Zones and the nameservers have been changed to point to AWS Route 53. These domains were purchased in a domain registrar like Namecheap or GoDaddy. To do so, follow instructions in [Route 53 Hosted Zones](https://console.aws.amazon.com/route53/home#hosted-zones:) to "Create Hosted Zone" and update nameservers on your domain.
-2. You've purchased your domain on AWS Route 53 and it shows up in Route 53 Hosted Zones and Registered Domains.
+**Your domain is set up on Route 53, if it meets one of two criteria:**
+
+- It was purchased on AWS. It's nameservers point to AWS, it shows up on Route 53 Hosted Zones and Registered Domains.
+- Your domains are set up to use AWS Route 53 DNS Hosting via Hosted Zones and the nameservers have been changed to point to AWS Route 53. These domains were purchased in a domain registrar like Namecheap or GoDaddy.
+
+**Not set up on Route 53 and want to be?** Follow instructions in [Route 53 Hosted Zones](https://console.aws.amazon.com/route53/home#hosted-zones:) to "Create Hosted Zone" and update the domain nameservers to point to the provided AWS ones in your domain registrar website.
+
+**Why my domain "_CAN NOT_" be set up on Route 53?** Your site, and its nameservers, are already being used elsewhere for other sites or purposes. For example, for us to use mozilla.com (and not break the pre-existing site), we had to follow [Recipe 3](./hubs-cloud-aws-domain-recipes.md#recipe-3-domain-can-not-be-on-route-53) and _NOT_ change nameservers to point to AWS for hubs.mozilla.com to work as a subdomain.
 
 ## Recipe 1: Dedicated domain on Route 53
 
-- `myhub.com` **OR subdomain** `hub.myhub.com` connects to your Hubs
+- `myhub.com` **OR subdomain** `hub.myhub.com` connects to your hub
 - `myhub.com` is **_NOT_** used for any other purpose or sites
 - `mysite.com` set up on on Route 53 [(?)](./hubs-cloud-aws-domain-recipes.md#is-my-domain-set-up-on-route-53)
+- `anothersubdomain.myhub.com` **_could be_** used for any other purposes or sites
 
 ### Instructions:
 
@@ -41,11 +48,12 @@ To simplify setup, it's highly recommended you transfer any relevant domains to 
 | **Outgoing Email Domain**           | `myhub.com`                        |
 | **Outgoing Email Subdomain Prefix** | `mail`                             |
 
-## Recipe 2: Root domain is in-use, configure subdomain for Hubs on Route 53
+## Recipe 2: Domain is in-use, configure subdomain for hub on Route 53
 
-- `hub.mysite.com` connects to your Hubs
+- `hub.mysite.com` connects to your hub
 - `mysite.com` **_IS_** used for other sites or purposes
 - `mysite.com` set up on on Route 53 [(?)](./hubs-cloud-aws-domain-recipes.md#is-my-domain-set-up-on-route-53)
+- `anothersubdomain.myhub.com` **_could be_** used for any other purposes or sites
 
 ### Instructions:
 
@@ -66,10 +74,10 @@ To simplify setup, it's highly recommended you transfer any relevant domains to 
 | **Outgoing Email Domain**           | `mysite.com`          |
 | **Outgoing Email Subdomain Prefix** | `mail`                |
 
-## Recipe 3: Domain NOT on Route 53
+## Recipe 3: Domain CAN NOT be on Route 53
 
-- `mysite.com` is **_NOT_** set up on Route 53 [(?)](./hubs-cloud-aws-domain-recipes.md#is-my-domain-set-up-on-route-53)
-- `mysite.com` connects to your hubs **OR** `hub.mysite.com` connects to your hubs
+- `mysite.com` **_CAN NOT_** be set up on Route 53 [(?)](./hubs-cloud-aws-domain-recipes.md#is-my-domain-set-up-on-route-53)
+- `mysite.com` connects to your hub **OR** `hub.mysite.com` connects to your hub
 
 ### Instructions:
 

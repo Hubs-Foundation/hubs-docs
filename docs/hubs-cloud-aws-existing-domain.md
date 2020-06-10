@@ -10,7 +10,7 @@ Excellent. You have a two options.
 
 **One**: Transfer your existing domain to Route 53 to simplify setup and follow Recipe 1 or 2 in the [Domain Recipe guide](./hubs-cloud-aws-domain-recipes.md).
 
-**Two**: Follow our [Domain Recipe #3 guide to use an existing domain NOT on Route 53](./hubs-cloud-aws-domain-recipes.md#recipe-3-domain-not-on-route-53). You still need to register at least 2 new domains on AWS Route 53, then perform the extra steps below: [SSL Certificates](./hubs-cloud-aws-existing-domain.md#ssl-certificates) BEFORE creating the stack and [DNS Setup](./hubs-cloud-aws-existing-domain.md#dns-setup) AFTER creating the stack.
+**Two**: Follow our [Domain Recipe #3 guide to use an existing domain NOT on Route 53](./hubs-cloud-aws-domain-recipes.md#recipe-3-domain-can-not-be-on-route-53). You still need to register at least 2 new domains on AWS Route 53, then perform the extra steps below: [SSL Certificates](./hubs-cloud-aws-existing-domain.md#ssl-certificates) BEFORE creating the stack and [DNS Setup](./hubs-cloud-aws-existing-domain.md#dns-setup) AFTER creating the stack.
 
 **If you want to use your existing email, see our [Using an Existing Email Provider guide](./hubs-cloud-aws-existing-email-provider.md)**. Otherwise, walk through the Domain Recipes #3 guide for configuring AWS SES email via stack creation.
 
