@@ -4,6 +4,21 @@ title: Hubs Cloud FAQ
 sidebar_label: FAQ
 ---
 
+## Why use Hubs Cloud vs. hubs.mozilla.com?
+
+**Hubs Cloud allows you all the functionality of hubs.mozilla.com and also comes with additional features to customize branding, the url, user accounts, the interface and code inside the hubs client.** You're in control of your Hubs Cloud instance and its data via AWS or DigitalOcean infrastructure, Mozilla simply provides the template and automatic updates. This makes it perfect for creating a totally bespoke Hubs experience.
+
+The max room size is the same as hubs.mozilla.com: 25 avatars per room + 75 to the lobby ([More on room capacity here](./hubs-faq.md#what-is-the-capacity-of-a-hubs-room)).
+
+Try out Hubs via hubs.mozilla.com and when you're familiar and interested in using it for big events, exclusive personal meetups, or for a business, check out [Hubs Cloud](./hubs-cloud-intro.md).
+
+Documentation for customizing your Hubs Cloud instance:
+
+- [Branding + look and feel](./hubs-cloud-customizing-look-and-feel.md)
+- [Customizing hub url](./hubs-cloud-aws-domain-recipes.md)
+- Managing accounts via the Admin Panel - _documentation coming soon_
+- [Customizing the user interface and client code](./hubs-cloud-custom-clients.md)
+
 ## Personal vs. Enterprise?
 
 - Personal defaults are lower cost. Enterprise defaults are higher cost but improve site functionality like no database pausing.
@@ -33,6 +48,7 @@ No, you'll need to delete the current stack and remake it with those settings.
 Check out our **rough** estimate guide here: [Estimated Cost Charts (alpha)](./hubs-cloud-aws-estimated-cost-charts.md)
 
 ## Can I use the Mozilla / Hubs logo on my Hubs Cloud site?
+
 Please review our [branding guidelines](./hubs-cloud-branding.md) for information about how the Hubs logos can be used.
 
 ## Don't see your question?
