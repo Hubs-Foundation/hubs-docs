@@ -4,7 +4,9 @@ title: Customizing Look and Feel
 sidebar_label: Customizing Look & Feel
 ---
 
-You can completely completely customize the look and feel of your hub. First, open the [Admin Console](./hubs-cloud-getting-started.md) then choose **App Settings**:
+You can completely completely customize the look and feel of your hub by adding custom colors and branding.
+
+First, open the [Admin Console](./hubs-cloud-getting-started.md) then choose **App Settings**:
 
 ![Hubs Cloud App Settings](img/hubs-cloud-app-settings.jpeg)
 
@@ -12,7 +14,11 @@ From there, you can replace all of the various images your hub by choosing **Ima
 
 ![Hubs Cloud Image Settings](img/hubs-cloud-image-settings.jpeg)
 
-Additionally you can completely customize the color scheme. First, you can choose to style your hub as either a *Light* or *Dark* look and feel. Then, you can customize individual colors:
+The result? Branding on the landing page and loading page:
+
+![Hubs Cloud Custom Branding](img/hubs-cloud-custom-branding.png)
+
+Additionally you can completely customize the color scheme. First, you can choose to style your hub as either a _Light_ or _Dark_ look and feel. Then, you can customize individual colors:
 
 ![Hubs Cloud Theme Settings](img/hubs-cloud-theme-settings.jpeg)
 
