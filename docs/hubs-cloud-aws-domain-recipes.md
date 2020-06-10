@@ -14,7 +14,7 @@ To simplify setup, it's highly recommended you transfer any relevant domains to 
 
 ## Is my domain "set up on Route 53"?
 
-1. Your domains are set up to use AWS Route 53 DNS via Hosted Zones and the nameservers have been changed to point to AWS Route 53. These domains were purchased in a DNS provider like Namecheap or GoDaddy. To do so, follow instructions in [Route 53 Hosted Zones](https://console.aws.amazon.com/route53/home#hosted-zones:) to "Create Hosted Zone" and update nameservers on your domain in your DNS provider website like Namecheap or GoDaddy.
+1. Your domains are set up to use AWS Route 53 DNS Hosting via Hosted Zones and the nameservers have been changed to point to AWS Route 53. These domains were purchased in a domain registrar like Namecheap or GoDaddy. To do so, follow instructions in [Route 53 Hosted Zones](https://console.aws.amazon.com/route53/home#hosted-zones:) to "Create Hosted Zone" and update nameservers on your domain.
 2. You've purchased your domain on AWS Route 53 and it shows up in Route 53 Hosted Zones and Registered Domains.
 
 ## Recipe 1: Dedicated domain on Route 53
@@ -99,7 +99,7 @@ To use an existing email provider, read through our [Using an Existing Email Pro
 ### If you run into any issues:
 
 1. Check **Site Domain Name** is typed correctly with no typos.
-2. Check AWS Console > Route 53 > [Registered Domains](https://console.aws.amazon.com/route53/home?DomainListing:#DomainListing:) and all of the domains you listed above are registered on Route 53 or inside your Hosted Zones
+2. Check AWS Console > Route 53 > [Hosted Zones](https://console.aws.amazon.com/route53/home#hosted-zones:) and all of the domains you listed above are [registered](https://console.aws.amazon.com/route53/home#DomainListing:) on Route 53 or you've updated the nameservers for your domains to point to AWS Route 53 as the DNS host
 3. Find the rollback error in the stack output for your region [AWS Troubleshooting: see first stack error event](./hubs-cloud-aws-troubleshooting.md#my-aws-stack-says-rollback-complete-after-deploying-what-went-wrong)
 4. Troubleshoot any common errors via [AWS Troubleshooting documentation](./hubs-cloud-aws-troubleshooting.md)
 5. Email hubs-support@mozilla.com for additional assistance
