@@ -1,10 +1,31 @@
 ---
 id: hubs-cloud-aws-estimated-cost-charts
-title: AWS Estimated Cost Charts
-sidebar_label: Estimated Cost Charts (alpha)
+title: AWS Estimated Costs and Cost Charts (Alpha)
+sidebar_label: Estimated Costs and Charts (Alpha)
 ---
 
-Costs are impossible to predict because everyone uses Hubs differently. Below charts are **estimates** from our tests and should not be used as a source of truth for your AWS Hubs Cloud costs.
+**Minimizing Costs Primer**
+
+- How do costs work for Hubs Cloud?
+- Minimizing costs - Settings in stack template
+- Minimizing costs - Recommended user story
+- Best Accuracy Cost Estimate - use AWS Cost Explorer
+
+**What AWS Server Type should I use?**
+
+- Recommended Server Types
+- To calculate CCU or concurrent users?
+- Cost Charts per Server Type (Alpha)
+
+**Detailed Cost breakdown**
+
+- Best Accuracy Cost Estimate - use AWS Cost Explorer
+- The AWS Tech Stack in detail
+- Estimate the cost of your event
+
+Your primary costs will be the EC2 instances you use, the serverless hourly database costs, EFS storage, and, if you do not switch to Cloudflare, data transfer costs.
+
+Costs are impossible to predict because everyone uses Hubs differently. Below are **estimates** from our tests and should not be used as a source of truth for your AWS Hubs Cloud costs.
 
 ## For best accuracy, use AWS Cost Explorer
 
@@ -13,24 +34,32 @@ For the **most accurate** way to see previous costs to predict your future costs
 - [AWS Cost Explorer](https://console.aws.amazon.com/billing/home)
 - [AWS Cost Explorer Documentation](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ce-what-is.html)
 
-## Factors creating AWS cost estimates [Hubs Cloud AWS Costs](./hubs-cloud-aws-costs.md)
+Your hub is designed to minimize AWS costs. Your primary charges will be the EC2 instances you use, the serverless hourly database costs, EFS storage, and, if you do not switch to Cloudflare (see below), data transfer costs.
 
-- Server type on AWS EC2
-- Number of servers
-- Database usage
-- Storage for 3D assets for scenes and avatars
-- Data transfer costs
-- Domain costs ($1 per domain/mo.) + $0.40/mo for the database secrets
+As you use your hub, you will see AWS costs:
 
-## How do costs work for Hubs Cloud?
+- EC2 instances: the stack configuration lets you choose how many instances to use, a single t3.micro is needed by default. At time of this writing that costs approx \$8/mo.
+- An [Aurora serverless](https://aws.amazon.com/rds/aurora/pricing/) database: you will be charged for database usage. At the time of this writing \$0.12 per hour used, rounded to the nearest 10 minutes. If you've enabled database auto-pausing in your stack configuration (the default) then you will only pay for the database when visitors are accessing your site. If you are concerned about excessive database costs, you can set a budget in the stack settings that will cause your stack to be put into Offline mode automatically if your budget is exceeded. (which will shut down all the servers, including the database)
+- [EFS](https://aws.amazon.com/efs/pricing/) storage: you will be charged for storage of uploaded scenes and avatars. At the time of this writing approx $0.30/gb month and $0.10/gb month for data that hasn't been accessed in 30 days.
+- [Cloudfront](https://aws.amazon.com/cloudfront/pricing/) data transfer costs.
+- There are a variety of lambdas used for doing image resizing, video transcoding, etc subject to [AWS Lambda Pricing](https://aws.amazon.com/lambda/pricing) but unlikely to exceed free tier levels.
+- You will also be paying $1/mo for each of your Route 53 domains and also $0.40/mo for the database secret.
 
-EC2 instances, while "Online", will cost the minimum cost per hour per server for your instance AWS server type. This minimum cost is hourly regardless of how many people connect at a time. You can manually turn off your EC2 instance + database via turning on "Offline" mode where no one can connect to your server at the time.
+Note that you can significantly save data transfer charges by switching your CDN to Cloudflare. In your hub's admin console, go to the "Data Transfer" page to see how.
 
-Database costs is the largest factor, you can set database pausing on to stop costs incurring when no one is connected.
+If you'd like to maximize your cost savings, you can perform a stack update to switch the stack into "Offline" mode when you are not using it, though this likely unnecessary except for cases where you are running at a higher capacity settings than the defaults.
+
+To roughly estimate your costs, check out our [Estimated Cost Charts (alpha)](./hubs-cloud-aws-estimated-cost-charts.md).
+
+To more accurately predict future costs use [AWS Cost Explorer for your instance](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ce-what-is.html).
+
+Or you can see our AWS Calculator estimates for a [Single Server, Personal](https://calculator.s3.amazonaws.com/index.html#r=IAD&key=files/calc-780fd694890a75cdb1b295a77845c3ecb31ba889&v=ver20191121vC) deployment and a [Multi-Server, Enterprise](https://calculator.s3.amazonaws.com/index.html#r=IAD&key=files/calc-c29e6ec8edcd38e7bd01b3e9284863f4f5fed318&v=ver20191121vC) deployment.
 
 ## Minimize your Hubs Cloud Costs - A User Story
 
-Our recommendation to minimize costs for automatic settings is to turn [**database pausing**](./hubs-cloud-aws-estimated-cost-charts.md#database-pausing---automatic) on by default. When no one is using your hub, turn your hub to [**Offline mode**](./hubs-cloud-aws-estimated-cost-charts.md#offline-mode---manual) or a small instance type like **t3.medium**.
+Our recommendation to minimize costs for automatic settings is to turn [**database pausing**](./hubs-cloud-aws-estimated-cost-charts.md#database-pausing---automatic) on by default. When no one is using your hub, turn your hub to [**Offline mode**](./hubs-cloud-aws-estimated-cost-charts.md#offline-mode---manual) or a small instance type like **t3.medium**. Also use a Cloudflare worker as your content CDN.
+
+### Before your event: Development
 
 ### Before your event: 1.5 hours
 
@@ -55,6 +84,7 @@ You can turn your hub to [**Offline mode**](./hubs-cloud-aws-estimated-cost-char
 - Enable **Auto-Pause Database**. On by default for Personal and settable by Enterprise.
 - Toggle **Offline mode** to "Online" to "Offline" manually. Your EC2 and database costs will be \$0/hour when you've turned your servers off.
 - Set **Account Monthly Database Budget**
+- Enable Content CDN to Cloudflare workers
 
 ### Database Pausing - automatic
 
@@ -72,6 +102,12 @@ Careful with the **Monthly Database Budget** setting, we recommend $0 (unlimited
 
 Personal and Enterprise defaults to \$0 (unlimited).
 
+### Change content CDN to Cloudflare Workers - 1 time update
+
+With a fresh stack, you're using AWS's Content CDN, which is relatively expensive. You can change to use Cloudflare workers for Content CDN.
+
+To enable Cloudflare workers, in your hub Admin Panel > "Content CDN" menu > Follow instructions to enable Cloudflare workers. (WARNING - DO NOT CHANGE NAMESERVERS FOR YOUR HUB AND DO NOT ADD YOUR SITE TO CLOUDFLARE)
+
 ## Estimate your Event Cost
 
 Database pausing is assumed on.
@@ -82,12 +118,6 @@ Database pausing is assumed on.
 4. **Can you turn your hub Offline? # of hours?**
 
 **Rough Estimate for Event = (#1 \* 'High Use $') + (#2 \*'Avg Use $') + (#3 \* 'Minimum $') + (#4 \* $0)**
-
-## Concurrent Users (CCU)
-
-CCU (concurrent users) = # connected users across your hub instance
-
-Example: **20 users per room \* 10 rooms = 200 CCU**
 
 ## AWS Server Type Recommendations
 
@@ -104,6 +134,12 @@ For any event, we recommend **at least** a **c4.large** instance. Scale up or do
 AWS Server Type costs are from us-east-1 (N. Virginia).
 
 **Estimated CCU\*\*** : Below are our estimates to get best performance. Depending on client power (on high power devices (Desktop/VR) vs. low power devices (Mobile)), the performance may vary.
+
+## Concurrent Users (CCU)
+
+CCU (concurrent users) = # connected users across your hub instance
+
+Example: **20 users per room \* 10 rooms = 200 CCU**
 
 ## Estimating Personal / Enterprise Costs with 1 server
 
