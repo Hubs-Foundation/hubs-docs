@@ -7,7 +7,7 @@ title: FAQ
 
 We recommend a maximum of 25 in-room participants. This capacity is the default because low power devices, such as mobile phones and standalone VR headsets, may begin experiencing performance issues in busier rooms. You can adjust the room capacity in the [room settings](hubs-room-settings) menu. 
 
-Once a room is full, all additional users (participant #26 and beyond) can still participate by watching from the lobby. Users in the lobby can see what's happening in the room and interact via text chat; however, they are not represented as avatars in the room and their mic is not active. 
+Once a room is full, all additional users (participant #26 and beyond) can still participate by watching from the lobby. Users in the lobby can see what's happening in the room and interact via text chat; however, they are not represented as avatars in the room and their mic is not active. There is no hard limit on lobby capacity, however, performance may decrease once there are over one hundred individuals in the lobby.
 
 If you want to scale Hubs for a larger event we recommend splitting crowds into multiple rooms with smaller groups, or live streaming the event, depending on the use case. 
 
@@ -20,6 +20,10 @@ Hubs rooms stay open forever unless you choose the 'close room' option from the 
 ## Can I play video content in Hubs? 
 
 Hubs has the ability to play videos in the room, which allows you to watch with friends or live stream content from an existing stream. For videos, Hubs supports standard video formats. Live stream content is supported in the HLS format. You can embed videos from popular video hosting websites like YouTube and Twitch, but due to high load these may sometimes be unreliable. For mission-critical content, we recommend hosting videos on the Hubs servers by uploading to your Hubs room or Spoke (there is a 128MB size limit for these videos) or on a hosting provider like Amazon S3.
+
+## Where does the chat log go? 
+
+The chat log only exists temporarily. Messages dissappear after a set period of time. We are working on developing chat scrollback. Until this is released, you can also keep track of in-world chat by setting up the Hubs Discord Bot. 
 
 ## Can I share a powerpoint presentation in Hubs?
 
@@ -37,7 +41,11 @@ In the mean time, you may find it easier to resize and place objects when using 
 
 ## What devices does hubs run on?
 
-Because it runs in the browser, Hubs is very cross-platform compatible. It works on mobile, desktop, and VR devices, and runs on most modern browsers. For more information check out the [supported devices & browsers](./hubs-create-join-rooms.html#supported-devices--browsers) section. 
+Because it runs in the browser, Hubs is very cross-platform compatible. It works on mobile, desktop, and VR devices, and runs on most modern browsers. For more information check out the [supported devices & browsers](./hubs-create-join-rooms.html#supported-devices--browsers) section.
+
+## Why are lines on my drawings disappearing?
+
+There is a maximum number of lines that can be included in drawings using the pen tool. Once the limit is reached, the first lines will start to disappear. To prevent this, periodically open the object menu on your drawing, and press the "create" button (magic wand). This will turn your drawing into an object, and reset your line count to 0. 
 
 ## Can I create custom environments?
 
@@ -100,9 +108,31 @@ Creating private rooms on [hubs.mozilla.com](https://hubs.mozilla.com/) is free!
 
 If you are interested in hosting an event, or would like to create a customized Hubs environment on your own infrastructure/domain, check out [Hubs Cloud](https://hubs.mozilla.com/cloud) or fill out the [Hubs Events form](https://mzl.la/hubsevents) so we can provided tailored information for your event needs.
 
-##  Is it possible for me to create a custom version of hubs which has different features or styling? 
+## Can I prevent unregistered attendees from attending my event? 
+
+Hubs rooms can only be accessed by individuals with the URL. Authentication can be done either the Hubs Discord Bot, or using an approved list of users in Hubs Cloud.
+
+##  Is it possible for me to create a custom version of Hubs which has different features or styling? 
 
 See previous answer. 
+
+## Can I run custom code in a Hubs room?
+
+You can't run custom code in the main Hubs website (hubs.mozilla.com) but you can add your own if you self-host using Hubs Cloud (see previous answers). To add custom code you will need to create your own custom fork of the Hubs Cloud Client 
+
+For more information, see our documentation on [custom clients](./hubs-cloud-custom-clients.html)
+
+## Can I pay Mozilla to do X, Y, Z?
+It's not possible to pay Mozilla for custom work, however, our code is open source and we welcome external contributors in [GitHub](http://github.com/mozilla/hubs). You can post in the #work-for-hire channel of our Discord if you are interested in paying someone to build something for you.
+
+## Can I run my virtual event in hubs?
+Yes, check out the information [here](./intro-events.html) for more information on how to get started: 
+
+If you have questions about whether Hubs will be a good fit for your event, drop by our office-hours or meetup to speak to  a member of our team. See our community Discord for the schedule.
+
+## Have you considered adding feature X? 
+
+We keep track of bugs and feature requests in GitHub. If there is a feature you would like, see if someone has already mentioned it in our [list of bugs/feature requests](https://github.com/mozilla/hubs/issues) if you find someone else has already asked for the feature- let us know in a comment that you would like it too. If not, feel free to submit a "feature request." Note, please include as much detail as possible to feature requests to let us know how you see this feature benefiting your use case.
 
 ## Need help with something else?
 
