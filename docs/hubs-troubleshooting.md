@@ -63,6 +63,10 @@ Some older systems have trouble rendering 2D objects in the scene. If
 
     e.g. https://hubs.mozilla.com/sgKNM3h/smart-magnificent-gala?disablebatching
 
+## Youtube is not working
+
+YouTube videos don't work reliably in Hubs. We recommend trying Vimeo or saving your video to Dropbox and streaming from there.
+
 ## Need help with something else?
 
 We have an active Discord Server where you can speak directly to the Hubs team and see what community members are working on. Follow this link to join: [discord.gg/wHmY4nd](discord.gg/wHmY4nd).

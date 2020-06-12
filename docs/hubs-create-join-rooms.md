@@ -63,3 +63,16 @@ For Standalone VR devices (Pico Neo 2, Oculus Quest and Oculus Go) Hubs works in
 Mobile phone powered VR systems, such as Samsung Gear and Google Cardboard, work using Google Chrome browser. 
 
 Note that some features may be limited on low-powered devices such as mobile phones.
+
+### Supported Browsers
+
+Hubs requires specific features that aren't supported by all browsers. Currently, Hubs is supported on the following browsers:  
+| Platform      | Browsers |
+| ----------- | ----------- |
+| Windows     | Firefox, Chrome, Edge (version 79+) |
+| Mac OS      | Firefox, Chrome, Safari        |
+| Linux       | Firefox | 
+| Android     | Firefox, Chrome | 
+| iOS         | Safari | 
+| Standalone VR      | Oculus Browser, Firefox Reality | 
+

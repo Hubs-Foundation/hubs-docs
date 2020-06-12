@@ -4,9 +4,9 @@ title: Building Scenes with Spoke
 sidebar_label: Building Scenes with Spoke
 ---
 
-Want to build your own VR worlds for Hubs? Meet Spoke!
+Want to build custom VR worlds for Hubs? Meet [Spoke](https://hubs.mozilla.com/spoke)! 👋
 
-Spoke is an online 3D scene editor developed by the Mozilla Mixed Reality team. With Spoke, you can compose assets, lights, images, videos, and more to create an environment that can be used in Hubs rooms or exported as a glTF 3D model file.
+Spoke is an online 3D scene editor developed by the Mozilla Mixed Reality team. With Spoke, you can build environments using 3D models, architecture kit pieces, lights, images, videos, and more. Once your scene is ready, you can upload it to Hubs, or export it as a .glTF 3D model.
 
 <video autoplay loop muted controls >
   <source src="img/architecture-kit.mp4" type="video/mp4">
@@ -28,10 +28,6 @@ Invite people to meet in your new space by publishing your content to Hubs immed
 ![Screenshot of Spoke](img/intro-spoke-screenshot-min.jpeg)
 
 
-## Get started 
+## Getting started 
 
-To start building custom VR scenes try out Spoke's [interactive tutorial](https://hubs.mozilla.com/spoke/projects/tutorial) or check out the [documentation](./spoke-creating-projects).
-
-
-
-
+To build your first custom 3D environments check out Spoke's [interactive tutorial](https://hubs.mozilla.com/spoke/projects/tutorial) or take a look at the [Spoke documentation](./spoke-creating-projects).

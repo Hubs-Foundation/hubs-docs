@@ -3,44 +3,35 @@ id: spoke-architecture-kit
 title: Architecture Kit
 ---
 
+With the launch of the Architecture Kit, creators now have an additional way to build custom content for their 3D scenes without using an external tool. The Architecutre Kit is designed to make it easier to take existing components that have already been optimized for VR and make it easy to configure those pieces to create original models and scenes. 
 
-## This page is under development 
-<!-- 
-## What is it for
-the architecture kit is used 
-We first talked about the components of the Architecture Kit back in March. With the Architecture Kit, creators now have an additional way to build custom content for their 3D scenes without using an external tool. Specifically, we wanted to make it easier to take existing components that have already been optimized for VR and make it easy to configure those pieces to create original models and scenes. The Architecture Kit contains over 400 different pieces that are designed to be used together to create buildings - the kit includes wall, floor, ceiling, and roof pieces, as well as windows, trim, stairs, and doors. 
-
-We wanted the Architecture Kit to be configurable beyond just the meshes. Buildings exist in a variety of contexts, so different pieces of the Kit can have one or more material slots with unique textures and materials that can be applied. This allows you to customize a wall with a window trim to have, for example, a brick wall and a wood trim. You can choose from the built-in textures of the Architecture Kit pieces directly in Spoke, or download the entire kit from GitHub.
+This kit contains over 400 different pieces that are designed to be used together to create buildings - the collection includes wall, floor, ceiling, and roof pieces, as well as windows, trim, stairs, and doors. 
 
 ![Hubs Image](img/CoastalCliffHouseShot1.jpg)
 
-## Architecture Kit Components
+## How to use the architecture kit
 
-* floor
-* platform
-* door
-* wall
-* window
-* trim
-* roof
-* pillar
-* rail
-* stairs
-* ceiling 
-* gothic
+Head to [Spoke](https://hubs.mozilla.com/spoke) and start a new project. In the asset panel, find the section labeled "Architecture Kit."
 
+![Spoke Properties Panel](img/spoke-architecture-kit-asset-panel.png)
 
-## connecting to the grid, how to change the grid 
+Drag and drop the components from the asset panel into your scene. Change the texture material in the object's properties panel. 
 
-## Architecture Kit Pieces
-Spoke has a kit of over 400 architectural pieces you can use to create your own wolds, see the [architecture kit page]() for more information. 
+![Spoke Properties Panel](img/spoke-architecture-kit-properties-panel.png)
 
+## Making kit pieces double sided
 
-pdf? gif
-
-
-## Tips for using the architecture kit
+After placing objects in the room, you may notice that they dissappear depending on what direction you are looking at the from. This is because all the objects are single sided, which helps improve performance. If you would like to make your wall double sided, copy (ctrl+c, command+c) and paste (ctrl+v, cmmd+v) the object, and then press the Q or E key twice to rotate it 180 degrees. 
 
 ## Adding trim
 
-![Hubs Image](img/CoastalCliffHouseShot2.jpg) -->
+By default kit pieces like walls don't connect in the corners. You might find there is a narrow gap. These spots are are designed to fit trim pieces. 
+
+![Spoke Properties Panel](img/spoke-architecture-kit-trim.png)
+
+## Examples of rooms built with the architecture kit
+
+The following are just a few examples of scenes created using the architecture kid
+* [Hubs Commons](https://hubs.mozilla.com/scenes/T5QUL3L/hubs-commons) 
+* [Catacomb](https://hubs.mozilla.com/scenes/kDTJ34d/catacomb)
+* [Spiral Tower](https://hubs.mozilla.com/scenes/uNVZeKd/spiral-tower)

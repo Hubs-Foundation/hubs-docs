@@ -4,7 +4,8 @@ title: Getting Started with Hubs
 sidebar_label: Getting Started With Hubs 
 ---
 
-In the following guide we'll show you the basics of Hubs!
+
+In the following guide we'll show you the basics of Hubs! (prefer a video? [click here](https://www.youtube.com/watch?v=5QnOsyyebEQ))
 
 To get started, head to [hubs.mozilla.com](https://hubs.mozilla.com/). Make your own room by clicking “Create a Room.” 
 
@@ -14,13 +15,11 @@ To get started, head to [hubs.mozilla.com](https://hubs.mozilla.com/). Make your
   Your browser does not support HTML5 video.
 </video>
 
-🎉 _Congratulations - you now have your very own VR space!_ 
+ <p style="text-align: center; font-style:italic;">🎉 Congratulations - you now have your very own virtual space! 🎉<p>
 
-Your new space is private; no one else can join until you invite them.
+## Enter the Room
 
-## Enter a Room
-
-Before entering, you are in the room's lobby. You can see what's going on inside the room but you can't interact. Entering the room can be a bit different depending on the type of device you are using.
+Before entering, you are in the room's lobby. From here, you can see what's going on inside the room but you can't interact. Entering the room can be a bit different depending on the type of device you are using.
 
 **On a desktop computer?** 
 
@@ -28,36 +27,29 @@ Before entering, you are in the room's lobby. You can see what's going on inside
 
 **On a VR headset or mobile device?** 
 
-* Take a look at the [instructions](./hubs-create-join-rooms.html#enter-the-room) in Hubs' documentation
+* Take a look at the [instructions](./hubs-create-join-rooms.html#enter-the-room) in the Hubs documentation
 
 ## Explore Hubs
 
 ### Look around
 
-Try exploring your new space. On desktop use your **WASD** keys to move around, or use your right mouse button to jump. Rotate your view using the **Q** and **E** keys, or hold down your left mouse button and drag. 
+Try exploring your new space. On desktop use your **WASD**  or arrow keys to move around. You can also press your right mouse button to teleport to a different location. Rotate your view using the **Q** and **E** keys, or hold down your left mouse button and drag. 
 
-For VR and mobile controls see our list of [Hubs controls](hubs-controls).
+For VR and mobile controls see our list of [Hubs controls](hubs-controls.html).
 
 ### User Interface
 
-Take a moment to take a look around the user interface. You can mute your mic, take photos, share your screen, create objects, and more. We'll introduce some of these controls in this guide. For more detailed information check out [Hubs Features](hubs-features) in the documentation.
+Take a moment to take a look around the user interface. You can mute your mic, take photos, share your screen, create objects, and more. We'll introduce the basics of some of these controls in this guide. For more detailed information check out the [Hubs Features](hubs-features.html) section of the documentation.
 
 ![Hubs Image](img/hubs-user-interface.jpeg)
 
 ### Import Media
 
-In Hubs you can import 3D models, images, videos and PDFs from almost anywhere on the web including SketchFab, Google Poly, SoundCloud, YouTube, Twitter, Twitch, Crunchyroll, and more. 
+In Hubs you can import 3D models, images, videos and PDFs from all over the web including SketchFab, Google Poly, SoundCloud, Vimeo, Twitch, Crunchyroll, and more. 
 
-Try searching for media in the Media Browser (the magic wand button at the top of the screen). 
+Try searching for content in the Media Browser (the magic wand button at the top of the screen). 
 
-<video autoplay loop muted controls >
-  <source src="img/import-video-from-browser.mp4" type="video/mp4">
-  <img src="img/intro-hubs-media-browser-min.jpeg" alt="Screenshot of the Media Browser">
-  Your browser does not support HTML5 video.
-</video>
-
-
-You can also add media or by dragging and dropping a file into the room, or pasting a URL to the media (Ctrl+V or Command+V).
+You can also add media or by dragging and dropping a file into the room, or by copying (ctrl+c or command+c) a URL and then pasting it in the room (ctrl+v or command+v).
 
 <video autoplay loop muted controls >
   <source src="img/object-creation.mp4" type="video/mp4">
@@ -66,27 +58,25 @@ You can also add media or by dragging and dropping a file into the room, or past
 
 ### Object Menus
 
-Additional controls for objects, videos, and drawings can be found in the object menu.
+Additional controls for objects, videos, and drawings can be found in their object menus.
 
 To reveal these controls, hover your cursor over the object and press the space bar or tab key on Desktop. 
 
-For VR and mobile controls see our complete list of [Hubs Controls](hubs-controls). 
+For VR and mobile controls see our complete list of [Hubs Controls](hubs-controls.html). 
 
 ![Screenshot of the Object Menu](img/intro-hubs-object-menu-min.jpeg)
 
-### Avatar Menus 
-
-You can open up a menu on users just like on objects. This lets you control their volume or hide them from your view. 
-
-If you are a room moderator you will have extra permissions, like being able to mute the user's mic or temporarily kick them from the room. 
+### Avatar Menus
+You can open up a menu on users just like on objects. This lets you control their volume or hide them from your view.
+If you are a room owner or moderator you will have extra permissions, like being able to mute the user's mic or temporarily kick them from the room. 
 
 ![Screenshot of the Avatar Menu](img/intro-hubs-avatar-menu-min.jpeg)
 
 ### Change the Scene
 
-Hubs' isn't limited to the default environment, there are lots of scenes to choose from. You can also create your own custom worlds using our scene editor [Spoke](intro-spoke). Open the scene browser by opening the dropdown menu and selecting Choose a Scene.
+You can change your scene to suit the mood of your event. There are lots of environments to choose from in our scene database, or you can create your own custom worlds using our scene editor [Spoke](intro-spoke.html). Explore the scene browser by opening the dropdown menu and selecting Choose a Scene.
 
-Note, only room moderators can change the scene, and you will need to be logged in to Hubs. To sign up, all you need is an email address for authentication. Signing up is optional, but comes with other benefits such as being able to save favorite rooms, and upload custom avatars.  
+Note, only room moderators can change the scene. You also need to be sign in using your email address. Logging in is not required to use Hubs but comes with other benefits such as being able to save favorite rooms, and upload custom avatars. All we need is an email address to authenticate your account - no additional information is required.   
 
 <video autoplay loop muted controls >
   <source src="img/change-the-scene.mp4" type="video/mp4">
@@ -96,11 +86,13 @@ Note, only room moderators can change the scene, and you will need to be logged 
 
 ## Invite Friends 
 
-Now the fun begins!
+Your new space is private, and no one else can join until you invite them. 
 
-When you are ready to invite others click the "Share" button at the top of your screen. Copy the room URL or hubs.link code and send it to your friends. 
+When you are ready to invite others click the "Share" button at the top of your screen. Copy the room URL or shortlink code and send it to your friends. 
 
 ![Screenshot of the Share pop-up](img/intro-hubs-share-popup-min.jpeg)
 
 ## Next Steps
-This is just a quick introductions to some of Hubs' basic features. For a detailed overview of what you can do in Hubs check out [Hubs Features](hubs-features) in the documentation.
+This is just a quick overview of some of Hubs' basic features. For a detailed overview of what you can do in Hubs check out [Hubs Features](hubs-create-join-rooms.html) in the documentation.
+
+
