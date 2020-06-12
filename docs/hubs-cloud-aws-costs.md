@@ -1,9 +1,10 @@
 ---
 id: hubs-cloud-aws-costs
 title: AWS Cost Information
-sidebar_label: Cost Information
+sidebar_label: Costs and Minimizing Costs Information
 ---
 
+This explains the costs
 Hubs Cloud Cost Quick Reference
 
 Minimizing Costs Primer
@@ -16,15 +17,13 @@ Cost breakdown
 
 - Detailed factors for Hubs Cloud
 
-Your primary costs will be the EC2 instances you use, the serverless hourly database costs, EFS storage, and, if you do not switch to Cloudflare, data transfer costs.
-
 ## How do costs work for Hubs Cloud?
 
 Your primary costs will be the EC2 AWS Server types you use hourly, the serverless hourly database costs, EFS storage, and, if you do not switch to Cloudflare, data transfer costs.
 
 EC2 instances, while "Online", will cost the [minimum cost](./hubs-cloud-aws-estimated-cost-charts.md#estimated-cost-charts) per hour per server for your instance AWS server type [(?)](./hubs-cloud-aws-estimated-cost-charts.md#aws-server-type-recommendations). This minimum cost is hourly regardless of how many people connect at a time. You can manually turn off your EC2 instance + database via turning on [**Offline mode**](./hubs-cloud-aws-estimated-cost-charts.md#offline-mode---manual) where no one can connect to your server at the time.
 
-Database costs is the largest factor, you can set [**database pausing**](./hubs-cloud-aws-estimated-cost-charts.md#database-pausing---automatic) on to stop costs incurring when no one is connected.
+Database costs is the largest factor next to EC2 instance, you can set [**database pausing**](./hubs-cloud-aws-estimated-cost-charts.md#database-pausing---automatic) on to stop costs incurring when no one is connected.
 
 [See our (Alpha) Cost Charts for more information on AWS Server Types and Minimum EC2 Costs.](./hubs-cloud-aws-estimated-cost-charts.md#estimated-cost-charts)
 
@@ -32,16 +31,16 @@ Database costs is the largest factor, you can set [**database pausing**](./hubs-
 
 ## Factors creating AWS cost estimates
 
-Your hub is designed to minimize AWS costs. Your primary costs will be:\*\*
+Your hub is designed to minimize AWS costs. Your primary costs will be:
 
-- AWS Server Type on AWS EC2
+- AWS Server Type on AWS EC2 instances
 - Number of servers
 - Database usage
 - Storage for 3D assets for scenes and avatars
 - Data transfer costs
 - Domain costs ($1 per domain/mo.) + $0.40/mo for the database secrets
 
-## Factors in detail
+## Detailed Breakdown
 
 As you use your hub, you will see AWS costs:
 

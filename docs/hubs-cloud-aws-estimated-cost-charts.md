@@ -1,14 +1,14 @@
 ---
 id: hubs-cloud-aws-estimated-cost-charts
-title: AWS Estimated Costs and Cost Charts (Alpha)
-sidebar_label: Estimated Costs and Charts (Alpha)
+title: AWS Estimating Costs and Cost Charts (Alpha)
+sidebar_label: Estimating Costs and Charts (Alpha)
 ---
 
 **Minimizing Costs Primer**
 
 - How do costs work for Hubs Cloud?
-- Minimizing costs - Settings in stack template
 - Minimizing costs - Recommended user story
+- Minimizing costs - Settings in stack template
 - Best Accuracy Cost Estimate - use AWS Cost Explorer
 
 **What AWS Server Type should I use?**
@@ -17,11 +17,11 @@ sidebar_label: Estimated Costs and Charts (Alpha)
 - To calculate CCU or concurrent users?
 - Cost Charts per Server Type (Alpha)
 
-**Detailed Cost breakdown**
+**Estimating Cost breakdown**
 
 - Best Accuracy Cost Estimate - use AWS Cost Explorer
 - The AWS Tech Stack in detail
-- Estimate the cost of your event
+- Calculate and estimate the cost of your event
 
 Your primary costs will be the EC2 instances you use, the serverless hourly database costs, EFS storage, and, if you do not switch to Cloudflare, data transfer costs.
 
@@ -60,6 +60,8 @@ Or you can see our AWS Calculator estimates for a [Single Server, Personal](http
 Our recommendation to minimize costs for automatic settings is to turn [**database pausing**](./hubs-cloud-aws-estimated-cost-charts.md#database-pausing---automatic) on by default. When no one is using your hub, turn your hub to [**Offline mode**](./hubs-cloud-aws-estimated-cost-charts.md#offline-mode---manual) or a small instance type like **t3.medium**. Also use a Cloudflare worker as your content CDN.
 
 ### Before your event: Development
+
+Your event
 
 ### Before your event: 1.5 hours
 
