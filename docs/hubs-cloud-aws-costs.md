@@ -4,18 +4,34 @@ title: AWS Cost Information
 sidebar_label: Costs and Minimizing Costs Information
 ---
 
-This explains the costs
-Hubs Cloud Cost Quick Reference
+This document explains how Hubs Cloud costs work and how to minimize costs for your stack.
 
-Minimizing Costs Primer
+If you'd like to estimate the costs for your event:
+
+- Best Accuracy Cost Estimate - use AWS Cost Explorer
+- Calculate and estimate the cost of your event
+- Recommended Server Types
+
+See our [Estimating Costs and Charts (Alpha)](./hubs-cloud-aws-estimated-cost-charts.md) page.
+
+**Minimizing Costs Primer**
 
 - How do costs work for Hubs Cloud?
-- Minimizing cost settings via stack template
-- Minimizing costs - a user story
+- Minimizing costs - Recommended user story
+- Minimizing costs - Settings in stack template
+- Best Accuracy Cost Estimate - use AWS Cost Explorer
 
-Cost breakdown
+**What AWS Server Type should I use?**
 
-- Detailed factors for Hubs Cloud
+- Recommended Server Types
+- To calculate CCU or concurrent users?
+- Cost Charts per Server Type (Alpha)
+
+**Estimating Cost breakdown**
+
+- Best Accuracy Cost Estimate - use AWS Cost Explorer
+- The AWS Tech Stack in detail
+- Calculate and estimate the cost of your event
 
 ## How do costs work for Hubs Cloud?
 
@@ -60,3 +76,62 @@ To roughly estimate your costs, check out our [Estimated Cost Charts (alpha)](./
 To more accurately predict future costs use [AWS Cost Explorer for your instance](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ce-what-is.html).
 
 Or you can see our AWS Calculator estimates for a [Single Server, Personal](https://calculator.s3.amazonaws.com/index.html#r=IAD&key=files/calc-780fd694890a75cdb1b295a77845c3ecb31ba889&v=ver20191121vC) deployment and a [Multi-Server, Enterprise](https://calculator.s3.amazonaws.com/index.html#r=IAD&key=files/calc-c29e6ec8edcd38e7bd01b3e9284863f4f5fed318&v=ver20191121vC) deployment.
+
+## Minimize your Costs - A User Story
+
+Our recommendation to minimize costs for automatic settings is to turn [**database pausing**](./hubs-cloud-aws-estimated-cost-charts.md#database-pausing---automatic) on by default. When no one is using your hub, turn your hub to [**Offline mode**](./hubs-cloud-aws-estimated-cost-charts.md#offline-mode---manual) or a small instance type like **t3.medium**. Also use a Cloudflare worker as your content CDN.
+
+### Before your event: Development
+
+For development with only a few users connecting + setting rooms + scenes, we recommend at least a **t3.medium** instance [(?)](./hubs-cloud-aws-estimated-cost-charts.md#aws-server-type-recommendations). When not in use, set your instance to [**Offline mode**](./hubs-cloud-aws-estimated-cost-charts.md#offline-mode---manual). Then switch back to Online when beginning development again.
+
+### Before your event: 1.5 hours
+
+If your instance is in [**Offline mode**](./hubs-cloud-aws-estimated-cost-charts.md#offline-mode---manual), manually update the stack to **Online** and wait 10 minutes.
+
+After, at least 1 hour before event, manually update the stack to scale up your AWS Server Type. For example 1 hour before your event, [update the stack](./hubs-cloud-aws-updating-the-stack.md) from a **t3.medium** to **c4.large** [(?)](./hubs-cloud-aws-estimated-cost-charts.md#aws-server-type-recommendations).
+
+### During your event
+
+If you notice performance issues, you can ad hoc [update the stack](./hubs-cloud-aws-updating-the-stack.md) up more from a **c4.large** to **c5.2xlarge** [(?)](./hubs-cloud-aws-estimated-cost-charts.md#aws-server-type-recommendations) without problems.
+
+### After your event
+
+Scale down your AWS Server Type by [updating the stack](./hubs-cloud-aws-updating-the-stack.md) from the **c5.2xlarge** to **t3.medium** [(?)](./hubs-cloud-aws-estimated-cost-charts.md#aws-server-type-recommendations) when finished or there are less users connected.
+
+### When no one is connecting to your instance for a long time
+
+You can turn your hub to [**Offline mode**](./hubs-cloud-aws-estimated-cost-charts.md#offline-mode---manual) where no one can connect to your hub or a redirect URL, if specified. Via **Offline mode** all costs except for asset storage like backups, scenes, and avatars are \$0.
+
+## Stack Cost Management Options
+
+- Enable **Auto-Pause Database**. On by default for Personal and settable by Enterprise.
+- Toggle **Offline mode** to "Online" to "Offline" manually. Your EC2 and database costs will be \$0/hour when you've turned your servers off.
+- Set **Account Monthly Database Budget**
+- Enable Content CDN to Cloudflare workers
+
+### Database Pausing - automatic
+
+If **Auto-Pause Database** or **database pausing** is "Yes - Pause database when not in use", after no one has connected to your instance for a while, your database and the costs incurred by your database will stop until a user connects again. It takes 1-3 minutes for the database to turn back on and allow the first user to connect. Subsequent connections will occur quickly afterward.
+
+### Offline Mode - manual
+
+When you set **Offline mode** to "Offline", you've completely turned off your servers and stopped all EC2 costs + database costs. You're still paying for storage for your backups and data. No one can connect to your hub while your servers are "Offline". While "Offline," your hubs instance will redirect you to the specified offline url.
+
+Turning **Offline mode** to "Offline" to "Online" and vice versa is a manual process. Wait 10 minutes afterward to connect.
+
+### Monthly Database Budget - automatic
+
+Careful with the **Monthly Database Budget** setting, we recommend $0 (unlimited) or at least $20 or more. If costs hit your set database budget (set other than \$0), your database will forcibly shut off for the month. This allows no surprise costs for the cost sensitive.
+
+Personal and Enterprise defaults to \$0 (unlimited).
+
+### Change content CDN to Cloudflare Workers - 1 time update
+
+With a fresh stack, you're using AWS's Content CDN, which is relatively expensive. You can change to use Cloudflare workers for Content CDN.
+
+To enable Cloudflare workers, in your hub Admin Panel > "Content CDN" menu > Follow instructions to enable Cloudflare workers. (WARNING - DO NOT CHANGE NAMESERVERS FOR YOUR HUB AND DO NOT ADD YOUR SITE TO CLOUDFLARE)
+
+## Estimating your costs
+
+See our See our [Estimating Costs and Charts (Alpha)](./hubs-cloud-aws-estimated-cost-charts.md) page.
