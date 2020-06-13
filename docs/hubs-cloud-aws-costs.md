@@ -16,34 +16,21 @@ See our [Estimating Costs and Charts (Alpha)](./hubs-cloud-aws-estimated-cost-ch
 
 **Minimizing Costs Primer**
 
-- How do costs work for Hubs Cloud?
-- Minimizing costs - Recommended user story
-- Minimizing costs - Settings in stack template
-- Best Accuracy Cost Estimate - use AWS Cost Explorer
-
-**What AWS Server Type should I use?**
-
-- Recommended Server Types
-- To calculate CCU or concurrent users?
-- Cost Charts per Server Type (Alpha)
-
-**Estimating Cost breakdown**
-
-- Best Accuracy Cost Estimate - use AWS Cost Explorer
-- The AWS Tech Stack in detail
-- Calculate and estimate the cost of your event
+- [How do costs work for Hubs Cloud?](./hubs-cloud-aws-costs.md#how-do-costs-work-for-hubs-cloud)
+- [Minimizing costs - Recommended user story](./hubs-cloud-aws-costs.md#minimize-your-costs---a-user-story)
+- [Minimizing costs - Settings in stack template](./hubs-cloud-aws-costs.md#stack-cost-management-options)
 
 ## How do costs work for Hubs Cloud?
 
 Your primary costs will be the EC2 AWS Server types you use hourly, the serverless hourly database costs, EFS storage, and, if you do not switch to Cloudflare, data transfer costs.
 
-EC2 instances, while "Online", will cost the [minimum cost](./hubs-cloud-aws-estimated-cost-charts.md#estimated-cost-charts) per hour per server for your instance AWS server type [(?)](./hubs-cloud-aws-estimated-cost-charts.md#aws-server-type-recommendations). This minimum cost is hourly regardless of how many people connect at a time. You can manually turn off your EC2 instance + database via turning on [**Offline mode**](./hubs-cloud-aws-estimated-cost-charts.md#offline-mode---manual) where no one can connect to your server at the time.
+EC2 instances, while "Online", will cost the [minimum cost](./hubs-cloud-aws-estimated-cost-charts.md#estimated-cost-charts) per hour per server for your instance AWS server type [(?)](./hubs-cloud-aws-estimated-cost-charts.md#aws-server-type-recommendations). This minimum cost is hourly regardless of how many people connect at a time. You can manually turn off your EC2 instance + database via turning on [**Offline mode**](./hubs-cloud-aws-costs.md#offline-mode---manual) where no one can connect to your server at the time.
 
-Database costs is the largest factor next to EC2 instance, you can set [**database pausing**](./hubs-cloud-aws-estimated-cost-charts.md#database-pausing---automatic) on to stop costs incurring when no one is connected.
+Database costs is the largest factor next to EC2 instance, you can set [**database pausing**](./hubs-cloud-aws-costs.md#database-pausing---automatic) on to stop costs incurring when no one is connected.
 
 [See our (Alpha) Cost Charts for more information on AWS Server Types and Minimum EC2 Costs.](./hubs-cloud-aws-estimated-cost-charts.md#estimated-cost-charts)
 
-[For minimizing your costs, see our Minimize your Hubs Cloud Costs - A User Story](./hubs-cloud-aws-estimated-cost-charts.md#minimize-your-hubs-cloud-costs---a-user-story)
+[For minimizing your costs, see our Minimize your Hubs Cloud Costs - A User Story](./hubs-cloud-aws-costs.md#minimize-your-hubs-cloud-costs---a-user-story)
 
 ## Factors creating AWS cost estimates
 
@@ -79,15 +66,15 @@ Or you can see our AWS Calculator estimates for a [Single Server, Personal](http
 
 ## Minimize your Costs - A User Story
 
-Our recommendation to minimize costs for automatic settings is to turn [**database pausing**](./hubs-cloud-aws-estimated-cost-charts.md#database-pausing---automatic) on by default. When no one is using your hub, turn your hub to [**Offline mode**](./hubs-cloud-aws-estimated-cost-charts.md#offline-mode---manual) or a small instance type like **t3.medium**. Also use a Cloudflare worker as your content CDN.
+Our recommendation to minimize costs for automatic settings is to turn [**database pausing**](./hubs-cloud-aws-costs.md#database-pausing---automatic) on by default. When no one is using your hub, turn your hub to [**Offline mode**](./hubs-cloud-aws-costs.md#offline-mode---manual) or a small instance type like **t3.medium**. Also use a Cloudflare worker as your content CDN.
 
 ### Before your event: Development
 
-For development with only a few users connecting + setting rooms + scenes, we recommend at least a **t3.medium** instance [(?)](./hubs-cloud-aws-estimated-cost-charts.md#aws-server-type-recommendations). When not in use, set your instance to [**Offline mode**](./hubs-cloud-aws-estimated-cost-charts.md#offline-mode---manual). Then switch back to Online when beginning development again.
+For development with only a few users connecting + setting rooms + scenes, we recommend at least a **t3.medium** instance [(?)](./hubs-cloud-aws-estimated-cost-charts.md#aws-server-type-recommendations). When not in use, set your instance to [**Offline mode**](./hubs-cloud-aws-costs.md#offline-mode---manual). Then switch back to Online when beginning development again.
 
 ### Before your event: 1.5 hours
 
-If your instance is in [**Offline mode**](./hubs-cloud-aws-estimated-cost-charts.md#offline-mode---manual), manually update the stack to **Online** and wait 10 minutes.
+If your instance is in [**Offline mode**](./hubs-cloud-aws-costs.md#offline-mode---manual), manually update the stack to **Online** and wait 10 minutes.
 
 After, at least 1 hour before event, manually update the stack to scale up your AWS Server Type. For example 1 hour before your event, [update the stack](./hubs-cloud-aws-updating-the-stack.md) from a **t3.medium** to **c4.large** [(?)](./hubs-cloud-aws-estimated-cost-charts.md#aws-server-type-recommendations).
 
@@ -101,7 +88,7 @@ Scale down your AWS Server Type by [updating the stack](./hubs-cloud-aws-updatin
 
 ### When no one is connecting to your instance for a long time
 
-You can turn your hub to [**Offline mode**](./hubs-cloud-aws-estimated-cost-charts.md#offline-mode---manual) where no one can connect to your hub or a redirect URL, if specified. Via **Offline mode** all costs except for asset storage like backups, scenes, and avatars are \$0.
+You can turn your hub to [**Offline mode**](./hubs-cloud-aws-costs.md#offline-mode---manual) where no one can connect to your hub or a redirect URL, if specified. Via **Offline mode** all costs except for asset storage like backups, scenes, and avatars are \$0.
 
 ## Stack Cost Management Options
 
