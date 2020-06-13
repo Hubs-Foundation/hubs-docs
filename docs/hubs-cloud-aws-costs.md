@@ -62,8 +62,6 @@ To roughly estimate your costs, check out our [Estimated Cost Charts (alpha)](./
 
 To more accurately predict future costs use [AWS Cost Explorer for your instance](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ce-what-is.html).
 
-Or you can see our AWS Calculator estimates for a [Single Server, Personal](https://calculator.s3.amazonaws.com/index.html#r=IAD&key=files/calc-780fd694890a75cdb1b295a77845c3ecb31ba889&v=ver20191121vC) deployment and a [Multi-Server, Enterprise](https://calculator.s3.amazonaws.com/index.html#r=IAD&key=files/calc-c29e6ec8edcd38e7bd01b3e9284863f4f5fed318&v=ver20191121vC) deployment.
-
 ## Minimize your Costs - A User Story
 
 Our recommendation to minimize costs for automatic settings is to turn [**database pausing**](./hubs-cloud-aws-costs.md#database-pausing---automatic) on by default. When no one is using your hub, turn your hub to [**Offline mode**](./hubs-cloud-aws-costs.md#offline-mode---manual) or a small instance type like **t3.medium**. Also use a Cloudflare worker as your content CDN.
@@ -80,7 +78,7 @@ After, at least 1 hour before event, manually update the stack to scale up your 
 
 ### During your event
 
-If you notice performance issues, you can ad hoc [update the stack](./hubs-cloud-aws-updating-the-stack.md) up more from a **c4.large** to **c5.2xlarge** [(?)](./hubs-cloud-aws-estimated-cost-charts.md#aws-server-type-recommendations) without problems.
+If you notice performance issues, you can ad hoc [update the stack](./hubs-cloud-aws-updating-the-stack.md) up more from a **c4.large** to **c5.2xlarge** [(?)](./hubs-cloud-aws-estimated-cost-charts.md#aws-server-type-recommendations). Your users in the rooms will have a brief freeze/voice drop while the users roll to the new servers.
 
 ### After your event
 
