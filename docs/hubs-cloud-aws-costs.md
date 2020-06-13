@@ -119,4 +119,4 @@ To enable Cloudflare workers, in your hub Admin Panel > "Content CDN" menu > Fol
 
 ## Estimating your costs
 
-See our See our [Estimating Costs and Charts (Alpha)](./hubs-cloud-aws-estimated-cost-charts.md) page.
+See our [Estimating Costs and Charts (Alpha)](./hubs-cloud-aws-estimated-cost-charts.md) page.
