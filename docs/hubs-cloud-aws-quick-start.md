@@ -19,7 +19,7 @@ sidebar_label: AWS Quick Start
 
 ## Deploy your Hubs Cloud Stack
 
-If you'd prefer a video tutorial, follow along to deploying your stack.
+If you'd prefer a video tutorial, follow along to [Setting Up Hubs Cloud](https://www.youtube.com/watch?v=MyGJ0s4XjTA) deploying your stack.
 
 1. Go to https://hubs.mozilla.com/cloud and choose which Hubs Cloud product to deploy
 2. Click "Continue to Subscribe" on Hubs Cloud Personal aws Marketplace page
