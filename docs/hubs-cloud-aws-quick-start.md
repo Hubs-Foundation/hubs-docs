@@ -22,28 +22,32 @@ sidebar_label: AWS Quick Start
 If you'd prefer a video tutorial, follow along to [Setting Up Hubs Cloud](https://www.youtube.com/watch?v=MyGJ0s4XjTA) deploying your stack.
 
 1. Go to https://hubs.mozilla.com/cloud and choose which Hubs Cloud product to deploy
-2. Click "Continue to Subscribe" on Hubs Cloud Personal aws Marketplace page
-3. Click "Continue to Configuration"
-4. Select your desired "Region" or in Enterprise select your desired "Delivery Method" then your "Region"
-5. Click "Continue to Launch"
-6. Change "Select a launch action" dropdown to "Launch CloudFormation" then click "Launch"
-7. Select "Next" in bottom right corner of the "Create stack" or "Specify template" page
+2. Click **"Continue to Subscribe"** on Hubs Cloud Personal AWS Marketplace page
+3. Click **"Continue to Configuration"**
+4. Select your desired **"Region"**
+   - For Enterprise select your desired **"Delivery Method"**:
+     - **"Multi-server"**
+     - **"Single Server"**
+   - Then your desired **"Region"**
+5. Click **"Continue to Launch"**
+6. Change **"Select a launch action"** dropdown to **"Launch CloudFormation"** then click **"Launch"**
+7. Select **"Next"** in bottom right corner of the **"Create stack"** or **"Specify template"** page
 8. In specify stack details:
-   - Name your stack, something like: "your-hub-name-1"
+   - Name your stack, something like: **"your-hub-name-1"**
    - Account Configuration Administrator Email Address
      - NO CAPITALIZED LETTERS
      - The admin for your hub
-   - For these parameters use [Domain Recipes](./hubs-cloud-aws-domain-recipes.md) for guidance: Site Domain Name, Site is Set Up On Route 53, Internal Domain, Short Link Domain, Outgoing Email Domain, and Outgoing Email Subdomain Prefix
+   - For these parameters use [Domain Recipes](./hubs-cloud-aws-domain-recipes.md) for guidance: `Site Domain Name`, `Site is Set Up On Route 53`, `Internal Domain`, `Short Link Domain`, `Outgoing Email Domain`, and `Outgoing Email Subdomain Prefix`
      - Double check for no typos!
-   - Choose your `KeyPair` from step 4
+   - Choose your `KeyPair` from Before Creating the Stack: Step 4
    - If you are using an existing domain not on AWS Route 53, you'll need to perform a few extra steps - See [Using an existing domain](./hubs-cloud-aws-existing-domain.md)
    - Choose a setting for `Restrict SSH Access`
    - Review the other options, or keep the defaults. You can update most of these later via a [Stack Update](./hubs-cloud-aws-updating-the-stack.md)
-9. Select "Next"
-10. Agree to terms of service
+9. Select **"Next"**
+10. Agree to Terms of Service checkboxes
 11. Wait 20-30 minutes for the stack to complete deploying
     - Any issues? Check out [AWS Troubleshooting](./hubs-cloud-aws-troubleshooting.md) for solutions to common problems.
-12. Confirm your `Administrator Email Address` in your inbox, it will be confirming your email in N. Virginia
+12. Confirm your `Administrator Email Address` in your inbox, it will be confirming your email in **N. Virginia**
 13. After stack is created, hit your site at your primary domain, wait 20 to 30 seconds
 14. Login with your `Administrator Email Address`
 15. Proceed with the setup process. Documentation can be found in the [Getting Started with Hubs Cloud](./hubs-cloud-getting-started.md) guide.
