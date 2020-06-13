@@ -4,7 +4,7 @@ title: AWS Cost Information
 sidebar_label: Costs and Minimizing Costs Information
 ---
 
-This document explains how Hubs Cloud costs work and how to minimize costs for your stack.
+This document explains how Hubs Cloud costs work. Although your hub is designed to minimize AWS costs as much as possible, we go into detail on how to minimize them even further for your stack.
 
 If you'd like to estimate the costs for your event:
 
@@ -22,7 +22,7 @@ See our [Estimating Costs and Charts (Alpha)](./hubs-cloud-aws-estimated-cost-ch
 
 ## How do costs work for Hubs Cloud?
 
-Your primary costs will be the EC2 AWS Server types you use hourly, the serverless hourly database costs, EFS storage, and, if you do not switch to Cloudflare, data transfer costs.
+We've done our best to minimize costs in the template as much as possible. Your primary costs will be the EC2 AWS Server types you use hourly, the serverless hourly database costs, EFS storage, and, if you do not switch to Cloudflare, data transfer costs.
 
 EC2 instances, while "Online", will cost the [minimum cost](./hubs-cloud-aws-estimated-cost-charts.md#estimated-cost-charts) per hour per server for your instance AWS server type [(?)](./hubs-cloud-aws-estimated-cost-charts.md#aws-server-type-recommendations). This minimum cost is hourly regardless of how many people connect at a time. You can manually turn off your EC2 instance + database via turning on [**Offline mode**](./hubs-cloud-aws-costs.md#offline-mode---manual) where no one can connect to your server at the time.
 
