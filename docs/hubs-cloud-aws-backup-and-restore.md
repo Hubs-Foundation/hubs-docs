@@ -28,7 +28,7 @@ If you are planning on restoring from this backup, before proceeding make sure b
 
 ### Restoring from a backup
 
-To restore from a backup, you will [create a new stack](./hubs-cloud-aws-creating-the-stack.md), and you need to provide the necessary information in the stack creation form in the "Restore from Backup" section. Note that you can only restore backups to stacks in the same region as the original stack, since AWS Backup does not currently support cross-region restores. **Do _not_ perform a stack update to an existing stack to try to restore from a backup** -- this will not work and will likely break things. You **must** create a new stack to restore from a backup.
+To restore from a backup, you will [create a new stack](https://hubs.mozilla.com/cloud), and you need to provide the necessary information in the stack creation form in the "Restore from Backup" section. Note that you can only restore backups to stacks in the same region as the original stack, since AWS Backup does not currently support cross-region restores. **Do _not_ perform a stack update to an existing stack to try to restore from a backup** -- this will not work and will likely break things. You **must** create a new stack to restore from a backup.
 
 If you want to revert an existing stack to data in a backup, you will first need to delete the stack and then create a new one restored from the backup. Deleting the stack is safe once you have confirmed you have a completed database snapshot and a restore point taken at the time you would like to restore to. However, it is suggested you first create a new, separate stack on a different domain from the backup before deleting the old stack, to confirm the backup contains the data you expect it to.
 
