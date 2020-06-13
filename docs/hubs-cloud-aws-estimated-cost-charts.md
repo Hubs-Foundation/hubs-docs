@@ -52,7 +52,7 @@ For development with only a few users connecting + setting rooms + scenes, we re
 
 For any event, we recommend **at least** a **c4.large** instance. Scale up or down ad hoc based on performance.
 
-**We do not recommend using a t3.micro or t3.small because of low memory.**
+**We do not recommend using a t3.micro because of low memory.**
 
 ### Concurrent Users (CCU)
 
@@ -65,7 +65,7 @@ Example: **20 users per room \* 10 rooms = 200 CCU**
 | AWS Server Type                | Estimated CCU\*\* | Minimum (US\$/hr) | ~Avg Use with services (US\$/hr) | ~High Use with services (US\$/hr) |
 | ------------------------------ | ----------------- | ----------------- | -------------------------------- | --------------------------------- |
 | t3.micro _**NOT recommended**_ | 5                 | \$0.024           | \$0.050                          | \$0.098                           |
-| t3.small _**NOT recommended**_ | 10                | \$0.035           | \$0.074                          | \$0.144                           |
+| t3.small        | 10                | \$0.035           | \$0.074                          | \$0.144                           |
 | t3.medium                      | 50                | \$0.056           | \$0.118                          | \$0.230                           |
 | t3.large                       | 50                | \$0.183           | \$0.384                          | \$0.750                           |
 | t3.xlarge                      | 100               | \$0.266           | \$0.559                          | \$1.091                           |
@@ -87,7 +87,7 @@ Example: **20 users per room \* 10 rooms = 200 CCU**
 | AWS Server Type                | Estimated CCU\*\* | Minimum (US\$/hr) | ~Avg Use with services (US\$/hr) | ~High Use with services (US\$/hr) |
 | ------------------------------ | ----------------- | ----------------- | -------------------------------- | --------------------------------- |
 | t3.micro _**NOT recommended**_ | 20                | \$0.096           | \$0.202                          | \$0.298                           |
-| t3.small _**NOT recommended**_ | 40                | \$0.140           | \$0.294                          | \$0.434                           |
+| t3.small        | 40                | \$0.140           | \$0.294                          | \$0.434                           |
 | t3.medium                      | 100               | \$0.224           | \$0.470                          | \$0.694                           |
 | t3.large                       | 300               | \$0.732           | \$1.537                          | \$2.269                           |
 | t3.xlarge                      | 600               | \$1.064           | \$2.234                          | \$3.298                           |
