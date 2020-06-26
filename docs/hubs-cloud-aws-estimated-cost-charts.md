@@ -48,9 +48,13 @@ AWS Server Type costs are from us-east-1 (N. Virginia).
 
 **See Cost Charts BELOW to factor costs with the recommendations.**
 
-For development with only a few users connecting + setting rooms + scenes, we recommend at least a **t3.medium** instance.
+For development with only a few users connecting + setting rooms + scenes, we recommend the **t3.medium** instance. 
+**Note:** This does **not** exclude the **t3.small**, see what works for you. Scale the server type up or down ad hoc via [updating the stack](./hubs-cloud-aws-updating-the-stack.md).
 
-For any event, we recommend **at least** a **c4.large** instance. Scale up or down ad hoc based on performance.
+For an event, we recommend the **c4.large** instance. 
+**Note:** This does **not** exclude any other instances types, see what works for you. Scale the server type up or down ad hoc based on performance via [updating the stack](./hubs-cloud-aws-updating-the-stack.md).
+
+Read the user story for minimizing costs for more minimizing cost information: [Costs and Minimizing Costs Information](./hubs-cloud-aws-costs.md) 
 
 **We do not recommend using a t3.micro because of low memory.**
 
@@ -70,7 +74,7 @@ Example: **20 users per room \* 10 rooms = 200 CCU**
 | t3.large                       | 50                | \$0.183           | \$0.384                          | \$0.750                           |
 | t3.xlarge                      | 100               | \$0.266           | \$0.559                          | \$1.091                           |
 | t3.2xlarge                     | 200               | \$0.433           | \$0.909                          | \$1.775                           |
-| c4.large _**recommended**_     | 50                | \$0.200           | \$0.420                          | \$0.820                           |
+| c4.large                       | 50                | \$0.200           | \$0.420                          | \$0.820                           |
 | c5.large                       | 50                | \$0.185           | \$0.389                          | \$0.759                           |
 | c5.xlarge                      | 100               | \$0.270           | \$0.567                          | \$1.107                           |
 | c5.2xlarge                     | 200               | \$0.440           | \$0.924                          | \$1.804                           |
@@ -92,7 +96,7 @@ Example: **20 users per room \* 10 rooms = 200 CCU**
 | t3.large                       | 300               | \$0.732           | \$1.537                          | \$2.269                           |
 | t3.xlarge                      | 600               | \$1.064           | \$2.234                          | \$3.298                           |
 | t3.2xlarge                     | 1000              | \$1.732           | \$3.637                          | \$5.369                           |
-| c4.large _**recommended**_     | 400               | \$0.800           | \$1.680                          | \$2.480                           |
+| c4.large                       | 400               | \$0.800           | \$1.680                          | \$2.480                           |
 | c5.large                       | 400               | \$0.740           | \$1.554                          | \$2.294                           |
 | c5.xlarge                      | 800               | \$1.080           | \$2.268                          | \$3.348                           |
 | c5.2xlarge                     | 1600              | \$1.760           | \$3.696                          | \$5.456                           |
