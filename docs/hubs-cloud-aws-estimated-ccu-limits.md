@@ -50,13 +50,13 @@ The following table lists measured and estimated CCU for different instance type
 
 **Warning: Napkin Math Ahead**
 
-### Max Active CCU
+### Max Active CCU, single room
 where C = # of vCPU's
 
 **Max Active CCU** = √(~1000 * C)
 
-### Max Inactive CCU w/ X active CCU:
-**Max Inactive CCU** = (**Max In-Room CCU**² - X²) / X
+### Max Inactive CCU w/ X active CCU, single room:
+**Max Inactive CCU** = (**Max Active CCU**² - X²) / X
 
 ### Max rooms w/ 25 active CCU: 
 where C = # of vCPU's
