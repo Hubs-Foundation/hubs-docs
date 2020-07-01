@@ -29,17 +29,17 @@ The following table lists measured and estimated CCU for different instance type
 * **Inactive** indicates user who is either in-lobby or is otherwise not speaking or moving at all while in-room.
  * Inactive in-room users are slightly more expensive than in-lobby users both due to WebRTC handshaking required to establish 2-way communication and "heartbeat" messages that are infrequently sent by the client.
 
-| AWS Instance Type | vCPUs | Max **Active** CCU | Max **Inactive** CCU w/ 25 active CCU | Max **Inactive** CCU w/ 10 active CCU | Max **Server** CCU w/25 active CCU per room |
-|-------------------|------:|-------------------:|--------------------------------------:|--------------------------------------:|--------------------------------------------:|
-| t3.medium         |     2 |                 45 |                                    45 |                                   140 |                                         125 |
-| t3.large          |     2 |                ~45 |                                   ~45 |                                  ~140 |                                        ~125 |
-| t3.xlarge         |     4 |                ~65 |                                   ~90 |                                  ~290 |                                        ~200 |
-| t3.2xlarge        |     8 |                 80 |                                   200 |                                   600 |                                         300 |
-| c4.large          |     2 |                 40 |                                    45 |                                   125 |                                          75 |
-| c5.large          |     2 |                 50 |                                    70 |                                   180 |                                         100 |
-| c5.xlarge         |     4 |                 65 |                                    90 |                                   290 |                                         200 |
-| c5.2xlarge        |     8 |                ~80 |                                  ~200 |                                  ~600 |                                        ~300 |
-| c5.24xlarge       |    96 |               ~100 |                                 ~3200 |                                 ~9600 |                                       ~4600 |
+| AWS Instance Type | vCPUs | Max **Active** CCU per-room | Max **Inactive** CCU w/ 25 active CCU per-room | Max **Inactive** CCU w/ 10 active CCU per-room | Max active **Server** CCU w/25 active CCU per room |
+|-------------------|------:|----------------------------:|-----------------------------------------------:|-----------------------------------------------:|---------------------------------------------------:|
+| t3.medium         |     2 |                          45 |                                             45 |                                            140 |                                                125 |
+| t3.large          |     2 |                         ~45 |                                            ~45 |                                           ~140 |                                               ~125 |
+| t3.xlarge         |     4 |                         ~65 |                                            ~90 |                                           ~290 |                                               ~200 |
+| t3.2xlarge        |     8 |                          80 |                                            200 |                                            600 |                                                300 |
+| c4.large          |     2 |                          40 |                                             45 |                                            125 |                                                 75 |
+| c5.large          |     2 |                          50 |                                             70 |                                            180 |                                                100 |
+| c5.xlarge         |     4 |                          65 |                                             90 |                                            290 |                                                200 |
+| c5.2xlarge        |     8 |                         ~80 |                                           ~200 |                                           ~600 |                                               ~300 |
+| c5.24xlarge       |    96 |                        ~100 |                                          ~3200 |                                          ~9600 |                                              ~4600 |
 
 * **~** indicates that the number is calculated and not measured from benchmarking.
 * c5.24xlarge numbers are **very** theoretical, actual results may vary.
