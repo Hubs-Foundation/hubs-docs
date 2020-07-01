@@ -49,15 +49,15 @@ The following table lists measured and estimated CCU for different instance type
 
 **Warning: Napkin Math Ahead**
 
-### Max In-Room CCU
+### Max Active CCU
 where C = # of vCPU's
 
-**Max In-Room CCU** = √(~1000 * C)
+**Max Active CCU** = √(~1000 * C)
 
-### Max Lobby CCU w/ X in room:
-**Max Lobby CCU** = (**Max In-Room CCU**² - X²) / X
+### Max Inactive CCU w/ X active CCU:
+**Max Inactive CCU** = (**Max In-Room CCU**² - X²) / X
 
-### Max Server CCU w/ max 25 users in-room per room: 
+### Max Server CCU w/ 25 active CCU per room: 
 where C = # of vCPU's
 
 **Max Server CCU** = ~50 * C 
