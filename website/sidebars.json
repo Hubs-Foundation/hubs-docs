@@ -73,7 +73,8 @@
       "hubs-cloud-aws-known-issues",
       "hubs-cloud-aws-architecture",
       "hubs-cloud-aws-costs",
-      "hubs-cloud-aws-estimated-cost-charts"
+      "hubs-cloud-aws-estimated-cost-charts",
+      "hubs-cloud-aws-estimated-ccu-limits"
     ],
     "Hubs Cloud DigitalOcean": ["hubs-cloud-do-quick-start"]
   }
