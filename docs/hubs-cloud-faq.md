@@ -47,6 +47,10 @@ No, you'll need to delete the current stack and remake it with those settings.
 
 Check out our **rough** estimate guide here: [Estimated Cost Charts (alpha)](./hubs-cloud-aws-estimated-cost-charts.md)
 
+## How many users can Hubs Cloud support?
+
+Please see: [AWS Estimated CCU Limits](./hubs-cloud-aws-estimated-ccu-limits.md)
+
 ## Can I use the Mozilla / Hubs logo on my Hubs Cloud site?
 
 Please review our [branding guidelines](./hubs-cloud-branding.md) for information about how the Hubs logos can be used.
