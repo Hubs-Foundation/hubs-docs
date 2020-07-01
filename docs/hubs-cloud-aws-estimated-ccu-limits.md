@@ -16,7 +16,7 @@ There are several factors that currently limit how many users can be on a server
 
 * Various features such as (but not limited to) media uploading, photo/video capture (via the camera tool), and link thumbnail generation, use varying degrees of server resources that may effect CCU limits. 
 
-* The device used by a user may effect their ability to successfully connect to a room. Webkit based browsers (anything on iOS), for example, will hit their own limits past 24 CCU in a room. A lower-end computer may struggle loading/rendering a large number of avatars + additional media in a room in general. This document does not factor in client-side factors, and only concerns itself with server-side limitations.  
+* The device used by a user may affect their ability to successfully connect to a room. Webkit based browsers (anything on iOS), for example, will hit their own limits past 24 CCU in a room. A lower-end computer may struggle loading/rendering a large number of avatars + additional media in a room in general. This document does not factor in client-side factors, and only concerns itself with server-side limitations.  
 
 Please see [AWS Estimating Costs and Cost Charts (Alpha)](./hubs-cloud-aws-estimated-cost-charts.md) for cost estimations.
 
