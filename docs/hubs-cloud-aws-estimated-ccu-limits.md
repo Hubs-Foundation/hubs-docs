@@ -8,8 +8,6 @@ This document explains how to estimate what your Hubs Cloud server's CCU (concur
 
 ## Disclaimer for Estimating CCU Limits
 
-Please see [AWS Estimating Costs and Cost Charts (Alpha)](./hubs-cloud-aws-estimated-cost-charts.md) for cost estimations.
-
 There are several factors that currently limit how many users can be on a server or in a room in a Hubs Cloud instance: 
 
 * Generally speaking, the more **vCPU**'s your instance type has (Please consult [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/)), the more overall CCU it can support.
@@ -20,6 +18,7 @@ There are several factors that currently limit how many users can be on a server
 
 * The device used by a user may effect their ability to successfully connect to a room. Webkit based browsers (anything on iOS), for example, will hit their own limits past 24 CCU in a room. A lower-end computer may struggle loading/rendering a large number of avatars + additional media in a room in general. This document does not factor in client-side factors, and only concerns itself with server-side limitations.  
 
+Please see [AWS Estimating Costs and Cost Charts (Alpha)](./hubs-cloud-aws-estimated-cost-charts.md) for cost estimations.
 
 ## Estimated CCU Table (1 App / 1 Stream server)
 
