@@ -8,7 +8,7 @@ This document explains how to estimate what your Hubs Cloud server's CCU (concur
 
 ## Disclaimer for Estimating CCU Limits
 
-There are several factors that currently limit how many users can be on a server or in a room in a Hubs Cloud instance: 
+There are several factors that currently limit how many users can be on a server or in a room in a Hubs Cloud server: 
 
 * Generally speaking, the more **vCPU**'s your instance type has (Please consult [Amazon EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/)), the more overall CCU it can support.
 
@@ -79,4 +79,4 @@ Using more servers, or "scaling horizontally", will increase overall server CCU 
 At the time of writing this document, app servers are more resource demanding than stream servers (except possibly in cases of high video/screen sharing usage). You may be able to use a smaller instance type for stream servers and maintain relative similar CCU numbers.
 
 ### How do I increase the max user cap in a room?
-From the admin panel, server admins can adjust **Default room size** and **Maximum room size** under "Setup-> App Settings-> Rooms". for rooms created on your Hubs Cloud instance. Room admins may adjust **Room Size** under "Room Settings" to within that range. This only affects the maximum number of users allowed "in-room" and does not currently limit "in-lobby" users. 
+From the admin panel, server admins can adjust **Default room size** and **Maximum room size** under "Setup-> App Settings-> Rooms". Room admins may adjust **Room Size** under "Room Settings" to within that range. This only affects the maximum number of users allowed "in-room" and does not currently limit "in-lobby" users. 
