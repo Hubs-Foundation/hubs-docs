@@ -93,6 +93,6 @@ When you are ready to invite others click the "Share" button at the top of your 
 ![Screenshot of the Share pop-up](img/intro-hubs-share-popup-min.jpeg)
 
 ## Next Steps
-This is just a quick overview of some of Hubs' basic features. For a detailed overview of what you can do in Hubs check out [Hubs Features](hubs-create-join-rooms.html) in the documentation.
+This was just a quick overview of some of Hubs' basic features. For a detailed overview of what you can do in Hubs check out [Hubs Features](hubs-features.html) in the documentation.
 
 
