@@ -5,7 +5,7 @@ sidebar_label: Getting Started With Hubs
 ---
 
 
-In the following guide we'll show you the basics of Hubs! (prefer a video? [click here](https://www.youtube.com/watch?v=5QnOsyyebEQ))
+In the following guide we'll show you the basics of Hubs! (Prefer a video? [Click here](https://www.youtube.com/watch?v=5QnOsyyebEQ).)
 
 To get started, head to [hubs.mozilla.com](https://hubs.mozilla.com/). Make your own room by clicking “Create a Room.” 
 
@@ -19,15 +19,15 @@ To get started, head to [hubs.mozilla.com](https://hubs.mozilla.com/). Make your
 
 ## Enter the Room
 
-Before entering, you are in the room's lobby. From here, you can see what's going on inside the room but you can't interact. Entering the room can be a bit different depending on the type of device you are using.
+Before entering, you are in the room's lobby. From here, you can see and hear what's going on inside the room, and you can only interact with others using text chat. Entering the room can be a bit different depending on the type of device you are using.
 
 **On a desktop computer?** 
 
-* Click "Enter Room" and follow the prompts to select a name/avatar and enable the mic
+* Click "Enter Room" and follow the prompts to select a name/avatar and enable the mic.
 
 **On a VR headset or mobile device?** 
 
-* Take a look at the [instructions](./hubs-create-join-rooms.html#enter-the-room) in the Hubs documentation
+* Take a look at the [instructions](./hubs-create-join-rooms.html#enter-the-room) in the Hubs documentation.
 
 ## Explore Hubs
 
@@ -49,7 +49,7 @@ In Hubs you can import 3D models, images, videos and PDFs from all over the web 
 
 Try searching for content in the Media Browser (the magic wand button at the top of the screen). 
 
-You can also add media or by dragging and dropping a file into the room, or by copying (ctrl+c or command+c) a URL and then pasting it in the room (ctrl+v or command+v).
+You can also add media by dragging and dropping a file into the room, or by copying (ctrl+c or command+c) a URL and then pasting it in the room (ctrl+v or command+v).
 
 <video autoplay loop muted controls >
   <source src="img/object-creation.mp4" type="video/mp4">
@@ -60,7 +60,7 @@ You can also add media or by dragging and dropping a file into the room, or by c
 
 Additional controls for objects, videos, and drawings can be found in their object menus.
 
-To reveal these controls, hover your cursor over the object and press the space bar or tab key on Desktop. 
+To reveal these controls, hover your cursor over the object and press the space bar or tab key on desktop. 
 
 For VR and mobile controls see our complete list of [Hubs Controls](hubs-controls.html). 
 
@@ -76,7 +76,7 @@ If you are a room owner or moderator you will have extra permissions, like being
 
 You can change your scene to suit the mood of your event. There are lots of environments to choose from in our scene database, or you can create your own custom worlds using our scene editor [Spoke](intro-spoke.html). Explore the scene browser by opening the dropdown menu and selecting Choose a Scene.
 
-Note, only room moderators can change the scene. You also need to be sign in using your email address. Logging in is not required to use Hubs but comes with other benefits such as being able to save favorite rooms, and upload custom avatars. All we need is an email address to authenticate your account - no additional information is required.   
+Note, only room moderators can change the scene. You also need to be signed in using your email address. Logging in is not required to use Hubs but doing so provides benefits such as being able to save favorite rooms, and upload custom avatars. All we need is an email address to authenticate your account &mdash; no additional information is required.   
 
 <video autoplay loop muted controls >
   <source src="img/change-the-scene.mp4" type="video/mp4">
@@ -93,6 +93,6 @@ When you are ready to invite others click the "Share" button at the top of your 
 ![Screenshot of the Share pop-up](img/intro-hubs-share-popup-min.jpeg)
 
 ## Next Steps
-This is just a quick overview of some of Hubs' basic features. For a detailed overview of what you can do in Hubs check out [Hubs Features](hubs-create-join-rooms.html) in the documentation.
+This was just a quick overview of some of Hubs' basic features. For a detailed overview of what you can do in Hubs check out [Hubs Features](hubs-features.html) in the documentation.
 
 

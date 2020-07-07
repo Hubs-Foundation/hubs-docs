@@ -11,7 +11,7 @@ Hubs is a virtual collaboration platform that runs in your browser. With Hubs yo
 ## Who is Hubs for?
 Hubs is for anyone who wants to connect with others remotely! It's a great way to bring communities together in a shared virtual space. 
 
-Host a conference, teach a class, showcase art, or just hang out with friends. Hubs makes it easy to connect and share images, videos, 3D models, and more. With Hubs' spatialized audio you can have conversations with everyone together or break out into smaller groups-just like you can in person. 
+Host a conference, teach a class, showcase art, or just hang out with friends. Hubs makes it easy to connect and share images, videos, 3D models, and more. With Hubs' spatialized audio you can have conversations with everyone together or break out into smaller groups &mdash; just like you can in person. 
 
 Hubs works across platforms. Got a VR headset? Awesome! If not, you can use your desktop computer, laptop, tablet, or mobile devices to explore in 2D ([see supported browsers](hubs-create-join-rooms.html#supported-devices--browsers)).
 
