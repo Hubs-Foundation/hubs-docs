@@ -19,7 +19,7 @@ To get started, head to [hubs.mozilla.com](https://hubs.mozilla.com/). Make your
 
 ## Enter the Room
 
-Before entering, you are in the room's lobby. From here, you can see and hear what's going on inside the room but you can't interact. Entering the room can be a bit different depending on the type of device you are using.
+Before entering, you are in the room's lobby. From here, you can see and hear what's going on inside the room, and you can only interact with others using text chat. Entering the room can be a bit different depending on the type of device you are using.
 
 **On a desktop computer?** 
 
