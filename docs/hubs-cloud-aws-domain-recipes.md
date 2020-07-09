@@ -93,7 +93,7 @@ To use an existing email provider, read through our [Using an Existing Email Pro
 
 **Next, specify the following when creating the stack:**
 
-| STACK OPTIONS                       | RECIPE 2                                                                                       |
+| STACK OPTIONS                       | RECIPE 3                                                                                       |
 | ----------------------------------- | ---------------------------------------------------------------------------------------------- |
 | **Site Domain Name**                | `mysite.com` **OR** `hub.mysite.com` + [SSL certificates](./hubs-cloud-aws-existing-domain.md) |
 | **Site is Set Up On Route 53**      | `No`                                                                                           |
