@@ -69,9 +69,14 @@ https://magnetikonline.github.io/markdown-toc-generate/ to generate a table of c
         <td></td>
     </tr>
     <tr>
+        <td>Toggle fly mode</td>
+        <td>G or type <code>/fly</code> in chat
+        <td></td>
+    </tr>
+    <tr>
         <td>Move faster</td>
         <td>Shift</td>
-        <td></td>
+        <td>In conjunction with using other keys to move</td>
     </tr>
     <tr>
         <td>Show menus</td>
@@ -81,6 +86,11 @@ https://magnetikonline.github.io/markdown-toc-generate/ to generate a table of c
     <tr>
         <td>Toggle menus</td>
         <td>Tab</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Toggle UI</td>
+        <td>` (backtick key)</td>
         <td></td>
     </tr>
     <tr>
