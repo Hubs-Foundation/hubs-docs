@@ -4,6 +4,10 @@ title: AWS Troubleshooting
 sidebar_label: AWS Troubleshooting
 ---
 
+# Deployment
+
+# After Deployment
+
 ## You're in the "AWS Sandbox" and people don't receive "magic link" emails
 
 You finished deployment and can access the Hubs Admin console. The Hubs Admin console will also say you're in the "AWS Sandbox." Your stack AWS email service is limited.
@@ -52,7 +56,7 @@ You finished deployment and can access the Hubs Admin console. The Hubs Admin co
 
 You encountered an issue during Hubs Cloud stack deployment. By default, AWS rolls back the changes and deletes the stack.
 
-#### To see the last error event
+#### To see the first error event
 
 1. Navigate to AWS EC2 > Select "Events" Tab on left sidebar
 2. Scroll down the list to any red error(s) in the "Status" column
@@ -104,6 +108,33 @@ And verify you're on 1.1.0 by following the steps in [Check if you're on version
 ## How can I tell I'm on version 1.1.0?
 
 Follow steps in [Check if you're on version 1.1.0](./hubs-cloud-aws-updating-the-stack.html#check-if-youre-on-version-110)
+
+## In my hubs admin panel, I see NetworkError or Not Found page or no data populates in any of the admin menus.
+
+Your account is likely **NOT** an admin! Switch account or check your hub stack parameters for the email address.
+
+**Check Email via Cloudformation Stack**
+
+1. Go to aws Management Console (check your **region**!)
+2. Search and go to Cloudformation
+3. Select Stacks
+4. Select your hub stack - _No stacks? Did you delete it or are you in the wrong region?_
+5. "Parameters" tab
+6. Check "AdminEmailAddress" parameter. Make sure there are no capital letters!
+
+**Check Email in aws Simple Email Service menu (SES)**
+
+1. Go to aws Management Console (heck your **region**!)
+2. Select region **N. Virginia (us-east-1)** for _ALL_ region deploys! in upper right hand corner
+3. Search and go to Simple Email Service
+4. Select "Email Addresses"
+5. One of these listed is your stack's admin email address.
+   - Make sure there's no capital letters!
+   - If your email is not "verified" yet, you need to click on confirmation link amazon sends you.
+
+## What is my hub stack's admin email address?
+
+[See "What is my hub stack's admin email address?"](./hubs-cloud-faq.md#what-is-my-hub-stacks-admin-email-address)
 
 ## Missing a solution?
 

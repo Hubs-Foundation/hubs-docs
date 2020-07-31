@@ -55,6 +55,14 @@ Please see: [AWS Estimated CCU Limits](./hubs-cloud-aws-estimated-ccu-limits.md)
 
 Please review our [branding guidelines](./hubs-cloud-branding.md) for information about how the Hubs logos can be used.
 
+## What is my hub stack's admin email address?
+
+Go to aws Management Console > Cloudformation > Stacks > Select your hub stack > "Parameters" tab > Read "AdminEmailAddress" parameter. Make sure there are no capital letters!
+
+## How do I lockdown my rooms to specific people?
+
+[See Limiting User Access docs](./hubs-cloud-limiting-user-access.md)
+
 ## Don't see your question?
 
 If your question is about Hubs, check out the [Hubs FAQ](./hubs-cloud-faq.md)
