@@ -126,7 +126,7 @@ Your account is likely **NOT** an admin! Switch account or check your hub stack 
 
 **Check Email in aws Simple Email Service menu (SES)**
 
-1. Go to aws Management Console (heck your **region**!)
+1. Go to aws Management Console (check your **region**!)
 2. Select region **N. Virginia (us-east-1)** for _ALL_ region deploys! in upper right hand corner
 3. Search and go to Simple Email Service
 4. Select "Email Addresses"
