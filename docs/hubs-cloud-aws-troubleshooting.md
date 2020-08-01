@@ -109,13 +109,11 @@ We fixed this error with Hubs Cloud version 1.1.0 with an added TURN server. You
 
 And verify you're on 1.1.0 by following the steps in [Check if you're on version 1.1.0](./hubs-cloud-aws-updating-the-stack.html#check-if-youre-on-version-110)
 
-### How can I tell I'm on version 1.1.0?
-
-Follow steps in [Check if you're on version 1.1.0](./hubs-cloud-aws-updating-the-stack.html#check-if-youre-on-version-110)
-
 ### In my hubs admin panel, I see NetworkError or Not Found page or no data populates in any of the admin menus.
 
-Your account is likely **NOT** an admin! Switch account or check your hub stack parameters for the email address.
+Your account is likely **NOT** an admin! Switch account or check your hub stack parameters for the email address below.
+
+#### Then, what is my hub stack's admin email address?
 
 **Check Email via Cloudformation Stack**
 
@@ -136,10 +134,10 @@ Your account is likely **NOT** an admin! Switch account or check your hub stack 
    - Make sure there's no capital letters!
    - If your email is not "verified" yet, you need to click on confirmation link amazon sends you during cloud formation.
 
-### What is my hub stack's admin email address?
+### How can I tell I'm on version 1.1.0?
 
-[See "What is my hub stack's admin email address?"](./hubs-cloud-faq.md#what-is-my-hub-stacks-admin-email-address)
+Follow steps in [Check if you're on version 1.1.0](./hubs-cloud-aws-updating-the-stack.html#check-if-youre-on-version-110)
 
 ## Missing a solution?
 
-Let us know! hubs-support@mozilla.com
+Let us know! hubs@mozilla.com

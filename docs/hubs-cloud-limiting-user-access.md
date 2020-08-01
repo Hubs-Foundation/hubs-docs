@@ -26,7 +26,7 @@ To lockdown your instance, you remove account creation for non-admins and lock y
    2. Select "Features" tab
    3. Enable "Disable account creation"
 4. **Lock your hub to only accounts can access**
-   1. Admin Panel > Setup: App Settings - [\_Not Found page?](./hubs-cloud-aws-troubleshooting.md#in-my-hubs-admin-panel-i-see-networkerror-or-not-found-page-or-no-data-populates-in-any-of-the-admin-menus)
+   1. Admin Panel > Setup: App Settings - [_Not Found page?_](./hubs-cloud-aws-troubleshooting.md#in-my-hubs-admin-panel-i-see-networkerror-or-not-found-page-or-no-data-populates-in-any-of-the-admin-menus)
    2. Select "Rooms" tab
    3. Enable "Require accounts for room access"
 

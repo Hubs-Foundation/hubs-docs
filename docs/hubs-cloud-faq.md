@@ -57,7 +57,7 @@ Please review our [branding guidelines](./hubs-cloud-branding.md) for informatio
 
 ## What is my hub stack's admin email address?
 
-Go to aws Management Console > Cloudformation > Stacks > Select your hub stack > "Parameters" tab > Read "AdminEmailAddress" parameter. Make sure there are no capital letters!
+See ["Check "What is my hubs stack's admin email address?" docs](./hubs-cloud-aws-troubleshooting.md#then-what-is-my-hub-stacks-admin-email-address)
 
 ## How do I lockdown my rooms to specific people?
 
