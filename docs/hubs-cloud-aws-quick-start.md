@@ -50,8 +50,16 @@ If you'd prefer a video tutorial, follow along to [Setting Up Hubs Cloud](https:
 12. Confirm your `Administrator Email Address` in your inbox, it will be confirming your email in **N. Virginia**
 13. After stack is created, hit your site at your primary domain, wait 20 to 30 seconds
 14. Login with your `Administrator Email Address`
-15. Proceed with the setup process. Documentation can be found in the [Getting Started with Hubs Cloud](./hubs-cloud-getting-started.md) guide.
 
-**Any issues deploying?**
+## After Deployment Admin Setup
+
+1. Set up AWS Simple Email Service (SES) in **N. Virginia (us-east-1)** for **_all_** deploy regions to get out of the SES Sandbox [Follow #2 Send request to AWS for limit increase](./hubs-cloud-aws-troubleshooting.md#youre-in-the-aws-sandbox-and-people-dont-receive-magic-link-emails)
+   - For immediate entry to your HC instance, verify individual email addresses [Follow #1 Verify individual email addresses for administrators](./hubs-cloud-aws-troubleshooting.md#youre-in-the-aws-sandbox-and-people-dont-receive-magic-link-emails)
+2. Follow guide in **Admin Panel** > **Content CDN** menu to setup Cloudflare workers to decrease costs
+3. Proceed with process to add scenes and avatars in the [Getting Started with Hubs Cloud](./hubs-cloud-getting-started.md) guide!
+
+**Congrats you've successfully set everything up!**
+
+#### Any issues deploying?
 
 Check out [AWS Troubleshooting](./hubs-cloud-aws-troubleshooting.md) for solutions to common problems.
