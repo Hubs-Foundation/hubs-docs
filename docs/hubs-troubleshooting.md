@@ -69,4 +69,4 @@ YouTube videos don't work reliably in Hubs. We recommend trying Vimeo or saving 
 
 ## Need help with something else?
 
-We have an active Discord Server where you can speak directly to the Hubs team and see what community members are working on. Follow this link to join: [discord.gg/wHmY4nd](discord.gg/wHmY4nd).
+We have an active Discord Server where you can speak directly to the Hubs team and see what community members are working on. Follow this link to join: [discord.gg/wHmY4nd](https://discord.com/invite/wHmY4nd).
