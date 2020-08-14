@@ -25,7 +25,7 @@ To simplify setup, it's highly recommended you transfer any relevant domains to 
 
 ## Recipe 1: Dedicated domain on Route 53
 
-- `myhub.com` **OR subdomain** `hub.myhub.com` connects to your hub
+- `myhub.com` **OR subdomain** `hub.myhub.com` connects to your hub - _Warning! Do not create a new Hosted Zone for `hub.myhub.com` on Route 53! The Cloudformation template will manage the connections on your root domain, `myhub.com`, hosted zone._
 - `myhub.com` is **_NOT_** used for any other purpose or sites
 - `mysite.com` set up on on Route 53 [(?)](./hubs-cloud-aws-domain-recipes.md#is-my-domain-set-up-on-route-53)
 - `anothersubdomain.myhub.com` **_could be_** used for any other purposes or sites
@@ -50,7 +50,7 @@ To simplify setup, it's highly recommended you transfer any relevant domains to 
 
 ## Recipe 2: Domain is in-use, configure subdomain for hub on Route 53
 
-- `hub.mysite.com` connects to your hub
+- `hub.mysite.com` connects to your hub. - _Warning! Do not create a new Hosted Zone for `hub.mysite.com` on Route 53! The Cloudformation template will manage the connections on your root domain, `mysite.com`, hosted zone._
 - `mysite.com` **_IS_** used for other sites or purposes
 - `mysite.com` set up on on Route 53 [(?)](./hubs-cloud-aws-domain-recipes.md#is-my-domain-set-up-on-route-53)
 - `anothersubdomain.myhub.com` **_could be_** used for any other purposes or sites
@@ -59,9 +59,11 @@ To simplify setup, it's highly recommended you transfer any relevant domains to 
 
 **[Set up or purchase 3 domains on Route 53](./hubs-cloud-aws-domain-recipes.md#is-my-domain-set-up-on-route-53)**
 
-1. `mysite.com` - Houses subdomain as Hub site domain name + the other sites or purposes at the root
+1. `mysite.com` - Houses subdomain as Hub site domain name + the other sites or purposes at the root 
 2. `myhub.link` - Short link domain name
 3. `mysite-internal.com` - Internal server domain. This can be any name you want, and will not be seen by users.
+
+**Warning!** Do not create a _new_ Hosted Zone for the subdomain `hub.mysite.com` on Route 53. The Cloudformation template will create CNAME records on the Hosted Zone for your root domain, `mysite.com`, to manage the subdomain connections for you.
 
 **Next, specify the following when creating the stack:**
 
