@@ -32,13 +32,25 @@ Once you are logged in you can start up the local development server with `npm s
 npm start
 ```
 
-After you've made changes to your client's code you can deploy the changes to your Hubs Cloud stack with the `npm run deploy` command. Once that has finished you should see the changes live on your site!
+After you've made changes to your client's code you can deploy the changes to your Hubs Cloud stack with the `npm run deploy` command. Once that has finished you should see the changes live on your site! Please expect the `npm run deploy` command to take a while.
 
 ```bash
 npm run deploy
 ```
 
 > Note: When running a deploy, ensure webpack-dev-server (`npm start`) is **not** running. This may cause conflicts in the build process.
+
+If `npm run deploy` hangs on "Building Admin Console" for more than 20 minutes:
+1. Stop then restart `npm run deploy` (sometimes it takes 2 tries to deploy) 
+2. If it still hangs on "Building Admin Console" you may have a problem building the Admin Console
+
+To test that your admin panel build is working, in your hubs repo root, try:
+
+1. `cd admin` - _be in the admin/ directory_
+2. `npm ci`
+3. `npm run build`
+4. If these commands succeed, try the `npm run deploy` command again.
+5. If these commands fail, try `npm ci` and the `build` commands one more time, then fix the error in your code, then try these commands again.
 
 If at any point you want to revert your Hubs client back to using the Mozilla upstream version of the client, run `npm run undeploy`.
 
