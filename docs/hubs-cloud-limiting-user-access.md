@@ -41,3 +41,7 @@ To lockdown your instance, you remove account creation for non-admins and lock y
 [Learn more about the Discord bot here](./hubs-discord-bot.md)
 
 [Enable the Discord bot for your Hubs Cloud instance](./hubs-cloud-discord-bot.md)
+
+## Room Access Settings
+
+Individual rooms can also limit access via [Room Access Settings](./hubs-room-settings.md#room-access).
