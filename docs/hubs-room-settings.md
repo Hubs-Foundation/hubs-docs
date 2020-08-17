@@ -19,7 +19,11 @@ Note that only featured scenes have been tested for performance across devices. 
 
 To change the name of a room, room moderators can select 'Room Settings' from the dropdown menu and enter a new name.
 
+## Room Access
 
+By default, rooms are set to "Shared link" mode, where room links contain unique, random identifiers. Sharing this link will give anyone access to the room. You can also set the room to "Invite only" mode, which allows you to generate a link with an additional unique, random identifier. Visitors must then use this invite link to access the room, and the invite link can be revoked to deny future access to the room. When an invite link is revoked, a new one is generated in its place. Users who are already in the room will not be removed from it.
+
+Note: You can also switch from "Invite only" mode back to "Shared link" mode. Since "Shared link" mode is less restrictive, it will allow users with previously revoked invite links to access the room. If you want to prevent this, keep the room in "Invite only" mode.
 
 ## Object Permissions
 
