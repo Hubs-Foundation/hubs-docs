@@ -177,7 +177,7 @@ To see how vCPU to CCU Min/Max was estimated see [AWS Estimated CCU Limits](./hu
 | c5.9xlarge                     | 144            | 4,320   | 7,200   | \$6.520                |
 | c5.12xlarge                    | 192            | 5,760   | 9,600   | \$8.560                |
 | c5.18xlarge                    | 288            | 8,640   | 14,400  | \$12.640               |
-| c5.24xlarge                    | 384            | 1,1520  | 19,200  | \$16.720               |
+| c5.24xlarge                    | 384            | 11,520  | 19,200  | \$16.720               |
 
 ## Are these estimates within range for you?
 
