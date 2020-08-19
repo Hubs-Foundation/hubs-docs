@@ -31,18 +31,19 @@ Read the [Recommended User Story in Minimizing Costs Page](./hubs-cloud-aws-cost
 
 ## Rough Calculation for Estimating Costs
 
-Personal # of servers = 1 server
-Enterprise multi-server # of servers = varies, we recommend 2 app x 2 stream = 4 servers
+- **\# of servers** = Personal (1 server), Enterprise multi-server (varies, 2 app x 2 stream = 4 servers)
+- **Scalar**: Estimates other services like RDS, EFS, and Data transfer costs. The **high scalar** can be lower if you are larger instance size, it's a very rough estimate.
+- **NOTE SCALAR**: Both low and high estimates estimate having users connected to instance. High scalar estimates highest capacity and is an _upper bound_. With Cloudflare workers enabled, likely you will not hit this cost as it is for heavy heavy use. Most cost estimate cases are ranged within a scalar range of 2 and 3.
 
-Low cost estimate = # Hours x Cost for EC2 (US\$/hr) x # of servers x 2 (scalar low estimate of other services)
+> **Low estimate (\$)** = **# Hours** x **Cost for EC2 (US\$/hr)** x **# of servers** x **2** (low scalar to estimate other services)
 
-High cost estimate = # Hours x Cost for EC2 (US\$/hr) x # of servers x 5 (scalar high estimate of other services)
+> **High estimate (\$)** = **# Hours** x **Cost for EC2 (US\$/hr)** x **# of servers** x **5** (high scalar to estimate other services)
 
-\+ Use low estimation with smaller EC2 instance to estimate setting up event costs - _[see minimizing costs user story](./hubs-cloud-aws-costs.md#minimize-your-hubs-cloud-costs---a-user-story)_
+> \+ Use low estimation with smaller EC2 instance to estimate setting up event costs - _[see minimizing costs user story](./hubs-cloud-aws-costs.md#minimize-your-hubs-cloud-costs---a-user-story)_
 
-\+ Estimate for setting your stack to offline mode - _[see minimizing costs user story](./hubs-cloud-aws-costs.md#minimize-your-hubs-cloud-costs---a-user-story)_
+> \+ Estimate for setting your stack to offline mode - _[see minimizing costs user story](./hubs-cloud-aws-costs.md#minimize-your-hubs-cloud-costs---a-user-story)_
 
-### Minimize # Hours at top Capacity to Minimize Cost \\\\\\\\\\\\$\\\\\\\\\\\\$\$
+### Minimize # Hours at top Capacity to Minimize Cost
 
 **If you are diligent with decreasing the # of hours at top capacity**, outlined in the [minimizing costs user story](./hubs-cloud-aws-costs.md#minimize-your-hubs-cloud-costs---a-user-story), your event costs can be extremely low especially when comparing an in-person event:
 
@@ -66,15 +67,13 @@ For an event, we recommend the **c4.large** instance.
 
 ### Why Enterprise 2 app x 2 stream?
 
-The reason we recommend using an Enterprise 2x2 multi-server setup is optimizing for resiliency. If one server goes down suddenly, the other will take it's place and your users will not notice.
+**We recommend using an Enterprise 2x2 multi-server setup to optimize for resiliency.** If one server goes down suddenly, the other will take its place without your users noticing.
 
-Scale vertically before scaling horizontally. Horizontal scaling can result in running out of Let's Encrypt Certificates between servers (we've seen this for 12x12 builds).
+**Scale vertically before scaling horizontally.** Horizontal scaling can result in running out of Let's Encrypt Certificates between servers (we've seen this for 12x12 builds).
 
 For very large events 4x4 and 8x8 Enterprise multiserver stacks are recommended.
 
 ### How to read and use Alpha Cost Charts
-
-Below are our estimates to get best performance. Depending on client power (on high power devices (Desktop/VR) vs. low power devices (Mobile)), the performance may vary.
 
 - **vCPU (#)** is defined by the EC2 Server Type see [Amazon EC2 Instance Types Documentation](https://aws.amazon.com/ec2/instance-types/).
 - **CCU Min** - Max CCU for active avatars (lot of avatar movement, talking, at a meetup, etc.)
@@ -82,11 +81,15 @@ Below are our estimates to get best performance. Depending on client power (on h
 - **Cost for EC2 (US\$/hr)** - Cost per hour for running the EC2 instance type in us-east-1 (N. Virginia).
 - Note: t3.micro, t3.small, t3.medium have smaller CCU/vCPU because of past performance experience and lower memory.
 
+Below are our CCU estimates for best performance. Performance may vary depending on client power: high power devices (Desktop/VR) vs. low power devices (Mobile).
+
 Use the [Rough calculation section](****) to get estimates.
 
 To see how vCPU to CCU Min/Max was estimated see [AWS Estimated CCU Limits](./hubs-cloud-aws-estimated-ccu-limits.md).
 
 ### Estimating Personal / Enterprise Costs with 1 server
+
+[How to read and use Alpha Cost Charts](./hubs-cloud-aws-estimated-cost-charts.md#how-to-read-and-use-alpha-cost-charts)
 
 | EC2 Server Type                | vCPU (#) | CCU Min | CCU Max | Cost for EC2 (US\$/hr) |
 | ------------------------------ | -------- | ------- | ------- | ---------------------- |
@@ -103,12 +106,14 @@ To see how vCPU to CCU Min/Max was estimated see [AWS Estimated CCU Limits](./hu
 | c5.4xlarge                     | 16       | 320     | 640     | \$0.780                |
 | c5.9xlarge                     | 36       | 720     | 1,440   | \$1.630                |
 | c5.12xlarge                    | 48       | 960     | 1,920   | \$2.140                |
-| c5.18xlarge                    | 72       | 1440    | 2,880   | \$3.160                |
-| c5.24xlarge                    | 96       | 1920    | 3,840   | \$4.180                |
+| c5.18xlarge                    | 72       | 1,440   | 2,880   | \$3.160                |
+| c5.24xlarge                    | 96       | 1,920   | 3,840   | \$4.180                |
 
 ### Estimating Enterprise Costs for 4 servers
 
-2 app x 2 streaming servers recommended for best performance. [Why?](****)
+2 app x 2 streaming servers recommended for best performance. [Why?](./hubs-cloud-aws-estimated-cost-charts.md#why-enterprise-2-app-x-2-stream)
+
+[How to read and use Alpha Cost Charts](./hubs-cloud-aws-estimated-cost-charts.md#how-to-read-and-use-alpha-cost-charts)
 
 | EC2 Server Type                | Total vCPU (#) | Min CCU | Max CCU | Cost for EC2 (US\$/hr) |
 | ------------------------------ | -------------- | ------- | ------- | ---------------------- |
@@ -117,16 +122,16 @@ To see how vCPU to CCU Min/Max was estimated see [AWS Estimated CCU Limits](./hu
 | t3.medium                      | 8              | 80      | 160     | \$0.224                |
 | t3.large                       | 8              | 240     | 400     | \$0.732                |
 | t3.xlarge                      | 16             | 480     | 800     | \$1.064                |
-| t3.2xlarge                     | 32             | 960     | 1600    | \$1.732                |
+| t3.2xlarge                     | 32             | 960     | 1,600   | \$1.732                |
 | c4.large                       | 8              | 240     | 400     | \$0.800                |
 | c5.large                       | 8              | 240     | 400     | \$0.740                |
 | c5.xlarge                      | 16             | 480     | 800     | \$1.080                |
-| c5.2xlarge                     | 32             | 960     | 1600    | \$1.760                |
-| c5.4xlarge                     | 64             | 1920    | 3200    | \$3.120                |
-| c5.9xlarge                     | 144            | 4320    | 7200    | \$6.520                |
-| c5.12xlarge                    | 192            | 5760    | 9600    | \$8.560                |
-| c5.18xlarge                    | 288            | 8640    | 14400   | \$12.640               |
-| c5.24xlarge                    | 384            | 11520   | 19200   | \$16.720               |
+| c5.2xlarge                     | 32             | 960     | 1,600   | \$1.760                |
+| c5.4xlarge                     | 64             | 1,920   | 3,200   | \$3.120                |
+| c5.9xlarge                     | 144            | 4,320   | 7,200   | \$6.520                |
+| c5.12xlarge                    | 192            | 5,760   | 9,600   | \$8.560                |
+| c5.18xlarge                    | 288            | 8,640   | 14,400  | \$12.640               |
+| c5.24xlarge                    | 384            | 1,1520  | 19,200  | \$16.720               |
 
 ## Are these estimates within range for you?
 
