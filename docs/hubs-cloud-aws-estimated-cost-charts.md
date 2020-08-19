@@ -14,7 +14,7 @@ See our [Costs and Minimizing Costs Information](./hubs-cloud-aws-costs.md) page
 
 ## Disclaimer for Estimating Costs
 
-Estimating costs is extremely difficult because AWS bills by resource usage and everyone uses Hubs differently. Below are **estimates** from our tests and should not be used as a source of truth for your AWS Hubs Cloud costs.
+Estimating costs is difficult because AWS bills by resource usage and everyone uses Hubs differently. Below are **estimates** from our tests and should not be used as a source of truth for your AWS Hubs Cloud costs.
 
 **Are these estimates within range for you?** [Accuracy Assessment Hubs Cloud AWS Cost Charts](https://forms.gle/WD5dQ6k2zEjTkYQR6)
 
