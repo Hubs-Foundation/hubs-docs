@@ -62,3 +62,16 @@ To remove the room from your favorites, open the room and click the star icon ag
 ## Close a Room
 
 When you leave a Hubs room, it remains accessible via URL. You can choose to permanently close the room by selecting 'Close Room' from the dropdown menu. Links and codes to the room will no longer work for anyone, including the room owner. 
+
+## Chat Commands
+
+`/leave` - Disconnect from the room.
+`/grow` - Increase your avatar's size.
+`/shrink` - Decrease your avatar's size
+`/duck` - Add a duck to the room.
+`/debug` - Toggle physics debug rendering.
+`/vrstats` - Toggle stats in VR.
+`/scene <scene url>` - Change the scene.
+`/rename <new name>` - Renmame the room.
+`/fly` - Toggle fly mode.
+`/audiomode` - Toggle positional audio (experimental).
