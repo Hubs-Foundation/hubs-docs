@@ -168,6 +168,11 @@ https://magnetikonline.github.io/markdown-toc-generate/ to generate a table of c
         <td>Ctrl-Enter</td>
         <td>While searching content</td>
     </tr>
+    <tr>
+        <td>Emotes</td>
+        <td>Numbers 1-7</td>
+        <td></td>
+    </tr>
 </table>
 
 ## Oculus Touch Controls

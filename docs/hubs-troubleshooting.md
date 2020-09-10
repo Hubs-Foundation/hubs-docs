@@ -11,6 +11,10 @@ Rooms may have complex 3D models or objects in them which can increase the load 
 
 Choppy sounding audio could indicate that your device/network is having trouble with the complexity of the room. This could be because of the complexity of objects in the scene, or the number of other room members present. If you are on a mobile phone, you may find audio quality and performance improves if you enter the room from a more powerful device, such as a computer. 
 
+## I can't hear someone / someone can't hear me
+
+A connectivity issue may result in one person in the room being unable to hear one or more other participants in a space. We first recommend that you confirm that you can hear other sounds in the room (for example, the sound an object makes when you add it to the room, a video in the room, or the chat sound) and that your Hubs audio preferences aren't set to 0 volume. Also confirm that you are not muted and that you have allowed microphone permissions for Hubs. If you aren't getting any audio at all, try reconnecting to the room with a different audio output device. If you are willing, we also ask that you fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSd_dw8uQN2VjxLcxXmXFzzaJVU8IWXuUAnRJd1kjoB_TohqsA/viewform) with network connectivity logs, which will help us diagnose system issues related to audio and connectivity.
+
 ## Wired-in headset is not working
 
 If your wired-in headset isn't connecting, we recommend checking the following:

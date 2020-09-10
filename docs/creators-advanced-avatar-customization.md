@@ -50,7 +50,7 @@ We offer the following resources if you'd like to modify our base Robot avatar:
 
 * [Exported GLBs](Exported%20GLB%20models)/[Exported OBJ](https://github.com/MozillaReality/hubs-avatar-pipelines/tree/master/Other%20model%20formats) are available if you'd like to bring them into your editor of choice.
 
-We recommend using [Blender 2.8](https://builder.blender.org/download/) for custom models since we have provided example files that you may use as a guide. (Typically, skeleton setup varies between modeling appications which can make importing/exporting skeletons a bit tricky due to unexpected changes in bone rotations, but it is still possible to use something other than Blender.) Note: the .blend files were created with [Blender 2.8](https://builder.blender.org/download/) due to the built-in glTF exporter. The glTF importer/exporter for Blender is currently in development. Expect some bugs and [please report them!](https://github.com/KhronosGroup/glTF-Blender-IO/issues)
+We recommend using [Blender 2.83](https://builder.blender.org/download/) (or whatever the most recent release is) for custom models since we have provided example files that you may use as a guide. (Typically, skeleton setup varies between modeling appications which can make importing/exporting skeletons a bit tricky due to unexpected changes in bone rotations, but it is still possible to use something other than Blender.) Note: the .blend files were created with [Blender 2.8](https://builder.blender.org/download/) due to the built-in glTF exporter. The glTF importer/exporter for Blender is currently in development. Expect some bugs and [please report them!](https://github.com/KhronosGroup/glTF-Blender-IO/issues)
 
 Hubs avatars are meant for VR, which means that you should work in real world units. A typical avatar height is roughly 1.7 meters. Note: This is typically a 'standing height'. The lack of legs shown here is a part of that overall height.
 
@@ -63,7 +63,7 @@ However, in our current implementation in Hubs, we have eliminated some of the b
 
 ### Use a Regular .glb File
 
-You can use any .glb object as an avatar. This could be something you made on your own, or a creative-commons asset from Sketchfab or Google Poly. Sometimes .glb files need a few modifications to work properly as avatars. You may wish to open the object in Blender to fix the object's scale (it should be about 1.7 meters), ensure the object is facing forward, move the object backwards a bit so it doesn't obstruct your view. You might also want to optimize the object using the tips in the [optomizing scenes page](spoke-optimization.html) 
+You can use any .glb object as an avatar. This could be something you made on your own, or a creative-commons asset from Sketchfab or Google Poly. Sometimes .glb files need a few modifications to work properly as avatars. You may wish to open the object in Blender to fix the object's scale (it should be about 1.7 meters), ensure the object is facing forward, move the object backwards a bit so it doesn't obstruct your view. You might also want to optimize the object using the tips in the [optimizing scenes page](spoke-optimization.html) 
 
 ### Upload your own model
 

@@ -55,8 +55,16 @@ Please see: [AWS Estimated CCU Limits](./hubs-cloud-aws-estimated-ccu-limits.md)
 
 Please review our [branding guidelines](./hubs-cloud-branding.md) for information about how the Hubs logos can be used.
 
+## What is my hub stack's admin email address?
+
+See ["Check "What is my hubs stack's admin email address?" docs](./hubs-cloud-aws-troubleshooting.md#then-what-is-my-hub-stacks-admin-email-address)
+
+## How do I lockdown my rooms to specific people?
+
+[See Limiting User Access docs](./hubs-cloud-limiting-user-access.md)
+
 ## Don't see your question?
 
-If your question is about Hubs, check out the [Hubs FAQ](./hubs-cloud-faq.md)
+If your question is about Hubs, check out the [Hubs FAQ](./hubs-cloud-faq.md) or email hubs@mozilla.com.
 
 If your question is about deploying Hubs Cloud to AWS, check out the [AWS Troubleshooting Guide](./hubs-cloud-aws-troubleshooting.md)
