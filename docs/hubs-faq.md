@@ -123,16 +123,16 @@ You can't run custom code in the main Hubs website (hubs.mozilla.com) but you ca
 For more information, see our documentation on [custom clients](./hubs-cloud-custom-clients.html)
 
 ## Can I pay Mozilla to do X, Y, Z?
-It's not possible to pay Mozilla for custom work, however, our code is open source and we welcome external contributors in [GitHub](http://github.com/mozilla/hubs). You can post in the #work-for-hire channel of our Discord if you are interested in paying someone to build something for you.
+It's not possible to pay Mozilla for custom work, however, our code is open source and we welcome external contributors in [GitHub](http://github.com/mozilla/hubs). You can post in the #work-for-hire channel of our [Discord chat server](https://discord.gg/wHmY4nd) if you are interested in paying someone to build something for you.
 
 ## Can I run my virtual event in hubs?
 Yes, check out the information [here](./intro-events.html) for more information on how to get started: 
 
-If you have questions about whether Hubs will be a good fit for your event, drop by our office-hours or meetup to speak to  a member of our team. See our community Discord for the schedule.
+If you have questions about whether Hubs will be a good fit for your event, drop by our office-hours or meetup to speak to  a member of our team. See our community [Discord chat server](https://discord.gg/wHmY4nd) for the schedule.
 
 ## Have you considered adding feature X? 
 
-We keep track of bugs and feature requests in GitHub. If there is a feature you would like, see if someone has already mentioned it in our [list of bugs/feature requests](https://github.com/mozilla/hubs/issues) if you find someone else has already asked for the feature- let us know in a comment that you would like it too. If not, feel free to submit a "feature request." Note, please include as much detail as possible to feature requests to let us know how you see this feature benefiting your use case.
+We keep track of bugs and feature requests in GitHub. If there is a feature you would like, see if someone has already mentioned it in our [list of bugs/feature requests](https://github.com/mozilla/hubs/issues) if you find someone else has already asked for the feature, let us know in a comment that you would like it too. If not, feel free to submit a "feature request." Note, please include as much detail as possible to feature requests to let us know how you see this feature benefiting your use case.
 
 ## Need help with something else?
 
