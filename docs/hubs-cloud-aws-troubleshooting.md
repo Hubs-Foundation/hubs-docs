@@ -142,4 +142,4 @@ Follow steps in [Check if you're on version 1.1.0](./hubs-cloud-aws-updating-the
 
 ## Missing a solution?
 
-Let us know! hubs@mozilla.com
+If you can't find what you need in the rest of the documentation, see the [help page](./help.html) for ways to get in touch.

@@ -25,13 +25,13 @@ This website was created with [Docusaurus](https://docusaurus.io/).
 $ cd website
 
 # Install dependencies
-$ yarn
+$ npm ci
 ```
 2. Run your dev server:
 
 ```sh
 # Start the site
-$ yarn start
+$ npm start
 ```
 
 ### Directory Structure

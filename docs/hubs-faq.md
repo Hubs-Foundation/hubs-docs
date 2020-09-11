@@ -23,7 +23,7 @@ Hubs has the ability to play videos in the room, which allows you to watch with 
 
 ## Where does the chat log go? 
 
-The chat log only exists temporarily. Messages dissappear after a set period of time. We are working on developing chat scrollback. Until this is released, you can also keep track of in-world chat by setting up the [Hubs Discord Bot](hubs-discord-bot.html).
+The chat log only exists temporarily. Messages disappear after a set period of time. We are working on developing chat scrollback. Until this is released, you can also keep track of in-world chat by setting up the [Hubs Discord Bot](hubs-discord-bot.html).
 
 ## Can I share a PowerPoint presentation in Hubs?
 
@@ -123,13 +123,12 @@ For more information, see our documentation on [custom clients](./hubs-cloud-cus
 See previous answer. 
 
 ## Can I pay Mozilla to do X, Y, Z?
-
-It's not possible to pay Mozilla for custom work, However, our code is open source and we welcome external contributors in [GitHub](http://github.com/mozilla/hubs). You can post in the #work-for-hire channel of our community [Discord](https://discord.gg/wHmY4nd) if you are interested in paying someone to build something for you.
+It's not possible to pay Mozilla for custom work, however, our code is open source and we welcome external contributors in [GitHub](http://github.com/mozilla/hubs). You can post in the #work-for-hire channel of our [Discord chat server](https://discord.gg/wHmY4nd) if you are interested in paying someone to build something for you.
 
 ## Can I run my virtual event in Hubs?
 Yes, check out the information [here](./intro-events.html) for more information on how to get started: 
 
-If you have questions about whether Hubs will be a good fit for your event, drop by our office-hours or meetup to speak to  a member of our team. See our community [Discord](https://discord.gg/wHmY4nd) for the schedule.
+If you have questions about whether Hubs will be a good fit for your event, drop by our office-hours or meetup to speak to  a member of our team. See our community [Discord chat server](https://discord.gg/wHmY4nd) for the schedule.
 
 ## Have you considered adding feature X? 
 
@@ -137,4 +136,4 @@ We keep track of bugs and feature requests in GitHub. If there is a feature you 
 
 ## Need help with something else?
 
-Let us know! hubs@mozilla.com
+If you can't find what you need in the rest of the documentation, see the [help page](./help.html) for ways to get in touch.

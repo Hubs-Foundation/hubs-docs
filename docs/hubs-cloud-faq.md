@@ -65,6 +65,8 @@ See ["Check "What is my hubs stack's admin email address?" docs](./hubs-cloud-aw
 
 ## Don't see your question?
 
-If your question is about Hubs, check out the [Hubs FAQ](./hubs-cloud-faq.md) or email hubs@mozilla.com.
+If your question is about Hubs, check out the [Hubs FAQ](./hubs-faq.md).
 
-If your question is about deploying Hubs Cloud to AWS, check out the [AWS Troubleshooting Guide](./hubs-cloud-aws-troubleshooting.md)
+If your question is about deploying Hubs Cloud to AWS, check out the [AWS Troubleshooting Guide](./hubs-cloud-aws-troubleshooting.md).
+
+If you can't find what you need in the rest of the documentation, see the [help page](./help.html) for ways to get in touch.
