@@ -136,4 +136,4 @@ We keep track of bugs and feature requests in GitHub. If there is a feature you 
 
 ## Need help with something else?
 
-Let us know! hubs@mozilla.com
+If you can't find what you need in the rest of the documentation, see the [help page](./help.html) for ways to get in touch.

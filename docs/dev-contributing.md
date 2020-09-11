@@ -66,5 +66,5 @@ Our documentation for Hubs is hosted on the [GitHub Hubs Wiki](https://github.co
 Hubs is currently en-US only, but if you would like to work with us on localization efforts, submit a suggestion through the GitHub issues and we'll work with you from there. 
 
 ### 🦆 General Help
-We believe in the power of community (that's why we're building this, after all!) and know that not all forms of support will come from something outlined here. Feel free to jump into our public [Discord server](https://discord.gg/wHmY4nd) to chat with us and ask about how you can get involved!
+We believe in the power of community (that's why we're building this, after all!) and know that not all forms of support will come from something outlined here. Feel free to jump into our public [Discord chat server](https://discord.gg/wHmY4nd) to chat with us and ask about how you can get involved! See our [help page](./help.html) for other ways to contact us.
 
