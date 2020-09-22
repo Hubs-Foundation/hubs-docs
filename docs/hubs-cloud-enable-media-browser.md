@@ -42,7 +42,7 @@ Create a [Azure Cognitive Services](https://azure.microsoft.com/en-us/services/c
 
 5. In your Hubs Cloud admin panel, navigate to the ‘Server Configuration’ panel and open the ‘API keys’ tab.
 
-6. Paste the Cognitive Services API key into the ‘Bing Search’ text input 
+6. Paste the Cognitive Services API key into the ‘Bing Search’ text input.
 
 7. Save your changes to deploy the video/image search to your Hubs Cloud media browser.
 
