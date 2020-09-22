@@ -38,7 +38,7 @@ Create a [Azure Cognitive Services](https://azure.microsoft.com/en-us/services/c
 
 3. When your service has finished spinning up, you will be able to navigate to the API keys tab. 
 
-4. Copy one of your API keys from the Azure portal
+4. Copy one of your API keys from the Azure portal.
 
 5. In your Hubs Cloud admin panel, navigate to the ‘Server Configuration’ panel and open the ‘API keys’ tab
 
