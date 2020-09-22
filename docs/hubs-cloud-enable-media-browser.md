@@ -36,7 +36,7 @@ Create a [Azure Cognitive Services](https://azure.microsoft.com/en-us/services/c
 
 2. Once signed into Azure, search the services available and create a new Cognitive Services offering. You will need to specify a region and application group to deploy to.
 
-3. When your service has finished spinning up, you will be able to navigate to the API keys tab. 
+3. When your service has finished spinning up, navigate to the API keys tab. 
 
 4. Copy one of your API keys from the Azure portal.
 
