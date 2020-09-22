@@ -32,7 +32,22 @@ Sign up for the [Tenor GIF API](https://tenor.com/gifapi) to get a free API key.
 
 Create a [Azure Cognitive Services](https://azure.microsoft.com/en-us/services/cognitive-services/) account and enable the [Bing Video Search API](https://azure.microsoft.com/en-us/services/cognitive-services/bing-video-search-api/) and [Bing Image Search API](https://azure.microsoft.com/en-us/services/cognitive-services/bing-image-search-api/).
 
-Note: these APIs are **not free** above 1000 transactions per month. You will be charged for their usage by your hub in your Azure account.
+1. Sign up for an Azure account at [portal.azure.com](https://portal.azure.com). 
+
+2. Once signed into Azure, search the services available and create a new Cognitive Services offering. You will need to specify a region and application group to deploy to.
+
+3. When your service has finished spinning up, navigate to the API keys tab. 
+
+4. Copy one of your API keys from the Azure portal.
+
+5. In your Hubs Cloud admin panel, navigate to the ‘Server Configuration’ panel and open the ‘API keys’ tab.
+
+6. Paste the Cognitive Services API key into the ‘Bing Search’ text input.
+
+7. Save your changes to deploy the video/image search to your Hubs Cloud media browser.
+
+
+Note: these APIs are **not free** above 1000 transactions per month. You will be charged for their usage by your Hubs Cloud instance in your Azure account.
 
 ### Twitch
 
