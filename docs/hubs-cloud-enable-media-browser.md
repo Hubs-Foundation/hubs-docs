@@ -40,7 +40,7 @@ Create a [Azure Cognitive Services](https://azure.microsoft.com/en-us/services/c
 
 4. Copy one of your API keys from the Azure portal.
 
-5. In your Hubs Cloud admin panel, navigate to the ‘Server Configuration’ panel and open the ‘API keys’ tab
+5. In your Hubs Cloud admin panel, navigate to the ‘Server Configuration’ panel and open the ‘API keys’ tab.
 
 6. Paste the Cognitive Services API key into the ‘Bing Search’ text input 
 
