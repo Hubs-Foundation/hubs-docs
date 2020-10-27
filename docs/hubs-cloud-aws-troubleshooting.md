@@ -45,6 +45,10 @@ You have an issue with SSL certificate verification.
 5. **Are your Name Servers the default AWS ones?**
    - You may have changed your Name Servers to point to another service. Delete the current ones to revert back to the defaults.
 
+### Using a Second Level domain like (.co.uk or .com.fr)
+
+Use Recipe 3 for deployment, this is a known bug.
+
 ## After Successful Deployment
 
 ### You're in the "AWS Sandbox" and people don't receive "magic link" emails
