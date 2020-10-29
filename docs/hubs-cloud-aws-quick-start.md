@@ -6,6 +6,8 @@ sidebar_label: AWS Quick Start
 
 ## Before creating the Hubs Cloud Stack
 
+**Follow along:** [Video Tutorial: How to Deploy Hubs Cloud Part 1](https://www.youtube.com/watch?v=2K7P8jFyHNc)
+
 1. Create an account on AWS and log into the console.
 2. Register or setup any domains in AWS Route 53, you'll need at least 2 domains. For example: `myhub.com` and `myhub.link`. See [Domain Recipes](./hubs-cloud-aws-domain-recipes.md) for more info.
 3. Review relevant docs:
@@ -19,7 +21,7 @@ sidebar_label: AWS Quick Start
 
 ## Deploy your Hubs Cloud Stack
 
-If you'd prefer a video tutorial, follow along to [Setting Up Hubs Cloud](https://www.youtube.com/watch?v=MyGJ0s4XjTA) deploying your stack.
+**Follow along:** [Video Tutorial: How to Deploy Hubs Cloud Part 2](https://www.youtube.com/watch?v=W0erzlDpo0U)
 
 1. Go to https://hubs.mozilla.com/cloud and choose which Hubs Cloud product to deploy
 2. Click **"Continue to Subscribe"** on Hubs Cloud Personal AWS Marketplace page
@@ -52,6 +54,8 @@ If you'd prefer a video tutorial, follow along to [Setting Up Hubs Cloud](https:
 14. Login with your `Administrator Email Address`
 
 ## After Deployment Admin Setup
+
+**Follow along:** [Video Tutorial: How to Deploy Hubs Cloud Part 3](https://www.youtube.com/watch?v=nQ85L_EeJOk)
 
 1. Set up AWS Simple Email Service (SES) in **N. Virginia (us-east-1)** for **_all_** deploy regions to get out of the SES Sandbox [Follow #2 Send request to AWS for limit increase](./hubs-cloud-aws-troubleshooting.md#youre-in-the-aws-sandbox-and-people-dont-receive-magic-link-emails)
    - For immediate entry to your HC instance, verify individual email addresses [Follow #1 Verify individual email addresses for administrators](./hubs-cloud-aws-troubleshooting.md#youre-in-the-aws-sandbox-and-people-dont-receive-magic-link-emails)
