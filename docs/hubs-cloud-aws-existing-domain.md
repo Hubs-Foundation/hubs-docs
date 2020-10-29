@@ -4,13 +4,12 @@ title: Using an Existing Domain
 sidebar_label: Using an Existing Domain
 ---
 
-**Interested in using an existing domain or subdomain from a DNS provider like GoDaddy or Namecheap for your hub?**
+**Interested in using an existing domain or subdomain for your hub?**
 
-Excellent. You have a two options.
+Follow below instructions if you're following Recipe 3. [When should I use Recipe 3?](./hubs-cloud-aws-domain-recipes.md#when-should-i-use-recipe-3)
 
-**One**: Transfer your existing domain to Route 53 to simplify setup and follow Recipe 1 or 2 in the [Domain Recipe guide](./hubs-cloud-aws-domain-recipes.md).
-
-**Two**: Follow our [Domain Recipe #3 guide to use an existing domain NOT on Route 53](./hubs-cloud-aws-domain-recipes.md#recipe-3-domain-can-not-be-on-route-53). You still need to register at least 2 new domains on AWS Route 53, then perform the extra steps below: [SSL Certificates](./hubs-cloud-aws-existing-domain.md#ssl-certificates) BEFORE creating the stack and [DNS Setup](./hubs-cloud-aws-existing-domain.md#dns-setup) AFTER creating the stack.
+If your domains are NOT being used for anything else, we highly recommend setting up your domain to point to AWS Route 53 Hosted Zone. [Instructions here](./hubs-cloud-aws-domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)
+[]
 
 **If you want to use your existing email, see our [Using an Existing Email Provider guide](./hubs-cloud-aws-existing-email-provider.md)**. Otherwise, walk through the Domain Recipes #3 guide for configuring AWS SES email via stack creation.
 
