@@ -61,9 +61,9 @@ You can link a Hubs room to a channel in a Discord server and have your server m
 
 ## Favorite Rooms
 
-Add a room to your list of favorites by clicking the star icon in the lower left corner of the screen. Adding a room to your favorites makes it easier to find again by adding it to your home Hubs screen.
+Add a room to your list of favorites by opening up the 'More' menu and clicking 'Favorite Room'. Adding a room to your favorites makes it easier to find again by adding it to your home Hubs screen.
 
-To remove the room from your favorites, open the room and click the star icon again. 
+To remove the room from your favorites, open the room, open the 'More' menu, and click 'Unfavorite Room'. 
 
 ## Close a Room
 
