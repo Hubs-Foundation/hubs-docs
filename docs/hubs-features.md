@@ -3,7 +3,7 @@ id: hubs-features
 title: Hubs Features
 ---
 
-![Hubs Image](img/hubs-user-interface.jpeg)
+![Hubs Image](img/hubs-user-interface.png)
 
 ## User Interface
 
@@ -116,11 +116,11 @@ A menu of emoji spawners is displayed when you display [object or avatar menus](
 The emoji menu lets you spawn a grabbable emoji that emits particles when shaken. The emoji is deleted a few seconds after you let go of it.
 
 
-## Share Room Dialog
+## Invite Menu
 
-The "Share" button opens a dialog with the information you need in order to share the room with others, so that they can join you in the room.
+The "Invite" button opens a dialog with the information you need in order to share the room with others, so that they can join you in the room.
 
-![Enter room on Wired in device](img/hubs-sharing-dialogue.jpeg)
+![Enter room on Wired in device](img/hubs-invite-dialogue.png)
 
 You can copy or share the hub.link URL or use the numeric code to share a link verbally. Note that numeric codes expire after 72 hours.
 
