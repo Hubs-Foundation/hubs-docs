@@ -9,6 +9,8 @@ title: Hubs Features
 
 1. __Menu Button:__ Reveals links to user preferences, room controls and other useful information.
 
+1. __Menu Button:__ Reveals links to user preferences, room controls and other useful information.
+
 2. __Screen & Camera Sharing:__ Enables you to share your desktop, webcam, or phone camera with room members. The shared media will appear like a video in the room. Click this button again or use the [object menu](./hubs-features.html#object-menu) to remove the media.
 
 3. __Mute:__ Toggles your microphone on/off.
