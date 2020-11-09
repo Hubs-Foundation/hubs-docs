@@ -126,4 +126,4 @@ You can copy or share the hub.link URL or use the numeric code to share a link v
 
 The `iframe` HTML code (displayed if you have room permissions) lets you embed the room in a web page.
 
-The "notify me" checkbox (displayed if you have room permissions) enables you to sign up for notifications that alert you when another user enters the room. You can sign up for notifications on your phone or desktop. You do not need to remain in the room to receive notifications.
+<!-- The "notify me" checkbox (displayed if you have room permissions) enables you to sign up for notifications that alert you when another user enters the room. You can sign up for notifications on your phone or desktop. You do not need to remain in the room to receive notifications. -->
