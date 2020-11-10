@@ -8,6 +8,8 @@ Now that you have a working Hubs Cloud instance, you can create and deploy custo
 
 Your custom client code will be based off of the [`hubs-cloud` branch](https://github.com/mozilla/hubs/tree/hubs-cloud) which hosts Hubs client changes compatible with Hubs Cloud servers. Changes due to upgrades will be visible in merged PRs on the branch.
 
+# Setup you Custom Client with your fork and upstream
+
 ## Setup your fork of the hubs repo
 
 1. Create a [github account](https://github.com)
@@ -24,32 +26,45 @@ You'll need: **git** installed for this step.
 Run the following commands. To setup your forked repo on your machine.
 
 ```bash
+# Clone your forked hubs repository locally
 git clone <The url copied in Step 6>
 cd hubs
 git checkout hubs-cloud # to move to the hubs-cloud branch
 ```
 
+The "hubs-cloud" branch should function as the "master" branch. Since Hubs Cloud clients are compatible with the hubs-cloud branch.
+
+## Setup remotes
+
 Next, setup the original hubs repo as a remote upstream repository to keep your branches up to date.
 
 ```bash
+# Connect to the mozilla managed hubs repository
 git remote -v # should only print out "origin" your forked hubs repository url
 git remote add upstream https://github.com/mozilla/hubs.git
 git remote -v # now should see both origin + upstreams
 ```
 
+You should see this printed:
+
+```
+origin <The url copied in Step 6>
+origin <The url copied in Step 6>
+upstream https://github.com/mozilla/hubs.git (fetch)
+upstream https://github.com/mozilla/hubs.git (push)
+```
+
 Success! You've set up your fork and upstream repositories on your machine.
 
-## Running your custom client
-
-````bash
+# Run your custom client
 
 Now that you have the Hubs repository cloned you'll need to install some dependencies. You'll need [Node JS](https://nodejs.org/en/) installed first. Then you'll install the hubs dependencies. We recommend using `npm ci` instead of `npm install` so that you always use the versions of modules in the `package-lock.json` file.
 
 ```bash
 npm ci
-````
+```
 
-To run the client against your Hubs Cloud stack and deploy code to it, you'll need to be authenticated. Run `npm run login` and follow the instructions to authenticate.
+To run the client against your Hubs Cloud stack and deploy code to it, you'll need to be authenticated. Run `npm run login` and follow the instructions to authenticate (Warning: NOT `npm login`).
 
 ```bash
 npm run login
@@ -72,15 +87,15 @@ npm run deploy
 If `npm run deploy` hangs on "Building Admin Console" for more than 20 minutes:
 
 1. Stop then restart `npm run deploy` (sometimes it takes 2 tries to deploy)
-2. If it still hangs on "Building Admin Console" you may have a problem building the Admin Console
+1. If it still hangs on "Building Admin Console" you may have a problem building the Admin Console
 
 To test that your admin panel build is working, in your hubs repo root, try:
 
 1. `cd admin` - _be in the admin/ directory_
-2. `npm ci`
-3. `npm run build`
-4. If these commands succeed, try the `npm run deploy` command again.
-5. If these commands fail, try `npm ci` and the `build` commands one more time, then fix the error in your code, then try these commands again.
+1. `npm ci`
+1. `npm run build`
+1. If these commands succeed, try the `npm run deploy` command again.
+1. If these commands fail, try `npm ci` and the `build` commands one more time, then fix the error in your code, then try these commands again.
 
 If at any point you want to revert your Hubs client back to using the Mozilla upstream version of the client, run `npm run undeploy`.
 
@@ -88,35 +103,19 @@ If at any point you want to revert your Hubs client back to using the Mozilla up
 npm run undeploy
 ```
 
-## To update your branch
+# Update your Custom Client to the latest
 
-Fork the hubs repository, then clone your forked hubs repository.
+Check your remotes for the upstream mozilla hubs repository. If not, follow "Setup remotes" steps above.
 
 ```bash
-# Clone your forked hubs repository locally
-npm clone https://github.com/<your github username>/hubs
-cd hubs
-git branch
-git checkout hubs-cloud
-
-# Connect to the mozilla managed hubs repository
-npm remote -v
-npm remote add https://github.com/mozilla/hubs
-npm remote -v
+git remote -v # should see origin AND upstream fetch/push .git urls
 ```
 
-Should see
-
-```
-upstream https://github.com/mozilla/hubs.git (fetch)
-upstream https://github.com/mozilla/hubs.git (push)
-```
-
-After a Hubs Cloud update, run below commands to update your custom client.
+Fetch and merge the upstream Mozilla hubs-cloud branch into your branch. Especially important after a Hubs Cloud update.
 
 ```bash
 npm fetch upstream # Gets all updates for your mozilla/hubs repo
-git checkout <your hubs-cloud branch>
+git checkout <your current hubs-cloud branch>
 npm merge upstream/hubs-cloud # Merges updates from the hubs-cloud branch into your current branch
 ```
 
