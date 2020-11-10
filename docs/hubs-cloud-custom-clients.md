@@ -8,9 +8,11 @@ Now that you have a working Hubs Cloud instance, you can create and deploy custo
 
 Your custom client code will be based off of the [`hubs-cloud` branch](https://github.com/mozilla/hubs/tree/hubs-cloud) which hosts Hubs client changes compatible with Hubs Cloud servers. Changes due to upgrades will be visible in merged PRs on the branch.
 
-# Setup you Custom Client with your fork and upstream
+## Setup your Custom Client with your fork and upstream
 
-## Setup your fork of the hubs repo
+### Setup your fork of the hubs repo
+
+Your fork is a copy of the hubs repository on your github account.
 
 1. Create a [github account](https://github.com)
 1. Go to https://github.com/mozilla/hubs
@@ -32,9 +34,11 @@ cd hubs
 git checkout hubs-cloud # to move to the hubs-cloud branch
 ```
 
-The "hubs-cloud" branch should function as the "master" branch. Since Hubs Cloud clients are compatible with the hubs-cloud branch.
+The "hubs-cloud" branch should function as the "master" branch. Since Hubs Cloud clients are compatible with the hubs-cloud branch. For code changes, branch off this branch.
 
-## Setup remotes
+### Setup upstream remotes
+
+Upstream remote repository points to the original hubs repo, so when the hubs repo get updated, your fork can pull in those changes and stay up to date.
 
 Next, setup the original hubs repo as a remote upstream repository to keep your branches up to date.
 
@@ -56,9 +60,9 @@ upstream https://github.com/mozilla/hubs.git (push)
 
 Success! You've set up your fork and upstream repositories on your machine.
 
-# Run your custom client
+## Run your custom client
 
-Now that you have the Hubs repository cloned you'll need to install some dependencies. You'll need [Node JS](https://nodejs.org/en/) installed first. Then you'll install the hubs dependencies. We recommend using `npm ci` instead of `npm install` so that you always use the versions of modules in the `package-lock.json` file.
+Now that you have the Hubs repository forked and cloned on your machine, you'll need to install some dependencies. You'll need [Node JS](https://nodejs.org/en/) installed first. Then you'll install the hubs dependencies. We recommend using `npm ci` instead of `npm install` so that you always use the versions of modules in the `package-lock.json` file.
 
 ```bash
 npm ci
@@ -103,7 +107,11 @@ If at any point you want to revert your Hubs client back to using the Mozilla up
 npm run undeploy
 ```
 
-# Update your Custom Client to the latest
+## Update your Custom Client to the latest
+
+You need to pull in the latest changes to the hubs-cloud branch into your fork + code.
+
+Hubs Cloud is updated every month, to ensure your Hubs Cloud custom client is up to date, you should do this regularly in case of changes. See [Hubs Cloud Changelog](https://github.com/mozilla/hubs-cloud/blob/master/CHANGELOG.md) for details.
 
 Check your remotes for the upstream mozilla hubs repository. If not, follow "Setup remotes" steps above.
 
