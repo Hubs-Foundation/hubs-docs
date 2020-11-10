@@ -133,4 +133,4 @@ Resolve conflicts. Then, deploy the updates.
 npm run deploy
 ```
 
-Hubs Cloud is updated every month, to ensure your Hubs Cloud custom client is up to date, you should do this regularly in case of changes. See Hubs Cloud Changelog // TODO ADD LINK for details.
+Congrats! Your client is now updated to the latest and live!
