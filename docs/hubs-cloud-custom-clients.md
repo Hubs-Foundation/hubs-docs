@@ -41,7 +41,8 @@ npm run deploy
 > Note: When running a deploy, ensure webpack-dev-server (`npm start`) is **not** running. This may cause conflicts in the build process.
 
 If `npm run deploy` hangs on "Building Admin Console" for more than 20 minutes:
-1. Stop then restart `npm run deploy` (sometimes it takes 2 tries to deploy) 
+
+1. Stop then restart `npm run deploy` (sometimes it takes 2 tries to deploy)
 2. If it still hangs on "Building Admin Console" you may have a problem building the Admin Console
 
 To test that your admin panel build is working, in your hubs repo root, try:
@@ -57,3 +58,36 @@ If at any point you want to revert your Hubs client back to using the Mozilla up
 ```bash
 npm run undeploy
 ```
+
+## To update your branch
+
+Fork the hubs repository, then clone your forked hubs repository.
+
+```bash
+# Clone your forked hubs repository locally
+npm clone https://github.com/<your github username>/hubs
+cd hubs
+git branch
+git checkout hubs-cloud
+
+# Connect to the mozilla managed hubs repository
+npm remote -v
+npm remote add https://github.com/mozilla/hubs
+npm remote -v
+```
+
+### Should see
+
+```
+upstream https://github.com/mozilla/hubs.git (fetch)
+upstream https://github.com/mozilla/hubs.git (push)
+```
+
+After a Hubs Cloud update, run below commands to update your custom client.
+
+```bash
+npm fetch upstream
+npm merge upstream/hubs-cloud
+```
+
+Hubs Cloud is updated every month, to ensure your Hubs Cloud custom client is up to date, you should do this regularly in case of changes. See Hubs Cloud Changelog // TODO ADD LINK for details.
