@@ -90,6 +90,8 @@ You can turn your hub to [**Offline mode**](./hubs-cloud-aws-costs.md#offline-mo
 
 ## Stack Cost Management Options
 
+To enable these options, follow [Update the Stack instructions](./hubs-cloud-aws-updating-the-stack.html).
+
 - Enable **Auto-Pause Database**. On by default for Personal and settable by Enterprise.
 - Toggle **Offline mode** to "Online" to "Offline" manually. Your EC2 and database costs will be \$0/hour when you've turned your servers off.
 - Set **Account Monthly Database Budget**
@@ -99,17 +101,23 @@ You can turn your hub to [**Offline mode**](./hubs-cloud-aws-costs.md#offline-mo
 
 If **Auto-Pause Database** or **database pausing** is "Yes - Pause database when not in use", after no one has connected to your instance for a while, your database and the costs incurred by your database will stop until a user connects again. It takes 1-3 minutes for the database to turn back on and allow the first user to connect. Subsequent connections will occur quickly afterward.
 
+To enable database pausing, follow [Update the Stack instructions](./hubs-cloud-aws-updating-the-stack.html).
+
 ### Offline Mode - manual
 
 When you set **Offline mode** to "Offline", you've completely turned off your servers and stopped all EC2 costs + database costs. You're still paying for storage for your backups and data. No one can connect to your hub while your servers are "Offline". While "Offline," your hubs instance will redirect you to the specified offline url.
 
 Turning **Offline mode** to "Offline" to "Online" and vice versa is a manual process. Wait 10 minutes afterward to connect.
 
+To toggle Offline/Online, follow [Update the Stack instructions](./hubs-cloud-aws-updating-the-stack.html).
+
 ### Monthly Database Budget - automatic
 
 Careful with the **Monthly Database Budget** setting, we recommend $0 (unlimited) or at least $20 or more. If costs hit your set database budget (set other than \$0), your database will forcibly shut off for the month. This allows no surprise costs for the cost sensitive.
 
 Personal and Enterprise defaults to \$0 (unlimited).
+
+To set budget, follow [Update the Stack instructions](./hubs-cloud-aws-updating-the-stack.html).
 
 ### Change content CDN to Cloudflare Workers - 1 time update
 
