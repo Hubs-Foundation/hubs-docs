@@ -122,9 +122,9 @@ git remote -v # should see origin AND upstream fetch/push .git urls
 Fetch and merge the upstream Mozilla hubs-cloud branch into your branch. Especially important after a Hubs Cloud update.
 
 ```bash
-npm fetch upstream # Gets all updates for your mozilla/hubs repo
+git fetch upstream # Gets all updates for your mozilla/hubs repo
 git checkout <your current hubs-cloud branch>
-npm merge upstream/hubs-cloud # Merges updates from the hubs-cloud branch into your current branch
+git merge upstream/hubs-cloud # Merges updates from the hubs-cloud branch into your current branch
 ```
 
 Resolve conflicts. Then, deploy the updates.
