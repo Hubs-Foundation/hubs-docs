@@ -32,7 +32,7 @@ title: Hubs Features
     /vrstats - Toggle stats in VR.
     /scene <scene url> - Change the scene (moderators only).
     /rename <new name> - Rename the room (moderators only).
-    /audiomode - Toggle positional audio (experimental).
+    /audiomode - TToggle left-right spatialization, but keep distance-based attenuation (experimental).
     /audioNormalization <factor> - Equalize audio levels (experimental)
     /fly - Toggle fly mode.
 

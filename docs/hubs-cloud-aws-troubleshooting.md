@@ -45,6 +45,10 @@ You have an issue with SSL certificate verification.
 5. **Are your Name Servers the default AWS ones?**
    - You may have changed your Name Servers to point to another service. Delete the current ones to revert back to the defaults.
 
+### Using a Second Level domain like (.co.uk or .com.fr)
+
+Use Recipe 3 for deployment, this is a known bug.
+
 ## After Successful Deployment
 
 ### You're in the "AWS Sandbox" and people don't receive "magic link" emails
@@ -64,7 +68,7 @@ You finished deployment and can access the Hubs Admin console. The Hubs Admin co
 
     - Use this process if you have 24 hours to wait for AWS technical support to grant your email service limit increase
     - Go to [AWS create case](https://console.aws.amazon.com/support/home?#/case/create?issueType=technical)
-    - Select "Service limit increase"
+    - Select the "Service limit increase" radio button
       - **Limit type:** "SES Sending Limits"
       - **Mail Type:** "System Notifications"
       - **Website URL - optional**
@@ -74,7 +78,7 @@ You finished deployment and can access the Hubs Admin console. The Hubs Admin co
     - Request 1
       - Region: Select `US East (Northern Virginia)`
       - Limit: Desired Daily Sending Quota
-      - New Limit Value: 50,0000
+      - New Limit Value: 50,000
     - Case description: Answer the questions below in the message field:
       - What does your Hubs Cloud instance do? Add anything relevant to your use case in the request
       - Add this to your message: "The product does not support passwords, only email links to log in. As such, would like to use SES to send these emails. There are no other emails sent by the product other than these automated sign-in emails, sent at the time a user requests to log in. We do not send any unsolicited emails or other content-oriented emails, only sign in link emails. We do not store the email addresses of visitors. The emails are securely transmitted to our server at log-in time to send the email link."

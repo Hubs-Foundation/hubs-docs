@@ -4,38 +4,65 @@ title: Domain Recipes
 sidebar_label: Domain Recipes
 ---
 
-This guide provides a few recipes for registering and purchasing necessary domains before creating your hub Cloud stack.
+This guide provides a few recipes for registering and purchasing necessary domains before creating your Hub Cloud stack.
 
 Site domains: **Site Domain Name**, **Internal Domain**, and **Short Link Domain**
 
 Email domains: **Outgoing Email Domain** and **Outgoing Email Subdomain Prefix**
 
-To simplify setup, it's highly recommended you transfer any relevant domains to Route 53, since Hubs Cloud will then be able to manage DNS and SSL certificate renewals for you.
+To simplify setup, it's highly recommended you setup external domains to use Route 53 Hosted Zones as the DNS provider, since Hubs Cloud will then be able to manage DNS and SSL certificate renewals for you.
 
-## Is my domain "set up on Route 53"?
+## Setup external domains to use Route 53 as the hosting/DNS provider
 
-**Your domain is set up on Route 53, if it meets one of two criteria:**
+**NOT USING the domains** registered on Namecheap/GoDaddy/HostGator/etc or another external domain registrar? To make HC set up easier, we recommend setting up your domain's nameservers to point to AWS Route 53 as the hosting/DNS provider (AWS Route 53 Hosted Zones). Follow **How to setup on Route 53** in next section.
+
+**USING the domains already?** Already hosting something and can't change nameservers? Then use Recipe 3 for deployment.
+
+### How to setup on Route 53
+
+You'll need to follow instructions in [Route 53 Hosted Zones](https://console.aws.amazon.com/route53/home#hosted-zones:) to "Create Hosted Zone" then update the domain nameservers in your domain registrar to point to AWS ones.
+
+For specific instructions for YOUR DOMAIN REGISTRAR and changing your domain registrar's domain nameservers to Route 53, web search:
+
+- Keywords: **<YOUR DOMAIN REGISTRAR\>, DNS hosting, setup Route 53 Hosted Zones, change YOUR DOMAIN REGISTRAR nameservers**
+- `How to change my nameservers on <YOUR DOMAIN REGISTRAR> website`
+- `Change <YOUR DOMAIN REGISTRAR> DNS for a domain`
+- `Point my <YOUR DOMAIN REGISTRAR> domain to Route 53 Hosted Zones`
+
+### Your domain is set up on Route 53, if/when it meets one of two criteria:
 
 - It was purchased on AWS. It's nameservers point to AWS, it shows up on Route 53 Hosted Zones and Registered Domains.
 - Your domains are set up to use AWS Route 53 DNS Hosting via Hosted Zones and the nameservers have been changed to point to AWS Route 53. These domains were purchased in a domain registrar like Namecheap or GoDaddy.
 
-**Not set up on Route 53 and want to be?** Follow instructions in [Route 53 Hosted Zones](https://console.aws.amazon.com/route53/home#hosted-zones:) to "Create Hosted Zone" and update the domain nameservers to point to the provided AWS ones in your domain registrar website.
+### When should I use Recipe 3?
 
-**Why my domain "_CAN NOT_" be set up on Route 53?** Your site, and its nameservers, are already being used elsewhere for other sites or purposes. For example, for us to use mozilla.com (and not break the pre-existing site), we had to follow [Recipe 3](./hubs-cloud-aws-domain-recipes.md#recipe-3-domain-can-not-be-on-route-53) and _NOT_ change nameservers to point to AWS for hubs.mozilla.com to work as a subdomain.
+Use Recipe 3 when your website is already hosting something or used elsewhere for other perposes already and you can NOT change the nameservers.
+
+**OR you have a SECOND LEVEL domain that is ".co.uk" or ".com.fr"**, there's a known bug that you need to follow the Recipe 3 for these domains.
+
+You do NOT need to (but you CAN), if your domains are not being used by anything, in that case follow **How to setup on Route 53** above section.
+
+For example, for us to use mozilla.com (and not break the pre-existing site), we had to follow [Recipe 3](./hubs-cloud-aws-domain-recipes.md#recipe-3-domain-can-not-be-on-route-53) and _NOT_ change nameservers to point to AWS for hubs.mozilla.com to work as a subdomain.
+
+### Using a second level domain (.co.uk, .com.fr, etc)?
+
+Use domain Recipe 3 regardless of whether you bought the domains on Route 53 (we have a known bug).
 
 ## Recipe 1: Dedicated domain on Route 53
 
 - `myhub.com` **OR subdomain** `hub.myhub.com` connects to your hub - _Warning! Do not create a new Hosted Zone for `hub.myhub.com` on Route 53! The Cloudformation template will manage the connections on your root domain, `myhub.com`, hosted zone._
 - `myhub.com` is **_NOT_** used for any other purpose or sites
-- `mysite.com` set up on on Route 53 [(?)](./hubs-cloud-aws-domain-recipes.md#is-my-domain-set-up-on-route-53)
+- `mysite.com` set up on on Route 53 [(?)](./hubs-cloud-aws-domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)
 - `anothersubdomain.myhub.com` **_could be_** used for any other purposes or sites
 
 ### Instructions:
 
-**[Set up or purchase 2 domains on Route 53](./hubs-cloud-aws-domain-recipes.md#is-my-domain-set-up-on-route-53)**
+**[Set up or purchase 2 domains on Route 53](./hubs-cloud-aws-domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)**
 
 1. `myhub.com` - Houses Hub site domain name + internal server domain
 2. `myhub.link` - Short link domain name
+
+[Known bug + fix: Using a second level domain (.co.uk, .com.fr, etc)?](,/hubs-cloud-aws-domain-recipes.md#using-a-second-level-domain-couk-comfr-etc) Use Recipe 3.
 
 **Next, specify the following when creating the stack:**
 
@@ -52,14 +79,16 @@ To simplify setup, it's highly recommended you transfer any relevant domains to 
 
 - `hub.mysite.com` connects to your hub. - _Warning! Do not create a new Hosted Zone for `hub.mysite.com` on Route 53! The Cloudformation template will manage the connections on your root domain, `mysite.com`, hosted zone._
 - `mysite.com` **_IS_** used for other sites or purposes
-- `mysite.com` set up on on Route 53 [(?)](./hubs-cloud-aws-domain-recipes.md#is-my-domain-set-up-on-route-53)
+- `mysite.com` set up on on Route 53 [(?)](./hubs-cloud-aws-domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)
 - `anothersubdomain.myhub.com` **_could be_** used for any other purposes or sites
+
+[Known bug + fix: Using a second level domain (.co.uk, .com.fr, etc)?](,/hubs-cloud-aws-domain-recipes.md#using-a-second-level-domain-couk-comfr-etc) Use Recipe 3.
 
 ### Instructions:
 
-**[Set up or purchase 3 domains on Route 53](./hubs-cloud-aws-domain-recipes.md#is-my-domain-set-up-on-route-53)**
+**[Set up or purchase 3 domains on Route 53](./hubs-cloud-aws-domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)**
 
-1. `mysite.com` - Houses subdomain as Hub site domain name + the other sites or purposes at the root 
+1. `mysite.com` - Houses subdomain as Hub site domain name + the other sites or purposes at the root
 2. `myhub.link` - Short link domain name
 3. `mysite-internal.com` - Internal server domain. This can be any name you want, and will not be seen by users.
 
@@ -78,12 +107,13 @@ To simplify setup, it's highly recommended you transfer any relevant domains to 
 
 ## Recipe 3: Domain CAN NOT be on Route 53
 
-- `mysite.com` **_CAN NOT_** be set up on Route 53 [(?)](./hubs-cloud-aws-domain-recipes.md#is-my-domain-set-up-on-route-53)
+- [When should I use Recipe 3?](./hubs-cloud-aws-domain-recipes.md#when-should-i-use-recipe-3)
+- `mysite.com` **_CAN NOT_** be set up on Route 53 [(?)](./hubs-cloud-aws-domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)
 - `mysite.com` connects to your hub **OR** `hub.mysite.com` connects to your hub
 
 ### Instructions:
 
-**[Set up or purchase 2 domains on Route 53 (optional 3 domains)](./hubs-cloud-aws-domain-recipes.md#is-my-domain-set-up-on-route-53)**
+**[Set up or purchase 2 domains on Route 53 (optional 3 domains)](./hubs-cloud-aws-domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)**
 
 1. `myhub.link` - Short link domain name
 2. `mysite-internal.com` - Internal server domain + email domain. This can be any name you want, and will not be seen by users.
