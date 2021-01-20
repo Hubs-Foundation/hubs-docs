@@ -29,7 +29,18 @@ webhook to bridge chat and send Hubs status updates.
 Using Hubs Cloud? You can [add the bot to your Hubs Cloud server](./hubs-cloud-discord-bot.md).
 
 ### User Permissions
-Your room's user permissions will inherit the permissions that their Discord role has in the channel that the bot is bound to. Users with "manage channel permissions" will have full rights as room owners. If you do not want your channel's members to have full room permissions (e.g., to change the scene, close the room, or change the room settings), check that their role does not have manage channel permissions enabled in Discord.
+Your room's user permissions will inherit the permissions that their Discord role has in the channel that the bot is bound to. Specifically
+
+- To enter the room they must have "View Channel" permission
+- To be a moderator they must have "Kick Members" permission (and "View Channel").
+   - Moderators can kick and mute members in the hubs room. 
+   - Moderators can also create and manipulate objects, draw and share video even if these are turned off in the room settings.
+   - Note: only discord users with verified emails can become moderators
+- To be a room owner they must have "Manage Channels" (and "Kick Members and "View Channel")
+   - Room owners are able to change the name and scene in the room, modify other room settings, and close the room.
+   - Note: only discord users with verified emails can become room owners
+- The discord permissions can set either via their discord role globally, or permissions given on the specific channel to that user/role
+
 
 ### Bot Permissions
 The bot requires several permissions in order to work. 
