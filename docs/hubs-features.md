@@ -118,7 +118,7 @@ The emoji menu lets you spawn a grabbable emoji that emits particles when shaken
 
 ## Invite Menu
 
-The "Invite" button opens a dialog with the information you need in order to share the room with others, so that they can join you in the room.
+The "Invite" button opens a dialog with the information you need in order to share the room with others, so they can join you in the room.
 
 ![Enter room on Wired in device](img/hubs-invite-dialogue.png)
 
