@@ -8,7 +8,7 @@ On January 25, 2021, we released a significant update to the user interface for 
 
 * If you have not made any changes to your Hubs Cloud client look and feel, your Hubs Cloud instance will be updated on or after March 25th to have the new UI. 
 
-* If you have added your own logos or chosen new colors within the Hubs Cloud admin console, these will be applied to the new UI. You may need to review and confirm your color choices when the update is live. 
+* If you added your own logos or chosen new colors within the Hubs Cloud admin console, these will be applied to the new UI. You may need to review and confirm your color choices when the update is live. 
 
 * If you are using a custom CSS sheet for styles, you may need to modify this CSS file to account for the new user interface styles. Check this page in the coming weeks for additional information. 
 
