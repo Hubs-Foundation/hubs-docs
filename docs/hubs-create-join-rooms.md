@@ -18,11 +18,11 @@ Click "Enter Room" and follow the prompts to select a username/avatar and set up
 
 <video autoplay loop muted controls >
   <source src="img/hubs-enter-room.mp4" type="video/mp4">
-  <img src="img/intro-hubs-enter-room-min.jpeg" alt="Hubs Lobby">
+  <img src="img/intro-hubs-enter-room-min.PNG" alt="Hubs Lobby">
   Your browser does not support HTML5 video.
 </video>
 
-### On a Standalone VR
+### On a Standalone VR Headset
 
 If you opened the URL on your desktop or smartphone, choose "Enter on Standalone VR" to create a code that makes it easy to open on your standalone headset (e.g., Oculus Quest, Oculus Go, Samsung Gear).
 
@@ -30,7 +30,7 @@ Open the browser in your VR headset, navigate to [hubs.link](https://hubs.link) 
 
 <video autoplay loop muted controls >
   <source src="img/hubs-enter-standalone-vr.mp4" type="video/mp4">
-  <img src="img/intro-hubs-enter-room-min.jpeg" alt="Hubs Lobby">
+  <img src="img/intro-hubs-enter-room-min.PNG" alt="Hubs Lobby">
   Your browser does not support HTML5 video.
 </video>
 
@@ -42,11 +42,11 @@ On your computer, click "Enter Room" and follow the prompts to select a username
 
 For troubleshooting information visit Hubs [troubleshooting](./hubs-troubleshooting) page.
 
-![Enter room on Wired in device](img/hubs-enter-connected-vr.jpeg)
+<!-- ![Enter room on Wired in device](img/hubs-enter-connected-vr.jpeg)
 
 ### On Cardboard
 
-Using Google Chrome on your mobile device, select "Enter Room" and follow the prompts to select a username/avatar and set up your mic. On the final prompt select "Enter on Google Cardboard".
+Using Google Chrome on your mobile device, select "Enter Room" and follow the prompts to select a username/avatar and set up your mic. On the final prompt select "Enter on Google Cardboard". -->
 
 ## Supported Devices & Browsers
 

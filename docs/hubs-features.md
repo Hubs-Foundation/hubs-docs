@@ -3,35 +3,25 @@ id: hubs-features
 title: Hubs Features
 ---
 
-![Hubs Image](img/hubs-user-interface.jpeg)
+![Hubs Image](img/hubs-user-interface.png)
 
 ## User Interface
 
-1. __Menu Button:__ Reveals links to user preferences, room controls and other useful information.
+1. __Invite:__ Opens a dialog box with information on sharing the room with friends. More info is provided in the [Share Room Dialog](./hubs-features.html#share-room-dialog) section at the bottom of this page.
 
-2. __Screen & Camera Sharing:__ Enables you to share your desktop, webcam, or phone camera with room members. The shared media will appear like a video in the room. Click this button again or use the [object menu](./hubs-features.html#object-menu) to remove the media.
+2. __Mute:__ Toggles your microphone on/off.
 
-3. __Mute:__ Toggles your microphone on/off.
+3. __Share:__ Enables you to share your desktop, webcam, or phone camera with room members. The shared media will appear like a video in the room. Click this button again or use the [object menu](./hubs-features.html#object-menu) to remove the media.
 
-4. __Share:__ Opens a dialog box with information on sharing the room with friends. More info is provided in the [Share Room Dialog](./hubs-features.html#share-room-dialog) section at the bottom of this page.
+4. __Place:__ Opens a search tool to find media you can bring into the room. Select from 3D models, scenes, avatars and gifs, or provide a URL or file for an image, video, model or scene. Additional objects that you can place are listed below: 
 
-5. __Pen:__ Lets you draw in 3D space. You can change the pen's size and color (see [Hubs Controls](./hubs-controls.html)), undo strokes, and generate 3D models from your drawing (see the [drawing menu](./hubs-features.html#drawing-menu)).
+    * __Pen:__ Lets you draw in 3D space. You can change the pen's size and color (see [Hubs Controls](./hubs-controls.html)), undo strokes, and generate 3D models from your drawing (see the [drawing menu](./hubs-features.html#drawing-menu)).
 
-6. __Camera:__ Creates a camera object that can take photos and videos of the room then add them to the room as objects. When you take a photo or video, a link also appears in the chat. Click the camera button again to remove the camera object.
+    * __Camera:__ Creates a camera object that can take photos and videos of the room then add them to the room as objects. When you take a photo or video, a link also appears in the chat. Click the camera button again to remove the camera object.
 
-7. __Media Browser:__ Opens a search tool to find media you can bring into the room. Select from 3D models, scenes, avatars and gifs, or provide a URL or file for an image, video, model or scene.
+5. __React:__ Opens a menu where you can select an emoji to spawn in the room.
 
-8. __Object Browser:__ Displays a list of the media items that exist in the room. Click on the objects in the list for further options.
-
-9. __Member List:__ Displays information on the people in the room and lobby. Shows the number of room members, their names, and their device type. You can also access advanced user controls from this list.
-
-10. __Help:__ Opens resources to learn about Hubs.
-
-11. __Send Message:__ Sends text written in the chat box to all room members (including those in the lobby). Alternatively, press Enter after entering text in the chat box.
-
-12. __Create Object:__ Creates a room object out of the information in the chat box. For example, if there is text in the chat box, it will be converted into an image and pasted into the room. If there is a link to a media object (e.g., YouTube URL, Sketchfab object) the object will spawn in the room.
-
-13. __Chat:__ Enables you to communicate via text chat, create objects or enter commands. Commands include:
+6. __Chat:__ Enables you to communicate via text chat, create objects or enter commands. Commands include:
 
 
     /leave - Disconnect from the room.
@@ -43,9 +33,16 @@ title: Hubs Features
     /scene <scene url> - Change the scene (moderators only).
     /rename <new name> - Rename the room (moderators only).
     /audiomode - Toggle left-right spatialization, but keep distance-based attenuation (experimental).
+    /audioNormalization <factor> - Equalize audio levels (experimental)
     /fly - Toggle fly mode.
 
-14. __Favorite Room:__ Saves the room to your list of Hubs favorites, making it easy to find when you return to Hubs.
+7. __Leave:__ Leave the current room that you are in 
+
+8. __More:__ Opens a panel to display additional commands that are available. From this menu, you can favorite a room, modify your user preferences, access help, and other settings. If you are the room owner, this menu will also include settings related to the room permissions and current scene.
+
+9. __Objects:__ Displays a list of the media items that exist in the room. Click on the objects in the list for further options.
+
+10. __People:__ Displays information on the people in the room and lobby. Shows the number of room members, their names, and their device type. You can also access advanced user controls from this list.
 
 ## Menus 
 
@@ -119,14 +116,14 @@ A menu of emoji spawners is displayed when you display [object or avatar menus](
 The emoji menu lets you spawn a grabbable emoji that emits particles when shaken. The emoji is deleted a few seconds after you let go of it.
 
 
-## Share Room Dialog
+## Invite Menu
 
-The "Share" button opens a dialog with the information you need in order to share the room with others, so that they can join you in the room.
+The "Invite" button opens a dialog with the information you need in order to share the room with others, so they can join you in the room.
 
-![Enter room on Wired in device](img/hubs-sharing-dialogue.jpeg)
+![Enter room on Wired in device](img/hubs-invite-dialogue.png)
 
 You can copy or share the hub.link URL or use the numeric code to share a link verbally. Note that numeric codes expire after 72 hours.
 
 The `iframe` HTML code (displayed if you have room permissions) lets you embed the room in a web page.
 
-The "notify me" checkbox (displayed if you have room permissions) enables you to sign up for notifications that alert you when another user enters the room. You can sign up for notifications on your phone or desktop. You do not need to remain in the room to receive notifications.
+<!-- The "notify me" checkbox (displayed if you have room permissions) enables you to sign up for notifications that alert you when another user enters the room. You can sign up for notifications on your phone or desktop. You do not need to remain in the room to receive notifications. -->
