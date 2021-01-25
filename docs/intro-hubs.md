@@ -41,7 +41,7 @@ For VR and mobile controls see our list of [Hubs controls](hubs-controls.html).
 
 Take a moment to take a look around the user interface. You can mute your mic, take photos, share your screen, create objects, and more. We'll introduce the basics of some of these controls in this guide. For more detailed information check out the [Hubs Features](hubs-features.html) section of the documentation.
 
-![Hubs Image](img/hubs-user-interface.jpeg)
+![Hubs Image](img/hubs-user-interface.png)
 
 ### Import Media
 
@@ -90,7 +90,7 @@ Your new space is private, and no one else can join until you invite them.
 
 When you are ready to invite others click the "Share" button at the top of your screen. Copy the room URL or shortlink code and send it to your friends. 
 
-![Screenshot of the Share pop-up](img/intro-hubs-share-popup-min.jpeg)
+![Screenshot of the Share pop-up](img/hubs-invite-dialogue.PNG)
 
 ## Next Steps
 This was just a quick overview of some of Hubs' basic features. For a detailed overview of what you can do in Hubs check out [Hubs Features](hubs-features.html) in the documentation.
