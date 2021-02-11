@@ -12,9 +12,13 @@ You encountered an issue during Hubs Cloud stack deployment. By default, AWS rol
 
 #### To see the first error event
 
-1. Navigate to AWS EC2 > Select "Events" Tab on left sidebar
-2. Scroll down the list to the **FIRST** red error(s) in the "Status" column
-3. Log those errors for later troubleshooting
+1. Navigate to AWS Cloudformation > Select your stack name in Stacks > Select "Events" Tab on right sidebar
+2. Scroll All the way down the event list to where the **FIRST** red error appears in the "Status" column. This should be a specific error of what went wrong.
+3. Log, note, or screenshot those errors for troubleshooting
+4. Redeploy the stack again with the same parameters (sometimes it takes 2 times to go through), then if you get the same error...
+4. Search specific error _on this page (AWS Troubleshooting)_ 
+5. Search specific error on [Hubs Github Discussions](https://github.com/mozilla/hubs/discussions)
+6. Make a thread on [Hubs Github Discussions](https://github.com/mozilla/hubs/discussions), if none of the searches found a solution for you.
 
 #### To turn rollback completely off
 
