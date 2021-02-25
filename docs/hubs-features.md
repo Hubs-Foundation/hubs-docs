@@ -7,7 +7,7 @@ title: Hubs Features
 
 ## User Interface
 
-1. __Invite:__ Opens a dialog box with information on sharing the room with friends. More info is provided in the [Share Room Dialog](./hubs-features.html#share-room-dialog) section at the bottom of this page.
+1. __Invite:__ Opens a dialog box with information on sharing the room with friends. More info is provided in the [Invite Menu](./hubs-features.html#invite-menu) section at the bottom of this page.
 
 2. __Mute:__ Toggles your microphone on/off.
 
@@ -92,8 +92,8 @@ Room objects and avatars have their own menus. To reveal them on desktop compute
 ![Hubs Image](img/hubs-drawing-menu.jpeg)
 
 1. __Create:__ Makes the drawing into a 3D object.
-2. __Undo:__ - Removes the last stroke.
-3. __Trash__ - Removes the drawing from the scene.
+2. __Undo:__ Removes the last stroke.
+3. __Trash__ Removes the drawing from the scene.
 
 
 ## Video Controls
@@ -120,7 +120,7 @@ The emoji menu lets you spawn a grabbable emoji that emits particles when shaken
 
 The "Invite" button opens a dialog with the information you need in order to share the room with others, so they can join you in the room.
 
-![Enter room on Wired in device](img/hubs-invite-dialogue.png)
+![Enter room on Wired in device](img/hubs-invite-dialogue.PNG)
 
 You can copy or share the hub.link URL or use the numeric code to share a link verbally. Note that numeric codes expire after 72 hours.
 
