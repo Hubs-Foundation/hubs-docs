@@ -40,16 +40,16 @@ class Footer extends React.Component {
             <a href={this.docUrl('welcome.html', this.props.language)}>
              Introduction
             </a>
-            <a href={this.docUrl('entering-hubs.html', this.props.language)}>
+            <a href={this.docUrl('hubs-create-join-rooms.html', this.props.language)}>
               Hubs Documentation
             </a>
-            <a href={this.docUrl('create-project.html', this.props.language)}>
+            <a href={this.docUrl('spoke-creating-projects.html', this.props.language)}>
              Spoke Documentation
             </a>
-            <a href={this.docUrl('creator-intro.html', this.props.language)}>
+            <a href={this.docUrl('creators-advanced-avatar-customization.html', this.props.language)}>
              For Creators
             </a>
-            <a href={this.docUrl('developer-intro.html', this.props.language)}>
+            <a href={this.docUrl('system-overview.html', this.props.language)}>
              For Developers
             </a>
             <a href={this.docUrl('hubs-cloud-intro.html', this.props.language)}>
