@@ -10,7 +10,7 @@ __Mozilla Hubs__ is the name of Mozilla’s public offering on https://hubs.mozi
 
 __Hubs Cloud__ is the name of Mozilla’s cloud-based Hubs offering (https://hubs.mozilla.com/cloud) which allows for enterprise and individuals to stand up their own private instance of Hubs.
 
-When using Mozilla trademarks (including the Mozilla or Firefox logo and brand) you must comply with these Mozilla Trademark Guidelines. [https://www.mozilla.org/en-US/foundation/trademarks/policy/] 
+When using Mozilla trademarks (including the Mozilla or Firefox logo and brand) you must comply with these [Mozilla Trademark Guidelines](https://www.mozilla.org/en-US/foundation/trademarks/policy/).
 
 You are allowed to use the Hubs Cloud logo in connection with your product or initiatives built upon Hubs Cloud. The recommended language to use is “Powered by Hubs Cloud” with a link to https://hubs.mozilla.com/cloud
 
