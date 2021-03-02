@@ -32,7 +32,7 @@ __Toggle Snap mode [C]:__  Sometimes you may want to move and object with a prev
 
 __Snap Mode Controls:__ determines how precisely your transformation tools are applied
 
-__Toggle Grid Visibility:__ Shows/hides the grid on 3D grid. In placement mode, objects canbe placed on top of other objects or the grid. When building verticailly it can be seul to change the grid height 
+__Toggle Grid Visibility:__ Shows/hides the grid on 3D grid. In placement mode, objects canbe placed on top of other objects or the grid. When building verticailly it can be useful to change the grid height 
 
 - Press `=` to increase grid height 
 - Press `-` to decrease grid height
