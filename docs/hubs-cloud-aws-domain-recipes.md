@@ -36,7 +36,7 @@ For specific instructions for YOUR DOMAIN REGISTRAR and changing your domain reg
 
 ### When should I use Recipe 3?
 
-Use Recipe 3 when your website is already hosting something or used elsewhere for other perposes already and you can NOT change the nameservers.
+Use Recipe 3 when your website is already hosting something or used elsewhere for other purposes already and you can NOT change the nameservers.
 
 **OR you have a SECOND LEVEL domain that is ".co.uk" or ".com.fr"**, there's a known bug that you need to follow the Recipe 3 for these domains.
 
