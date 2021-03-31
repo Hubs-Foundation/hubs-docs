@@ -5,7 +5,7 @@ title: Contributing
 
 This page outlines opportunities for people who want to contribute to the Hubs project. We welcome external contributions that align with the project's mission around enabling collaboration and communication through shared 3D spaces. You can find information about how to contribute to Hubs and the supporting projects that make up the platform here. 
 
-Contributors are expected to abide by the project's [Code of Conduct](CODE_OF_CONDUCT.md) and to be respectful of the project and people working on it. 
+Contributors are expected to abide by the project's [Code of Conduct](https://github.com/mozilla/hubs/blob/master/CODE_OF_CONDUCT.md) and to be respectful of the project and people working on it. 
 
 The following GitHub projects are part of the Hubs platform and governed by these contributing guidelines: 
 
@@ -22,7 +22,7 @@ The following GitHub projects are part of the Hubs platform and governed by thes
 We are happy to receive contributions to the Hubs platform in a number of different ways as outlined below. Please note that all contributions are subject to approval by the project maintainers. We ask (but do not require) that those interested in contributing to Hubs consider joining the public [Hubs Discord chat server](https://discord.gg/wHmY4nd) to connect with the dev team, ask questions, and view discussions about work being done on the project.
 
 ### 💻 Code Contributions
-Hubs has a client-server architecture that gives multiple users the ability to connect to a shared room on the server. If you are interested in contributing to the Hubs client, follow the instructions in the [Readme](README.md) to get started. If you want to contribute to the networking or infrastructure, consider looking at the [reticulum](https://github.com/mozilla/reticulum) or [janus](https://github.com/mozilla/janus-plugin-sfu) repositories. If you are interested in working on the code for Spoke, the 3D editor used to create custom environments for Hubs rooms, explore the [Spoke](https://github.com/mozilla/spoke) repository.
+Hubs has a client-server architecture that gives multiple users the ability to connect to a shared room on the server. If you are interested in contributing to the Hubs client, follow the instructions in the [Readme](https://github.com/mozilla/hubs#readme) to get started. If you want to contribute to the networking or infrastructure, consider looking at the [reticulum](https://github.com/mozilla/reticulum) or [Janus](https://github.com/mozilla/janus-plugin-sfu) repositories. If you are interested in working on the code for Spoke, the 3D editor used to create custom environments for Hubs rooms, explore the [Spoke](https://github.com/mozilla/spoke) repository.
 
 For more information on the inner workings of Hubs and the architectural decisions behind the project, check out [this presentation on the Mozilla Hubs Code Base](https://vimeo.com/365531296) by Engineering Lead Greg Fodor.
 
@@ -33,13 +33,13 @@ Steps to contributing code to the Hubs project:
 1. Clone the repo you want to contribute to and get things running locally
 2. Find an issue or improvement that you want to fix - give us a heads up that you're working on it by dropping in a comment on the issue.
 3. Fix the bug! Test out your changes on your local setup and let us know if you have questions or want another opinion about the fix. 
-4. Submit your PR for a code review and someone from the team will take a look and give feedback. Make sure you follow up! We'll close the PR if it seems like you've abandoned it by not responding to any questions or comments we leave in the review. If your PR adds a new feature, consider requesting the 'What's New' tag. With the 'What's New' tag, any text in the main body of the PR up to (and including) an image will be added to the [hubs website](https://hubs.mozilla.com/whats-new). Gifs are especially appreciated! [This pull request](https://github.com/mozilla/hubs/pull/1536) shows an example of how the 'What's New' tag can be used.
+4. Submit your PR for a code review and someone from the team will take a look and give feedback. Make sure you follow up! We'll close the PR if it seems like you've abandoned it by not responding to any questions or comments we leave in the review. If your PR adds a new feature, consider requesting the 'What's New' tag. With the 'What's New' tag, any text in the main body of the PR up to (and including) an image will be added to the [Hubs website](https://hubs.mozilla.com/whats-new). Gifs are especially appreciated! [This pull request](https://github.com/mozilla/hubs/pull/1536) shows an example of how the 'What's New' tag can be used.
 5. Celebrate! 🎉 You're helping Mozilla's mission to make the web an open and accessible place for social experiences! 
 
 
 
 ### 🐛Filing Issues and Feature Requests
-Reporting bugs, feature requests, and questions that you have about the platform helps the team prioritize the work that we're doing and make Hubs better! We welcome user-submitted issues and use Github's built-in issue tracking for our bug reporting process. 
+Reporting bugs, feature requests, and questions that you have about the platform helps the team prioritize the work that we're doing and make Hubs better! We welcome user-submitted issues and use GitHub's built-in issue tracking for our bug reporting process. 
 
 * If you are filing a bug, please include information about the operating system, device, and browser that you were using when you saw the bug. _Example: Seen on Windows 10 with Firefox 66.0.5 on Oculus Rift_
 

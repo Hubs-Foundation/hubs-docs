@@ -40,7 +40,7 @@ We recommend [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) for w
 
 On your computer, click "Enter Room" and follow the prompts to select a username/avatar and set up your mic. On the final prompt before entering you should see an option to select "Connected VR Headset".
 
-For troubleshooting information visit Hubs [troubleshooting](./hubs-troubleshooting) page.
+For troubleshooting information visit Hubs [troubleshooting](./hubs-troubleshooting.html) page.
 
 <!-- ![Enter room on Wired in device](img/hubs-enter-connected-vr.jpeg)
 

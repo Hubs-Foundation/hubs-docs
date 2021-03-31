@@ -3,11 +3,11 @@ id: hubs-features
 title: Hubs Features
 ---
 
-![Hubs Image](img/hubs-user-interface.png)
+![Hubs User Interface](img/hubs-user-interface.png)
 
 ## User Interface
 
-1. __Invite:__ Opens a dialog box with information on sharing the room with friends. More info is provided in the [Share Room Dialog](./hubs-features.html#share-room-dialog) section at the bottom of this page.
+1. __Invite:__ Opens a dialog box with information on sharing the room with friends. More info is provided in the [Invite Menu](./hubs-features.html#invite-menu) section at the bottom of this page.
 
 2. __Mute:__ Toggles your microphone on/off.
 
@@ -50,7 +50,7 @@ Room objects and avatars have their own menus. To reveal them on desktop compute
  
 ### Object Menu
 
-![Hubs Image](img/hubs-object-menu.jpeg)
+![Hubs - Object Menu](img/hubs-object-menu.jpeg)
 
 1. __Pin:__  Makes the object stay in the room when you leave. By default, objects disappear when their creators exit.
 2. __Target:__ Opens a focused view of the object. This menu item is present for media objects.
@@ -66,7 +66,7 @@ Room objects and avatars have their own menus. To reveal them on desktop compute
 
 ### Avatar Menu
 
-![Hubs Image](img/hubs-avatar-menu.jpeg)
+![Hubs - Avatar Menu](img/hubs-avatar-menu.jpeg)
 
 1. __Volume:__ Changes the volume of the user's audio. (Doesn't affect the volume for others in the room.)
 2. __Hide:__ Hides a user's avatar and audio from you. This only applies to the current session; once you refresh you will see them again. Other room members can still see and hear the user.
@@ -75,7 +75,7 @@ Room objects and avatars have their own menus. To reveal them on desktop compute
 
 ### Camera Menus
 
-![Enter room on Wired in device](img/hubs-camera-menu.jpeg)
+![Hubs - Camera Menus](img/hubs-camera-menu.jpeg)
 
 1. __Photo:__ Takes a still image then adds it to the room as an object.
 2. __Video:__ Records a video then adds it to the room as an object. Use the arrows to adjust the recording length. Note that video recordings are temporarily saved to browser storage; a recording in progress may be lost if the browser runs out  of space. If you wish to record an event we recommend using a screen recording tool such as [OBS](https://obsproject.com/).
@@ -89,18 +89,18 @@ Room objects and avatars have their own menus. To reveal them on desktop compute
 
 ### Drawing Menu
 
-![Hubs Image](img/hubs-drawing-menu.jpeg)
+![Hubs - Drawing Menu](img/hubs-drawing-menu.jpeg)
 
 1. __Create:__ Makes the drawing into a 3D object.
-2. __Undo:__ - Removes the last stroke.
-3. __Trash__ - Removes the drawing from the scene.
+2. __Undo:__ Removes the last stroke.
+3. __Trash__ Removes the drawing from the scene.
 
 
 ## Video Controls
 
 Hover your cursor on a video to display its video controls.
 
-![Enter room on Wired in device](img/hubs-media-controls.jpeg)
+![Hubs - Video Media Controls](img/hubs-media-controls.jpeg)
 1. __Screencapture:__ Takes a screenshot of the video and then adds it to the room as an object.
 2. __Volume:__ Changes the volume of the audio playback for you. (Does not affect the volume for others in the room.)
 3. __Play/Pause:__ Plays/pauses the video.
@@ -111,7 +111,7 @@ Hover your cursor on a video to display its video controls.
 
 A menu of emoji spawners is displayed when you display [object or avatar menus](./hubs-features.html#menus).
 
-![Enter room on Wired in device](img/hubs-emoji-spawners.jpeg)
+![Hubs - Emoji Spawners Menu](img/hubs-emoji-spawners.jpeg)
 
 The emoji menu lets you spawn a grabbable emoji that emits particles when shaken. The emoji is deleted a few seconds after you let go of it.
 
@@ -120,7 +120,7 @@ The emoji menu lets you spawn a grabbable emoji that emits particles when shaken
 
 The "Invite" button opens a dialog with the information you need in order to share the room with others, so they can join you in the room.
 
-![Enter room on Wired in device](img/hubs-invite-dialogue.png)
+![Hubs - Invite Menu](img/hubs-invite-dialogue.PNG)
 
 You can copy or share the hub.link URL or use the numeric code to share a link verbally. Note that numeric codes expire after 72 hours.
 
