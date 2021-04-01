@@ -27,23 +27,33 @@ Some things you should **not** update or change after the stack is created, and 
 - Everything under **Restore from Backup** section (to restore from a backup, see [Backup and Restore](./hubs-cloud-aws-backup-and-restore.md))
 - Everything under **Advanced**
 
-## Upgrade to a new stack release
+## ✨📝 Upgrade your Hubs Cloud template to the latest
 
-Because the 1.0.0 to 1.1.0 update added a new service (a TURN server) to the AWS Hubs Cloud Template, we need to follow a more hands on process than future Hubs Cloud updates will use.
+Infrequently, we'll need to update the Hubs Cloud template which follows this manual update workflow.
 
-Before following the steps below, make sure you've backed up your stack just in case: [Backup and Restore](./hubs-cloud-aws-backup-and-restore.md))
+Updating the template changes the underlying aws infrastructure or services such as: machine images, lambdas, autoscaling groups, or machine startup scripts.
 
-1. Put your stack into offline mode
-2. Once complete, go to the AWS Marketplace and go through the flow to create a new stack, **but do not create the stack**
-3. In the Cloudformation step, **copy** the template URL for the new stack
-4. Then, go to your actual live stack and perform an update
-5. Choose Replace Template and **paste** your copied new stack template URL as the template
-6. Perform the stack update (leaving the stack in offline mode)
-7. After the update is complete, perform another stack update to take the stack out of offline mode
+💾 Before following the steps below, make sure you've backed up your stack just in case: [💾 Backup and Restore](./hubs-cloud-aws-backup-and-restore.md)
 
-#### Check if you're on version 1.1.0
-
-1. Go to your hosted Hubs Cloud domain and add `?force_turn=true` to your URL
-2. Create a room
-3. In another tab in Firefox put `about:webrtc` in the url bar
-4. You should see the candidates negotiated say "relay"
+1. 🔎 **Determine whether your stack is Hubs Cloud Personal, Enterprise single server, or Enterprise multi-server**
+   1. Cloudformation > Stacks > Select your stack > Parameters tab
+   1. Does your stack have # of App Servers or # of Streaming Servers listed?
+      1. If yes, you have Enterprise multi-server
+      1. If no, you have Personal or Enterprise single server
+1. 💤 **Update your stack to Offline Mode see [⬆️ Updating the stack](./hubs-cloud-aws-updating-the-stack.md)**
+1. ⌛ **Wait for the Offline Mode update to complete**
+1. 📎 **Next, get the latest Template URL from the AWS Marketplace flow (_DO NOT CREATE A NEW STACK_)**
+   1. Open new tab and go to [hubs.mozilla.com/cloud](https://hubs.mozilla.com/cloud)
+   1. Select Personal or Enterprise (depending on step 1) then go through the AWS Marketplace flow, **but do not create the stack**
+   1. Go to "Create stack" page: Step 1 Specify template page
+   1. Copy **"Amazon S3 URL"** from Specify template section
+1. 📝 **Replace the current template of your live stack**
+   1. Cloudformation > Stacks > Select your stack
+   1. Click Update
+   1. Select "Replace current template"
+   1. Paste previously copied **"Amazon S3 URL"** from step 4 in Amazon S3 URL section
+   1. Click Next
+   1. ✅ Do all filled in values look correct? If they do **NOT** look correct, then you may have copied the wrong Personal/Enterprise template! Go back to replace template step. Then copy and paste the correct template from step 4 again.
+1. ⌛ **Finish the stack update with the new template stay in Offline Mode**
+1. 🌅 **After the update is complete, [⬆️ update the stack](./hubs-cloud-aws-updating-the-stack.md) to Online Mode (out of Offline Mode)**
+1. 🎉 **Finished! Congrats!** 🎉
