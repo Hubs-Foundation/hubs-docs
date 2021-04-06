@@ -25,7 +25,7 @@ In the propertie panel for the various lights you will find shadow settings. The
 | -----------   | ----------- |
 | Cast shadows  | Toggle on/off whether your light will cast shadows. Note you can also set objects to receive shadows |
 | Shadowmap resolution   |  Resolution of the shadowmap, if you turn it down the resolution will be more blocky (or sometimes soft looking), if you turn it up it will increase the resolution but will make your scene more expensive to run |
-| Shadow Bias  | A per pixel offset of your shadow, Use to fine tune the the position of your shadow. This can be used to help reduce the appearance of shadow acne| 
+| Shadow Bias  | A per pixel offset of your shadow, Use to fine tune the position of your shadow. This can be used to help reduce the appearance of shadow acne| 
 | Shadow Radius  | Size of the shadow. | 
 
 ## Lighting performance on mobile   

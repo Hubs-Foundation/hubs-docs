@@ -78,7 +78,7 @@ You can find content to add to your scene in the assets panel. You can click on 
 On the left side of the assets panel are a list of sources:
 
 #### Elements
-Elements are the basic building blocks in Spoke. You'll find lights, media, spawn points, and every other tyoe of object here.
+Elements are the basic building blocks in Spoke. You'll find lights, media, spawn points, and every other type of object here.
 
 #### My Assets
 Upload and search your own 3D models, images, videos, and audio.
