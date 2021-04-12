@@ -85,7 +85,3 @@ Additionally you can add completely customized color schemes. Navigate to **Them
 ```
 
 Use the boolean attributes, `"default"` and `"darkModeDefault"` to set a default theme from your custom themes array.
-
-You can refer to this color legend to see the effect your color choices will have on your hub's styling:
-
-![Hubs Cloud Color Legend](img/hubs-cloud-color-legend.jpeg)
