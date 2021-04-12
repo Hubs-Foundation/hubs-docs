@@ -21,11 +21,11 @@ Drag and drop the components from the asset panel into your scene. Change the te
 
 ## Making kit pieces double sided
 
-After placing objects in the room, you may notice that they dissappear depending on what direction you are looking at the from. This is because all the objects are single sided, which helps improve performance. If you would like to make your wall double sided, copy (ctrl+c, command+c) and paste (ctrl+v, cmmd+v) the object, and then press the Q or E key twice to rotate it 180 degrees. 
+After placing objects in the room, you may notice that they dissappear depending on what direction you are looking at the from. This is because all the objects are single sided, which helps improve performance. It also allows creators to have one side of a wall use a different material than the other side, for example, an interior painted wall and and exterior wall with brick. If you would like to make your wall double sided, copy (ctrl+c, command+c) and paste (ctrl+v, cmmd+v) the object, and then press the Q or E key twice to rotate it 180 degrees. 
 
 ## Adding trim
 
-By default kit pieces like walls don't connect in the corners. You might find there is a narrow gap. These spots are are designed to fit trim pieces. 
+By default kit pieces like walls don't connect in the corners, particular exterior corners. You might find there is a narrow gap. These spots are are designed to fit trim pieces. 
 
 ![Spoke Properties Panel](img/spoke-architecture-kit-trim.png)
 
