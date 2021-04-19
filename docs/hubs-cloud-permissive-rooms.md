@@ -6,7 +6,7 @@ sidebar_label: Recipe: Permissive Rooms
 
 Out of the box, the default permissions set on rooms is highly restrictive. This means that if you create a room, only yourself and visitors you choose to promote will have access to all features. Other visitors to your room will be restricted from using most features other than appearing as avatars and speaking.
 
-Room Permissions can be set on a room-by-room basis to allow more access to room vistiors (to see how, see [Room Settings](./hubs-room-settings.md).)
+Room Permissions can be set on a room-by-room basis to allow more access to room visitors (to see how, see [Room Settings](./hubs-room-settings.md).)
 
 However, sometimes you want to enable all permissions for all visitors for newly created rooms. For example, you may trust all visitors to your hub use features like media spawning and drawing responsibly.
 

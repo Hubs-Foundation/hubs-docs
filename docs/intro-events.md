@@ -38,7 +38,7 @@ With Hubs, you can create your own scenes to use as the environment for your roo
 
 [Conference Presentation Hall](https://hubs.mozilla.com/scenes/HHKr45j/conference-presentation-hall) - A larger meeting space with room for slides and a speaker on stage
 
-[Outdoor Meeup Space](https://hubs.mozilla.com/scenes/2rEmqCK/outdoor-meetup) - A large, outdoor space with spaces to put large video streams 
+[Outdoor Meetup Space](https://hubs.mozilla.com/scenes/2rEmqCK/outdoor-meetup) - A large, outdoor space with spaces to put large video streams 
 
 [Conference Lobby Hall](https://hubs.mozilla.com/scenes/u3ezwKe/customizable-conference-lobby) - A large space with room to move around to different places and converse, with places to link other rooms
 

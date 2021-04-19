@@ -30,7 +30,7 @@ You can browse all of the approved content in the content library via the **Appr
 
 ### Featuring Content
 
-In addition to approving content, you can also **feature** content. Featuring content will place it on the **Featured** tab in the Media Browser, which will increase its visibility to your vistors:
+In addition to approving content, you can also **feature** content. Featuring content will place it on the **Featured** tab in the Media Browser, which will increase its visibility to your visitors:
 
 ![Hubs Cloud Featured Content](img/hubs-cloud-featured.jpeg)
 
