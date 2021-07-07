@@ -104,6 +104,16 @@ https://magnetikonline.github.io/markdown-toc-generate/ to generate a table of c
         <td></td>
     </tr>
     <tr>
+        <td>Inspect your avatar</td>
+        <td>I</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Focus on media or someone's avatar</td>
+        <td>F</td>
+        <td>Hover over the media or someone's avatar you'd like to inspect</td>
+    </tr>
+    <tr>
         <td>Rotate object</td>
         <td>Move mouse</td>
         <td>After pressing and holding the "rotate" button in the object's menu</td>
