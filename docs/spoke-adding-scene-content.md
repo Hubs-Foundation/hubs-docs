@@ -49,3 +49,27 @@ The particle emitter is a Spoke object that spawns moving particles.
 
 ## Links
 You can include links in your scene to point to other Hubs rooms or to different places on the web. To create a link element in Spoke, under Elements, select the 'Link' element. When your link element is selected, paste your URL into the properties panel. When your scene is published and used to create a room in Hubs, the URL will be resolved to its file type and displayed according to the content type. If you use a URL to a general website, Hubs will attempt to take a screen shot and display that content where the link element is placed. If the url cannot be resolved, it will display a broken media image instead. 
+
+## Audio Zones
+
+Audio Zones are 3D volumes that modify the audio properties of audio sources (avatars, videos, audios, audio targets, etc) based on the source's and listener's positions with respect to the audio zone. One obvious application would be to dim audio sources' volumes based on 3D areas like rooms to mimic the real world behavior.
+
+![Audio Zones Example Image 1](img/audio-zones-example-0.jpg)
+
+Audio Zones work based on the audio source and the audio listener's positions and they can be of **inOut** and/or **outIn** types.
+  - **inOut:** The audio zone's parameters will be applied to audio sources inside the audio zone volume when the listener is outside the zone.
+  - **outIn:** The audio zone's parameters will be applied to audio sources outside the audio zone volume when the listener is inside.
+
+<img src="img/audio-zones-example-2.jpg" alt="drawing" width="65%"/>
+
+<center>_InOut zone that blocks all the audio sources coming from the inside._</center>
+
+<img src="img/audio-zones-example-3.jpg" alt="drawing" width="65%"/>
+
+<center>_OutIn zone that blocks all the audio sources coming from the outside._</center>
+
+Audio zones can be inside other audio zones, in that case the applied parameters will be a reduction of the most restrictive parameters.
+
+<img src="img/audio-zones-example-1.jpg" alt="drawing" width="65%"/>
+
+<center>_If there are two audio-zones in between the listener and the source and the first one has gain == 0.1 and the other has gain == 0.5, gain == 0.1 is applied to the source._</center>
