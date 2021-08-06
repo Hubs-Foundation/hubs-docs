@@ -15,7 +15,7 @@ Game networking is implemented using the networked-aframe library. Currently, au
 All physics simulation is done on the clients -- there is no server-side physics simulation of any kind. The servers are basically a message bus that takes the client messages, does slight modifications and adds authorization, then broadcasts the messages and their updates to all connected peers. Things like ownership over objects and other incidental concerns to orchestrate the in-game experience among peers is all based upon the client protocol implementation.
 
 # [Reticulum](https://github.com/mozilla/reticulum)
-a mesh network of erlang/elixir/phoenix nodes, and is responsible for all non-voice/video traffic between users including:
+A mesh network of erlang/elixir/phoenix nodes, and is responsible for all non-voice/video traffic between users including:
  * Avatar transforms
  * auth/magic sign in links, 
  * decrypt, 
