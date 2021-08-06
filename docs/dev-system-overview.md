@@ -22,7 +22,7 @@ a mesh network of erlang/elixir/phoenix nodes, and is responsible for all non-vo
  * scene updates
  * User permission validation 
 
-When you connect to a room, you are connecting to a load-balanced node on this mesh over websockets, and messages are relayed between all users in that room across the mesh via a pub/sub system called phoenix channels.
+When you connect to a room, you are connecting to a load-balanced node on this mesh over websockets. Messages are relayed between all users in that room across the mesh via a pub/sub system called phoenix channels.
 
 # [Habitat](https://www.chef.io/products/chef-habitat)
 Habitat provides packaging and orchestration. Deployment is orchestrated by Habitat and running on AWS EC2.
