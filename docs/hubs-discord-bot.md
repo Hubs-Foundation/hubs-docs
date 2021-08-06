@@ -22,7 +22,7 @@ If your room is hosted on hubs.mozilla.com:
 1. [Click here](https://discordapp.com/oauth2/authorize?client_id=509129921826914304&permissions=536890368&scope=bot) to invite the Hubs Discord bot to your Discord server.
 2. Choose the channel(s) you want Hubs to run in or create new one(s).
 3. Give the bot appropriate permissions (see below) on these channels.
-3. Create a webhook named "Hubs" in the channels you want it to run in. It will use this 
+3. Create a webhook named "Hubs" in the channels you want it to run in. (Go to the channel's Settings-->Integrations) It will use this 
 webhook to bridge chat and send Hubs status updates. 
 4. Try out the bot! Type !hubs in a channel the bot is in to see some things you can do. 
 
