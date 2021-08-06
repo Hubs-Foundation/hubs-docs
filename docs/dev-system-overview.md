@@ -6,7 +6,9 @@ title: System Overview
 # [The Client](https://github.com/mozilla/hubs) 
 Renders almost everything the user sees. The html pages are served by retculum but come from the client.
 
-The 2D front-end is built with React with in-room 3d content built using [networked aframe](https://github.com/networked-aframe/networked-aframe) and three.js. Physics run on the client using Ammo.js/Wasm. 
+The front-end is built with React for 2D components and Three.js and A-Frame for the 3D scene. The 3D content is synced across clients using networked aframe. Physics run on the client using Ammo.js/Wasm.
+
+Each page on the client is served from the back-end, Reticulum. The /admin folder contains the code for the Admin Panel which is separate to run from Hubs.
 
 ### [networked aframe](https://github.com/networked-aframe/networked-aframe)
 Game networking is implemented using the networked-aframe library. Currently, authorization and authentication is enforced on a small subset of messages like joining and kicking, but the capability is there for us to do message-level authorization.
