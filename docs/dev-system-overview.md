@@ -17,7 +17,7 @@ All physics simulation is done on the clients -- there is no server-side physics
 # [Reticulum](https://github.com/mozilla/reticulum)
 A mesh network of erlang/elixir/phoenix nodes, and is responsible for all non-voice/video traffic between users including:
  * Avatar transforms
- * auth/magic sign in links, 
+ * Auth/magic sign in links
  * decrypt, 
  * scene updates
  * User permission validation 
