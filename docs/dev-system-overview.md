@@ -12,7 +12,7 @@ The 2D front-end is built with React with in-room 3d content built using [networ
 Game networking itself is implemented using the networked-aframe library. currently, authorization and authentication is enforced on a very small subset of messages like joining and kicking, but the capability is there for us to do message-level authorization.
 
 ### Ammo.js/Wasm
-All simulation is done on clients -- there is no server-side simulation of any kind (eg physics) -- the servers are basically just a message bus that the clients use that does slight modifications and authorization to messages along the way before being broadcast to all peers.  Things like ownership over objects and other incidental concerns to orchestrate the in-game experience among peers is all based upon the client protocol implementation
+All physics simulation is done on the clients -- there is no server-side physics simulation of any kind. The servers are basically a message bus that takes the client messages, does slight modifications and adds authorization, then broadcasts the messages and their updates to all connected peers. Things like ownership over objects and other incidental concerns to orchestrate the in-game experience among peers is all based upon the client protocol implementation.
 
 # [Reticulum](https://github.com/mozilla/reticulum)
 a mesh network of erlang/elixir/phoenix nodes, and is responsible for all non-voice/video traffic between users including:
