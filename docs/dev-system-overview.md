@@ -9,7 +9,7 @@ Renders almost everything the user sees. The html pages are served by retculum b
 The 2D front-end is built with React with in-room 3d content built using [networked aframe](https://github.com/networked-aframe/networked-aframe) and three.js. Physics run on the client using Ammo.js/Wasm. 
 
 ### [networked aframe](https://github.com/networked-aframe/networked-aframe)
-Game networking itself is implemented using the networked-aframe library. currently, authorization and authentication is enforced on a very small subset of messages like joining and kicking, but the capability is there for us to do message-level authorization.
+Game networking is implemented using the networked-aframe library. Currently, authorization and authentication is enforced on a small subset of messages like joining and kicking, but the capability is there for us to do message-level authorization.
 
 ### Ammo.js/Wasm
 All physics simulation is done on the clients -- there is no server-side physics simulation of any kind. The servers are basically a message bus that takes the client messages, does slight modifications and adds authorization, then broadcasts the messages and their updates to all connected peers. Things like ownership over objects and other incidental concerns to orchestrate the in-game experience among peers is all based upon the client protocol implementation.
