@@ -25,7 +25,9 @@ a mesh network of erlang/elixir/phoenix nodes, and is responsible for all non-vo
 When you connect to a room, you are connecting to a load-balanced node on this mesh over websockets. Messages are relayed between all users in that room across the mesh via a pub/sub system called phoenix channels.
 
 # [Habitat](https://www.chef.io/products/chef-habitat)
-Habitat provides packaging and orchestration. Deployment is orchestrated by Habitat and running on AWS EC2.
+Habitat provides packaging and orchestration. Deployment is orchestrated by Habitat.
+
+Every AWS EC2 instance is running Habitat and Habitat runs packages such as Hubs, Reticulum, Dialog etc.
 
 # [Dialog](https://github.com/mozilla/dialog)
 Voice, video and audio traffic is handled via WebRTC Server based on the open source “mediasoup” project. (We formerly used the “Janus” project as our WebRTC server) Uses an SFU(selective forwarding unit) topology where each participant is sending their data to a central routing machine which then sends back all participants data to each participant.
