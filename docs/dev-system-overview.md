@@ -16,7 +16,7 @@ All simulation is done on clients -- there is no server-side simulation of any k
 
 # [Reticulum](https://github.com/mozilla/reticulum)
 a mesh network of erlang/elixir/phoenix nodes, and is responsible for all non-voice/video traffic between users including:
- * avatar transforms, 
+ * Avatar transforms
  * auth/magic sign in links, 
  * decrypt, 
  * scene updates
@@ -32,4 +32,3 @@ Voice, video and audio traffic is handled via WebRTC Server based on the open so
 
 # Postgres DB
 For persistent state, we're not doing anything fancy. we have a postgresql database behind reticulum and a file store for the two methods of durable storage. Reticulum manages both, and when you update permanent room state, pin objects, etc, you are interfacing with APIs in reticulum to update bits on those two backing stores. 
-
