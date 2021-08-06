@@ -18,7 +18,7 @@ All physics simulation is done on the clients -- there is no server-side physics
 A mesh network of erlang/elixir/phoenix nodes, and is responsible for all non-voice/video traffic between users including:
  * Avatar transforms
  * Auth/magic sign in links
- * decrypt, 
+ * Decrypt
  * scene updates
  * User permission validation 
 
