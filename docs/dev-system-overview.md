@@ -33,4 +33,4 @@ Every AWS EC2 instance is running Habitat and Habitat runs packages such as Hubs
 Voice, video and audio traffic is handled via WebRTC Server based on the open source “mediasoup” project. (We formerly used the “Janus” project as our WebRTC server). It uses an SFU (Selective Forwarding Unit) topology where each participant is sending their data to a central routing machine which then sends back all participants data to each participant.
 
 # Postgres DB
-For persistent state, we're not doing anything fancy. we have a postgresql database behind reticulum and a file store for the two methods of durable storage. Reticulum manages both, and when you update permanent room state, pin objects, etc, you are interfacing with APIs in reticulum to update bits on those two backing stores. 
+For persistent state, we're not doing anything fancy. We have a postgresql database behind reticulum and a file store for the two methods of durable storage. Reticulum manages both. When you update permanent room state, such as pin objects, etc, you are interfacing with APIs in reticulum to update bits on those two backing stores. 
