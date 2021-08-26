@@ -6,7 +6,7 @@ It is possible to link Hubs rooms together using Spoke, or from directly in Hubs
 
 ## Create rooms
 
-The first thing that you want to do is create your rooms. While you have the ability to create rooms directly from a scene URL, this will generate a new room each time. In order to link multiple rooms together, we recommend generating the rooms first, then updating the rooms to use a scene that contains links to the other room. 
+The first thing that you want to do is create your rooms. While you have the ability to create rooms directly from a scene URL, this will generate a new room each time. In order to link multiple rooms together, we recommend generating the rooms first, then updating the rooms to use a scene that contains links to the other room. Making a change. 
 
 1. Go to [https://hubs.mozilla.com/](https://hubs.mozilla.com/) and use the 'Create Room' button to create a new room. You can use the 'Favorite' button to keep the room pinned to your home page to find it easily, or copy the link somewhere.
 2. Do this for each room that you want to have available
