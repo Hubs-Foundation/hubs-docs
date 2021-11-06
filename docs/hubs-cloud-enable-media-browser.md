@@ -55,7 +55,14 @@ Sign up as a [Twitch Developer](https://dev.twitch.tv/) and [Get a Client ID](ht
 
 ### Twitter
 
-To let visitors tweet out videos and photos they've taken, sign up as a [Twitter Developer](https://developer.twitter.com/) and create an application to get your access tokens and secrets.
+Enable visitors to tweet out videos and photos they've taken.
+
+Sign up as a [Twitter Developer](https://developer.twitter.com/) and create an application to generate your keys and tokens. You'll need Consumer keys (API Key and Secret) and Authentication Tokens (Access Tokens and Secret). In App permissions, you'll need Read and Write permissions. Under Authentication settings, enable 3-legged OAuth and add Callback URLs `https://your-hubs-cloud-domain/api/v1/oauth/twitter`. Then add your `https://your-hubs-cloud-domain` to the Website URL. Request email address from users should be disabled.
+
+Once you've added your consumer/access tokens and secrets into the Admin Panel > Server settings menu > API Keys, go to a room (with spawning objects enabled), take a picture with the camera, hover over the photo, and click "Tweet". 
+
+Congrats! You've enabled Twitter on your Hubs Cloud instance!
+
 
 ### Analytics and Error Logging
 
