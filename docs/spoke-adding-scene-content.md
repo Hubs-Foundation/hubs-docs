@@ -52,7 +52,8 @@ You can include links in your scene to point to other Hubs rooms or to different
 
 ## Media Frames
 
-You can use the Media Frame element to designate areas you would like media objects to snap to in-world.  Media Frames can accept both 2D media and 3D models. 
+You can use the Media Frame element to designate areas you would like media objects to snap to in-world.  Media Frames can accept both 2D media and 3D models.
+
 ![mediaframe element in spoke](https://user-images.githubusercontent.com/4493657/142088604-0c8cac09-f8c7-401a-b363-799f319565e9.png)
 
 <video autoplay loop muted controls >
