@@ -50,6 +50,13 @@ The particle emitter is a Spoke object that spawns moving particles.
 ## Links
 You can include links in your scene to point to other Hubs rooms or to different places on the web. To create a link element in Spoke, under Elements, select the 'Link' element. When your link element is selected, paste your URL into the properties panel. When your scene is published and used to create a room in Hubs, the URL will be resolved to its file type and displayed according to the content type. If you use a URL to a general website, Hubs will attempt to take a screen shot and display that content where the link element is placed. If the url cannot be resolved, it will display a broken media image instead. 
 
+## Media Frames
+
+You can use the Media Frame element to designate areas you would like media objects to snap to in-world.  Media Frames can accept both 2D media and 3D models. 
+![mediaframe element in spoke](https://user-images.githubusercontent.com/4493657/142088604-0c8cac09-f8c7-401a-b363-799f319565e9.png)
+
+https://user-images.githubusercontent.com/4493657/142088838-5c9df8eb-5cd4-4b8e-a3fe-bd061ed94fc4.mp4
+
 ## Audio Zones
 
 Audio Zones are 3D volumes that modify the audio properties of audio sources (avatars, videos, audios, audio targets, etc) based on the source's and listener's positions with respect to the audio zone. One obvious application would be to dim audio sources' volumes based on 3D areas like rooms to mimic the real world behavior.
