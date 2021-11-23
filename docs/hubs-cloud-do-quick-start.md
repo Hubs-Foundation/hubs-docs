@@ -31,7 +31,7 @@ Hubs Cloud DigitalOcean can be found on [DigitalOcean Marketplace](https://marke
    - We recommend using [SendGrid](https://www.sendgrid.com) and using port 2525 to prevent firewall blocking. To use SendGrid for SMTP, create an account and then go to the [SMTP Integration](https://app.sendgrid.com/guide/integrate/langs/smtp) to get an SMTP username and password.
    - SendGrid has an additional step to [authenticate your domain](https://sendgrid.com/docs/ui/account-and-settings/how-to-set-up-domain-authentication) before your emails will start being sent.
 
-6. [Create a writable DigitalOcean API token](https://cloud.digitalocean.com/account/api/tokens/new). This token will be needed during during setup for configuring DNS, firewall, etc as it allows the setup script to update your project/droplet as needed.
+6. [Create a writable DigitalOcean API token](https://cloud.digitalocean.com/account/api/tokens/new). This token will be needed during setup for configuring DNS, firewall, etc as it allows the setup script to update your project/droplet as needed.
 
    - The token **won't** be saved and you can remove it from your account once your hub is up.
 
