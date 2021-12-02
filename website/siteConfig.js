@@ -18,7 +18,7 @@ const users = [
     infoLink: 'https://hubs.mozilla.com/',
     pinned: true,
   },
-];
+]
 
 const siteConfig = {
   title: 'Hubs by Mozilla', // Title for your website.
@@ -38,9 +38,9 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'welcome', label: 'Docs'},
-    {href: "https://github.com/mozilla/hubs", label: "GitHub" },
-    {page: 'help', label: 'Help'},
+    { doc: 'welcome', label: 'Docs' },
+    { href: 'https://github.com/mozilla/hubs', label: 'GitHub' },
+    { page: 'help', label: 'Help' },
   ],
 
   // If you have users set above, you add it here:
@@ -60,7 +60,7 @@ const siteConfig = {
   algolia: {
     apiKey: '227afb429135813e4d9d2339ea8a18c7',
     indexName: 'mozilla_hub',
-    algoliaOptions: {} // Optional, if provided by Algolia
+    algoliaOptions: {}, // Optional, if provided by Algolia
   },
 
   /* Custom fonts for website */
@@ -115,6 +115,15 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
-};
+  plugins: ['@docusaurus/plugin-google-gtag'],
+  themeConfig: {
+    gtag: {
+      // You can also use your "G-" Measurement ID here.
+      trackingID: 'UA-77033033-12',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
+  },
+}
 
-module.exports = siteConfig;
+module.exports = siteConfig
