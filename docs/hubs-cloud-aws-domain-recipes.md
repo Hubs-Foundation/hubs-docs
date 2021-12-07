@@ -62,7 +62,7 @@ Use domain Recipe 3 regardless of whether you bought the domains on Route 53 (we
 1. `myhub.com` - Houses Hub site domain name + internal server domain
 2. `myhub.link` - Short link domain name
 
-[Known bug + fix: Using a second level domain (.co.uk, .com.fr, etc)?](,/hubs-cloud-aws-domain-recipes.md#using-a-second-level-domain-couk-comfr-etc) Use Recipe 3.
+[Known bug + fix: Using a second level domain (.co.uk, .com.fr, etc)?](./hubs-cloud-aws-domain-recipes.md#using-a-second-level-domain-couk-comfr-etc) Use Recipe 3.
 
 **Next, specify the following when creating the stack:**
 
@@ -82,7 +82,7 @@ Use domain Recipe 3 regardless of whether you bought the domains on Route 53 (we
 - `mysite.com` set up on on Route 53 [(?)](./hubs-cloud-aws-domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)
 - `anothersubdomain.myhub.com` **_could be_** used for any other purposes or sites
 
-[Known bug + fix: Using a second level domain (.co.uk, .com.fr, etc)?](,/hubs-cloud-aws-domain-recipes.md#using-a-second-level-domain-couk-comfr-etc) Use Recipe 3.
+[Known bug + fix: Using a second level domain (.co.uk, .com.fr, etc)?](./hubs-cloud-aws-domain-recipes.md#using-a-second-level-domain-couk-comfr-etc) Use Recipe 3.
 
 ### Instructions:
 
