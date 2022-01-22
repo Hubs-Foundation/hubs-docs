@@ -29,3 +29,5 @@ https://localhost:8080/?hub_id=12345&allow_multi
 - `force_enable_touchscreen` - Force virtual gamepad controls to appear on the screen.
 - `default_material_quality` - Either "high", "medium", or "low". Set a default material quality for users with non-mobile devices that take effect when a user has not set a specific preference.
 - `default_mobile_material_quality` - Either "high", "medium", or "low". Set a default material quality for users with mobile devices that take effect when a user has not set a specific preference.
+- `envSettingsDebug` - Show a debug panel for the environment-settings component allowing you to configure tonemapping and exposure settings.
+- `debugLocalScene` - Override what happens when dropping glb files into the scene, instead loading them as the scene (locally, without uploading). This is useful for quickly itterating on scene changes.
