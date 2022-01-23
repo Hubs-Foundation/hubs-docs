@@ -6,7 +6,7 @@ title: Adding Content
 Once you have created your scene, you can start customizing it by adding content. Spoke and Hubs support a wide variety of media. Note that to publish to Hubs, Spoke projects have a size limit of 128MB.
 
 ## 3D Models
-Spoke allows you to search 3D content from Google Poly and Sketchfab. You can find collections in the assets media browser. 
+Spoke allows you to search 3D content from Sketchfab. You can find collections in the assets media browser. 
 
 ![Hubs Image](img/spoke-3d-model.jpeg)
 
