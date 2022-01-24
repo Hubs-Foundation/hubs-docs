@@ -32,6 +32,6 @@ Here's some things you can do to continue setting up your hub:
 - [Customize the Look and Feel](./hubs-cloud-customizing-look-and-feel.md) to make your hub fit your brand or style.
 - [Enable the Scene Editor](./hubs-cloud-enable-scene-editor.md) to let visitors create their own scenes.
 - [Enable permissive rooms](./hubs-cloud-permissive-rooms.md) to let visitors add media to their rooms.
-- [Set up the media browser](./hubs-cloud-enable-media-browser.md) so visitors can add content from sites like Sketchfab and Google Poly.
+- [Set up the media browser](./hubs-cloud-enable-media-browser.md) so visitors can add content from sites like Sketchfab.
 - [Learn how to manage content](./hubs-cloud-managing-content.md) so visitors can contribute content to your hub.
 - [Add Administrators](./hubs-cloud-adding-administrators.md) if you'd like others to help you set up your hub.
