@@ -4,7 +4,7 @@ title: Recipe: 3rd Party Integrations
 sidebar_label: Recipe: 3rd Party Integrations
 ---
 
-Your hub includes integrations for searching useful content for visitors to spawn into their rooms using the Media Browser. There is built-in support for a variety of sites and search engines, such as [Sketchfab](https://www.sketchfab.com) and [Google Poly](https://poly.google.com.). You can also tweet to share content directly from your hub.
+Your hub includes integrations for searching useful content for visitors to spawn into their rooms using the Media Browser. There is built-in support for a variety of sites and search engines, such as [Sketchfab](https://www.sketchfab.com). You can also tweet to share content directly from your hub.
 
 ![Hubs Cloud Media Browser](img/hubs-cloud-media-browser.jpeg)
 
@@ -15,10 +15,6 @@ In the [Admin Console](./hubs-cloud-getting-started.md) choose **Server Settings
 ![Hubs Cloud ](img/hubs-cloud-server-settings.jpeg)
 
 There you will find under **API Keys** the following keys you can set to enable these features:
-
-### Google Poly
-
-Follow the [Google Poly API Guide](https://developers.google.com/poly/develop/api) to get your key.
 
 ### Sketchfab
 
