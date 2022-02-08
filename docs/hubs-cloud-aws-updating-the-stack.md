@@ -45,6 +45,7 @@ Updating the template changes the underlying aws infrastructure or services such
 1. 📎 **Next, get the latest Template URL from the AWS Marketplace flow (_DO NOT CREATE A NEW STACK_)**
    1. Open new tab and go to [hubs.mozilla.com/cloud](https://hubs.mozilla.com/cloud)
    1. Select Personal or Enterprise (depending on step 1) then go through the AWS Marketplace flow, **but do not create the stack**
+   1. Continue to subscribe --> Continue to config --> Continue to Launch --> Choose Action Launch Cloud Formation --> Launch
    1. Go to "Create stack" page: Step 1 Specify template page
    1. Copy **"Amazon S3 URL"** from Specify template section
 1. 📝 **Replace the current template of your live stack**
