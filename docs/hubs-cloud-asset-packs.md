@@ -40,7 +40,7 @@ https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/graduati
 
 **Stylized Human Graduates** - A collection of stylized human avatars in black and blue graduation robes.
 
-![Stylized Human Graduates](img/ assetPacks_avatars_stylizedHumanGraduates_600x200.png)
+![Stylized Human Graduates](img/assetPacks_avatars_stylizedHumanGraduates_600x200.png)
 
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/graduation-humans.pack
 
