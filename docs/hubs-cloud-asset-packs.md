@@ -12,21 +12,38 @@ To import these packs, simply specify the URL for the pack specified below in th
 
 **Color Robots** - A collection of robot avatars in basic colors.
 
+![Color Robots](img/assetPacks_avatars_colorRobots_600x200.png)
+
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/color-robots.pack
+
 
 **Clothed Robots** - - A collection of robot avatars that are wearing clothing. 
 
+![Clothed Robots](img/assetPacks_avatars_clothedRobots_600x200.png)
+
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/clothed-robots.pack
+
 
 **Stylized Robots** - A collection of robot avatars that are stylized in abstract skins.
 
+![Stylized Robots](img/assetPacks_avatars_stylizedRobots_600x200.png)
+
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/stylized-robots.pack
 
+
 **Graduation Robots** - A collection of robot avatars in various color graduation robes.
+
+![Graduation Robots](img/assetPacks_avatars_graduationRobots_600x200.png)
+
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/graduation-robots.pack
 
+
 **Stylized Human Graduates** - A collection of stylized human avatars in black and blue graduation robes.
+
+![Stylized Human Graduates](img/ assetPacks_avatars_stylizedHumanGraduates_600x200.png)
+
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/graduation-humans.pack
+
 
 ## Scene Packs
 
