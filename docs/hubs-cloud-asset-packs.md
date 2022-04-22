@@ -49,13 +49,21 @@ https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/graduati
 
 **Meeting Scenes** - A collection of scenes that can be used for simple meetings.
 
+![Meeting Scenes](img/assetPacks_scenes_meetingScenes_600x200.png)
+
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/meeting-scenes.pack
+
 
 **Scenic Scenes** - A collection of outdoor or landscape scenes.
 
+![Meeting Scenes](img/assetPacks_scenes_scenicScenes_600x200.png)
+
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/scenic-scenes.pack
 
+
 **Event Starter Pack** - A collection of scenes and avatars for quickly populating a Hubs Cloud instance with professional use content 
+
+![Meeting Scenes](img/assetPacks_scenes_eventStarterPack_600x200.png)
 
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/event.pack
 
