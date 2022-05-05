@@ -45,6 +45,27 @@ https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/graduati
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/graduation-humans.pack
 
 
+**Box Bots** - A random collection of stylized box bot avatars.
+
+![Boxbot Variants](img/assetPacks_avatars_boxbots_600x200.png)
+
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/boxbot-variants.pack
+
+
+**Bobbleheads** - A random collection of stylized human "bobblehead" avatars.
+
+![Bobblehead Variants](img/assetPacks_avatars_bobbleheads_600x200.png)
+
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/bobblehead-variants.pack
+
+
+**Hackweek Variants** - A random collection of stylized human "Hackweek" avatars.
+
+![Hackweek Variants](img/assetPacks_avatars_hackweek_600x200.png)
+
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/hackweek-variants.pack
+
+
 ## Scene Packs
 
 **Meeting Scenes** - A collection of scenes that can be used for simple meetings.
