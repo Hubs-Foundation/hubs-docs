@@ -16,7 +16,7 @@ You are allowed to use the Hubs Cloud logo in connection with your product or in
 
 You are allowed to use the Mozilla Hubs logo in connection with your event or space, but only if it is held on Mozilla’s public Hubs offering located at https://hubs.mozilla.com
 
-Please do not use language that implies that your product or site is partnered, affiliated with, or endorsed by Mozilla. This includes terms such as “Partners” or “Partnered with” or “Sponsored by.”
+Please do not use language that implies that your product or site is partnered, affiliated with, or endorsed by Mozilla. This includes terms such as “Partners”, “Partnered with”, "Trusted by" or “Sponsored by.”
 
 __Downloads__
 
