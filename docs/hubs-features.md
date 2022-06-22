@@ -79,6 +79,8 @@ Room objects and avatars have their own menus. To reveal them on desktop compute
 
 1. __Photo:__ Takes a still image then adds it to the room as an object.
 2. __Video:__ Records a video then adds it to the room as an object. Use the arrows to adjust the recording length. Note that video recordings are temporarily saved to browser storage; a recording in progress may be lost if the browser runs out  of space. If you wish to record an event we recommend using a screen recording tool such as [OBS](https://obsproject.com/).
+   
+   This feature is not available on Safari.
 3. __Mute Video:__ Controls whether audio is included in the video.
 4. __Recenter:__ Reorients the camera to face you.
 5. __Trash:__ Removes the camera from the scene.
