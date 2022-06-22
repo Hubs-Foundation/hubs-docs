@@ -24,7 +24,6 @@ https://localhost:8080/?hub_id=12345&allow_multi
 - `vrstats` - If `true` shows stats in VR.
 - `debug_log` - If `true`, enables an on-screen debug log and console. Useful for debugging on mobile devices.
 - `userinput_debug` - If `true`, enables an on-screen userinput debug status panel. Press "L" on your keyboard to show the panel.
-- `thirdPerson` - Enables experimental third person mode.
 - `fov` - Set a custom field of view in degrees (between 1 and 179) for the camera. (2D only)
 - `force_enable_touchscreen` - Force virtual gamepad controls to appear on the screen.
 - `default_material_quality` - Either "high", "medium", or "low". Set a default material quality for users with non-mobile devices that take effect when a user has not set a specific preference.
