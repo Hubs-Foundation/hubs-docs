@@ -59,9 +59,9 @@ https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/boxbot-v
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/bobblehead-variants.pack
 
 
-**Hackweek Variants** - A random collection of stylized human "Hackweek" avatars.
+**Diverse Humans** - A collection of diverse, human avatars.
 
-![Hackweek Variants](img/assetPacks_avatars_hackweek_600x200.png)
+![Diverse Humans](img/assetPacks_avatars_hackweek_600x200.png)
 
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/hackweek-variants.pack
 
