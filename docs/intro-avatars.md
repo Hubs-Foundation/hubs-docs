@@ -5,6 +5,8 @@ title: Creating Custom Avatars
 
 In Hubs you can choose how you want to represent yourself. Select from any of the featured or newest avatars, or create your own. 
 
+Get started quickly using one of these web based tools: [Quick Customized Avatars](https://hubs.mozilla.com/labs/quick-customized-avatars-in-hubs/).
+
 Depending on how involved you'd like to get in the avatar creation process, you might choose to simply 're-skin' one of the base avatar bodies, or upload your own 3D model.
 
 ![Image of a custom avatar](img/intro-avatars-image-min.jpeg)
