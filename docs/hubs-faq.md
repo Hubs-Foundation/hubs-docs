@@ -134,6 +134,10 @@ If you have questions about whether Hubs will be a good fit for your event, drop
 
 We keep track of bugs and feature requests in GitHub. If there is a feature you would like, see if someone has already mentioned it in our [list of bugs/feature requests](https://github.com/mozilla/hubs/issues). If you find someone else has already asked for the feature, let us know in a comment that you would like it too. If it's not already mentioned, feel free to submit a "feature request." Note, please include as much detail as possible to feature requests to let us know how you see this feature benefiting your use case.
 
+## Where can I find Hubs Priacy Policy?
+
+https://www.mozilla.org/en-US/privacy/hubs/
+
 ## Need help with something else?
 
 If you can't find what you need in the rest of the documentation, see the [help page](./help.html) for ways to get in touch.
