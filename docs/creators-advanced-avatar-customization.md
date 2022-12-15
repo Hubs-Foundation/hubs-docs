@@ -42,6 +42,8 @@ When you upload textures into Hubs The preview will be updated. You do not need 
 
 To customize your avatar's shape, you can modify our basic robot template, or upload a .glb file of your choice. If you use the robot template, your avatar will have hands and a body and a head that grows/shrinks when you speak. If you use a plain .glb file, this item is considered the head of the avatar and the whole object will grow and shrink when you speak. 
 
+You can follow along with Jim and Dom in this recorded live stream here to walk through the whole process: https://youtu.be/qBvZhh6KVcg?t=561
+
 ### Modify Base Robot Template
 
 We offer the following resources if you'd like to modify our base Robot avatar:
