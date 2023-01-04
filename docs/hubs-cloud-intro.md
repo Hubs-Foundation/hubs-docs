@@ -6,7 +6,7 @@ sidebar_label: Introduction
 
 ![Hubs Cloud](img/hubs-cloud-logo.jpeg)
 
-[Hubs Cloud](https://hubs.mozilla.com/cloud) allows you to run your own hub on a private server.
+[Hubs Cloud](https://hubs.mozilla.com/cloud) allows you to run your own hub on a dedicated server on your own AWS or Digital Ocean account.
 
 ### Set up your own Hubs Cloud server:
   - For AWS, see the [AWS Quick Start](./hubs-cloud-aws-quick-start.md)
