@@ -1,6 +1,6 @@
 ---
 id: hubs-cloud-branding
-title: Hubs Cloud Brand Guidelines
+title: Brand Guidelines
 sidebar_label: Advanced: Brand Guidelines
 ---
 
@@ -14,7 +14,7 @@ When using Mozilla trademarks (including the Mozilla or Firefox logo and brand) 
 
 You are allowed to use the Hubs Cloud logo in connection with your product or initiatives built upon Hubs Cloud. The recommended language to use is “Powered by Hubs Cloud” with a link to https://hubs.mozilla.com/cloud
 
-You are allowed to use the Mozilla Hubs logo in connection with your event or space, but only if it is held on Mozilla’s public Hubs offering located at https://hubs.mozilla.com
+You are allowed to use the Mozilla Hubs logo in connection with your event or space, but only if it is held on Mozilla’s public Hubs offering located at https://hubs.mozilla.com/demo
 
 Please do not use language that implies that your product or site is partnered, affiliated with, or endorsed by Mozilla. This includes terms such as “Partners”, “Partnered with”, "Trusted by" or “Sponsored by.”
 
@@ -24,7 +24,17 @@ These are the official logos for Mozilla Hubs and Hubs Cloud.
 
 Mozilla Hubs
 
-![Mozilla Hubs](img/mozilla-hubs.png)
+light:
+![Mozilla Hubs Light](img/hubs-light-logo.png)
+
+dark:
+![Mozilla Hubs Dark](img/hubs-dark-logo.png)
+
+light-stacked:
+![Mozilla Hubs Light Stacked](img/hubs-light-stacked-logo.png)
+
+dark-stacked:
+![Mozilla Hubs Dark Stacked](img/hubs-dark-stacked-logo.png)
 
 Hubs Cloud - Opaque Background
 
