@@ -1,6 +1,6 @@
 ---
 id: hubs-cloud-branding
-title: Hubs Cloud Brand Guidelines
+title: Brand Guidelines
 sidebar_label: Advanced: Brand Guidelines
 ---
 
