@@ -78,7 +78,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Mozilla`,
+  copyright: `Copyright © 2023 Mozilla Corporation. Hubs Documentation available under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license.`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
