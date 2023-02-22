@@ -59,11 +59,53 @@ https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/boxbot-v
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/bobblehead-variants.pack
 
 
-**Diverse Humans** - A collection of diverse, human avatars.
+**Diverse Humans** - A collection of diverse human avatars.
 
 ![Diverse Humans](img/assetPacks_avatars_hackweek_600x200.png)
 
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/hackweek-variants.pack
+
+
+**Animals** - A collection of cute stylized animal avatars.
+
+![Animals](img/avatars_animals_600x200.png)
+
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-animals.pack
+
+
+**Foods** - A collection of cute stylized food avatars.
+
+![Foods](img/avatars_food_600x200.png)
+
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-food.pack
+
+
+**Telepresence Robots 1** - A collection of webcam-enabled telepresence robot avatars in various colors.
+
+![Telepresence Robots 1](img/avatars_telepresenceRobot1_colors_600x200.png)
+
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-telepresenceRobot1-colors.pack
+
+
+**Telepresence Robots 2** - A collection of webcam-enabled telepresence robot avatars in various colors.
+
+![Telepresence Robots 2](img/avatars_telepresenceRobot2_colors_600x200.png)
+
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-telepresenceRobot2-colors.pack
+
+
+**Telepresence Robots 3** - A collection of webcam-enabled telepresence robot avatars in various colors.
+
+![Telepresence Robots 3](img/avatars_telepresenceRobot3_colors_600x200.png)
+
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-telepresenceRobot3-colors.pack
+
+
+**Retro Tech** - A collection of webcam-enabled retro tech avatars.
+
+![Retro Tech](img/avatars_retroTech_600x200.png)
+
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-retroTech.pack
 
 
 ## Scene Packs
