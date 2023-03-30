@@ -10,6 +10,27 @@ To import these packs, simply specify the URL for the pack specified below in th
 
 ## Avatar Packs
 
+**Animals** - A collection of cute stylized animal avatars.
+
+![Animals](img/avatars_animals_600x200.png)
+
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-animals.pack
+
+
+**Foods** - A collection of cute stylized food avatars.
+
+![Foods](img/avatars_food_600x200.png)
+
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-food.pack
+
+
+**Retro Tech** - A collection of webcam-enabled retro tech avatars.
+
+![Retro Tech](img/avatars_retroTech_600x200.png)
+
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-retroTech.pack
+
+
 **Color Robots** - A collection of robot avatars in basic colors.
 
 ![Color Robots](img/assetPacks_avatars_colorRobots_600x200.png)
@@ -66,20 +87,6 @@ https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/bobblehe
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/hackweek-variants.pack
 
 
-**Animals** - A collection of cute stylized animal avatars.
-
-![Animals](img/avatars_animals_600x200.png)
-
-https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-animals.pack
-
-
-**Foods** - A collection of cute stylized food avatars.
-
-![Foods](img/avatars_food_600x200.png)
-
-https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-food.pack
-
-
 **Telepresence Robots 1** - A collection of webcam-enabled telepresence robot avatars in various colors.
 
 ![Telepresence Robots 1](img/avatars_telepresenceRobot1_colors_600x200.png)
@@ -101,13 +108,6 @@ https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-telepresenceRobot3-colors.pack
 
 
-**Retro Tech** - A collection of webcam-enabled retro tech avatars.
-
-![Retro Tech](img/avatars_retroTech_600x200.png)
-
-https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-retroTech.pack
-
-
 ## Scene Packs
 
 **Meeting Scenes** - A collection of scenes that can be used for simple meetings.
@@ -117,18 +117,25 @@ https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/meeting-scenes.pack
 
 
-**Scenic Scenes** - A collection of outdoor or landscape scenes.
+**Event Scenes** - A collection of scenes for hosting events in Hubs.
 
-![Meeting Scenes](img/assetPacks_scenes_scenicScenes_600x200.png)
+![Event Scenes](img/assetPacks_scenes_eventScenes_600x200.png)
 
-https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/scenic-scenes.pack
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/event-scenes.pack
 
 
-**Event Starter Pack** - A collection of scenes and avatars for quickly populating a Hubs Cloud instance with professional use content 
+**Social Hangout Scenes** - A collection of scenes for casual hangouts.
 
-![Meeting Scenes](img/assetPacks_scenes_eventStarterPack_600x200.png)
+![Social Hangout Scenes](img/assetPacks_scenes_socialHangoutScenes_600x200.png)
 
-https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/event.pack
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/social-hangout-scenes.pack
+
+
+**Gallery Scenes** - A collection of example art gallery scenes.
+
+![Social Hangout Scenes](img/assetPacks_scenes_galleryScenes_600x200.png)
+
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/gallery-scenes.pack
 
 
 ## More packs
