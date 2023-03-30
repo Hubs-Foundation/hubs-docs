@@ -31,6 +31,17 @@ https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-retroTech.pack
 
 
+**Color Astronauts** - A collection of webcam-enabled astronaut avatars in basic colors (light and dark versions).
+
+![Color Astronauts Light](img/assetPacks_avatars_astronauts-light_600x200.png)
+
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-astronauts-light.pack
+
+![Color Astronauts Dark](img/assetPacks_avatars_astronauts-dark_600x200.png)
+
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-astronauts-dark.pack
+
+
 **Color Robots** - A collection of robot avatars in basic colors.
 
 ![Color Robots](img/assetPacks_avatars_colorRobots_600x200.png)
