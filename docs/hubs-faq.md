@@ -138,6 +138,10 @@ We keep track of bugs and feature requests in GitHub. If there is a feature you 
 
 https://www.mozilla.org/en-US/privacy/hubs/
 
+## What are the system requirements for Hubs?
+
+Generally a device with a modern browser updated to a version released after late 2018.  
+
 ## Need help with something else?
 
 If you can't find what you need in the rest of the documentation, see the [help page](./help.html) for ways to get in touch.
