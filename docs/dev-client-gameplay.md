@@ -8,12 +8,21 @@ title: Core Concepts for Gameplay Code
 This document gives an overview of the core concepts for writing gameplay
 code in the Hubs client.
 
-TODO: Clearify the term "gameplay"
+
+### Gameplay
+
+TODO: Write this section to clarify the term "gameplay"
+
+
+### Target readers
+
+This document is intended for users with some coding experience that want to
+extend the gameplay functionality of the Hubs client.
 
 
 ## ECS (Entity Component System)
 
-[ECS](https://en.wikipedia.org/wiki/Entity_component_system) became a popular
+[ECS](https://github.com/SanderMertens/ecs-faq#what-is-ecs) became a popular
 topic in recent years.
 
 - [Unity&rsquo;s `DOTS`](https://unity.com/dots) emphasizes data-oriented
@@ -63,6 +72,7 @@ We need to store game state somehow, and conventions are useful. We use
 `Three.js`, which means a lot of game state is stored in various `Object3D`
 subtypes. We store the rest in `bitECS` entities and components, or `map` s
 from entity to struct in cases where `bitECS` components won&rsquo;t do.
+Refer to [this section for this design decision](#avoid-duplicating-state).
 
 In other words, our game state is not &ldquo;purely&rdquo; in ECS, nor do we
 care to make it so. The PR linked above states the (relatively humble) goals
@@ -87,8 +97,13 @@ We also highly recommend to understand the basic `Three.js` API and concept
 ## Add-on
 
 Add-on is one or set of application logics. It consists of components,
-systems, and inflators. Hubs Client has some core built-in add-ons. You can
-also add your custom add-ons.
+systems, and inflators.
+
+In the Hubs Client, most of the features are written as add-ons (eg: media
+loading, physics, object menus, and so on). The rest of the features will be
+rewritten as add-ons soon.
+
+You can also add your custom add-ons.
 
 Note that currently we don't have good APIs to register custom add-ons yet.
 You are required to edit some Hubs Client core files.
@@ -105,7 +120,7 @@ Also find the files imported from them. If you want to read the built-in add-on
 code check the directories.
 
 
-### A first easy example
+### Simple example
 
 Let's start with making an easy and workable add-on example. We will make an
 add-on that linearly moves Three.js objects associated with entities. You will
@@ -240,6 +255,9 @@ If you want to allow your custom components to be created from `JSX` and/or
 mapping from their key in the inflator. It will be explained later
 [here](#entitydef-jsx-prefab) and [here](#inflators-for-gltf) for each.
 
+TODO: Write an outline of concepts in the form of an example before breaking
+down the individual concepts.
+
 Let's look into systems, components, inflators, and others more details below.
 
 
@@ -270,7 +288,7 @@ If you want to your addon you need to edit `mainTick` to insert your systems.
 TODO: Write about system order
 
 
-### Queries are useful
+### Accessing Entities
 
 [`bitECS` queries](https://github.com/NateTheGreatt/bitECS/blob/master/docs/INTRO.md#-query)
 allow us to find entities based on the [components](https://github.com/NateTheGreatt/bitECS/blob/master/docs/INTRO.md#-component)
@@ -284,10 +302,10 @@ deleted or even recycled [as explained later](#creating-entities). It is safer
 to use queries as much as possible to fetch entities when needed.
 
 
-### Coroutines
+### Asynchronous Operations/Coroutines
 
-`async` functions should not be used. Instead, `coroutines` should be used to
-ensure that systems run in `mainTick`.
+`async` functions should not be used. Instead, [`coroutines`](https://x.st/javascript-coroutines/)
+should be used to ensure that systems run in `mainTick`.
 
 If you use `async` in a system, the system can restart outside of `mainTick`.
 Using `coroutines` enforces systems to run in `mainTick`. We want all the
@@ -298,6 +316,8 @@ below for details.
 
 
 ## Writing components
+
+TODO: Write what components briefly are
 
 
 ### Defining components
@@ -400,7 +420,7 @@ export function sceneLoaderSystem(world: HubsWorld) {
 ```
 
 
-### Flags
+### Booleans/Flags
 
 `bitECS` components do not support `boolean` properties. In lieu of boolean
 properties, we often define a single `flags` property as an unsigned integer
@@ -586,7 +606,7 @@ export function textSystem(world: HubsWorld) {
 
 Refer to the later sections for `world.eid2obj.get(eid)! as XXX`.
 
-TODO: Write an advantage of this pattern.
+TODO: Write benefits from this design decision.
 
 TODO: Do we use another example because this Text example doesn't match the
 actual implmentation. `TroikaText.sync()` shouldn't be called each system.
@@ -658,12 +678,44 @@ Inflator functions must be synchronous functions for simplicity.
 TODO: More describe the benefit from this limitation
 
 
+### No dependency with other Components
+
+Inflators shouldn't expect any state of passed entity. For example they
+shouldn't expect an entity has certain components or [`Three.js Object3D` is
+already set to it](#single-object3d-per-an-entity). This is a bad example.
+
+```typescript
+export function inflateFoo(world: HubsWorld, eid: number, params: FooParams) {
+  addComponent(world, Foo, eid);
+  // Inflator shouldn't have a dependency with other components
+  if (hasComponent(world, Bar, eid)) {
+    Foo.x[eid] = Bar.x[eid];
+  }
+  // Inflator can't expect Three.js Object3D is already set
+  if (hasComponent(world, Object3DTag, eid)) {
+    const obj = world.eid2obj.get(eid)!;
+    Foo.y[eid] = obj.position.length();
+  }
+}
+```
+
+If a compilation data initialization has a dependency with other components,
+it may be a sign that you should redesign components.
+
+If dependencies really aren't avoidable, you may think of initializing in
+system with query [as explained later](#component-initialization-with-object3d).
+
+
 ### Default inflators
 
 TODO: Write this section
 
 
 ## Creating entities
+
+An entity is an identifier pointing to a group of components. It doesn’t
+contain any direct behavior or data.
+
 
 ### Entity basics
 
@@ -1091,7 +1143,7 @@ TODO: Add an API to register mapping
 
 TODO: Write these sections
 
-### Asynchronous Component initialization
+### Asynchronous component initialization
 
 ```typescript
 const FooInit = defineComponent();
@@ -1120,11 +1172,15 @@ export function fooInitSystem(world: HubsWorld) {
 }
 ```
 
-### Component Initialization with Object3D
+### Component initialization with Object3D
 
 ```typescript
 const FooInit = defineComponent();
 const Foo = defineComponent(...);
+
+export function inflateFoo(world: HubsWorld, eid: number) {
+  addComponent(world, FooInit, eid);
+}
 
 const fooInitEnterQuery = enterQuery(defineQuery([FooInit, Object3DTag]));
 export function fooInitSystem(world: HubsWorld) {
