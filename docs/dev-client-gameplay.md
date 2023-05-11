@@ -1,161 +1,353 @@
 ---
 id: dev-client-gameplay
-title: Hubs Client development Gameplay
+title: Core Concepts for Gameplay Code
 ---
 
-- [Intro](#org71ab195)
-- [Entities, components, systems.](#org739a535)
-  - [`bitECS`](#org0bfe8ab)
-  - [Disclaimer](#orgff3efea)
-- [Writing systems](#org751fbe1)
-  - [Systems are functions](#org775dcd0)
-  - [The game loop](#orga589afa)
-  - [Queries are useful](#org1d5d556)
-  - [Replacing `async` functions with `coroutines`](#org2233e62)
-- [Writing components](#org7331485)
-  - [Defining components](#org18a6d0b)
-  - [Data types](#org3db6503)
-  - [Avoid holding references](#org589f3d9)
-  - [Entity ID&rsquo;s are recycled](#org31d40f6)
-  - [String data](#orgdf10967)
-  - [Flags](#org70bd5dd)
-  - [Tag components](#org58d595d)
-  - [The escape hatch](#orga5547d0)
-  - [Associating entities with `Object3D` s](#orgf29a631)
-  - [Avoid duplicating state](#orgfe9fb09)
-- [Adding entities](#orgbad6d63)
-  - [Entity basics](#org9d285be)
-  - [Creating `EntityDef` s](#orgdd790f5)
-  - [Creating model files](#org156c909)
-  - [Entity creation is synchronous](#org2319bae)
-  - [Inflation](#org628683b)
-    - [What does `renderAsEntity` do?](#org20a38aa)
-    - [`Inflator` s](#org357d40d)
-    - [Default inflators](#orga810c47)
-    - [Associating `Object3D` s (`eid2obj`)](#org4f9fcd3)
-    - [Loading model files](#org7a41123)
-    - [Common inflators, `jsxInflators`, and `gltfInflators`](#org8ca2b33)
-    - [Entity `Ref` s and `__mhc_link_type` : `"node"`](#orgfcfa191)
-    - [Associating `Material` s (`eid2mat`)](#org7fe068b)
-- [Custom clients and addons](#org1a8110a)
-  - [Addons are not ready yet (February 2023)](#org2b06d43)
-  - [Creating an add-on](#org35960ac)
-  - [`preload`](#orge79e4e1)
-  - [Inserting prefabs](#org1d14013)
-  - [Inserting inflators](#org86ae847)
-  - [Inserting system calls](#org354b138)
-  - [Handling interactions](#org306c661)
-  - [Handling networking](#org19b999f)
+## Intro
 
-\#+TITLE Core Concepts for Gameplay Code
-
-Core Concepts for Gameplay Code
+This document gives an overview of the core concepts for writing gameplay
+code in the Hubs client.
 
 
-<a id="org71ab195"></a>
+### Gameplay
 
-# Intro
-
-This document gives an overview of the core concepts for writing gameplay code in the Hubs client.
+TODO: Write this section to clarify the term "gameplay"
 
 
-<a id="org739a535"></a>
+### Target readers
 
-# Entities, components, systems.
-
-ECS became a popular topic in recent years.
-
--   Unity&rsquo;s `DOTS` emphasizes data-oriented design for speed and control, separates behavior from data, and helps developers build multi-threaded game loops.
--   Supermedium&rsquo;s `A-Frame` emphasizes ease of use and a low barrier to entry, exposes three.js through familiar HTML, and enables rapid prototyping with many built-in components and hundreds more from the community.
-
-Originally built with `A-Frame`, Hubs switched to `bitECS` and using `three.js` directly. Motivation, goals, and non-goals about the transition can be found in this PR from June, 2022. <https://github.com/mozilla/hubs/pull/5536>
+This document is intended for users with some coding experience that want to
+extend the gameplay functionality of the Hubs client.
 
 
-<a id="org0bfe8ab"></a>
+## ECS (Entity Component System)
 
-## `bitECS`
+[ECS](https://github.com/SanderMertens/ecs-faq#what-is-ecs) became a popular
+topic in recent years.
 
-The `bitECS` API is minimal, and its own documentation should be consulted for details. The main ideas from the Hubs gameplay code perspective are:
+- [Unity&rsquo;s `DOTS`](https://unity.com/dots) emphasizes data-oriented
+design for speed and control, separates behavior from data, and helps
+developers build multi-threaded game loops.
+- [Supermedium&rsquo;s `A-Frame`](https://aframe.io/) emphasizes ease of use
+and a low barrier to entry, exposes [`Three.js`](https://threejs.org/) through
+familiar HTML, and enables rapid prototyping with many built-in components and
+hundreds more from the community.
 
--   Component data are structs of arrays. <https://en.wikipedia.org/wiki/AoS_and_SoA>
--   Entities are indices into these arrays.
--   Queries filter entities by their associated components.
+Originally built with `A-Frame`, Hubs switched to `bitECS` and using `Three.js`
+directly. Motivation, goals, and non-goals about the transition can be found
+in this PR from June, 2022. [#5536](https://github.com/mozilla/hubs/pull/5536)
 
-`bitECS` has no built-in concept of systems. We frequently refer the functions invoked during the game loop as &ldquo;systems&rdquo;, but there is no formal construct.
-
-
-<a id="orgff3efea"></a>
-
-## Disclaimer
-
-Much has been written about the philosophy of various ECS frameworks and design choices. Our choices should not be interpreted fanatically.
-
-We need to store game state somehow, and conventions are useful. We use three.js, which means a lot of game state is stored in various `Object3D` subtypes. We store the rest in `bitECS` entities and components, or `map` s from entity to struct in cases where `bitECS` components won&rsquo;t do.
-
-In other words, our game state is not &ldquo;purely&rdquo; in ECS, nor do we care to make it so. The PR linked above states the (relatively humble) goals and non-goals of our entity framework.
+TODO: Write the scope in this document based on that PR
 
 
-<a id="org751fbe1"></a>
+### bitECS
 
-# Writing systems
+[`bitECS`](https://github.com/NateTheGreatt/bitECS) is an ECS framework written
+in [`TypeScript`](https://www.typescriptlang.org/).
 
+The `bitECS` API is minimal, and
+[its own documentation](https://github.com/NateTheGreatt/bitECS#--documentation)
+should be consulted for details. The main ideas from the Hubs gameplay code
+perspective are:
 
-<a id="org775dcd0"></a>
+- Component data are [structs of arrays](https://en.wikipedia.org/wiki/AoS_and_SoA).
+- Entities are indices into these arrays.
+- Queries filter entities by their associated components.
 
-## Systems are functions
+`bitECS` has no built-in concept of systems. We frequently refer the functions
+invoked during the game loop as &ldquo;systems&rdquo;, but there is no formal
+construct.
 
-`bitECS` has no built-in concept of systems. We frequently refer the functions invoked during the game loop as &ldquo;systems&rdquo;, but there is no formal construct.
-
-
-<a id="orga589afa"></a>
-
-## The game loop
-
-We provide the browser&rsquo;s `requestAnimationFrame` with our game loop function (`mainTick`), to be invoked each frame.
-
-
-<a id="org1d5d556"></a>
-
-## Queries are useful
-
-`bitECS` queries allow us to find entities based on the components that are attached to them. `enterQuery` and `exitQuery` wrap regular queries so that we handle when an entity first matches or stops matching a given query. The `bitECS` documentation should be consulted for more details.
+We highly recommend to understand the basic `bitECS` API and concept
+[`from their documents`](https://github.com/NateTheGreatt/bitECS#--documentation)
+before reading the following sections. No worry, they are very simple.
 
 
-<a id="org2233e62"></a>
+### Disclaimer
 
-## Replacing `async` functions with `coroutines`
+Much has been written about the philosophy of various ECS frameworks and design
+choices. Our choices should not be interpreted fanatically.
 
-TODO: Describe `JobRunner` and `coroutine` s.
+We need to store game state somehow, and conventions are useful. We use
+`Three.js`, which means a lot of game state is stored in various `Object3D`
+subtypes. We store the rest in `bitECS` entities and components, or `map` s
+from entity to struct in cases where `bitECS` components won&rsquo;t do.
+Refer to [this section for this design decision](#avoid-duplicating-state).
 
-
-<a id="org7331485"></a>
-
-# Writing components
-
-
-<a id="org18a6d0b"></a>
-
-## Defining components
-
-`bitECS` components are defined with `defineComponent`.
+In other words, our game state is not &ldquo;purely&rdquo; in ECS, nor do we
+care to make it so. The PR linked above states the (relatively humble) goals
+and non-goals of our entity framework.
 
 
-<a id="org3db6503"></a>
+## Three.js
 
-## Data types
+[`Three.js`](https://threejs.org/) is a JavaScript 3D graphics library.
+We use this library for rendering 3D objects.
 
-`bitECS` components only store numeric types: `i8`, `ui8`, `ui8c`, `i16`, `ui16`, `i32`, `ui32`, `f32`, `f64`, and `eid`.
+3D objects are rendered in the 3D scene by
+[`Three.js WebGLRenderer`](https://threejs.org/docs/#api/en/renderers/WebGLRenderer)
+if [`Three.js Object3D`](https://threejs.org/docs/#api/en/core/Object3D)
+subtype renderable objects (eg: [`Three.js Mesh`](https://threejs.org/docs/#api/en/objects/Mesh))
+are added to [`Three.js Scene`](https://threejs.org/docs/#api/en/scenes/Scene).
 
-The sections below describe what we do when we need to store non-numeric data.
+We also highly recommend to understand the basic `Three.js` API and concept
+[`from their documents`](https://threejs.org/docs/).
 
 
-<a id="org589f3d9"></a>
+## Add-on
 
-## Avoid holding references
+Add-on is one or set of application logics. It consists of components,
+systems, and inflators.
 
-The `eid` type indicates that the property values will be entity IDs. Be careful when storing references to entities. If the referenced entity is removed from the world with `removeEntity`, then you should consider the entity reference in the component to be invalid! You can use `entityExists` to check whether the referenced entity still exists, but in general it is best to avoid storing entity references if you can.
+In the Hubs Client, most of the features are written as add-ons (eg: media
+loading, physics, object menus, and so on). The rest of the features will be
+rewritten as add-ons soon.
 
-The most common scenario for using the `eid` type is when building multi-entity objects, such as in-world menus. The `VideoMenu` component stores references to each entity so that it can manage them all easily.
+You can also add your custom add-ons.
+
+Note that currently we don't have good APIs to register custom add-ons yet.
+You are required to edit some Hubs Client core files.
+
+TODO: Add APIs to register custom add-ons.
+
+
+### Directories
+
+Most of the built-in add-on source codes are found in 
+[`src/components`](https://github.com/mozilla/hubs/tree/master/src/components) and
+[`src/bit-systems`](https://github.com/mozilla/hubs/tree/master/src/bit-systems).
+Also find the files imported from them. If you want to read the built-in add-on
+code check the directories.
+
+
+### Simple example
+
+Let's start with making an easy and workable add-on example. We will make an
+add-on that linearly moves Three.js objects associated with entities. You will
+know likely what add-on is and how it looks like from this first easy example.
+
+First, we will define a new component needed for the add-on. `Verlocity`
+component holds a vector information that indicates the direction and speed
+of movement.
+
+```typescript
+// src/components/velocity.ts
+import { defineComponent, Types } from "bitecs";
+
+export const Velocity = defineComponent({
+  x: Types.f32,
+  y: Types.f32,
+  z: Types.f32
+});
+```
+
+Second, we will write a systems that moves Three.js objects. `velocitySystem`
+gets the ids of entities that have `Velocity` and `Object3DTag` components by
+using `bitECS` query, gets Three.js objects associated with entities, and updates
+the objects' position.
+
+ (`HubsWorld`, `eid2obj`, and `Object3DTag` will be explained in the later sections.)
+
+```typescript
+// src/systems/velocity.ts
+import { defineQuery } from "bitecs";
+import { Object3DTag } from "../bit-components";
+import { Velocity } from "../components/velocity";
+import { HubsWorld } from "../app";
+
+const velocityQuery = defineQuery([Velocity, Object3DTag]);
+export function velocitySystem(world: HubsWorld) {
+  velocityQuery(world).forEach(eid => {
+    const obj = world.eid2obj.get(eid)!;
+    obj.position.x += Velocity.x[eid];
+    obj.position.y += Velocity.y[eid];
+    obj.position.z += Velocity.z[eid];
+  });
+}
+```
+
+We will edit a bit an existing Hubs core file `src/systems/hubs-systems.ts` to
+call `velocitySystem` from `mainTick` that is invoked every animation frame.
+
+```typescript
+// src/systems/hubs-systems.ts
+...
+import { velocitySystem } from "../systems/velocity";
+...
+export function mainTick(...) {
+  ...
+  velocitySystem(world);
+  ...
+}
+...
+```
+
+TODO: Add an API to register system.
+
+Next, we will write an inflator for `Velocity` component. Inflator is not
+part of `bitECS` but a Hubs special that adds component(s) to an entity and
+initializes component(s) data.
+
+```typescript
+// src/inflators/velocity.ts
+import { addComponent } from "bitecs";
+import { Velocity } from "../components/velocity";
+import { HubsWorld } from "../app";
+
+export type VelocityParams = {
+  x?: number;
+  y?: number;
+  z?: number;
+};
+
+const DEFAULTS: Required<VelocityParams> = {
+  x: 0.0,
+  y: 0.0,
+  z: 0.0
+};
+
+export function inflateVelocity(
+  world: HubsWorld,
+  eid: number,
+  params: VelocityParams
+) {
+  params = Object.assign({}, params, DEFAULTS) as Required<VelocityParams>;
+  addComponent(world, Velocity, eid);
+  Velocity.x[eid] = params.x;
+  Velocity.y[eid] = params.y;
+  Velocity.z[eid] = params.z;
+}
+```
+
+TODO: Rename inflator to addXXX for easiness to understand?
+
+The add-on is ready now.
+
+If you call the inflator from somewhere to add `Velocity` component and also
+add Three.js object to entities, you will see the objects move in the 3D scene.
+
+```typescript
+// somewhere
+import { addEntity } from "bitecs";
+import { BoxGeometry, Mesh, MeshBasicMaterial } from "three";
+import { inflateVelocity } from "../inflators/velocity";
+import { addObject3DComponent } from "../utils/jsx-entity";
+import { HubsWorld } from "../app";
+
+function xxx(world: HubsWorld) {
+  ...
+  const eid = addEntity(world);
+  inflateVelocity(world, eid, {
+    x: 1.0
+  });
+  addObject3DComponent(world, eid, new Mesh(
+    new BoxGeometry(1.0, 1.0),
+    new MeshBasicMaterial()
+  ));
+  ...
+}
+```
+
+(`addObject3DComponent` will be explained in [the later sections](#entitydef-jsx-prefab).)
+
+If you want to allow your custom components to be created from `JSX` and/or
+`glTF`, you also need to edit the core `src/utils/jsx-entity.ts` file for a
+mapping from their key in the inflator. It will be explained later
+[here](#entitydef-jsx-prefab) and [here](#inflators-for-gltf) for each.
+
+TODO: Write an outline of concepts in the form of an example before breaking
+down the individual concepts.
+
+Let's look into systems, components, inflators, and others more details below.
+
+
+## Writing systems
+
+
+### Systems are functions
+
+`bitECS` has no built-in concept of [systems](https://github.com/NateTheGreatt/bitECS/blob/master/docs/INTRO.md#-system).
+We frequently refer the functions invoked during the game loop as
+&ldquo;systems&rdquo;, but there is no formal construct.
+
+TODO: Perhaps we may need to define the type of system function,
+eg: `(world: HubsWorld) => void`.
+
+
+### The game loop
+
+We provide the browser&rsquo;s
+[`requestAnimationFrame`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame)
+(or [`XRSession.requestAnimationFrame`](https://developer.mozilla.org/en-US/docs/Web/API/XRSession/requestAnimationFrame)
+in [`immersive mode`](https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API))
+with our game loop function (`mainTick`), to be invoked each frame. All the
+systems are invoked from `mainTick` one by one.
+
+If you want to your addon you need to edit `mainTick` to insert your systems.
+
+TODO: Write about system order
+
+
+### Accessing Entities
+
+[`bitECS` queries](https://github.com/NateTheGreatt/bitECS/blob/master/docs/INTRO.md#-query)
+allow us to find entities based on the [components](https://github.com/NateTheGreatt/bitECS/blob/master/docs/INTRO.md#-component)
+that are attached to them. `enterQuery` and `exitQuery` wrap regular queries so
+that we handle when an entity first matches or stops matching a given query.
+[The `bitECS` documentation](https://github.com/NateTheGreatt/bitECS#--documentation)
+should be consulted for more details.
+
+Holding the references to entities may be danger because entities can be
+deleted or even recycled [as explained later](#creating-entities). It is safer
+to use queries as much as possible to fetch entities when needed.
+
+
+### Asynchronous Operations/Coroutines
+
+`async` functions should not be used. Instead, [`coroutines`](https://x.st/javascript-coroutines/)
+should be used to ensure that systems run in `mainTick`.
+
+If you use `async` in a system, the system can restart outside of `mainTick`.
+Using `coroutines` enforces systems to run in `mainTick`. We want all the
+systems to run in `mainTick` for good lifecycle control.
+
+We provide `coroutine` helper functions. Refer to [the "JobRunner" section](#jobrunner)
+below for details.
+
+
+## Writing components
+
+TODO: Write what components briefly are
+
+
+### Defining components
+
+`bitECS` [components](https://github.com/NateTheGreatt/bitECS/blob/master/docs/INTRO.md#-component)
+are defined with [`defineComponent`](https://github.com/NateTheGreatt/bitECS/blob/master/docs/API.md#definecomponent--object).
+
+
+### Data types
+
+`bitECS` components natively support only numeric types: `i8`, `ui8`, `ui8c`, `i16`,
+`ui16`, `i32`, `ui32`, `f32`, `f64`, and `eid`.
+
+Refer to the following sections if you want to use non-numeric types.
+
+
+### Avoid holding references
+
+The `eid` type indicates that the property values will be entity IDs. Be
+careful when storing references to entities. If the referenced entity is
+removed from the world with [`bitECS removeEntity()`](https://github.com/NateTheGreatt/bitECS/blob/master/docs/API.md#removeEntity),
+then you should consider the entity reference in the component to be invalid!
+You can use [`bitECS entityExists()`](https://github.com/NateTheGreatt/bitECS/blob/master/docs/API.md#entityexists)
+to check whether the referenced entity still exists, but in general it is best
+to avoid storing entity references if you can.
+
+The most common scenario for using the `eid` type is when building multi-entity
+objects, such as in-world menus. The `VideoMenu` component in the Hubs Client
+core stores references to each entity that has a target video or a part object
+(eg: label or indicator) of the menu so that it can manage them all easily.
 
 ```typescript
 export const VideoMenu = defineComponent({
@@ -169,41 +361,70 @@ export const VideoMenu = defineComponent({
 ```
 
 
-<a id="org31d40f6"></a>
+### String data
 
-## Entity ID&rsquo;s are recycled
+We sometimes want to be able to store string data in components. Since `bitECS`
+does not allow strings in components, we provide a helper mechanism to store
+numeric string ID&rsquo;s instead.
 
-After an entity is removed (by `removeEntity`), its `EntityID` can later be reused in subsequent calls to `addEntity`. This does not happen right away, but is something you should be aware of, and is all the more reason to avoid holding onto entity references.
+Let's think of a `SceneLoader` component with a `src` property, which we
+wish was a string, as an example.
 
-
-<a id="orgdf10967"></a>
-
-## String data
-
-We sometimes want to be able to store string data in components. Since `bitECS` does not allow strings in components, we store numeric string ID&rsquo;s instead.
-
-For example, consider a `SceneLoader` component with a `src` property, which we wish was a string.
+Define a component with `src` property as `ui32` type. And mark the `src`
+property as string data with the symbol `$isStringType`, defined in the Hubs
+Client core `src/bit-components.js` file.
 
 ```typescript
 export const SceneLoader = defineComponent({ src: Types.ui32 });
 SceneLoader.src[$isStringType] = true;
 ```
 
-The symbol `$isStringType`, defined in `bit-components.js`, indicates that this property is a string handle. Code that handles component state anonymously (e.g. `createDefaultInflator`) use this to correctly handle the property values.
+The symbol indicates that this property is a string handle. Code that handles
+component state anonymously (e.g. [our `createDefaultInflator()` that will be
+explained later](#default-inflators)) use this to correctly handle the property values.
 
-Strings are converted to numeric `StringID` s by the `getSid` function. `StringID` s can be converted back to strings by the `getString` function.
+Strings are converted to numeric `StringID` s by the `APP.getSid` function.
+`StringID` s can be converted back to strings by the `APP.getString` function.
+`APP` is exposed to global scope from Hubs Client core `src/app.ts` and it
+can be accessed anywhere.
+
+Then, code that initializes `SceneLoader` component will be like this
 
 ```typescript
-const src = APP.getString(SceneLoader.src[loaderEid]);
-console.log(`Loading scene from this url: ${src}`);
+export type SceneLoaderParams = {
+  url: string;
+};
+
+export function inflateSceneLoader(
+  world: HubsWorld,
+  eid: number,
+  params: SceneLoaderParams
+) {
+  addComponent(world, SceneLoader, eid);
+  SceneLoader.src[eid] = APP.getSid(params.url);
+}
+```
+
+and code that accesses the property will be like this.
+
+```typescript
+const sceneLoaderQuery = defineQuery([SceneLoader]);
+const sceneLoaderEnterQuery = enterQuery(sceneLoaderQuery);
+export function sceneLoaderSystem(world: HubsWorld) {
+  sceneLoaderEnterQuery(world).forEach(eid => {
+    const src = APP.getString(SceneLoader.src[eid]);
+    console.log(`Loading scene from this url: ${src}`);
+    ...
+  });
+}
 ```
 
 
-<a id="org70bd5dd"></a>
+### Booleans/Flags
 
-## Flags
-
-`bitECS` components do not support `boolean` properties. In lieu of boolean properties, we often define a single `flags` property as an unsigned integer type to use as a bitmask:
+`bitECS` components do not support `boolean` properties. In lieu of boolean
+properties, we often define a single `flags` property as an unsigned integer
+type to use as a bitmask:
 
 ```typescript
 export const Waypoint = defineComponent({
@@ -222,7 +443,7 @@ export enum WaypointFlags {
 }
 
 // These values are booleans because they originate from an external source, like json in a gltf file.
-export interface WaypointParams {
+export type WaypointParams = {
   canBeSpawnPoint: boolean;
   canBeOccupied: boolean;
   canBeClicked: boolean;
@@ -230,7 +451,7 @@ export interface WaypointParams {
   willDisableTeleporting: boolean;
   willMaintainInitialOrientation: boolean;
   snapToNavMesh: boolean;
-}
+};
 
 // When we inflate a waypoint component, we pack the booleans into the flags property
 export function inflateWaypoint(world: HubsWorld, eid: number, props: WaypointParams) {
@@ -253,475 +474,738 @@ const canBeSpawnPoint = Waypoint.flags[eid] & WaypointFlags.canBeSpawnPoint;
 ```
 
 
-<a id="org58d595d"></a>
+### The escape hatch
 
-## Tag components
+Sometimes, we want to store non-numerical data in components. Since `bitECS`
+doesn't support non-numerical component properties, we store it in regular
+`Map` s instead.
 
-`bitECS` components with no properties are called tag components. It is useful to be able to tag an entity so that it appears in queries.
+Let's think of defining a `MediaPDF` component that manages both numerial and
+non-numerical data as an example.
 
-
-<a id="orga5547d0"></a>
-
-## The escape hatch
-
-Sometimes, we need to store data that is just numbers and strings. Since we can&rsquo;t store the data in `bitECS` components, we store it in regular `Map` s instead.
-
-For example, the `MediaPDF` component stores a numeric `pageNumber`, and separately has a (uninspiringly named) `map` property:
+Define a component with numeric properties, and separately create a
+`Map` for non-numerical data.
 
 ```typescript
+// src/components/media_pdf.ts
 export const MediaPDF = defineComponent({
   pageNumber: Types.ui8
 });
-MediaPDF.map = new Map();
-```
 
-In typescript, we specify the data types we will store in the map:
-
-```typescript
-export interface PDFResources {
-  pdf: PDFDocumentProxy;
+export type MediaPDFData = {
+  pdf: PDFObject;
   material: MeshBasicMaterial;
   canvasContext: CanvasRenderingContext2D;
+};
+
+export const MediaPDFMap = new Map<number, MediaPDFData>();
+```
+
+`bitECS` is not aware of anything about such `Map`s so allocating and
+deallocating an element of `Map` for an entity and initializing and
+cleaning up non-numerical data are your responsibility.
+
+Then inflator and system will be like these.
+
+```typescript
+// src/inflators/media_pdf.ts
+import { MeshBasicMaterial } from "three";
+import { MediaPDF, MediaPDFMap } from "../components/media_pdf";
+
+export type MediaPDFParams = {
+  pdf: PDFObject;
+  canvasContext: CanvasRenderingContext2D;
+};
+
+export function inflateMediaPDF(
+  world: HubsWorld,
+  eid: number,
+  params: MediaPDFParams
+) {
+  addComponent(world, MediaPDF, eid);
+  MediaPDF.pageNumber[eid] = 0;
+
+  MediaPDFMap.set(eid, {
+    pdf: params.pdf,
+    material: new MeshBasicMaterial(),
+    canvasContext: params.canvasContext
+  });
 }
-export const PDFResourcesMap = (MediaPDF as any).map as Map<EntityID, PDFResources>;
+
+// src/systems/media_pdf.ts
+import { MediaPDF, MediaPDFMap } from "../components/media_pdf";
+import { disposeMaterial } from "../utils/three-utils";
+
+const pdfQuery = defineQuery([MediaPDF]);
+const pdfExitQuery = exitQuery(pdfQuery);
+export function mediaPDFSystem(world: HubsWorld) {
+  pdfExitQuery(world).forEach(eid => {
+    const { pdf, material } = MediaPDFMap.get(eid)!;
+    pdf.cleanup();
+    disposeMaterial(material);
+    MediaPDFMap.delete(eid);
+  });
+
+  pdfQuery(world).forEach(eid => {
+    const { pdf, material, canvasContext } = MediaPDFMap.get(eid)!;
+    const pageNumber = MediaPDF.pageNumber[eid];
+    ...
+  });
+}
 ```
 
-It is our responsibility to clean up anything we put into the map:
+
+### Tag components
+
+`bitECS` components with no properties are called tag components. It is useful
+to be able to tag an entity so that it appears in queries.
+
+TODO: Currently we use name "*Tag" for some components even that have
+properties to avoid the conflict with existing object names. (eg: 
+`DirectionalLightTag` to avoid the conflict with `Three.js DirectionalLight`.)
+It doesn't match the Tag components description. We may need to update the
+description or use other component name patterns.
+
+
+### Avoid duplicating state
+
+[`Three.js Object3D`](https://threejs.org/docs/#api/en/core/Object3D) and
+its subtypes have many properties that change at runtime. Rather than storing
+a duplicate copy of these properties in `bitECS` components, we use tag
+components on the entity so that they show up in the necessary queries, and
+then operate on the associated `Object3D` directly.
+
+Let's think of [`TroikaText`](https://protectwise.github.io/troika/troika-three-text/)
+as an example. We use `TroikaText` library for high quality texts in the 3D
+scene. `TroikaText` class extends [`Three.js Mesh`](https://threejs.org/docs/#api/en/objects/Mesh),
+which extends `Three.js Object3D`. `TroikaText` s have a `text` string property
+and a function `sync` that will flush the `text` to the underlying shader program.
+
+In Hubs, we define the `TextTag` component without any property.
 
 ```typescript
-pdfExitQuery(world).forEach(function (eid) {
-  const resources = PDFResourcesMap.get(eid)!;
-  resources.pdf.cleanup();
-  disposeMaterial(resources.material);
-  PDFResourcesMap.delete(eid);
+export const TextTag = defineComponent();
+// Not
+// export const TextTag = defineComponent({ text: Types.ui32 });
+// TextTag.text[$isStringType] = true;
+```
+
+We do not duplicate the `text` string in a `bitECS` component. We simply
+operate on the underlying `Object3D` (a `TroikaText`):
+
+```typescript
+const textQuery = defineQuery([TextTag, TimeLabel]);
+export function textSystem(world: HubsWorld) {
+  textQuery(world).forEach(eid => {
+    const timeLabel = world.eid2obj.get(eid)! as TroikaText;
+    timeLabel.text = new Date().toISOString();
+    timeLabel.sync();
+  });
+}
+```
+
+Refer to the later sections for `world.eid2obj.get(eid)! as XXX`.
+
+TODO: Write benefits from this design decision.
+
+TODO: Do we use another example because this Text example doesn't match the
+actual implmentation. `TroikaText.sync()` shouldn't be called each system.
+It should be called only once in a frame in a dedicated system. This example
+might be confusing if the readers check the actual code.
+
+
+## Writing inflators
+
+`Inflator` is one of the special concepts, which may not appear in standard
+ECS patterns, in Hubs Client. 
+
+Once component is added to an entity and its data is initialized, it starts to
+be processed by systems in ECS world. In other words, components need points
+where they are added to entity and their data is initialized.
+
+`Inflator` is the component entry point in the Hubs Client.
+
+TODO: Rename inflate to add or setup because the name may not clearly explain
+what it does?
+
+
+### Inflator functions
+
+An `inflator` is a function that takes initialize parameter for some
+components and set up them for an entity.
+
+```typescript
+export type FooParams = {
+  x?: number;
+  y?: number;
+  z?: number;
+};
+
+const DEFAULTS: Required<FooParams> = {
+  x: 0.0,
+  y: 0.0,
+  z: 0.0
+};
+
+export function inflateFoo(
+  world: HubsWorld,
+  eid: number,
+  params: FooParams
+) {
+  params = Object.assign({}, params, DEFAULTS) as Required<FooParams>;
+  addComponent(world, Foo, eid);
+  Foo.x[eid] = params.x;
+  Foo.y[eid] = params.y;
+  Foo.z[eid] = params.z;
+  addObject3DComponent(world, eid, new FooObject3D());
+}
+```
+
+Inflator function type must be `(world: HubsWorld, eid: number, params?: object) => void`
+for integration with [our `renderAsEntity()` explained later](#renderasentity).
+
+An inflator may create a `Three.js Object3D` object and add it to an entity
+with our `addObject3DComponent()`. Refer to [the later section](#single-object3d-per-an-entity)
+for adding a `Object3D` to an entity.
+
+An inflator may set up multiple components.
+
+
+### Inflators are synchronous
+
+Inflator functions must be synchronous functions for simplicity.
+
+TODO: More describe the benefit from this limitation
+
+
+### No dependency with other Components
+
+Inflators shouldn't expect any state of passed entity. For example they
+shouldn't expect an entity has certain components or [`Three.js Object3D` is
+already set to it](#single-object3d-per-an-entity). This is a bad example.
+
+```typescript
+export function inflateFoo(world: HubsWorld, eid: number, params: FooParams) {
+  addComponent(world, Foo, eid);
+  // Inflator shouldn't have a dependency with other components
+  if (hasComponent(world, Bar, eid)) {
+    Foo.x[eid] = Bar.x[eid];
+  }
+  // Inflator can't expect Three.js Object3D is already set
+  if (hasComponent(world, Object3DTag, eid)) {
+    const obj = world.eid2obj.get(eid)!;
+    Foo.y[eid] = obj.position.length();
+  }
+}
+```
+
+If a compilation data initialization has a dependency with other components,
+it may be a sign that you should redesign components.
+
+If dependencies really aren't avoidable, you may think of initializing in
+system with query [as explained later](#component-initialization-with-object3d).
+
+
+### Default inflators
+
+TODO: Write this section
+
+
+## Creating entities
+
+An entity is an identifier pointing to a group of components. It doesn’t
+contain any direct behavior or data.
+
+
+### Entity basics
+
+`bitECS` entities are added to the `bitECS` world with [`bitECS addEntity()`](https://github.com/NateTheGreatt/bitECS/blob/master/docs/API.md#addEntity)
+and removed from the world with [`bitECS removeEntity()`](https://github.com/NateTheGreatt/bitECS/blob/master/docs/API.md#removeentity).
+In `bitECS`, component state is stored in large, pre-allocated `TypedArrays`.
+In other words, entities are not objects with components inside them. Entities
+are simply numbers (aliased as `EntityID` type in `src/utils/networking-types.ts`)
+and often called Entity IDs. The `World` keeps track of things like whether an
+entity has a given component ([`hasComponent(world, MyComponent, eid)`](https://github.com/NateTheGreatt/bitECS/blob/master/docs/API.md#hasComponent)).
+
+Note that you rarely need to call `addEntity()` directly. Instead you will
+often use [our `prefab` and `renderAsEntity()` mechanisms explained later](#single-object3d-per-an-entity)
+to create an entity with components and `Three.js Object3D` set up.
+
+
+### Entity ID&rsquo;s are recycled
+
+After an entity is removed, its `EntityID` can later be reused in subsequent
+calls to `addEntity`. This does not happen right away, but is something you
+should be aware of, and is all the more reason to avoid holding onto entity
+references.
+
+
+## Hubs Client ECS specialities
+
+Hubs Client core provides some special functions, patterns, and limitations
+for simplicity, efficiency, and consistency. You must follow these Hubs Client
+ECS specialities, which might not match standard ECS patterns, for the
+consistency unless any strong reasons.
+
+
+### HubsWorld
+
+`HubsWorld` defined in [`src/app.ts`](https://github.com/mozilla/hubs/blob/master/src/app.ts)
+extends [`bitECS World`](https://github.com/NateTheGreatt/bitECS/blob/master/docs/INTRO.md#-world).
+It manages some extra Hubs Client specific resources and also provides some
+useful data. For example you can get elapsed and delta time from it.
+
+It is instantiated at the beginning of the Hubs Client application and passed
+to a lot of functions (inflators, systems, utils, and so on).
+
+
+### Single Object3D per an entity
+
+We often associate an entity with a single `Three.js Object3D`. We don't allow
+multiple `Object3D`s per an entity for simplicity. (An entity without
+associated `Object3D` is allowed.)
+
+TODO: Write the benefit from this limitation
+
+You need to call `addObject3DComponent()` defined in
+[`src/utils/jsx-entity.ts`](https://github.com/mozilla/hubs/blob/master/src/utils/jsx-entity.ts)
+to associate an `Object3D` with an entity.
+
+```typescript
+import { addEntity } from "bitecs";
+import { BoxGeometry, Mesh, MeshBasicMaterial } from "three";
+import { addObject3DComponent } from "../src/utils/jsx-entity";
+
+const eid = addEntity(world);
+addObject3DComponent(world, eid, new Mesh(
+  new BoxGeometry(1.0, 1.0, 1.0),
+  new MeshBasicMaterial({ color: 0xffffff })
+));
+```
+
+`addObject3DComponent()` checks whether an `Object3D` is associated for an
+entity. It throws an exception if already asssociated. It prevents multiple
+`Object3D` associations.
+
+```typescript
+const eid = addEntity(world);
+addObject3DComponent(world, eid, new Group());
+// Throws an exception
+addObject3DComponent(world, eid, new Group());
+```
+
+`addObject3DComponent()` adds the built-in component `Object3DTag` defined in
+[`src/bit-components.js`](https://github.com/mozilla/hubs/blob/master/src/bit-components.js)
+to an entity and stores an `Object3D` in the special `eid2obj` map managed in
+`HubsWorld`.
+
+`bitECS` component doesn't natively support non-numerical data type. So we
+decided to store `Object3D`s associated with entities in a special map
+`HubsWorld.eid2obj` that maps from Entity ID to `Object3D`.
+
+TODO: Replace `HubsWorld.eid2obj` with `Object3DTagMap` to be more aligned with the pattern
+described above?
+
+You can use `Object3DTag` component with query to find entities
+that have associated `Object3D`, and access the associated `Object3D`s with
+`HubsWorld.eid2obj` map.
+
+```typescript
+const objectQuery = defineQuery([Object3DTag]);
+export function object3DSystem(world: HubsWorld) {
+  objectQuery(world).forEach(eid => {
+    const obj = world.eid2obj.get(eid)!;
+    ...
+  });
+}
+```
+
+`Object3DTag` component and `HubsWorld.eid2map` manipulations are hidden in
+the Hubs Client core. They should be read-only from add-ons.
+
+
+### EntityDef, JSX, Prefab
+
+You will rarely need to call `bitECS addEntity()` yourself. Instead, you will
+write entity definitions called `EntityDef`s using
+[`React JSX`](https://legacy.reactjs.org/docs/introducing-jsx.html) syntax.
+
+`EntityDef`s are `JSX` expressions that can be passed to our
+`renderAsEntity()` explained later to add entities to the world and assign
+components to the entities.
+
+Let's write an easy example. Assume that `Foo` component and are inflators
+are defined as the following.
+
+```typescript
+// src/components/foo.ts
+
+import { defineComponent, Types } from "bitecs";
+export const Foo = defineComponent({
+  a: Types.f32,
+  b: Types.f32
 });
+
+// src/inflators/foo.ts
+
+import { addComponent } from "bitecs";
+import { HubsWorld } from "../app";
+export type FooParams = {
+  a: number;
+  b: number;
+};
+export function inflateFoo(world: HubsWorld, eid: number, params: FooParams) {
+  addComponent(world, Foo, eid);
+  Foo.a[eid] = params.a;
+  Foo.b[eid] = params.b;
+}
 ```
 
+First, you need to edit the core `src/utils/jsx-entity.js` file to register
+`JSX` key - inflator map in `JSXComponentData` for inflator parameters
+and `jsxInflators` for inflator function. Choosing `foo` as a key here.
 
-<a id="orgf29a631"></a>
-
-## Associating entities with `Object3D` s
-
-We often associate an entity with an `Object3D`. We do this by adding an `Object3DTag` component to the entity, storing the association in `world.eid2obj`, and setting `obj.eid` to the `EntityID`.
-
-An entity can only be associated with a single `Object3D`.
-
-You may find it strange that we have a different pattern for `world.eid2obj`, and that we do not simply use the same pattern as the one shown above for `MediaPDF`. Well, I do too. We wrote `world.eid2obj` long before we wrote `MediaPDF`, so this may be an accident. Perhaps we&rsquo;ll change `world.eid2obj` to `Object3DTag.map`, since the `eid2obj` map is meant to be kept in sync with the `Object3DTag` component.
-
-
-<a id="orgfe9fb09"></a>
-
-## Avoid duplicating state
-
-`Object3D` and its subtypes have many properties that change at runtime. Rather than storing a duplicate copy of these properties in `bitECS` components, we use tag components on the entity so that they show up in the necessary queries, and then operate on the associated `Object3D` directly.
-
-For example, `TroikaText` extends `Mesh`, which extends `Object3D`. `TroikaText` s have a `text` string property and a function `sync` that will flush the `text` to the underlying shader program.
-
-In Hubs, we define the `Text` component as a tag (i.e. with no properties):
-
-```typescript
-export const Text = defineComponent();
+```
+// src/utils/jsx-entity.js
+import { FooParams, inflateFoo } from "../inflators/foo";
+...
+export interface JSXComponentData extends ComponentData {
+  ...
+  foo?: FooParams;
+  ...
+}
+...
+const jsxInflators: Required<{ [K in keyof JSXComponentData]: InflatorFn }> = {
+  ...
+  foo: inflateFoo,
+  ...
+};
+...
 ```
 
-We do not duplicate the `text` string in a `bitECS` component. We simply operate on the underlying `Object3D` (a `TroikaText`):
+TODO: Add an API to register `JSX` key - inflator map
+
+You may find `commonInflators` and `gltfInflators` in the file. [They will be
+explained later](#gltf).
+
+Next, write a function with `JSX` syntax that creates `EntityDef` that
+represents entities and associated components with component parameters. We
+call such functions `prefab`.
 
 ```typescript
-const timeLabel = world.eid2obj.get(VideoMenu.timeLabelRef[eid])! as TroikaText;
-timeLabel.text = `${timeFmt(video.currentTime)} / ${timeFmt(video.duration)}`;
-timeLabel.sync();
-```
+/** @jsx createElementEntity */
 
+// src/prefabs/foo.tsx
 
-<a id="orgbad6d63"></a>
-
-# Adding entities
-
-
-<a id="org9d285be"></a>
-
-## Entity basics
-
-Entities are added to the world with `addEntity` and removed from the world with `removeEntity`. In `bitECS`, component state is stored in large, pre-allocated `TypedArrays`. In other words, entities are not objects with components inside them. Entities are simply numbers (`EntityID` s), and the `World` keeps track of things like whether an entity has a given component (`hasComponent(world, MyComponent, eid)`).
-
-You will rarely need to call `addEntity` yourself. Instead, you will write entity definitions (`EntityDef` s) using `jsx` or create model files (`gltf`) with that add entities and components when the models are loaded.
-
-Note: We support both `glTF` formats, where binary data buffers contain base64-encoded strings (as in `.gltf`) or raw byte arrays (as in `.glb`). We refer to `gltf` and `glb` files interchangably.
-
-
-<a id="orgdd790f5"></a>
-
-## Creating `EntityDef` s
-
-`EntityDef` s are `jsx` expressions that can be passed to `renderAsEntity` to add entities and components to the world. `EntityDef` s are commonly returned from `template` functions, which take some `InitialData` and return an `EntityDef` with the that `InitialData` applied.
-
-For example, the commonly used `MediaPrefab` function is a `template` that takes `MediaLoaderParams` as its `InitialData`, and returns an `EntityDef` for an interactable object.
-
-```typescript
-export function MediaPrefab(params: MediaLoaderParams): EntityDef {
+export function fooPrefab(params: {a: number, b: number}) {
   return (
     <entity
-      name="Interactable Media"
-      networked
-      networkedTransform
-      mediaLoader={params}
-      deletable
-      grabbable={{ cursor: true, hand: true }}
-      destroyAtExtremeDistance
-      floatyObject={{
-        flags: FLOATY_OBJECT_FLAGS.MODIFY_GRAVITY_ON_RELEASE,
-        releaseGravity: 0
-      }}
-      networkedFloatyObject={{
-        flags: FLOATY_OBJECT_FLAGS.MODIFY_GRAVITY_ON_RELEASE
-      }}
-      rigidbody={{ collisionGroup: COLLISION_LAYERS.INTERACTABLES, collisionMask: COLLISION_LAYERS.HANDS }}
-      physicsShape={{ halfExtents: [0.22, 0.14, 0.1] }} /* TODO Physics shapes*/
-      scale={[1, 1, 1]}
+      foo={{ a: params.a, b: params.b }}
     />
   );
 }
 ```
 
-Although `EntityDef` s are written with `jsx` syntax, this is not `React`. The `jsx` syntax allows us to describe our desired scene graph, entities, and components. The definition is static, and there should be no expectation of &ldquo;re-rendering&rdquo; (as in `React` or `three-fiber`). Semantically, an `EntityDef` is equivalent to a model file with component data. `EntityDef` s are meant to be easy to edit by hand and to version control.
+Multiple components association, multiple entities, and nested entities are
+allowed.
 
-For `network instantiated` entities, `template` functions are grouped together with `permission` information to form a named `Prefab`. More information about `network instantiated` entities can be found in the networking documentation.
+```
+// src/prefabs/foobarbazqux.tsx
 
-
-<a id="org156c909"></a>
-
-## Creating model files
-
-Equivalently, hubs components can be added to nodes in a GLTF file with the `MOZ_hubs_components` extension.
-
-The `hubs-blender-exporter` is a Blender add-on that helps artists do this.
-
-Spoke also includes component data in the gltf files that it exports and uploads.
-
-
-<a id="org2319bae"></a>
-
-## Entity creation is synchronous
-
-It is important to realize that `renderAsEntity` is a synchronous function. That is, it will immediately return a valid `EntityID` with a corresponding `Object3D` added to the scene graph.
-
-The presence of some components (like `MediaLoader`) cause systems to begin asynchronous work. In the case of `MediaLoader`, this work can include downloading model or image files, loading them with the GLTF loader, and ultimately creating additional entities and components. But the entity at the root of this `Object3D` hierarchy will be created synchronously/immediately when `renderAsEntity` runs.
-
-
-<a id="org628683b"></a>
-
-## Inflation
-
-
-<a id="org20a38aa"></a>
-
-### What does `renderAsEntity` do?
-
-In the example above, we show a `template` function (`MediaPrefab`) that takes some `InitialData` (the `MediaLoaderParams`) and returns an `EntityDef`. We then said that the `EntityDef` can be passed to `renderAsEntity` which will (synchronously) add entities and components to the world. We also said this was equivalent to loading a model file (GLTF).
-
-Question: How does `renderAsEntity` (and whatever loads models) accomplish this? Answer: By running `inflators`.
-
-
-<a id="org357d40d"></a>
-
-### `Inflator` s
-
-An `inflator` is a function that transforms a <span class="underline">description</span> of some components/entities into real components and real entities.
-
-When `renderAsEntity` is given the `EntityDef` generated by the `MediaPrefab` above, it will run an `inflator` for each of the properties found in the `jsx` expression.
-
-For example, the `jsx` expression contains the following line:
-
-```typescript
-  grabbable={{ cursor: true, hand: true }}
+export function fooBarBazQuxPrefab() {
+  return (
+    <entity
+      foo={{ a: 0, b: 1 }}
+      bar={{ c: 2, d: 3 }}
+    >
+      <entity
+        baz={{ e: 4, f: 5 }}
+      />
+      <entity
+        qux={{ g: 6, h: 7 }}
+      />
+    </entity>
+  );
+}
 ```
 
-When `renderAsEntity` parses this line, it checks the `jsxInflators` map (for the key `"grabbable"` ) to find the associated inflator (`inflateGrabbable`), and calls it.
+Although `EntityDef` s are written with `React JSX` syntax, this is not
+`React`. The `JSX` syntax allows us to describe our desired scene graph,
+entities, and components. `EntityDef` s are meant to be easy to edit by
+hand and to version control.
 
-The `inflateGrabbable` function transforms the description into the necessary runtime components:
+
+### renderAsEntity()
+
+Our `renderAsEntity()` function defined in [`src/utils/jsx-entity.js`](https://github.com/mozilla/hubs/blob/master/src/utils/jsx-entity.ts)
+parses `EntityDef`, adds entities to the world, and assign components to the
+entities.
+
+It also ensures that each entity has an associated `Three.js Object3D`. If no
+inflator adds an `Object3D`, it adds `Three.js Group` to an entity.
+
+TODO: Rename `renderAsEntity()` because the name might be confusing? Readers,
+especially who know `Three.js`, may think it renders an object similar to
+[`Three.js WebGLRenderer.render()`](https://threejs.org/docs/#api/en/renderers/WebGLRenderer.render)
+and the object is added to `Three.js Scene` but the both are not true. For
+example, `createRenderableEntity(world: HubsWorld, def: EntityDef)` or
+simply `parse(world: HubsWorld, def: EntityDef)` may be misleading?
 
 ```typescript
-export type GrabbableParams = { cursor: boolean; hand: boolean };
-const defaults: GrabbableParams = { cursor: true, hand: true };
-export function inflateGrabbable(world: HubsWorld, eid: number, props: GrabbableParams) {
-  props = Object.assign({}, defaults, props);
-  if (props.hand) {
-    addComponent(world, HandCollisionTarget, eid);
-    addComponent(world, OffersHandConstraint, eid);
+import { renderAsEntity } from "../utils/jsx-entity";
+import { fooPrefab } from "../prefabs/foo";
+
+const eid = renderAsEntity(world, fooPrefab({ a: 0, b: 1 }));
+
+// It is equivalent to
+
+export function createFooEntity(world: HubsWorld, params: { a: number, b: number }) {
+  const eid = addEntity(world);
+  inflateFoo(world, eid, { a: params.a, b: params.b });
+
+  if (!hasComponent(world, Object3DTag, eid)) {
+    addObject3DComponent(world, eid, new Group());
   }
-  if (props.cursor) {
-    addComponent(world, CursorRaycastable, eid);
-    addComponent(world, RemoteHoverTarget, eid);
-    addComponent(world, OffersRemoteConstraint, eid);
+
+  return eid;
+}
+
+const eid = createFooEntity(world, { a: 0, b: 1 });
+```
+
+`renderAsEntity()` lets `Object3D`s form graph from nested entities definition
+and returns an entity id of the root entity.
+
+```typescript
+import { renderAsEntity } from "../utils/jsx-entity";
+import { fooBarBazQuxPrefab } from "../prefabs/foobarbazqux";
+
+const eid = renderAsEntity(world, fooBarBazQuxPrefab());
+
+// It is equivalent to
+
+export function createFooBarBazQuxEntity(world: HubsWorld) {
+  const fooBarEid = addEntity(world);
+  inflateFoo(world, fooBarEid, { a: 0, b: 1 });
+  inflateBar(world, fooBarEid, { c: 2, d: 3 });
+
+  if (!hasComponent(world, Object3DTag, fooBarEid)) {
+    addObject3DComponent(world, fooBarEid, new Group());
   }
-  addComponent(world, Holdable, eid);
-}
-```
 
-Notice that `GrabbableParams` do not map one-to-one with runtime components. That is, there is no `Grabbable` component. This is common in situations where we want to expose user-friendly options (for use in Blender, Spoke, or when writing `EntityDef` s), while representing the information differently at runtime.
+  const bazEid = addEntity(world);
+  inflateBaz(world, bazEid, { e: 4, f: 5 });
 
+  if (!hasComponent(world, Object3DTag, bazEid)) {
+    addObject3DComponent(world, bazEid, new Group());
+  }
 
-<a id="orga810c47"></a>
+  const quxEid = addEntity(world);
+  inflateQux(world, quxEid, { g: 6, h: 7 });
 
-### Default inflators
+  if (!hasComponent(world, Object3DTag, quxEid)) {
+    addObject3DComponent(world, quxEid, new Group());
+  }
 
-For many components, the `EntityDef` or `GLTF` representation DOES match the runtime component, and writing individual inflators for each would be unnecessary boilerplate.
+  const fooBarObj = world.eid2obj.get(fooBarEid)!;
+  const bazObj = world.eid2obj.get(bazEid)!;
+  const quxObj = world.eid2obj.get(quxEid)!;
 
-For example, the `SceneLoader` component has a single property, a string `src`:
+  fooBarObj.add(bazObj);
+  fooBarObj.add(quxObj);
 
-```typescript
-export const SceneLoader = defineComponent({ src: Types.ui32 });
-SceneLoader.src[$isStringType] = true;
-```
-
-It can be specified in the following `EntityDef` :
-
-```typescript
-export function ScenePrefab(src: string): EntityDef {
-  return <entity name="Scene" sceneRoot sceneLoader={{ src }} />;
-}
-```
-
-Writing the inflator for the `SceneLoader` component is simple, except for the fact that we have to remember to convert the `string` to a `StringID`, so that the `bitECS` component can hold onto it:
-
-```typescript
-export function inflateSceneLoader(world: HubsWorld, eid: number, props: { src: string }) {
-  addComponent(world, SceneLoader, eid);
-  SceneLoader.src[eid] = APP.getSid(props.src); // Convert string to string id
-}
-```
-
-In our `jsxInflators` map, we would associate `"sceneLoader"` with `inflateSceneLoader` :
-
-```typescript
-  sceneLoader: inflateSceneLoader,
-```
-
-This situation is so common that we have a helper function, `createDefaultInflator`, that we can use instead of writing `inflateSceneLoader` manually. We simply pass the component we want to inflate to `createDefaultInflator` and we&rsquo;re done:
-
-```typescript
-  sceneLoader: createDefaultInflator(SceneLoader),
-```
-
-The default inflator handles the conversion from `string` s to `StringID`, and will log an error if a property name is passed to the `inflator` that does not have a corresponding property in the underlying component.
-
-
-<a id="org4f9fcd3"></a>
-
-### Associating `Object3D` s (`eid2obj`)
-
-Most of the time, we add a component definition to an `EntityDef` or model file just to cause some component data to be associated with an entity. Sometimes, we want to control the `Object3D` that will be inserted into the scene graph for this entity.
-
-We do this by calling `addObject3DComponent` from within an `inflator`.
-
-For example, when a `simpleWater` component is found within a node of a GLTF file, the `inflateSimpleWater` inflator will create a `SimpleWaterMesh` with the given params and associate it with the given `EntityID` :
-
-```typescript
-export function inflateSimpleWater(world: HubsWorld, eid: EntityID, params: SimpleWaterParams) {
-  params = Object.assign({}, DEFAULTS, params);
-  const lowQuality = APP.store.state.preferences.materialQualitySetting !== "high";
-  const simpleWater = new SimpleWaterMesh({ lowQuality });
-  simpleWater.opacity = params.opacity;
-  simpleWater.color.set(params.color);
-  simpleWater.tideHeight = params.tideHeight;
-  simpleWater.tideScale.fromArray(params.tideScale);
-  simpleWater.tideSpeed.fromArray(params.tideSpeed);
-  simpleWater.waveHeight = params.waveHeight;
-  simpleWater.waveScale.fromArray(params.waveScale);
-  simpleWater.waveSpeed.fromArray(params.waveSpeed);
-  simpleWater.ripplesScale = params.ripplesScale;
-  simpleWater.ripplesSpeed = params.ripplesSpeed;
-
-  addObject3DComponent(world, eid, simpleWater);
-  addComponent(world, SimpleWater, eid);
-}
-```
-
-Only one inflator per entity can create and assign an `Object3D`. An `EntityDef` that describes an entity that is both a `SimpleWaterMesh` and a `DirectionalLight` will fail to load:
-
-```typescript
-renderAsEntity(
-  <entity
-      name="Buggy Entity"
-      simpleWater
-      directionalLight
-  />
-); // throws Error("Tried to add an object3D tag to an entity that already has one");
-
-```
-
-By default, if no `inflator` creates an `Object3D` for the entity, then `renderAsEntity` will create and assign it a `Group`.
-
-
-<a id="org7a41123"></a>
-
-### Loading model files
-
-The sections above explain how `renderAsEntity` transforms a `jsx` `EntityDef` into an entity and components, and claims that the process for loading a `gltf` file is equivalent.
-
-We are now ready to understand why, and will explain by example.
-
-The `EntityDef` returned by the `MediaPrefab` template (above) includes a `mediaLoader`, which will cause `renderAsEntity` to invoke the `inflateMediaLoader` inflator and assign a `MediaLoader` component to the entity.
-
-Assume the `MediaPrefab` template is initialized with `src` set to the url of a `gltf` file. In other words, we are trying to use the `MediaPrefab` load a `gltf` file that we can grab and interact with.
-
-We pass the `EntityDef` to `renderAsEntity`, an entity is returned synchronously, and execution continues as normal.
-
-When the `mediaLoading` system runs, it notices the new `MediaLoader` component and starts an asynchronous `coroutine` that determines the media type pointed to by the `src` property, downloads the `gltf` file and loads it as Three.js scene graph via a `GLTFLoader`. Finally, the loaded scene graph is passed into an `EntityDef`&rsquo;s `model` parameter:
-
-```typescript
-export function* loadModel(world: HubsWorld, src: string, contentType: string, useCache: boolean) {
-  const { scene, animations } = yield loadGLTFModel(src, contentType, useCache, null);
-  scene.animations = animations;
-  scene.mixer = new THREE.AnimationMixer(scene);
-  return renderAsEntity(world, <entity model={{ model: scene }} />);
-}
-```
-
-In other words, the asynchronous work of loading the model is done `before` an entity is created for the loaded `gltf`. Despite being called after some asynchronous work, the entity creation step that happens in `renderAsEntity` itself happens synchronously.
-
-The `model` inflator (`inflateModel`) is to `gltf` files as `renderAsEntity` is to `EntityDef` s. You will notice that `inflateModel` invokes other component inflators and adds many entities to the world to match the `Object3D` hierarchy that was provided within the `ModelParams`.
-
-This is what we mean when we say that loading from `gltf` files is &ldquo;equivalent&rdquo; to loading from `EntityDef` s.
-
-
-<a id="org8ca2b33"></a>
-
-### Common inflators, `jsxInflators`, and `gltfInflators`
-
-We can now explain why there are three collections of `inflators`:
-
--   `commonInflators` are for components can be loaded (identically) whether they are defined in `EntityDef` s or `gltf` files.
--   `jsxInflators` are for components that are specified in `EntityDef` s.
--   `gltfInflators` are for components that are specified in `gltf` files.
-
-Notice that in the sentences above, we overload the word `components`. As we have shown, the data in `EntityDef` s or `gltf` files are not `bitECS` components, but need to be transformed (via `inflator` s) to their runtime formats (which is usually `bitECS` components).
-
-While it might be helpful to define a `new` word (like &ldquo;pre-components&rdquo;) to describe these data, we think this is overly complicated. From the perspective of the Blender add-on for example, its job is to add components (specifically, &ldquo;`MOZ_hubs_components`&rdquo;) to nodes in the `.blend` scene and exported `gltf` files.
-
-
-<a id="orgfcfa191"></a>
-
-### Entity `Ref` s and `__mhc_link_type` : `"node"`
-
-
-<a id="org7fe068b"></a>
-
-### Associating `Material` s (`eid2mat`)
-
-
-<a id="org1a8110a"></a>
-
-# Custom clients and addons
-
-
-<a id="org2b06d43"></a>
-
-## Addons are not ready yet (February 2023)
-
-We are exploring ways to enable add-ons within the Hubs client. This work is not complete, so expect this section to change in the near future.
-
-We will need to start versioning each client deliberately so that developers can test and report which clients versions their add-on are compatible with. We will need to aim for backwards-compatibility and avoid breaking addons with changes, but we should things to be bumpy as we learn how best to structure the client.
-
-Add-ons will require us to change how we update the hubs client on Managed or Hubs Cloud instances. If an add-on is installed on the instance that is not compatible with a new client version, we cannot auto-update the client without risking breaking the installed add-on.
-
-Wordpress and Blender are good models to follow here. In general, if an add-on is not compatible with a new client version, upgrading the instance can be a user-initiated action. However, we may be required in some cases to push updates or partial updates that fix critical security vulnerabilities.
-
-We will need to figure out how / where these addons will be hosted, how they will be installed, and to what extent Mozilla verifies that a given add-on is safe. We suspect that in the early days, add-ons will likely be installed via the admin interface, with a warning from us saying that you must trust the add-on developer is not doing anything nefarious, and that we have not validated or audited the code. This is similar to the warning that appears when installing add-ons to Firefox.
-
-It will be easier for us to support custom clients than to support add-ons. Users should expect better support for writing, loading, and sharing custom clients soon, including on Managed instances.
-
-In order for addons to do meaningful work, we need to expose a number of functions and data structures (and relax their types). The sections below describe the extension points we expect add-ons and custom clients will need to access.
-
-
-<a id="org35960ac"></a>
-
-## Creating an add-on
-
-Hubs client add-ons will work similarly to how add-ons work in Blender. An addon will be a module that exports an `info : AddonInfo`, a `load` function, and an `unload` function:
-
-```typescript
-export const info : AddonInfo = {
-  name: "My Special Addon",
-  // etc
+  return fooBarEid;
 }
 
-export function load( params : LoadCallbackParams ) {
-  // Do whatever initialization you need to do when your add on is loaded
-}
-
-export function unload () {
-  // Do whatever cleanup you need to do when your add on is unloaded
-
-  // TODO Is it even possible for add-ons to be unloaded at runtime like this?
-  //      If they are added/removed from the admin panel for the whole hub, then maybe unload is not needed.
-}
+const eid = createFooBarBazEntity(world);
 ```
 
-Where the types will look something like this:
+Remember that inflators are synchronous so you can process `Three.js Object3D`
+operations right after `renderAsEntity()`.
 
 ```typescript
-type AddonInfo = {
-  name: string;
-  author?: string;
-  description?; string;
-  compatibleWith?: ClientVersion[];
-  version?: AddonVersion;
-  location?: string;
-  wikiUrl?: string;
-  trackerUrl?: string;
-  warning?: string;
-  category?: AddonCategory;
-  tags: AddonTag[];
+const eid = renderAsEntity(world, xxxPrefab());
+const obj = world.eid2obj.get(eid);
+obj.position.set(10.0, 50.0, -10.0);
+scene.add(obj);
+```
+
+
+### JobRunner
+
+TODO: Write this section
+
+```typescript
+import { defineQuery, enterQuery, exitQuery } from "bitecs";
+import { ClearFunction, JobRunner, withRollback } from "../utils/coroutine-utils";
+import { Foo } from "../components/foo";
+
+function* yieldFunc(world: HubsWorld, eid: number, clearRollbacks: ClearFunction) {
+  yield* barFunction(world, eid);
+  clearRollbacks();
+  ...
 }
 
-interface LoadCallbackParams = {
-  world: HubsWorld
-  // Maybe other things?
+const jobs = new JobRunner();
+const fooQuery = defineQuery([Foo]);
+const fooEnterQuery = enterQuery(fooQuery);
+const fooExitQuery = exitQuery(fooQuery);
+export function fooSystem() {
+  fooEnterQuery(world).forEach(eid => {
+    jobs.add(eid, clearRollbacks => yieldFunc(world, eid, clearRollbacks));
+  });
+  fooExitQuery(world).forEach(eid => {
+    jobs.stop(eid);
+  });
+  fooQuery(world).forEach(eid => {
+    ...
+  });
+  jobs.tick();
 }
 ```
 
 
-<a id="orge79e4e1"></a>
+## Three.js operations
 
-## `preload`
+TODO: Write these sections
 
-If your addon needs to complete some work before the main tick game loop runs, pass a `Promise` to the `preload` function that resolves once you are ready.
+### Add Object3D to Scene
 
+### Resource management
 
-<a id="org1d14013"></a>
+### Entity deletion
 
-## Inserting prefabs
-
-`Network instantiated` entities must be registered in the `prefabs` map. See the `networking` documentation for more information.
-
-
-<a id="org86ae847"></a>
-
-## Inserting inflators
-
-Custom components require you to register `inflator` s. Be sure to insert your `inflator` s into `commonInflators`, `jsxInflators`, or `gltfInflators` before calling `renderAsEntity` or invoking `inflateModel`.
+### Matrices update
 
 
-<a id="org354b138"></a>
+## glTF
 
-## Inserting system calls
+Hubs supports [standard 3D format `glTF`](https://www.khronos.org/gltf/).
 
-The `mainTick` function calls all of the systems that need to run in a given animation frame. You will need to insert your system calls into this main game loop in the appropriate spot. We are not sure yet how we will expose this to addons. Custom client developers can insert it directly into the file that defines `mainTick`.
+Both `glTF` formats, where binary data buffers contain base64-encoded strings
+(as in `.gltf`) and raw byte arrays (as in `.glb`) are suppoted in Hubs. We
+refer to `gltf` and `glb` files interchangably.
 
 
-<a id="org306c661"></a>
+### Hubs bitECS components in glTF
+
+Hubs Client `glTF` loading mechanism can parse Hubs bitECS component data
+embedded in `glTF` and creates entity with components set up.
+
+The loading mechanism recognizes embedded `glTF MOZ_hubs_components` extension
+as Hubs bitECS component definition.
+
+
+### Hubs Blender add-on and Spoke
+
+[`Hubs Blender add-on`](https://github.com/MozillaReality/hubs-blender-exporter)
+can export `glTF` file with Hubs bitECS component data.
+
+[Our online authoring tool Spoke](https://hubs.mozilla.com/spoke/) also
+includes component data in the gltf files that it exports and uploads.
+
+
+### Inflators for glTF
+
+If you want the Hubs Client `glTF` loading mechanism to enable to set up your
+custom Component, you need to let it recognize the component.
+
+[Similar to `JSX` inflators map](#entitydef-jsx-prefab), insert a mapping from
+a key in `glTF MOZ_hubs_component` to an inflator in `GLTFComponentData` for
+inflator parameters and `gltfInflators` for inflators. In this example,
+choosing `foo` as a key for `Foo` component.
+
+```
+// src/utils/jsx-entity.js
+import { FooParams, inflateFoo } from "../inflators/foo";
+...
+export interface GLTFComponentData extends ComponentData {
+  ...
+  foo?: FooParams;
+  ...
+}
+...
+const gltfInflators: Required<{ [K in keyof GLTFComponentData]: InflatorFn }> = {
+  ...
+  foo: inflateFoo,
+  ...
+};
+...
+```
+
+If you want to insert the same mapping for both `JSX` and `glTF`, insert it to
+`CommonData` and `commonInflators` in the file.
+
+TODO: Add an API to register mapping
+
+
+## More complex add-ons patterns
+
+TODO: Write these sections
+
+### Asynchronous component initialization
+
+```typescript
+const FooInit = defineComponent();
+const Foo = defineComponent(...);
+
+function* initFoo(world: HubsWorld, eid: number, clearRollbacks: ClearFunction) {
+  const xxx = yield* yieldFunction(world, eid);
+  clearRollbacks();
+  addComponent(world, Foo, eid); 
+  Foo.xxx[eid] = xxx;
+  ...
+}
+
+const jobs = new JobRunner();
+const fooInitQuery = defineQuery([FooInit]);
+const fooInitEnterQuery = enterQuery(fooInitQuery);
+const fooInitExitQuery = exitQuery(fooInitQuery);
+export function fooInitSystem(world: HubsWorld) {
+  fooInitEnterQuery(world).forEach(eid => {
+    jobs.add(eid, clearRollbacks => initFoo(world, eid, clearRollbacks));
+  });
+  fooInitExitQuery(world).forEach(eid => {
+    jobs.stop(eid);
+  });
+  jobs.tick();
+}
+```
+
+### Component initialization with Object3D
+
+```typescript
+const FooInit = defineComponent();
+const Foo = defineComponent(...);
+
+export function inflateFoo(world: HubsWorld, eid: number) {
+  addComponent(world, FooInit, eid);
+}
+
+const fooInitEnterQuery = enterQuery(defineQuery([FooInit, Object3DTag]));
+export function fooInitSystem(world: HubsWorld) {
+  fooInitEnterQuery(world).forEach(eid => {
+    const obj = world.eid2obj.get(eid)!;
+    removeComponent(world, FooInit, eid);
+    addComponent(world, Foo, eid);
+    Foo.xxx[eid] = something(obj);
+    ...
+  });
+}
+```
+
+### Advanced example: Media loader
+
+### Advanced example: PDF loader
+
+### Advanced example: Object Menu
+
 
 ## Handling interactions
 
-Basic interactions like hovering, holding, and moving objects can be achieved with built-in components or inflators (like `inflateGrabbable`).
+Refer to [the interactions documentation](./dev-client-interactivity).
 
-Custom interactions that define their own `actions`, `action sets`, and `device bindings` need to be able to append their `device bindings` and change the logic of `resolveActionSets`. We are not sure yet how we will expose these capabilities.
-
-More information can be found in the interactions documentation.
-
-
-<a id="org19b999f"></a>
 
 ## Handling networking
 
-Add-ons and custom clients can define their own networked components. Developers will need to be especially careful when saving data to the database, as maintaining backwards compatibility with their chosen schema will be their responsibility. More information can be found in the networking documentation.
+Refer to [the networking documentation](./dev-client-networking).
