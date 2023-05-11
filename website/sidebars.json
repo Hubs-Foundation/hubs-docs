@@ -43,6 +43,12 @@
       "contributing",
       "hubs-query-string-parameters"
     ],
+    "Hubs Client development": [
+      "dev-client-basics",
+      "dev-client-gameplay",
+      "dev-client-interactivity",
+      "dev-client-networking"
+    ],
     "Hubs Cloud": [
       "hubs-cloud-intro",
       "hubs-cloud-getting-started",
