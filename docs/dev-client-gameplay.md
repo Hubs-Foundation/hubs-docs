@@ -260,6 +260,10 @@ down the individual concepts.
 
 Let's look into systems, components, inflators, and others more details below.
 
+TODO: Consider to add a more concrete example with full functionalities (eg:
+network and interactivity), or replace this simple and abstract example
+with it.
+
 
 ## Writing systems
 
