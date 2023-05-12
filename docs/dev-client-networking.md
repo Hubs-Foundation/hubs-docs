@@ -415,13 +415,13 @@ network features explained above are implemented. Users who just want to write
 networked gameplay functionality don't need to know them. They are for Hubs
 Client core developers.
 
-TODO: This section is T.B.D.
+**Note that This section is T.B.D.**
+
+TODO: Polish this section
 
 
 ### Networked Component
 
-<details>
-  <summary>T.B.D.</summary>
 Networked entities are any entities with the `Networked` component. The
 `Networked` component defined in
 [`src/bit-components.js`](https://github.com/mozilla/hubs/blob/master/src/bit-components.js)
@@ -439,14 +439,14 @@ the state of this entity.
 - A `timestamp`, which is the most recent time the networked state of this
 entity has been updated.
 
-The `creator` can be set to a `ClientId`, `"reticulum"`, or a `NetworkID`.
+The `creator` can be set to a `ClientID`, `"reticulum"`, or a `NetworkID`.
 
 - When the `creator` is a `ClientID`, it means that a client in the room has
 caused this &ldquo;root&rdquo; entity (and its descendants) to be created, and
 the entity (and its descendants) should be removed when the client leaves the
 room.
-- When the `creator` is `"reticulum"`, it means that the Reticulum is
-responsible for deciding whether this &ldquo;root&rdquo; entity should be
+- When the `creator` is `"reticulum"`, it means that the [Reticulum](#reticulum)
+is responsible for deciding whether this &ldquo;root&rdquo; entity should be
 created or removed.
 - When the `creator` is a `NetworkID`, it means that the entity is a descendant
 of a &ldquo;root&rdquo; entity, and its creation/removal will be subject to its
@@ -456,23 +456,23 @@ Conceptually, the `creator` and the `owner` act as authorities over two facets
 of a networked entity.
 
 - The `creator` is the authority over the entity&rsquo;s existence. Thus, it is
-checked when processing `CreateMessage` s and before an entity may be removed.
-For an entity to be created, its `creator` must have the appropriate
-permission. An entity&rsquo;s `creator` changes infrequently. It only happens
-when a client `pins` (or `unpins`) an entity, which changes the `creator` to
-(or from) `"reticulum"`.
+checked when processing [`CreateMessage`s](#createmessage) and before an entity
+may be removed. For an entity to be created, its `creator` must have the
+appropriate permission. An entity&rsquo;s `creator` changes infrequently. It
+only happens when a client [`pins`](#persistency) (or `unpins`) an entity,
+which changes the `creator` to (or from) `"reticulum"`.
 - The `owner` is the authority over the entity&rsquo;s current state. Thus, it
-is associated with `UpdateMessage`s. The `owner` is expected to change
-regularly, whenever a new client performs an action on an entity. The
-`takeOwnership` and `takeSoftOwnership` functions allow a client to establish
-itself as the `owner` of an entity.
-</details>
+is associated with [`UpdateMessage`s](#updatemessage). The `owner` is expected
+to change regularly, whenever a new client performs an action on an entity. The
+built-in [`takeOwnership()`](#ownership) and [`takeSoftOwnership()`](#ownership)
+functions allow a client to establish itself as the `owner` of an entity.
+
+TODO: Consider to move this ownership explanation to the [Ownership](#ownership)
+or [Ownership handling](#ownership-handling) section.
 
 
 ### Message Types
 
-<details>
-  <summary>T.B.D.</summary>
 Clients send and receive these types of messages:
 
 - `CreateMessage`
@@ -482,18 +482,9 @@ Clients send and receive these types of messages:
 - `ClientLeave`
 - `CreatorChange`
 
-Note that this is a slight simplification. The message types are not
-represented in these exact terms throughout the client. For example, clients
-may combine `CreateMessage`s, `UpdateMessage`s, and `DeleteMessage`s into a
-single outgoing message, which receiving clients then separate and parse. There
-are also two variants of `UpdateMessage`, which will be explained below.
-</details>
-
 
 #### CreateMessage
 
-<details>
-  <summary>T.B.D.</summary>
 These tell a client to create an entity. Each `CreateMessage` contains:
 
 - A `networkId`, which clients will use to uniquely identify this entity.
@@ -509,13 +500,10 @@ Entities that are created by calling `createNetworkedEntity` or receiving a
 `CreateMessage` are said to be `network instantiated`. `Network instantiated`
 entities may have many descendants. We do not say that the descendants are
 `network instantiated`.
-</details>
 
 
 #### UpdateMessage
 
-<details>
-  <summary>T.B.D.</summary>
 These tell a client to update an entity. Each `UpdateMessage` contains:
 
 - A `networkId`, which clients use to uniquely identify which entity the
@@ -532,13 +520,10 @@ entity. Updates can be partial (updating only some components) or full
 (updating all components). Update messages also have two variants, depending
 on whether they are can be saved for long term storage in the database. This
 topic will be covered in another section.
-</details>
 
 
 #### DeleteMessage
 
-<details>
-  <summary>T.B.D.</summary>
 These tell a client to `delete` an entity. Each `DeleteMessage` contains simply
 the `NetworkID` of the entity to be deleted. We distinguish between entities
 that have been `deleted` and those that are simply `removed`:
@@ -550,43 +535,45 @@ have been `deleted` cannot be recreated.
 removed when the `creator` disconnected from the room. If the `creator`
 reconnects and sends a `CreateMessage` with a matching `networkId`, it is
 acceptable to recreate the entity.
-</details>
 
 
 #### ClientJoin
 
-<details>
-  <summary>T.B.D.</summary>
 These tell a client that a new client has connected. The next time the
-`networkSendSystem` runs, the receiving client will send the new client
-messages about entities it is the `creator` of, and update messages for
-entities it is the `owner` of.
-</details>
+built-in `networkSendSystem` runs, the receiving client will send the new
+client messages about entities it is the `creator` of, and update messages
+for entities it is the `owner` of.
+
 
 #### ClientLeave
 
-<details>
-  <summary>T.B.D.</summary>
 These tell a client that another client has disconnected. The next time the
-`networkReceiveSystem` runs, the receiving client will `remove` entities that
-the disconnected client was the `creator` of.
-</details>
+built-in `networkReceiveSystem` runs, the receiving client will `remove`
+entities that the disconnected client was the `creator` of.
 
 
 #### CreatorChange
 
-<details>
-  <summary>T.B.D.</summary>
 These tell a client that the `creator` of an entity has been reassigned.
-Typically, this means that an entity has been `pinned` (or `unpinned`), and
-reticulum has assigned (or unassigned) itself as the entity&rsquo;s `creator`.
-</details>
+Typically, this means that an entity has been [`pinned`](#persistency) (or
+`unpinned`), and reticulum has assigned (or unassigned) itself as the
+entity&rsquo;s `creator`.
+
+TODO: Clarify the initial creator
+
+
+#### Note
+
+Note that this is a slight simplification. The message types are not
+represented in these exact terms throughout the client. For example, clients
+may combine `CreateMessage`s, `UpdateMessage`s, and `DeleteMessage`s into a
+single outgoing message, which receiving clients then separate and parse. There
+are also two variants of `UpdateMessage`, which will be explained above.
+
 
 ### Ownership handling
 
-<details>
-  <summary>T.B.D.</summary>
-Most of the complexity in the `networkSendSystem` and the
+Most of the complexity in the built-in `networkSendSystem` and the
 `networkReceiveSystem` stem from this property of the network. Here are some
 examples where this complexity reveals itself:
 
@@ -594,7 +581,7 @@ examples where this complexity reveals itself:
 identically by all clients, even when messages arrive out of order.
 - The `deletedNids` collection ensures that out-of-order `CreateMessage`s do
 not cause `deleted` entities to be accidentally recreated.
-- The `storedUpdates` allows a client to save `UpdateMessage` s it has received
+- The `storedUpdates` allows a client to save `UpdateMessage`s it has received
 but has no way to process, as can happen when it receives an `UpdateMessage`
 from the `owner` of an entity before it receives a `CreateMessage` from its
 `creator`.
@@ -609,9 +596,9 @@ That is, ownership is not &ldquo;requested and then transferred&rdquo;, and
 just because one client claims ownership of an entity does not mean that other
 clients will respect that claim.
 
-Users can inspect the state the `Networked` or `Owned` components as needed in
-cases when their ownership claims matter. They may find themselves writing
-coroutines that looks like this:
+Users can inspect the state the built-in `Networked` or `Owned` components as
+needed in cases when their ownership claims matter. They may find themselves
+writing coroutines that looks like this:
 
 ```typescript
 takeSoftOwnership(world, eid);
@@ -619,22 +606,20 @@ yield sleep( 3000 ); // Wait a few seconds to see if we "win" ownership
 if (!hasComponent(world, Owned, eid)) return;
 ```
 
+TODO: Explain more what this example code does and does for.
+
 If this becomes a common and error-prone pattern, then we may introduce helper
 functions or additional semantics to cover these cases.
-</details>
 
 
 ### Async initialization handling
 
-<details>
-  <summary>T.B.D.</summary>
 A critical property of the networked system that enables the async
 initialization to work is that descendants of `networked instantiated`
 entities are assigned network IDs deterministically, even in cases where
 some parts of a descendant hierarchy fails to load. This ensures that the
 descendants can load in any order (or even fail to load) without causing a
 client to delete, overwrite, or ignore descendant updates.
-</details>
 
 
 ### Event handlers
@@ -646,12 +631,11 @@ Event handlers that queue messages for later processing can be found in
 
 ### Persisting Networked Entity State
 
-<details>
-  <summary>T.B.D.</summary>
 By default, `networked instanciated entities` which are created with
-[`createNetworkedEntity()`](#createnetworkedentity), are removed when their
-creator (client) is disconnects. In order to persist these entities the entity
-must be [`pinned`](https://hubs.mozilla.com/docs/hubs-features.html). Only
+the built-in [`createNetworkedEntity()`](#createnetworkedentity) function,
+are removed when their creator (client) is disconnects. In order to persist
+these entities the entity must be
+[`pinned`](https://hubs.mozilla.com/docs/hubs-features.html). Only
 `networked instanciated entities` can be `pinned`.
 
 To `pin` an `network instantiated entities`, a client calls the built-in
@@ -677,4 +661,3 @@ come from the database are out-of-date, they will be appropriately handled.
 
 The built-in functions described in this section are defined in
 [`src/utils/entity-state-utils`](https://github.com/mozilla/hubs/blob/master/src/utils/entity-state-utils.ts).
-</details>
