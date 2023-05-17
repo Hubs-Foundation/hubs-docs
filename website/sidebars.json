@@ -7,7 +7,14 @@
       "intro-avatars",
       "intro-events"
     ],
-    "Hubs Documentation": [
+    "Setting Up Your Hub": [
+      "setup-choosing",
+      "setup-creating",
+      "setup-updating",
+      "setup-configuring-content",
+      "setup-support"
+    ],
+    "Hubs Fundamentals": [
       "hubs-create-join-rooms",
       "hubs-features",
       "sharing-avatar-links-privately",

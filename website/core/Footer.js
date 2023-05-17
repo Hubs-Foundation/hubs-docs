@@ -5,20 +5,20 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const React = require('react');
+const React = require("react");
 
 class Footer extends React.Component {
   docUrl(doc, language) {
     const baseUrl = this.props.config.baseUrl;
     const docsUrl = this.props.config.docsUrl;
-    const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
-    const langPart = `${language ? `${language}/` : ''}`;
+    const docsPart = `${docsUrl ? `${docsUrl}/` : ""}`;
+    const langPart = `${language ? `${language}/` : ""}`;
     return `${baseUrl}${docsPart}${doc}`;
   }
 
   pageUrl(doc, language) {
     const baseUrl = this.props.config.baseUrl;
-    return baseUrl + (language ? `${language}/` : '') + doc;
+    return baseUrl + (language ? `${language}/` : "") + doc;
   }
 
   render() {
@@ -37,23 +37,41 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('welcome.html', this.props.language)}>
-             Introduction
+            <a href={this.docUrl("welcome.html", this.props.language)}>
+              Introduction
             </a>
-            <a href={this.docUrl('hubs-create-join-rooms.html', this.props.language)}>
-              Hubs Documentation
+            <a href={this.docUrl("setup.html", this.props.language)}>
+              Setting Up Your Hub
             </a>
-            <a href={this.docUrl('spoke-creating-projects.html', this.props.language)}>
-             Spoke Documentation
+            <a
+              href={this.docUrl(
+                "hubs-create-join-rooms.html",
+                this.props.language
+              )}
+            >
+              Hubs Fundamentals
             </a>
-            <a href={this.docUrl('creators-advanced-avatar-customization.html', this.props.language)}>
-             For Creators
+            <a
+              href={this.docUrl(
+                "spoke-creating-projects.html",
+                this.props.language
+              )}
+            >
+              Spoke Documentation
             </a>
-            <a href={this.docUrl('system-overview.html', this.props.language)}>
-             For Developers
+            <a
+              href={this.docUrl(
+                "creators-advanced-avatar-customization.html",
+                this.props.language
+              )}
+            >
+              For Creators
             </a>
-            <a href={this.docUrl('hubs-cloud-intro.html', this.props.language)}>
-            Hubs Cloud
+            <a href={this.docUrl("system-overview.html", this.props.language)}>
+              For Developers
+            </a>
+            <a href={this.docUrl("hubs-cloud-intro.html", this.props.language)}>
+              Hubs Cloud
             </a>
           </div>
           <div>
@@ -62,7 +80,8 @@ class Footer extends React.Component {
             <a
               href="https://twitter.com/mozillahubs"
               target="_blank"
-              rel="noreferrer noopener">
+              rel="noreferrer noopener"
+            >
               Twitter
             </a>
           </div>
@@ -75,7 +94,8 @@ class Footer extends React.Component {
               <div className="social">
                 <a
                   href={`https://twitter.com/${this.props.config.twitterUsername}`}
-                  className="twitter-follow-button">
+                  className="twitter-follow-button"
+                >
                   Follow @{this.props.config.twitterUsername}
                 </a>
               </div>
