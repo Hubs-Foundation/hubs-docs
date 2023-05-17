@@ -5,19 +5,19 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const React = require('react');
+const React = require("react");
 
-const CompLibrary = require('../../core/CompLibrary.js');
+const CompLibrary = require("../../core/CompLibrary.js");
 
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
 function Help(props) {
-  const {config: siteConfig, language = ''} = props;
-  const {baseUrl, docsUrl} = siteConfig;
-  const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
-  const langPart = `${language ? `${language}/` : ''}`;
-  const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
+  const { config: siteConfig, language = "" } = props;
+  const { baseUrl, docsUrl } = siteConfig;
+  const docsPart = `${docsUrl ? `${docsUrl}/` : ""}`;
+  const langPart = `${language ? `${language}/` : ""}`;
+  const docUrl = (doc) => `${baseUrl}${docsPart}${langPart}${doc}`;
 
   return (
     <div className="docMainWrapper wrapper">
@@ -28,35 +28,82 @@ function Help(props) {
           </header>
 
           <p>
-            If our <a href="/docs/">documentation</a> doesn't answer your questions,{" "}
-            here are a few options for contacting us:
+            If our <a href="/docs/">documentation</a> doesn't answer your
+            questions, here are a few options for contacting us:
           </p>
 
-          <strong>Bug Reports and Feature Requests</strong>
+          <strong>Email Us</strong>
           <p>
-            We track bugs and features on GitHub.
-            You can <a href="https://github.com/mozilla/hubs/issues">view existing tickets,</a>{" "}
-            or open a <a href="https://github.com/mozilla/hubs/issues/new/choose">new issue or feature request</a>.
+            We have a few ways that you can contact us via email. You can{" "}
+            <a href="mailto:hubs-feedback@mozilla.com">
+              get subscription support,
+            </a>{" "}
+            ask{" "}
+            <a href="mailto:hubs-support@mozilla.com">
+              questions about hubs cloud,
+            </a>{" "}
+            or contact us about{" "}
+            <a href="mailto:enterprise-hubs@mozilla.com">
+              using hubs for enterprise
+            </a>
+            .
           </p>
 
-          <strong>Discussions</strong>
+          <strong>Message Us</strong>
           <p>
-            If you want to discuss a topic with the Hubs team or the community, or you need help with{" "}
-            troubleshooting, you can browse our GitHub{" "}
-            <a href="https://github.com/mozilla/hubs/discussions">discussion board</a>, or{" "}
-            <a href="https://github.com/mozilla/hubs/discussions/new">start a new discussion</a>.
+            Our{" "}
+            <a href="https://discord.gg/hubs-498741086295031808">
+              Discord Server
+            </a>{" "}
+            is the best way to quickly message us with your questions. Explore
+            the Community and Support Forums to find the best channel for your
+            question.
           </p>
 
-          <strong>Community Chat</strong>
+          <strong>Additional Documentation</strong>
           <p>
-            Prefer to chat in real time? Visit our{" "}
-            <a href="https://discord.gg/wHmY4nd">Discord chat server</a>.
+            We also have{" "}
+            <a href="https://hubs.mozilla.com/labs/">
+              a blog called Creator Labs
+            </a>{" "}
+            and{" "}
+            <a href="https://youtube.com/playlist?list=PLCxaiaRxTL6_V88JFYb6tOPkHCKjnH2BK">
+              a YouTube channel
+            </a>{" "}
+            where you can discover deep-dives and guides about important Hubs
+            topics.
           </p>
 
-          <strong>Email</strong>
+          <strong>Feature Requests and Improvement Ideas</strong>
           <p>
-            If you need to share sensitive information in order to get help, you can email us at{" "}
-            <a href="mailto:hubs@mozilla.com">hubs@mozilla.com</a>.
+            <a href="https://connect.mozilla.org/t5/ideas/idb-p/ideas/label-name/hubs">
+              Mozilla Connect
+            </a>{" "}
+            is an open forum for you to suggest new features and ideas for how
+            we can improve Hubs for your use case. Sign in with your Firefox
+            Account and select "Submit an idea" to get started.
+          </p>
+
+          <strong>Bug Reports and Discussions</strong>
+          <p>
+            We track bugs and features on GitHub. You can{" "}
+            <a href="https://github.com/mozilla/hubs/issues">
+              view existing tickets,
+            </a>{" "}
+            or open a{" "}
+            <a href="https://github.com/mozilla/hubs/issues/new/choose">
+              new issue or feature request
+            </a>
+            . If you would like to discuss a code-related topics with the Hubs
+            team or the community you can browse our GitHub{" "}
+            <a href="https://github.com/mozilla/hubs/discussions">
+              discussion board
+            </a>
+            , or{" "}
+            <a href="https://github.com/mozilla/hubs/discussions/new">
+              start a new discussion
+            </a>
+            .
           </p>
         </div>
       </Container>
