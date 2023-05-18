@@ -126,7 +126,7 @@ Let's start with making an easy and workable add-on example. We will make an
 add-on that linearly moves Three.js objects associated with entities. You will
 know likely what add-on is and how it looks like from this first easy example.
 
-First, we will define a new component needed for the add-on. `Verlocity`
+First, we will define a new component needed for the add-on. `Velocity`
 component holds a vector information that indicates the direction and speed
 of movement.
 
