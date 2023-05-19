@@ -20,13 +20,15 @@ _This page serves as a manual for many of the features that are available to Hub
 
 ## Introduction
 
+This page references the two tools you can use to manage your hub's content: **The Admin Panel** and our scene editor, **Spoke**. Both can be accessed in the top-right corner of your subscription dashboard.
+
 <img src="img/content-tools.png" alt="Admin homepage">
 
-This page references the two tools you can use to manage your hub's content. The first is the Admin Panel, a dashboard that allows you to control your hub's default appearance and features, as well as the discoverability of scenes and avatars uploaded to your server. When you create a new hub, the email associated with your subscription will be the only account with access to the admin panel. You can, however, allow others to access the admin panel using the [Accounts](#accounts-and-identities) tab.
+**The Admin Panel** is a dashboard that allows you to control your hub's default appearance and features, as well as the discoverability of scenes and avatars uploaded to your server. When you create a new hub, the email associated with your subscription will be the only account with access to the admin panel. You can, however, allow others to access the admin panel using the [Accounts](#accounts-and-identities) tab.
 
 <img src="img/admin.png" alt="Admin homepage">
 
-The second tool for managing content is Spoke, our in-browser scene editor that allows you to upload media (3D models, videos, audio, images, etc.) and build custom environments that your hub's visitors can explore. By default, all users joining your server can use Spoke (and upload their own media), however you can modify this default behavior using the [App Settings "Features" tab](#features).
+**Spoke** our in-browser scene editor that allows you to upload media (3D models, videos, audio, images, etc.) and build custom environments that your hub's visitors can explore. By default, all users joining your server can use Spoke (and upload their own media), however you can modify this default behavior by using the [App Settings "Features" tab](#features) to toggle the "Scene Editor".
 
 <img src="img/spoke.png" alt="Spoke homepage">
 
@@ -62,19 +64,19 @@ It is important to note that only a few url types are supported by the import to
 - Hosted Scene Urls (ex. https://hubs.mozilla.com/scenes/Rpt8DJS)
 - Hosted .pack files (ex. https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-animals.pack)
 
-If you would like to upload .glb or .spoke files, please do so using Spoke or when creating an avatar in-world.
+If you would like to upload .glb or .spoke files, please do so using Spoke or when creating an avatar in-world. Please note, there is a difference between a **scene URL** and a **room URL**. For more information, [see this guide](https://hubs.mozilla.com/labs/what-is-a-scene/).
 
 #### How to Use the "Import Content" Tool
 
-<video autoplay loop muted controls >
+<video loop muted controls >
   <source src="img/import-content.mp4" type="video/mp4">
   <img src="img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser">
   Your browser does not support HTML5 video.
 </video>
 
-1. **Copy and paste the link(s) to the asset(s) you would like to import and click "Preview Import".**
+1. **Copy and paste the link(s) to the asset(s) you would like to import and select "Preview Import".**
 2. **In the import preview, verify that the asset thumbnail looks correct and select any tags you would like to apply to the asset (for more on asset tags, see [Managing Scenes and Avatars - Asset Tags](#asset-tags)).**
-3. **Click "Import" and wait for the assets to be rehosted.**
+3. **Select "Import" and wait for the assets to be rehosted.**
 
 ---
 
@@ -93,13 +95,13 @@ Each of these tabs filters assets based on their state and tags. At the top of e
 Asset State is the primary method of controlling a piece of media's discoverability. An asset can have any of four states...
 
 - Active - the asset will appear in "Approved" tab and be discoverable to users browsing in-world.
-- Pending - the asset will appear in the "Pending" tab and cannot be discovered by any users. Only the user who uploaded the asset can use it while it awaits admin approval.
-- Delisted - the asset will only appear in "Scenes" or "Avatars" tab and cannot be discovered by any users. Only the user who uploaded the asset can use it.
+- Pending - the asset will appear in the "Pending" tab and cannot be discovered by any users.
+- Delisted - the asset will only appear in "Scenes" or "Avatars" tab and cannot be discovered by any users other than the one who uploaded it.
 - Removed - the asset is removed from the database and is not usable by anyone.
 
 <img src="img/state-example.png" alt="An example of state">
 
-By default, any assets uploaded by users who select "Allow Mozilla to promote my scene/avatar" in Spoke or in-world using the "Create Avatar" button will be assigned the "Pending" state and await admin approval in the "Pending" tab before being made discoverable.
+By default, any assets uploaded by users who select "Allow Mozilla to promote my scene/avatar" in Spoke or in-world using the "Create Avatar" button will be assigned the "Pending" state and await admin approval in the "Pending" tab before being made discoverable. While "Pending", the user who uploaded the asset can still access it.
 
 <img src="img/upload-pending.png" alt="An asset uploaded via spoke for approval">
 
@@ -107,7 +109,7 @@ Any assets uploaded via the admin panel are automatically assigned the "Active" 
 
 #### Asset Tags
 
-Asset tags allow you to control how discoverable an "Active" asset is (assets must have an "Active" state in order for tags to be effective). There are three tags you can add to an asset...
+Asset tags allow you to control how discoverable an "Active" asset is. To edit tags, an asset's state must be "Active", including the asset in the "Approved" tab of the admin panel. There are three tags you can add to an asset...
 
 - featured - The asset appears on the "Featured" tab of both the Admin Panel and when users are browsing scenes and avatars in world.
 - default - A user joining as an avatar for the first time or creating a room using the "Create A Room" button will be the randomly choose from all assets with the "Default" tag.
@@ -182,11 +184,11 @@ If the account you wish to promote has already been created, use thefind account
 
 <img src="img/search-account.png" alt="Searching accounts by email">
 
-1. **Click the edit button next to the account you wish to promote.**
+1. **Select the edit button next to the account you wish to promote.**
 
 2. **In the pop-up, enable "is-admin" and save your settings.**
 
-<video autoplay loop muted controls >
+<video loop muted controls >
   <source src="img/how-to-promote.mp4" type="video/mp4">
   <img src="img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser">
   Your browser does not support HTML5 video.
