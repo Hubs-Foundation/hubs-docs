@@ -6,15 +6,49 @@ title: Creating Your Hub
 _This guide walks you through the steps of setting up your Hubs Subscription. If you experience unexpected results at any point of the process, please refer to [the support page](./setup-support.html) for more information._
 
 **Table of Contents**\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[How To Subscribe](#how-to-subscribe)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subscription Dashboard Overview](#supported-regions-and-currencies)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Customizing Your Domain](#supported-regions-and-currencies)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[How To Subscribe - Starter Plan](#how-to-subscribe---starter-plan)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[How To Subscribe - Early Access Plan](#how-to-subscribe---early-access)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subscription Dashboard Overview](#subscription-dashboard-overview)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Customizing Your Domain - Early Access Plan](#customizing-your-domain---early-access)
 
 ---
 
-## How To Subscribe
+## How To Subscribe - Starter Plan
 
-1. **Navigate to [the subscription page](https://hubs.mozilla.com/#subscribe), confirm that you are located in a supported region, and select "Subscribe".**
+1. **Navigate to left column of [the subscription page](https://hubs.mozilla.com/#subscribe) and select "Create Free Hub".**
+
+<video loop muted controls >
+  <source src="img/click-subscribe-free.mp4" type="video/mp4">
+  <img src="img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser">
+  Your browser does not support HTML5 video.
+</video>
+<br/><br/>
+
+2. **Create or sign-in to an existing FireFox Account.**
+
+<video loop muted controls >
+  <source src="img/confirm-account.mp4" type="video/mp4">
+  <img src="img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser">
+  Your browser does not support HTML5 video.
+</video>
+<br/><br/>
+
+3. **If you create a new FireFox Account, verify your email and reselect "Create Free Hub."**
+
+<video loop muted controls >
+  <source src="img/verify-account.mp4" type="video/mp4">
+  <img src="img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser">
+  Your browser does not support HTML5 video.
+</video>
+<br/><br/>
+
+4. **Access your subscription dasboard and wait for your Hub to be created. It may take up to 5 minutes for this process to complete.**
+   <img src="img/access-dashboard.png" alt="Screenshot of the Scene Browser">
+   <br/><br/>
+
+## How To Subscribe - Early Access
+
+1. **Navigate to middle column of [the subscription page](https://hubs.mozilla.com/#subscribe), confirm that you are located in a supported region, and select "Subscribe".**
 
 <video loop muted controls >
   <source src="img/click-subscribe.mp4" type="video/mp4">
@@ -50,7 +84,7 @@ _This guide walks you through the steps of setting up your Hubs Subscription. If
 <img src="img/dash-overview.png" alt="The subscription dashboard">
 <br/><br/>
 
-## Customizing Your Domain
+## Customizing Your Domain - Early Access Plan
 
 1. **Select the three vertical dots on the upper right-hand corner of the dashboard's info panel and select "Edit Details" in the pop-up.**
 
