@@ -12,7 +12,9 @@
       "setup-creating",
       "setup-updating",
       "setup-configuring-content",
-      "setup-support"
+      "setup-faq",
+      "setup-contact",
+      "setup-learning"
     ],
     "Hubs Fundamentals": [
       "hubs-create-join-rooms",
