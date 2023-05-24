@@ -484,7 +484,7 @@ Sometimes, we want to store non-numerical data in components. Since `bitECS`
 doesn't support non-numerical component properties, we store it in regular
 `Map` s instead.
 
-Let's think of defining a `MediaPDF` component that manages both numerial and
+Let's think of defining a `MediaPDF` component that manages both numerical and
 non-numerical data as an example.
 
 Define a component with numeric properties, and separately create a
