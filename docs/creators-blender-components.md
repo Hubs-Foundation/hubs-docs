@@ -578,7 +578,7 @@ The Audio Settings options are:
 
 **Media Cone Outer Gain**:  A double value describing the amount of volume reduction outside the cone defined by the ‘Media Cone Outer Gain’ attribute.  Its default value is 0, meaning that no sound can be heard.
 
-If you’d like an example of what some sound combinations can sound like, head on over to [THIS](https://hubs.mozilla.com/LntTKwo/audio-settings) super handy Hubs scene that has a number of videos, each with different ‘Audio Params’ overrides that you can listen to while you walk around so you can get an idea how the settings affect the volume as you move around the scene.
+If you’d like an example of what some sound combinations can sound like, head on over to [THIS](https://hubs.mozilla.com/scenes/hitpNgs) super handy Hubs scene that has a number of videos, each with different ‘Audio Params’ overrides that you can listen to while you walk around so you can get an idea how the settings affect the volume as you move around the scene.
 
 ### Environment Settings
 
