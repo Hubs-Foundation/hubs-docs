@@ -19,7 +19,7 @@ _Hubs currently offers two managed subscription plans that allow users to custom
 
 Launched in May 2023, the Hubs Starter Plan is a great option for new users to get a taste of running your own Hub. The Starter Plan is quick and easy to set up, giving you access to the subscription dashboard, admin panel, and our scene editor Spoke, where you can manage the worlds and avatars on your hub.
 
-| Early Access Specifications |           |
+| Starter Plan Specifications |           |
 | --------------------------- | --------- |
 | Worlds                      | Unlimited |
 | Concurrent Users            | 10        |
@@ -33,11 +33,9 @@ Launched in November 2022, the Hubs Early Access makes it easier to fully custom
 | --------------------------- | ---------------------------------------- |
 | Worlds                      | Unlimited                                |
 | Concurrent Users            | 25                                       |
-| Asset Storage               | 2 GB\*                                   |
+| Asset Storage               | 2 GB                                     |
 | Domain                      | Custom myhubs.net web address            |
 | Branding                    | Upload custom logos and theme-ing colors |
-
-\*Early Access data limits are not currently enforced while we continue to refine tools for data management with feedback from our early adopters.
 
 ## Supported Regions and Currencies
 
