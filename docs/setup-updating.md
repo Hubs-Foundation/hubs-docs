@@ -36,7 +36,7 @@ Hubs Early Access subscriptions currently come with a 30-day money-back guarante
 
 2. **Under "What do you need help with?", select "Payments & Billing".**
 
-3. **Enter "Refund Request" in the "Subject" and request your refund in the "Message" form.**
+3. **Enter "Refund Request" in the "Subject" and request your refund in the "Message" form. While not required, it can be helpful to include your invoice ID in this request.**
 
-4. **Submit the form.**
+4. **Submit the form. Expect your refund to be processed in 5-10 business days.**
    <img src="img/refund-form.png" alt="The subscription dashboard">
