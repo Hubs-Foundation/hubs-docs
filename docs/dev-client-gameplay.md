@@ -613,7 +613,7 @@ Refer to the later sections for `world.eid2obj.get(eid)! as XXX`.
 TODO: Write benefits from this design decision.
 
 TODO: Do we use another example because this Text example doesn't match the
-actual implmentation. `TroikaText.sync()` shouldn't be called each system.
+actual implementation. `TroikaText.sync()` shouldn't be called each system.
 It should be called only once in a frame in a dedicated system. This example
 might be confusing if the readers check the actual code.
 
