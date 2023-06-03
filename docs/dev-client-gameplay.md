@@ -788,7 +788,7 @@ addObject3DComponent(world, eid, new Mesh(
 ```
 
 `addObject3DComponent()` checks whether an `Object3D` is associated for an
-entity. It throws an exception if already asssociated. It prevents multiple
+entity. It throws an exception if already associated. It prevents multiple
 `Object3D` associations.
 
 ```typescript
@@ -1087,7 +1087,7 @@ TODO: Write these sections
 Hubs supports [standard 3D format `glTF`](https://www.khronos.org/gltf/).
 
 Both `glTF` formats, where binary data buffers contain base64-encoded strings
-(as in `.gltf`) and raw byte arrays (as in `.glb`) are suppoted in Hubs. We
+(as in `.gltf`) and raw byte arrays (as in `.glb`) are supported in Hubs. We
 refer to `gltf` and `glb` files interchangably.
 
 
