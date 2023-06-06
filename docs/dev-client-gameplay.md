@@ -484,7 +484,7 @@ Sometimes, we want to store non-numerical data in components. Since `bitECS`
 doesn't support non-numerical component properties, we store it in regular
 `Map` s instead.
 
-Let's think of defining a `MediaPDF` component that manages both numerial and
+Let's think of defining a `MediaPDF` component that manages both numerical and
 non-numerical data as an example.
 
 Define a component with numeric properties, and separately create a
@@ -613,7 +613,7 @@ Refer to the later sections for `world.eid2obj.get(eid)! as XXX`.
 TODO: Write benefits from this design decision.
 
 TODO: Do we use another example because this Text example doesn't match the
-actual implmentation. `TroikaText.sync()` shouldn't be called each system.
+actual implementation. `TroikaText.sync()` shouldn't be called each system.
 It should be called only once in a frame in a dedicated system. This example
 might be confusing if the readers check the actual code.
 
@@ -788,7 +788,7 @@ addObject3DComponent(world, eid, new Mesh(
 ```
 
 `addObject3DComponent()` checks whether an `Object3D` is associated for an
-entity. It throws an exception if already asssociated. It prevents multiple
+entity. It throws an exception if already associated. It prevents multiple
 `Object3D` associations.
 
 ```typescript
@@ -1087,7 +1087,7 @@ TODO: Write these sections
 Hubs supports [standard 3D format `glTF`](https://www.khronos.org/gltf/).
 
 Both `glTF` formats, where binary data buffers contain base64-encoded strings
-(as in `.gltf`) and raw byte arrays (as in `.glb`) are suppoted in Hubs. We
+(as in `.gltf`) and raw byte arrays (as in `.glb`) are supported in Hubs. We
 refer to `gltf` and `glb` files interchangably.
 
 
