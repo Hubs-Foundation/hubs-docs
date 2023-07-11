@@ -7,9 +7,9 @@ _This guide walks you through the steps of setting up your Hubs Subscription. If
 
 **Table of Contents**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[How To Subscribe - Starter Plan](#how-to-subscribe---starter-plan)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[How To Subscribe - Early Access Plan](#how-to-subscribe---early-access)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[How To Subscribe - Paid Plans](#how-to-subscribe---paid-plans)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subscription Dashboard Overview](#subscription-dashboard-overview)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Customizing Your Domain - Early Access Plan](#customizing-your-domain---early-access)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Customizing Your Domain - Paid Plans](#customizing-your-domain---paid-plans)
 
 ---
 
@@ -46,7 +46,7 @@ _This guide walks you through the steps of setting up your Hubs Subscription. If
    <img src="img/access-dashboard.png" alt="Screenshot of the Scene Browser">
    <br/><br/>
 
-## How To Subscribe - Early Access
+## How To Subscribe - Paid Plans
 
 1. **Navigate to middle column of [the subscription page](https://hubs.mozilla.com/#subscribe), confirm that you are located in a supported region, and select "Subscribe".**
 
@@ -75,7 +75,7 @@ _This guide walks you through the steps of setting up your Hubs Subscription. If
 </video>
 <br/><br/>
 
-4. **Check your inbox for an email titled "Welcome to Hubs Early Access". Choose the "Get Started" link in the email and follow the login process to access your Hubs Subscription Dashboard. It may take a few minutes while your Hub is getting set up.**
+4. **Check your inbox for an email titled "Welcome to Hubs {Plan Name}". Choose the "Get Started" link in the email and follow the login process to access your Hubs Subscription Dashboard. It may take a few minutes while your Hub is getting set up.**
 
 <img src="img/access-dashboard.png" alt="Screenshot of the Scene Browser">
 
@@ -84,7 +84,7 @@ _This guide walks you through the steps of setting up your Hubs Subscription. If
 <img src="img/dash-overview.png" alt="The subscription dashboard">
 <br/><br/>
 
-## Customizing Your Domain - Early Access Plan
+## Customizing Your Domain - Paid Plans
 
 1. **Select the three vertical dots on the upper right-hand corner of the dashboard's info panel and select "Edit Details" in the pop-up.**
 

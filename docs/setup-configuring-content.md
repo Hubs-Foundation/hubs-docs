@@ -13,7 +13,7 @@ _This page serves as a manual for many of the features that are available to Hub
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Managing Content Storage](#managing-content-storage)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Accounts and Identities](#accounts-and-identities)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Projects](#projects)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Logos and Brand Themeing | Early Access Plan](#logos-and-brand-themeing--early-access-plan)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Logos and Brand Themeing | Paid Plans](#logos-and-brand-themeing--paid-plans)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[App Settings](#app-settings)
 
 ---
@@ -38,9 +38,9 @@ Together, the Admin Panel and Spoke allow you to fully control the content that 
 
 ## Default Content
 
-Each new hub comes with a selection of logos, themes, scenes, and avatars that have been developed by the Mozilla Hubs team. In total, this default content consumes ~60mbs and ~220 mbs of data for the Starter and Early Access Plans, respectively. To learn how to remove any of these default assets, see [Managing Data Limits](#managing-data-limits).
+Each new hub comes with a selection of logos, themes, scenes, and avatars that have been developed by the Mozilla Hubs team. In total, this default content consumes ~60mbs and ~220 mbs of data for the Starter and Personal Plans, respectively. To learn how to remove any of these default assets, see [Managing Data Limits](#managing-data-limits).
 
-**Download Early Access Plan Default Assets: [Themes](img/defaultTheme.json) | [Logos](img/defaultLogos.zip) | [Scenes](img/defaultScenes.pack) | [Avatars](img/defaultAvatars.pack)**
+**Download Paid Plan Default Assets: [Themes](img/defaultTheme.json) | [Logos](img/defaultLogos.zip) | [Scenes](img/defaultScenes.pack) | [Avatars](img/defaultAvatars.pack)**
 
 [<img src="img/defaultAvatars.png" alt="The default avatars">](img/defaultAvatars.pack)
 <br></br>
@@ -209,7 +209,7 @@ The Projects tab allows you to moderate any Spoke projects that have been create
 
 ---
 
-## Logos and Brand Themeing | Early Access Plan
+## Logos and Brand Themeing | Paid Plans
 
 Depending on your subscription plan, your hub will allow you to customize the user interface's (UI) colors and logos. Under the "Setup" category in the Admin Panel, you can use the "Brand" tab to upload custom images. Supported file types are listed next to each logo type.
 

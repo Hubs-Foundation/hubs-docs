@@ -14,9 +14,9 @@ _This guide walks you through the process of updating and cancelling your subscr
 
 ## Upgrading Your Subscription
 
-You can easily upgrade your Starter Hub to an Early Access Hub at any time. The easiest way is through the Upgrade button on the subscription dashboard, which will then follow the same process as [creating a new Early Access subscription](http://localhost:3000/docs/setup-creating.html#how-to-subscribe---early-access).
+You can easily upgrade your Starter Hub to an Personal Hub at any time. The easiest way is through the Upgrade button on the subscription dashboard, which will then follow the same process as [creating a new Personal subscription](http://localhost:3000/docs/setup-creating.html#how-to-subscribe---paid-plans).
 
-[<img src="img/upgrade-button.png" alt="The subscription dashboard">](http://localhost:3000/docs/setup-creating.html#how-to-subscribe---early-access)
+[<img src="img/upgrade-button.png" alt="The subscription dashboard">](http://localhost:3000/docs/setup-creating.html#how-to-subscribe---paid-plans)
 
 ## Cancelling Your Subscription
 
@@ -30,7 +30,7 @@ You can cancel your paid Hubs subscription at any time. Cancelling your subscrip
 
 ## Requesting A Refund
 
-Hubs Early Access subscriptions currently come with a 30-day money-back guarantee.
+Hubs paid subscriptions currently come with a 30-day money-back guarantee.
 
 1. **Please fill out [this support form](https://support.mozilla.org/en-US/users/auth?next=%2Fen-US%2Fquestions%2Fnew%2Fhubs%2Fform) to request a refund (you will need to log in with your Firefox account to be able to submit the support form).**
 
