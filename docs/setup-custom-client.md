@@ -3,7 +3,7 @@ id: setup-custom-client
 title: Custom Clients (Pro Plan)
 ---
 
-_This guide walks you through the steps of setting up and removing a custom client on your Hub for Pro plan subscribers._
+_This guide walks you through the steps of setting up and removing a custom client on your Hub for Professional plan subscribers._
 
 **Table of Contents**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Introduction](#introduction)\
@@ -18,23 +18,23 @@ _This guide walks you through the steps of setting up and removing a custom clie
 
 ## Introduction
 
-Deploying a custom client to your Hub allows you to fully control the appearance and functionality of [the Hubs 3D engine and frontend code](https://github.com/mozilla/hubs). This feature is intended for subscribers with at least a beginner level of javascript development experience. Please be advised that deploying a custom client disables the automatic updates that the Hubs Team regularly deploys to subscription instances.
+Deploying a custom client to your Hub allows you to fully control the appearance and functionality of [the Hubs 3D engine and frontend code](https://github.com/mozilla/hubs). This feature is intended for subscribers with at least a beginner level of javascript development experience. Please be advised that deploying a custom client disables the automatic updates that the Hubs Team regularly deploys to subscription instances. You can follow our regular updates [here](https://github.com/mozilla/hubs/releases).
 
-If you need more assistance, we recommend following along with our Custom Client Tutorial Video {LINK TBD}
+If you need more assistance, we recommend following along with our [Custom Client Tutorial Video](https://www.youtube.com/watch?v=dJAy1gk5Ow0).
 
 ## Prerequisites
 
-A. You must have a custom domain deployed on your Hub before you can upload a custom client.
+1. You must have a [Custom Domain](./setup-custom-domain.html) deployed on your Hub before you can upload a custom client.
 
-B. Make sure you have [docker](https://www.docker.com/) installed on your device. Testing for this feature utilized docker version `20.10.21`.
+2. Make sure you have [docker](https://www.docker.com/) installed on your device. Testing for this feature utilized docker version `20.10.21`.
 
 ## Part A: Set Up the Hubs Client
 
-1. Clone the [Hubs Client .git repository](https://github.com/mozilla/hubs) onto your device. Users deploying custom clients to subscriptions should use the `master` branch of the repository.
+1. Clone the [Hubs github repository](https://github.com/mozilla/hubs) onto your device. Users deploying custom clients to subscriptions should use the `master` branch of the repository.
 
 2. Install the project's node dependencies by running `npm ci`. Make sure you are using node version `16.16`. This process may take up to 30 minutes.
 
-3. Change directory into the folder of your project and run `npm run dev` to start a development server. Once the code has compiled, you will be able to access this development server at `localhost:8080` on your webbrowser.
+3. Change directory into the folder of your project and run `npm run dev` to start a development server. Once the code has compiled, you will be able to access this development server at `localhost:8080` on your web browser.
 
 4. Add your customizations to the Hubs code. See the [For Developers](http://localhost:3000/docs/system-overview.html) section of these docs for information about how to get started with your customizations.
 
@@ -51,7 +51,7 @@ B. Make sure you have [docker](https://www.docker.com/) installed on your device
 
 1. Change directory to the main folder of your project, make sure you have docker opened, and run `bash retpack.sh`
 
-2. The code may take up to an hour to compile depending on the size of your customizations and processing power of your computer. Once complete, it will return the following message and your tarball will be located at `hubs/.retpack/retpack.tar.gz`.
+2. The code may take up to an hour to complete depending on the size of your customizations and processing power of your computer. Once complete, it will return the following message and your tarball will be located at `./.retpack/retpack.tar.gz`.
 
 ```
 ### done ###
@@ -68,7 +68,7 @@ B. Make sure you have [docker](https://www.docker.com/) installed on your device
 
 2. Run the following code in the console to get your token: `console.log(RegExp("_turkeyauthtoken"+"=[^;]+").exec(document.cookie)[0].slice(17))`
 
-3. Copy the output. **Please note that turkeyauthtokens are only valid for 12 hours.**
+3. Copy the long string of characters to be used in Part D. **Please note that turkeyauthtokens are only valid for 12 hours.**
 
 ## Part D: Deploy Your Custom Client
 
@@ -77,7 +77,7 @@ _Deploying a custom client will disable the automatic updates that the Hubs Team
 1. Open your terminal, and run the following command with the 3 parameters surrounded by `< >` populated with your specific information from previous steps:\
    `curl -X POST -F file='@<path-to-client-tarball-on-your-device>' -H "turkeyauthtoken:<token-value-from-part-c>" 'https://<native-hub-domain>/api/ita/deploy?app=hubs'`
 
-2. The terminal command may take several minutes to complete depending on the quantity and nature of your customization. **Do not exit the terminal until it the upload process has completed.** Once successfully complete, it will return `done, reqId: <unique-ID-string>`. After a few minutes, you should see your customization on your Hub.
+2. The terminal command may take several minutes to complete depending on the quantity and nature of your customization. **Do not exit the terminal until the upload process has completed.** Once successfully complete, it will return `done, reqId: <unique-ID-string>`. After a few minutes, you should see your customization on your Hub.
 
 3. After deploying, try to create a room from your custom domain. If you are unable to create a room, email [hubs-feedback@mozilla.com](mailto:hubs-feedback@mozilla.com) with the subject line `Hubs Custom Client Deployment Troubleshooting` and a description of your problem.
 
