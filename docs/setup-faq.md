@@ -32,3 +32,15 @@ A 'hub' refers to the instance of Hubs associated with your FireFox Account. It 
 Understanding the difference between a 'room' and a 'scene' is a key concept for new users to learn while getting started with Hub. You can dive into these concepts in [this Creator Labs article](https://hubs.mozilla.com/labs/what-is-a-scene/).
 
 'Space' and 'scene' are used interchangably throughout our documentation. You can upload an unlimited number of spaces/scenes on your Hub, as long as your Hub's total content stays within the data limit of your subscription plan.
+
+### I know I can deploy a custom client with a professional plan. Can I also deploy a custom version of Spoke?
+
+While custom Spoke deployments are not currently supported, we hope to be able to enable them soon. However, we are using the [Hubs Blender Add-On](./creators-blender-components.html) to develop and expose new features for designing worlds in Hubs. We highly recommend moving your custom Spoke features to the Blender Add-On.
+
+### I am interested in deploying a custom client to my Hub. How can I keep up with the Hubs Team's regular releases?
+
+The best way to keep your custom client up to date is to follow our releases on the `master` branch of the [Hubs github repo](https://github.com/mozilla/hubs).
+
+### On Hubs Cloud I was able to add a google analytics key and extra CORS rules in the Admin Panel. Can I do this on the managed subscription?
+
+For now, it is not possible to adjust these server settings on your hubs managed subscription.

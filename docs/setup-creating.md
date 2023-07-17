@@ -9,7 +9,7 @@ _This guide walks you through the steps of setting up your Hubs Subscription. If
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[How To Subscribe - Starter Plan](#how-to-subscribe---starter-plan)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[How To Subscribe - Paid Plans](#how-to-subscribe---paid-plans)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subscription Dashboard Overview](#subscription-dashboard-overview)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Customizing Your Domain - Paid Plans](#customizing-your-domain---paid-plans)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Customizing Your Subdomain - Paid Plans](#customizing-your-subdomain---paid-plans)
 
 ---
 
@@ -84,7 +84,7 @@ _This guide walks you through the steps of setting up your Hubs Subscription. If
 <img src="img/dash-overview.png" alt="The subscription dashboard">
 <br/><br/>
 
-## Customizing Your Domain - Paid Plans
+## Customizing Your Subdomain - Paid Plans
 
 1. **Select the three vertical dots on the upper right-hand corner of the dashboard's info panel and select "Edit Details" in the pop-up.**
 

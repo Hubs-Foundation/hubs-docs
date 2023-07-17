@@ -28,7 +28,7 @@ This page references the two tools you can use to manage your hub's content: **T
 
 <img src="img/admin.png" alt="Admin homepage">
 
-**Spoke** our in-browser scene editor that allows you to upload media (3D models, videos, audio, images, etc.) and build custom environments that your hub's visitors can explore. By default, all users joining your server can use Spoke (and upload their own media), however you can modify this default behavior by using the [App Settings "Features" tab](#features) to toggle the "Scene Editor".
+**Spoke** is our in-browser scene editor that allows you to upload media (3D models, videos, audio, images, etc.) and build custom environments that your hub's visitors can explore. By default, all users joining your server can use Spoke (and upload their own media), however you can modify this default behavior by using the [App Settings "Features" tab](#features) to toggle the "Scene Editor".
 
 <img src="img/spoke.png" alt="Spoke homepage">
 
@@ -38,7 +38,7 @@ Together, the Admin Panel and Spoke allow you to fully control the content that 
 
 ## Default Content
 
-Each new hub comes with a selection of logos, themes, scenes, and avatars that have been developed by the Mozilla Hubs team. In total, this default content consumes ~60mbs and ~220 mbs of data for the Starter and Personal Plans, respectively. To learn how to remove any of these default assets, see [Managing Data Limits](#managing-data-limits).
+Each new hub comes with a selection of logos, themes, scenes, and avatars that have been developed by the Mozilla Hubs team. In total, this default content consumes ~60mbs and ~220 mbs of data for the Starter and paid plans, respectively. To learn how to remove these default assets, see [Managing Data Limits](#managing-content-storage).
 
 **Download Paid Plan Default Assets: [Themes](img/defaultTheme.json) | [Logos](img/defaultLogos.zip) | [Scenes](img/defaultScenes.pack) | [Avatars](img/defaultAvatars.pack)**
 
