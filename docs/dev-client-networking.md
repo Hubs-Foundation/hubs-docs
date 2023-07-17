@@ -35,7 +35,7 @@ game-networking and web API server built on [Phoenix](#phoenix).
 It manages a [mesh topology network](https://www.computerhope.com/jargon/m/mesh.htm)
 of Phoenix nodes.
 
-Hubs uses Retilulum server for real-time data transfer and also persistent data
+Hubs uses Reticulum server for real-time data transfer and also persistent data
 (like accounts, rooms, [Spoke](https://hubs.mozilla.com/spoke/) projects, and
 more) management. Persistent data is stored in a [PostgreSQL](https://www.postgresql.org/)
 database.
