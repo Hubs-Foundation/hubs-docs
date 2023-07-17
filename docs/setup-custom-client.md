@@ -79,7 +79,7 @@ _Deploying a custom client will disable the automatic updates that the Hubs Team
 
 2. The terminal command may take several minutes to complete depending on the quantity and nature of your customization. **Do not exit the terminal until the upload process has completed.** Once successfully complete, it will return `done, reqId: <unique-ID-string>`. After a few minutes, you should see your customization on your Hub.
 
-3. After deploying, try to create a room from your custom domain. If you are unable to create a room, email [hubs-feedback@mozilla.com](mailto:hubs-feedback@mozilla.com) with the subject line `Hubs Custom Client Deployment Troubleshooting` and a description of your problem.
+3. After deploying, try to create a room to verify your customizations have taken place. If you are unable to see your customizations, email [hubs-feedback@mozilla.com](mailto:hubs-feedback@mozilla.com) with the subject line `Hubs Custom Client Deployment Troubleshooting` and a description of your problem.
 
 ## Removing Your Custom Client
 

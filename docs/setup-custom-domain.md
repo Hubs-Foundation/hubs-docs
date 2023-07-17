@@ -38,7 +38,7 @@ The easiest method to connect a custom domain to your Hub is to create a [cname]
 
 ## Part C: Connect Your Custom Domain
 
-1. Open a command terminal on your device and run the following command with the 3 parameters surrounded by < > replaced with your specific information from previous steps:\
+1. Open a command terminal on your device and run the following command with the 3 parameters surrounded by `< >` replaced with your specific information from previous steps:\
    `curl -X PATCH -H "turkeyauthtoken:<token-value-from-part-b>" 'https://<your-hubs-native-domain>/api/ita/custom-domain?to_domain=<desired-custom-domain>'`
 
 2. The command should execute quickly and return the following message:\
@@ -47,7 +47,7 @@ The easiest method to connect a custom domain to your Hub is to create a [cname]
 
 ## Updating Your Custom Domain
 
-1. In a command terminal on your device, run the following command with the 4 parameters surrounded by < > replaced with your specific information from previous steps:\
+1. In a command terminal on your device, run the following command with the 4 parameters surrounded by `< >` replaced with your specific information from previous steps:\
    `curl -X PATCH -H "turkeyauthtoken:<token-value-from-part-b>" 'https://<your-hubs-native-domain>/api/ita/custom-domain?from_domain=<current-custom-domain>&to_domain=<desired-custom-domain>'`\
    \
    **^ Note how we have added the `from_domain` parameter to this command ^**
@@ -58,7 +58,7 @@ The easiest method to connect a custom domain to your Hub is to create a [cname]
 
 ## Removing Your Custom Domain
 
-1. In a command terminal on your device, run the following command with the 4 parameters surrounded by < > replaced with your specific information from previous steps:\
+1. In a command terminal on your device, run the following command with the 3 parameters surrounded by `< >` replaced with your specific information from previous steps:\
    `curl -X PATCH -H "turkeyauthtoken:<token-value-from-part-b>" 'https://<your-hubs-native-domain>/api/ita/custom-domain?from_domain=<current-custom-domain>&to_domain='`\
    \
    **^ Note how we have left the `to_domain` parameter empty in this command ^**

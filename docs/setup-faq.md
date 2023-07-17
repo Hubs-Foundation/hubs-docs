@@ -11,13 +11,13 @@ There is currently a limit of one Hub per FireFox Account.
 
 Your Hub's content storage limit is the total of all data associated with your Hub, largely composed of media uploaded via Spoke and the Admin Panel. You can see your cumulative storage on the subscription dashboard, which will display a warning if you exceed your subscription plan's limit. If you have exceed the storage limit, you will experience errors when attempting to upload additional media via Spoke and the Admin Panel.
 
-PLEASE NOTE: The data limit is not currently enforced for Hubs Personal subscribers while we continue to refine tools for data management with feedback from our early adopters.
+PLEASE NOTE: The data limit is not currently enforced for Hubs Personal and Professional Plan subscribers while we continue to refine tools for data management with feedback from our early adopters.
 
 <img src="img/hub-over-limit.png" alt="The 503 error displayed when over ccu limit">
 
 ### I am trying to lower my content storage by deleting data, but the counter on the subscription dashboard is not updating. What am I doing wrong?
 
-It may take up to 3 days for your Hub to completely remove data you have manually deleted in Spoke or the Admin panel. We are also aware of bugs in the tools used to delete data, informing our decision to currently suspend enforcement of the data limit for Hubs Personal subscribers. If you experience persistent issues trying to manage or delete data, please contact us through [one of our support channels](./setup-support.html#get-help).
+It may take up to 3 days for your Hub to completely remove data you have manually deleted in Spoke or the Admin panel. We are also aware of bugs in the tools used to delete data, informing our decision to currently suspend enforcement of the data limit for Hubs Personal subscribers. If you experience persistent issues trying to manage or delete data, please contact us through [one of our support channels](./setup-contact.html).
 
 ### What happens if I exceed my Hub's concurrent user limit?
 
@@ -32,6 +32,10 @@ A 'hub' refers to the instance of Hubs associated with your FireFox Account. It 
 Understanding the difference between a 'room' and a 'scene' is a key concept for new users to learn while getting started with Hub. You can dive into these concepts in [this Creator Labs article](https://hubs.mozilla.com/labs/what-is-a-scene/).
 
 'Space' and 'scene' are used interchangably throughout our documentation. You can upload an unlimited number of spaces/scenes on your Hub, as long as your Hub's total content stays within the data limit of your subscription plan.
+
+### Can I downgrade from a Professional Plan to a Personal Plan?
+
+While it is possible to upgrade from a Personal to Professional Plan, you must cancel your Professional subscription and downgrade to a Starter plan before you can transition to a Personal Plan.
 
 ### I know I can deploy a custom client with a professional plan. Can I also deploy a custom version of Spoke?
 
