@@ -62,4 +62,4 @@ Launched in July 2023, Hubs Professional gives you event more control over your 
 | Server Auto-Pausing              | Never                                                                                  |
 | Domain                           | Custom myhubs.net web address or [Connect a Custom Domain](./setup-custom-domain.html) |
 | Branding                         | Upload custom logos and theme-ing colors                                               |
-| Custom Code                      | Deploy a [custom version of the hubs frontend code](./set-custom-client.html)          |
+| Custom Code                      | Deploy a [custom version of the hubs frontend code](./setup-custom-client.html)        |
