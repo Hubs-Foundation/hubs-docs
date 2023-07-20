@@ -22,3 +22,5 @@ sidebar_label: Introduction
 - Run a custom version of the software to add features and functionality.
 
 **Currently, Hubs Cloud is offered on AWS and DigitalOcean.**
+
+**Note: If you're looking for community Edition, which is the replacement for hubs cloud that you can bring anywhere as a dev, read [Hubs Community Edition](./hubs-community-edition-intro.md)**
