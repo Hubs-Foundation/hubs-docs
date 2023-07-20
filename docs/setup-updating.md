@@ -3,7 +3,7 @@ id: setup-updating
 title: Updating/Cancelling Your Subscription
 ---
 
-_This guide walks you through the process of updating and cancelling your subscription. If you experience unexpected results at any point of the process, please refer to [the support page](./setup-support.html) for more information._
+_This guide walks you through the process of updating and cancelling your subscription. If you experience unexpected results at any point of the process, please refer to [the support page](./setup-contact.html) for more information._
 
 **Table of Contents**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Upgrading Your Subscription](#upgrading-your-subscription)\
@@ -14,7 +14,7 @@ _This guide walks you through the process of updating and cancelling your subscr
 
 ## Upgrading Your Subscription
 
-You can easily upgrade your Starter Hub to an Personal Hub at any time. The easiest way is through the Upgrade button on the subscription dashboard, which will then follow the same process as [creating a new Personal subscription](http://localhost:3000/docs/setup-creating.html#how-to-subscribe---paid-plans).
+You can easily upgrade your Starter Hub to a paid plan at any time. The easiest way is through the Upgrade button on the subscription dashboard, which will then follow the same process as [creating a new paid subscription](http://localhost:3000/docs/setup-creating.html#how-to-subscribe---paid-plans).
 
 [<img src="img/upgrade-button.png" alt="The subscription dashboard">](http://localhost:3000/docs/setup-creating.html#how-to-subscribe---paid-plans)
 
