@@ -6,7 +6,12 @@ sidebar_label: Introduction
 
 ![Hubs Cloud](img/hubs-cloud-logo.jpeg)
 
+**NOTICE: HUBS CLOUD WILL BE REPLACED BY COMMUNITY EDITION.
+PRO TIER IS AVAILABLE NOW TO EASILY DEPLOY CUSTOM CLIENTS ON YOUR OWN DOMAINS
+READ MORE [HERE](https://hubs.mozilla.com/#subscribe)**
+
 [Hubs Cloud](https://hubs.mozilla.com/cloud) allows you to run your own hub on a private server.
+
 
 ### Set up your own Hubs Cloud server:
   - For AWS, see the [AWS Quick Start](./hubs-cloud-aws-quick-start.md)
