@@ -26,7 +26,7 @@ If you need more assistance, we recommend following along with our [Custom Domai
 The custom domain preparation process will vary depending on the type of domain and hosting service you are using. We will update our documentation as we test the differences between services and domain types.
 
 **_With a CNAME Record_**\
-The easiest method to connect a custom domain to your Hub is to create a [cname](https://en.wikipedia.org/wiki/CNAME_record) record to point to `lb.myhubs.net`. Before connecting the custom domain, you must register a cname record through your desired custom domain’s registrar, such as GoDaddy or Route53 (AWS), to point to `lb.myhubs.net`. We have documented this process using Route53 in [our tutorial video](https://youtu.be/0PTmHNKdZB0).
+The easiest method to connect a custom domain to your Hub is to create a [cname](https://en.wikipedia.org/wiki/CNAME_record) record to point to `lb.us1.myhubs.net`. Before connecting the custom domain, you must register a cname record through your desired custom domain’s registrar, such as GoDaddy or Route53 (AWS), to point to `lb.us1.myhubs.net`. We have documented this process using Route53 in [our tutorial video](https://youtu.be/0PTmHNKdZB0).
 
 ## Part B: Locate Your `turkeyauthtoken`
 
