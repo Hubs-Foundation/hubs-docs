@@ -3,9 +3,9 @@ id: setup-faq
 title: Frequently Asked Questions
 ---
 
-### Can I have more than one Hub with my FireFox Account?
+### Can I have more than one Hub with my Mozilla Account?
 
-There is currently a limit of one Hub per FireFox Account.
+There is currently a limit of one Hub per Mozilla Account.
 
 ### What happen's if I exceed my Hub's content storage limit?
 
@@ -27,7 +27,7 @@ Hub servers are optimized according to the subscription plan you are subscribed 
 
 ### What is the difference between a 'hub, a 'room', a 'space', and a 'scene'?
 
-A 'hub' refers to the instance of Hubs associated with your FireFox Account. It is composed of your server and the tools, rooms, worlds, and other media that exist on top of it.
+A 'hub' refers to the instance of Hubs associated with your Mozilla Account. It is composed of your server and the tools, rooms, worlds, and other media that exist on top of it.
 
 Understanding the difference between a 'room' and a 'scene' is a key concept for new users to learn while getting started with Hub. You can dive into these concepts in [this Creator Labs article](https://hubs.mozilla.com/labs/what-is-a-scene/).
 

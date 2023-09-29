@@ -20,9 +20,9 @@ You can easily upgrade your Starter Hub to a paid plan at any time. The easiest 
 
 ## Cancelling Your Subscription
 
-You can cancel your paid Hubs subscription at any time. Cancelling your subscription will turn off auto-renew and your Hub will downgrade to [a Starter Plan](./setup-choosing.md#hubs-starter-plan--free) with a 500mb data limit when your current subscription period ends. Any data in excess of the Starter Plan limit will not be deleted, but you will not be able to upload any new media until the your storage falls below the limit. Cancelling your subscription will not delete your Firefox account.
+You can cancel your paid Hubs subscription at any time. Cancelling your subscription will turn off auto-renew and your Hub will downgrade to [a Starter Plan](./setup-choosing.md#hubs-starter-plan--free) with a 500mb data limit when your current subscription period ends. Any data in excess of the Starter Plan limit will not be deleted, but you will not be able to upload any new media until the your storage falls below the limit. Cancelling your subscription will not delete your Mozilla account.
 
-1. **Visit your subscription settings on the [Firefox accounts page](https://subscriptions.firefox.com/subscriptions).**
+1. **Visit your subscription settings on the [Mozilla accounts page](https://subscriptions.firefox.com/subscriptions).**
 
 2. **Select "Cancel" next to your Hub's subscription information to prevent your subscription from renewing.**
 
@@ -32,7 +32,7 @@ You can cancel your paid Hubs subscription at any time. Cancelling your subscrip
 
 Hubs paid subscriptions currently come with a 30-day money-back guarantee.
 
-1. **Please fill out [this support form](https://support.mozilla.org/en-US/users/auth?next=%2Fen-US%2Fquestions%2Fnew%2Fhubs%2Fform) to request a refund (you will need to log in with your Firefox account to be able to submit the support form).**
+1. **Please fill out [this support form](https://support.mozilla.org/en-US/users/auth?next=%2Fen-US%2Fquestions%2Fnew%2Fhubs%2Fform) to request a refund (you will need to log in with your Mozilla Account to be able to submit the support form).**
 
 2. **Under "What do you need help with?", select "Payments & Billing".**
 
