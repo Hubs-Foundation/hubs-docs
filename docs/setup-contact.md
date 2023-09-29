@@ -13,7 +13,7 @@ For questions about using your account that you would prefer to discuss privatel
 
 ## Account Support
 
-If you are experiencing issues with your subscription or FireFox Account, please [submit a support ticket with Mozilla Support](https://support.mozilla.org/en-US/products/hubs), Mozilla's account support channel. To submit a ticket, you should follow the blue "Get Support" buttons until you get to the support form.
+If you are experiencing issues with your subscription or Mozilla Account, please [submit a support ticket with Mozilla Support](https://support.mozilla.org/en-US/products/hubs), Mozilla's account support channel. To submit a ticket, you should follow the blue "Get Support" buttons until you get to the support form.
 <br></br>
 [<img src="img/sumo-support.png" alt="Sumo support buttons">](https://support.mozilla.org/en-US/products/hubs)
 
@@ -27,6 +27,6 @@ Our discord server is also a fantastic place to learn more about the hubs commun
 
 ## Submit An Idea
 
-If you would like to share feature requests or thoughts about how to make Hubs better, please [submit an idea through Mozilla Connect](https://connect.mozilla.org/t5/ideas/idb-p/ideas/label-name/hubs). You will have to sign in to your FireFox Account and select the blue "Submit an idea" button to complete this process.
+If you would like to share feature requests or thoughts about how to make Hubs better, please [submit an idea through Mozilla Connect](https://connect.mozilla.org/t5/ideas/idb-p/ideas/label-name/hubs). You will have to sign in to your Mozilla Account and select the blue "Submit an idea" button to complete this process.
 <br></br>
 [<img src="img/connect-button.png" alt="Mozilla Connect submit idea">](https://connect.mozilla.org/t5/ideas/idb-p/ideas/label-name/hubs)

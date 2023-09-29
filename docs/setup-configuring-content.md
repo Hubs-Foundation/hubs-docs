@@ -170,7 +170,7 @@ After this is complete, you will see that the avatar has been grey-ed out and th
 
 ## Accounts and Identities
 
-The Accounts tab of the Admin Panel indexes all users who have signed-in to your hub with an email address. For privacy reasons, all emails are hashed to protect user data, however it is possible to search for specific email addresses to verify individual user accounts. When you edit a user's account, you have the option to make them an admin in order for them to have access to the Admin Panel. Making a user an Admin will NOT let them manage your Hubs Subscription. PLEASE NOTE: You should never remove the account using the email associated with your FireFox Account!!!
+The Accounts tab of the Admin Panel indexes all users who have signed-in to your hub with an email address. For privacy reasons, all emails are hashed to protect user data, however it is possible to search for specific email addresses to verify individual user accounts. When you edit a user's account, you have the option to make them an admin in order for them to have access to the Admin Panel. Making a user an Admin will NOT let them manage your Hubs Subscription. PLEASE NOTE: You should never remove the account using the email associated with your Mozilla Account!!!
 
 <img src="img/accounts-screen.png" alt="Deleting assets in spoke">
 
