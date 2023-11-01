@@ -80,7 +80,7 @@ function Help(props) {
               Mozilla Connect
             </a>{" "}
             is an open forum for you to suggest new features and ideas for how
-            we can improve Hubs for your use case. Sign in with your Firefox
+            we can improve Hubs for your use case. Sign in with your Mozilla
             Account and select "Submit an idea" to get started.
           </p>
 
