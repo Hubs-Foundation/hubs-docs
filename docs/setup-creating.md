@@ -24,7 +24,7 @@ _This guide walks you through the steps of setting up your Hubs Subscription. If
 </video>
 <br/><br/>
 
-2. **Create or sign-in to an existing Mozilla Account.**
+2. **Create or sign-in to an existing Mozilla account.**
 
 <video loop muted controls >
   <source src="img/confirm-account.mp4" type="video/mp4">
@@ -33,7 +33,7 @@ _This guide walks you through the steps of setting up your Hubs Subscription. If
 </video>
 <br/><br/>
 
-3. **If you create a new Mozilla Account, verify your email and reselect "Create Free Hub."**
+3. **If you create a new Mozilla account, verify your email and reselect "Create Free Hub."**
 
 <video loop muted controls >
   <source src="img/verify-account.mp4" type="video/mp4">
@@ -57,7 +57,7 @@ _This guide walks you through the steps of setting up your Hubs Subscription. If
 </video>
 <br/><br/>
 
-2. **If you already have a Mozilla Account, select "Sign In" and complete the login process. If you do not have an account, enter your information into the corresponding boxes.**
+2. **If you already have a Mozilla account, select "Sign In" and complete the login process. If you do not have an account, enter your information into the corresponding boxes.**
 
 <video loop muted controls >
   <source src="img/enter-email.mp4" type="video/mp4">

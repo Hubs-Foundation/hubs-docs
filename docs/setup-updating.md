@@ -32,7 +32,7 @@ You can cancel your paid Hubs subscription at any time. Cancelling your subscrip
 
 Hubs paid subscriptions currently come with a 30-day money-back guarantee.
 
-1. **Please fill out [this support form](https://support.mozilla.org/en-US/users/auth?next=%2Fen-US%2Fquestions%2Fnew%2Fhubs%2Fform) to request a refund (you will need to log in with your Mozilla Account to be able to submit the support form).**
+1. **Please fill out [this support form](https://support.mozilla.org/en-US/users/auth?next=%2Fen-US%2Fquestions%2Fnew%2Fhubs%2Fform) to request a refund (you will need to log in with your Mozilla account to be able to submit the support form).**
 
 2. **Under "What do you need help with?", select "Payments & Billing".**
 
