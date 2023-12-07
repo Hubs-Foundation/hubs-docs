@@ -36,6 +36,11 @@ The easiest method to connect a custom domain to your Hub is to create a [cname]
 
 3. Copy the long string of characters to be used in Part C. **Please note that turkeyauthtokens are only valid for 12 hours.**
 
+**You can alternatively go to the 'Customize your web address' section and click on the 'clipboard' icon to copy turkeyauthtoken to your clipboard**
+
+![image](https://github.com/MozillaReality/hubs-docs/assets/42163313/e07dfda0-bf80-4dc2-9658-e071f6d1fb95)
+
+
 ## Part C: Connect Your Custom Domain
 
 1. Open a command terminal on your device and run the following command with the 3 parameters surrounded by `< >` replaced with your specific information from previous steps. Your Hub's native domain is the URL assigned upon creation (ex: 123456.us1.myhubs.net)\
