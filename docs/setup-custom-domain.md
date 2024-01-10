@@ -19,7 +19,7 @@ _This guide walks you through the steps of adding, updating, and removing a cust
 
 Custom domains allow Professional Plan subscribers to improve the branding, analytics collection, and search optimization of their Hub. Be advised that, once connected, old room and scene urls may be inaccessisble.
 
-If you need more assistance, we recommend following along with our [Custom Domain Tutorial Video](https://youtu.be/0PTmHNKdZB0).
+If you need more assistance, we recommend following along with our [Custom Domain Tutorial Video](https://youtu.be/yARtWNlmBz).
 
 ## Part A: Prepare Your Custom Domain
 
@@ -39,7 +39,6 @@ The easiest method to connect a custom domain to your Hub is to create a [cname]
 **You can alternatively go to the 'Customize your web address' section and click on the 'clipboard' icon to copy turkeyauthtoken to your clipboard**
 
 ![image](https://github.com/MozillaReality/hubs-docs/assets/42163313/e07dfda0-bf80-4dc2-9658-e071f6d1fb95)
-
 
 ## Part C: Connect Your Custom Domain
 
