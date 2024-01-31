@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/hubs-cloud-aws/backup-and-restore copy",
+  "title": "Backup and Restore",
+  "description": "If something goes wrong and you need to restore from a backup, or you'd like to just make a second hub using the same data from an existing hub, the stack creation form makes it fairly simple to do so.",
+  "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/backup-and-restore copy.md",
+  "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+  "slug": "/archive/hubs-cloud/hubs-cloud-aws/backup-and-restore copy",
+  "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/backup-and-restore copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/archive/hubs-cloud/hubs-cloud-aws/backup-and-restore copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Updating the Stack",
+    "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/updating-the-stack"
+  },
+  "next": {
+    "title": "Backup and Restore",
+    "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/backup-and-restore"
+  }
+}

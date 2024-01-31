@@ -1,0 +1,27 @@
+{
+  "id": "subscription/managing-subscription copy",
+  "title": "Managing Your Hub's Content",
+  "description": "",
+  "source": "@site/docs/subscription/managing-subscription copy.md",
+  "sourceDirName": "subscription",
+  "slug": "/subscription/managing-subscription copy",
+  "permalink": "/docs/subscription/managing-subscription copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/subscription/managing-subscription copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Updating/Cancelling Your Subscription",
+    "permalink": "/docs/subscription/updating-subscription"
+  },
+  "next": {
+    "title": "Managing Your Hub's Content",
+    "permalink": "/docs/subscription/managing-subscription"
+  }
+}

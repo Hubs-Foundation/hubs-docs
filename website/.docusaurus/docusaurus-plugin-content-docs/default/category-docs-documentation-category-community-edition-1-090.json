@@ -1,0 +1,15 @@
+{
+  "title": "Community Edition",
+  "slug": "/category/community-edition-1",
+  "permalink": "/docs/category/community-edition-1",
+  "navigation": {
+    "previous": {
+      "title": "Hubs Cloud Community Edition",
+      "permalink": "/docs/developers/community-edition/intro-ce"
+    },
+    "next": {
+      "title": "Hubs Cloud Community Edition",
+      "permalink": "/docs/developers/community-edition copy/intro-ce"
+    }
+  }
+}

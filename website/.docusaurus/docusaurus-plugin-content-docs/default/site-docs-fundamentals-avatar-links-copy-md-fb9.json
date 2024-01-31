@@ -1,0 +1,27 @@
+{
+  "id": "fundamentals/avatar-links copy",
+  "title": "Sharing Avatar Links Privately",
+  "description": "",
+  "source": "@site/docs/fundamentals/avatar-links copy.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/avatar-links copy",
+  "permalink": "/docs/fundamentals/avatar-links copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/fundamentals/avatar-links copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Hubs Features",
+    "permalink": "/docs/fundamentals/hubs-features"
+  },
+  "next": {
+    "title": "Sharing Avatar Links Privately",
+    "permalink": "/docs/fundamentals/avatar-links"
+  }
+}

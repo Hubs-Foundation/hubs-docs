@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/hubs-cloud-aws/estimating-ccu",
+  "title": "Estimating CCU Limits",
+  "description": "This document explains how to estimate what your Hubs Cloud server's CCU (concurrent users) limit is based on the instance type used, for both the entire server and individual rooms.",
+  "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-ccu.md",
+  "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+  "slug": "/archive/hubs-cloud/hubs-cloud-aws/estimating-ccu",
+  "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-ccu",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-ccu.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Estimating Cost Charts (Alpha)",
+    "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-cost"
+  },
+  "next": {
+    "title": "Hubs Cloud DigitalOcean",
+    "permalink": "/docs/docs/category/hubs-cloud-digitalocean"
+  }
+}

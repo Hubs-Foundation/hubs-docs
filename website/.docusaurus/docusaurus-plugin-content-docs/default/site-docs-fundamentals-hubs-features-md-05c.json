@@ -1,0 +1,27 @@
+{
+  "id": "fundamentals/hubs-features",
+  "title": "Hubs Features",
+  "description": "Hubs User Interface",
+  "source": "@site/docs/fundamentals/hubs-features.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/hubs-features",
+  "permalink": "/docs/docs/fundamentals/hubs-features",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/hubs-features.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Create and Join Rooms",
+    "permalink": "/docs/docs/fundamentals/hubs-rooms"
+  },
+  "next": {
+    "title": "Sharing Avatar Links Privately",
+    "permalink": "/docs/docs/fundamentals/avatar-links"
+  }
+}

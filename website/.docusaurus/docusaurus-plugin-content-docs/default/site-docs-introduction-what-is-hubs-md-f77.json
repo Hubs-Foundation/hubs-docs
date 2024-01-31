@@ -1,0 +1,23 @@
+{
+  "id": "introduction/what-is-hubs",
+  "title": "What is Hubs?",
+  "description": "Hubs is a virtual collaboration platform that runs in your browser. With Hubs you can create your own 3D spaces with a single click. Invite others to join using a URL. No installation or app store required.",
+  "source": "@site/docs/introduction/what-is-hubs.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/what-is-hubs",
+  "permalink": "/docs/docs/introduction/what-is-hubs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/introduction/what-is-hubs.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "next": {
+    "title": "Hubs History",
+    "permalink": "/docs/docs/introduction/hubs-history"
+  }
+}

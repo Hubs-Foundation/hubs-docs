@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/ssh-access copy",
+  "title": "Advanced: SSH Access",
+  "description": "To access your servers over SSH, in the Admin Console choose Server Access and follow the guide. Note that 2-factor authentication is set up by default, so you will need a 2FA device with an application installed like Google Authenticator to connect to your servers.",
+  "source": "@site/docs/archive/hubs-cloud/ssh-access copy.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/ssh-access copy",
+  "permalink": "/docs/archive/hubs-cloud/ssh-access copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/archive/hubs-cloud/ssh-access copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 15,
+  "frontMatter": {
+    "sidebar_position": 15
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Recipe: Discord Bot",
+    "permalink": "/docs/archive/hubs-cloud/discord-bot"
+  },
+  "next": {
+    "title": "Advanced: SSH Access",
+    "permalink": "/docs/archive/hubs-cloud/ssh-access"
+  }
+}

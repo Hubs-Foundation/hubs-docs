@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/introduction",
+  "title": "Introduction",
+  "description": "Hubs Cloud",
+  "source": "@site/docs/archive/hubs-cloud/introduction.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/introduction",
+  "permalink": "/docs/docs/archive/hubs-cloud/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2.1,
+  "frontMatter": {
+    "sidebar_position": 2.1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "DigitalOcean Quick Start",
+    "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-do/do-quick-start"
+  },
+  "next": {
+    "title": "Getting Started",
+    "permalink": "/docs/docs/archive/hubs-cloud/getting-started"
+  }
+}

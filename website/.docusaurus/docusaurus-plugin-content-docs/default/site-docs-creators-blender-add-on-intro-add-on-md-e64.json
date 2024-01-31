@@ -1,0 +1,27 @@
+{
+  "id": "creators/blender-add-on/intro-add-on",
+  "title": "Introduction to the Hubs Blender Add-On",
+  "description": "Note: The following documentation assumes you are using the latest stable release of Blender. Using older versions or experimental builds of Blender may work, but is not guaranteed.",
+  "source": "@site/docs/creators/blender-add-on/intro-add-on.md",
+  "sourceDirName": "creators/blender-add-on",
+  "slug": "/creators/blender-add-on/intro-add-on",
+  "permalink": "/docs/docs/creators/blender-add-on/intro-add-on",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/blender-add-on/intro-add-on.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "The Blender Add-On",
+    "permalink": "/docs/docs/category/the-blender-add-on"
+  },
+  "next": {
+    "title": "Advanced Avatar Customization",
+    "permalink": "/docs/docs/creators/blender-add-on/advanced-avatars"
+  }
+}

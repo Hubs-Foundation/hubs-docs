@@ -1,0 +1,27 @@
+{
+  "id": "creators/blender-add-on/add-on-components",
+  "title": "Blender Add-On Components",
+  "description": "Overview",
+  "source": "@site/docs/creators/blender-add-on/add-on-components.md",
+  "sourceDirName": "creators/blender-add-on",
+  "slug": "/creators/blender-add-on/add-on-components",
+  "permalink": "/docs/docs/creators/blender-add-on/add-on-components",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/blender-add-on/add-on-components.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Advanced Avatar Customization",
+    "permalink": "/docs/docs/creators/blender-add-on/advanced-avatars"
+  },
+  "next": {
+    "title": "Behavior Graphs",
+    "permalink": "/docs/docs/category/behavior-graphs"
+  }
+}

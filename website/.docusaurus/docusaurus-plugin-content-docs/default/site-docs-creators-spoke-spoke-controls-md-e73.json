@@ -1,0 +1,27 @@
+{
+  "id": "creators/spoke/spoke-controls",
+  "title": "Spoke Controls",
+  "description": "We recommend using spoke on a desktop or laptop computer as some features are not accessible without a mouse and keyboard.",
+  "source": "@site/docs/creators/spoke/spoke-controls.md",
+  "sourceDirName": "creators/spoke",
+  "slug": "/creators/spoke/spoke-controls",
+  "permalink": "/docs/docs/creators/spoke/spoke-controls",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/spoke-controls.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "User Interface",
+    "permalink": "/docs/docs/creators/spoke/user-interface"
+  },
+  "next": {
+    "title": "Adding Content",
+    "permalink": "/docs/docs/creators/spoke/adding-content"
+  }
+}

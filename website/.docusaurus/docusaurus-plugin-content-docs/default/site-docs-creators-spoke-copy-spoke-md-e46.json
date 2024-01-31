@@ -1,0 +1,27 @@
+{
+  "id": "creators/spoke copy/spoke",
+  "title": "Spoke",
+  "description": "",
+  "source": "@site/docs/creators/spoke copy/spoke.md",
+  "sourceDirName": "creators/spoke copy",
+  "slug": "/creators/spoke copy/spoke",
+  "permalink": "/docs/creators/spoke copy/spoke",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/creators/spoke copy/spoke.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Spoke",
+    "permalink": "/docs/category/spoke-1"
+  },
+  "next": {
+    "title": "Manage Docs Versions",
+    "permalink": "/docs/developers/manage-docs-versions"
+  }
+}

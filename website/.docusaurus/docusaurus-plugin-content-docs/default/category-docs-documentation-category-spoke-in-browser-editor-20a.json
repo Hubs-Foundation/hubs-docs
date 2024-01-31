@@ -1,0 +1,15 @@
+{
+  "title": "Spoke (In-Browser Editor)",
+  "slug": "/category/spoke-in-browser-editor",
+  "permalink": "/docs/category/spoke-in-browser-editor",
+  "navigation": {
+    "previous": {
+      "title": "FAQ",
+      "permalink": "/docs/fundamentals/fundamental-faqs"
+    },
+    "next": {
+      "title": "Building Scenes with Spoke",
+      "permalink": "/docs/creators/spoke/building-with-spoke"
+    }
+  }
+}

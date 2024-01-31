@@ -1,0 +1,15 @@
+{
+  "title": "For Creators",
+  "slug": "/category/for-creators",
+  "permalink": "/docs/category/for-creators",
+  "navigation": {
+    "previous": {
+      "title": "Translate your site",
+      "permalink": "/docs/creators/translate-your-site"
+    },
+    "next": {
+      "title": "Spoke",
+      "permalink": "/docs/creators/spoke/"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "subscription/choosing-subscription",
+  "title": "Choosing A Subscription",
+  "description": "Hubs currently offers three managed subscription plans that allow users to customize the default behavior of their hub and manage content, such as virtual worlds and avatars, without the hassle of running their own server. If you are not ready to sign up for a plan, you can create a default room or custom scene for free on Mozilla's Demo Hub.",
+  "source": "@site/docs/subscription/choosing-subscription.md",
+  "sourceDirName": "subscription",
+  "slug": "/subscription/choosing-subscription",
+  "permalink": "/docs/docs/subscription/choosing-subscription",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/subscription/choosing-subscription.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Getting Help",
+    "permalink": "/docs/docs/introduction/getting-help"
+  },
+  "next": {
+    "title": "Creating Your Hub",
+    "permalink": "/docs/docs/subscription/creating-subscripton"
+  }
+}

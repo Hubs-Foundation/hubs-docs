@@ -1,0 +1,27 @@
+{
+  "id": "fundamentals/room-settings",
+  "title": "Room Info and Settings",
+  "description": "Change the Scene",
+  "source": "@site/docs/fundamentals/room-settings.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/room-settings",
+  "permalink": "/docs/docs/fundamentals/room-settings",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/room-settings.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "User Settings",
+    "permalink": "/docs/docs/fundamentals/user-settings"
+  },
+  "next": {
+    "title": "Controls",
+    "permalink": "/docs/docs/fundamentals/controls"
+  }
+}

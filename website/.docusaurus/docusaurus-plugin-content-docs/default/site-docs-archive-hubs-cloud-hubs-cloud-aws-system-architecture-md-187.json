@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/hubs-cloud-aws/system-architecture",
+  "title": "System Architecture",
+  "description": "AWS Architecture",
+  "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/system-architecture.md",
+  "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+  "slug": "/archive/hubs-cloud/hubs-cloud-aws/system-architecture",
+  "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/system-architecture",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/system-architecture.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Known Issues",
+    "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/known-issues"
+  },
+  "next": {
+    "title": "Cost and Minimizing Costs Information",
+    "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/cost-saving"
+  }
+}

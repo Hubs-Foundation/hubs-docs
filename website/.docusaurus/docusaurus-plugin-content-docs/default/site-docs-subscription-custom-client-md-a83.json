@@ -1,0 +1,27 @@
+{
+  "id": "subscription/custom-client",
+  "title": "Custom Clients (Pro Plan)",
+  "description": "This guide walks you through the steps of setting up and removing a custom client on your Hub for Professional plan subscribers.",
+  "source": "@site/docs/subscription/custom-client.md",
+  "sourceDirName": "subscription",
+  "slug": "/subscription/custom-client",
+  "permalink": "/docs/docs/subscription/custom-client",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/subscription/custom-client.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Custom Domains (Pro Plan)",
+    "permalink": "/docs/docs/subscription/custom-domain"
+  },
+  "next": {
+    "title": "Frequently Asked Questions",
+    "permalink": "/docs/docs/subscription/faq-subscription"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "fundamentals/discord-bot",
+  "title": "Discord Bot (Deprecated)",
+  "description": "About",
+  "source": "@site/docs/fundamentals/discord-bot.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/discord-bot",
+  "permalink": "/docs/fundamentals/discord-bot",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/fundamentals/discord-bot.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Controls",
+    "permalink": "/docs/fundamentals/controls"
+  },
+  "next": {
+    "title": "Troubleshooting",
+    "permalink": "/docs/fundamentals/troubleshooting"
+  }
+}

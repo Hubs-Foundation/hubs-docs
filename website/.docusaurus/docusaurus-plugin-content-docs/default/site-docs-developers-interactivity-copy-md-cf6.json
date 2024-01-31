@@ -1,0 +1,27 @@
+{
+  "id": "developers/interactivity copy",
+  "title": "Interactivity",
+  "description": "",
+  "source": "@site/docs/developers/interactivity copy.md",
+  "sourceDirName": "developers",
+  "slug": "/developers/interactivity copy",
+  "permalink": "/docs/developers/interactivity copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developers/interactivity copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Core Gameplay Concepts",
+    "permalink": "/docs/developers/gameplay"
+  },
+  "next": {
+    "title": "Interactivity",
+    "permalink": "/docs/developers/interactivity"
+  }
+}

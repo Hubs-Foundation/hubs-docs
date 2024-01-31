@@ -1,0 +1,27 @@
+{
+  "id": "developers/development-basics/gameplay",
+  "title": "Core Gameplay Concepts",
+  "description": "Intro",
+  "source": "@site/docs/developers/development-basics/gameplay.md",
+  "sourceDirName": "developers/development-basics",
+  "slug": "/developers/development-basics/gameplay",
+  "permalink": "/docs/docs/developers/development-basics/gameplay",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/development-basics/gameplay.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Development Basics",
+    "permalink": "/docs/docs/developers/development-basics/dev-basics"
+  },
+  "next": {
+    "title": "Interactivity",
+    "permalink": "/docs/docs/developers/development-basics/interactivity"
+  }
+}

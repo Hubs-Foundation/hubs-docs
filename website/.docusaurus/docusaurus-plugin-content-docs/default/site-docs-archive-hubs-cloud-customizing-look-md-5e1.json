@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/customizing-look",
+  "title": "Customizing Look & Feel",
+  "description": "An announcement about the Hubs user interface",
+  "source": "@site/docs/archive/hubs-cloud/customizing-look.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/customizing-look",
+  "permalink": "/docs/docs/archive/hubs-cloud/customizing-look",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/customizing-look.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Asset Packs",
+    "permalink": "/docs/docs/archive/hubs-cloud/asset-packs"
+  },
+  "next": {
+    "title": "Customizing Themes",
+    "permalink": "/docs/docs/archive/hubs-cloud/customizing-themes"
+  }
+}

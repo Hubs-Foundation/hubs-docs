@@ -1,0 +1,23 @@
+{
+  "id": "developers/contributing/intro-ce",
+  "title": "Hubs Cloud Community Edition",
+  "description": "",
+  "source": "@site/docs/developers/contributing/intro-ce.md",
+  "sourceDirName": "developers/contributing",
+  "slug": "/developers/contributing/intro-ce",
+  "permalink": "/docs/developers/contributing/intro-ce",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developers/contributing/intro-ce.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Contributing to Hubs",
+    "permalink": "/docs/category/contributing-to-hubs"
+  }
+}

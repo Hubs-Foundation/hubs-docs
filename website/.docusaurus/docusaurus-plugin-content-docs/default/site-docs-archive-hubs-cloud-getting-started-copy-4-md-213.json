@@ -1,0 +1,23 @@
+{
+  "id": "archive/hubs-cloud/getting-started copy 4",
+  "title": "Getting Started",
+  "description": "",
+  "source": "@site/docs/archive/hubs-cloud/getting-started copy 4.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/getting-started copy 4",
+  "permalink": "/docs/archive/hubs-cloud/getting-started copy 4",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/archive/hubs-cloud/getting-started copy 4.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Asset Packs",
+    "permalink": "/docs/archive/hubs-cloud/asset-packs"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/getting-started",
+  "title": "Getting Started",
+  "description": "After successful Hubs Cloud deployment on AWS or DigitalOcean, navigate to your hub's hosted domain name (eg. myhub.com or hub.mydomain.com).",
+  "source": "@site/docs/archive/hubs-cloud/getting-started.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/getting-started",
+  "permalink": "/docs/docs/archive/hubs-cloud/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/getting-started.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2.2,
+  "frontMatter": {
+    "sidebar_position": 2.2
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/docs/archive/hubs-cloud/introduction"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/docs/docs/archive/hubs-cloud/faq"
+  }
+}

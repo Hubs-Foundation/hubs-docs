@@ -1,0 +1,27 @@
+{
+  "id": "creators/spoke/spoke",
+  "title": "Building Scenes with Spoke",
+  "description": "",
+  "source": "@site/docs/creators/spoke/spoke.md",
+  "sourceDirName": "creators/spoke",
+  "slug": "/creators/spoke/",
+  "permalink": "/docs/creators/spoke/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/creators/spoke/spoke.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Spoke",
+    "permalink": "/docs/category/spoke"
+  },
+  "next": {
+    "title": "The Blender Add-On",
+    "permalink": "/docs/category/the-blender-add-on"
+  }
+}

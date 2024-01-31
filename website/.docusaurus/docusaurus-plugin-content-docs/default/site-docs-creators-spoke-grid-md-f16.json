@@ -1,0 +1,27 @@
+{
+  "id": "creators/spoke/grid",
+  "title": "Grid",
+  "description": "Screenshot of Spoke",
+  "source": "@site/docs/creators/spoke/grid.md",
+  "sourceDirName": "creators/spoke",
+  "slug": "/creators/spoke/grid",
+  "permalink": "/docs/docs/creators/spoke/grid",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/grid.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Architecture Kit",
+    "permalink": "/docs/docs/creators/spoke/architecture-kit"
+  },
+  "next": {
+    "title": "Skyboxes",
+    "permalink": "/docs/docs/creators/spoke/skyboxes"
+  }
+}

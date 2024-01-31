@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/customizing-look copy",
+  "title": "Getting Started",
+  "description": "",
+  "source": "@site/docs/archive/hubs-cloud/customizing-look copy.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/customizing-look copy",
+  "permalink": "/docs/archive/hubs-cloud/customizing-look copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/archive/hubs-cloud/customizing-look copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/archive/hubs-cloud/customizing-look copy 2"
+  },
+  "next": {
+    "title": "Customizing Look & Feel",
+    "permalink": "/docs/archive/hubs-cloud/customizing-look"
+  }
+}

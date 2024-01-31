@@ -1,0 +1,27 @@
+{
+  "id": "developers/contributing copy/issues",
+  "title": "Submitting Issues",
+  "description": "Documentation coming soon...",
+  "source": "@site/docs/developers/contributing copy/issues.md",
+  "sourceDirName": "developers/contributing copy",
+  "slug": "/developers/contributing copy/issues",
+  "permalink": "/docs/developers/contributing copy/issues",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developers/contributing copy/issues.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Contributing to Hubs",
+    "permalink": "/docs/developers/contributing copy/intro-contrib"
+  },
+  "next": {
+    "title": "Triage",
+    "permalink": "/docs/developers/contributing copy/triage"
+  }
+}

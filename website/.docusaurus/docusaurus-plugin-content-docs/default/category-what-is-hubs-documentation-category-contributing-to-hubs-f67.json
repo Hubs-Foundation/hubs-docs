@@ -1,0 +1,15 @@
+{
+  "title": "Contributing to Hubs",
+  "slug": "/category/contributing-to-hubs",
+  "permalink": "/what-is-hubs/category/contributing-to-hubs",
+  "navigation": {
+    "previous": {
+      "title": "Introduction to Hubs Cloud Community Edition",
+      "permalink": "/what-is-hubs/developers/community-edition/intro-ce"
+    },
+    "next": {
+      "title": "Introduction to Contributing",
+      "permalink": "/what-is-hubs/developers/contributing/intro-contrib"
+    }
+  }
+}

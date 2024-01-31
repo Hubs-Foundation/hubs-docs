@@ -1,0 +1,27 @@
+{
+  "id": "subscription/updating",
+  "title": "Creating Your Hub",
+  "description": "",
+  "source": "@site/docs/subscription/updating.md",
+  "sourceDirName": "subscription",
+  "slug": "/subscription/updating",
+  "permalink": "/docs/subscription/updating",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/subscription/updating.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Creating Your Hub",
+    "permalink": "/docs/subscription/creating-subscripton"
+  },
+  "next": {
+    "title": "Manage Docs Versions",
+    "permalink": "/docs/fundamentals/manage-docs-versions"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "fundamentals/reskin-avatars",
+  "title": "Reskin Avatars",
+  "description": "Depending on how involved you'd like to get in the avatar creation process, you might choose to simply 're-skin' the existing robot avatar by painting your own texture maps, or create your own fully custom 3D model.",
+  "source": "@site/docs/fundamentals/reskin-avatars.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/reskin-avatars",
+  "permalink": "/docs/docs/fundamentals/reskin-avatars",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/reskin-avatars.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "FAQ",
+    "permalink": "/docs/docs/fundamentals/fundamental-faqs"
+  },
+  "next": {
+    "title": "Spoke",
+    "permalink": "/docs/docs/category/spoke"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "creators/spoke/adding-content",
+  "title": "Adding Content",
+  "description": "Once you have created your scene, you can start customizing it by adding content. Spoke and Hubs support a wide variety of media. Note that to publish to Hubs, Spoke projects have a size limit of 128MB.",
+  "source": "@site/docs/creators/spoke/adding-content.md",
+  "sourceDirName": "creators/spoke",
+  "slug": "/creators/spoke/adding-content",
+  "permalink": "/docs/docs/creators/spoke/adding-content",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/adding-content.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Spoke Controls",
+    "permalink": "/docs/docs/creators/spoke/spoke-controls"
+  },
+  "next": {
+    "title": "Architecture Kit",
+    "permalink": "/docs/docs/creators/spoke/architecture-kit"
+  }
+}

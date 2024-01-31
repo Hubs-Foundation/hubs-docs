@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/discord-bot",
+  "title": "Recipe: Discord Bot",
+  "description": "Discord bot for Hubs Cloud is under construction!",
+  "source": "@site/docs/archive/hubs-cloud/discord-bot.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/discord-bot",
+  "permalink": "/docs/docs/archive/hubs-cloud/discord-bot",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/discord-bot.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Recipe: Custom SMTP",
+    "permalink": "/docs/docs/archive/hubs-cloud/custom-smtp"
+  },
+  "next": {
+    "title": "Advanced: SSH Access",
+    "permalink": "/docs/docs/archive/hubs-cloud/ssh-access"
+  }
+}

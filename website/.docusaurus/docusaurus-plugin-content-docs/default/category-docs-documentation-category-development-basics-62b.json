@@ -1,0 +1,15 @@
+{
+  "title": "Development Basics",
+  "slug": "/category/development-basics",
+  "permalink": "/docs/category/development-basics",
+  "navigation": {
+    "previous": {
+      "title": "Introduction to Behavior Graphs",
+      "permalink": "/docs/creators/behavior-graphs/intro-behavior-graphs"
+    },
+    "next": {
+      "title": "System Overview",
+      "permalink": "/docs/developers/development-basics/system-overview"
+    }
+  }
+}

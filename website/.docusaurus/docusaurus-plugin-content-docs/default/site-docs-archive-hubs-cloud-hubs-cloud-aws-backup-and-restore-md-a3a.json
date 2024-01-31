@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/hubs-cloud-aws/backup-and-restore",
+  "title": "Backup and Restore",
+  "description": "If something goes wrong and you need to restore from a backup, or you'd like to just make a second hub using the same data from an existing hub, the stack creation form makes it fairly simple to do so.",
+  "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/backup-and-restore.md",
+  "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+  "slug": "/archive/hubs-cloud/hubs-cloud-aws/backup-and-restore",
+  "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/backup-and-restore",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/backup-and-restore.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Updating the Stack",
+    "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/updating-the-stack"
+  },
+  "next": {
+    "title": "AWS Troubleshooting",
+    "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting"
+  }
+}

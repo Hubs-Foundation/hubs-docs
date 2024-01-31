@@ -1,0 +1,27 @@
+{
+  "id": "fundamentals/hubs-features copy",
+  "title": "Hubs Features",
+  "description": "",
+  "source": "@site/docs/fundamentals/hubs-features copy.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/hubs-features copy",
+  "permalink": "/docs/fundamentals/hubs-features copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/fundamentals/hubs-features copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Sharing Avatar Links Privately",
+    "permalink": "/docs/fundamentals/avatar-links"
+  },
+  "next": {
+    "title": "Hubs Features",
+    "permalink": "/docs/fundamentals/hubs-features"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "creators/spoke/physics-and-navigation copy",
+  "title": "Physics and Navigation",
+  "description": "",
+  "source": "@site/docs/creators/spoke/physics-and-navigation copy.md",
+  "sourceDirName": "creators/spoke",
+  "slug": "/creators/spoke/physics-and-navigation copy",
+  "permalink": "/docs/creators/spoke/physics-and-navigation copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/creators/spoke/physics-and-navigation copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Lighting and Shadows",
+    "permalink": "/docs/creators/spoke/lighting-and-shadows"
+  },
+  "next": {
+    "title": "Physics and Navigation",
+    "permalink": "/docs/creators/spoke/physics-and-navigation"
+  }
+}

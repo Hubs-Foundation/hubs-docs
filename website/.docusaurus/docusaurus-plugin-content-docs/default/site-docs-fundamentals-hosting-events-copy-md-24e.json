@@ -1,0 +1,27 @@
+{
+  "id": "fundamentals/hosting-events copy",
+  "title": "Hosting Events in Hubs",
+  "description": "",
+  "source": "@site/docs/fundamentals/hosting-events copy.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/hosting-events copy",
+  "permalink": "/docs/fundamentals/hosting-events copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/fundamentals/hosting-events copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Creating Custom Avatars",
+    "permalink": "/docs/fundamentals/custom-avatars"
+  },
+  "next": {
+    "title": "Hosting Events in Hubs",
+    "permalink": "/docs/fundamentals/hosting-events"
+  }
+}

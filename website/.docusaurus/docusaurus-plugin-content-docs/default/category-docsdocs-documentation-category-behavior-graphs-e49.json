@@ -1,0 +1,15 @@
+{
+  "title": "Behavior Graphs",
+  "slug": "/category/behavior-graphs",
+  "permalink": "/docs/docs/category/behavior-graphs",
+  "navigation": {
+    "previous": {
+      "title": "Blender Add-On Components",
+      "permalink": "/docs/docs/creators/blender-add-on/add-on-components"
+    },
+    "next": {
+      "title": "Introduction to Behavior Graphs",
+      "permalink": "/docs/docs/creators/behavior-graphs/intro-behavior-graphs"
+    }
+  }
+}

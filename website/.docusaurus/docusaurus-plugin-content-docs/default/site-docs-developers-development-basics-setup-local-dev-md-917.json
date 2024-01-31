@@ -1,0 +1,27 @@
+{
+  "id": "developers/development-basics/setup-local-dev",
+  "title": "Local Development",
+  "description": "Documentation coming soon...",
+  "source": "@site/docs/developers/development-basics/setup-local-dev.md",
+  "sourceDirName": "developers/development-basics",
+  "slug": "/developers/development-basics/setup-local-dev",
+  "permalink": "/docs/docs/developers/development-basics/setup-local-dev",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/development-basics/setup-local-dev.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "System Overview",
+    "permalink": "/docs/docs/developers/development-basics/system-overview"
+  },
+  "next": {
+    "title": "Development Basics",
+    "permalink": "/docs/docs/developers/development-basics/dev-basics"
+  }
+}

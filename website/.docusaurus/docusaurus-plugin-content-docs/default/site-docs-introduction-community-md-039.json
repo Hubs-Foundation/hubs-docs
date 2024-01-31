@@ -1,0 +1,27 @@
+{
+  "id": "introduction/community",
+  "title": "Community",
+  "description": "Documentation coming soon...",
+  "source": "@site/docs/introduction/community.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/community",
+  "permalink": "/docs/docs/introduction/community",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/introduction/community.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Hubs History",
+    "permalink": "/docs/docs/introduction/hubs-history"
+  },
+  "next": {
+    "title": "Getting Help",
+    "permalink": "/docs/docs/introduction/getting-help"
+  }
+}

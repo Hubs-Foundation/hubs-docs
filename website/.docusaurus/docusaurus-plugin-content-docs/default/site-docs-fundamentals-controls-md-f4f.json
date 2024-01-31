@@ -1,0 +1,27 @@
+{
+  "id": "fundamentals/controls",
+  "title": "Controls",
+  "description": "Touchscreen Controls",
+  "source": "@site/docs/fundamentals/controls.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/controls",
+  "permalink": "/docs/docs/fundamentals/controls",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/controls.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Room Info and Settings",
+    "permalink": "/docs/docs/fundamentals/room-settings"
+  },
+  "next": {
+    "title": "Troubleshooting",
+    "permalink": "/docs/docs/fundamentals/troubleshooting"
+  }
+}

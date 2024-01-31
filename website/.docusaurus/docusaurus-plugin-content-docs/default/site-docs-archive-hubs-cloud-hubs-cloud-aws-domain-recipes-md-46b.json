@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/hubs-cloud-aws/domain-recipes",
+  "title": "Domain Recipes",
+  "description": "This guide provides a few recipes for registering and purchasing necessary domains before creating your Hub Cloud stack.",
+  "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/domain-recipes.md",
+  "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+  "slug": "/archive/hubs-cloud/hubs-cloud-aws/domain-recipes",
+  "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/domain-recipes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/domain-recipes.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "AWS Quick Start",
+    "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/quick-start"
+  },
+  "next": {
+    "title": "Using an Existing Domain",
+    "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/existing-domain"
+  }
+}

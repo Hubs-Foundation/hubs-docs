@@ -1,0 +1,15 @@
+{
+  "title": "Spoke",
+  "slug": "/category/spoke",
+  "permalink": "/what-is-hubs/category/spoke",
+  "navigation": {
+    "previous": {
+      "title": "Reskin Avatars",
+      "permalink": "/what-is-hubs/fundamentals/reskin-avatars"
+    },
+    "next": {
+      "title": "Building Scenes with Spoke",
+      "permalink": "/what-is-hubs/creators/spoke/building-with-spoke"
+    }
+  }
+}

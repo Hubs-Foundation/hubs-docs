@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting",
+  "title": "AWS Troubleshooting",
+  "description": "Deployment",
+  "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting.md",
+  "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+  "slug": "/archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting",
+  "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Backup and Restore",
+    "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/backup-and-restore"
+  },
+  "next": {
+    "title": "Known Issues",
+    "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/known-issues"
+  }
+}

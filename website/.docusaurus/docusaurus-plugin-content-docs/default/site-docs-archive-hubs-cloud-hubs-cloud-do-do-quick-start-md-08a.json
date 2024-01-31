@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/hubs-cloud-do/do-quick-start",
+  "title": "DigitalOcean Quick Start",
+  "description": "Warning! Hubs Cloud for DigitalOcean is in alpha and provided as is.",
+  "source": "@site/docs/archive/hubs-cloud/hubs-cloud-do/do-quick-start.md",
+  "sourceDirName": "archive/hubs-cloud/hubs-cloud-do",
+  "slug": "/archive/hubs-cloud/hubs-cloud-do/do-quick-start",
+  "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-do/do-quick-start",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-do/do-quick-start.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Hubs Cloud DigitalOcean",
+    "permalink": "/docs/docs/category/hubs-cloud-digitalocean"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/docs/archive/hubs-cloud/introduction"
+  }
+}

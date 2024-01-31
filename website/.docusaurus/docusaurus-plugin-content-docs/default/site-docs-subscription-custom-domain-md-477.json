@@ -1,0 +1,27 @@
+{
+  "id": "subscription/custom-domain",
+  "title": "Custom Domains (Pro Plan)",
+  "description": "This guide walks you through the steps of adding, updating, and removing a custom domain on your Hub. This feature is available on Professional plans.",
+  "source": "@site/docs/subscription/custom-domain.md",
+  "sourceDirName": "subscription",
+  "slug": "/subscription/custom-domain",
+  "permalink": "/docs/docs/subscription/custom-domain",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/subscription/custom-domain.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Managing Your Hub's Content",
+    "permalink": "/docs/docs/subscription/managing-subscription"
+  },
+  "next": {
+    "title": "Custom Clients (Pro Plan)",
+    "permalink": "/docs/docs/subscription/custom-client"
+  }
+}

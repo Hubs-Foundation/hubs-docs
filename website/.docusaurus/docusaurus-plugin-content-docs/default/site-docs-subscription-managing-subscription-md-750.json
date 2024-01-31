@@ -1,0 +1,27 @@
+{
+  "id": "subscription/managing-subscription",
+  "title": "Managing Your Hub's Content",
+  "description": "This page serves as a manual for many of the features that are available to Hubs subscribers to manage the content on their Hub.",
+  "source": "@site/docs/subscription/managing-subscription.md",
+  "sourceDirName": "subscription",
+  "slug": "/subscription/managing-subscription",
+  "permalink": "/docs/docs/subscription/managing-subscription",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/subscription/managing-subscription.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Updating/Cancelling Your Subscription",
+    "permalink": "/docs/docs/subscription/updating-subscription"
+  },
+  "next": {
+    "title": "Custom Domains (Pro Plan)",
+    "permalink": "/docs/docs/subscription/custom-domain"
+  }
+}

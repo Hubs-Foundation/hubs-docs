@@ -1,0 +1,27 @@
+{
+  "id": "developers/contributing/triage",
+  "title": "Triage",
+  "description": "Documentation coming soon...",
+  "source": "@site/docs/developers/contributing/triage.md",
+  "sourceDirName": "developers/contributing",
+  "slug": "/developers/contributing/triage",
+  "permalink": "/docs/docs/developers/contributing/triage",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/contributing/triage.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Submitting Issues",
+    "permalink": "/docs/docs/developers/contributing/issues"
+  },
+  "next": {
+    "title": "Submitting Pull Requests",
+    "permalink": "/docs/docs/developers/contributing/pull-requests"
+  }
+}

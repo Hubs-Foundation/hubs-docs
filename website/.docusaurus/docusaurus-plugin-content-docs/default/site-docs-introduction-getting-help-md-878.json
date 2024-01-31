@@ -1,0 +1,27 @@
+{
+  "id": "introduction/getting-help",
+  "title": "Getting Help",
+  "description": "YouTube",
+  "source": "@site/docs/introduction/getting-help.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/getting-help",
+  "permalink": "/docs/docs/introduction/getting-help",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/introduction/getting-help.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Community",
+    "permalink": "/docs/docs/introduction/community"
+  },
+  "next": {
+    "title": "Choosing A Subscription",
+    "permalink": "/docs/docs/subscription/choosing-subscription"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "fundamentals/avatar-links",
+  "title": "Sharing Avatar Links Privately",
+  "description": "Do you have a hubs room where you want specific avatars to be available for specific people but not others?",
+  "source": "@site/docs/fundamentals/avatar-links.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/avatar-links",
+  "permalink": "/docs/docs/fundamentals/avatar-links",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/avatar-links.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Hubs Features",
+    "permalink": "/docs/docs/fundamentals/hubs-features"
+  },
+  "next": {
+    "title": "User Settings",
+    "permalink": "/docs/docs/fundamentals/user-settings"
+  }
+}

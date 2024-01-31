@@ -1,0 +1,27 @@
+{
+  "id": "developers/development-basics/dev-basics",
+  "title": "Development Basics",
+  "description": "The Hubs client is a web application that runs in each user&rsquo;s web",
+  "source": "@site/docs/developers/development-basics/dev-basics.md",
+  "sourceDirName": "developers/development-basics",
+  "slug": "/developers/development-basics/dev-basics",
+  "permalink": "/docs/docs/developers/development-basics/dev-basics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/development-basics/dev-basics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Local Development",
+    "permalink": "/docs/docs/developers/development-basics/setup-local-dev"
+  },
+  "next": {
+    "title": "Core Gameplay Concepts",
+    "permalink": "/docs/docs/developers/development-basics/gameplay"
+  }
+}

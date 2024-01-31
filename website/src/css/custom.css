@@ -1,0 +1,46 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #1700c7;
+  --ifm-color-primary-dark: #1500b3;
+  --ifm-color-primary-darker: #1400a9;
+  --ifm-color-primary-darkest: #10008b;
+  --ifm-color-primary-light: #1900db;
+  --ifm-color-primary-lighter: #1a00e5;
+  --ifm-color-primary-lightest: #2104ff;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #a299f7;
+  --ifm-color-primary-dark: #8074f4;
+  --ifm-color-primary-darker: #6f61f3;
+  --ifm-color-primary-darkest: #5e4ff1;
+  --ifm-color-primary-light: #c4befa;
+  --ifm-color-primary-lighter: #d5d1fb;
+  --ifm-color-primary-lightest: #ffffff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* .navbar__brand img {
+  content: url('/img/logo-light.svg');
+} */
+
+/* @media (prefers-color-scheme: dark) {
+  .navbar__brand img {
+    content: url('/img/logo-dark.svg');
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .navbar__brand img {
+    content: url('/img/logo-light.svg');
+  }
+} */

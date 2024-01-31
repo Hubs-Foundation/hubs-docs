@@ -1,0 +1,15 @@
+{
+  "title": "Hubs Cloud Digital Ocean (Deprecated)",
+  "slug": "/category/hubs-cloud-digital-ocean-deprecated",
+  "permalink": "/docs/category/hubs-cloud-digital-ocean-deprecated",
+  "navigation": {
+    "previous": {
+      "title": "Getting Started",
+      "permalink": "/docs/archive/hubs-cloud/getting-started"
+    },
+    "next": {
+      "title": "System Architecture",
+      "permalink": "/docs/archive/hubs-cloud/hubs-cloud-do/do-quick-start"
+    }
+  }
+}

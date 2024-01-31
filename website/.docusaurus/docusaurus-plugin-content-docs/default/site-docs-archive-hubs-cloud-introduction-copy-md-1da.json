@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/introduction copy",
+  "title": "Introduction",
+  "description": "Hubs Cloud",
+  "source": "@site/docs/archive/hubs-cloud/introduction copy.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/introduction copy",
+  "permalink": "/docs/archive/hubs-cloud/introduction copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/archive/hubs-cloud/introduction copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Hubs Cloud (Deprecated)",
+    "permalink": "/docs/category/hubs-cloud-deprecated"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/archive/hubs-cloud/introduction"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "developers/development-basics/extending-client",
+  "title": "Extending Hubs: Custom Clients",
+  "description": "Now that you have a working Hubs Cloud instance, you can create and deploy custom versions of the Hubs Client yourself! By forking the hubs repository, making code changes, then deploying it to your live instance.",
+  "source": "@site/docs/developers/development-basics/extending-client.md",
+  "sourceDirName": "developers/development-basics",
+  "slug": "/developers/development-basics/extending-client",
+  "permalink": "/docs/docs/developers/development-basics/extending-client",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/development-basics/extending-client.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Networking",
+    "permalink": "/docs/docs/developers/development-basics/networking"
+  },
+  "next": {
+    "title": "Extending Hubs: Plugins",
+    "permalink": "/docs/docs/developers/development-basics/extending-plugins"
+  }
+}

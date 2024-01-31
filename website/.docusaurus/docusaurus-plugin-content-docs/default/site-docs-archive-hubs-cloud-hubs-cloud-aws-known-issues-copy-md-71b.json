@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/hubs-cloud-aws/known-issues copy",
+  "title": "Known Issues",
+  "description": "I get the error \"Value for parameter availabilityZone is invalid. Subnets can currently only be created in the following availability zones: X, Y",
+  "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/known-issues copy.md",
+  "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+  "slug": "/archive/hubs-cloud/hubs-cloud-aws/known-issues copy",
+  "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/known-issues copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/archive/hubs-cloud/hubs-cloud-aws/known-issues copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "AWS Troubleshooting",
+    "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting"
+  },
+  "next": {
+    "title": "Known Issues",
+    "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/known-issues"
+  }
+}

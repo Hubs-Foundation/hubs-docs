@@ -1,0 +1,27 @@
+{
+  "id": "subscription/custom-domain copy",
+  "title": "Custom Domains (Pro Plan)",
+  "description": "",
+  "source": "@site/docs/subscription/custom-domain copy.md",
+  "sourceDirName": "subscription",
+  "slug": "/subscription/custom-domain copy",
+  "permalink": "/docs/subscription/custom-domain copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/subscription/custom-domain copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Managing Your Hub's Content",
+    "permalink": "/docs/subscription/managing-subscription"
+  },
+  "next": {
+    "title": "Custom Domains (Pro Plan)",
+    "permalink": "/docs/subscription/custom-domain"
+  }
+}

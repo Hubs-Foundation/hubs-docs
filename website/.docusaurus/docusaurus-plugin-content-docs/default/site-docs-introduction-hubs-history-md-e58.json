@@ -1,0 +1,27 @@
+{
+  "id": "introduction/hubs-history",
+  "title": "Hubs History",
+  "description": "Documentation coming soon...",
+  "source": "@site/docs/introduction/hubs-history.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/hubs-history",
+  "permalink": "/docs/docs/introduction/hubs-history",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/introduction/hubs-history.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "What is Hubs?",
+    "permalink": "/docs/docs/introduction/what-is-hubs"
+  },
+  "next": {
+    "title": "Community",
+    "permalink": "/docs/docs/introduction/community"
+  }
+}

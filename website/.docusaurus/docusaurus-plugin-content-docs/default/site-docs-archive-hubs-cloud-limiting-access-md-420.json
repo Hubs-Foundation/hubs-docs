@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/limiting-access",
+  "title": "Limiting Access",
+  "description": "This guide shows you how to lockdown your hub and rooms by account only access (accounts created by your admin from an email list) or by using the Hubs Discord bot.",
+  "source": "@site/docs/archive/hubs-cloud/limiting-access.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/limiting-access",
+  "permalink": "/docs/docs/archive/hubs-cloud/limiting-access",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/limiting-access.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Adding Administrators",
+    "permalink": "/docs/docs/archive/hubs-cloud/adding-admins"
+  },
+  "next": {
+    "title": "Recipe: Permissive Rooms",
+    "permalink": "/docs/docs/archive/hubs-cloud/permissive-rooms"
+  }
+}

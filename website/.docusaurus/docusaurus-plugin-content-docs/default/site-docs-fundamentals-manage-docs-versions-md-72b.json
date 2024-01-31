@@ -1,0 +1,27 @@
+{
+  "id": "fundamentals/manage-docs-versions",
+  "title": "Create and Join Rooms",
+  "description": "",
+  "source": "@site/docs/fundamentals/manage-docs-versions.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/manage-docs-versions",
+  "permalink": "/docs/fundamentals/manage-docs-versions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/fundamentals/manage-docs-versions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Subscription Help",
+    "permalink": "/docs/subscription/help-subscription"
+  },
+  "next": {
+    "title": "Spoke",
+    "permalink": "/docs/category/spoke"
+  }
+}

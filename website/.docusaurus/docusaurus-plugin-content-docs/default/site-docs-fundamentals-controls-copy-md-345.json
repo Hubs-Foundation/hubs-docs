@@ -1,0 +1,27 @@
+{
+  "id": "fundamentals/controls copy",
+  "title": "Controls",
+  "description": "Touchscreen Controls",
+  "source": "@site/docs/fundamentals/controls copy.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/controls copy",
+  "permalink": "/docs/fundamentals/controls copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/fundamentals/controls copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Room Info and Settings",
+    "permalink": "/docs/fundamentals/room-settings"
+  },
+  "next": {
+    "title": "Controls",
+    "permalink": "/docs/fundamentals/controls"
+  }
+}

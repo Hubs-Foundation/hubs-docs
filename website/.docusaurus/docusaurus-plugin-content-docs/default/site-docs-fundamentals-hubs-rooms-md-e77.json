@@ -1,0 +1,27 @@
+{
+  "id": "fundamentals/hubs-rooms",
+  "title": "Create and Join Rooms",
+  "description": "Create a New Room",
+  "source": "@site/docs/fundamentals/hubs-rooms.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/hubs-rooms",
+  "permalink": "/docs/docs/fundamentals/hubs-rooms",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/hubs-rooms.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Hosting Events in Hubs",
+    "permalink": "/docs/docs/fundamentals/hosting-events"
+  },
+  "next": {
+    "title": "Hubs Features",
+    "permalink": "/docs/docs/fundamentals/hubs-features"
+  }
+}

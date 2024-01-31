@@ -1,0 +1,27 @@
+{
+  "id": "creators/spoke/building-with-spoke",
+  "title": "Building Scenes with Spoke",
+  "description": "Want to build custom VR worlds for Hubs? Meet Spoke! 👋",
+  "source": "@site/docs/creators/spoke/building-with-spoke.md",
+  "sourceDirName": "creators/spoke",
+  "slug": "/creators/spoke/building-with-spoke",
+  "permalink": "/docs/docs/creators/spoke/building-with-spoke",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/building-with-spoke.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Spoke",
+    "permalink": "/docs/docs/category/spoke"
+  },
+  "next": {
+    "title": "Create A Project",
+    "permalink": "/docs/docs/creators/spoke/create-project"
+  }
+}

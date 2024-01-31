@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/hubs-cloud-aws/estimating-cost",
+  "title": "Estimating Cost Charts (Alpha)",
+  "description": "This document explains how to estimate your costs. For a full description on:",
+  "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-cost.md",
+  "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+  "slug": "/archive/hubs-cloud/hubs-cloud-aws/estimating-cost",
+  "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-cost",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-cost.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Cost and Minimizing Costs Information",
+    "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/cost-saving"
+  },
+  "next": {
+    "title": "Estimating CCU Limits",
+    "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-ccu"
+  }
+}

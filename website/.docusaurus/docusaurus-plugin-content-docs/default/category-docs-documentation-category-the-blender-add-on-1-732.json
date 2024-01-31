@@ -1,0 +1,15 @@
+{
+  "title": "The Blender Add-On",
+  "slug": "/category/the-blender-add-on-1",
+  "permalink": "/docs/category/the-blender-add-on-1",
+  "navigation": {
+    "previous": {
+      "title": "The Hubs Blender Add-On",
+      "permalink": "/docs/creators/blender-add-on/intro-add-on"
+    },
+    "next": {
+      "title": "Behavior Graphs",
+      "permalink": "/docs/creators/behavior graphs/intro-behavior-graphs"
+    }
+  }
+}

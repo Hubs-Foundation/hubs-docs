@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/hubs-cloud-aws/updating-the-stack",
+  "title": "Updating the Stack",
+  "description": "You can change various settings of your hub's stack by performing a stack Update. You will not experience any downtime when making these changes. To Update your stack:",
+  "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/updating-the-stack.md",
+  "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+  "slug": "/archive/hubs-cloud/hubs-cloud-aws/updating-the-stack",
+  "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/updating-the-stack",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/updating-the-stack.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Using an Existing Email Provider",
+    "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/existing-email"
+  },
+  "next": {
+    "title": "Backup and Restore",
+    "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/backup-and-restore"
+  }
+}

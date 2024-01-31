@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/hubs-cloud-do/system-architecture",
+  "title": "System Architecture",
+  "description": "AWS Architecture",
+  "source": "@site/docs/archive/hubs-cloud/hubs-cloud-do/system-architecture.md",
+  "sourceDirName": "archive/hubs-cloud/hubs-cloud-do",
+  "slug": "/archive/hubs-cloud/hubs-cloud-do/system-architecture",
+  "permalink": "/docs/archive/hubs-cloud/hubs-cloud-do/system-architecture",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/archive/hubs-cloud/hubs-cloud-do/system-architecture.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Hubs Cloud Digital Ocean (Deprecated)",
+    "permalink": "/docs/category/hubs-cloud-digital-ocean-deprecated"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/docs/archive/hubs-cloud/faq"
+  }
+}

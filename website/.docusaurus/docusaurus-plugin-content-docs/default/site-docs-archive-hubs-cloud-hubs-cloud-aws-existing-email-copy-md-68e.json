@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/hubs-cloud-aws/existing-email copy",
+  "title": "Using an Existing Email Provider",
+  "description": "By default your hub will be set up with Amazon Simple Email Service for email on a Route 53 domain you specify. You can also use your own SMTP settings for sending email. If you have your own SMTP settings you'd like to use, choose the same domain as your \"Internal Domain Name\" for the \"Outgoing Email Domain\" when creating the stack. You'll still need to click through the verification email you will receive during stack creation in order to log into your administrator account during the setup process.",
+  "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/existing-email copy.md",
+  "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+  "slug": "/archive/hubs-cloud/hubs-cloud-aws/existing-email copy",
+  "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/existing-email copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/archive/hubs-cloud/hubs-cloud-aws/existing-email copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Using an Existing Domain",
+    "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/existing-domain"
+  },
+  "next": {
+    "title": "Using an Existing Email Provider",
+    "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/existing-email"
+  }
+}

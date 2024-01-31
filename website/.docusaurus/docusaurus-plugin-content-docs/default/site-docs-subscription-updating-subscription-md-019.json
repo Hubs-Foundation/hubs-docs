@@ -1,0 +1,27 @@
+{
+  "id": "subscription/updating-subscription",
+  "title": "Updating/Cancelling Your Subscription",
+  "description": "This guide walks you through the process of updating and cancelling your subscription. If you experience unexpected results at any point of the process, please refer to the support page for more information.",
+  "source": "@site/docs/subscription/updating-subscription.md",
+  "sourceDirName": "subscription",
+  "slug": "/subscription/updating-subscription",
+  "permalink": "/docs/docs/subscription/updating-subscription",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/subscription/updating-subscription.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Creating Your Hub",
+    "permalink": "/docs/docs/subscription/creating-subscripton"
+  },
+  "next": {
+    "title": "Managing Your Hub's Content",
+    "permalink": "/docs/docs/subscription/managing-subscription"
+  }
+}

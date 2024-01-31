@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/hubs-cloud-aws/quick-start",
+  "title": "AWS Quick Start",
+  "description": "Before creating the Hubs Cloud Stack",
+  "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/quick-start.md",
+  "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+  "slug": "/archive/hubs-cloud/hubs-cloud-aws/quick-start",
+  "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/quick-start",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/quick-start.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Hubs Cloud AWS",
+    "permalink": "/docs/docs/category/hubs-cloud-aws"
+  },
+  "next": {
+    "title": "Domain Recipes",
+    "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/domain-recipes"
+  }
+}

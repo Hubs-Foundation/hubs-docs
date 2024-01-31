@@ -1,0 +1,18 @@
+{
+  "id": "subscription copy/translate-your-site",
+  "title": "Translate your site",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/subscription copy/translate-your-site.md",
+  "sourceDirName": "subscription copy",
+  "slug": "/subscription copy/translate-your-site",
+  "permalink": "/docs/subscription copy/translate-your-site",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/subscription copy/translate-your-site.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "archive/hubs-cloud/brand-guidelines",
+  "title": "Advanced: Brand Guidelines",
+  "description": "Important Stuff To Keep In Mind",
+  "source": "@site/docs/archive/hubs-cloud/brand-guidelines.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/brand-guidelines",
+  "permalink": "/docs/docs/archive/hubs-cloud/brand-guidelines",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/brand-guidelines.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "sidebar_position": 16
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Advanced: SSH Access",
+    "permalink": "/docs/docs/archive/hubs-cloud/ssh-access"
+  }
+}

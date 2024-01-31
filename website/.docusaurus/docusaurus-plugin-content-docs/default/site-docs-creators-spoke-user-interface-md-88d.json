@@ -1,0 +1,27 @@
+{
+  "id": "creators/spoke/user-interface",
+  "title": "User Interface",
+  "description": "Hubs Image",
+  "source": "@site/docs/creators/spoke/user-interface.md",
+  "sourceDirName": "creators/spoke",
+  "slug": "/creators/spoke/user-interface",
+  "permalink": "/docs/docs/creators/spoke/user-interface",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/user-interface.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Create A Project",
+    "permalink": "/docs/docs/creators/spoke/create-project"
+  },
+  "next": {
+    "title": "Spoke Controls",
+    "permalink": "/docs/docs/creators/spoke/spoke-controls"
+  }
+}

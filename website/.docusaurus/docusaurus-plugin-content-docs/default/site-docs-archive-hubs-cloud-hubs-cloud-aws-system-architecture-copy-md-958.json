@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/hubs-cloud-aws/system-architecture copy",
+  "title": "System Architecture",
+  "description": "AWS Architecture",
+  "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/system-architecture copy.md",
+  "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+  "slug": "/archive/hubs-cloud/hubs-cloud-aws/system-architecture copy",
+  "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/system-architecture copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/archive/hubs-cloud/hubs-cloud-aws/system-architecture copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Known Issues",
+    "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/known-issues"
+  },
+  "next": {
+    "title": "System Architecture",
+    "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/system-architecture"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/hubs-cloud-aws/existing-domain copy",
+  "title": "Using an Existing Domain",
+  "description": "Interested in using an existing domain or subdomain for your hub?",
+  "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/existing-domain copy.md",
+  "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+  "slug": "/archive/hubs-cloud/hubs-cloud-aws/existing-domain copy",
+  "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/existing-domain copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/archive/hubs-cloud/hubs-cloud-aws/existing-domain copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Domain Recipes",
+    "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/domain-recipes"
+  },
+  "next": {
+    "title": "Using an Existing Domain",
+    "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/existing-domain"
+  }
+}

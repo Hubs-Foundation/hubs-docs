@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/custom-smtp",
+  "title": "Recipe: Custom SMTP",
+  "description": "When you set up your server on some cloud providers like AWS, SMTP is automatically set up for you on your cloud provider's email service. You can set your own custom SMTP settings if you are using a different mail provider.",
+  "source": "@site/docs/archive/hubs-cloud/custom-smtp.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/custom-smtp",
+  "permalink": "/docs/docs/archive/hubs-cloud/custom-smtp",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/custom-smtp.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Recipe: 3rd Party Integrations",
+    "permalink": "/docs/docs/archive/hubs-cloud/third-party-integrations"
+  },
+  "next": {
+    "title": "Recipe: Discord Bot",
+    "permalink": "/docs/docs/archive/hubs-cloud/discord-bot"
+  }
+}

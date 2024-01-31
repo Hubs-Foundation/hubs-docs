@@ -1,0 +1,27 @@
+{
+  "id": "creators/blender-add-on/advanced-avatars copy",
+  "title": "Advanced Avatar Customization",
+  "description": "",
+  "source": "@site/docs/creators/blender-add-on/advanced-avatars copy.md",
+  "sourceDirName": "creators/blender-add-on",
+  "slug": "/creators/blender-add-on/advanced-avatars copy",
+  "permalink": "/docs/creators/blender-add-on/advanced-avatars copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/creators/blender-add-on/advanced-avatars copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Introduction to the Hubs Blender Add-On",
+    "permalink": "/docs/creators/blender-add-on/intro-add-on"
+  },
+  "next": {
+    "title": "Advanced Avatar Customization",
+    "permalink": "/docs/creators/blender-add-on/advanced-avatars"
+  }
+}

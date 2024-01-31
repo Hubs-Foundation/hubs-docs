@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/faq",
+  "title": "FAQ",
+  "description": "Why use Hubs Cloud vs. hubs.mozilla.com?",
+  "source": "@site/docs/archive/hubs-cloud/faq.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/faq",
+  "permalink": "/docs/docs/archive/hubs-cloud/faq",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/faq.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/docs/archive/hubs-cloud/getting-started"
+  },
+  "next": {
+    "title": "Importing Content",
+    "permalink": "/docs/docs/archive/hubs-cloud/importing-content"
+  }
+}

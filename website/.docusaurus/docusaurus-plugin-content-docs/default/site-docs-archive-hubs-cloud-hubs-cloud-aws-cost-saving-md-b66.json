@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/hubs-cloud-aws/cost-saving",
+  "title": "Cost and Minimizing Costs Information",
+  "description": "This document explains how Hubs Cloud costs work. Although your hub is designed to minimize AWS costs as much as possible, we go into detail on how to minimize them even further for your stack.",
+  "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/cost-saving.md",
+  "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+  "slug": "/archive/hubs-cloud/hubs-cloud-aws/cost-saving",
+  "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/cost-saving",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/cost-saving.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "System Architecture",
+    "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/system-architecture"
+  },
+  "next": {
+    "title": "Estimating Cost Charts (Alpha)",
+    "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-cost"
+  }
+}

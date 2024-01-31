@@ -1,0 +1,27 @@
+{
+  "id": "creators/spoke/publish-scenes copy",
+  "title": "Publishing Scenes",
+  "description": "",
+  "source": "@site/docs/creators/spoke/publish-scenes copy.md",
+  "sourceDirName": "creators/spoke",
+  "slug": "/creators/spoke/publish-scenes copy",
+  "permalink": "/docs/creators/spoke/publish-scenes copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/creators/spoke/publish-scenes copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Physics and Navigation",
+    "permalink": "/docs/creators/spoke/physics-and-navigation"
+  },
+  "next": {
+    "title": "Publishing Scenes",
+    "permalink": "/docs/creators/spoke/publish-scenes"
+  }
+}
