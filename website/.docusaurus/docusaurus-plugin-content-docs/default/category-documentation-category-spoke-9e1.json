@@ -1,0 +1,15 @@
+{
+  "title": "Spoke",
+  "slug": "/category/spoke",
+  "permalink": "/category/spoke",
+  "navigation": {
+    "previous": {
+      "title": "Reskin Avatars",
+      "permalink": "/fundamentals/reskin-avatars"
+    },
+    "next": {
+      "title": "Building Scenes with Spoke",
+      "permalink": "/creators/spoke/building-with-spoke"
+    }
+  }
+}

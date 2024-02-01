@@ -1,0 +1,27 @@
+{
+  "id": "archive/discord-bot",
+  "title": "Discord Bot (Deprecated)",
+  "description": "About",
+  "source": "@site/docs/archive/discord-bot.md",
+  "sourceDirName": "archive",
+  "slug": "/archive/discord-bot",
+  "permalink": "/docs/docs/archive/discord-bot",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/discord-bot.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Submitting Pull Requests",
+    "permalink": "/docs/docs/developers/contributing/pull-requests"
+  },
+  "next": {
+    "title": "Hubs Cloud (Deprecated)",
+    "permalink": "/docs/docs/category/hubs-cloud-deprecated"
+  }
+}

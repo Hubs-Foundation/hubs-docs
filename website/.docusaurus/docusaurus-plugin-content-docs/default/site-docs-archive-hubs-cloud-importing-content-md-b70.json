@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/importing-content",
+  "title": "Importing Content",
+  "description": "The two forms of content you can import into Hubs Cloud are avatars and scenes. Avatars are 3D figures like robots, humans, and ducks that can be worn by visitors to represent themselves, and scenes are 3D environments like interiors and landscapes that provide visual grounding for a room.",
+  "source": "@site/docs/archive/hubs-cloud/importing-content.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/importing-content",
+  "permalink": "/docs/docs/archive/hubs-cloud/importing-content",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/importing-content.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "FAQ",
+    "permalink": "/docs/docs/archive/hubs-cloud/faq"
+  },
+  "next": {
+    "title": "Asset Packs",
+    "permalink": "/docs/docs/archive/hubs-cloud/asset-packs"
+  }
+}

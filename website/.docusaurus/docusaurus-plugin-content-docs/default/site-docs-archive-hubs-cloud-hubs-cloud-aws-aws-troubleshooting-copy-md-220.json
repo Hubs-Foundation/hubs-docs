@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting copy",
+  "title": "AWS Troubleshooting",
+  "description": "Deployment",
+  "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting copy.md",
+  "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+  "slug": "/archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting copy",
+  "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Backup and Restore",
+    "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/backup-and-restore"
+  },
+  "next": {
+    "title": "AWS Troubleshooting",
+    "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting"
+  }
+}

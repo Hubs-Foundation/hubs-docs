@@ -1,0 +1,27 @@
+{
+  "id": "creators/spoke/publish-scenes",
+  "title": "Publishing Scenes",
+  "description": "You can publish a scene either directly to Hubs, or you can export it as a .glb file or as a legacy Spoke scene.",
+  "source": "@site/docs/creators/spoke/publish-scenes.md",
+  "sourceDirName": "creators/spoke",
+  "slug": "/creators/spoke/publish-scenes",
+  "permalink": "/docs/docs/creators/spoke/publish-scenes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/publish-scenes.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Physics and Navigation",
+    "permalink": "/docs/docs/creators/spoke/physics-and-navigation"
+  },
+  "next": {
+    "title": "Linking Hubs Rooms",
+    "permalink": "/docs/docs/creators/spoke/linking-rooms"
+  }
+}

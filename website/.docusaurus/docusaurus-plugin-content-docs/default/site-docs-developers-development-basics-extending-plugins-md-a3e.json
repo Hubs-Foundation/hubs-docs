@@ -1,0 +1,27 @@
+{
+  "id": "developers/development-basics/extending-plugins",
+  "title": "Extending Hubs: Plugins",
+  "description": "Documentation coming soon...",
+  "source": "@site/docs/developers/development-basics/extending-plugins.md",
+  "sourceDirName": "developers/development-basics",
+  "slug": "/developers/development-basics/extending-plugins",
+  "permalink": "/docs/docs/developers/development-basics/extending-plugins",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/development-basics/extending-plugins.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Extending Hubs: Custom Clients",
+    "permalink": "/docs/docs/developers/development-basics/extending-client"
+  },
+  "next": {
+    "title": "Query String Parameters",
+    "permalink": "/docs/docs/developers/development-basics/query-strings"
+  }
+}

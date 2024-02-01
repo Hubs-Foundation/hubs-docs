@@ -1,0 +1,27 @@
+{
+  "id": "developers/contributing/pull-requests",
+  "title": "Submitting Pull Requests",
+  "description": "Documentation coming soon...",
+  "source": "@site/docs/developers/contributing/pull-requests.md",
+  "sourceDirName": "developers/contributing",
+  "slug": "/developers/contributing/pull-requests",
+  "permalink": "/docs/docs/developers/contributing/pull-requests",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/contributing/pull-requests.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Triage",
+    "permalink": "/docs/docs/developers/contributing/triage"
+  },
+  "next": {
+    "title": "Discord Bot (Deprecated)",
+    "permalink": "/docs/docs/archive/discord-bot"
+  }
+}

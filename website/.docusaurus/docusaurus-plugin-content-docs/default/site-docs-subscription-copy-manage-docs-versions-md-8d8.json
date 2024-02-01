@@ -1,0 +1,18 @@
+{
+  "id": "subscription copy/manage-docs-versions",
+  "title": "Manage Docs Versions",
+  "description": "Docusaurus can manage multiple versions of your docs.",
+  "source": "@site/docs/subscription copy/manage-docs-versions.md",
+  "sourceDirName": "subscription copy",
+  "slug": "/subscription copy/manage-docs-versions",
+  "permalink": "/docs/subscription copy/manage-docs-versions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/subscription copy/manage-docs-versions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/hubs-cloud-aws/estimating-cost copy",
+  "title": "Estimating Cost Charts (Alpha)",
+  "description": "This document explains how to estimate your costs. For a full description on:",
+  "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-cost copy.md",
+  "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+  "slug": "/archive/hubs-cloud/hubs-cloud-aws/estimating-cost copy",
+  "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-cost copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-cost copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Cost and Minimizing Costs Information",
+    "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/cost-saving"
+  },
+  "next": {
+    "title": "Estimating Cost Charts (Alpha)",
+    "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-cost"
+  }
+}

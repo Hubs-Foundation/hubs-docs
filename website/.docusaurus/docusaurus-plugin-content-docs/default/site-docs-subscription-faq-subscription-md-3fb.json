@@ -1,0 +1,27 @@
+{
+  "id": "subscription/faq-subscription",
+  "title": "Frequently Asked Questions",
+  "description": "Can I have more than one Hub with my Mozilla account?",
+  "source": "@site/docs/subscription/faq-subscription.md",
+  "sourceDirName": "subscription",
+  "slug": "/subscription/faq-subscription",
+  "permalink": "/docs/docs/subscription/faq-subscription",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/subscription/faq-subscription.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Custom Clients (Pro Plan)",
+    "permalink": "/docs/docs/subscription/custom-client"
+  },
+  "next": {
+    "title": "Subscription Help",
+    "permalink": "/docs/docs/subscription/help-subscription"
+  }
+}

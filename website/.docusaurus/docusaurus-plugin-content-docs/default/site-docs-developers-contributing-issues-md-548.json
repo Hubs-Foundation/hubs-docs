@@ -1,0 +1,27 @@
+{
+  "id": "developers/contributing/issues",
+  "title": "Submitting Issues",
+  "description": "Documentation coming soon...",
+  "source": "@site/docs/developers/contributing/issues.md",
+  "sourceDirName": "developers/contributing",
+  "slug": "/developers/contributing/issues",
+  "permalink": "/docs/docs/developers/contributing/issues",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/contributing/issues.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Introduction to Contributing",
+    "permalink": "/docs/docs/developers/contributing/intro-contrib"
+  },
+  "next": {
+    "title": "Triage",
+    "permalink": "/docs/docs/developers/contributing/triage"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "The Blender Add-On",
+  "slug": "/category/the-blender-add-on",
+  "permalink": "/what-is-hubs/category/the-blender-add-on",
+  "navigation": {
+    "previous": {
+      "title": "Optimizing Scenes",
+      "permalink": "/what-is-hubs/creators/spoke/optimizing-scenes"
+    },
+    "next": {
+      "title": "Introduction to the Hubs Blender Add-On",
+      "permalink": "/what-is-hubs/creators/blender-add-on/intro-add-on"
+    }
+  }
+}

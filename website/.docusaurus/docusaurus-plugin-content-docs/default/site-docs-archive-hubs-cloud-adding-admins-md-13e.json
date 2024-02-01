@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/adding-admins",
+  "title": "Adding Administrators",
+  "description": "Administrators for your hub have full access rights. They can:",
+  "source": "@site/docs/archive/hubs-cloud/adding-admins.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/adding-admins",
+  "permalink": "/docs/docs/archive/hubs-cloud/adding-admins",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/adding-admins.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Managing Content",
+    "permalink": "/docs/docs/archive/hubs-cloud/managing-content"
+  },
+  "next": {
+    "title": "Limiting Access",
+    "permalink": "/docs/docs/archive/hubs-cloud/limiting-access"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "developers/community-edition copy/intro-ce",
+  "title": "Hubs Cloud Community Edition",
+  "description": "",
+  "source": "@site/docs/developers/community-edition copy/intro-ce.md",
+  "sourceDirName": "developers/community-edition copy",
+  "slug": "/developers/community-edition copy/intro-ce",
+  "permalink": "/docs/developers/community-edition copy/intro-ce",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developers/community-edition copy/intro-ce.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Community Edition",
+    "permalink": "/docs/category/community-edition-1"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/customizing-themes",
+  "title": "Customizing Themes",
+  "description": "Theming refers to the colors used in your hub's interface. For each color in the UI, there is a variable that stores the color value and is applied to UI Elements such as buttons, input fields, menus, etc.",
+  "source": "@site/docs/archive/hubs-cloud/customizing-themes.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/customizing-themes",
+  "permalink": "/docs/docs/archive/hubs-cloud/customizing-themes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/customizing-themes.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Customizing Look & Feel",
+    "permalink": "/docs/docs/archive/hubs-cloud/customizing-look"
+  },
+  "next": {
+    "title": "Managing Content",
+    "permalink": "/docs/docs/archive/hubs-cloud/managing-content"
+  }
+}

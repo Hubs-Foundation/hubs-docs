@@ -1,0 +1,23 @@
+{
+  "id": "introduction/hubs-products-and-services",
+  "title": "Hubs Products and Services",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/introduction/hubs-products-and-services.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/hubs-products-and-services",
+  "permalink": "/docs/introduction/hubs-products-and-services",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/introduction/hubs-products-and-services.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Hubs History",
+    "permalink": "/docs/introduction/hubs-history"
+  }
+}

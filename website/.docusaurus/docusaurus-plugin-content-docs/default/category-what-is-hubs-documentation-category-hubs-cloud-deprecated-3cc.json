@@ -1,0 +1,15 @@
+{
+  "title": "Hubs Cloud (Deprecated)",
+  "slug": "/category/hubs-cloud-deprecated",
+  "permalink": "/what-is-hubs/category/hubs-cloud-deprecated",
+  "navigation": {
+    "previous": {
+      "title": "Discord Bot (Deprecated)",
+      "permalink": "/what-is-hubs/archive/discord-bot"
+    },
+    "next": {
+      "title": "Hubs Cloud AWS",
+      "permalink": "/what-is-hubs/category/hubs-cloud-aws"
+    }
+  }
+}

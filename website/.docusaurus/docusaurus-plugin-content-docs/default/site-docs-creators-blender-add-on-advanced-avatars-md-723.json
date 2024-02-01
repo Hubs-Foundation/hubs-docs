@@ -1,0 +1,27 @@
+{
+  "id": "creators/blender-add-on/advanced-avatars",
+  "title": "Advanced Avatar Customization",
+  "description": "Advanced Re-skinning",
+  "source": "@site/docs/creators/blender-add-on/advanced-avatars.md",
+  "sourceDirName": "creators/blender-add-on",
+  "slug": "/creators/blender-add-on/advanced-avatars",
+  "permalink": "/docs/docs/creators/blender-add-on/advanced-avatars",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/blender-add-on/advanced-avatars.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Introduction to the Hubs Blender Add-On",
+    "permalink": "/docs/docs/creators/blender-add-on/intro-add-on"
+  },
+  "next": {
+    "title": "Blender Add-On Components",
+    "permalink": "/docs/docs/creators/blender-add-on/add-on-components"
+  }
+}

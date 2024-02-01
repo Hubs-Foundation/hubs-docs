@@ -1,0 +1,27 @@
+{
+  "id": "developers/development-basics/system-overview",
+  "title": "System Overview",
+  "description": "The Client",
+  "source": "@site/docs/developers/development-basics/system-overview.md",
+  "sourceDirName": "developers/development-basics",
+  "slug": "/developers/development-basics/system-overview",
+  "permalink": "/docs/docs/developers/development-basics/system-overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/development-basics/system-overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Development Basics",
+    "permalink": "/docs/docs/category/development-basics"
+  },
+  "next": {
+    "title": "Local Development",
+    "permalink": "/docs/docs/developers/development-basics/setup-local-dev"
+  }
+}

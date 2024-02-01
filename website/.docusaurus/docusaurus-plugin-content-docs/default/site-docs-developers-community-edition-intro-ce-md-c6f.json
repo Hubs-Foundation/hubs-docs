@@ -1,0 +1,27 @@
+{
+  "id": "developers/community-edition/intro-ce",
+  "title": "Introduction to Hubs Cloud Community Edition",
+  "description": "Documentation coming soon...",
+  "source": "@site/docs/developers/community-edition/intro-ce.md",
+  "sourceDirName": "developers/community-edition",
+  "slug": "/developers/community-edition/intro-ce",
+  "permalink": "/docs/docs/developers/community-edition/intro-ce",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/community-edition/intro-ce.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Hubs Cloud Community Edition",
+    "permalink": "/docs/docs/category/hubs-cloud-community-edition"
+  },
+  "next": {
+    "title": "Contributing to Hubs",
+    "permalink": "/docs/docs/category/contributing-to-hubs"
+  }
+}

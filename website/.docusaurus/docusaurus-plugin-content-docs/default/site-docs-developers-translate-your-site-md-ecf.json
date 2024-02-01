@@ -1,0 +1,27 @@
+{
+  "id": "developers/translate-your-site",
+  "title": "Translate your site",
+  "description": "",
+  "source": "@site/docs/developers/translate-your-site.md",
+  "sourceDirName": "developers",
+  "slug": "/developers/translate-your-site",
+  "permalink": "/docs/developers/translate-your-site",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developers/translate-your-site.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Manage Docs Versions",
+    "permalink": "/docs/developers/manage-docs-versions"
+  },
+  "next": {
+    "title": "Community Edition",
+    "permalink": "/docs/category/community-edition"
+  }
+}

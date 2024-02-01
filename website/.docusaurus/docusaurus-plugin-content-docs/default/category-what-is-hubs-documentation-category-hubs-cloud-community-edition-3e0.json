@@ -1,0 +1,15 @@
+{
+  "title": "Hubs Cloud Community Edition",
+  "slug": "/category/hubs-cloud-community-edition",
+  "permalink": "/what-is-hubs/category/hubs-cloud-community-edition",
+  "navigation": {
+    "previous": {
+      "title": "Query String Parameters",
+      "permalink": "/what-is-hubs/developers/development-basics/query-strings"
+    },
+    "next": {
+      "title": "Introduction to Hubs Cloud Community Edition",
+      "permalink": "/what-is-hubs/developers/community-edition/intro-ce"
+    }
+  }
+}

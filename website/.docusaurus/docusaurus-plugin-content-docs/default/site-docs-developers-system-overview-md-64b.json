@@ -1,0 +1,27 @@
+{
+  "id": "developers/system-overview",
+  "title": "System Overview",
+  "description": "The Client",
+  "source": "@site/docs/developers/system-overview.md",
+  "sourceDirName": "developers",
+  "slug": "/developers/system-overview",
+  "permalink": "/docs/developers/system-overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developers/system-overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Introduction to Behavior Graphs",
+    "permalink": "/docs/creators/behavior-graphs/intro-behavior-graphs"
+  },
+  "next": {
+    "title": "Local Development",
+    "permalink": "/docs/developers/setup-local-dev"
+  }
+}

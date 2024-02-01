@@ -1,0 +1,49 @@
+{
+  "blogPosts": [
+    {
+      "id": "first-changelog-test",
+      "metadata": {
+        "permalink": "/docs/blog/first-changelog-test",
+        "editUrl": "https://github.com/MozillaReality/hubs-docs/blog/2019-05-28-first-blog-post.md",
+        "source": "@site/blog/2019-05-28-first-blog-post.md",
+        "title": "First Changelog Test",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+        "date": "2019-05-28T00:00:00.000Z",
+        "formattedDate": "May 28, 2019",
+        "tags": [
+          {
+            "label": "changelog",
+            "permalink": "/docs/blog/tags/changelog"
+          }
+        ],
+        "readingTime": 0.12,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "Michael Morran",
+            "title": "Developer Community Manager",
+            "url": "https://github.com/mikemorran",
+            "image_url": "https://github.com/mikemorran.png",
+            "imageURL": "https://github.com/mikemorran.png"
+          }
+        ],
+        "frontMatter": {
+          "slug": "first-changelog-test",
+          "title": "First Changelog Test",
+          "authors": {
+            "name": "Michael Morran",
+            "title": "Developer Community Manager",
+            "url": "https://github.com/mikemorran",
+            "image_url": "https://github.com/mikemorran.png",
+            "imageURL": "https://github.com/mikemorran.png"
+          },
+          "tags": [
+            "changelog"
+          ]
+        },
+        "unlisted": false
+      },
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+    }
+  ]
+}

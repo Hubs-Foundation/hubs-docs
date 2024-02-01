@@ -1,0 +1,27 @@
+{
+  "id": "fundamentals/getting-started",
+  "title": "Getting Started With Hubs",
+  "description": "In the following guide we'll show you the basics of Hubs! (Prefer a video? Click here.)",
+  "source": "@site/docs/fundamentals/getting-started.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/getting-started",
+  "permalink": "/docs/docs/fundamentals/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/getting-started.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Subscription Help",
+    "permalink": "/docs/docs/subscription/help-subscription"
+  },
+  "next": {
+    "title": "Creating Custom Avatars",
+    "permalink": "/docs/docs/fundamentals/custom-avatars"
+  }
+}

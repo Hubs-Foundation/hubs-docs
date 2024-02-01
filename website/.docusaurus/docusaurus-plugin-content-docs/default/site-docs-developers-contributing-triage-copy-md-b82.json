@@ -1,0 +1,27 @@
+{
+  "id": "developers/contributing/triage copy",
+  "title": "Triage",
+  "description": "",
+  "source": "@site/docs/developers/contributing/triage copy.md",
+  "sourceDirName": "developers/contributing",
+  "slug": "/developers/contributing/triage copy",
+  "permalink": "/docs/developers/contributing/triage copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/developers/contributing/triage copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Submitting Issues",
+    "permalink": "/docs/developers/contributing/issues"
+  },
+  "next": {
+    "title": "Triage",
+    "permalink": "/docs/developers/contributing/triage"
+  }
+}

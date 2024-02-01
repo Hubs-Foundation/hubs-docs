@@ -1,0 +1,27 @@
+{
+  "id": "creators/spoke/building-with-spoke copy",
+  "title": "Building Scenes with Spoke",
+  "description": "Want to build custom VR worlds for Hubs? Meet Spoke! 👋",
+  "source": "@site/docs/creators/spoke/building-with-spoke copy.md",
+  "sourceDirName": "creators/spoke",
+  "slug": "/creators/spoke/building-with-spoke copy",
+  "permalink": "/docs/creators/spoke/building-with-spoke copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/creators/spoke/building-with-spoke copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Spoke",
+    "permalink": "/docs/category/spoke"
+  },
+  "next": {
+    "title": "Building Scenes with Spoke",
+    "permalink": "/docs/creators/spoke/building-with-spoke"
+  }
+}

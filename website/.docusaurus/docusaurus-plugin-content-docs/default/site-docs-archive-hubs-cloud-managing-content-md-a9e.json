@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/managing-content",
+  "title": "Managing Content",
+  "description": "In Hubs and Spoke, visitors can create their own avatars and scenes. They can then offer to share that content with others, which will let visitors discover the content through tools like the Media Browser.",
+  "source": "@site/docs/archive/hubs-cloud/managing-content.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/managing-content",
+  "permalink": "/docs/docs/archive/hubs-cloud/managing-content",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/managing-content.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Customizing Themes",
+    "permalink": "/docs/docs/archive/hubs-cloud/customizing-themes"
+  },
+  "next": {
+    "title": "Adding Administrators",
+    "permalink": "/docs/docs/archive/hubs-cloud/adding-admins"
+  }
+}

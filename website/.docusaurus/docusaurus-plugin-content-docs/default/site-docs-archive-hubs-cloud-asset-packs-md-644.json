@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/asset-packs",
+  "title": "Asset Packs",
+  "description": "We've compiled some avatar and scene collections you can easily import into your hub. This content is Creative Commons 3 licensed. License compliance with attribution is handled automatically by Hubs Cloud when the content is surfaced to users.",
+  "source": "@site/docs/archive/hubs-cloud/asset-packs.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/asset-packs",
+  "permalink": "/docs/docs/archive/hubs-cloud/asset-packs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/asset-packs.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Importing Content",
+    "permalink": "/docs/docs/archive/hubs-cloud/importing-content"
+  },
+  "next": {
+    "title": "Customizing Look & Feel",
+    "permalink": "/docs/docs/archive/hubs-cloud/customizing-look"
+  }
+}

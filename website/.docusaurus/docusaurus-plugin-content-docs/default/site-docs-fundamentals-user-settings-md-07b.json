@@ -1,0 +1,27 @@
+{
+  "id": "fundamentals/user-settings",
+  "title": "User Settings",
+  "description": "Changing Name and Avatar",
+  "source": "@site/docs/fundamentals/user-settings.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/user-settings",
+  "permalink": "/docs/docs/fundamentals/user-settings",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/user-settings.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Sharing Avatar Links Privately",
+    "permalink": "/docs/docs/fundamentals/avatar-links"
+  },
+  "next": {
+    "title": "Room Info and Settings",
+    "permalink": "/docs/docs/fundamentals/room-settings"
+  }
+}

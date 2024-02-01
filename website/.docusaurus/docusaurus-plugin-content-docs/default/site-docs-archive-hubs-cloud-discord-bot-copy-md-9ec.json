@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/discord-bot copy",
+  "title": "Recipe: Discord Bot",
+  "description": "Discord bot for Hubs Cloud is under construction!",
+  "source": "@site/docs/archive/hubs-cloud/discord-bot copy.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/discord-bot copy",
+  "permalink": "/docs/archive/hubs-cloud/discord-bot copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/archive/hubs-cloud/discord-bot copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Recipe: Custom SMTP",
+    "permalink": "/docs/archive/hubs-cloud/custom-smtp"
+  },
+  "next": {
+    "title": "Recipe: Discord Bot",
+    "permalink": "/docs/archive/hubs-cloud/discord-bot"
+  }
+}

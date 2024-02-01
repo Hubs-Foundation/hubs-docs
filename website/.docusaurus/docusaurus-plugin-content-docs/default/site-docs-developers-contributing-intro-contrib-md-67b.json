@@ -1,0 +1,27 @@
+{
+  "id": "developers/contributing/intro-contrib",
+  "title": "Introduction to Contributing",
+  "description": "This page outlines opportunities for people who want to contribute to the Hubs project. We welcome external contributions that align with the project's mission around enabling collaboration and communication through shared 3D spaces. You can find information about how to contribute to Hubs and the supporting projects that make up the platform here.",
+  "source": "@site/docs/developers/contributing/intro-contrib.md",
+  "sourceDirName": "developers/contributing",
+  "slug": "/developers/contributing/intro-contrib",
+  "permalink": "/docs/docs/developers/contributing/intro-contrib",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/contributing/intro-contrib.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Contributing to Hubs",
+    "permalink": "/docs/docs/category/contributing-to-hubs"
+  },
+  "next": {
+    "title": "Submitting Issues",
+    "permalink": "/docs/docs/developers/contributing/issues"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Contributing to Hubs",
+  "slug": "/category/contributing-to-hubs-1",
+  "permalink": "/docs/category/contributing-to-hubs-1",
+  "navigation": {
+    "previous": {
+      "title": "Submitting Pull Requests",
+      "permalink": "/docs/developers/contributing/pull-requests"
+    },
+    "next": {
+      "title": "System Overview",
+      "permalink": "/docs/developers/development-basics/system-overview"
+    }
+  }
+}

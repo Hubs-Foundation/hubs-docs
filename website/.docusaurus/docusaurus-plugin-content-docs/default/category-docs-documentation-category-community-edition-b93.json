@@ -1,0 +1,15 @@
+{
+  "title": "Community Edition",
+  "slug": "/category/community-edition",
+  "permalink": "/docs/category/community-edition",
+  "navigation": {
+    "previous": {
+      "title": "Core Gameplay Concepts",
+      "permalink": "/docs/developers/gameplay"
+    },
+    "next": {
+      "title": "Hubs Cloud Community Edition",
+      "permalink": "/docs/developers/community-edition/intro-ce"
+    }
+  }
+}

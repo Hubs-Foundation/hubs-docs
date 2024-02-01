@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/hubs-cloud-aws/domain-recipes copy",
+  "title": "Domain Recipes",
+  "description": "This guide provides a few recipes for registering and purchasing necessary domains before creating your Hub Cloud stack.",
+  "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/domain-recipes copy.md",
+  "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+  "slug": "/archive/hubs-cloud/hubs-cloud-aws/domain-recipes copy",
+  "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/domain-recipes copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/archive/hubs-cloud/hubs-cloud-aws/domain-recipes copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "AWS Quick Start",
+    "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/quick-start"
+  },
+  "next": {
+    "title": "Domain Recipes",
+    "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/domain-recipes"
+  }
+}

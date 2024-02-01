@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/permissive-rooms",
+  "title": "Recipe: Permissive Rooms",
+  "description": "Out of the box, the default permissions set on rooms is highly restrictive. This means that if you create a room, only yourself and visitors you choose to promote will have access to all features. Other visitors to your room will be restricted from using most features other than appearing as avatars and speaking.",
+  "source": "@site/docs/archive/hubs-cloud/permissive-rooms.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/permissive-rooms",
+  "permalink": "/docs/docs/archive/hubs-cloud/permissive-rooms",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/permissive-rooms.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Limiting Access",
+    "permalink": "/docs/docs/archive/hubs-cloud/limiting-access"
+  },
+  "next": {
+    "title": "Recipe: 3rd Party Integrations",
+    "permalink": "/docs/docs/archive/hubs-cloud/third-party-integrations"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "developers/development-basics/interactivity",
+  "title": "Interactivity",
+  "description": "This document is WIP.",
+  "source": "@site/docs/developers/development-basics/interactivity.md",
+  "sourceDirName": "developers/development-basics",
+  "slug": "/developers/development-basics/interactivity",
+  "permalink": "/docs/docs/developers/development-basics/interactivity",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/development-basics/interactivity.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Core Gameplay Concepts",
+    "permalink": "/docs/docs/developers/development-basics/gameplay"
+  },
+  "next": {
+    "title": "Networking",
+    "permalink": "/docs/docs/developers/development-basics/networking"
+  }
+}

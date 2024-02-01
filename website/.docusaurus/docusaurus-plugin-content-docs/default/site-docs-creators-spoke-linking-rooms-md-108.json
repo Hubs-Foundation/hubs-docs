@@ -1,0 +1,27 @@
+{
+  "id": "creators/spoke/linking-rooms",
+  "title": "Linking Hubs Rooms",
+  "description": "It is possible to link Hubs rooms together using Spoke, or from directly in Hubs. To do this, you will want to first create your rooms, then build scenes for the rooms that use the 'Link' element to reference to other rooms.",
+  "source": "@site/docs/creators/spoke/linking-rooms.md",
+  "sourceDirName": "creators/spoke",
+  "slug": "/creators/spoke/linking-rooms",
+  "permalink": "/docs/docs/creators/spoke/linking-rooms",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/linking-rooms.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Publishing Scenes",
+    "permalink": "/docs/docs/creators/spoke/publish-scenes"
+  },
+  "next": {
+    "title": "Optimizing Scenes",
+    "permalink": "/docs/docs/creators/spoke/optimizing-scenes"
+  }
+}

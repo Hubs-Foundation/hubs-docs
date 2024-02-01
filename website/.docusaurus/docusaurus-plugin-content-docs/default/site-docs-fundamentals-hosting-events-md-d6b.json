@@ -1,0 +1,27 @@
+{
+  "id": "fundamentals/hosting-events",
+  "title": "Hosting Events in Hubs",
+  "description": "This guide will talk you through the process of using Hubs for an event on Mozilla Hubs. We've broken this guide down into different sections that can help you get started with creating and configuring a room, choosing a custom scene, inviting people, and moderating your event.",
+  "source": "@site/docs/fundamentals/hosting-events.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/hosting-events",
+  "permalink": "/docs/docs/fundamentals/hosting-events",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/hosting-events.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Creating Custom Avatars",
+    "permalink": "/docs/docs/fundamentals/custom-avatars"
+  },
+  "next": {
+    "title": "Create and Join Rooms",
+    "permalink": "/docs/docs/fundamentals/hubs-rooms"
+  }
+}

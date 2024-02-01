@@ -1,0 +1,27 @@
+{
+  "id": "fundamentals/Controls",
+  "title": "Room Info and Settings",
+  "description": "",
+  "source": "@site/docs/fundamentals/Controls.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/Controls",
+  "permalink": "/docs/fundamentals/Controls",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/fundamentals/Controls.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "User Settings",
+    "permalink": "/docs/fundamentals/user-settings"
+  },
+  "next": {
+    "title": "Room Info and Settings",
+    "permalink": "/docs/fundamentals/room-settings"
+  }
+}

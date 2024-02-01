@@ -1,0 +1,27 @@
+{
+  "id": "creators/spoke/optimizing-scenes",
+  "title": "Optimizing Scenes",
+  "description": "Improving Performance",
+  "source": "@site/docs/creators/spoke/optimizing-scenes.md",
+  "sourceDirName": "creators/spoke",
+  "slug": "/creators/spoke/optimizing-scenes",
+  "permalink": "/docs/docs/creators/spoke/optimizing-scenes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/optimizing-scenes.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Linking Hubs Rooms",
+    "permalink": "/docs/docs/creators/spoke/linking-rooms"
+  },
+  "next": {
+    "title": "The Blender Add-On",
+    "permalink": "/docs/docs/category/the-blender-add-on"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "subscription/creating copy",
+  "title": "Creating Your Hub",
+  "description": "",
+  "source": "@site/docs/subscription/creating copy.md",
+  "sourceDirName": "subscription",
+  "slug": "/subscription/creating copy",
+  "permalink": "/docs/subscription/creating copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/subscription/creating copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Choosing A Plan",
+    "permalink": "/docs/subscription/choosing-subscription"
+  },
+  "next": {
+    "title": "Creating Your Hub",
+    "permalink": "/docs/subscription/creating"
+  }
+}

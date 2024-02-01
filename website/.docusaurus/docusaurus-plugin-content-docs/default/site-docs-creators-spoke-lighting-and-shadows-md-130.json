@@ -1,0 +1,27 @@
+{
+  "id": "creators/spoke/lighting-and-shadows",
+  "title": "Lighting and Shadows",
+  "description": "Lights",
+  "source": "@site/docs/creators/spoke/lighting-and-shadows.md",
+  "sourceDirName": "creators/spoke",
+  "slug": "/creators/spoke/lighting-and-shadows",
+  "permalink": "/docs/docs/creators/spoke/lighting-and-shadows",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/lighting-and-shadows.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Skyboxes",
+    "permalink": "/docs/docs/creators/spoke/skyboxes"
+  },
+  "next": {
+    "title": "Physics and Navigation",
+    "permalink": "/docs/docs/creators/spoke/physics-and-navigation"
+  }
+}

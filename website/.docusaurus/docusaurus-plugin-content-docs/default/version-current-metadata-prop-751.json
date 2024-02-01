@@ -1,0 +1,1250 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "documentation": [
+      {
+        "type": "category",
+        "label": "Introduction",
+        "items": [
+          {
+            "type": "link",
+            "label": "What is Hubs?",
+            "href": "/docs/docs/introduction/what-is-hubs",
+            "docId": "introduction/what-is-hubs",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Hubs History",
+            "href": "/docs/docs/introduction/hubs-history",
+            "docId": "introduction/hubs-history",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Community",
+            "href": "/docs/docs/introduction/community",
+            "docId": "introduction/community",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Getting Help",
+            "href": "/docs/docs/introduction/getting-help",
+            "docId": "introduction/getting-help",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Hubs Subscription",
+        "items": [
+          {
+            "type": "link",
+            "label": "Choosing A Subscription",
+            "href": "/docs/docs/subscription/choosing-subscription",
+            "docId": "subscription/choosing-subscription",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Creating Your Hub",
+            "href": "/docs/docs/subscription/creating-subscripton",
+            "docId": "subscription/creating-subscripton",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Updating/Cancelling Your Subscription",
+            "href": "/docs/docs/subscription/updating-subscription",
+            "docId": "subscription/updating-subscription",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Managing Your Hub's Content",
+            "href": "/docs/docs/subscription/managing-subscription",
+            "docId": "subscription/managing-subscription",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Custom Domains (Pro Plan)",
+            "href": "/docs/docs/subscription/custom-domain",
+            "docId": "subscription/custom-domain",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Custom Clients (Pro Plan)",
+            "href": "/docs/docs/subscription/custom-client",
+            "docId": "subscription/custom-client",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Frequently Asked Questions",
+            "href": "/docs/docs/subscription/faq-subscription",
+            "docId": "subscription/faq-subscription",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Subscription Help",
+            "href": "/docs/docs/subscription/help-subscription",
+            "docId": "subscription/help-subscription",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Hubs Fundamentals",
+        "items": [
+          {
+            "type": "link",
+            "label": "Getting Started With Hubs",
+            "href": "/docs/docs/fundamentals/getting-started",
+            "docId": "fundamentals/getting-started",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Creating Custom Avatars",
+            "href": "/docs/docs/fundamentals/custom-avatars",
+            "docId": "fundamentals/custom-avatars",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Hosting Events in Hubs",
+            "href": "/docs/docs/fundamentals/hosting-events",
+            "docId": "fundamentals/hosting-events",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Create and Join Rooms",
+            "href": "/docs/docs/fundamentals/hubs-rooms",
+            "docId": "fundamentals/hubs-rooms",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Hubs Features",
+            "href": "/docs/docs/fundamentals/hubs-features",
+            "docId": "fundamentals/hubs-features",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Sharing Avatar Links Privately",
+            "href": "/docs/docs/fundamentals/avatar-links",
+            "docId": "fundamentals/avatar-links",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "User Settings",
+            "href": "/docs/docs/fundamentals/user-settings",
+            "docId": "fundamentals/user-settings",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Room Info and Settings",
+            "href": "/docs/docs/fundamentals/room-settings",
+            "docId": "fundamentals/room-settings",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Controls",
+            "href": "/docs/docs/fundamentals/controls",
+            "docId": "fundamentals/controls",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Troubleshooting",
+            "href": "/docs/docs/fundamentals/troubleshooting",
+            "docId": "fundamentals/troubleshooting",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "FAQ",
+            "href": "/docs/docs/fundamentals/fundamental-faqs",
+            "docId": "fundamentals/fundamental-faqs",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Reskin Avatars",
+            "href": "/docs/docs/fundamentals/reskin-avatars",
+            "docId": "fundamentals/reskin-avatars",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "For Creators",
+        "items": [
+          {
+            "type": "category",
+            "label": "Spoke",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Building Scenes with Spoke",
+                "href": "/docs/docs/creators/spoke/building-with-spoke",
+                "docId": "creators/spoke/building-with-spoke",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Create A Project",
+                "href": "/docs/docs/creators/spoke/create-project",
+                "docId": "creators/spoke/create-project",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "User Interface",
+                "href": "/docs/docs/creators/spoke/user-interface",
+                "docId": "creators/spoke/user-interface",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Spoke Controls",
+                "href": "/docs/docs/creators/spoke/spoke-controls",
+                "docId": "creators/spoke/spoke-controls",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Adding Content",
+                "href": "/docs/docs/creators/spoke/adding-content",
+                "docId": "creators/spoke/adding-content",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Architecture Kit",
+                "href": "/docs/docs/creators/spoke/architecture-kit",
+                "docId": "creators/spoke/architecture-kit",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Grid",
+                "href": "/docs/docs/creators/spoke/grid",
+                "docId": "creators/spoke/grid",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Skyboxes",
+                "href": "/docs/docs/creators/spoke/skyboxes",
+                "docId": "creators/spoke/skyboxes",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Lighting and Shadows",
+                "href": "/docs/docs/creators/spoke/lighting-and-shadows",
+                "docId": "creators/spoke/lighting-and-shadows",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Physics and Navigation",
+                "href": "/docs/docs/creators/spoke/physics-and-navigation",
+                "docId": "creators/spoke/physics-and-navigation",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Publishing Scenes",
+                "href": "/docs/docs/creators/spoke/publish-scenes",
+                "docId": "creators/spoke/publish-scenes",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Linking Hubs Rooms",
+                "href": "/docs/docs/creators/spoke/linking-rooms",
+                "docId": "creators/spoke/linking-rooms",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Optimizing Scenes",
+                "href": "/docs/docs/creators/spoke/optimizing-scenes",
+                "docId": "creators/spoke/optimizing-scenes",
+                "unlisted": false
+              }
+            ],
+            "href": "/docs/docs/category/spoke"
+          },
+          {
+            "type": "category",
+            "label": "The Blender Add-On",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Introduction to the Hubs Blender Add-On",
+                "href": "/docs/docs/creators/blender-add-on/intro-add-on",
+                "docId": "creators/blender-add-on/intro-add-on",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Advanced Avatar Customization",
+                "href": "/docs/docs/creators/blender-add-on/advanced-avatars",
+                "docId": "creators/blender-add-on/advanced-avatars",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Blender Add-On Components",
+                "href": "/docs/docs/creators/blender-add-on/add-on-components",
+                "docId": "creators/blender-add-on/add-on-components",
+                "unlisted": false
+              }
+            ],
+            "href": "/docs/docs/category/the-blender-add-on"
+          },
+          {
+            "type": "category",
+            "label": "Behavior Graphs",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Introduction to Behavior Graphs",
+                "href": "/docs/docs/creators/behavior-graphs/intro-behavior-graphs",
+                "docId": "creators/behavior-graphs/intro-behavior-graphs",
+                "unlisted": false
+              }
+            ],
+            "href": "/docs/docs/category/behavior-graphs"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "For Developers",
+        "items": [
+          {
+            "type": "category",
+            "label": "Development Basics",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "System Overview",
+                "href": "/docs/docs/developers/development-basics/system-overview",
+                "docId": "developers/development-basics/system-overview",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Local Development",
+                "href": "/docs/docs/developers/development-basics/setup-local-dev",
+                "docId": "developers/development-basics/setup-local-dev",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Development Basics",
+                "href": "/docs/docs/developers/development-basics/dev-basics",
+                "docId": "developers/development-basics/dev-basics",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Core Gameplay Concepts",
+                "href": "/docs/docs/developers/development-basics/gameplay",
+                "docId": "developers/development-basics/gameplay",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Interactivity",
+                "href": "/docs/docs/developers/development-basics/interactivity",
+                "docId": "developers/development-basics/interactivity",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Networking",
+                "href": "/docs/docs/developers/development-basics/networking",
+                "docId": "developers/development-basics/networking",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Extending Hubs: Custom Clients",
+                "href": "/docs/docs/developers/development-basics/extending-client",
+                "docId": "developers/development-basics/extending-client",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Extending Hubs: Plugins",
+                "href": "/docs/docs/developers/development-basics/extending-plugins",
+                "docId": "developers/development-basics/extending-plugins",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Query String Parameters",
+                "href": "/docs/docs/developers/development-basics/query-strings",
+                "docId": "developers/development-basics/query-strings",
+                "unlisted": false
+              }
+            ],
+            "href": "/docs/docs/category/development-basics"
+          },
+          {
+            "type": "category",
+            "label": "Hubs Cloud Community Edition",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Introduction to Hubs Cloud Community Edition",
+                "href": "/docs/docs/developers/community-edition/intro-ce",
+                "docId": "developers/community-edition/intro-ce",
+                "unlisted": false
+              }
+            ],
+            "href": "/docs/docs/category/hubs-cloud-community-edition"
+          },
+          {
+            "type": "category",
+            "label": "Contributing to Hubs",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Introduction to Contributing",
+                "href": "/docs/docs/developers/contributing/intro-contrib",
+                "docId": "developers/contributing/intro-contrib",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Submitting Issues",
+                "href": "/docs/docs/developers/contributing/issues",
+                "docId": "developers/contributing/issues",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Triage",
+                "href": "/docs/docs/developers/contributing/triage",
+                "docId": "developers/contributing/triage",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Submitting Pull Requests",
+                "href": "/docs/docs/developers/contributing/pull-requests",
+                "docId": "developers/contributing/pull-requests",
+                "unlisted": false
+              }
+            ],
+            "href": "/docs/docs/category/contributing-to-hubs"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Documentation Archive",
+        "items": [
+          {
+            "type": "link",
+            "label": "Discord Bot (Deprecated)",
+            "href": "/docs/docs/archive/discord-bot",
+            "docId": "archive/discord-bot",
+            "unlisted": false
+          },
+          {
+            "type": "category",
+            "label": "Hubs Cloud (Deprecated)",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "category",
+                "label": "Hubs Cloud AWS",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "AWS Quick Start",
+                    "href": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/quick-start",
+                    "docId": "archive/hubs-cloud/hubs-cloud-aws/quick-start",
+                    "unlisted": false
+                  },
+                  {
+                    "type": "link",
+                    "label": "Domain Recipes",
+                    "href": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/domain-recipes",
+                    "docId": "archive/hubs-cloud/hubs-cloud-aws/domain-recipes",
+                    "unlisted": false
+                  },
+                  {
+                    "type": "link",
+                    "label": "Using an Existing Domain",
+                    "href": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/existing-domain",
+                    "docId": "archive/hubs-cloud/hubs-cloud-aws/existing-domain",
+                    "unlisted": false
+                  },
+                  {
+                    "type": "link",
+                    "label": "Using an Existing Email Provider",
+                    "href": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/existing-email",
+                    "docId": "archive/hubs-cloud/hubs-cloud-aws/existing-email",
+                    "unlisted": false
+                  },
+                  {
+                    "type": "link",
+                    "label": "Updating the Stack",
+                    "href": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/updating-the-stack",
+                    "docId": "archive/hubs-cloud/hubs-cloud-aws/updating-the-stack",
+                    "unlisted": false
+                  },
+                  {
+                    "type": "link",
+                    "label": "Backup and Restore",
+                    "href": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/backup-and-restore",
+                    "docId": "archive/hubs-cloud/hubs-cloud-aws/backup-and-restore",
+                    "unlisted": false
+                  },
+                  {
+                    "type": "link",
+                    "label": "AWS Troubleshooting",
+                    "href": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting",
+                    "docId": "archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting",
+                    "unlisted": false
+                  },
+                  {
+                    "type": "link",
+                    "label": "Known Issues",
+                    "href": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/known-issues",
+                    "docId": "archive/hubs-cloud/hubs-cloud-aws/known-issues",
+                    "unlisted": false
+                  },
+                  {
+                    "type": "link",
+                    "label": "System Architecture",
+                    "href": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/system-architecture",
+                    "docId": "archive/hubs-cloud/hubs-cloud-aws/system-architecture",
+                    "unlisted": false
+                  },
+                  {
+                    "type": "link",
+                    "label": "Cost and Minimizing Costs Information",
+                    "href": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/cost-saving",
+                    "docId": "archive/hubs-cloud/hubs-cloud-aws/cost-saving",
+                    "unlisted": false
+                  },
+                  {
+                    "type": "link",
+                    "label": "Estimating Cost Charts (Alpha)",
+                    "href": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-cost",
+                    "docId": "archive/hubs-cloud/hubs-cloud-aws/estimating-cost",
+                    "unlisted": false
+                  },
+                  {
+                    "type": "link",
+                    "label": "Estimating CCU Limits",
+                    "href": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-ccu",
+                    "docId": "archive/hubs-cloud/hubs-cloud-aws/estimating-ccu",
+                    "unlisted": false
+                  }
+                ],
+                "href": "/docs/docs/category/hubs-cloud-aws"
+              },
+              {
+                "type": "category",
+                "label": "Hubs Cloud DigitalOcean",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "DigitalOcean Quick Start",
+                    "href": "/docs/docs/archive/hubs-cloud/hubs-cloud-do/do-quick-start",
+                    "docId": "archive/hubs-cloud/hubs-cloud-do/do-quick-start",
+                    "unlisted": false
+                  }
+                ],
+                "href": "/docs/docs/category/hubs-cloud-digitalocean"
+              },
+              {
+                "type": "link",
+                "label": "Introduction",
+                "href": "/docs/docs/archive/hubs-cloud/introduction",
+                "docId": "archive/hubs-cloud/introduction",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Getting Started",
+                "href": "/docs/docs/archive/hubs-cloud/getting-started",
+                "docId": "archive/hubs-cloud/getting-started",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "FAQ",
+                "href": "/docs/docs/archive/hubs-cloud/faq",
+                "docId": "archive/hubs-cloud/faq",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Importing Content",
+                "href": "/docs/docs/archive/hubs-cloud/importing-content",
+                "docId": "archive/hubs-cloud/importing-content",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Asset Packs",
+                "href": "/docs/docs/archive/hubs-cloud/asset-packs",
+                "docId": "archive/hubs-cloud/asset-packs",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Customizing Look & Feel",
+                "href": "/docs/docs/archive/hubs-cloud/customizing-look",
+                "docId": "archive/hubs-cloud/customizing-look",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Customizing Themes",
+                "href": "/docs/docs/archive/hubs-cloud/customizing-themes",
+                "docId": "archive/hubs-cloud/customizing-themes",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Managing Content",
+                "href": "/docs/docs/archive/hubs-cloud/managing-content",
+                "docId": "archive/hubs-cloud/managing-content",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Adding Administrators",
+                "href": "/docs/docs/archive/hubs-cloud/adding-admins",
+                "docId": "archive/hubs-cloud/adding-admins",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Limiting Access",
+                "href": "/docs/docs/archive/hubs-cloud/limiting-access",
+                "docId": "archive/hubs-cloud/limiting-access",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Recipe: Permissive Rooms",
+                "href": "/docs/docs/archive/hubs-cloud/permissive-rooms",
+                "docId": "archive/hubs-cloud/permissive-rooms",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Recipe: 3rd Party Integrations",
+                "href": "/docs/docs/archive/hubs-cloud/third-party-integrations",
+                "docId": "archive/hubs-cloud/third-party-integrations",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Recipe: Custom SMTP",
+                "href": "/docs/docs/archive/hubs-cloud/custom-smtp",
+                "docId": "archive/hubs-cloud/custom-smtp",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Recipe: Discord Bot",
+                "href": "/docs/docs/archive/hubs-cloud/discord-bot",
+                "docId": "archive/hubs-cloud/discord-bot",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Advanced: SSH Access",
+                "href": "/docs/docs/archive/hubs-cloud/ssh-access",
+                "docId": "archive/hubs-cloud/ssh-access",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Advanced: Brand Guidelines",
+                "href": "/docs/docs/archive/hubs-cloud/brand-guidelines",
+                "docId": "archive/hubs-cloud/brand-guidelines",
+                "unlisted": false
+              }
+            ],
+            "href": "/docs/docs/category/hubs-cloud-deprecated"
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  },
+  "docs": {
+    "archive/discord-bot": {
+      "id": "archive/discord-bot",
+      "title": "Discord Bot (Deprecated)",
+      "description": "About",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/adding-admins": {
+      "id": "archive/hubs-cloud/adding-admins",
+      "title": "Adding Administrators",
+      "description": "Administrators for your hub have full access rights. They can:",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/asset-packs": {
+      "id": "archive/hubs-cloud/asset-packs",
+      "title": "Asset Packs",
+      "description": "We've compiled some avatar and scene collections you can easily import into your hub. This content is Creative Commons 3 licensed. License compliance with attribution is handled automatically by Hubs Cloud when the content is surfaced to users.",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/brand-guidelines": {
+      "id": "archive/hubs-cloud/brand-guidelines",
+      "title": "Advanced: Brand Guidelines",
+      "description": "Important Stuff To Keep In Mind",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/custom-smtp": {
+      "id": "archive/hubs-cloud/custom-smtp",
+      "title": "Recipe: Custom SMTP",
+      "description": "When you set up your server on some cloud providers like AWS, SMTP is automatically set up for you on your cloud provider's email service. You can set your own custom SMTP settings if you are using a different mail provider.",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/customizing-look": {
+      "id": "archive/hubs-cloud/customizing-look",
+      "title": "Customizing Look & Feel",
+      "description": "An announcement about the Hubs user interface",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/customizing-themes": {
+      "id": "archive/hubs-cloud/customizing-themes",
+      "title": "Customizing Themes",
+      "description": "Theming refers to the colors used in your hub's interface. For each color in the UI, there is a variable that stores the color value and is applied to UI Elements such as buttons, input fields, menus, etc.",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/discord-bot": {
+      "id": "archive/hubs-cloud/discord-bot",
+      "title": "Recipe: Discord Bot",
+      "description": "Discord bot for Hubs Cloud is under construction!",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/faq": {
+      "id": "archive/hubs-cloud/faq",
+      "title": "FAQ",
+      "description": "Why use Hubs Cloud vs. hubs.mozilla.com?",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/getting-started": {
+      "id": "archive/hubs-cloud/getting-started",
+      "title": "Getting Started",
+      "description": "After successful Hubs Cloud deployment on AWS or DigitalOcean, navigate to your hub's hosted domain name (eg. myhub.com or hub.mydomain.com).",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting": {
+      "id": "archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting",
+      "title": "AWS Troubleshooting",
+      "description": "Deployment",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/hubs-cloud-aws/backup-and-restore": {
+      "id": "archive/hubs-cloud/hubs-cloud-aws/backup-and-restore",
+      "title": "Backup and Restore",
+      "description": "If something goes wrong and you need to restore from a backup, or you'd like to just make a second hub using the same data from an existing hub, the stack creation form makes it fairly simple to do so.",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/hubs-cloud-aws/cost-saving": {
+      "id": "archive/hubs-cloud/hubs-cloud-aws/cost-saving",
+      "title": "Cost and Minimizing Costs Information",
+      "description": "This document explains how Hubs Cloud costs work. Although your hub is designed to minimize AWS costs as much as possible, we go into detail on how to minimize them even further for your stack.",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/hubs-cloud-aws/domain-recipes": {
+      "id": "archive/hubs-cloud/hubs-cloud-aws/domain-recipes",
+      "title": "Domain Recipes",
+      "description": "This guide provides a few recipes for registering and purchasing necessary domains before creating your Hub Cloud stack.",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/hubs-cloud-aws/estimating-ccu": {
+      "id": "archive/hubs-cloud/hubs-cloud-aws/estimating-ccu",
+      "title": "Estimating CCU Limits",
+      "description": "This document explains how to estimate what your Hubs Cloud server's CCU (concurrent users) limit is based on the instance type used, for both the entire server and individual rooms.",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/hubs-cloud-aws/estimating-cost": {
+      "id": "archive/hubs-cloud/hubs-cloud-aws/estimating-cost",
+      "title": "Estimating Cost Charts (Alpha)",
+      "description": "This document explains how to estimate your costs. For a full description on:",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/hubs-cloud-aws/existing-domain": {
+      "id": "archive/hubs-cloud/hubs-cloud-aws/existing-domain",
+      "title": "Using an Existing Domain",
+      "description": "Interested in using an existing domain or subdomain for your hub?",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/hubs-cloud-aws/existing-email": {
+      "id": "archive/hubs-cloud/hubs-cloud-aws/existing-email",
+      "title": "Using an Existing Email Provider",
+      "description": "By default your hub will be set up with Amazon Simple Email Service for email on a Route 53 domain you specify. You can also use your own SMTP settings for sending email. If you have your own SMTP settings you'd like to use, choose the same domain as your \"Internal Domain Name\" for the \"Outgoing Email Domain\" when creating the stack. You'll still need to click through the verification email you will receive during stack creation in order to log into your administrator account during the setup process.",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/hubs-cloud-aws/known-issues": {
+      "id": "archive/hubs-cloud/hubs-cloud-aws/known-issues",
+      "title": "Known Issues",
+      "description": "I get the error \"Value for parameter availabilityZone is invalid. Subnets can currently only be created in the following availability zones: X, Y",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/hubs-cloud-aws/quick-start": {
+      "id": "archive/hubs-cloud/hubs-cloud-aws/quick-start",
+      "title": "AWS Quick Start",
+      "description": "Before creating the Hubs Cloud Stack",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/hubs-cloud-aws/system-architecture": {
+      "id": "archive/hubs-cloud/hubs-cloud-aws/system-architecture",
+      "title": "System Architecture",
+      "description": "AWS Architecture",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/hubs-cloud-aws/updating-the-stack": {
+      "id": "archive/hubs-cloud/hubs-cloud-aws/updating-the-stack",
+      "title": "Updating the Stack",
+      "description": "You can change various settings of your hub's stack by performing a stack Update. You will not experience any downtime when making these changes. To Update your stack:",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/hubs-cloud-do/do-quick-start": {
+      "id": "archive/hubs-cloud/hubs-cloud-do/do-quick-start",
+      "title": "DigitalOcean Quick Start",
+      "description": "Warning! Hubs Cloud for DigitalOcean is in alpha and provided as is.",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/importing-content": {
+      "id": "archive/hubs-cloud/importing-content",
+      "title": "Importing Content",
+      "description": "The two forms of content you can import into Hubs Cloud are avatars and scenes. Avatars are 3D figures like robots, humans, and ducks that can be worn by visitors to represent themselves, and scenes are 3D environments like interiors and landscapes that provide visual grounding for a room.",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/introduction": {
+      "id": "archive/hubs-cloud/introduction",
+      "title": "Introduction",
+      "description": "Hubs Cloud",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/limiting-access": {
+      "id": "archive/hubs-cloud/limiting-access",
+      "title": "Limiting Access",
+      "description": "This guide shows you how to lockdown your hub and rooms by account only access (accounts created by your admin from an email list) or by using the Hubs Discord bot.",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/managing-content": {
+      "id": "archive/hubs-cloud/managing-content",
+      "title": "Managing Content",
+      "description": "In Hubs and Spoke, visitors can create their own avatars and scenes. They can then offer to share that content with others, which will let visitors discover the content through tools like the Media Browser.",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/permissive-rooms": {
+      "id": "archive/hubs-cloud/permissive-rooms",
+      "title": "Recipe: Permissive Rooms",
+      "description": "Out of the box, the default permissions set on rooms is highly restrictive. This means that if you create a room, only yourself and visitors you choose to promote will have access to all features. Other visitors to your room will be restricted from using most features other than appearing as avatars and speaking.",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/ssh-access": {
+      "id": "archive/hubs-cloud/ssh-access",
+      "title": "Advanced: SSH Access",
+      "description": "To access your servers over SSH, in the Admin Console choose Server Access and follow the guide. Note that 2-factor authentication is set up by default, so you will need a 2FA device with an application installed like Google Authenticator to connect to your servers.",
+      "sidebar": "documentation"
+    },
+    "archive/hubs-cloud/third-party-integrations": {
+      "id": "archive/hubs-cloud/third-party-integrations",
+      "title": "Recipe: 3rd Party Integrations",
+      "description": "Your hub includes integrations for searching useful content for visitors to spawn into their rooms using the Media Browser. There is built-in support for a variety of sites and search engines, such as Sketchfab. You can also tweet to share content directly from your hub.",
+      "sidebar": "documentation"
+    },
+    "creators/behavior-graphs/intro-behavior-graphs": {
+      "id": "creators/behavior-graphs/intro-behavior-graphs",
+      "title": "Introduction to Behavior Graphs",
+      "description": "Documentation coming soon...",
+      "sidebar": "documentation"
+    },
+    "creators/blender-add-on/add-on-components": {
+      "id": "creators/blender-add-on/add-on-components",
+      "title": "Blender Add-On Components",
+      "description": "Overview",
+      "sidebar": "documentation"
+    },
+    "creators/blender-add-on/advanced-avatars": {
+      "id": "creators/blender-add-on/advanced-avatars",
+      "title": "Advanced Avatar Customization",
+      "description": "Advanced Re-skinning",
+      "sidebar": "documentation"
+    },
+    "creators/blender-add-on/intro-add-on": {
+      "id": "creators/blender-add-on/intro-add-on",
+      "title": "Introduction to the Hubs Blender Add-On",
+      "description": "Note: The following documentation assumes you are using the latest stable release of Blender. Using older versions or experimental builds of Blender may work, but is not guaranteed.",
+      "sidebar": "documentation"
+    },
+    "creators/spoke/adding-content": {
+      "id": "creators/spoke/adding-content",
+      "title": "Adding Content",
+      "description": "Once you have created your scene, you can start customizing it by adding content. Spoke and Hubs support a wide variety of media. Note that to publish to Hubs, Spoke projects have a size limit of 128MB.",
+      "sidebar": "documentation"
+    },
+    "creators/spoke/architecture-kit": {
+      "id": "creators/spoke/architecture-kit",
+      "title": "Architecture Kit",
+      "description": "With the launch of the Architecture Kit, creators now have an additional way to build custom content for their 3D scenes without using an external tool. The Architecture Kit is designed to make it easier to take existing components that have already been optimized for VR and make it easy to configure those pieces to create original models and scenes.",
+      "sidebar": "documentation"
+    },
+    "creators/spoke/building-with-spoke": {
+      "id": "creators/spoke/building-with-spoke",
+      "title": "Building Scenes with Spoke",
+      "description": "Want to build custom VR worlds for Hubs? Meet Spoke! 👋",
+      "sidebar": "documentation"
+    },
+    "creators/spoke/create-project": {
+      "id": "creators/spoke/create-project",
+      "title": "Create A Project",
+      "description": "In Spoke, you can either create a new project from Scratch, remix an existing Hubs scene, or import a Spoke project someone sends you.",
+      "sidebar": "documentation"
+    },
+    "creators/spoke/grid": {
+      "id": "creators/spoke/grid",
+      "title": "Grid",
+      "description": "Screenshot of Spoke",
+      "sidebar": "documentation"
+    },
+    "creators/spoke/lighting-and-shadows": {
+      "id": "creators/spoke/lighting-and-shadows",
+      "title": "Lighting and Shadows",
+      "description": "Lights",
+      "sidebar": "documentation"
+    },
+    "creators/spoke/linking-rooms": {
+      "id": "creators/spoke/linking-rooms",
+      "title": "Linking Hubs Rooms",
+      "description": "It is possible to link Hubs rooms together using Spoke, or from directly in Hubs. To do this, you will want to first create your rooms, then build scenes for the rooms that use the 'Link' element to reference to other rooms.",
+      "sidebar": "documentation"
+    },
+    "creators/spoke/optimizing-scenes": {
+      "id": "creators/spoke/optimizing-scenes",
+      "title": "Optimizing Scenes",
+      "description": "Improving Performance",
+      "sidebar": "documentation"
+    },
+    "creators/spoke/physics-and-navigation": {
+      "id": "creators/spoke/physics-and-navigation",
+      "title": "Physics and Navigation",
+      "description": "The Floorplan Element",
+      "sidebar": "documentation"
+    },
+    "creators/spoke/publish-scenes": {
+      "id": "creators/spoke/publish-scenes",
+      "title": "Publishing Scenes",
+      "description": "You can publish a scene either directly to Hubs, or you can export it as a .glb file or as a legacy Spoke scene.",
+      "sidebar": "documentation"
+    },
+    "creators/spoke/skyboxes": {
+      "id": "creators/spoke/skyboxes",
+      "title": "Skyboxes",
+      "description": "Skyboxes can significantly impact the ambience of your scene. Unless you have started from a template that removed the default elements, you should have a skybox in your scene when you begin.",
+      "sidebar": "documentation"
+    },
+    "creators/spoke/spoke-controls": {
+      "id": "creators/spoke/spoke-controls",
+      "title": "Spoke Controls",
+      "description": "We recommend using spoke on a desktop or laptop computer as some features are not accessible without a mouse and keyboard.",
+      "sidebar": "documentation"
+    },
+    "creators/spoke/user-interface": {
+      "id": "creators/spoke/user-interface",
+      "title": "User Interface",
+      "description": "Hubs Image",
+      "sidebar": "documentation"
+    },
+    "developers/community-edition/intro-ce": {
+      "id": "developers/community-edition/intro-ce",
+      "title": "Introduction to Hubs Cloud Community Edition",
+      "description": "Documentation coming soon...",
+      "sidebar": "documentation"
+    },
+    "developers/contributing/intro-contrib": {
+      "id": "developers/contributing/intro-contrib",
+      "title": "Introduction to Contributing",
+      "description": "This page outlines opportunities for people who want to contribute to the Hubs project. We welcome external contributions that align with the project's mission around enabling collaboration and communication through shared 3D spaces. You can find information about how to contribute to Hubs and the supporting projects that make up the platform here.",
+      "sidebar": "documentation"
+    },
+    "developers/contributing/issues": {
+      "id": "developers/contributing/issues",
+      "title": "Submitting Issues",
+      "description": "Documentation coming soon...",
+      "sidebar": "documentation"
+    },
+    "developers/contributing/pull-requests": {
+      "id": "developers/contributing/pull-requests",
+      "title": "Submitting Pull Requests",
+      "description": "Documentation coming soon...",
+      "sidebar": "documentation"
+    },
+    "developers/contributing/triage": {
+      "id": "developers/contributing/triage",
+      "title": "Triage",
+      "description": "Documentation coming soon...",
+      "sidebar": "documentation"
+    },
+    "developers/development-basics/dev-basics": {
+      "id": "developers/development-basics/dev-basics",
+      "title": "Development Basics",
+      "description": "The Hubs client is a web application that runs in each user&rsquo;s web",
+      "sidebar": "documentation"
+    },
+    "developers/development-basics/extending-client": {
+      "id": "developers/development-basics/extending-client",
+      "title": "Extending Hubs: Custom Clients",
+      "description": "Now that you have a working Hubs Cloud instance, you can create and deploy custom versions of the Hubs Client yourself! By forking the hubs repository, making code changes, then deploying it to your live instance.",
+      "sidebar": "documentation"
+    },
+    "developers/development-basics/extending-plugins": {
+      "id": "developers/development-basics/extending-plugins",
+      "title": "Extending Hubs: Plugins",
+      "description": "Documentation coming soon...",
+      "sidebar": "documentation"
+    },
+    "developers/development-basics/gameplay": {
+      "id": "developers/development-basics/gameplay",
+      "title": "Core Gameplay Concepts",
+      "description": "Intro",
+      "sidebar": "documentation"
+    },
+    "developers/development-basics/interactivity": {
+      "id": "developers/development-basics/interactivity",
+      "title": "Interactivity",
+      "description": "This document is WIP.",
+      "sidebar": "documentation"
+    },
+    "developers/development-basics/networking": {
+      "id": "developers/development-basics/networking",
+      "title": "Networking",
+      "description": "Intro",
+      "sidebar": "documentation"
+    },
+    "developers/development-basics/query-strings": {
+      "id": "developers/development-basics/query-strings",
+      "title": "Query String Parameters",
+      "description": "Some developer-oriented options that are not available in the preferences panel in Hubs are available as query string parameters. These are intended mainly for development or debugging and are not something most users will need to use.",
+      "sidebar": "documentation"
+    },
+    "developers/development-basics/setup-local-dev": {
+      "id": "developers/development-basics/setup-local-dev",
+      "title": "Local Development",
+      "description": "Documentation coming soon...",
+      "sidebar": "documentation"
+    },
+    "developers/development-basics/system-overview": {
+      "id": "developers/development-basics/system-overview",
+      "title": "System Overview",
+      "description": "The Client",
+      "sidebar": "documentation"
+    },
+    "fundamentals/avatar-links": {
+      "id": "fundamentals/avatar-links",
+      "title": "Sharing Avatar Links Privately",
+      "description": "Do you have a hubs room where you want specific avatars to be available for specific people but not others?",
+      "sidebar": "documentation"
+    },
+    "fundamentals/controls": {
+      "id": "fundamentals/controls",
+      "title": "Controls",
+      "description": "Touchscreen Controls",
+      "sidebar": "documentation"
+    },
+    "fundamentals/custom-avatars": {
+      "id": "fundamentals/custom-avatars",
+      "title": "Creating Custom Avatars",
+      "description": "In Hubs you can choose how you want to represent yourself. Select from any of the featured or newest avatars, or create your own.",
+      "sidebar": "documentation"
+    },
+    "fundamentals/fundamental-faqs": {
+      "id": "fundamentals/fundamental-faqs",
+      "title": "FAQ",
+      "description": "What is the capacity of a Hubs room?",
+      "sidebar": "documentation"
+    },
+    "fundamentals/getting-started": {
+      "id": "fundamentals/getting-started",
+      "title": "Getting Started With Hubs",
+      "description": "In the following guide we'll show you the basics of Hubs! (Prefer a video? Click here.)",
+      "sidebar": "documentation"
+    },
+    "fundamentals/hosting-events": {
+      "id": "fundamentals/hosting-events",
+      "title": "Hosting Events in Hubs",
+      "description": "This guide will talk you through the process of using Hubs for an event on Mozilla Hubs. We've broken this guide down into different sections that can help you get started with creating and configuring a room, choosing a custom scene, inviting people, and moderating your event.",
+      "sidebar": "documentation"
+    },
+    "fundamentals/hubs-features": {
+      "id": "fundamentals/hubs-features",
+      "title": "Hubs Features",
+      "description": "Hubs User Interface",
+      "sidebar": "documentation"
+    },
+    "fundamentals/hubs-rooms": {
+      "id": "fundamentals/hubs-rooms",
+      "title": "Create and Join Rooms",
+      "description": "Create a New Room",
+      "sidebar": "documentation"
+    },
+    "fundamentals/reskin-avatars": {
+      "id": "fundamentals/reskin-avatars",
+      "title": "Reskin Avatars",
+      "description": "Depending on how involved you'd like to get in the avatar creation process, you might choose to simply 're-skin' the existing robot avatar by painting your own texture maps, or create your own fully custom 3D model.",
+      "sidebar": "documentation"
+    },
+    "fundamentals/room-settings": {
+      "id": "fundamentals/room-settings",
+      "title": "Room Info and Settings",
+      "description": "Change the Scene",
+      "sidebar": "documentation"
+    },
+    "fundamentals/troubleshooting": {
+      "id": "fundamentals/troubleshooting",
+      "title": "Troubleshooting",
+      "description": "Getting stuck on loading screen",
+      "sidebar": "documentation"
+    },
+    "fundamentals/user-settings": {
+      "id": "fundamentals/user-settings",
+      "title": "User Settings",
+      "description": "Changing Name and Avatar",
+      "sidebar": "documentation"
+    },
+    "introduction/community": {
+      "id": "introduction/community",
+      "title": "Community",
+      "description": "Documentation coming soon...",
+      "sidebar": "documentation"
+    },
+    "introduction/getting-help": {
+      "id": "introduction/getting-help",
+      "title": "Getting Help",
+      "description": "YouTube",
+      "sidebar": "documentation"
+    },
+    "introduction/hubs-history": {
+      "id": "introduction/hubs-history",
+      "title": "Hubs History",
+      "description": "Documentation coming soon...",
+      "sidebar": "documentation"
+    },
+    "introduction/what-is-hubs": {
+      "id": "introduction/what-is-hubs",
+      "title": "What is Hubs?",
+      "description": "Hubs is a virtual collaboration platform that runs in your browser. With Hubs you can create your own 3D spaces with a single click. Invite others to join using a URL. No installation or app store required.",
+      "sidebar": "documentation"
+    },
+    "subscription/choosing-subscription": {
+      "id": "subscription/choosing-subscription",
+      "title": "Choosing A Subscription",
+      "description": "Hubs currently offers three managed subscription plans that allow users to customize the default behavior of their hub and manage content, such as virtual worlds and avatars, without the hassle of running their own server. If you are not ready to sign up for a plan, you can create a default room or custom scene for free on Mozilla's Demo Hub.",
+      "sidebar": "documentation"
+    },
+    "subscription/creating-subscripton": {
+      "id": "subscription/creating-subscripton",
+      "title": "Creating Your Hub",
+      "description": "This guide walks you through the steps of setting up your Hubs Subscription. If you experience unexpected results at any point of the process, please refer to the support page for more information.",
+      "sidebar": "documentation"
+    },
+    "subscription/custom-client": {
+      "id": "subscription/custom-client",
+      "title": "Custom Clients (Pro Plan)",
+      "description": "This guide walks you through the steps of setting up and removing a custom client on your Hub for Professional plan subscribers.",
+      "sidebar": "documentation"
+    },
+    "subscription/custom-domain": {
+      "id": "subscription/custom-domain",
+      "title": "Custom Domains (Pro Plan)",
+      "description": "This guide walks you through the steps of adding, updating, and removing a custom domain on your Hub. This feature is available on Professional plans.",
+      "sidebar": "documentation"
+    },
+    "subscription/faq-subscription": {
+      "id": "subscription/faq-subscription",
+      "title": "Frequently Asked Questions",
+      "description": "Can I have more than one Hub with my Mozilla account?",
+      "sidebar": "documentation"
+    },
+    "subscription/help-subscription": {
+      "id": "subscription/help-subscription",
+      "title": "Subscription Help",
+      "description": "These are the best ways to get in touch with us and the community if you need help or are interested in learning more about Hubs.",
+      "sidebar": "documentation"
+    },
+    "subscription/managing-subscription": {
+      "id": "subscription/managing-subscription",
+      "title": "Managing Your Hub's Content",
+      "description": "This page serves as a manual for many of the features that are available to Hubs subscribers to manage the content on their Hub.",
+      "sidebar": "documentation"
+    },
+    "subscription/updating-subscription": {
+      "id": "subscription/updating-subscription",
+      "title": "Updating/Cancelling Your Subscription",
+      "description": "This guide walks you through the process of updating and cancelling your subscription. If you experience unexpected results at any point of the process, please refer to the support page for more information.",
+      "sidebar": "documentation"
+    }
+  }
+}

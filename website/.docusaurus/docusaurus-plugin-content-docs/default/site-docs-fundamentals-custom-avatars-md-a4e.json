@@ -1,0 +1,27 @@
+{
+  "id": "fundamentals/custom-avatars",
+  "title": "Creating Custom Avatars",
+  "description": "In Hubs you can choose how you want to represent yourself. Select from any of the featured or newest avatars, or create your own.",
+  "source": "@site/docs/fundamentals/custom-avatars.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/custom-avatars",
+  "permalink": "/docs/docs/fundamentals/custom-avatars",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/custom-avatars.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Getting Started With Hubs",
+    "permalink": "/docs/docs/fundamentals/getting-started"
+  },
+  "next": {
+    "title": "Hosting Events in Hubs",
+    "permalink": "/docs/docs/fundamentals/hosting-events"
+  }
+}

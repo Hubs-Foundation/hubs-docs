@@ -1,0 +1,15 @@
+{
+  "title": "Spoke",
+  "slug": "/category/spoke-1",
+  "permalink": "/docs/category/spoke-1",
+  "navigation": {
+    "previous": {
+      "title": "Hubs Blender Add-On",
+      "permalink": "/docs/creators/blender-add-on/"
+    },
+    "next": {
+      "title": "Spoke",
+      "permalink": "/docs/creators/spoke/"
+    }
+  }
+}

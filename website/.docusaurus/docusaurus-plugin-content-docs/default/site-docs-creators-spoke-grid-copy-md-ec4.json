@@ -1,0 +1,27 @@
+{
+  "id": "creators/spoke/grid copy",
+  "title": "Grid",
+  "description": "",
+  "source": "@site/docs/creators/spoke/grid copy.md",
+  "sourceDirName": "creators/spoke",
+  "slug": "/creators/spoke/grid copy",
+  "permalink": "/docs/creators/spoke/grid copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/creators/spoke/grid copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Architecture Kit",
+    "permalink": "/docs/creators/spoke/architecture-kit"
+  },
+  "next": {
+    "title": "Grid",
+    "permalink": "/docs/creators/spoke/grid"
+  }
+}

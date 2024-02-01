@@ -1,0 +1,27 @@
+{
+  "id": "creators/spoke/physics-and-navigation",
+  "title": "Physics and Navigation",
+  "description": "The Floorplan Element",
+  "source": "@site/docs/creators/spoke/physics-and-navigation.md",
+  "sourceDirName": "creators/spoke",
+  "slug": "/creators/spoke/physics-and-navigation",
+  "permalink": "/docs/docs/creators/spoke/physics-and-navigation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/physics-and-navigation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Lighting and Shadows",
+    "permalink": "/docs/docs/creators/spoke/lighting-and-shadows"
+  },
+  "next": {
+    "title": "Publishing Scenes",
+    "permalink": "/docs/docs/creators/spoke/publish-scenes"
+  }
+}

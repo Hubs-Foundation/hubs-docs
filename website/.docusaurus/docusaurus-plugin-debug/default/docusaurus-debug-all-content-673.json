@@ -1,0 +1,2943 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs/docs",
+          "tagsPath": "/docs/docs/tags",
+          "editUrl": "https://github.com/MozillaReality/hubs-docs/docs",
+          "editUrlLocalized": "https://github.com/MozillaReality/hubs-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/Mmorran/Documents/Mozilla/Code/hubs-docs/website/sidebars.js",
+          "contentPath": "/Users/Mmorran/Documents/Mozilla/Code/hubs-docs/website/docs",
+          "contentPathLocalized": "/Users/Mmorran/Documents/Mozilla/Code/hubs-docs/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "id": "archive/discord-bot",
+              "title": "Discord Bot (Deprecated)",
+              "description": "About",
+              "source": "@site/docs/archive/discord-bot.md",
+              "sourceDirName": "archive",
+              "slug": "/archive/discord-bot",
+              "permalink": "/docs/docs/archive/discord-bot",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/discord-bot.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Submitting Pull Requests",
+                "permalink": "/docs/docs/developers/contributing/pull-requests"
+              },
+              "next": {
+                "title": "Hubs Cloud (Deprecated)",
+                "permalink": "/docs/docs/category/hubs-cloud-deprecated"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/adding-admins",
+              "title": "Adding Administrators",
+              "description": "Administrators for your hub have full access rights. They can:",
+              "source": "@site/docs/archive/hubs-cloud/adding-admins.md",
+              "sourceDirName": "archive/hubs-cloud",
+              "slug": "/archive/hubs-cloud/adding-admins",
+              "permalink": "/docs/docs/archive/hubs-cloud/adding-admins",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/adding-admins.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Managing Content",
+                "permalink": "/docs/docs/archive/hubs-cloud/managing-content"
+              },
+              "next": {
+                "title": "Limiting Access",
+                "permalink": "/docs/docs/archive/hubs-cloud/limiting-access"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/asset-packs",
+              "title": "Asset Packs",
+              "description": "We've compiled some avatar and scene collections you can easily import into your hub. This content is Creative Commons 3 licensed. License compliance with attribution is handled automatically by Hubs Cloud when the content is surfaced to users.",
+              "source": "@site/docs/archive/hubs-cloud/asset-packs.md",
+              "sourceDirName": "archive/hubs-cloud",
+              "slug": "/archive/hubs-cloud/asset-packs",
+              "permalink": "/docs/docs/archive/hubs-cloud/asset-packs",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/asset-packs.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Importing Content",
+                "permalink": "/docs/docs/archive/hubs-cloud/importing-content"
+              },
+              "next": {
+                "title": "Customizing Look & Feel",
+                "permalink": "/docs/docs/archive/hubs-cloud/customizing-look"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/brand-guidelines",
+              "title": "Advanced: Brand Guidelines",
+              "description": "Important Stuff To Keep In Mind",
+              "source": "@site/docs/archive/hubs-cloud/brand-guidelines.md",
+              "sourceDirName": "archive/hubs-cloud",
+              "slug": "/archive/hubs-cloud/brand-guidelines",
+              "permalink": "/docs/docs/archive/hubs-cloud/brand-guidelines",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/brand-guidelines.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 16,
+              "frontMatter": {
+                "sidebar_position": 16
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Advanced: SSH Access",
+                "permalink": "/docs/docs/archive/hubs-cloud/ssh-access"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/custom-smtp",
+              "title": "Recipe: Custom SMTP",
+              "description": "When you set up your server on some cloud providers like AWS, SMTP is automatically set up for you on your cloud provider's email service. You can set your own custom SMTP settings if you are using a different mail provider.",
+              "source": "@site/docs/archive/hubs-cloud/custom-smtp.md",
+              "sourceDirName": "archive/hubs-cloud",
+              "slug": "/archive/hubs-cloud/custom-smtp",
+              "permalink": "/docs/docs/archive/hubs-cloud/custom-smtp",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/custom-smtp.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 13,
+              "frontMatter": {
+                "sidebar_position": 13
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Recipe: 3rd Party Integrations",
+                "permalink": "/docs/docs/archive/hubs-cloud/third-party-integrations"
+              },
+              "next": {
+                "title": "Recipe: Discord Bot",
+                "permalink": "/docs/docs/archive/hubs-cloud/discord-bot"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/customizing-look",
+              "title": "Customizing Look & Feel",
+              "description": "An announcement about the Hubs user interface",
+              "source": "@site/docs/archive/hubs-cloud/customizing-look.md",
+              "sourceDirName": "archive/hubs-cloud",
+              "slug": "/archive/hubs-cloud/customizing-look",
+              "permalink": "/docs/docs/archive/hubs-cloud/customizing-look",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/customizing-look.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Asset Packs",
+                "permalink": "/docs/docs/archive/hubs-cloud/asset-packs"
+              },
+              "next": {
+                "title": "Customizing Themes",
+                "permalink": "/docs/docs/archive/hubs-cloud/customizing-themes"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/customizing-themes",
+              "title": "Customizing Themes",
+              "description": "Theming refers to the colors used in your hub's interface. For each color in the UI, there is a variable that stores the color value and is applied to UI Elements such as buttons, input fields, menus, etc.",
+              "source": "@site/docs/archive/hubs-cloud/customizing-themes.md",
+              "sourceDirName": "archive/hubs-cloud",
+              "slug": "/archive/hubs-cloud/customizing-themes",
+              "permalink": "/docs/docs/archive/hubs-cloud/customizing-themes",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/customizing-themes.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Customizing Look & Feel",
+                "permalink": "/docs/docs/archive/hubs-cloud/customizing-look"
+              },
+              "next": {
+                "title": "Managing Content",
+                "permalink": "/docs/docs/archive/hubs-cloud/managing-content"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/discord-bot",
+              "title": "Recipe: Discord Bot",
+              "description": "Discord bot for Hubs Cloud is under construction!",
+              "source": "@site/docs/archive/hubs-cloud/discord-bot.md",
+              "sourceDirName": "archive/hubs-cloud",
+              "slug": "/archive/hubs-cloud/discord-bot",
+              "permalink": "/docs/docs/archive/hubs-cloud/discord-bot",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/discord-bot.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 14,
+              "frontMatter": {
+                "sidebar_position": 14
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Recipe: Custom SMTP",
+                "permalink": "/docs/docs/archive/hubs-cloud/custom-smtp"
+              },
+              "next": {
+                "title": "Advanced: SSH Access",
+                "permalink": "/docs/docs/archive/hubs-cloud/ssh-access"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/faq",
+              "title": "FAQ",
+              "description": "Why use Hubs Cloud vs. hubs.mozilla.com?",
+              "source": "@site/docs/archive/hubs-cloud/faq.md",
+              "sourceDirName": "archive/hubs-cloud",
+              "slug": "/archive/hubs-cloud/faq",
+              "permalink": "/docs/docs/archive/hubs-cloud/faq",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/faq.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/docs/docs/archive/hubs-cloud/getting-started"
+              },
+              "next": {
+                "title": "Importing Content",
+                "permalink": "/docs/docs/archive/hubs-cloud/importing-content"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/getting-started",
+              "title": "Getting Started",
+              "description": "After successful Hubs Cloud deployment on AWS or DigitalOcean, navigate to your hub's hosted domain name (eg. myhub.com or hub.mydomain.com).",
+              "source": "@site/docs/archive/hubs-cloud/getting-started.md",
+              "sourceDirName": "archive/hubs-cloud",
+              "slug": "/archive/hubs-cloud/getting-started",
+              "permalink": "/docs/docs/archive/hubs-cloud/getting-started",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/getting-started.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2.2,
+              "frontMatter": {
+                "sidebar_position": 2.2
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/docs/archive/hubs-cloud/introduction"
+              },
+              "next": {
+                "title": "FAQ",
+                "permalink": "/docs/docs/archive/hubs-cloud/faq"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting",
+              "title": "AWS Troubleshooting",
+              "description": "Deployment",
+              "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting.md",
+              "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+              "slug": "/archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting",
+              "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Backup and Restore",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/backup-and-restore"
+              },
+              "next": {
+                "title": "Known Issues",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/known-issues"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/hubs-cloud-aws/backup-and-restore",
+              "title": "Backup and Restore",
+              "description": "If something goes wrong and you need to restore from a backup, or you'd like to just make a second hub using the same data from an existing hub, the stack creation form makes it fairly simple to do so.",
+              "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/backup-and-restore.md",
+              "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+              "slug": "/archive/hubs-cloud/hubs-cloud-aws/backup-and-restore",
+              "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/backup-and-restore",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/backup-and-restore.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Updating the Stack",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/updating-the-stack"
+              },
+              "next": {
+                "title": "AWS Troubleshooting",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/hubs-cloud-aws/cost-saving",
+              "title": "Cost and Minimizing Costs Information",
+              "description": "This document explains how Hubs Cloud costs work. Although your hub is designed to minimize AWS costs as much as possible, we go into detail on how to minimize them even further for your stack.",
+              "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/cost-saving.md",
+              "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+              "slug": "/archive/hubs-cloud/hubs-cloud-aws/cost-saving",
+              "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/cost-saving",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/cost-saving.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "System Architecture",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/system-architecture"
+              },
+              "next": {
+                "title": "Estimating Cost Charts (Alpha)",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-cost"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/hubs-cloud-aws/domain-recipes",
+              "title": "Domain Recipes",
+              "description": "This guide provides a few recipes for registering and purchasing necessary domains before creating your Hub Cloud stack.",
+              "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/domain-recipes.md",
+              "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+              "slug": "/archive/hubs-cloud/hubs-cloud-aws/domain-recipes",
+              "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/domain-recipes",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/domain-recipes.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "AWS Quick Start",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/quick-start"
+              },
+              "next": {
+                "title": "Using an Existing Domain",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/existing-domain"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/hubs-cloud-aws/estimating-ccu",
+              "title": "Estimating CCU Limits",
+              "description": "This document explains how to estimate what your Hubs Cloud server's CCU (concurrent users) limit is based on the instance type used, for both the entire server and individual rooms.",
+              "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-ccu.md",
+              "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+              "slug": "/archive/hubs-cloud/hubs-cloud-aws/estimating-ccu",
+              "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-ccu",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-ccu.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 12,
+              "frontMatter": {
+                "sidebar_position": 12
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Estimating Cost Charts (Alpha)",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-cost"
+              },
+              "next": {
+                "title": "Hubs Cloud DigitalOcean",
+                "permalink": "/docs/docs/category/hubs-cloud-digitalocean"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/hubs-cloud-aws/estimating-cost",
+              "title": "Estimating Cost Charts (Alpha)",
+              "description": "This document explains how to estimate your costs. For a full description on:",
+              "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-cost.md",
+              "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+              "slug": "/archive/hubs-cloud/hubs-cloud-aws/estimating-cost",
+              "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-cost",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-cost.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 11,
+              "frontMatter": {
+                "sidebar_position": 11
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Cost and Minimizing Costs Information",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/cost-saving"
+              },
+              "next": {
+                "title": "Estimating CCU Limits",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/estimating-ccu"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/hubs-cloud-aws/existing-domain",
+              "title": "Using an Existing Domain",
+              "description": "Interested in using an existing domain or subdomain for your hub?",
+              "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/existing-domain.md",
+              "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+              "slug": "/archive/hubs-cloud/hubs-cloud-aws/existing-domain",
+              "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/existing-domain",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/existing-domain.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Domain Recipes",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/domain-recipes"
+              },
+              "next": {
+                "title": "Using an Existing Email Provider",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/existing-email"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/hubs-cloud-aws/existing-email",
+              "title": "Using an Existing Email Provider",
+              "description": "By default your hub will be set up with Amazon Simple Email Service for email on a Route 53 domain you specify. You can also use your own SMTP settings for sending email. If you have your own SMTP settings you'd like to use, choose the same domain as your \"Internal Domain Name\" for the \"Outgoing Email Domain\" when creating the stack. You'll still need to click through the verification email you will receive during stack creation in order to log into your administrator account during the setup process.",
+              "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/existing-email.md",
+              "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+              "slug": "/archive/hubs-cloud/hubs-cloud-aws/existing-email",
+              "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/existing-email",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/existing-email.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Using an Existing Domain",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/existing-domain"
+              },
+              "next": {
+                "title": "Updating the Stack",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/updating-the-stack"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/hubs-cloud-aws/known-issues",
+              "title": "Known Issues",
+              "description": "I get the error \"Value for parameter availabilityZone is invalid. Subnets can currently only be created in the following availability zones: X, Y",
+              "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/known-issues.md",
+              "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+              "slug": "/archive/hubs-cloud/hubs-cloud-aws/known-issues",
+              "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/known-issues",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/known-issues.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "AWS Troubleshooting",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting"
+              },
+              "next": {
+                "title": "System Architecture",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/system-architecture"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/hubs-cloud-aws/quick-start",
+              "title": "AWS Quick Start",
+              "description": "Before creating the Hubs Cloud Stack",
+              "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/quick-start.md",
+              "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+              "slug": "/archive/hubs-cloud/hubs-cloud-aws/quick-start",
+              "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/quick-start",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/quick-start.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Hubs Cloud AWS",
+                "permalink": "/docs/docs/category/hubs-cloud-aws"
+              },
+              "next": {
+                "title": "Domain Recipes",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/domain-recipes"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/hubs-cloud-aws/system-architecture",
+              "title": "System Architecture",
+              "description": "AWS Architecture",
+              "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/system-architecture.md",
+              "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+              "slug": "/archive/hubs-cloud/hubs-cloud-aws/system-architecture",
+              "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/system-architecture",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/system-architecture.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Known Issues",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/known-issues"
+              },
+              "next": {
+                "title": "Cost and Minimizing Costs Information",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/cost-saving"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/hubs-cloud-aws/updating-the-stack",
+              "title": "Updating the Stack",
+              "description": "You can change various settings of your hub's stack by performing a stack Update. You will not experience any downtime when making these changes. To Update your stack:",
+              "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/updating-the-stack.md",
+              "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+              "slug": "/archive/hubs-cloud/hubs-cloud-aws/updating-the-stack",
+              "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/updating-the-stack",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-aws/updating-the-stack.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Using an Existing Email Provider",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/existing-email"
+              },
+              "next": {
+                "title": "Backup and Restore",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/backup-and-restore"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/hubs-cloud-do/do-quick-start",
+              "title": "DigitalOcean Quick Start",
+              "description": "Warning! Hubs Cloud for DigitalOcean is in alpha and provided as is.",
+              "source": "@site/docs/archive/hubs-cloud/hubs-cloud-do/do-quick-start.md",
+              "sourceDirName": "archive/hubs-cloud/hubs-cloud-do",
+              "slug": "/archive/hubs-cloud/hubs-cloud-do/do-quick-start",
+              "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-do/do-quick-start",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/hubs-cloud-do/do-quick-start.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Hubs Cloud DigitalOcean",
+                "permalink": "/docs/docs/category/hubs-cloud-digitalocean"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/docs/archive/hubs-cloud/introduction"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/importing-content",
+              "title": "Importing Content",
+              "description": "The two forms of content you can import into Hubs Cloud are avatars and scenes. Avatars are 3D figures like robots, humans, and ducks that can be worn by visitors to represent themselves, and scenes are 3D environments like interiors and landscapes that provide visual grounding for a room.",
+              "source": "@site/docs/archive/hubs-cloud/importing-content.md",
+              "sourceDirName": "archive/hubs-cloud",
+              "slug": "/archive/hubs-cloud/importing-content",
+              "permalink": "/docs/docs/archive/hubs-cloud/importing-content",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/importing-content.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "FAQ",
+                "permalink": "/docs/docs/archive/hubs-cloud/faq"
+              },
+              "next": {
+                "title": "Asset Packs",
+                "permalink": "/docs/docs/archive/hubs-cloud/asset-packs"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/introduction",
+              "title": "Introduction",
+              "description": "Hubs Cloud",
+              "source": "@site/docs/archive/hubs-cloud/introduction.md",
+              "sourceDirName": "archive/hubs-cloud",
+              "slug": "/archive/hubs-cloud/introduction",
+              "permalink": "/docs/docs/archive/hubs-cloud/introduction",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/introduction.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2.1,
+              "frontMatter": {
+                "sidebar_position": 2.1
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "DigitalOcean Quick Start",
+                "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-do/do-quick-start"
+              },
+              "next": {
+                "title": "Getting Started",
+                "permalink": "/docs/docs/archive/hubs-cloud/getting-started"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/limiting-access",
+              "title": "Limiting Access",
+              "description": "This guide shows you how to lockdown your hub and rooms by account only access (accounts created by your admin from an email list) or by using the Hubs Discord bot.",
+              "source": "@site/docs/archive/hubs-cloud/limiting-access.md",
+              "sourceDirName": "archive/hubs-cloud",
+              "slug": "/archive/hubs-cloud/limiting-access",
+              "permalink": "/docs/docs/archive/hubs-cloud/limiting-access",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/limiting-access.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Adding Administrators",
+                "permalink": "/docs/docs/archive/hubs-cloud/adding-admins"
+              },
+              "next": {
+                "title": "Recipe: Permissive Rooms",
+                "permalink": "/docs/docs/archive/hubs-cloud/permissive-rooms"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/managing-content",
+              "title": "Managing Content",
+              "description": "In Hubs and Spoke, visitors can create their own avatars and scenes. They can then offer to share that content with others, which will let visitors discover the content through tools like the Media Browser.",
+              "source": "@site/docs/archive/hubs-cloud/managing-content.md",
+              "sourceDirName": "archive/hubs-cloud",
+              "slug": "/archive/hubs-cloud/managing-content",
+              "permalink": "/docs/docs/archive/hubs-cloud/managing-content",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/managing-content.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Customizing Themes",
+                "permalink": "/docs/docs/archive/hubs-cloud/customizing-themes"
+              },
+              "next": {
+                "title": "Adding Administrators",
+                "permalink": "/docs/docs/archive/hubs-cloud/adding-admins"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/permissive-rooms",
+              "title": "Recipe: Permissive Rooms",
+              "description": "Out of the box, the default permissions set on rooms is highly restrictive. This means that if you create a room, only yourself and visitors you choose to promote will have access to all features. Other visitors to your room will be restricted from using most features other than appearing as avatars and speaking.",
+              "source": "@site/docs/archive/hubs-cloud/permissive-rooms.md",
+              "sourceDirName": "archive/hubs-cloud",
+              "slug": "/archive/hubs-cloud/permissive-rooms",
+              "permalink": "/docs/docs/archive/hubs-cloud/permissive-rooms",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/permissive-rooms.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 11,
+              "frontMatter": {
+                "sidebar_position": 11
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Limiting Access",
+                "permalink": "/docs/docs/archive/hubs-cloud/limiting-access"
+              },
+              "next": {
+                "title": "Recipe: 3rd Party Integrations",
+                "permalink": "/docs/docs/archive/hubs-cloud/third-party-integrations"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/ssh-access",
+              "title": "Advanced: SSH Access",
+              "description": "To access your servers over SSH, in the Admin Console choose Server Access and follow the guide. Note that 2-factor authentication is set up by default, so you will need a 2FA device with an application installed like Google Authenticator to connect to your servers.",
+              "source": "@site/docs/archive/hubs-cloud/ssh-access.md",
+              "sourceDirName": "archive/hubs-cloud",
+              "slug": "/archive/hubs-cloud/ssh-access",
+              "permalink": "/docs/docs/archive/hubs-cloud/ssh-access",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/ssh-access.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 15,
+              "frontMatter": {
+                "sidebar_position": 15
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Recipe: Discord Bot",
+                "permalink": "/docs/docs/archive/hubs-cloud/discord-bot"
+              },
+              "next": {
+                "title": "Advanced: Brand Guidelines",
+                "permalink": "/docs/docs/archive/hubs-cloud/brand-guidelines"
+              }
+            },
+            {
+              "id": "archive/hubs-cloud/third-party-integrations",
+              "title": "Recipe: 3rd Party Integrations",
+              "description": "Your hub includes integrations for searching useful content for visitors to spawn into their rooms using the Media Browser. There is built-in support for a variety of sites and search engines, such as Sketchfab. You can also tweet to share content directly from your hub.",
+              "source": "@site/docs/archive/hubs-cloud/third-party-integrations.md",
+              "sourceDirName": "archive/hubs-cloud",
+              "slug": "/archive/hubs-cloud/third-party-integrations",
+              "permalink": "/docs/docs/archive/hubs-cloud/third-party-integrations",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/third-party-integrations.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 12,
+              "frontMatter": {
+                "sidebar_position": 12
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Recipe: Permissive Rooms",
+                "permalink": "/docs/docs/archive/hubs-cloud/permissive-rooms"
+              },
+              "next": {
+                "title": "Recipe: Custom SMTP",
+                "permalink": "/docs/docs/archive/hubs-cloud/custom-smtp"
+              }
+            },
+            {
+              "id": "creators/behavior-graphs/intro-behavior-graphs",
+              "title": "Introduction to Behavior Graphs",
+              "description": "Documentation coming soon...",
+              "source": "@site/docs/creators/behavior-graphs/intro-behavior-graphs.md",
+              "sourceDirName": "creators/behavior-graphs",
+              "slug": "/creators/behavior-graphs/intro-behavior-graphs",
+              "permalink": "/docs/docs/creators/behavior-graphs/intro-behavior-graphs",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/behavior-graphs/intro-behavior-graphs.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Behavior Graphs",
+                "permalink": "/docs/docs/category/behavior-graphs"
+              },
+              "next": {
+                "title": "Development Basics",
+                "permalink": "/docs/docs/category/development-basics"
+              }
+            },
+            {
+              "id": "creators/blender-add-on/add-on-components",
+              "title": "Blender Add-On Components",
+              "description": "Overview",
+              "source": "@site/docs/creators/blender-add-on/add-on-components.md",
+              "sourceDirName": "creators/blender-add-on",
+              "slug": "/creators/blender-add-on/add-on-components",
+              "permalink": "/docs/docs/creators/blender-add-on/add-on-components",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/blender-add-on/add-on-components.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Advanced Avatar Customization",
+                "permalink": "/docs/docs/creators/blender-add-on/advanced-avatars"
+              },
+              "next": {
+                "title": "Behavior Graphs",
+                "permalink": "/docs/docs/category/behavior-graphs"
+              }
+            },
+            {
+              "id": "creators/blender-add-on/advanced-avatars",
+              "title": "Advanced Avatar Customization",
+              "description": "Advanced Re-skinning",
+              "source": "@site/docs/creators/blender-add-on/advanced-avatars.md",
+              "sourceDirName": "creators/blender-add-on",
+              "slug": "/creators/blender-add-on/advanced-avatars",
+              "permalink": "/docs/docs/creators/blender-add-on/advanced-avatars",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/blender-add-on/advanced-avatars.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Introduction to the Hubs Blender Add-On",
+                "permalink": "/docs/docs/creators/blender-add-on/intro-add-on"
+              },
+              "next": {
+                "title": "Blender Add-On Components",
+                "permalink": "/docs/docs/creators/blender-add-on/add-on-components"
+              }
+            },
+            {
+              "id": "creators/blender-add-on/intro-add-on",
+              "title": "Introduction to the Hubs Blender Add-On",
+              "description": "Note: The following documentation assumes you are using the latest stable release of Blender. Using older versions or experimental builds of Blender may work, but is not guaranteed.",
+              "source": "@site/docs/creators/blender-add-on/intro-add-on.md",
+              "sourceDirName": "creators/blender-add-on",
+              "slug": "/creators/blender-add-on/intro-add-on",
+              "permalink": "/docs/docs/creators/blender-add-on/intro-add-on",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/blender-add-on/intro-add-on.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "The Blender Add-On",
+                "permalink": "/docs/docs/category/the-blender-add-on"
+              },
+              "next": {
+                "title": "Advanced Avatar Customization",
+                "permalink": "/docs/docs/creators/blender-add-on/advanced-avatars"
+              }
+            },
+            {
+              "id": "creators/spoke/adding-content",
+              "title": "Adding Content",
+              "description": "Once you have created your scene, you can start customizing it by adding content. Spoke and Hubs support a wide variety of media. Note that to publish to Hubs, Spoke projects have a size limit of 128MB.",
+              "source": "@site/docs/creators/spoke/adding-content.md",
+              "sourceDirName": "creators/spoke",
+              "slug": "/creators/spoke/adding-content",
+              "permalink": "/docs/docs/creators/spoke/adding-content",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/adding-content.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Spoke Controls",
+                "permalink": "/docs/docs/creators/spoke/spoke-controls"
+              },
+              "next": {
+                "title": "Architecture Kit",
+                "permalink": "/docs/docs/creators/spoke/architecture-kit"
+              }
+            },
+            {
+              "id": "creators/spoke/architecture-kit",
+              "title": "Architecture Kit",
+              "description": "With the launch of the Architecture Kit, creators now have an additional way to build custom content for their 3D scenes without using an external tool. The Architecture Kit is designed to make it easier to take existing components that have already been optimized for VR and make it easy to configure those pieces to create original models and scenes.",
+              "source": "@site/docs/creators/spoke/architecture-kit.md",
+              "sourceDirName": "creators/spoke",
+              "slug": "/creators/spoke/architecture-kit",
+              "permalink": "/docs/docs/creators/spoke/architecture-kit",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/architecture-kit.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Adding Content",
+                "permalink": "/docs/docs/creators/spoke/adding-content"
+              },
+              "next": {
+                "title": "Grid",
+                "permalink": "/docs/docs/creators/spoke/grid"
+              }
+            },
+            {
+              "id": "creators/spoke/building-with-spoke",
+              "title": "Building Scenes with Spoke",
+              "description": "Want to build custom VR worlds for Hubs? Meet Spoke! 👋",
+              "source": "@site/docs/creators/spoke/building-with-spoke.md",
+              "sourceDirName": "creators/spoke",
+              "slug": "/creators/spoke/building-with-spoke",
+              "permalink": "/docs/docs/creators/spoke/building-with-spoke",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/building-with-spoke.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Spoke",
+                "permalink": "/docs/docs/category/spoke"
+              },
+              "next": {
+                "title": "Create A Project",
+                "permalink": "/docs/docs/creators/spoke/create-project"
+              }
+            },
+            {
+              "id": "creators/spoke/create-project",
+              "title": "Create A Project",
+              "description": "In Spoke, you can either create a new project from Scratch, remix an existing Hubs scene, or import a Spoke project someone sends you.",
+              "source": "@site/docs/creators/spoke/create-project.md",
+              "sourceDirName": "creators/spoke",
+              "slug": "/creators/spoke/create-project",
+              "permalink": "/docs/docs/creators/spoke/create-project",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/create-project.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Building Scenes with Spoke",
+                "permalink": "/docs/docs/creators/spoke/building-with-spoke"
+              },
+              "next": {
+                "title": "User Interface",
+                "permalink": "/docs/docs/creators/spoke/user-interface"
+              }
+            },
+            {
+              "id": "creators/spoke/grid",
+              "title": "Grid",
+              "description": "Screenshot of Spoke",
+              "source": "@site/docs/creators/spoke/grid.md",
+              "sourceDirName": "creators/spoke",
+              "slug": "/creators/spoke/grid",
+              "permalink": "/docs/docs/creators/spoke/grid",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/grid.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Architecture Kit",
+                "permalink": "/docs/docs/creators/spoke/architecture-kit"
+              },
+              "next": {
+                "title": "Skyboxes",
+                "permalink": "/docs/docs/creators/spoke/skyboxes"
+              }
+            },
+            {
+              "id": "creators/spoke/lighting-and-shadows",
+              "title": "Lighting and Shadows",
+              "description": "Lights",
+              "source": "@site/docs/creators/spoke/lighting-and-shadows.md",
+              "sourceDirName": "creators/spoke",
+              "slug": "/creators/spoke/lighting-and-shadows",
+              "permalink": "/docs/docs/creators/spoke/lighting-and-shadows",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/lighting-and-shadows.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Skyboxes",
+                "permalink": "/docs/docs/creators/spoke/skyboxes"
+              },
+              "next": {
+                "title": "Physics and Navigation",
+                "permalink": "/docs/docs/creators/spoke/physics-and-navigation"
+              }
+            },
+            {
+              "id": "creators/spoke/linking-rooms",
+              "title": "Linking Hubs Rooms",
+              "description": "It is possible to link Hubs rooms together using Spoke, or from directly in Hubs. To do this, you will want to first create your rooms, then build scenes for the rooms that use the 'Link' element to reference to other rooms.",
+              "source": "@site/docs/creators/spoke/linking-rooms.md",
+              "sourceDirName": "creators/spoke",
+              "slug": "/creators/spoke/linking-rooms",
+              "permalink": "/docs/docs/creators/spoke/linking-rooms",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/linking-rooms.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 11,
+              "frontMatter": {
+                "sidebar_position": 11
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Publishing Scenes",
+                "permalink": "/docs/docs/creators/spoke/publish-scenes"
+              },
+              "next": {
+                "title": "Optimizing Scenes",
+                "permalink": "/docs/docs/creators/spoke/optimizing-scenes"
+              }
+            },
+            {
+              "id": "creators/spoke/optimizing-scenes",
+              "title": "Optimizing Scenes",
+              "description": "Improving Performance",
+              "source": "@site/docs/creators/spoke/optimizing-scenes.md",
+              "sourceDirName": "creators/spoke",
+              "slug": "/creators/spoke/optimizing-scenes",
+              "permalink": "/docs/docs/creators/spoke/optimizing-scenes",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/optimizing-scenes.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 12,
+              "frontMatter": {
+                "sidebar_position": 12
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Linking Hubs Rooms",
+                "permalink": "/docs/docs/creators/spoke/linking-rooms"
+              },
+              "next": {
+                "title": "The Blender Add-On",
+                "permalink": "/docs/docs/category/the-blender-add-on"
+              }
+            },
+            {
+              "id": "creators/spoke/physics-and-navigation",
+              "title": "Physics and Navigation",
+              "description": "The Floorplan Element",
+              "source": "@site/docs/creators/spoke/physics-and-navigation.md",
+              "sourceDirName": "creators/spoke",
+              "slug": "/creators/spoke/physics-and-navigation",
+              "permalink": "/docs/docs/creators/spoke/physics-and-navigation",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/physics-and-navigation.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Lighting and Shadows",
+                "permalink": "/docs/docs/creators/spoke/lighting-and-shadows"
+              },
+              "next": {
+                "title": "Publishing Scenes",
+                "permalink": "/docs/docs/creators/spoke/publish-scenes"
+              }
+            },
+            {
+              "id": "creators/spoke/publish-scenes",
+              "title": "Publishing Scenes",
+              "description": "You can publish a scene either directly to Hubs, or you can export it as a .glb file or as a legacy Spoke scene.",
+              "source": "@site/docs/creators/spoke/publish-scenes.md",
+              "sourceDirName": "creators/spoke",
+              "slug": "/creators/spoke/publish-scenes",
+              "permalink": "/docs/docs/creators/spoke/publish-scenes",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/publish-scenes.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Physics and Navigation",
+                "permalink": "/docs/docs/creators/spoke/physics-and-navigation"
+              },
+              "next": {
+                "title": "Linking Hubs Rooms",
+                "permalink": "/docs/docs/creators/spoke/linking-rooms"
+              }
+            },
+            {
+              "id": "creators/spoke/skyboxes",
+              "title": "Skyboxes",
+              "description": "Skyboxes can significantly impact the ambience of your scene. Unless you have started from a template that removed the default elements, you should have a skybox in your scene when you begin.",
+              "source": "@site/docs/creators/spoke/skyboxes.md",
+              "sourceDirName": "creators/spoke",
+              "slug": "/creators/spoke/skyboxes",
+              "permalink": "/docs/docs/creators/spoke/skyboxes",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/skyboxes.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Grid",
+                "permalink": "/docs/docs/creators/spoke/grid"
+              },
+              "next": {
+                "title": "Lighting and Shadows",
+                "permalink": "/docs/docs/creators/spoke/lighting-and-shadows"
+              }
+            },
+            {
+              "id": "creators/spoke/spoke-controls",
+              "title": "Spoke Controls",
+              "description": "We recommend using spoke on a desktop or laptop computer as some features are not accessible without a mouse and keyboard.",
+              "source": "@site/docs/creators/spoke/spoke-controls.md",
+              "sourceDirName": "creators/spoke",
+              "slug": "/creators/spoke/spoke-controls",
+              "permalink": "/docs/docs/creators/spoke/spoke-controls",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/spoke-controls.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "User Interface",
+                "permalink": "/docs/docs/creators/spoke/user-interface"
+              },
+              "next": {
+                "title": "Adding Content",
+                "permalink": "/docs/docs/creators/spoke/adding-content"
+              }
+            },
+            {
+              "id": "creators/spoke/user-interface",
+              "title": "User Interface",
+              "description": "Hubs Image",
+              "source": "@site/docs/creators/spoke/user-interface.md",
+              "sourceDirName": "creators/spoke",
+              "slug": "/creators/spoke/user-interface",
+              "permalink": "/docs/docs/creators/spoke/user-interface",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/user-interface.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Create A Project",
+                "permalink": "/docs/docs/creators/spoke/create-project"
+              },
+              "next": {
+                "title": "Spoke Controls",
+                "permalink": "/docs/docs/creators/spoke/spoke-controls"
+              }
+            },
+            {
+              "id": "developers/community-edition/intro-ce",
+              "title": "Introduction to Hubs Cloud Community Edition",
+              "description": "Documentation coming soon...",
+              "source": "@site/docs/developers/community-edition/intro-ce.md",
+              "sourceDirName": "developers/community-edition",
+              "slug": "/developers/community-edition/intro-ce",
+              "permalink": "/docs/docs/developers/community-edition/intro-ce",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/community-edition/intro-ce.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Hubs Cloud Community Edition",
+                "permalink": "/docs/docs/category/hubs-cloud-community-edition"
+              },
+              "next": {
+                "title": "Contributing to Hubs",
+                "permalink": "/docs/docs/category/contributing-to-hubs"
+              }
+            },
+            {
+              "id": "developers/contributing/intro-contrib",
+              "title": "Introduction to Contributing",
+              "description": "This page outlines opportunities for people who want to contribute to the Hubs project. We welcome external contributions that align with the project's mission around enabling collaboration and communication through shared 3D spaces. You can find information about how to contribute to Hubs and the supporting projects that make up the platform here.",
+              "source": "@site/docs/developers/contributing/intro-contrib.md",
+              "sourceDirName": "developers/contributing",
+              "slug": "/developers/contributing/intro-contrib",
+              "permalink": "/docs/docs/developers/contributing/intro-contrib",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/contributing/intro-contrib.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Contributing to Hubs",
+                "permalink": "/docs/docs/category/contributing-to-hubs"
+              },
+              "next": {
+                "title": "Submitting Issues",
+                "permalink": "/docs/docs/developers/contributing/issues"
+              }
+            },
+            {
+              "id": "developers/contributing/issues",
+              "title": "Submitting Issues",
+              "description": "Documentation coming soon...",
+              "source": "@site/docs/developers/contributing/issues.md",
+              "sourceDirName": "developers/contributing",
+              "slug": "/developers/contributing/issues",
+              "permalink": "/docs/docs/developers/contributing/issues",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/contributing/issues.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Introduction to Contributing",
+                "permalink": "/docs/docs/developers/contributing/intro-contrib"
+              },
+              "next": {
+                "title": "Triage",
+                "permalink": "/docs/docs/developers/contributing/triage"
+              }
+            },
+            {
+              "id": "developers/contributing/pull-requests",
+              "title": "Submitting Pull Requests",
+              "description": "Documentation coming soon...",
+              "source": "@site/docs/developers/contributing/pull-requests.md",
+              "sourceDirName": "developers/contributing",
+              "slug": "/developers/contributing/pull-requests",
+              "permalink": "/docs/docs/developers/contributing/pull-requests",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/contributing/pull-requests.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Triage",
+                "permalink": "/docs/docs/developers/contributing/triage"
+              },
+              "next": {
+                "title": "Discord Bot (Deprecated)",
+                "permalink": "/docs/docs/archive/discord-bot"
+              }
+            },
+            {
+              "id": "developers/contributing/triage",
+              "title": "Triage",
+              "description": "Documentation coming soon...",
+              "source": "@site/docs/developers/contributing/triage.md",
+              "sourceDirName": "developers/contributing",
+              "slug": "/developers/contributing/triage",
+              "permalink": "/docs/docs/developers/contributing/triage",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/contributing/triage.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Submitting Issues",
+                "permalink": "/docs/docs/developers/contributing/issues"
+              },
+              "next": {
+                "title": "Submitting Pull Requests",
+                "permalink": "/docs/docs/developers/contributing/pull-requests"
+              }
+            },
+            {
+              "id": "developers/development-basics/dev-basics",
+              "title": "Development Basics",
+              "description": "The Hubs client is a web application that runs in each user&rsquo;s web",
+              "source": "@site/docs/developers/development-basics/dev-basics.md",
+              "sourceDirName": "developers/development-basics",
+              "slug": "/developers/development-basics/dev-basics",
+              "permalink": "/docs/docs/developers/development-basics/dev-basics",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/development-basics/dev-basics.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Local Development",
+                "permalink": "/docs/docs/developers/development-basics/setup-local-dev"
+              },
+              "next": {
+                "title": "Core Gameplay Concepts",
+                "permalink": "/docs/docs/developers/development-basics/gameplay"
+              }
+            },
+            {
+              "id": "developers/development-basics/extending-client",
+              "title": "Extending Hubs: Custom Clients",
+              "description": "Now that you have a working Hubs Cloud instance, you can create and deploy custom versions of the Hubs Client yourself! By forking the hubs repository, making code changes, then deploying it to your live instance.",
+              "source": "@site/docs/developers/development-basics/extending-client.md",
+              "sourceDirName": "developers/development-basics",
+              "slug": "/developers/development-basics/extending-client",
+              "permalink": "/docs/docs/developers/development-basics/extending-client",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/development-basics/extending-client.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Networking",
+                "permalink": "/docs/docs/developers/development-basics/networking"
+              },
+              "next": {
+                "title": "Extending Hubs: Plugins",
+                "permalink": "/docs/docs/developers/development-basics/extending-plugins"
+              }
+            },
+            {
+              "id": "developers/development-basics/extending-plugins",
+              "title": "Extending Hubs: Plugins",
+              "description": "Documentation coming soon...",
+              "source": "@site/docs/developers/development-basics/extending-plugins.md",
+              "sourceDirName": "developers/development-basics",
+              "slug": "/developers/development-basics/extending-plugins",
+              "permalink": "/docs/docs/developers/development-basics/extending-plugins",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/development-basics/extending-plugins.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Extending Hubs: Custom Clients",
+                "permalink": "/docs/docs/developers/development-basics/extending-client"
+              },
+              "next": {
+                "title": "Query String Parameters",
+                "permalink": "/docs/docs/developers/development-basics/query-strings"
+              }
+            },
+            {
+              "id": "developers/development-basics/gameplay",
+              "title": "Core Gameplay Concepts",
+              "description": "Intro",
+              "source": "@site/docs/developers/development-basics/gameplay.md",
+              "sourceDirName": "developers/development-basics",
+              "slug": "/developers/development-basics/gameplay",
+              "permalink": "/docs/docs/developers/development-basics/gameplay",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/development-basics/gameplay.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Development Basics",
+                "permalink": "/docs/docs/developers/development-basics/dev-basics"
+              },
+              "next": {
+                "title": "Interactivity",
+                "permalink": "/docs/docs/developers/development-basics/interactivity"
+              }
+            },
+            {
+              "id": "developers/development-basics/interactivity",
+              "title": "Interactivity",
+              "description": "This document is WIP.",
+              "source": "@site/docs/developers/development-basics/interactivity.md",
+              "sourceDirName": "developers/development-basics",
+              "slug": "/developers/development-basics/interactivity",
+              "permalink": "/docs/docs/developers/development-basics/interactivity",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/development-basics/interactivity.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Core Gameplay Concepts",
+                "permalink": "/docs/docs/developers/development-basics/gameplay"
+              },
+              "next": {
+                "title": "Networking",
+                "permalink": "/docs/docs/developers/development-basics/networking"
+              }
+            },
+            {
+              "id": "developers/development-basics/networking",
+              "title": "Networking",
+              "description": "Intro",
+              "source": "@site/docs/developers/development-basics/networking.md",
+              "sourceDirName": "developers/development-basics",
+              "slug": "/developers/development-basics/networking",
+              "permalink": "/docs/docs/developers/development-basics/networking",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/development-basics/networking.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Interactivity",
+                "permalink": "/docs/docs/developers/development-basics/interactivity"
+              },
+              "next": {
+                "title": "Extending Hubs: Custom Clients",
+                "permalink": "/docs/docs/developers/development-basics/extending-client"
+              }
+            },
+            {
+              "id": "developers/development-basics/query-strings",
+              "title": "Query String Parameters",
+              "description": "Some developer-oriented options that are not available in the preferences panel in Hubs are available as query string parameters. These are intended mainly for development or debugging and are not something most users will need to use.",
+              "source": "@site/docs/developers/development-basics/query-strings.md",
+              "sourceDirName": "developers/development-basics",
+              "slug": "/developers/development-basics/query-strings",
+              "permalink": "/docs/docs/developers/development-basics/query-strings",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/development-basics/query-strings.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Extending Hubs: Plugins",
+                "permalink": "/docs/docs/developers/development-basics/extending-plugins"
+              },
+              "next": {
+                "title": "Hubs Cloud Community Edition",
+                "permalink": "/docs/docs/category/hubs-cloud-community-edition"
+              }
+            },
+            {
+              "id": "developers/development-basics/setup-local-dev",
+              "title": "Local Development",
+              "description": "Documentation coming soon...",
+              "source": "@site/docs/developers/development-basics/setup-local-dev.md",
+              "sourceDirName": "developers/development-basics",
+              "slug": "/developers/development-basics/setup-local-dev",
+              "permalink": "/docs/docs/developers/development-basics/setup-local-dev",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/development-basics/setup-local-dev.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "System Overview",
+                "permalink": "/docs/docs/developers/development-basics/system-overview"
+              },
+              "next": {
+                "title": "Development Basics",
+                "permalink": "/docs/docs/developers/development-basics/dev-basics"
+              }
+            },
+            {
+              "id": "developers/development-basics/system-overview",
+              "title": "System Overview",
+              "description": "The Client",
+              "source": "@site/docs/developers/development-basics/system-overview.md",
+              "sourceDirName": "developers/development-basics",
+              "slug": "/developers/development-basics/system-overview",
+              "permalink": "/docs/docs/developers/development-basics/system-overview",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/development-basics/system-overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Development Basics",
+                "permalink": "/docs/docs/category/development-basics"
+              },
+              "next": {
+                "title": "Local Development",
+                "permalink": "/docs/docs/developers/development-basics/setup-local-dev"
+              }
+            },
+            {
+              "id": "fundamentals/avatar-links",
+              "title": "Sharing Avatar Links Privately",
+              "description": "Do you have a hubs room where you want specific avatars to be available for specific people but not others?",
+              "source": "@site/docs/fundamentals/avatar-links.md",
+              "sourceDirName": "fundamentals",
+              "slug": "/fundamentals/avatar-links",
+              "permalink": "/docs/docs/fundamentals/avatar-links",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/avatar-links.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Hubs Features",
+                "permalink": "/docs/docs/fundamentals/hubs-features"
+              },
+              "next": {
+                "title": "User Settings",
+                "permalink": "/docs/docs/fundamentals/user-settings"
+              }
+            },
+            {
+              "id": "fundamentals/controls",
+              "title": "Controls",
+              "description": "Touchscreen Controls",
+              "source": "@site/docs/fundamentals/controls.md",
+              "sourceDirName": "fundamentals",
+              "slug": "/fundamentals/controls",
+              "permalink": "/docs/docs/fundamentals/controls",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/controls.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Room Info and Settings",
+                "permalink": "/docs/docs/fundamentals/room-settings"
+              },
+              "next": {
+                "title": "Troubleshooting",
+                "permalink": "/docs/docs/fundamentals/troubleshooting"
+              }
+            },
+            {
+              "id": "fundamentals/custom-avatars",
+              "title": "Creating Custom Avatars",
+              "description": "In Hubs you can choose how you want to represent yourself. Select from any of the featured or newest avatars, or create your own.",
+              "source": "@site/docs/fundamentals/custom-avatars.md",
+              "sourceDirName": "fundamentals",
+              "slug": "/fundamentals/custom-avatars",
+              "permalink": "/docs/docs/fundamentals/custom-avatars",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/custom-avatars.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Getting Started With Hubs",
+                "permalink": "/docs/docs/fundamentals/getting-started"
+              },
+              "next": {
+                "title": "Hosting Events in Hubs",
+                "permalink": "/docs/docs/fundamentals/hosting-events"
+              }
+            },
+            {
+              "id": "fundamentals/fundamental-faqs",
+              "title": "FAQ",
+              "description": "What is the capacity of a Hubs room?",
+              "source": "@site/docs/fundamentals/fundamental-faqs.md",
+              "sourceDirName": "fundamentals",
+              "slug": "/fundamentals/fundamental-faqs",
+              "permalink": "/docs/docs/fundamentals/fundamental-faqs",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/fundamental-faqs.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 11,
+              "frontMatter": {
+                "sidebar_position": 11
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Troubleshooting",
+                "permalink": "/docs/docs/fundamentals/troubleshooting"
+              },
+              "next": {
+                "title": "Reskin Avatars",
+                "permalink": "/docs/docs/fundamentals/reskin-avatars"
+              }
+            },
+            {
+              "id": "fundamentals/getting-started",
+              "title": "Getting Started With Hubs",
+              "description": "In the following guide we'll show you the basics of Hubs! (Prefer a video? Click here.)",
+              "source": "@site/docs/fundamentals/getting-started.md",
+              "sourceDirName": "fundamentals",
+              "slug": "/fundamentals/getting-started",
+              "permalink": "/docs/docs/fundamentals/getting-started",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/getting-started.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Subscription Help",
+                "permalink": "/docs/docs/subscription/help-subscription"
+              },
+              "next": {
+                "title": "Creating Custom Avatars",
+                "permalink": "/docs/docs/fundamentals/custom-avatars"
+              }
+            },
+            {
+              "id": "fundamentals/hosting-events",
+              "title": "Hosting Events in Hubs",
+              "description": "This guide will talk you through the process of using Hubs for an event on Mozilla Hubs. We've broken this guide down into different sections that can help you get started with creating and configuring a room, choosing a custom scene, inviting people, and moderating your event.",
+              "source": "@site/docs/fundamentals/hosting-events.md",
+              "sourceDirName": "fundamentals",
+              "slug": "/fundamentals/hosting-events",
+              "permalink": "/docs/docs/fundamentals/hosting-events",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/hosting-events.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Creating Custom Avatars",
+                "permalink": "/docs/docs/fundamentals/custom-avatars"
+              },
+              "next": {
+                "title": "Create and Join Rooms",
+                "permalink": "/docs/docs/fundamentals/hubs-rooms"
+              }
+            },
+            {
+              "id": "fundamentals/hubs-features",
+              "title": "Hubs Features",
+              "description": "Hubs User Interface",
+              "source": "@site/docs/fundamentals/hubs-features.md",
+              "sourceDirName": "fundamentals",
+              "slug": "/fundamentals/hubs-features",
+              "permalink": "/docs/docs/fundamentals/hubs-features",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/hubs-features.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Create and Join Rooms",
+                "permalink": "/docs/docs/fundamentals/hubs-rooms"
+              },
+              "next": {
+                "title": "Sharing Avatar Links Privately",
+                "permalink": "/docs/docs/fundamentals/avatar-links"
+              }
+            },
+            {
+              "id": "fundamentals/hubs-rooms",
+              "title": "Create and Join Rooms",
+              "description": "Create a New Room",
+              "source": "@site/docs/fundamentals/hubs-rooms.md",
+              "sourceDirName": "fundamentals",
+              "slug": "/fundamentals/hubs-rooms",
+              "permalink": "/docs/docs/fundamentals/hubs-rooms",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/hubs-rooms.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Hosting Events in Hubs",
+                "permalink": "/docs/docs/fundamentals/hosting-events"
+              },
+              "next": {
+                "title": "Hubs Features",
+                "permalink": "/docs/docs/fundamentals/hubs-features"
+              }
+            },
+            {
+              "id": "fundamentals/reskin-avatars",
+              "title": "Reskin Avatars",
+              "description": "Depending on how involved you'd like to get in the avatar creation process, you might choose to simply 're-skin' the existing robot avatar by painting your own texture maps, or create your own fully custom 3D model.",
+              "source": "@site/docs/fundamentals/reskin-avatars.md",
+              "sourceDirName": "fundamentals",
+              "slug": "/fundamentals/reskin-avatars",
+              "permalink": "/docs/docs/fundamentals/reskin-avatars",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/reskin-avatars.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 12,
+              "frontMatter": {
+                "sidebar_position": 12
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "FAQ",
+                "permalink": "/docs/docs/fundamentals/fundamental-faqs"
+              },
+              "next": {
+                "title": "Spoke",
+                "permalink": "/docs/docs/category/spoke"
+              }
+            },
+            {
+              "id": "fundamentals/room-settings",
+              "title": "Room Info and Settings",
+              "description": "Change the Scene",
+              "source": "@site/docs/fundamentals/room-settings.md",
+              "sourceDirName": "fundamentals",
+              "slug": "/fundamentals/room-settings",
+              "permalink": "/docs/docs/fundamentals/room-settings",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/room-settings.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "User Settings",
+                "permalink": "/docs/docs/fundamentals/user-settings"
+              },
+              "next": {
+                "title": "Controls",
+                "permalink": "/docs/docs/fundamentals/controls"
+              }
+            },
+            {
+              "id": "fundamentals/troubleshooting",
+              "title": "Troubleshooting",
+              "description": "Getting stuck on loading screen",
+              "source": "@site/docs/fundamentals/troubleshooting.md",
+              "sourceDirName": "fundamentals",
+              "slug": "/fundamentals/troubleshooting",
+              "permalink": "/docs/docs/fundamentals/troubleshooting",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/troubleshooting.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Controls",
+                "permalink": "/docs/docs/fundamentals/controls"
+              },
+              "next": {
+                "title": "FAQ",
+                "permalink": "/docs/docs/fundamentals/fundamental-faqs"
+              }
+            },
+            {
+              "id": "fundamentals/user-settings",
+              "title": "User Settings",
+              "description": "Changing Name and Avatar",
+              "source": "@site/docs/fundamentals/user-settings.md",
+              "sourceDirName": "fundamentals",
+              "slug": "/fundamentals/user-settings",
+              "permalink": "/docs/docs/fundamentals/user-settings",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/user-settings.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Sharing Avatar Links Privately",
+                "permalink": "/docs/docs/fundamentals/avatar-links"
+              },
+              "next": {
+                "title": "Room Info and Settings",
+                "permalink": "/docs/docs/fundamentals/room-settings"
+              }
+            },
+            {
+              "id": "introduction/community",
+              "title": "Community",
+              "description": "Documentation coming soon...",
+              "source": "@site/docs/introduction/community.md",
+              "sourceDirName": "introduction",
+              "slug": "/introduction/community",
+              "permalink": "/docs/docs/introduction/community",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/introduction/community.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Hubs History",
+                "permalink": "/docs/docs/introduction/hubs-history"
+              },
+              "next": {
+                "title": "Getting Help",
+                "permalink": "/docs/docs/introduction/getting-help"
+              }
+            },
+            {
+              "id": "introduction/getting-help",
+              "title": "Getting Help",
+              "description": "YouTube",
+              "source": "@site/docs/introduction/getting-help.md",
+              "sourceDirName": "introduction",
+              "slug": "/introduction/getting-help",
+              "permalink": "/docs/docs/introduction/getting-help",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/introduction/getting-help.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Community",
+                "permalink": "/docs/docs/introduction/community"
+              },
+              "next": {
+                "title": "Choosing A Subscription",
+                "permalink": "/docs/docs/subscription/choosing-subscription"
+              }
+            },
+            {
+              "id": "introduction/hubs-history",
+              "title": "Hubs History",
+              "description": "Documentation coming soon...",
+              "source": "@site/docs/introduction/hubs-history.md",
+              "sourceDirName": "introduction",
+              "slug": "/introduction/hubs-history",
+              "permalink": "/docs/docs/introduction/hubs-history",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/introduction/hubs-history.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "What is Hubs?",
+                "permalink": "/docs/docs/introduction/what-is-hubs"
+              },
+              "next": {
+                "title": "Community",
+                "permalink": "/docs/docs/introduction/community"
+              }
+            },
+            {
+              "id": "introduction/what-is-hubs",
+              "title": "What is Hubs?",
+              "description": "Hubs is a virtual collaboration platform that runs in your browser. With Hubs you can create your own 3D spaces with a single click. Invite others to join using a URL. No installation or app store required.",
+              "source": "@site/docs/introduction/what-is-hubs.md",
+              "sourceDirName": "introduction",
+              "slug": "/introduction/what-is-hubs",
+              "permalink": "/docs/docs/introduction/what-is-hubs",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/introduction/what-is-hubs.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "documentation",
+              "next": {
+                "title": "Hubs History",
+                "permalink": "/docs/docs/introduction/hubs-history"
+              }
+            },
+            {
+              "id": "subscription/choosing-subscription",
+              "title": "Choosing A Subscription",
+              "description": "Hubs currently offers three managed subscription plans that allow users to customize the default behavior of their hub and manage content, such as virtual worlds and avatars, without the hassle of running their own server. If you are not ready to sign up for a plan, you can create a default room or custom scene for free on Mozilla's Demo Hub.",
+              "source": "@site/docs/subscription/choosing-subscription.md",
+              "sourceDirName": "subscription",
+              "slug": "/subscription/choosing-subscription",
+              "permalink": "/docs/docs/subscription/choosing-subscription",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/subscription/choosing-subscription.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Getting Help",
+                "permalink": "/docs/docs/introduction/getting-help"
+              },
+              "next": {
+                "title": "Creating Your Hub",
+                "permalink": "/docs/docs/subscription/creating-subscripton"
+              }
+            },
+            {
+              "id": "subscription/creating-subscripton",
+              "title": "Creating Your Hub",
+              "description": "This guide walks you through the steps of setting up your Hubs Subscription. If you experience unexpected results at any point of the process, please refer to the support page for more information.",
+              "source": "@site/docs/subscription/creating-subscripton.md",
+              "sourceDirName": "subscription",
+              "slug": "/subscription/creating-subscripton",
+              "permalink": "/docs/docs/subscription/creating-subscripton",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/subscription/creating-subscripton.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Choosing A Subscription",
+                "permalink": "/docs/docs/subscription/choosing-subscription"
+              },
+              "next": {
+                "title": "Updating/Cancelling Your Subscription",
+                "permalink": "/docs/docs/subscription/updating-subscription"
+              }
+            },
+            {
+              "id": "subscription/custom-client",
+              "title": "Custom Clients (Pro Plan)",
+              "description": "This guide walks you through the steps of setting up and removing a custom client on your Hub for Professional plan subscribers.",
+              "source": "@site/docs/subscription/custom-client.md",
+              "sourceDirName": "subscription",
+              "slug": "/subscription/custom-client",
+              "permalink": "/docs/docs/subscription/custom-client",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/subscription/custom-client.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Custom Domains (Pro Plan)",
+                "permalink": "/docs/docs/subscription/custom-domain"
+              },
+              "next": {
+                "title": "Frequently Asked Questions",
+                "permalink": "/docs/docs/subscription/faq-subscription"
+              }
+            },
+            {
+              "id": "subscription/custom-domain",
+              "title": "Custom Domains (Pro Plan)",
+              "description": "This guide walks you through the steps of adding, updating, and removing a custom domain on your Hub. This feature is available on Professional plans.",
+              "source": "@site/docs/subscription/custom-domain.md",
+              "sourceDirName": "subscription",
+              "slug": "/subscription/custom-domain",
+              "permalink": "/docs/docs/subscription/custom-domain",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/subscription/custom-domain.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Managing Your Hub's Content",
+                "permalink": "/docs/docs/subscription/managing-subscription"
+              },
+              "next": {
+                "title": "Custom Clients (Pro Plan)",
+                "permalink": "/docs/docs/subscription/custom-client"
+              }
+            },
+            {
+              "id": "subscription/faq-subscription",
+              "title": "Frequently Asked Questions",
+              "description": "Can I have more than one Hub with my Mozilla account?",
+              "source": "@site/docs/subscription/faq-subscription.md",
+              "sourceDirName": "subscription",
+              "slug": "/subscription/faq-subscription",
+              "permalink": "/docs/docs/subscription/faq-subscription",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/subscription/faq-subscription.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Custom Clients (Pro Plan)",
+                "permalink": "/docs/docs/subscription/custom-client"
+              },
+              "next": {
+                "title": "Subscription Help",
+                "permalink": "/docs/docs/subscription/help-subscription"
+              }
+            },
+            {
+              "id": "subscription/help-subscription",
+              "title": "Subscription Help",
+              "description": "These are the best ways to get in touch with us and the community if you need help or are interested in learning more about Hubs.",
+              "source": "@site/docs/subscription/help-subscription.md",
+              "sourceDirName": "subscription",
+              "slug": "/subscription/help-subscription",
+              "permalink": "/docs/docs/subscription/help-subscription",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/subscription/help-subscription.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Frequently Asked Questions",
+                "permalink": "/docs/docs/subscription/faq-subscription"
+              },
+              "next": {
+                "title": "Getting Started With Hubs",
+                "permalink": "/docs/docs/fundamentals/getting-started"
+              }
+            },
+            {
+              "id": "subscription/managing-subscription",
+              "title": "Managing Your Hub's Content",
+              "description": "This page serves as a manual for many of the features that are available to Hubs subscribers to manage the content on their Hub.",
+              "source": "@site/docs/subscription/managing-subscription.md",
+              "sourceDirName": "subscription",
+              "slug": "/subscription/managing-subscription",
+              "permalink": "/docs/docs/subscription/managing-subscription",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/subscription/managing-subscription.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Updating/Cancelling Your Subscription",
+                "permalink": "/docs/docs/subscription/updating-subscription"
+              },
+              "next": {
+                "title": "Custom Domains (Pro Plan)",
+                "permalink": "/docs/docs/subscription/custom-domain"
+              }
+            },
+            {
+              "id": "subscription/updating-subscription",
+              "title": "Updating/Cancelling Your Subscription",
+              "description": "This guide walks you through the process of updating and cancelling your subscription. If you experience unexpected results at any point of the process, please refer to the support page for more information.",
+              "source": "@site/docs/subscription/updating-subscription.md",
+              "sourceDirName": "subscription",
+              "slug": "/subscription/updating-subscription",
+              "permalink": "/docs/docs/subscription/updating-subscription",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/subscription/updating-subscription.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "documentation",
+              "previous": {
+                "title": "Creating Your Hub",
+                "permalink": "/docs/docs/subscription/creating-subscripton"
+              },
+              "next": {
+                "title": "Managing Your Hub's Content",
+                "permalink": "/docs/docs/subscription/managing-subscription"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "documentation": [
+              {
+                "type": "category",
+                "label": "Introduction",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "introduction/what-is-hubs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "introduction/hubs-history"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "introduction/community"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "introduction/getting-help"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Hubs Subscription",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "subscription/choosing-subscription"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "subscription/creating-subscripton"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "subscription/updating-subscription"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "subscription/managing-subscription"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "subscription/custom-domain"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "subscription/custom-client"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "subscription/faq-subscription"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "subscription/help-subscription"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Hubs Fundamentals",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "fundamentals/getting-started"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fundamentals/custom-avatars"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fundamentals/hosting-events"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fundamentals/hubs-rooms"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fundamentals/hubs-features"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fundamentals/avatar-links"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fundamentals/user-settings"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fundamentals/room-settings"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fundamentals/controls"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fundamentals/troubleshooting"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fundamentals/fundamental-faqs"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "fundamentals/reskin-avatars"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "For Creators",
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "Spoke",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "creators/spoke/building-with-spoke"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "creators/spoke/create-project"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "creators/spoke/user-interface"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "creators/spoke/spoke-controls"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "creators/spoke/adding-content"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "creators/spoke/architecture-kit"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "creators/spoke/grid"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "creators/spoke/skyboxes"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "creators/spoke/lighting-and-shadows"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "creators/spoke/physics-and-navigation"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "creators/spoke/publish-scenes"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "creators/spoke/linking-rooms"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "creators/spoke/optimizing-scenes"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/spoke",
+                      "permalink": "/docs/docs/category/spoke"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "The Blender Add-On",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "creators/blender-add-on/intro-add-on"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "creators/blender-add-on/advanced-avatars"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "creators/blender-add-on/add-on-components"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/the-blender-add-on",
+                      "permalink": "/docs/docs/category/the-blender-add-on"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Behavior Graphs",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "creators/behavior-graphs/intro-behavior-graphs"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/behavior-graphs",
+                      "permalink": "/docs/docs/category/behavior-graphs"
+                    }
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "For Developers",
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "Development Basics",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "developers/development-basics/system-overview"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developers/development-basics/setup-local-dev"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developers/development-basics/dev-basics"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developers/development-basics/gameplay"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developers/development-basics/interactivity"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developers/development-basics/networking"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developers/development-basics/extending-client"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developers/development-basics/extending-plugins"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developers/development-basics/query-strings"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/development-basics",
+                      "permalink": "/docs/docs/category/development-basics"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Hubs Cloud Community Edition",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "developers/community-edition/intro-ce"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/hubs-cloud-community-edition",
+                      "permalink": "/docs/docs/category/hubs-cloud-community-edition"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Contributing to Hubs",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "developers/contributing/intro-contrib"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developers/contributing/issues"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developers/contributing/triage"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developers/contributing/pull-requests"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/contributing-to-hubs",
+                      "permalink": "/docs/docs/category/contributing-to-hubs"
+                    }
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Documentation Archive",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "archive/discord-bot"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Hubs Cloud (Deprecated)",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "category",
+                        "label": "Hubs Cloud AWS",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "archive/hubs-cloud/hubs-cloud-aws/quick-start"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "archive/hubs-cloud/hubs-cloud-aws/domain-recipes"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "archive/hubs-cloud/hubs-cloud-aws/existing-domain"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "archive/hubs-cloud/hubs-cloud-aws/existing-email"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "archive/hubs-cloud/hubs-cloud-aws/updating-the-stack"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "archive/hubs-cloud/hubs-cloud-aws/backup-and-restore"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "archive/hubs-cloud/hubs-cloud-aws/aws-troubleshooting"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "archive/hubs-cloud/hubs-cloud-aws/known-issues"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "archive/hubs-cloud/hubs-cloud-aws/system-architecture"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "archive/hubs-cloud/hubs-cloud-aws/cost-saving"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "archive/hubs-cloud/hubs-cloud-aws/estimating-cost"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "archive/hubs-cloud/hubs-cloud-aws/estimating-ccu"
+                          }
+                        ],
+                        "link": {
+                          "type": "generated-index",
+                          "slug": "/category/hubs-cloud-aws",
+                          "permalink": "/docs/docs/category/hubs-cloud-aws"
+                        }
+                      },
+                      {
+                        "type": "category",
+                        "label": "Hubs Cloud DigitalOcean",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "archive/hubs-cloud/hubs-cloud-do/do-quick-start"
+                          }
+                        ],
+                        "link": {
+                          "type": "generated-index",
+                          "slug": "/category/hubs-cloud-digitalocean",
+                          "permalink": "/docs/docs/category/hubs-cloud-digitalocean"
+                        }
+                      },
+                      {
+                        "type": "doc",
+                        "id": "archive/hubs-cloud/introduction"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "archive/hubs-cloud/getting-started"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "archive/hubs-cloud/faq"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "archive/hubs-cloud/importing-content"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "archive/hubs-cloud/asset-packs"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "archive/hubs-cloud/customizing-look"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "archive/hubs-cloud/customizing-themes"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "archive/hubs-cloud/managing-content"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "archive/hubs-cloud/adding-admins"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "archive/hubs-cloud/limiting-access"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "archive/hubs-cloud/permissive-rooms"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "archive/hubs-cloud/third-party-integrations"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "archive/hubs-cloud/custom-smtp"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "archive/hubs-cloud/discord-bot"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "archive/hubs-cloud/ssh-access"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "archive/hubs-cloud/brand-guidelines"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/hubs-cloud-deprecated",
+                      "permalink": "/docs/docs/category/hubs-cloud-deprecated"
+                    }
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "first-changelog-test",
+          "metadata": {
+            "permalink": "/docs/blog/first-changelog-test",
+            "editUrl": "https://github.com/MozillaReality/hubs-docs/blog/2019-05-28-first-blog-post.md",
+            "source": "@site/blog/2019-05-28-first-blog-post.md",
+            "title": "First Changelog Test",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+            "date": "2019-05-28T00:00:00.000Z",
+            "formattedDate": "May 28, 2019",
+            "tags": [
+              {
+                "label": "changelog",
+                "permalink": "/docs/blog/tags/changelog"
+              }
+            ],
+            "readingTime": 0.12,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Michael Morran",
+                "title": "Developer Community Manager",
+                "url": "https://github.com/mikemorran",
+                "image_url": "https://github.com/mikemorran.png",
+                "imageURL": "https://github.com/mikemorran.png"
+              }
+            ],
+            "frontMatter": {
+              "slug": "first-changelog-test",
+              "title": "First Changelog Test",
+              "authors": {
+                "name": "Michael Morran",
+                "title": "Developer Community Manager",
+                "url": "https://github.com/mikemorran",
+                "image_url": "https://github.com/mikemorran.png",
+                "imageURL": "https://github.com/mikemorran.png"
+              },
+              "tags": [
+                "changelog"
+              ]
+            },
+            "unlisted": false
+          },
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "first-changelog-test"
+          ],
+          "metadata": {
+            "permalink": "/docs/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 1,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/docs/blog/tags/changelog": {
+          "label": "changelog",
+          "items": [
+            "first-changelog-test"
+          ],
+          "permalink": "/docs/blog/tags/changelog",
+          "pages": [
+            {
+              "items": [
+                "first-changelog-test"
+              ],
+              "metadata": {
+                "permalink": "/docs/blog/tags/changelog",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        }
+      },
+      "blogTagsListPath": "/docs/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/docs/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/docs/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        },
+        "unlisted": false
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

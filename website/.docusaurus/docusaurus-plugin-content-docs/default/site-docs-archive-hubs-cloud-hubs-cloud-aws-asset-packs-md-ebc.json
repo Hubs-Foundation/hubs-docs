@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/hubs-cloud-aws/asset-packs",
+  "title": "Asset Packs",
+  "description": "We've compiled some avatar and scene collections you can easily import into your hub. This content is Creative Commons 3 licensed. License compliance with attribution is handled automatically by Hubs Cloud when the content is surfaced to users.",
+  "source": "@site/docs/archive/hubs-cloud/hubs-cloud-aws/asset-packs.md",
+  "sourceDirName": "archive/hubs-cloud/hubs-cloud-aws",
+  "slug": "/archive/hubs-cloud/hubs-cloud-aws/asset-packs",
+  "permalink": "/docs/archive/hubs-cloud/hubs-cloud-aws/asset-packs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/archive/hubs-cloud/hubs-cloud-aws/asset-packs.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Hubs Cloud",
+    "permalink": "/docs/category/hubs-cloud"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/archive/hubs-cloud/introduction"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Hubs Cloud DigitalOcean",
+  "slug": "/category/hubs-cloud-digitalocean",
+  "permalink": "/what-is-hubs/category/hubs-cloud-digitalocean",
+  "navigation": {
+    "previous": {
+      "title": "Estimating CCU Limits",
+      "permalink": "/what-is-hubs/archive/hubs-cloud/hubs-cloud-aws/estimating-ccu"
+    },
+    "next": {
+      "title": "DigitalOcean Quick Start",
+      "permalink": "/what-is-hubs/archive/hubs-cloud/hubs-cloud-do/do-quick-start"
+    }
+  }
+}

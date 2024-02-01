@@ -1,0 +1,27 @@
+{
+  "id": "fundamentals/troubleshooting",
+  "title": "Troubleshooting",
+  "description": "Getting stuck on loading screen",
+  "source": "@site/docs/fundamentals/troubleshooting.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/troubleshooting",
+  "permalink": "/docs/docs/fundamentals/troubleshooting",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/troubleshooting.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Controls",
+    "permalink": "/docs/docs/fundamentals/controls"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/docs/docs/fundamentals/fundamental-faqs"
+  }
+}

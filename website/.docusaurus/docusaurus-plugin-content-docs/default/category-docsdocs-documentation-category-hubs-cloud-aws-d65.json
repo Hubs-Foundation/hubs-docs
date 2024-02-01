@@ -1,0 +1,15 @@
+{
+  "title": "Hubs Cloud AWS",
+  "slug": "/category/hubs-cloud-aws",
+  "permalink": "/docs/docs/category/hubs-cloud-aws",
+  "navigation": {
+    "previous": {
+      "title": "Hubs Cloud (Deprecated)",
+      "permalink": "/docs/docs/category/hubs-cloud-deprecated"
+    },
+    "next": {
+      "title": "AWS Quick Start",
+      "permalink": "/docs/docs/archive/hubs-cloud/hubs-cloud-aws/quick-start"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "First Changelog Test",
+      "permalink": "/docs/blog/first-changelog-test",
+      "unlisted": false
+    }
+  ]
+}

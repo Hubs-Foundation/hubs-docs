@@ -1,0 +1,27 @@
+{
+  "id": "creators/spoke/skyboxes",
+  "title": "Skyboxes",
+  "description": "Skyboxes can significantly impact the ambience of your scene. Unless you have started from a template that removed the default elements, you should have a skybox in your scene when you begin.",
+  "source": "@site/docs/creators/spoke/skyboxes.md",
+  "sourceDirName": "creators/spoke",
+  "slug": "/creators/spoke/skyboxes",
+  "permalink": "/docs/docs/creators/spoke/skyboxes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/creators/spoke/skyboxes.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Grid",
+    "permalink": "/docs/docs/creators/spoke/grid"
+  },
+  "next": {
+    "title": "Lighting and Shadows",
+    "permalink": "/docs/docs/creators/spoke/lighting-and-shadows"
+  }
+}

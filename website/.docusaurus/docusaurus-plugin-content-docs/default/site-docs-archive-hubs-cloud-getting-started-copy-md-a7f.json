@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/getting-started copy",
+  "title": "Introduction",
+  "description": "Hubs Cloud",
+  "source": "@site/docs/archive/hubs-cloud/getting-started copy.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/getting-started copy",
+  "permalink": "/docs/archive/hubs-cloud/getting-started copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/archive/hubs-cloud/getting-started copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/archive/hubs-cloud/getting-started copy 2"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/archive/hubs-cloud/introduction"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "developers/development-basics/networking",
+  "title": "Networking",
+  "description": "Intro",
+  "source": "@site/docs/developers/development-basics/networking.md",
+  "sourceDirName": "developers/development-basics",
+  "slug": "/developers/development-basics/networking",
+  "permalink": "/docs/docs/developers/development-basics/networking",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/developers/development-basics/networking.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Interactivity",
+    "permalink": "/docs/docs/developers/development-basics/interactivity"
+  },
+  "next": {
+    "title": "Extending Hubs: Custom Clients",
+    "permalink": "/docs/docs/developers/development-basics/extending-client"
+  }
+}

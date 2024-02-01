@@ -1,0 +1,27 @@
+{
+  "id": "fundamentals/fundamental-faqs",
+  "title": "FAQ",
+  "description": "What is the capacity of a Hubs room?",
+  "source": "@site/docs/fundamentals/fundamental-faqs.md",
+  "sourceDirName": "fundamentals",
+  "slug": "/fundamentals/fundamental-faqs",
+  "permalink": "/docs/docs/fundamentals/fundamental-faqs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/fundamentals/fundamental-faqs.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Troubleshooting",
+    "permalink": "/docs/docs/fundamentals/troubleshooting"
+  },
+  "next": {
+    "title": "Reskin Avatars",
+    "permalink": "/docs/docs/fundamentals/reskin-avatars"
+  }
+}

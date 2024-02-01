@@ -1,0 +1,27 @@
+{
+  "id": "subscription/help-subscription",
+  "title": "Subscription Help",
+  "description": "These are the best ways to get in touch with us and the community if you need help or are interested in learning more about Hubs.",
+  "source": "@site/docs/subscription/help-subscription.md",
+  "sourceDirName": "subscription",
+  "slug": "/subscription/help-subscription",
+  "permalink": "/docs/docs/subscription/help-subscription",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/subscription/help-subscription.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Frequently Asked Questions",
+    "permalink": "/docs/docs/subscription/faq-subscription"
+  },
+  "next": {
+    "title": "Getting Started With Hubs",
+    "permalink": "/docs/docs/fundamentals/getting-started"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "archive/hubs-cloud/third-party-integrations",
+  "title": "Recipe: 3rd Party Integrations",
+  "description": "Your hub includes integrations for searching useful content for visitors to spawn into their rooms using the Media Browser. There is built-in support for a variety of sites and search engines, such as Sketchfab. You can also tweet to share content directly from your hub.",
+  "source": "@site/docs/archive/hubs-cloud/third-party-integrations.md",
+  "sourceDirName": "archive/hubs-cloud",
+  "slug": "/archive/hubs-cloud/third-party-integrations",
+  "permalink": "/docs/docs/archive/hubs-cloud/third-party-integrations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/archive/hubs-cloud/third-party-integrations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Recipe: Permissive Rooms",
+    "permalink": "/docs/docs/archive/hubs-cloud/permissive-rooms"
+  },
+  "next": {
+    "title": "Recipe: Custom SMTP",
+    "permalink": "/docs/docs/archive/hubs-cloud/custom-smtp"
+  }
+}
