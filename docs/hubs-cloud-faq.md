@@ -19,7 +19,7 @@ Documentation for customizing your Hubs Cloud instance:
 - Managing accounts via the Admin Panel - _documentation coming soon_
 - [Customizing the user interface and client code](./hubs-cloud-custom-clients.md)
 
-## Personal vs. Enterprise?
+## Hubs Cloud Personal vs. Enterprise?
 
 - Personal defaults are lower cost. Enterprise defaults are higher cost but improve site functionality like no database pausing.
 - The main difference: Enterprise allows multiple servers. If one goes down unexpectantly, the others will take over. Personal allows only one server.
