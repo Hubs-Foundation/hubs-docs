@@ -1,4 +1,4 @@
-from node:16
+from node:18
 workdir docs
 copy . .
 run cd website && npm install && npm run build
