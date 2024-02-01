@@ -63,11 +63,6 @@ export default {
           "label": "Documentation"
         },
         {
-          "to": "/changelog",
-          "label": "Changelog",
-          "position": "left"
-        },
-        {
           "type": "dropdown",
           "label": "Learning",
           "position": "left",

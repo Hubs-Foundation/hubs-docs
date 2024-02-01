@@ -79,7 +79,7 @@ const config = {
             position: "left",
             label: "Documentation",
           },
-          { to: "/changelog", label: "Changelog", position: "left" },
+          // { to: "/changelog", label: "Changelog", position: "left" },
           {
             type: "dropdown",
             label: "Learning",
@@ -106,7 +106,7 @@ const config = {
             items: [
               {
                 label: "Hubs Demo Server",
-                href: "https://hubs.mozilla.com/spoke",
+                href: "https://hubs.mozilla.com/demo",
               },
               {
                 label: "Managed Subscription",
