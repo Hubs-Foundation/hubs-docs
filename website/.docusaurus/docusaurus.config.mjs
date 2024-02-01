@@ -14,8 +14,6 @@ export default {
   "baseUrl": "/docs/",
   "organizationName": "Mozilla",
   "projectName": "Hubs",
-  "onBrokenLinks": "throw",
-  "onBrokenMarkdownLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -88,7 +86,7 @@ export default {
           "items": [
             {
               "label": "Hubs Demo Server",
-              "href": "https://hubs.mozilla.com/spoke"
+              "href": "https://hubs.mozilla.com/demo"
             },
             {
               "label": "Managed Subscription",
@@ -404,7 +402,9 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
+  "onBrokenLinks": "throw",
   "onBrokenAnchors": "warn",
+  "onBrokenMarkdownLinks": "warn",
   "onDuplicateRoutes": "warn",
   "customFields": {},
   "plugins": [],
