@@ -20,7 +20,7 @@ For quick access to your favorite avatars, you can save them to "My Avatars" for
 
 Advanced user preferences (e.g., media volume, movement controls, graphics resolution, etc), can be found in the user preferences section of the dropdown menu.
 
-![Screenshot of avatar selection screen](/img/hubs-preference-menu.png)
+![Screenshot of avatar selection screen](/img/hubs-preference-menu.PNG)
 
 ### The available preferences are as follows
 
