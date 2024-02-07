@@ -159,7 +159,7 @@ To see how vCPU to CCU Min/Max was estimated see [AWS Estimated CCU Limits](./es
 
 2 app x 2 streaming servers recommended for best performance. [Why?](./estimating-cost.md#why-enterprise-2-app-x-2-stream)
 
-[How to read and use Alpha Cost Charts](./estimating-cost.md#how-to-read-and-use-alpha-cost-charts)
+[How to read and use Alpha Cost Charts](./estimating-cost.md)
 
 | EC2 Server Type                | Total vCPU (#) | Min CCU | Max CCU | Cost for EC2 (US\$/hr) |
 | ------------------------------ | -------------- | ------- | ------- | ---------------------- |

@@ -146,7 +146,7 @@ Your account is likely **NOT** an admin! Switch account or check your hub stack 
 
 ### How can I tell I'm on version 1.1.0?
 
-Follow steps in [Check if you're on version 1.1.0](./updating-the-stack.md#check-if-youre-on-version-110)
+Follow steps in [Check if you're on version 1.1.0](./updating-the-stack.md)
 
 ## Missing a solution?
 

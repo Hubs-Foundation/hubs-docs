@@ -24,7 +24,7 @@ See our [Estimating Costs and Charts (Alpha)](./estimating-cost.md) page.
 
 We've done our best to minimize costs in the template as much as possible. Your primary costs will be the EC2 AWS Server types you use hourly, the serverless hourly database costs, EFS storage, and, if you do not switch to Cloudflare, data transfer costs.
 
-EC2 instances, while "Online", will cost the [minimum cost](./estimating-cost.md) per hour per server for your instance AWS server type [(?)](./estimating-cost.md#aws-server-type-recommendations). This minimum cost is hourly regardless of how many people connect at a time. You can manually turn off your EC2 instance + database via turning on [**Offline mode**](./cost-saving.md#offline-mode---manual) where no one can connect to your server at the time.
+EC2 instances, while "Online", will cost the [minimum cost](./estimating-cost.md) per hour per server for your instance AWS server type [(?)](./estimating-cost.md). This minimum cost is hourly regardless of how many people connect at a time. You can manually turn off your EC2 instance + database via turning on [**Offline mode**](./cost-saving.md#offline-mode---manual) where no one can connect to your server at the time.
 
 Database costs is the largest factor next to EC2 instance, you can set [**database pausing**](./cost-saving.md#database-pausing---automatic) on to stop costs incurring when no one is connected.
 
@@ -74,15 +74,15 @@ For development with only a few users connecting + setting rooms + scenes, we re
 
 If your instance is in [**Offline mode**](./cost-saving.md#offline-mode---manual), manually update the stack to **Online** and wait 10 minutes.
 
-After, at least 1 hour before event, manually update the stack to scale up your AWS Server Type. For example 1 hour before your event, [update the stack](./updating-the-stack.md) from a **t3.medium** to **c4.large** [(?)](./estimating-cost.md#aws-server-type-recommendations).
+After, at least 1 hour before event, manually update the stack to scale up your AWS Server Type. For example 1 hour before your event, [update the stack](./updating-the-stack.md) from a **t3.medium** to **c4.large** [(?)](./estimating-cost.md).
 
 ### During your event
 
-If you notice performance issues, you can ad hoc [update the stack](./updating-the-stack.md) up more from a **c4.large** to **c5.2xlarge** [(?)](./estimating-cost.md#aws-server-type-recommendations). Your users in the rooms will have a brief freeze/voice drop while the users roll to the new servers.
+If you notice performance issues, you can ad hoc [update the stack](./updating-the-stack.md) up more from a **c4.large** to **c5.2xlarge** [(?)](./estimating-cost.md). Your users in the rooms will have a brief freeze/voice drop while the users roll to the new servers.
 
 ### After your event
 
-Scale down your AWS Server Type by [updating the stack](./updating-the-stack.md) from the **c5.2xlarge** to **t3.medium** [(?)](./estimating-cost.md#aws-server-type-recommendations) when finished or there are less users connected.
+Scale down your AWS Server Type by [updating the stack](./updating-the-stack.md) from the **c5.2xlarge** to **t3.medium** [(?)](./estimating-cost.md) when finished or there are less users connected.
 
 ### When no one is connecting to your instance for a long time
 
