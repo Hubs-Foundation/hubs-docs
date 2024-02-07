@@ -1,0 +1,27 @@
+{
+  "id": "subscription/creating-subscription",
+  "title": "Creating Your Hub",
+  "description": "This guide walks you through the steps of setting up your Hubs Subscription. If you experience unexpected results at any point of the process, please refer to the support page for more information.",
+  "source": "@site/docs/subscription/creating-subscription.md",
+  "sourceDirName": "subscription",
+  "slug": "/subscription/creating-subscription",
+  "permalink": "/docs/docs/subscription/creating-subscription",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/subscription/creating-subscription.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Choosing A Subscription",
+    "permalink": "/docs/docs/subscription/choosing-subscription"
+  },
+  "next": {
+    "title": "Updating/Cancelling Your Subscription",
+    "permalink": "/docs/docs/subscription/updating-subscription"
+  }
+}

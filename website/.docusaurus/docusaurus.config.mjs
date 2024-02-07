@@ -114,27 +114,27 @@ export default {
           "items": [
             {
               "label": "Introduction",
-              "to": "/docs/introduction/what-is-hubs"
+              "to": "/docs/docs/introduction/what-is-hubs"
             },
             {
               "label": "Hubs Subscription",
-              "to": "/docs/subscription/choosing-subscription"
+              "to": "/docs/docs/subscription/choosing-subscription"
             },
             {
               "label": "Hubs Fundamentals",
-              "to": "/docs/fundamentals/getting-started"
+              "to": "/docs/docs/fundamentals/getting-started"
             },
             {
               "label": "For Creators",
-              "to": "/docs/category/spoke"
+              "to": "/docs/docs/category/spoke"
             },
             {
               "label": "For Developers",
-              "to": "/docs/category/development-basics"
+              "to": "/docs/docs/category/development-basics"
             },
             {
               "label": "Documentation Archive",
-              "to": "/docs/archive/discord-bot"
+              "to": "/docs/docs/archive/discord-bot"
             }
           ]
         },

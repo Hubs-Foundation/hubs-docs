@@ -2114,20 +2114,20 @@
               },
               "next": {
                 "title": "Creating Your Hub",
-                "permalink": "/docs/docs/subscription/creating-subscripton"
+                "permalink": "/docs/docs/subscription/creating-subscription"
               }
             },
             {
-              "id": "subscription/creating-subscripton",
+              "id": "subscription/creating-subscription",
               "title": "Creating Your Hub",
               "description": "This guide walks you through the steps of setting up your Hubs Subscription. If you experience unexpected results at any point of the process, please refer to the support page for more information.",
-              "source": "@site/docs/subscription/creating-subscripton.md",
+              "source": "@site/docs/subscription/creating-subscription.md",
               "sourceDirName": "subscription",
-              "slug": "/subscription/creating-subscripton",
-              "permalink": "/docs/docs/subscription/creating-subscripton",
+              "slug": "/subscription/creating-subscription",
+              "permalink": "/docs/docs/subscription/creating-subscription",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/subscription/creating-subscripton.md",
+              "editUrl": "https://github.com/MozillaReality/hubs-docs/docs/subscription/creating-subscription.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -2299,7 +2299,7 @@
               "sidebar": "documentation",
               "previous": {
                 "title": "Creating Your Hub",
-                "permalink": "/docs/docs/subscription/creating-subscripton"
+                "permalink": "/docs/docs/subscription/creating-subscription"
               },
               "next": {
                 "title": "Managing Your Hub's Content",
@@ -2344,7 +2344,7 @@
                   },
                   {
                     "type": "doc",
-                    "id": "subscription/creating-subscripton"
+                    "id": "subscription/creating-subscription"
                   },
                   {
                     "type": "doc",

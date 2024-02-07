@@ -59,8 +59,8 @@
           {
             "type": "link",
             "label": "Creating Your Hub",
-            "href": "/docs/docs/subscription/creating-subscripton",
-            "docId": "subscription/creating-subscripton",
+            "href": "/docs/docs/subscription/creating-subscription",
+            "docId": "subscription/creating-subscription",
             "unlisted": false
           },
           {
@@ -1204,8 +1204,8 @@
       "description": "Hubs currently offers three managed subscription plans that allow users to customize the default behavior of their hub and manage content, such as virtual worlds and avatars, without the hassle of running their own server. If you are not ready to sign up for a plan, you can create a default room or custom scene for free on Mozilla's Demo Hub.",
       "sidebar": "documentation"
     },
-    "subscription/creating-subscripton": {
-      "id": "subscription/creating-subscripton",
+    "subscription/creating-subscription": {
+      "id": "subscription/creating-subscription",
       "title": "Creating Your Hub",
       "description": "This guide walks you through the steps of setting up your Hubs Subscription. If you experience unexpected results at any point of the process, please refer to the support page for more information.",
       "sidebar": "documentation"

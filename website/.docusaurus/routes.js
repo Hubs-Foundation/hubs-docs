@@ -69,15 +69,15 @@ export default [
   },
   {
     path: '/docs/docs',
-    component: ComponentCreator('/docs/docs', 'd84'),
+    component: ComponentCreator('/docs/docs', '9ee'),
     routes: [
       {
         path: '/docs/docs',
-        component: ComponentCreator('/docs/docs', '5cb'),
+        component: ComponentCreator('/docs/docs', 'dab'),
         routes: [
           {
             path: '/docs/docs',
-            component: ComponentCreator('/docs/docs', '39d'),
+            component: ComponentCreator('/docs/docs', '916'),
             routes: [
               {
                 path: '/docs/docs/archive/discord-bot',
@@ -602,8 +602,8 @@ export default [
                 sidebar: "documentation"
               },
               {
-                path: '/docs/docs/subscription/creating-subscripton',
-                component: ComponentCreator('/docs/docs/subscription/creating-subscripton', 'bfd'),
+                path: '/docs/docs/subscription/creating-subscription',
+                component: ComponentCreator('/docs/docs/subscription/creating-subscription', '5a1'),
                 exact: true,
                 sidebar: "documentation"
               },
