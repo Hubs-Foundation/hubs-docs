@@ -28,4 +28,4 @@ Invite people to meet in your new space by publishing your content to Hubs immed
 
 ## Getting started
 
-To build your first custom 3D environments check out Spoke's [interactive tutorial](https://hubs.mozilla.com/spoke/projects/tutorial) or take a look at the [Spoke documentation](./spoke-creating-projects.html).
+To build your first custom 3D environments check out Spoke's [interactive tutorial](https://hubs.mozilla.com/spoke/projects/tutorial) or take a look at the [Spoke documentation](./create-project.md).

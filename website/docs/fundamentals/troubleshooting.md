@@ -29,7 +29,7 @@ If your wired-in headset isn't connecting, we recommend checking the following:
 
 ## There is echo in the room
 
-Echo may occur if a participant is not wearing headphones. You can ask participants to mute their mic when they are not speaking, or as a room moderator you can mute them yourself in their avatar menu. You can also reduce the volume of the user in their avatar menu. See [Hubs Features](./hubs-features.html) for more information.
+Echo may occur if a participant is not wearing headphones. You can ask participants to mute their mic when they are not speaking, or as a room moderator you can mute them yourself in their avatar menu. You can also reduce the volume of the user in their avatar menu. See [Hubs Features](./hubs-features.md) for more information.
 
 ## I have generally bad performance in a room on an otherwise powerful computer
 

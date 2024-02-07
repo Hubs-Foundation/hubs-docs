@@ -25,7 +25,7 @@ Before entering, you are in the room's lobby. From here, you can see and hear wh
 
 **On a VR headset or mobile device?**
 
-- Take a look at the [instructions](./hubs-create-join-rooms.html#enter-the-room) in the Hubs documentation.
+- Take a look at the [instructions](./hubs-rooms.md#enter-the-room) in the Hubs documentation.
 
 ## Explore Hubs
 
@@ -33,11 +33,11 @@ Before entering, you are in the room's lobby. From here, you can see and hear wh
 
 Try exploring your new space. On desktop use your **WASD** or arrow keys to move around. You can also press your right mouse button to teleport to a different location. Rotate your view using the **Q** and **E** keys, or hold down your left mouse button and drag.
 
-For VR and mobile controls see our list of [Hubs controls](hubs-controls.html).
+For VR and mobile controls see our list of [Hubs controls](./controls.md).
 
 ### User Interface
 
-Take a moment to take a look around the user interface. You can mute your mic, take photos, share your screen, create objects, and more. We'll introduce the basics of some of these controls in this guide. For more detailed information check out the [Hubs Features](hubs-features.html) section of the documentation.
+Take a moment to take a look around the user interface. You can mute your mic, take photos, share your screen, create objects, and more. We'll introduce the basics of some of these controls in this guide. For more detailed information check out the [Hubs Features](./hubs-features.md) section of the documentation.
 
 ![Hubs Image](/img/hubs-user-interface.png)
 
@@ -60,7 +60,7 @@ Additional controls for objects, videos, and drawings can be found in their obje
 
 To reveal these controls, hover your cursor over the object and press the space bar or tab key on desktop.
 
-For VR and mobile controls see our complete list of [Hubs Controls](hubs-controls.html).
+For VR and mobile controls see our complete list of [Hubs Controls](./controls.md).
 
 ![Screenshot of the Object Menu](/img/intro-hubs-object-menu-min.jpeg)
 
@@ -73,7 +73,7 @@ If you are a room owner or moderator you will have extra permissions, like being
 
 ### Change the Scene
 
-You can change your scene to suit the mood of your event. There are lots of environments to choose from in our scene database, or you can create your own custom worlds using our scene editor [Spoke](intro-spoke.html). Explore the scene browser by opening the dropdown menu and selecting Choose a Scene.
+You can change your scene to suit the mood of your event. There are lots of environments to choose from in our scene database, or you can create your own custom worlds using our scene editor [Spoke](/creators/spoke/building-with-spoke.md). Explore the scene browser by opening the dropdown menu and selecting Choose a Scene.
 
 Note, only room moderators can change the scene. You also need to be signed in using your email address. Logging in is not required to use Hubs but doing so provides benefits such as being able to save favorite rooms, and upload custom avatars. All we need is an email address to authenticate your account &mdash; no additional information is required.
 
@@ -93,4 +93,4 @@ When you are ready to invite others click the "Share" button at the top of your 
 
 ## Next Steps
 
-This was just a quick overview of some of Hubs' basic features. For a detailed overview of what you can do in Hubs check out [Hubs Features](hubs-features.html) in the documentation.
+This was just a quick overview of some of Hubs' basic features. For a detailed overview of what you can do in Hubs check out [Hubs Features](./hubs-features.md) in the documentation.

@@ -8,15 +8,15 @@ sidebar_position: 5
 
 ## User Interface
 
-1. **Invite:** Opens a dialog box with information on sharing the room with friends. More info is provided in the [Invite Menu](./hubs-features.html#invite-menu) section at the bottom of this page.
+1. **Invite:** Opens a dialog box with information on sharing the room with friends. More info is provided in the [Invite Menu](./hubs-features.md#invite-menu) section at the bottom of this page.
 
 2. **Mute:** Toggles your microphone on/off.
 
-3. **Share:** Enables you to share your desktop, webcam, or phone camera with room members. The shared media will appear like a video in the room. Click this button again or use the [object menu](./hubs-features.html#object-menu) to remove the media.
+3. **Share:** Enables you to share your desktop, webcam, or phone camera with room members. The shared media will appear like a video in the room. Click this button again or use the [object menu](./hubs-features.md#object-menu) to remove the media.
 
 4. **Place:** Opens a search tool to find media you can bring into the room. Select from 3D models, scenes, avatars and gifs, or provide a URL or file for an image, video, model or scene. Additional objects that you can place are listed below:
 
-   - **Pen:** Lets you draw in 3D space. You can change the pen's size and color (see [Hubs Controls](./hubs-controls.html)), undo strokes, and generate 3D models from your drawing (see the [drawing menu](./hubs-features.html#drawing-menu)).
+   - **Pen:** Lets you draw in 3D space. You can change the pen's size and color (see [Hubs Controls](./controls.md)), undo strokes, and generate 3D models from your drawing (see the [drawing menu](./hubs-features.md#drawing-menu)).
 
    - **Camera:** Creates a camera object that can take photos and videos of the room then add them to the room as objects. When you take a photo or video, a link also appears in the chat. Click the camera button again to remove the camera object.
 
@@ -46,7 +46,7 @@ sidebar_position: 5
 
 ## Menus
 
-Room objects and avatars have their own menus. To reveal them on desktop computers, hover your cursor on the object, and press the space bar (or tab). For VR devices, see the [Controls](./hubs-controls.html) section of the docs.
+Room objects and avatars have their own menus. To reveal them on desktop computers, hover your cursor on the object, and press the space bar (or tab). For VR devices, see the [Controls](./controls.md) section of the docs.
 
 ### Object Menu
 
@@ -109,7 +109,7 @@ Hover your cursor on a video to display its video controls.
 
 ## Emoji Spawners
 
-A menu of emoji spawners is displayed when you display [object or avatar menus](./hubs-features.html#menus).
+A menu of emoji spawners is displayed when you display [object or avatar menus](./hubs-features.md#menus).
 
 ![Hubs - Emoji Spawners Menu](/img/hubs-emoji-spawners.jpeg)
 

@@ -6,7 +6,7 @@ sidebar_position: 4
 
 The two forms of content you can import into Hubs Cloud are **avatars** and **scenes**. Avatars are 3D figures like robots, humans, and ducks that can be worn by visitors to represent themselves, and scenes are 3D environments like interiors and landscapes that provide visual grounding for a room.
 
-Mozilla offers a number of [Asset Packs](./asset-packs.md) you can import to add some initial content to your hub. Additionally, you can import any custom content you've created, either on [hubs.mozilla.com](https://hubs.mozilla.com), or using the tools like the Scene Editor available on your hub. For more information about the Scene Editor, see [Spoke Documentation](/creators/spoke/create-project.html)[^1].
+Mozilla offers a number of [Asset Packs](./asset-packs.md) you can import to add some initial content to your hub. Additionally, you can import any custom content you've created, either on [hubs.mozilla.com](https://hubs.mozilla.com), or using the tools like the Scene Editor available on your hub. For more information about the Scene Editor, see [Spoke Documentation](/creators/spoke/create-project.md)[^1].
 
 ### Admin Import Tool
 

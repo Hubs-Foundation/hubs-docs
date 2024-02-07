@@ -55,12 +55,12 @@ Launched in July 2023, Hubs Personal makes it easier to fully customize your Hub
 
 Launched in July 2023, Hubs Professional gives you event more control over your Hub without the hassle of configuring a server and database. With advanced tools and higher server capacity, educators and teams are able fully control the look and feel of their Hub while engaging more users. Custom Client deployment also allows you to build, test, and deploy custom code, allowing you to integrate the features and interactivity your visitors love.
 
-| Professional Plan Specifications |                                                                                        |
-| -------------------------------- | -------------------------------------------------------------------------------------- |
-| Worlds                           | Unlimited                                                                              |
-| Concurrent Users                 | 50                                                                                     |
-| Asset Storage                    | 25 GB                                                                                  |
-| Server Auto-Pausing              | Never                                                                                  |
-| Domain                           | Custom myhubs.net web address or [Connect a Custom Domain](./setup-custom-domain.html) |
-| Branding                         | Upload custom logos and theme-ing colors                                               |
-| Custom Code                      | Deploy a [custom version of the hubs frontend code](./setup-custom-client.html)        |
+| Professional Plan Specifications |                                                                                |
+| -------------------------------- | ------------------------------------------------------------------------------ |
+| Worlds                           | Unlimited                                                                      |
+| Concurrent Users                 | 50                                                                             |
+| Asset Storage                    | 25 GB                                                                          |
+| Server Auto-Pausing              | Never                                                                          |
+| Domain                           | Custom myhubs.net web address or [Connect a Custom Domain](./custom-domain.md) |
+| Branding                         | Upload custom logos and theme-ing colors                                       |
+| Custom Code                      | Deploy a [custom version of the hubs frontend code](./custom-client.md)        |

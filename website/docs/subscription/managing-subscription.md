@@ -55,7 +55,7 @@ The Import Content tool on the Admin Panel makes it easy to share and rehost ass
 
 <img src="/img/import-content.png" alt="Import content tab"/>
 
-If you are interested in our recommended assets, please see [our asset pack suggestions](./hubs-cloud-asset-packs.html). It is also easy to find scenes and avatars on [Mozilla's Demo Hub](https://hubs.mozilla.com/Pvg5MMt/hubs-demo). While browsing scenes and avatars from the community in Mozilla's Demo Hub, you can copy the url of any shared assets and import them onto your server.
+If you are interested in our recommended assets, please see [our asset pack suggestions](/archive/hubs-cloud/asset-packs.md). It is also easy to find scenes and avatars on [Mozilla's Demo Hub](https://hubs.mozilla.com/Pvg5MMt/hubs-demo). While browsing scenes and avatars from the community in Mozilla's Demo Hub, you can copy the url of any shared assets and import them onto your server.
 
 <img src="/img/browsing-assets.png" alt="Browsing for assets"/>
 
@@ -216,7 +216,7 @@ Depending on your subscription plan, your hub will allow you to customize the us
 
 <img src="/img/logos-tab.png" alt="Deleting assets in spoke"/>
 
-In the "Themes" tab, you are able to upload your own JSON theme-ing object to fully customize the UI colors of your hub. For more information on updating your hub's theme, check out [this guide](./hubs-cloud-customizing-themes.html).
+In the "Themes" tab, you are able to upload your own JSON theme-ing object to fully customize the UI colors of your hub. For more information on updating your hub's theme, check out [this guide](/archive/hubs-cloud/customizing-themes.md).
 
 <img src="/img/themes-tab.png" alt="Deleting assets in spoke"/>
 

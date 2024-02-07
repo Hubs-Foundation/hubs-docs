@@ -6,7 +6,7 @@ sidebar_position: 9
 
 ## Lights
 
-Lighting can change the mood of your scene. In addition to [Skyboxes](./spoke-skyboxes.html), lighting can come from the following sources:
+Lighting can change the mood of your scene. In addition to [Skyboxes](./skyboxes.md), lighting can come from the following sources:
 
 | Light             | Effect                                                           |
 | ----------------- | ---------------------------------------------------------------- |

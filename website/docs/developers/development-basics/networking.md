@@ -10,7 +10,7 @@ This document describes the way that entity state is networked across clients
 and optionally [persisted to the database](#persistency).
 
 Entity state includes things like what objects should be created by each client
-in a room, where those objects are, and associated [component](./dev-client-gameplay.html)
+in a room, where those objects are, and associated [component](./gameplay.md)
 data. [`WebRTC`](https://webrtc.org/) connections for streaming data (voice,
 video, screenshare) are out of scope for this document: Those are handled
 separately by [`dialog`](https://github.com/mozilla/dialog) and the
@@ -21,7 +21,7 @@ TODO: Add the link to our WebRTC document when it will be ready
 ### Target readers
 
 This document is intended for users with some coding experience that know
-[our basic gameplay code concept](./dev-client-gameplay.html) and want to write
+[our basic gameplay code concept](./gameplay.md) and want to write
 the networking gameplay functionality of the Hubs client.
 
 ## Networking Overview
@@ -67,8 +67,8 @@ the network with an unnecessary amount of update messages.
 
 ### Message receiver
 
-Clients receive messages outside of frame ([`mainTick`](./dev-client-gameplay.html))
-boundaries, and simply queue them for processing. Some core [systems](./dev-client-gameplay.html)
+Clients receive messages outside of frame ([`mainTick`](./gameplay.md))
+boundaries, and simply queue them for processing. Some core [systems](./gameplay.md)
 in clients process queued messages each frame in `mainTick`.
 
 ### Partial or full update
@@ -87,7 +87,7 @@ Hubs Client manages who the creator of `networked instanciated entities`,
 `networked entities` instanciated by it are removed from the room.
 
 In order to keep these entities stayed in the room even after their authors
-leave a room, the entity must be [`pinned`](https://hubs.mozilla.com/docs/hubs-features.html).
+leave a room, the entity must be [`pinned`](/fundamentals/hubs-features.md).
 Pinned entities are stored in database in Reticulum.
 
 [More details will be explained later.](#persisting-networked-entity-state)
@@ -116,7 +116,7 @@ clients will respect that claim.
 Users can first call the built-in `takeSoftOwnership()` function to try to
 take ownership and then inspect the ownership state with the built-in
 `Networked` or `Owned` components as needed in cases when their ownership
-claims matter. They may find themselves writing [coroutines](./dev-client-gameplay.html)
+claims matter. They may find themselves writing [coroutines](./gameplay.md)
 that looks like this:
 
 ```typescript
@@ -250,14 +250,14 @@ component. Hubs Clients make their components data synched with remote clients.
 
 ### Prefab
 
-[Prefabs](./dev-client-gameplay.html#prefab) for networked entities must be
+[Prefabs](./gameplay.md#prefab) for networked entities must be
 registered in the built-in `prefabs` map defined in
 registered in the built-in `prefabs` map defined in
 [`src/prefabs/prefabs.ts`](https://github.com/mozilla/hubs/blob/master/src/prefabs/prefabs.ts),
 which is a map from `prefabName` string to `PrefabDefinition`, to let
 [`createNetworkedEntity()`](#createnetworkedentity) recognize it.
 `PrefabDefinition`s include functions that take `InitialData` and return
-[`EntityDef`](./dev-client-gameplay.html)s.
+[`EntityDef`](./gameplay.md)s.
 
 Prefabs for networked entities must include `networked` key that is for
 [Networked component](#networked-component) that manages networking related
@@ -374,7 +374,7 @@ When [`createNetworkedEntity()`](#createnetworkedentity) is called,
 created synchronously. That is, any asynchronous loading that entities need
 to do to be &ldquo;fully realized&rdquo; will happen later. For example
 some accociated components or descendant entities may be set up asynchronously
-[as explained here](./dev-client-gameplay.html#asynchronous-component-initialization).
+[as explained here](./gameplay.md#asynchronous-component-initialization).
 
 Between the time that the `network instantiated entities` are created and the
 time that the associated components or descendant entities are set up Hubs
@@ -598,7 +598,7 @@ By default, `networked instanciated entities` which are created with
 the built-in [`createNetworkedEntity()`](#createnetworkedentity) function,
 are removed when their creator (client) is disconnects. In order to persist
 these entities the entity must be
-[`pinned`](https://hubs.mozilla.com/docs/hubs-features.html). Only
+[`pinned`](/fundamentals/hubs-features.md). Only
 `networked instanciated entities` can be `pinned`.
 
 To `pin` an `network instantiated entities`, a client calls the built-in

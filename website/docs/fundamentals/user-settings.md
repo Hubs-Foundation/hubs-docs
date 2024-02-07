@@ -8,7 +8,7 @@ sidebar_position: 7
 
 The first time you enter a Hubs room you will choose a name and an avatar. You can change them at any time by clicking the 'People' menu in the top left corner of the screen and selecting your own name from the list.
 
-Use one of our featured avatars or [upload your own](intro-avatars.html).
+Use one of our featured avatars or [upload your own](./custom-avatars.md).
 
 ### My Avatars
 

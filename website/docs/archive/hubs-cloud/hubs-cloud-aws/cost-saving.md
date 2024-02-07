@@ -90,7 +90,7 @@ You can turn your hub to [**Offline mode**](./cost-saving.md#offline-mode---manu
 
 ## Stack Cost Management Options
 
-To enable these options, follow [Update the Stack instructions](./updating-the-stack.html).
+To enable these options, follow [Update the Stack instructions](./updating-the-stack.md).
 
 - Enable **Auto-Pause Database**. On by default for Personal and settable by Enterprise.
 - Toggle **Offline mode** to "Online" to "Offline" manually. Your EC2 and database costs will be \$0/hour when you've turned your servers off.
@@ -101,7 +101,7 @@ To enable these options, follow [Update the Stack instructions](./updating-the-s
 
 If **Auto-Pause Database** or **database pausing** is "Yes - Pause database when not in use", after no one has connected to your instance for a while, your database and the costs incurred by your database will stop until a user connects again. It takes 1-3 minutes for the database to turn back on and allow the first user to connect. Subsequent connections will occur quickly afterward.
 
-To enable database pausing, follow [Update the Stack instructions](./updating-the-stack.html).
+To enable database pausing, follow [Update the Stack instructions](./updating-the-stack.md).
 
 ### Offline Mode - manual
 
@@ -109,7 +109,7 @@ When you set **Offline mode** to "Offline", you've completely turned off your se
 
 Turning **Offline mode** to "Offline" to "Online" and vice versa is a manual process. Wait 10 minutes afterward to connect.
 
-To toggle Offline/Online, follow [Update the Stack instructions](./updating-the-stack.html).
+To toggle Offline/Online, follow [Update the Stack instructions](./updating-the-stack.md).
 
 ### Monthly Database Budget - automatic
 
@@ -117,7 +117,7 @@ Careful with the **Monthly Database Budget** setting, we recommend $0 (unlimited
 
 Personal and Enterprise defaults to \$0 (unlimited).
 
-To set budget, follow [Update the Stack instructions](./updating-the-stack.html).
+To set budget, follow [Update the Stack instructions](./updating-the-stack.md).
 
 ### Change content CDN to Cloudflare Workers - 1 time update
 

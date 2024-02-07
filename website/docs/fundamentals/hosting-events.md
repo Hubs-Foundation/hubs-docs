@@ -8,8 +8,8 @@ This guide will talk you through the process of using Hubs for an event on [Mozi
 
 If you're new to Mozilla Hubs, check out these getting started guides to familiarize yourself with the platform:
 
-1. [Getting Started with Hubs](./intro-hubs.html)
-2. [Familiarize yourself with Hubs Controls](./hubs-controls.html)
+1. [Getting Started with Hubs](./getting-started.md)
+2. [Familiarize yourself with Hubs Controls](./controls.md)
 
 ## Events in Hubs
 
@@ -17,7 +17,7 @@ Hubs is a platform where you can create private rooms and meet with friends in a
 
 Events in Hubs work best for meetups that are designed to have attendees engaged and participating actively with one another, or as a shared viewing environment for streamed video content.
 
-If you are interested in hosting a large event with multiple tracks, you may be interested in exploring [Hubs Cloud](./hubs-cloud-getting-started.html). Hubs Cloud allows you to customize your deployment of the Hubs platform, so that you manage and maintain the system, offers configuration tools for rooms and accounts, and is better suited for larger events. For events that have larger participant interest, we recommend creating several viewing rooms and streaming the primary content to a service like [Twitch](https://twitch.tv).
+If you are interested in hosting a large event with multiple tracks, you may be interested in exploring [Hubs Cloud](/archive/hubs-cloud/getting-started.md). Hubs Cloud allows you to customize your deployment of the Hubs platform, so that you manage and maintain the system, offers configuration tools for rooms and accounts, and is better suited for larger events. For events that have larger participant interest, we recommend creating several viewing rooms and streaming the primary content to a service like [Twitch](https://twitch.tv).
 
 ## Setting up a Room
 
@@ -31,7 +31,7 @@ You can specify whether users in the room are able to create and move objects, p
 
 ## Choosing a Scene
 
-With Hubs, you can create your own scenes to use as the environment for your rooms. Any scene can be used to create multiple rooms, and you can remix existing scenes that have been shared with a Creative Commons license in [Spoke](./intro-spoke.html) to make edits and personalize spaces. For events, we've provided a few example scenes below to get you started.
+With Hubs, you can create your own scenes to use as the environment for your rooms. Any scene can be used to create multiple rooms, and you can remix existing scenes that have been shared with a Creative Commons license in [Spoke](/creators/spoke/building-with-spoke.md) to make edits and personalize spaces. For events, we've provided a few example scenes below to get you started.
 
 [Conference Room A](https://hubs.mozilla.com/scenes/GvQthTN/conference-room-a) - A smaller meeting room for professional meetings of up to ten users
 
@@ -45,7 +45,7 @@ With Hubs, you can create your own scenes to use as the environment for your roo
 
 [Conference Lobby Hall](https://hubs.mozilla.com/scenes/u3ezwKe/customizable-conference-lobby) - A large space with room to move around to different places and converse, with places to link other rooms
 
-From each of the above scene URLs, you can "Create a room with this scene" directly from the scene page. Alternatively, you can paste the scene URL into an existing room that you have already created and [change the scene from within the room by following these steps](./hubs-room-settings.html#change-the-scene).
+From each of the above scene URLs, you can "Create a room with this scene" directly from the scene page. Alternatively, you can paste the scene URL into an existing room that you have already created and [change the scene from within the room by following these steps](./room-settings.md#change-the-scene).
 
 ## Invitations
 
@@ -55,7 +55,7 @@ By default, Hubs rooms [are private, available only to people who you share the 
 
 For an additional authentication mechanism, you can use [Discord](https://discordapp.com) and our [Hubs Discord Bot](https://hubs.mozilla.com/discord) to create rooms. This will require that users are a) a member of your Discord server, b) allowed in the channel the room has been bound to and c) signed in before they can access the Hubs room.
 
-Read more about the [Discord Bot](./hubs-discord-bot.html).
+Read more about the [Discord Bot](/archive/discord-bot.md).
 
 ### Embedded Rooms
 
@@ -65,8 +65,8 @@ You can also embed rooms that you own into an existing webpage via an iframe. Fo
 
 If your event is semi-public or public, you should have a moderation strategy in place. The following links explain the tools that are available to you as the room creator, and how to promote trusted users in the room to also be moderators to help manage a space. Generally, for events that are open to a semi-trusted or anonymous audience, we recommend having multiple moderators to help manage the space. Please keep in mind that anyone who has access to the room link will be able to enter your room unless you have configured the Discord authentication mechanism, or are running a configured Hubs Cloud instance.
 
-- [Promoting Room Moderators](./hubs-room-settings.html#promoting-room-moderators).
-- [Temporarily Kick Users](./hubs-room-settings.html#kick-users).
+- [Promoting Room Moderators](./room-settings.md#promoting-room-moderators).
+- [Temporarily Kick Users](./room-settings.md#kick-users).
 
 If you are using the Discord Bot for moderation, you can remove a user permanently by revoking their Discord account from being able to access the specific channel that is used for the Hubs room, or by removing them from your Discord server.
 

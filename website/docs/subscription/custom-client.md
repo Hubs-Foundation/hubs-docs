@@ -25,7 +25,7 @@ If you need more assistance, we recommend following along with our [Custom Clien
 
 ## Prerequisites
 
-1. You must have a [Custom Domain](./setup-custom-domain.html) deployed on your Hub before you can upload a custom client.
+1. You must have a [Custom Domain](./custom-domain.md) deployed on your Hub before you can upload a custom client.
 
 2. Make sure you have [docker](https://www.docker.com/) installed on your device. Testing for this feature utilized docker version `20.10.21`.
 
@@ -37,7 +37,7 @@ If you need more assistance, we recommend following along with our [Custom Clien
 
 3. Change directory into the folder of your project and run `npm run dev` to start a development server. Once the code has compiled, you will be able to access this development server at `localhost:8080` on your web browser.
 
-4. Add your customizations to the Hubs code. See the [For Developers](http://localhost:3000/docs/system-overview.html) section of these docs for information about how to get started with your customizations.
+4. Add your customizations to the Hubs code. See the [For Developers](/developers/development-basics/dev-basics.md) section of these docs for information about how to get started with your customizations.
 
 &nbsp;&nbsp;&nbsp;<u>**Troubleshooting**</u>
 

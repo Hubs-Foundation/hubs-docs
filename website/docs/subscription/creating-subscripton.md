@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Creating Your Hub
 
-_This guide walks you through the steps of setting up your Hubs Subscription. If you experience unexpected results at any point of the process, please refer to [the support page](./setup-contact.html) for more information._
+_This guide walks you through the steps of setting up your Hubs Subscription. If you experience unexpected results at any point of the process, please refer to [the support page](./help-subscription.md) for more information._
 
 **Table of Contents**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[How To Subscribe - Starter Plan](#how-to-subscribe---starter-plan)\

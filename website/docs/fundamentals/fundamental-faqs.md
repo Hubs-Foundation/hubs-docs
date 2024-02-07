@@ -6,7 +6,7 @@ sidebar_position: 11
 
 ## What is the capacity of a Hubs room?
 
-We recommend a maximum of 25 in-room participants. This capacity is the default because low power devices, such as mobile phones and standalone VR headsets, may begin experiencing performance issues in busier rooms. You can adjust the room capacity in the [room settings](hubs-room-settings.html) menu.
+We recommend a maximum of 25 in-room participants. This capacity is the default because low power devices, such as mobile phones and standalone VR headsets, may begin experiencing performance issues in busier rooms. You can adjust the room capacity in the [room settings](room-settings.md) menu.
 
 Once a room is full, all additional users (participant #26 and beyond) can still participate by watching from the lobby. Users in the lobby can see and hear what's happening in the room and interact via text chat; however, they are not represented as avatars in the room and their mic is not active. There is no hard limit on lobby capacity, however, performance may decrease once there are over one hundred people in the lobby.
 
@@ -24,7 +24,7 @@ Hubs has the ability to play videos in the room, which allows you to watch with 
 
 ## Where does the chat log go?
 
-The chat log only exists temporarily. Messages disappear after a set period of time. We are working on developing chat scrollback. Until this is released, you can also keep track of in-world chat by setting up the [Hubs Discord Bot](hubs-discord-bot.html).
+The chat log only exists temporarily. Messages disappear after a set period of time. We are working on developing chat scrollback. Until this is released, you can also keep track of in-world chat by setting up the [Hubs Discord Bot](/archive/discord-bot.md).
 
 ## Can I share a PowerPoint presentation in Hubs?
 
@@ -34,7 +34,7 @@ To use a PowerPoint in Hubs, you can convert it to a PDF file and import it dire
 
 ## Is it possible to have my video or slides show up in a good place (like on a wall) automatically?
 
-Precise positioning using the [object controls](./hubs-features.html#object-menu) in Hubs can be a bit tricky at the moment. ([We are working on it!](https://github.com/mozilla/hubs/issues/1324))
+Precise positioning using the [object controls](./hubs-features.md#object-menu) in Hubs can be a bit tricky at the moment. ([We are working on it!](https://github.com/mozilla/hubs/issues/1324))
 
 If precise positioning is important, you may prefer to build your media into the scene using [Spoke](https://hubs.mozilla.com/spoke), Hubs' web-based scene editing tool. Spoke has controls that let you fine tune object placement.
 
@@ -42,7 +42,7 @@ In the meantime, you may find it easier to resize and place objects when using H
 
 ## What devices does Hubs run on?
 
-Because it runs in the browser, Hubs is very cross-platform compatible. It works on mobile, desktop, and VR devices, and runs on most modern browsers. For more information check out the [supported devices & browsers](./hubs-create-join-rooms.html#supported-devices--browsers) section.
+Because it runs in the browser, Hubs is very cross-platform compatible. It works on mobile, desktop, and VR devices, and runs on most modern browsers. For more information check out the [supported devices & browsers](./hubs-rooms.md#supported-devices--browsers) section.
 
 ## Why are lines on my drawings disappearing?
 
@@ -50,11 +50,11 @@ There is a maximum number of lines that can be included in drawings using the pe
 
 ## Can I create custom environments?
 
-Environments are completely customizable using [Spoke](https://hubs.mozilla.com/spoke), Hubs' web-based scene editing tool. [Learn more here.](intro-spoke.html)
+Environments are completely customizable using [Spoke](https://hubs.mozilla.com/spoke), Hubs' web-based scene editing tool. [Learn more here.](/creators/spoke/building-with-spoke.md)
 
 ## How do I record my event in Hubs?
 
-We recommend using screen recording software like [OBS](https://obsproject.com/) to capture events in Hubs. To hide the user interface when recording, you can press the backtick key ( ` ), or turn on [camera mode](hubs-room-settings.html#camera-mode).
+We recommend using screen recording software like [OBS](https://obsproject.com/) to capture events in Hubs. To hide the user interface when recording, you can press the backtick key ( ` ), or turn on [camera mode](./room-settings.md#camera-mode).
 
 ## Can I add custom interactive objects to my room?
 
@@ -68,7 +68,7 @@ Hubs supports importing glTF binary (.glb) models. If the tool you use doesn't c
 
 ## Is it possible to create my own avatar?
 
-For sure! We love seeing custom avatars. You can either re-skin the default avatars or upload your own 3D model (.glb). For more information check out the [Creating Custom Avatars](./custom-avatars.html) section.
+For sure! We love seeing custom avatars. You can either re-skin the default avatars or upload your own 3D model (.glb). For more information check out the [Creating Custom Avatars](./custom-avatars.md) section.
 
 ## Is it possible to create a link to another room from within a room?
 
@@ -76,7 +76,7 @@ Yes, just copy and paste a link for one Hubs room into another (or paste the URL
 
 ## Can I prevent other people in the room from drawing, controlling slides/videos, etc?
 
-If you are the room moderator you can turn these on/off by going to [room settings](hubs-room-settings.html) in the dropdown menu.
+If you are the room moderator you can turn these on/off by going to [room settings](./room-settings.md) in the dropdown menu.
 
 ## Is there a laser pointer tool in VR?
 
@@ -92,15 +92,15 @@ You need to leave VR mode to access the text chat box & preferences on Quest. Pr
 
 ## Why do things disappear when I leave the room?
 
-Check out the [troubleshooting](hubs-troubleshooting.html#objects-disappear-after-leaving-room) section.
+Check out the [troubleshooting](./troubleshooting.md#objects-disappear-after-leaving-room) section.
 
 ## When I load a room, I get an error saying unable to connect to room. Help!
 
-Check out the [troubleshooting](hubs-troubleshooting.html#unable-to-connect-error) section.
+Check out the [troubleshooting](./troubleshooting.md#unable-to-connect-error) section.
 
 ## Why is there echo in the room?
 
-Check out the [troubleshooting](hubs-troubleshooting.html#there-is-echo-in-the-room) section.
+Check out the [troubleshooting](./troubleshooting.md#there-is-echo-in-the-room) section.
 
 ## How much does Hubs cost for an event?
 
@@ -110,13 +110,13 @@ If you are interested in hosting an event, or would like to create a customized 
 
 ## Can I prevent unregistered attendees from attending my event?
 
-Hubs rooms can only be accessed by individuals with the URL. Authentication can be done either the [Hubs Discord Bot](hubs-discord-bot.html), or using an approved list of users in [Hubs Cloud](https://hubs.mozilla.com/cloud).
+Hubs rooms can only be accessed by individuals with the URL. Authentication can be done either the [Hubs Discord Bot](/archive/discord-bot.md), or using an approved list of users in [Hubs Cloud](https://hubs.mozilla.com/cloud).
 
 ## Can I run custom code in a Hubs room?
 
 You can't run custom code in the main Hubs website (hubs.mozilla.com) but you can add your own if you self-host using Hubs Cloud (see previous answers). To add custom code you will need to create your own custom fork of the Hubs Cloud client.
 
-For more information, see our documentation on [custom clients](./hubs-cloud-custom-clients.html).
+For more information, see our documentation on [custom clients](/developers/development-basics/extending-client.md).
 
 ## Is it possible for me to create a custom version of Hubs which has different features or styling?
 
@@ -128,7 +128,7 @@ It's not possible to pay Mozilla for custom work, however, our code is open sour
 
 ## Can I run my virtual event in Hubs?
 
-Yes, check out the information [here](./intro-events.html) for more information on how to get started:
+Yes, check out the information [here](./hosting-events.md) for more information on how to get started:
 
 If you have questions about whether Hubs will be a good fit for your event, drop by our office-hours or meetup to speak to a member of our team. See our community [Discord chat server](https://discord.gg/wHmY4nd) for the schedule.
 

@@ -36,7 +36,7 @@ The easiest way to design a new skin for a robot avatar is to use our avatar re-
 
 ![Examples of robot avatars](/img/intro-hubs-tryquilt.jpeg)
 
-For downloadable .psd files see our [advanced avatar customization](creators-advanced-avatar-customization.html) documentation.
+For downloadable .psd files see our [advanced avatar customization](./custom-avatars.md) documentation.
 
 ### Create a box bot texture
 
@@ -46,4 +46,4 @@ The easiest way to create a new skin for a box bot is to use a Minecraft avatar 
 
 ## Advanced Avatar Customization
 
-For more on customizing Hubs avatars, such as texture maps, downloadable templates, and instructions for using your own 3D models, check out the [advanced avatar customization](creators-advanced-avatar-customization.html) section of the documentation.
+For more on customizing Hubs avatars, such as texture maps, downloadable templates, and instructions for using your own 3D models, check out the [advanced avatar customization](./custom-avatars.md) section of the documentation.

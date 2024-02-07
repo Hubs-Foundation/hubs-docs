@@ -78,6 +78,6 @@ are defined in `webpack.config.js`.
 
 Check out the other docs.
 
-- [Core Concepts for Gameplay Code](./dev-client-gameplay.html)
-- [Interactivity (WIP)](./dev-client-interactivity.html)
-- [Networking](./dev-client-networking.html)
+- [Core Concepts for Gameplay Code](./gameplay.md)
+- [Interactivity (WIP)](./interactivity.md)
+- [Networking](./networking.md)

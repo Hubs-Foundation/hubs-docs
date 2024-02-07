@@ -18,7 +18,7 @@ PLEASE NOTE: The data limit is not currently enforced for Hubs Personal and Prof
 
 ### I am trying to lower my content storage by deleting data, but the counter on the subscription dashboard is not updating. What am I doing wrong?
 
-It may take up to 3 days for your Hub to completely remove data you have manually deleted in Spoke or the Admin panel. We are also aware of bugs in the tools used to delete data, informing our decision to currently suspend enforcement of the data limit for Hubs Personal subscribers. If you experience persistent issues trying to manage or delete data, please contact us through [one of our support channels](./setup-contact.html).
+It may take up to 3 days for your Hub to completely remove data you have manually deleted in Spoke or the Admin panel. We are also aware of bugs in the tools used to delete data, informing our decision to currently suspend enforcement of the data limit for Hubs Personal subscribers. If you experience persistent issues trying to manage or delete data, please contact us through [one of our support channels](./help-subscription.md).
 
 ### What happens if I exceed my Hub's concurrent user limit?
 
@@ -40,7 +40,7 @@ While it is possible to upgrade from a Personal to Professional Plan, you must c
 
 ### I know I can deploy a custom client with a professional plan. Can I also deploy a custom version of Spoke?
 
-While custom Spoke deployments are not currently supported, we hope to be able to enable them soon. However, we are using the [Hubs Blender Add-On](./creators-blender-components.html) to develop and expose new features for designing worlds in Hubs. We highly recommend moving your custom Spoke features to the Blender Add-On.
+While custom Spoke deployments are not currently supported, we hope to be able to enable them soon. However, we are using the [Hubs Blender Add-On](/creators/blender-add-on/intro-add-on.md) to develop and expose new features for designing worlds in Hubs. We highly recommend moving your custom Spoke features to the Blender Add-On.
 
 ### I am interested in deploying a custom client to my Hub. How can I keep up with the Hubs Team's regular releases?
 

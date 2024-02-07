@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## Advanced Re-skinning
 
-As described in the [creating custom avatars](intro-avatars.html) page, the most straightforward way to customize an avatar for Hubs is to upload a custom texture set. The simplest version of re-skinning the robot avatar would be to simply paint a 'baseColor' map.
+As described in the [creating custom avatars](/fundamentals/custom-avatars.md) page, the most straightforward way to customize an avatar for Hubs is to upload a custom texture set. The simplest version of re-skinning the robot avatar would be to simply paint a 'baseColor' map.
 
 For more advanced customization, you can use the following resources:
 
@@ -63,7 +63,7 @@ However, in our current implementation in Hubs, we have eliminated some of the b
 
 ### Use a Regular .glb File
 
-You can use any .glb object as an avatar. This could be something you made on your own, or a creative-commons asset from Sketchfab or Google Poly. Sometimes .glb files need a few modifications to work properly as avatars. You may wish to open the object in Blender to fix the object's scale (it should be about 1.7 meters), ensure the object is facing forward, move the object backwards a bit so it doesn't obstruct your view. You might also want to optimize the object using the tips in the [optimizing scenes page](spoke-optimization.html)
+You can use any .glb object as an avatar. This could be something you made on your own, or a creative-commons asset from Sketchfab or Google Poly. Sometimes .glb files need a few modifications to work properly as avatars. You may wish to open the object in Blender to fix the object's scale (it should be about 1.7 meters), ensure the object is facing forward, move the object backwards a bit so it doesn't obstruct your view. You might also want to optimize the object using the tips in the [optimizing scenes page](/creators/spoke/optimizing-scenes.md)
 
 ### Upload your own model
 

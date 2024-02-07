@@ -6,9 +6,9 @@ sidebar_position: 8
 
 ## Change the Scene
 
-There are lots of scenes to choose from in our featured scenes browser. You can also upload your own using our scene editor, [Spoke](./intro-spoke.html). If you are a room moderator, find the scene browser by opening the dropdown menu and selecting "Choose a Scene".
+There are lots of scenes to choose from in our featured scenes browser. You can also upload your own using our scene editor, [Spoke](/creators/spoke/building-with-spoke.md). If you are a room moderator, find the scene browser by opening the dropdown menu and selecting "Choose a Scene".
 
-Note that only featured scenes have been tested for performance across devices. For more information on how featured scenes are selected take a look at our [Featured Content Guidelines](./creators-content-guidelines.html).
+Note that only featured scenes have been tested for performance across devices. For more information on how featured scenes are selected take a look at our Featured Content Guidelines.
 
 <video autoplay loop muted controls width="800">
   <source src="/img/change-the-scene.mp4" type="video/mp4"/>
@@ -56,7 +56,7 @@ To temporarily kick a user from the room, open the avatar menu and select "Kick.
 
 When you create a room in Hubs, it is private by default. Sharing the link or access code with other people allows them to enter that specific room, so generally, you want to be careful with who has the link.
 
-You can link a Hubs room to a channel in a Discord server and have your server members join with their Discord accounts. Banning a user from your server or removing them from the Discord channel will prevent them from being able to re-join the linked Hubs room, even if that user still has the link to the room. You can learn more about the Hubs Discord bot [here](./hubs-discord-bot.html).
+You can link a Hubs room to a channel in a Discord server and have your server members join with their Discord accounts. Banning a user from your server or removing them from the Discord channel will prevent them from being able to re-join the linked Hubs room, even if that user still has the link to the room. You can learn more about the Hubs Discord bot [here](/archive/discord-bot.md).
 
 ## Favorite Rooms
 

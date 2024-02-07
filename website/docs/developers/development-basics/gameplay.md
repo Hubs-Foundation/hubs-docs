@@ -1169,8 +1169,8 @@ export function fooInitSystem(world: HubsWorld) {
 
 ## Handling interactions
 
-Refer to [the interactions documentation](./dev-client-interactivity.html).
+Refer to [the interactions documentation](./interactivity.md).
 
 ## Handling networking
 
-Refer to [the networking documentation](./dev-client-networking.html).
+Refer to [the networking documentation](./networking.md).
