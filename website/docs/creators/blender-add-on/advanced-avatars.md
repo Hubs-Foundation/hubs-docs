@@ -48,7 +48,7 @@ We offer the following resources if you'd like to modify our base Robot avatar:
 
 - [Blender Source Files](https://github.com/MozillaReality/hubs-avatar-pipelines/tree/master/Blender/AvatarBot) are available of our Robot avatar. **For specific information about how to use these .blend files, be sure to check out the readme within the [Blender/AvatarBot](https://github.com/MozillaReality/hubs-avatar-pipelines/tree/master/Blender/AvatarBot) folder.**
 
-- [Exported GLBs](Exported%20GLB%20models)/[Exported OBJ](https://github.com/MozillaReality/hubs-avatar-pipelines/tree/master/Other%20model%20formats) are available if you'd like to bring them into your editor of choice.
+- [Exported GLBs](https://github.com/MozillaReality/hubs-avatar-pipelines/tree/master/Exported%20GLB%20models)/[Exported OBJ](https://github.com/MozillaReality/hubs-avatar-pipelines/tree/master/Other%20model%20formats) are available if you'd like to bring them into your editor of choice.
 
 We recommend using [Blender 2.83](https://builder.blender.org/download/) (or whatever the most recent release is) for custom models since we have provided example files that you may use as a guide. (Typically, skeleton setup varies between modeling appications which can make importing/exporting skeletons a bit tricky due to unexpected changes in bone rotations, but it is still possible to use something other than Blender.) Note: the .blend files were created with [Blender 2.8](https://builder.blender.org/download/) due to the built-in glTF exporter. The glTF importer/exporter for Blender is currently in development. Expect some bugs and [please report them!](https://github.com/KhronosGroup/glTF-Blender-IO/issues)
 

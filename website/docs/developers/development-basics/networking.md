@@ -132,13 +132,13 @@ if (!hasComponent(world, Owned, eid)) return;
 ## Simple example
 
 Let's write a simple networked component example. You need some additional
-works to let your [component](<(./dev-client-gameplay.html#prefab)>) support
+works to let your [component](<(./gameplay.md#prefab)>) support
 network.
 
 Assume `Foo` component is defined with some properties, an
-[inflator](<(./dev-client-gameplay.html#prefab)>) for it is written, and the
+[inflator](<(./gameplay.md#prefab)>) for it is written, and the
 inflator is registered in the built-in
-[jsxInflators map](./dev-client-gameplay.html#entitydef-jsx-prefab).
+[jsxInflators map](./gameplay.md#entitydef-jsx-prefab).
 
 ```typescript
 // src/components/foo.ts

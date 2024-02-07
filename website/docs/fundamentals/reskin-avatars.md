@@ -14,9 +14,9 @@ You can use the following resources:
 
 - [Quilt](https://tryquilt.io/) - A simple tool put together by the Hubs team for quickly re-skinning the default Hubs robot avatar.
 
-- [Photoshop PSD Templates](Photoshop) - Photoshop templates for a custom Hubs base color skin. You can also use Photoshop's 3D painting tools, using the [Robot OBJ/MAT file](https://github.com/j-conrad/hubs-avatar-pipelines/tree/master/Other%20model%20formats).
+- [Photoshop PSD Templates](https://www.adobe.com/products/photoshop.html) - Photoshop templates for a custom Hubs base color skin. You can also use Photoshop's 3D painting tools, using the [Robot OBJ/MAT file](https://github.com/j-conrad/hubs-avatar-pipelines/tree/master/Other%20model%20formats).
 
-- [Substaince Painter Project](Substance) - Full [Substance Painter](https://www.allegorithmic.com/products/substance-painter) projects for advanced custom skinning. You can also download and modify any of our [example texture sets](Exported%20Texture%20Sets).
+- [Substaince Painter Project](https://www.adobe.com/products/substance3d-painter.html) - Full [Substance Painter](https://www.allegorithmic.com/products/substance-painter) projects for advanced custom skinning. You can also download and modify any of our [example texture sets](https://github.com/j-conrad/hubs-avatar-pipelines/tree/master/Exported%20Texture%20Sets).
 
 ![UV Layout example](/img/UVLayout.jpg)
 
@@ -44,9 +44,9 @@ The default avatar is currently using:
 
 We offer the following resources if you'd like to modify our Robot avatar:
 
-- [Blender Source Files](Blender/AvatarBot) are available of our Robot avatar. **For specific information about how to use these .blend files, be sure to check out the readme within the [Blender/AvatarBot](/Blender/AvatarBot) folder.**
+- [Blender Source Files](https://github.com/j-conrad/hubs-avatar-pipelines/tree/master/Blender/AvatarBot) are available of our Robot avatar. **For specific information about how to use these .blend files, be sure to check out the readme within the [Blender/AvatarBot](https://github.com/j-conrad/hubs-avatar-pipelines/tree/master/Blender/AvatarBot) folder.**
 
-- [Exported GLBs](Exported%20GLB%20models)/[Exported OBJ](Other%20model%20formats) are available if you'd like to bring them into your editor of choice.
+- [Exported GLBs](https://github.com/j-conrad/hubs-avatar-pipelines/tree/master/Exported%20GLB%20models)/[Exported OBJ](https://github.com/j-conrad/hubs-avatar-pipelines/tree/master/Other%20model%20formats) are available if you'd like to bring them into your editor of choice.
 
 We recommend using [Blender 2.8 beta](https://builder.blender.org/download/) for custom models since we have provided example files that you may use as a guide. (Typically, skeleton setup varies between modeling applications which can make importing/exporting skeletons a bit tricky due to unexpected changes in bone rotations, but it is still possible to use something other than Blender.) Note: the .blend files were created with [Blender 2.8 beta](https://builder.blender.org/download/) due to the built-in glTF exporter. The glTF importer/exporter for Blender is currently in development. Expect some bugs and [please report them!](https://github.com/KhronosGroup/glTF-Blender-IO/issues)
 
