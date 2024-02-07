@@ -133,27 +133,27 @@ const config = {
             items: [
               {
                 label: "Introduction",
-                to: "/docs/introduction/what-is-hubs",
+                to: "/introduction/what-is-hubs",
               },
               {
                 label: "Hubs Subscription",
-                to: "/docs/subscription/choosing-subscription",
+                to: "/subscription/choosing-subscription",
               },
               {
                 label: "Hubs Fundamentals",
-                to: "/docs/fundamentals/getting-started",
+                to: "/fundamentals/getting-started",
               },
               {
                 label: "For Creators",
-                to: "/docs/category/spoke",
+                to: "/category/spoke",
               },
               {
                 label: "For Developers",
-                to: "/docs/category/development-basics",
+                to: "/category/development-basics",
               },
               {
                 label: "Documentation Archive",
-                to: "/docs/archive/discord-bot",
+                to: "/archive/discord-bot",
               },
             ],
           },
