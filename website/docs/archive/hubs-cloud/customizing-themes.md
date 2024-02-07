@@ -16,7 +16,7 @@ _Theming refers to the colors used in your hub's interface. For each color in th
 
 # Theme JSON
 
-You can add completely customized color schemes from the [Admin Panel](./setup-configuring-content.md) by copying and pasting a theme JSON, like the example below:
+You can add completely customized color schemes from the [Admin Panel](/subscription/managing-subscription.md) by copying and pasting a theme JSON, like the example below:
 
 ```json
 [

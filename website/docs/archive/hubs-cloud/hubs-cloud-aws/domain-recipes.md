@@ -42,7 +42,7 @@ Use Recipe 3 when your website is already hosting something or used elsewhere fo
 
 You do NOT need to (but you CAN), if your domains are not being used by anything, in that case follow **How to setup on Route 53** above section.
 
-For example, for us to use mozilla.com (and not break the pre-existing site), we had to follow [Recipe 3](./hubs-cloud-aws-domain-recipes.md#recipe-3-domain-can-not-be-on-route-53) and _NOT_ change nameservers to point to AWS for hubs.mozilla.com to work as a subdomain.
+For example, for us to use mozilla.com (and not break the pre-existing site), we had to follow [Recipe 3](./domain-recipes.md#recipe-3-domain-can-not-be-on-route-53) and _NOT_ change nameservers to point to AWS for hubs.mozilla.com to work as a subdomain.
 
 ### Using a second level domain (.co.uk, .com.fr, etc)?
 
@@ -52,17 +52,17 @@ Use domain Recipe 3 regardless of whether you bought the domains on Route 53 (we
 
 - `myhub.com` **OR subdomain** `hub.myhub.com` connects to your hub - _Warning! Do not create a new Hosted Zone for `hub.myhub.com` on Route 53! The Cloudformation template will manage the connections on your root domain, `myhub.com`, hosted zone._
 - `myhub.com` is **_NOT_** used for any other purpose or sites
-- `mysite.com` set up on on Route 53 [(?)](./hubs-cloud-aws-domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)
+- `mysite.com` set up on on Route 53 [(?)](./domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)
 - `anothersubdomain.myhub.com` **_could be_** used for any other purposes or sites
 
 ### Instructions:
 
-**[Set up or purchase 2 domains on Route 53](./hubs-cloud-aws-domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)**
+**[Set up or purchase 2 domains on Route 53](./domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)**
 
 1. `myhub.com` - Houses Hub site domain name + internal server domain
 2. `myhub.link` - Short link domain name
 
-[Known bug + fix: Using a second level domain (.co.uk, .com.fr, etc)?](./hubs-cloud-aws-domain-recipes.md#using-a-second-level-domain-couk-comfr-etc) Use Recipe 3.
+[Known bug + fix: Using a second level domain (.co.uk, .com.fr, etc)?](./domain-recipes.md#using-a-second-level-domain-couk-comfr-etc) Use Recipe 3.
 
 **Next, specify the following when creating the stack:**
 
@@ -79,14 +79,14 @@ Use domain Recipe 3 regardless of whether you bought the domains on Route 53 (we
 
 - `hub.mysite.com` connects to your hub. - _Warning! Do not create a new Hosted Zone for `hub.mysite.com` on Route 53! The Cloudformation template will manage the connections on your root domain, `mysite.com`, hosted zone._
 - `mysite.com` **_IS_** used for other sites or purposes
-- `mysite.com` set up on on Route 53 [(?)](./hubs-cloud-aws-domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)
+- `mysite.com` set up on on Route 53 [(?)](./domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)
 - `anothersubdomain.myhub.com` **_could be_** used for any other purposes or sites
 
-[Known bug + fix: Using a second level domain (.co.uk, .com.fr, etc)?](./hubs-cloud-aws-domain-recipes.md#using-a-second-level-domain-couk-comfr-etc) Use Recipe 3.
+[Known bug + fix: Using a second level domain (.co.uk, .com.fr, etc)?](./domain-recipes.md#using-a-second-level-domain-couk-comfr-etc) Use Recipe 3.
 
 ### Instructions:
 
-**[Set up or purchase 3 domains on Route 53](./hubs-cloud-aws-domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)**
+**[Set up or purchase 3 domains on Route 53](./domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)**
 
 1. `mysite.com` - Houses subdomain as Hub site domain name + the other sites or purposes at the root
 2. `myhub.link` - Short link domain name
@@ -107,39 +107,39 @@ Use domain Recipe 3 regardless of whether you bought the domains on Route 53 (we
 
 ## Recipe 3: Domain CAN NOT be on Route 53
 
-- [When should I use Recipe 3?](./hubs-cloud-aws-domain-recipes.md#when-should-i-use-recipe-3)
-- `mysite.com` **_CAN NOT_** be set up on Route 53 [(?)](./hubs-cloud-aws-domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)
+- [When should I use Recipe 3?](./domain-recipes.md#when-should-i-use-recipe-3)
+- `mysite.com` **_CAN NOT_** be set up on Route 53 [(?)](./domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)
 - `mysite.com` connects to your hub **OR** `hub.mysite.com` connects to your hub
 
 ### Instructions:
 
-**[Set up or purchase 2 domains on Route 53 (optional 3 domains)](./hubs-cloud-aws-domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)**
+**[Set up or purchase 2 domains on Route 53 (optional 3 domains)](./domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)**
 
 1. `myhub.link` - Short link domain name
 2. `mysite-internal.com` - Internal server domain + email domain. This can be any name you want, and will not be seen by users.
 3. _(optional)_ `mysite-mail.com` - Email domain, if using `mysite-internal.com` for emails is not what you want.
 
-To use an existing email provider, read through our [Using an Existing Email Provider Guide](./hubs-cloud-aws-existing-email-provider.md)
+To use an existing email provider, read through our [Using an Existing Email Provider Guide](./existing-email.md)
 
-**First, follow [Using an Existing Domain: SSL Certificates instructions](./hubs-cloud-aws-existing-domain.md)**
+**First, follow [Using an Existing Domain: SSL Certificates instructions](./existing-domain.md)**
 
 **Next, specify the following when creating the stack:**
 
-| STACK OPTIONS                       | RECIPE 3                                                                                       |
-| ----------------------------------- | ---------------------------------------------------------------------------------------------- |
-| **Site Domain Name**                | `mysite.com` **OR** `hub.mysite.com` + [SSL certificates](./hubs-cloud-aws-existing-domain.md) |
-| **Site is Set Up On Route 53**      | `No`                                                                                           |
-| **Internal Domain**                 | `mysite-internal.com`                                                                          |
-| **Short Link Domain**               | `myhub.link`                                                                                   |
-| **Outgoing Email Domain**           | `mysite-internal.com` **OR** `mysite-mail.com`                                                 |
-| **Outgoing Email Subdomain Prefix** | `mail`                                                                                         |
+| STACK OPTIONS                       | RECIPE 3                                                                        |
+| ----------------------------------- | ------------------------------------------------------------------------------- |
+| **Site Domain Name**                | `mysite.com` **OR** `hub.mysite.com` + [SSL certificates](./existing-domain.md) |
+| **Site is Set Up On Route 53**      | `No`                                                                            |
+| **Internal Domain**                 | `mysite-internal.com`                                                           |
+| **Short Link Domain**               | `myhub.link`                                                                    |
+| **Outgoing Email Domain**           | `mysite-internal.com` **OR** `mysite-mail.com`                                  |
+| **Outgoing Email Subdomain Prefix** | `mail`                                                                          |
 
-**Lastly, after the stack is successfully deployed, follow [Using an Existing Domain: DNS Setup instructions](./hubs-cloud-aws-existing-domain.md)**
+**Lastly, after the stack is successfully deployed, follow [Using an Existing Domain: DNS Setup instructions](./existing-domain.md)**
 
 ### If you run into any issues:
 
 1. Check **Site Domain Name** is typed correctly with no typos.
 2. Check AWS Console > Route 53 > [Hosted Zones](https://console.aws.amazon.com/route53/home#hosted-zones:) and all of the domains you listed above are [registered](https://console.aws.amazon.com/route53/home#DomainListing:) on Route 53 or you've updated the nameservers for your domains to point to AWS Route 53 as the DNS host
-3. Find the rollback error in the stack output for your region [AWS Troubleshooting: see first stack error event](./hubs-cloud-aws-troubleshooting.md#my-aws-stack-says-rollback-complete-after-deploying-what-went-wrong)
-4. Troubleshoot any common errors via [AWS Troubleshooting documentation](./hubs-cloud-aws-troubleshooting.md)
+3. Find the rollback error in the stack output for your region [AWS Troubleshooting: see first stack error event](./aws-troubleshooting.md#my-aws-stack-says-rollback-complete-after-deploying-what-went-wrong)
+4. Troubleshoot any common errors via [AWS Troubleshooting documentation](./aws-troubleshooting.md)
 5. If you can't find what you need in the rest of our documentation, see the [help page](./help.html) for ways to get in touch.

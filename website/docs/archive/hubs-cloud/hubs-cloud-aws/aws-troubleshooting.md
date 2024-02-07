@@ -109,7 +109,7 @@ This is a bug in AWS Cloudformation that Amazon is working to address. Unfortuna
 
 Did you choose "Offline mode" when creating the stack? If so, you deployed correctly but your servers aren't running!
 
-To get them running and take them "Online" follow the [Update the Stack Guide](./hubs-cloud-aws-updating-the-stack.md). When you want to take them "Offline" again, follow the same process and select "Offline".
+To get them running and take them "Online" follow the [Update the Stack Guide](./updating-the-stack.md). When you want to take them "Offline" again, follow the same process and select "Offline".
 
 You can also specify a url to redirect traffic to when your servers are offline to avoid this error page.
 

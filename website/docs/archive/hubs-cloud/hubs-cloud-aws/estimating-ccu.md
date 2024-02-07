@@ -19,7 +19,7 @@ There are several factors that currently limit how many users can be on a server
 
 - Various features such as (but not limited to) media uploading, photo/video capture (via the camera tool), and link thumbnail generation, use varying degrees of server resources that may effect CCU limits.
 
-Please see [AWS Estimating Costs and Cost Charts (Alpha)](./hubs-cloud-aws-estimated-cost-charts.md) for cost estimations.
+Please see [AWS Estimating Costs and Cost Charts (Alpha)](./estimating-cost.md) for cost estimations.
 
 ## Estimated CCU Table (1 App / 1 Stream server)
 

@@ -4,7 +4,7 @@ sidebar_position: 15
 
 # Advanced: SSH Access
 
-To access your servers over SSH, in the [Admin Console](./hubs-cloud-getting-started.md) choose **Server Access** and follow the guide. Note that 2-factor authentication is set up by default, so you will need a 2FA device with an application installed like Google Authenticator to connect to your servers.
+To access your servers over SSH, in the [Admin Console](./getting-started.md) choose **Server Access** and follow the guide. Note that 2-factor authentication is set up by default, so you will need a 2FA device with an application installed like Google Authenticator to connect to your servers.
 
 Your servers are running [Ubuntu 18.04 Bionic Beaver](http://releases.ubuntu.com/18.04/).
 

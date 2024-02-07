@@ -7,7 +7,7 @@ sidebar_position: 6
 **Do you have a hubs room where you want specific avatars to be available for specific people but not others?
 For example, an event where the performer has an exclusive avatar or moderators wear a custom moderator shirt, unavailable to attendees?** If so, read on...
 
-If you [create a custom avatar](./intro-avatars.md), you can send the 2D texture set or the 3D GLB model file to the event organizes to upload.
+If you [create a custom avatar](./custom-avatars.md), you can send the 2D texture set or the 3D GLB model file to the event organizes to upload.
 
 Alternatively, if you want to make it easier on the event organizers, you can create a "dressing room" for special avatars. This is a room, where the different avatars are on display for people to wear.
 

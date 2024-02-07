@@ -8,13 +8,13 @@ If something goes wrong and you need to restore from a backup, or you'd like to 
 
 Your hub's data is made up of two things: an AWS Aurora Serverless database, and an AWS Elastic File Store volume (used for scenes, avatars, etc.) Both of these are backed up for you automatically on a nightly basis. The database is backed up via database snapshots (which can be seen in the RDS console) and the EFS volume is backed up into a Vault in AWS Backup (which can be found in the AWS Backup console.)
 
-**Do you need to update your Hubs Cloud stack from 1.0.0 to 1.1.0?** Follow the guide: [update from Hubs Cloud version 1.0.0 to 1.1.0](./hubs-cloud-aws-updating-the-stack.html#upgrade-to-a-new-stack-release)
+**Do you need to update your Hubs Cloud stack from 1.0.0 to 1.1.0?** Follow the guide: [update from Hubs Cloud version 1.0.0 to 1.1.0](./updating-the-stack.html#upgrade-to-a-new-stack-release)
 
 ### Creating a backup manually
 
 Your hub is backed up automatically every night. If you want to make an up-to-the-minute backup of a hub you can manually create a RDS snapshot and new AWS Backup recovery point via the console.
 
-- It's highly suggested you put your hub into "Offline" mode by performing a [stack update](./hubs-cloud-aws-updating-the-stack.md) before doing so to limit the risk of data being missed.
+- It's highly suggested you put your hub into "Offline" mode by performing a [stack update](./updating-the-stack.md) before doing so to limit the risk of data being missed.
 - To create a database snapshot:
   - Select your database cluster in RDS and under "Actions" click "Take Snapshot".
   - If you're unsure which cluster is your hub's database, it can be found in the stack "Outputs" section under `AppDb`.

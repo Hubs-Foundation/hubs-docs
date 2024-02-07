@@ -24,7 +24,7 @@ Please note that we are working on tools and documentation to help streamline th
 
 You can completely completely customize the look and feel of your hub by adding custom colors and branding.
 
-First, open the [Admin Console](./hubs-cloud-getting-started.md) then choose **App Settings**:
+First, open the [Admin Console](/fundamentals/getting-started.md) then choose **App Settings**:
 
 ![Hubs Cloud App Settings](/img/hubs-cloud-app-settings.jpeg)
 

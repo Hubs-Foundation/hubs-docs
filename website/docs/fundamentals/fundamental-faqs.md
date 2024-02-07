@@ -68,7 +68,7 @@ Hubs supports importing glTF binary (.glb) models. If the tool you use doesn't c
 
 ## Is it possible to create my own avatar?
 
-For sure! We love seeing custom avatars. You can either re-skin the default avatars or upload your own 3D model (.glb). For more information check out the [Creating Custom Avatars](./intro-avatars.html) section.
+For sure! We love seeing custom avatars. You can either re-skin the default avatars or upload your own 3D model (.glb). For more information check out the [Creating Custom Avatars](./custom-avatars.html) section.
 
 ## Is it possible to create a link to another room from within a room?
 

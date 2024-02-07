@@ -29,7 +29,7 @@ If your room is hosted on hubs.mozilla.com:
    webhook to bridge chat and send Hubs status updates.
 5. Try out the bot! Type !hubs in a channel the bot is in to see some things you can do.
 
-Using Hubs Cloud? You can [add the bot to your Hubs Cloud server](./hubs-cloud-discord-bot.md).
+Using Hubs Cloud? You can [add the bot to your Hubs Cloud server](./hubs-cloud/discord-bot.md).
 
 ### User Permissions
 

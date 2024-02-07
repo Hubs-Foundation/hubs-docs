@@ -15,13 +15,13 @@ _This guide walks you through the process of updating and cancelling your subscr
 
 ## Upgrading Your Subscription
 
-You can easily upgrade your Starter Hub to a paid plan at any time. The easiest way is through the Upgrade button on the subscription dashboard, which will then follow the same process as [creating a new paid subscription](http://localhost:3000/docs/setup-creating.html#how-to-subscribe---paid-plans).
+You can easily upgrade your Starter Hub to a paid plan at any time. The easiest way is through the Upgrade button on the subscription dashboard, which will then follow the same process as [creating a new paid subscription](./creating-subscription.html#how-to-subscribe---paid-plans).
 
 <img src="/img/upgrade-button.png" alt="The subscription dashboard"/>
 
 ## Cancelling Your Subscription
 
-You can cancel your paid Hubs subscription at any time. Cancelling your subscription will turn off auto-renew and your Hub will downgrade to [a Starter Plan](./setup-choosing.md#hubs-starter-plan--free) with a 500mb data limit when your current subscription period ends. Any data in excess of the Starter Plan limit will not be deleted, but you will not be able to upload any new media until the your storage falls below the limit. Cancelling your subscription will not delete your Mozilla account.
+You can cancel your paid Hubs subscription at any time. Cancelling your subscription will turn off auto-renew and your Hub will downgrade to [a Starter Plan](./choosing-subscription.md#hubs-starter-plan--free) with a 500mb data limit when your current subscription period ends. Any data in excess of the Starter Plan limit will not be deleted, but you will not be able to upload any new media until the your storage falls below the limit. Cancelling your subscription will not delete your Mozilla account.
 
 1. **Visit your subscription settings on the [Mozilla accounts page](https://accounts.firefox.com/signin).**
 

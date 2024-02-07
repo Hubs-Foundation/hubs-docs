@@ -20,7 +20,7 @@ Select "New Project" and you'll be able to pick existing scenes from the communi
 
 ![Spoke Templates](/img/spoke-template.jpeg)
 
-From here you can customize your scene entirely to your liking! Try [adding content](./spoke-adding-scene-content.md) to your scene, or building a house with our [architecture kit](./spoke-architecture-kit.md).
+From here you can customize your scene entirely to your liking! Try [adding content](./adding-content.md) to your scene, or building a house with our [architecture kit](./architecture-kit.md).
 
  <video autoplay loop muted controls width="800">
   <source src="/img/spoke-rock-kit.mp4" type="video/mp4"/>

@@ -6,12 +6,12 @@ sidebar_position: 3
 
 **Interested in using an existing domain or subdomain for your hub?**
 
-Follow below instructions if you're following Recipe 3. [When should I use Recipe 3?](./hubs-cloud-aws-domain-recipes.md#when-should-i-use-recipe-3)
+Follow below instructions if you're following Recipe 3. [When should I use Recipe 3?](./domain-recipes.md#when-should-i-use-recipe-3)
 
-If your domains are NOT being used for anything else, we highly recommend setting up your domain to point to AWS Route 53 Hosted Zone. [Instructions here](./hubs-cloud-aws-domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)
+If your domains are NOT being used for anything else, we highly recommend setting up your domain to point to AWS Route 53 Hosted Zone. [Instructions here](./domain-recipes.md#setup-external-domains-to-use-route-53-as-the-hostingdns-provider)
 []
 
-**If you want to use your existing email, see our [Using an Existing Email Provider guide](./hubs-cloud-aws-existing-email-provider.md)**. Otherwise, walk through the Domain Recipes #3 guide for configuring AWS SES email via stack creation.
+**If you want to use your existing email, see our [Using an Existing Email Provider guide](./existing-email.md)**. Otherwise, walk through the Domain Recipes #3 guide for configuring AWS SES email via stack creation.
 
 ### Before creating the stack: SSL Certificates
 

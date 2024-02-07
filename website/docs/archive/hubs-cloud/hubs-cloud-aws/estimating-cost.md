@@ -10,7 +10,7 @@ This document explains how to estimate your costs. For a full description on:
 - Minimizing costs - Recommended user story
 - Minimizing costs - Settings in stack template
 
-See our [Costs and Minimizing Costs Information](./hubs-cloud-aws-costs.md) page.
+See our [Costs and Minimizing Costs Information](./cost-saving.md) page.
 
 ## Disclaimer for Estimating Costs
 
@@ -27,7 +27,7 @@ For the **most accurate** way to see previous costs to predict your future costs
 
 ## Estimate your Event Cost
 
-Read the [Recommended User Story in Minimizing Costs Page](./hubs-cloud-aws-costs.md#minimize-your-costs---a-user-story) first, to understand this calculation better.
+Read the [Recommended User Story in Minimizing Costs Page](./cost-saving.md#minimize-your-costs---a-user-story) first, to understand this calculation better.
 
 ## Rough Calculation for Estimating Costs
 
@@ -35,7 +35,7 @@ Read the [Recommended User Story in Minimizing Costs Page](./hubs-cloud-aws-cost
 
 - **\# of servers** = Personal (1 server), Enterprise multi-server (varies, 2 app x 2 stream = 4 servers)
 - **# Hours in state** expected to be in estimated Scalar state
-- **Cost for EC2 (US\$/hr)** see below [estimate cost charts (alpha)](./hubs-cloud-aws-estimated-cost-charts.md#estimate-costs-charts-alpha)
+- **Cost for EC2 (US\$/hr)** see below [estimate cost charts (alpha)](./estimating-cost.md#estimate-costs-charts-alpha)
 - **SCALAR** _Roughly_ estimate costs of running other services like RDS, EFS, and Data transfer costs.
   - **5x** - **roughly** TOP ACTIVE CAPACITY, estimate a hard upper bound and heavy other service use: top CCU capacity, streaming videos, large scenes, avatars moving and talking.
   - **4x** - AVERAGE USE for other service: no videos, some people connected
@@ -43,7 +43,7 @@ Read the [Recommended User Story in Minimizing Costs Page](./hubs-cloud-aws-cost
   - **2x** - ONLINE, NOT ACTIVE, database pausing is off
   - **1.2x** - ONLINE, NOT ACTIVE, not connected and database pausing is on
   - **~ 0x** - Offline mode, paying only for scene, avatar assets and backups
-  - [To understand these states, read Recommended User Story in Minimizing Costs Page](./hubs-cloud-aws-costs.md#minimize-your-costs---a-user-story)
+  - [To understand these states, read Recommended User Story in Minimizing Costs Page](./cost-saving.md#minimize-your-costs---a-user-story)
 - Use AWS's cost explorer to estimate previous costs for future ones.
 
 ### THE FORMULA
@@ -70,7 +70,7 @@ Event with expected 500 CCU for 4 hours for 2 days. Cost charts estimate an Ente
 2. Off-time, I'm putting the instance in **offline** mode.
 
    - ~$0 - ~$10 for storing backups
-   - If you want the instance to be online, do [THE FORMULA](./hubs-cloud-aws-estimated-cost-charts.md#the-formula) calculation for a different instance size. Use x1.2 SCALAR for database pausing and x2 SCALAR for database pausing off.
+   - If you want the instance to be online, do [THE FORMULA](./estimating-cost.md#the-formula) calculation for a different instance size. Use x1.2 SCALAR for database pausing and x2 SCALAR for database pausing off.
 
 3. During setup/development, I use the **t3.medium**. I need to create scenes + deploy a custom client. I estimate that will take me an active 16 hours.
 
@@ -86,13 +86,13 @@ Rough HC Cost Range for Example Event = **~ \$146.68** - **~ \$216.80**
 
 ### Minimize # Hours at top Capacity to Minimize Cost
 
-**If you are diligent with decreasing the # of hours at top capacity**, outlined in the [minimizing costs user story](./hubs-cloud-aws-costs.md#minimize-your-costs---a-user-story), your event costs can be extremely low especially when comparing an in-person event:
+**If you are diligent with decreasing the # of hours at top capacity**, outlined in the [minimizing costs user story](./cost-saving.md#minimize-your-costs---a-user-story), your event costs can be extremely low especially when comparing an in-person event:
 
 - Scale the EC2 instance down during lower traffic
 - Turn on offline mode (costs are extremely minimal because the EC2 costs + RDS costs + EFS costs are down and you're only storing backups)
 - Enable database pausing
 - Use Cloudflare for content CDN - not recommended if you're streaming videos
-- Read more about these settings in [minimizing costs user story](./hubs-cloud-aws-costs.md#minimize-your-costs---a-user-story)
+- Read more about these settings in [minimizing costs user story](./cost-saving.md#minimize-your-costs---a-user-story)
 
 ## EC2 Server Type Recommendations
 
@@ -100,11 +100,11 @@ Rough HC Cost Range for Example Event = **~ \$146.68** - **~ \$216.80**
 
 **t3.medium** is recommended for development/setup with only a few users connecting + setting rooms + scenes.
 
-**Note:** This does **not** exclude the **t3.small**, see what works for you. Scale the server type up or down ad hoc via [updating the stack](./hubs-cloud-aws-updating-the-stack.md).
+**Note:** This does **not** exclude the **t3.small**, see what works for you. Scale the server type up or down ad hoc via [updating the stack](./updating-the-stack.md).
 
 **c4.large** is recommended for during an event.
 
-**Note:** This does **not** exclude any other instances types, see what works for you. Scale the server type up or down ad hoc based on performance via [updating the stack](./hubs-cloud-aws-updating-the-stack.md).
+**Note:** This does **not** exclude any other instances types, see what works for you. Scale the server type up or down ad hoc based on performance via [updating the stack](./updating-the-stack.md).
 
 **We do not recommend using a t3.micro because of low memory.**
 
@@ -129,13 +129,13 @@ For very large events 4x4 and 8x8 Enterprise multiserver stacks are recommended.
 
 Below are our CCU estimates for best performance. Performance may vary depending on client power: high power devices (Desktop/VR) vs. low power devices (Mobile).
 
-Use the [Rough calculation section](./hubs-cloud-aws-estimated-cost-charts.md#rough-calculation-for-estimating-costs) to get estimates.
+Use the [Rough calculation section](./estimating-cost.md#rough-calculation-for-estimating-costs) to get estimates.
 
-To see how vCPU to CCU Min/Max was estimated see [AWS Estimated CCU Limits](./hubs-cloud-aws-estimated-ccu-limits.md).
+To see how vCPU to CCU Min/Max was estimated see [AWS Estimated CCU Limits](./estimating-ccu.md).
 
 ### Estimating Personal / Enterprise Costs with 1 server
 
-[How to read and use Alpha Cost Charts](./hubs-cloud-aws-estimated-cost-charts.md#how-to-read-and-use-alpha-cost-charts)
+[How to read and use Alpha Cost Charts](./estimating-cost.md#how-to-read-and-use-alpha-cost-charts)
 
 | EC2 Server Type                | vCPU (#) | CCU Min | CCU Max | Cost for EC2 (US\$/hr) |
 | ------------------------------ | -------- | ------- | ------- | ---------------------- |
@@ -157,9 +157,9 @@ To see how vCPU to CCU Min/Max was estimated see [AWS Estimated CCU Limits](./hu
 
 ### Estimating Enterprise Costs for 4 servers
 
-2 app x 2 streaming servers recommended for best performance. [Why?](./hubs-cloud-aws-estimated-cost-charts.md#why-enterprise-2-app-x-2-stream)
+2 app x 2 streaming servers recommended for best performance. [Why?](./estimating-cost.md#why-enterprise-2-app-x-2-stream)
 
-[How to read and use Alpha Cost Charts](./hubs-cloud-aws-estimated-cost-charts.md#how-to-read-and-use-alpha-cost-charts)
+[How to read and use Alpha Cost Charts](./estimating-cost.md#how-to-read-and-use-alpha-cost-charts)
 
 | EC2 Server Type                | Total vCPU (#) | Min CCU | Max CCU | Cost for EC2 (US\$/hr) |
 | ------------------------------ | -------------- | ------- | ------- | ---------------------- |

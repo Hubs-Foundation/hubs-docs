@@ -6,7 +6,7 @@ sidebar_position: 2.2
 
 After successful Hubs Cloud deployment on AWS or DigitalOcean, navigate to your hub's hosted domain name (eg. myhub.com or hub.mydomain.com).
 
-In the upper right corner, click "Sign In" and enter your admin email address you specified during CloudFormation. In your email inbox, click the received "magic link" to login (Issues with login? Check out the [AWS Troubleshooting Guide](./hubs-cloud-aws-troubleshooting.md)).
+In the upper right corner, click "Sign In" and enter your admin email address you specified during CloudFormation. In your email inbox, click the received "magic link" to login (Issues with login? Check out the [AWS Troubleshooting Guide](./hubs-cloud-aws/aws-troubleshooting.md)).
 
 Once you've logged into Hubs Cloud for the first time, you should see the Hubs Cloud Admin Console. It should look like this:
 
@@ -22,16 +22,16 @@ Now that your site is up and running, you can create a room by clicking on the "
 
 ![Hubs Cloud Create Room](/img/hubs-cloud-create-room.jpeg)
 
-The first thing you'll notice... is your room is totally empty! Hubs Cloud isn't very useful until you [import some scenes and avatars](./hubs-cloud-importing-content.md).
+The first thing you'll notice... is your room is totally empty! Hubs Cloud isn't very useful until you [import some scenes and avatars](./importing-content.md).
 
 ## Setting up your hub
 
 Here's some things you can do to continue setting up your hub:
 
-- [Import content](./hubs-cloud-importing-content.md) so your visitors will have access to a library of scenes and avatars.
-- [Customize the Look and Feel](./hubs-cloud-customizing-look-and-feel.md) to make your hub fit your brand or style.
-- [Enable the Scene Editor](./hubs-cloud-enable-scene-editor.md) to let visitors create their own scenes.
-- [Enable permissive rooms](./hubs-cloud-permissive-rooms.md) to let visitors add media to their rooms.
-- [Set up the media browser](./hubs-cloud-enable-media-browser.md) so visitors can add content from sites like Sketchfab.
-- [Learn how to manage content](./hubs-cloud-managing-content.md) so visitors can contribute content to your hub.
-- [Add Administrators](./hubs-cloud-adding-administrators.md) if you'd like others to help you set up your hub.
+- [Import content](./importing-content.md) so your visitors will have access to a library of scenes and avatars.
+- [Customize the Look and Feel](./customizing-look.md) to make your hub fit your brand or style.
+- Enable the Scene Editor to let visitors create their own scenes.
+- [Enable permissive rooms](./permissive-rooms.md) to let visitors add media to their rooms.
+- Set up the media browser so visitors can add content from sites like Sketchfab.
+- [Learn how to manage content](./managing-content.md) so visitors can contribute content to your hub.
+- [Add Administrators](./adding-admins.md) if you'd like others to help you set up your hub.
