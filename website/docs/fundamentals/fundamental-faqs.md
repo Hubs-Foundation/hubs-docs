@@ -142,4 +142,4 @@ https://www.mozilla.org/en-US/privacy/hubs/
 
 ## Need help with something else?
 
-If you can't find what you need in the rest of the documentation, see the [help page](./help.html) for ways to get in touch.
+If you can't find what you need in the rest of the documentation, see the [help page](/introduction/getting-help.md) for ways to get in touch.

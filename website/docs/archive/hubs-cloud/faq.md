@@ -69,4 +69,4 @@ If your question is about Hubs, check out the [Hubs FAQ](/fundamentals/fundament
 
 If your question is about deploying Hubs Cloud to AWS, check out the [AWS Troubleshooting Guide](./hubs-cloud-aws/aws-troubleshooting.md).
 
-If you can't find what you need in the rest of the documentation, see the [help page](./help.html) for ways to get in touch.
+If you can't find what you need in the rest of the documentation, see the [help page](/introduction/getting-help.md) for ways to get in touch.

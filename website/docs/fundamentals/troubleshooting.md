@@ -75,4 +75,4 @@ YouTube videos don't work reliably in Hubs. We recommend trying Vimeo or saving 
 
 ## Need help with something else?
 
-If you can't find what you need in the rest of the documentation, see the [help page](./help.html) for ways to get in touch.
+If you can't find what you need in the rest of the documentation, see the [help page](/introduction/getting-help.md) for ways to get in touch.

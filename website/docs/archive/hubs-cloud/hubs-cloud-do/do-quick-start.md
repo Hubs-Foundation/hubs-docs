@@ -40,7 +40,7 @@ Hubs Cloud DigitalOcean can be found on [DigitalOcean Marketplace](https://marke
 8. Upon login the Hubs Cloud setup wizard will start automatically. This will guide you through all the rest of the steps required to get you Hubs Cloud instance up and running. If you ever need to change the settings you entered during setup or if you exited it for any other reason you can re-run it by running `/opt/polycosm/setup.sh`
    - You will need to provide a database or create a DigitalOcean Managed Database during setup. DigitalOcean Managed Databases start at \$15/mo [See pricing for all DigitalOcean services here](https://www.digitalocean.com/pricing/).
 
-DigitalOcean is currently an **alpha** pre-release. If you run into any issues, see the [help page](./help.html) for ways you can get in touch.
+DigitalOcean is currently an **alpha** pre-release. If you run into any issues, see the [help page](/introduction/getting-help.md) for ways you can get in touch.
 
 > **Warning! Hubs Cloud for DigitalOcean is in alpha and provided as is.**
 >
