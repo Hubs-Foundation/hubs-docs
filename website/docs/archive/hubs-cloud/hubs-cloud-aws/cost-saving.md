@@ -24,13 +24,13 @@ See our [Estimating Costs and Charts (Alpha)](./estimating-cost.md) page.
 
 We've done our best to minimize costs in the template as much as possible. Your primary costs will be the EC2 AWS Server types you use hourly, the serverless hourly database costs, EFS storage, and, if you do not switch to Cloudflare, data transfer costs.
 
-EC2 instances, while "Online", will cost the [minimum cost](./estimating-cost.md#estimated-cost-charts) per hour per server for your instance AWS server type [(?)](./estimating-cost.md#aws-server-type-recommendations). This minimum cost is hourly regardless of how many people connect at a time. You can manually turn off your EC2 instance + database via turning on [**Offline mode**](./cost-saving.md#offline-mode---manual) where no one can connect to your server at the time.
+EC2 instances, while "Online", will cost the [minimum cost](./estimating-cost.md) per hour per server for your instance AWS server type [(?)](./estimating-cost.md#aws-server-type-recommendations). This minimum cost is hourly regardless of how many people connect at a time. You can manually turn off your EC2 instance + database via turning on [**Offline mode**](./cost-saving.md#offline-mode---manual) where no one can connect to your server at the time.
 
 Database costs is the largest factor next to EC2 instance, you can set [**database pausing**](./cost-saving.md#database-pausing---automatic) on to stop costs incurring when no one is connected.
 
-[See our (Alpha) Cost Charts for more information on AWS Server Types and Minimum EC2 Costs.](./estimating-cost.md#estimated-cost-charts)
+[See our (Alpha) Cost Charts for more information on AWS Server Types and Minimum EC2 Costs.](./estimating-cost.md)
 
-[For minimizing your costs, see our Minimize your Hubs Cloud Costs - A User Story](./cost-saving.md#minimize-your-hubs-cloud-costs---a-user-story)
+[For minimizing your costs, see our Minimize your Hubs Cloud Costs - A User Story](./cost-saving.md)
 
 ## Factors creating AWS cost estimates
 
@@ -68,7 +68,7 @@ Our recommendation to minimize costs for automatic settings is to turn [**databa
 
 ### Before your event: Development
 
-For development with only a few users connecting + setting rooms + scenes, we recommend at least a **t3.medium** instance [(?)](./estimating-cost.md#aws-server-type-recommendations). When not in use, set your instance to [**Offline mode**](./cost-saving.md#offline-mode---manual). Then switch back to Online when beginning development again.
+For development with only a few users connecting + setting rooms + scenes, we recommend at least a **t3.medium** instance [(?)](./estimating-cost.md). When not in use, set your instance to [**Offline mode**](./cost-saving.md#offline-mode---manual). Then switch back to Online when beginning development again.
 
 ### Before your event: 1.5 hours
 

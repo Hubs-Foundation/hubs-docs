@@ -115,9 +115,9 @@ You can also specify a url to redirect traffic to when your servers are offline 
 
 ### Our users are experiencing "Unable to connect to this room, please try again later."
 
-We fixed this error with Hubs Cloud version 1.1.0 with an added TURN server. You need to upgrade from 1.0.0 to 1.1.0. Follow the process outlined in [Upgrade to a new stack release](./updating-the-stack.md#upgrade-to-a-new-stack-release)
+We fixed this error with Hubs Cloud version 1.1.0 with an added TURN server. You need to upgrade from 1.0.0 to 1.1.0. Follow the process outlined in [Upgrade to a new stack release](./updating-the-stack.md)
 
-And verify you're on 1.1.0 by following the steps in [Check if you're on version 1.1.0](./updating-the-stack.md#check-if-youre-on-version-110)
+And verify you're on 1.1.0 by following the steps in [Check if you're on version 1.1.0](./updating-the-stack.md)
 
 ### In my hubs admin panel, I see NetworkError or Not Found page or no data populates in any of the admin menus.
 

@@ -25,7 +25,7 @@ Before entering, you are in the room's lobby. From here, you can see and hear wh
 
 **On a VR headset or mobile device?**
 
-- Take a look at the [instructions](./hubs-rooms.md#enter-the-room) in the Hubs documentation.
+- Take a look at the [instructions](./hubs-rooms.md) in the Hubs documentation.
 
 ## Explore Hubs
 

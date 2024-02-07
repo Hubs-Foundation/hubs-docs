@@ -135,7 +135,7 @@ To see how vCPU to CCU Min/Max was estimated see [AWS Estimated CCU Limits](./es
 
 ### Estimating Personal / Enterprise Costs with 1 server
 
-[How to read and use Alpha Cost Charts](./estimating-cost.md#how-to-read-and-use-alpha-cost-charts)
+[How to read and use Alpha Cost Charts](./estimating-cost.md)
 
 | EC2 Server Type                | vCPU (#) | CCU Min | CCU Max | Cost for EC2 (US\$/hr) |
 | ------------------------------ | -------- | ------- | ------- | ---------------------- |
