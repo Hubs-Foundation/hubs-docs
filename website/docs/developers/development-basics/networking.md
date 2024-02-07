@@ -132,11 +132,11 @@ if (!hasComponent(world, Owned, eid)) return;
 ## Simple example
 
 Let's write a simple networked component example. You need some additional
-works to let your [component](<(./gameplay.md#prefab)>) support
+works to let your [component](./gameplay.md#entitydef-jsx-prefab) support
 network.
 
 Assume `Foo` component is defined with some properties, an
-[inflator](<(./gameplay.md#prefab)>) for it is written, and the
+[inflator](./gameplay.md#entitydef-jsx-prefab) for it is written, and the
 inflator is registered in the built-in
 [jsxInflators map](./gameplay.md#entitydef-jsx-prefab).
 
@@ -185,9 +185,9 @@ const jsxInflators: Required<{ [K in keyof JSXComponentData]: InflatorFn }> = {
 ...
 ```
 
-First, write a [prefab](./dev-client-gameplay.html#prefab) for `Foo` component
-with `networked` key, [which will be explained later](#entitydef-jsx-prefab),
-and register it in the built-in [`prefabs`](#prefab) map. This prefab is used
+First, write a [prefab](./gameplay.md#entitydef-jsx-prefab) for `Foo` component
+with `networked` key, [which will be explained later](./gameplay.md#entitydef-jsx-prefab),
+and register it in the built-in [`prefabs`](./gameplay.md#entitydef-jsx-prefab) map. This prefab is used
 to set up entities with associated components in both local and remote clients.
 
 ```typescript
@@ -250,7 +250,7 @@ component. Hubs Clients make their components data synched with remote clients.
 
 ### Prefab
 
-[Prefabs](./gameplay.md#prefab) for networked entities must be
+[Prefabs](./gameplay.md#entitydef-jsx-prefab) for networked entities must be
 registered in the built-in `prefabs` map defined in
 registered in the built-in `prefabs` map defined in
 [`src/prefabs/prefabs.ts`](https://github.com/mozilla/hubs/blob/master/src/prefabs/prefabs.ts),
