@@ -27,7 +27,7 @@ The most straightforward way to customize an avatar for Hubs is to upload a cust
 
 <video autoplay loop muted controls width="400">
   <source src="img/hubs-reskin-avatar.mp4" type="video/mp4"/>
-  <img src="/img/intro-custom-avatar.jpeg" alt="Screenshot of avatar customization screen"/>
+  ![Screenshot of avatar customization screen](/img/intro-custom-avatar.jpeg)
 </video>
 
 ### Create a robot texture

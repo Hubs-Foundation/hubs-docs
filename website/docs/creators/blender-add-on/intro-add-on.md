@@ -83,14 +83,14 @@ Part of why this is difficult is because you must use the 'Background' node in y
 
 <video autoplay loop muted controls width="800">
   <source src="/img/BlenderShaderBackground.mp4" type="video/mp4"/>
-  <img src="/img/intro-custom-avatar.jpeg" alt="Blender - Finding Background Node"/>
+  ![Blender - Finding Background Node](/img/intro-custom-avatar.jpeg)
 </video>
 
 Once you have the Background node, you can plug your texture into it, and send that to the Material Output. When you export to glb and bring the object into Spoke or Hubs, it will be 'unlit' (or fully lit, depending how you think of it.)
 
 <video autoplay loop muted controls width="800">
   <source src="/img/BlenderShaderBackground2.mp4" type="video/mp4"/>
-  <img src="/img/intro-custom-avatar.jpeg" alt="Blender - Using Background Node"/>
+  ![Blender - Using Background Node](/img/intro-custom-avatar.jpeg)
   Your browser does not support HTML5 video.
 </video>
 

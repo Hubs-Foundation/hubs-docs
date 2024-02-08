@@ -508,7 +508,7 @@ The ‘Video Texture Target’ component can also be used on Avatars. In this ca
 
 <video autoplay loop muted controls width="800">
   <source src="/img/components_videoAvatars_feature2.mp4" type="video/mp4"/>
-  <img src="/img/components_videoTextureTarget_videoThumbnail.png" alt="Hubs Video Avatar"/>
+  ![Hubs Video Avatar](/img/components_videoTextureTarget_videoThumbnail.png)
 </video>
 
 For more information about both ‘Video Texture Source’ and ‘Video Texture Target’, [check out the stream](https://www.youtube.com/watch?v=oEc8ML2Q-z8) that the Hubs team did, viewable on YouTube.

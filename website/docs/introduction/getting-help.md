@@ -10,10 +10,10 @@ Our [YouTube channel](https://youtube.com/@MozillaHubs) houses dozens of deep-di
 
 Check out our [Discover Hubs playlist](https://youtube.com/playlist?list=PLCxaiaRxTL6_V88JFYb6tOPkHCKjnH2BK) to get started...
 <br></br>
-<img src="/img/discover-hubs.png" alt="Discover hubs playlist"/>
+![Discover hubs playlist](/img/discover-hubs.png)
 
 ## Blog
 
 Our blog, [Creator Labs](https://hubs.mozilla.com/labs/), is the perfect place to learn about the many different ways our community is pushing the boundaries of immersive content with Hubs. Explore the tutorials, creator spotlights, articles, and exciting initiatives we are working on.
 <br></br>
-<img src="/img/creator-labs.png" alt="Creator Labs preview"/>
+![Creator Labs preview](/img/creator-labs.png)

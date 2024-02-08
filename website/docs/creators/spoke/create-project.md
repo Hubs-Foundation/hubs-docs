@@ -24,7 +24,7 @@ From here you can customize your scene entirely to your liking! Try [adding cont
 
  <video autoplay loop muted controls width="800">
   <source src="/img/spoke-rock-kit.mp4" type="video/mp4"/>
-  <img src="/img/spoke-interface.jpeg" alt="Screenshot of the Spoke Interface"/>
+  ![Screenshot of the Spoke Interface](/img/spoke-interface.jpeg)
 </video>
 
 ## Remixing Scenes from Hubs
@@ -38,7 +38,7 @@ Scenes that are published to Hubs with a creative commons license are remixable.
 
  <video autoplay loop muted controls width="800">
   <source src="/img/hubs-scene-remix.mp4" type="video/mp4"/>
-  <img src="/img/spoke-scene-remixing.jpeg" alt="Screenshot of the scene remixing screen"/>
+  ![Screenshot of the scene remixing screen](/img/spoke-scene-remixing.jpeg)
 </video>
 
 ## Import a .spoke file

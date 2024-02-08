@@ -12,7 +12,7 @@ Note that only featured scenes have been tested for performance across devices. 
 
 <video autoplay loop muted controls width="800">
   <source src="/img/change-the-scene.mp4" type="video/mp4"/>
-  <img src="/img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser"/>
+  ![Screenshot of the Scene Browser](/img/intro-hubs-scene-browser-min.jpeg)
   Your browser does not support HTML5 video.
 </video>
 

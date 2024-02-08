@@ -67,7 +67,7 @@ You can use the Media Frame element to designate areas you would like media obje
 
 <video autoplay loop muted controls width="800">
   <source src="/img/media-frame-demo.mp4" type="video/mp4"/>
-  <img src="/img/media-frame-demo.png" alt="Using Media Frames"/>
+  ![Using Media Frames](/img/media-frame-demo.png)
 </video>
 
 ## Audio Zones
@@ -81,16 +81,16 @@ Audio Zones work based on the audio source and the audio listener's positions an
 - **inOut:** The audio zone's parameters will be applied to audio sources inside the audio zone volume when the listener is outside the zone.
 - **outIn:** The audio zone's parameters will be applied to audio sources outside the audio zone volume when the listener is inside.
 
-<img src="/img/audio-zones-example-2.jpg" alt="drawing" width="65%"/>
+![drawing](/img/audio-zones-example-2.jpg)
 
 <center>_InOut zone that blocks all the audio sources coming from the inside._</center>
 
-<img src="/img/audio-zones-example-3.jpg" alt="drawing" width="65%"/>
+![drawing](/img/audio-zones-example-3.jpg)
 
 <center>_OutIn zone that blocks all the audio sources coming from the outside._</center>
 
 Audio zones can be inside other audio zones, in that case the applied parameters will be a reduction of the most restrictive parameters.
 
-<img src="/img/audio-zones-example-1.jpg" alt="drawing" width="65%"/>
+![drawing](/img/audio-zones-example-1.jpg)
 
 <center>_If there are two audio-zones in between the listener and the source and the first one has gain == 0.1 and the other has gain == 0.5, gain == 0.1 is applied to the source._</center>

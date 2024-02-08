@@ -23,15 +23,15 @@ _This page serves as a manual for many of the features that are available to Hub
 
 This page references the two tools you can use to manage your hub's content: **The Admin Panel** and our scene editor, **Spoke**. Both can be accessed in the top-right corner of your subscription dashboard.
 
-<img src="/img/content-tools.png" alt="Admin homepage"/>
+![Admin homepage](/img/content-tools.png)
 
 **The Admin Panel** is a dashboard that allows you to control your hub's default appearance and features, as well as the discoverability of scenes and avatars uploaded to your server. When you create a new hub, the email associated with your subscription will be the only account with access to the admin panel. You can, however, allow others to access the admin panel using the [Accounts](#accounts-and-identities) tab.
 
-<img src="/img/admin.png" alt="Admin homepage"/>
+![Admin homepage](/img/admin.png)
 
 **Spoke** is our in-browser scene editor that allows you to upload media (3D models, videos, audio, images, etc.) and build custom environments that your hub's visitors can explore. By default, all users joining your server can use Spoke (and upload their own media), however you can modify this default behavior by using the [App Settings "Features" tab](#features) to toggle the "Scene Editor".
 
-<img src="/img/spoke.png" alt="Spoke homepage"/>
+![Spoke homepage](/img/spoke.png)
 
 Together, the Admin Panel and Spoke allow you to fully control the content that users may encounter when joining your Hub.
 
@@ -43,9 +43,9 @@ Each new hub comes with a selection of logos, themes, scenes, and avatars that h
 
 **Download Paid Plan Default Assets: [Themes](/img/defaultTheme.json) | [Logos](/img/defaultLogos.zip) | [Scenes](/img/defaultScenes.pack) | [Avatars](/img/defaultAvatars.pack)**
 
-<img src="/img/defaultAvatars.png" alt="The default avatars"/>
+![The default avatars](/img/defaultAvatars.png)
 <br></br>
-<img src="/img/defaultScenes.png" alt="The default scenes"/>
+![The default scenes](/img/defaultScenes.png)
 
 ---
 
@@ -53,11 +53,11 @@ Each new hub comes with a selection of logos, themes, scenes, and avatars that h
 
 The Import Content tool on the Admin Panel makes it easy to share and rehost assets developed by Mozilla or other members of the Hubs community.
 
-<img src="/img/import-content.png" alt="Import content tab"/>
+![Import content tab](/img/import-content.png)
 
 If you are interested in our recommended assets, please see [our asset pack suggestions](/archive/hubs-cloud/asset-packs.md). It is also easy to find scenes and avatars on [Mozilla's Demo Hub](https://hubs.mozilla.com/Pvg5MMt/hubs-demo). While browsing scenes and avatars from the community in Mozilla's Demo Hub, you can copy the url of any shared assets and import them onto your server.
 
-<img src="/img/browsing-assets.png" alt="Browsing for assets"/>
+![Browsing for assets](/img/browsing-assets.png)
 
 It is important to note that only a few url types are supported by the import tool...
 
@@ -71,7 +71,7 @@ If you would like to upload .glb or .spoke files, please do so using Spoke or wh
 
 <video loop muted controls width="400">
   <source src="/img/import-content.mp4" type="video/mp4"/>
-  <img src="/img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser"/>
+  ![Screenshot of the Scene Browser](/img/intro-hubs-scene-browser-min.jpeg)
   Your browser does not support HTML5 video.
 </video>
 
@@ -85,11 +85,11 @@ If you would like to upload .glb or .spoke files, please do so using Spoke or wh
 
 The Admin Panel is used to manage any scenes or avatars that have been uploaded to your hub. In the left-hand toolbar, you can see eight tabs corresponding to scenes and avatars...
 
-<img src="/img/admin-tabs.png" alt="The default avatars"/>
+![The default avatars](/img/admin-tabs.png)
 
 Each of these tabs filters assets based on their state and tags. At the top of each tab, you can search by id or name to see if any assets are included in that category.
 
-<img src="/img/search-bar.png" alt="The default avatars"/>
+![The default avatars](/img/search-bar.png)
 
 #### Asset State
 
@@ -100,11 +100,11 @@ Asset State is the primary method of controlling a piece of media's discoverabil
 - Delisted - the asset will only appear in "Scenes" or "Avatars" tab and cannot be discovered by any users other than the one who uploaded it.
 - Removed - the asset is removed from the database and is not usable by anyone.
 
-<img src="/img/state-example.png" alt="An example of state"/>
+![An example of state](/img/state-example.png)
 
 By default, any assets uploaded by users who select "Allow Mozilla to promote my scene/avatar" in Spoke or in-world using the "Create Avatar" button will be assigned the "Pending" state and await admin approval in the "Pending" tab before being made discoverable. While "Pending", the user who uploaded the asset can still access it.
 
-<img src="/img/upload-pending.png" alt="An asset uploaded via spoke for approval"/>
+![An asset uploaded via spoke for approval](/img/upload-pending.png)
 
 Any assets uploaded via the admin panel are automatically assigned the "Active" state, including them in the "Approved" tab and making them discoverable to other users.
 
@@ -118,19 +118,19 @@ Asset tags allow you to control how discoverable an "Active" asset is. To edit t
 
 Asset tags are case-sensitive, so be sure to use the exact spelling and capitalization seen above.
 
-<img src="/img/tags-examples.png" alt="Examples of tags applied to avatars"/>
+![Examples of tags applied to avatars](/img/tags-examples.png)
 
 #### Asset Order
 
 Assets with the "Featured" tag can be given an order number to control the sequence in which they are displayed to users browsing for scenes and avatars. Order filters from low-to-high, meaning any asset with the order number "1" will be displayed first. Two assets can be given the same order number; if two assets have the same order number, the most recently uploaded asset will display first.
 
-<img src="/img/order-example.png" alt="Order control form"/>
+![Order control form](/img/order-example.png)
 
 #### Asset Description and Attribution
 
 To properly describe and credit creators of a certain asset, you can add in description and attribution details that will display whenever a user is encountering that asset.
 
-<img src="/img/asset-description.png" alt="Description for assets."/>
+![Description for assets.](/img/asset-description.png)
 
 ---
 
@@ -138,7 +138,7 @@ To properly describe and credit creators of a certain asset, you can add in desc
 
 As you upload content to your hub, you are adding more items to the server's database that contribute to the your hub's content storage limit.
 
-<img src="/img/content-storage.png" alt="Content storage"/>
+![Content storage](/img/content-storage.png)
 
 The largest contributors to content storage are media used to build environments in Spoke, as well as any avatars and scenes you have rehosted using the "import content" tool on the Admin Panel. Room urls, user accounts, and spoke projects also contribute to the usage limit, but to a lesser degree.
 
@@ -152,11 +152,11 @@ Assets in Spoke are associated with individual email accounts (you will not be a
 
 1. **After signing-in to Spoke, go into any project and locate the assets interface in the bottom of the screen.**
 
-<img src="/img/spoke-asset-interface.png" alt="Spoke asset interface"/>
+![Spoke asset interface](/img/spoke-asset-interface.png)
 
 2. **Click on the "My Assets" tab in the lefthand toolbar. From here you can sort by asset type and right click on any asset you wish to delete. In the pop-up, click "Delete Asset" to remove it from the database.**
 
-<img src="/img/delete-asset.png" alt="Deleting assets in spoke"/>
+![Deleting assets in spoke](/img/delete-asset.png)
 
 #### Deleting Assets In The Admin Panel
 
@@ -165,7 +165,7 @@ Assets in Spoke are associated with individual email accounts (you will not be a
 
 After this is complete, you will see that the avatar has been grey-ed out and that it is no longer accessible by its avatar url.
 
-<img src="/img/removing-asset.png" alt="Deleting assets in spoke"/>
+![Deleting assets in spoke](/img/removing-asset.png)
 
 ---
 
@@ -173,17 +173,17 @@ After this is complete, you will see that the avatar has been grey-ed out and th
 
 The Accounts tab of the Admin Panel indexes all users who have signed-in to your hub with an email address. For privacy reasons, all emails are hashed to protect user data, however it is possible to search for specific email addresses to verify individual user accounts. When you edit a user's account, you have the option to make them an admin in order for them to have access to the Admin Panel. Making a user an Admin will NOT let them manage your Hubs Subscription. PLEASE NOTE: You should never remove the account using the email associated with your Mozilla account!!!
 
-<img src="/img/accounts-screen.png" alt="Deleting assets in spoke"/>
+![Deleting assets in spoke](/img/accounts-screen.png)
 
 #### Adding Admin Accounts
 
 If the account you wish to promote has not yet been created, use the create account form to create a new account with the user's email.
 
-<img src="/img/create-account.png" alt="Creating accounts by email"/>
+![Creating accounts by email](/img/create-account.png)
 
 If the account you wish to promote has already been created, use thefind account feature to search for the account of an individual email.
 
-<img src="/img/search-account.png" alt="Searching accounts by email"/>
+![Searching accounts by email](/img/search-account.png)
 
 1. **Select the edit button next to the account you wish to promote.**
 
@@ -191,7 +191,7 @@ If the account you wish to promote has already been created, use thefind account
 
 <video loop muted controls width="400">
   <source src="/img/how-to-promote.mp4" type="video/mp4"/>
-  <img src="/img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser"/>
+  ![Screenshot of the Scene Browser](/img/intro-hubs-scene-browser-min.jpeg)
   Your browser does not support HTML5 video.
 </video>
 <br></br>
@@ -206,7 +206,7 @@ _Identities is a deprecated method for associating an account with a username. T
 
 The Projects tab allows you to moderate any Spoke projects that have been created on your server. When you expand the details of an individual project, you are also able to download a version of their .spoke file. You can also select the check-box next to a project and manually delete it. Please note that this will not delete any asset data included in the project, just the project information itself.
 
-<img src="/img/projects-tab.png" alt="Deleting assets in spoke"/>
+![Deleting assets in spoke](/img/projects-tab.png)
 
 ---
 
@@ -214,11 +214,11 @@ The Projects tab allows you to moderate any Spoke projects that have been create
 
 Depending on your subscription plan, your hub will allow you to customize the user interface's (UI) colors and logos. Under the "Setup" category in the Admin Panel, you can use the "Brand" tab to upload custom images. Supported file types are listed next to each logo type.
 
-<img src="/img/logos-tab.png" alt="Deleting assets in spoke"/>
+![Deleting assets in spoke](/img/logos-tab.png)
 
 In the "Themes" tab, you are able to upload your own JSON theme-ing object to fully customize the UI colors of your hub. For more information on updating your hub's theme, check out [this guide](/archive/hubs-cloud/customizing-themes.md).
 
-<img src="/img/themes-tab.png" alt="Deleting assets in spoke"/>
+![Deleting assets in spoke](/img/themes-tab.png)
 
 ---
 

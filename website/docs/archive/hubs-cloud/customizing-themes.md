@@ -210,15 +210,15 @@ While not exhuastive, these diagrams will outline a few key variables that you c
 
 ## Entry Screen
 
-<img src="/img/theme-entry-screen.png" alt="Theme variable correlation on entry screen"/>
+![Theme variable correlation on entry screen](/img/theme-entry-screen.png)
 
 ## Bottom Toolbar
 
-<img src="/img/theme-toolbar.png" alt="Theme variable correlation on bottom toolbar"/>
+![Theme variable correlation on bottom toolbar](/img/theme-toolbar.png)
 
 ## Menus
 
-<img src="/img/theme-menus.png" alt="Theme variable correlation on menus"/>
+![Theme variable correlation on menus](/img/theme-menus.png)
 
 # In-App Themes
 

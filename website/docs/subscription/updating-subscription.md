@@ -17,7 +17,7 @@ _This guide walks you through the process of updating and cancelling your subscr
 
 You can easily upgrade your Starter Hub to a paid plan at any time. The easiest way is through the Upgrade button on the subscription dashboard, which will then follow the same process as [creating a new paid subscription](./creating-subscription.md#how-to-subscribe---paid-plans).
 
-<img src="/img/upgrade-button.png" alt="The subscription dashboard"/>
+![The subscription dashboard](/img/upgrade-button.png)
 
 ## Cancelling Your Subscription
 
@@ -27,7 +27,7 @@ You can cancel your paid Hubs subscription at any time. Cancelling your subscrip
 
 2. **Select "Cancel" next to your Hub's subscription information to prevent your subscription from renewing.**
 
-<img src="/img/manage-subscription.png" alt="The subscription dashboard"/>
+![The subscription dashboard](/img/manage-subscription.png)
 
 ## Requesting A Refund
 
@@ -40,4 +40,4 @@ Hubs paid subscriptions currently come with a 30-day money-back guarantee.
 3. **Enter "Refund Request" in the "Subject" and request your refund in the "Message" form. While not required, it can be helpful to include your invoice ID in this request.**
 
 4. **Submit the form. Expect your refund to be processed in 5-10 business days.**
-   <img src="/img/refund-form.png" alt="The subscription dashboard"/>
+   ![The subscription dashboard](/img/refund-form.png)

@@ -22,7 +22,7 @@ Click "Enter Room" and follow the prompts to select a username/avatar and set up
 
 <video autoplay loop muted controls width="400">
   <source src="/img/hubs-enter-room.mp4" type="video/mp4"/>
-  <img src="/img/intro-hubs-enter-room-min.PNG" alt="Hubs Lobby"/>
+  ![Hubs Lobby](/img/intro-hubs-enter-room-min.PNG)
 </video>
 
 ### On a Standalone VR Headset
@@ -33,7 +33,7 @@ Open the browser in your VR headset, navigate to [hubs.link](https://hubs.link) 
 
 <video autoplay loop muted controls width="800">
   <source src="/img/hubs-enter-standalone-vr.mp4" type="video/mp4"/>
-  <img src="/img/intro-hubs-enter-room-min.PNG" alt="Hubs Lobby"/>
+  ![Hubs Lobby](/img/intro-hubs-enter-room-min.PNG)
 </video>
 
 ### On a Wired-in VR Headset

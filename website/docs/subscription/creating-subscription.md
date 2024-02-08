@@ -20,7 +20,7 @@ _This guide walks you through the steps of setting up your Hubs Subscription. If
 
 <video loop muted controls width="800">
   <source src="/img/click-subscribe-free.mp4" type="video/mp4"/>
-  <img src="/img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser" width="800"/>
+  ![Screenshot of the Scene Browser](/img/intro-hubs-scene-browser-min.jpeg)
   Your browser does not support HTML5 video.
 </video>
 <br/><br/>
@@ -29,7 +29,7 @@ _This guide walks you through the steps of setting up your Hubs Subscription. If
 
 <video loop muted controls width="800">
   <source src="/img/confirm-account.mp4" type="video/mp4"/>
-  <img src="/img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser" width="800"/>
+  ![Screenshot of the Scene Browser](/img/intro-hubs-scene-browser-min.jpeg)
   Your browser does not support HTML5 video.
 </video>
 <br/><br/>
@@ -38,14 +38,14 @@ _This guide walks you through the steps of setting up your Hubs Subscription. If
 
 <video loop muted controls width="800">
   <source src="/img/verify-account.mp4" type="video/mp4"/>
-  <img src="/img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser" width="800"/>
+  ![Screenshot of the Scene Browser](/img/intro-hubs-scene-browser-min.jpeg)
   Your browser does not support HTML5 video.
 </video>
 <br/><br/>
 
 4. **Access your subscription dasboard and wait for your Hub to be created. It may take up to 5 minutes for this process to complete.**
 
-<img src="/img/access-dashboard.png" alt="Screenshot of the Scene Browser" width="800"/>
+![Screenshot of the Scene Browser](/img/access-dashboard.png)
    <br/><br/>
 
 ## How To Subscribe - Paid Plans
@@ -54,7 +54,7 @@ _This guide walks you through the steps of setting up your Hubs Subscription. If
 
 <video loop muted controls width="800">
   <source src="/img/click-subscribe.mp4" type="video/mp4"/>
-  <img src="/img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser" width="800"/>
+  ![Screenshot of the Scene Browser](/img/intro-hubs-scene-browser-min.jpeg)
   Your browser does not support HTML5 video.
 </video>
 <br/><br/>
@@ -63,7 +63,7 @@ _This guide walks you through the steps of setting up your Hubs Subscription. If
 
 <video loop muted controls width="800">
   <source src="/img/enter-email.mp4" type="video/mp4"/>
-  <img src="/img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser" width="800"/>
+  ![Screenshot of the Scene Browser](/img/intro-hubs-scene-browser-min.jpeg)
   Your browser does not support HTML5 video.
 </video>
 <br/><br/>
@@ -72,18 +72,18 @@ _This guide walks you through the steps of setting up your Hubs Subscription. If
 
 <video loop muted controls width="800">
   <source src="/img/enter-payment.mp4" type="video/mp4"/>
-  <img src="/img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser" width="800"/>
+  ![Screenshot of the Scene Browser](/img/intro-hubs-scene-browser-min.jpeg)
   Your browser does not support HTML5 video.
 </video>
 <br/><br/>
 
 4. **Check your inbox for an email titled "Welcome to Hubs [Plan Name]". Choose the "Get Started" link in the email and follow the login process to access your Hubs Subscription Dashboard. It may take a few minutes while your Hub is getting set up.**
 
-<img src="/img/access-dashboard.png" alt="Screenshot of the Scene Browser" width="800"/>
+![Screenshot of the Scene Browser](/img/access-dashboard.png)
 
 ## Subscription Dashboard Overview
 
-<img src="/img/dash-overview.png" alt="The subscription dashboard" width="800"/>
+![The subscription dashboard](/img/dash-overview.png)
 <br/><br/>
 
 ## Customizing Your Subdomain - Paid Plans
@@ -92,7 +92,7 @@ _This guide walks you through the steps of setting up your Hubs Subscription. If
 
 <video loop muted controls width="800">
   <source src="/img/open-domain-editor.mp4" type="video/mp4"/>
-  <img src="/img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser" width="800"/>
+  ![Screenshot of the Scene Browser](/img/intro-hubs-scene-browser-min.jpeg)
   Your browser does not support HTML5 video.
 </video>
 <br/><br/>
@@ -101,7 +101,7 @@ _This guide walks you through the steps of setting up your Hubs Subscription. If
 
 <video loop muted controls width="800">
   <source src="/img/update-domain.mp4" type="video/mp4"/>
-  <img src="/img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser" width="800"/>
+  ![Screenshot of the Scene Browser](/img/intro-hubs-scene-browser-min.jpeg)
   Your browser does not support HTML5 video.
 </video>
 <br/><br/>
@@ -110,7 +110,7 @@ _This guide walks you through the steps of setting up your Hubs Subscription. If
 
 <video loop muted controls width="800">
   <source src="/img/wait-for-subdomain.mp4" type="video/mp4"/>
-  <img src="/img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser" width="800"/>
+  ![Screenshot of the Scene Browser](/img/intro-hubs-scene-browser-min.jpeg)
   Your browser does not support HTML5 video.
 </video>
 <br/><br/>
