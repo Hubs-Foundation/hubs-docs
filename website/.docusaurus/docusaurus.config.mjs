@@ -5,7 +5,7 @@
  */
 export default {
   "title": "Mozilla Hubs",
-  "tagline": "Dinosaurs are cool",
+  "tagline": "Hold tight as we get our docs in a row 🦆🦆🦆",
   "favicon": "img/favicon.ico",
   "staticDirectories": [
     "static"
@@ -13,7 +13,9 @@ export default {
   "url": "https://hubs.mozilla.com",
   "baseUrl": "/docs/",
   "organizationName": "Mozilla",
-  "projectName": "Hubs",
+  "projectName": "hubs-docs",
+  "onBrokenLinks": "throw",
+  "onBrokenMarkdownLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -402,9 +404,7 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
-  "onBrokenLinks": "throw",
   "onBrokenAnchors": "warn",
-  "onBrokenMarkdownLinks": "warn",
   "onDuplicateRoutes": "warn",
   "customFields": {},
   "plugins": [],
