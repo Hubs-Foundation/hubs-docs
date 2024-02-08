@@ -9,7 +9,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Mozilla Hubs",
-  tagline: "Dinosaurs are cool",
+  tagline: "Hold tight as we get our docs in a row 🦆🦆🦆",
   favicon: "img/favicon.ico",
   staticDirectories: ["static"],
   // Set the production url of your site here
@@ -21,10 +21,10 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "Mozilla", // Usually your GitHub org/user name.
-  projectName: "Hubs", // Usually your repo name.
+  projectName: "hubs-docs", // Usually your repo name.
 
-  // onBrokenLinks: "throw",
-  // onBrokenMarkdownLinks: "warn",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
