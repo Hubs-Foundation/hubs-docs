@@ -27,7 +27,8 @@
       "hubs-controls",
       "hubs-discord-bot",
       "hubs-troubleshooting",
-      "hubs-faq"
+      "hubs-faq",
+      "download-data"
     ],
     "Spoke Documentation": [
       "spoke-creating-projects",
