@@ -22,7 +22,7 @@ In February 2024, [Mozilla announced](https://hubs.mozilla.com/labs/sunset) that
 For more context about the tool and a deeper dive into the data that is downloaded, please consult these two resources:
 
 1. [Download Tool Overview](https://hubs.mozilla.com/labs/downloading-your-data)
-2. YouTube Tutorial: Coming Soon!
+2. [YouTube Tutorial](https://youtu.be/vnkgGLkcxuk)
 
 ## Accessing And Installing The Tool
 
