@@ -48,7 +48,8 @@
       "creators-using-the-blender-gltf-exporter",
       "creators-blender-components",
       "spoke-optimization",
-      "content-guidelines"
+      "content-guidelines",
+      "intro-behavior-graphs"
     ],
     "For Developers": [
       "system-overview",
