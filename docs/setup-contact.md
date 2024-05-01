@@ -13,9 +13,9 @@ For questions about using your account that you would prefer to discuss privatel
 
 ## Account Support
 
-If you are experiencing issues with your subscription or Mozilla account, please [submit a support ticket with Mozilla Support](https://support.mozilla.org/en-US/products/hubs), Mozilla's account support channel. To submit a ticket, you should follow the blue "Get Support" buttons until you get to the support form.
+If you are experiencing issues with your subscription or Mozilla account, please [submit a support ticket with Mozilla Support](https://support.mozilla.org/), Mozilla's account support channel. To submit a ticket, you should follow the blue "Get Support" buttons until you get to the support form.
 <br></br>
-[<img src="img/sumo-support.png" alt="Sumo support buttons">](https://support.mozilla.org/en-US/products/hubs)
+[<img src="img/sumo-support.png" alt="Sumo support buttons">](https://support.mozilla.org/)
 
 ## Message Us
 
