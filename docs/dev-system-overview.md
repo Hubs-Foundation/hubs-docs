@@ -3,6 +3,8 @@ id: system-overview
 title: System Overview
 ---
 
+![system overview](img/system-overview.jpeg)
+
 # [The Client](https://github.com/mozilla/hubs) 
 Renders almost everything the user sees. The html pages are served by Reticulum but come from the client.
 
