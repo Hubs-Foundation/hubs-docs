@@ -30,9 +30,9 @@ The data download tool is currently a native application that you will need to d
 
 1. In your web browser, navigate to the "Releases" section of the open-source GitHub repository containing the code for the tool: https://github.com/MozillaReality/Hubs-Backup-Tool/releases/
 2. Find the latest release and look for the "Assets" section containing builds for Linux, Mac, and Windows. Select the build that is compatible with your operating system and it will automatically save to your device's downloads folder as a .zip file.\
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[MacOS Build](https://github.com/MozillaReality/Hubs-Backup-Tool/releases/download/v1.0.5/Hubs.Backup.Tool-darwin-x64-1.0.5.zip)\
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Linux Build](https://github.com/MozillaReality/Hubs-Backup-Tool/releases/download/v1.0.5/Hubs.Backup.Tool-linux-x64-1.0.5.zip)\
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Windows Build](https://github.com/MozillaReality/Hubs-Backup-Tool/releases/download/v1.0.5/hubs-backup-tool-win32-x64-1.0.5.zip.zip)
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[MacOS Build](https://github.com/MozillaReality/Hubs-Backup-Tool/releases/download/v1.0.6/Hubs.Backup.Tool-darwin-x64-1.0.6.zip)\
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Linux Build](https://github.com/MozillaReality/Hubs-Backup-Tool/releases/download/v1.0.6/Hubs.Backup.Tool-linux-x64-1.0.6.zip)\
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Windows Build](https://github.com/MozillaReality/Hubs-Backup-Tool/releases/download/v1.0.6/Hubs.Backup.Tool-win32-x64-1.0.6.zip)
 3. Open the downloaded .zip file in your downloads folder to unzip the application. You should see a new application called "Hubs Backup Tool".\
    <img src="img/BackupTool.png" alt="Backup tool logo" width="300">
 4. Click on the "Hubs Backup Tool" application to open it. Depending on your operating system, your may see a warning that this application contains unverified code and that your operating system is unable to verify the application. To bypass these warnings (steps shown using MacOS 13.1):\
