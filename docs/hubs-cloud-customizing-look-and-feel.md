@@ -6,7 +6,7 @@ sidebar_label: Customizing Look & Feel
 
 # An announcement about the Hubs user interface
 
-On January 25, 2021, we released a significant update to the user interface for Hubs on hubs.mozilla.com. This change will not go live on new Hubs Cloud deployments until on or after March 25, 2021. Before the update is released to Hubs Cloud, we encourage administrators of Hubs Cloud deployments to consider their own releases and determine a plan of action for updating to the new UI.
+On January 25, 2021, we released a significant update to the user interface for Hubs on hubs.Hubs-Foundation.com. This change will not go live on new Hubs Cloud deployments until on or after March 25, 2021. Before the update is released to Hubs Cloud, we encourage administrators of Hubs Cloud deployments to consider their own releases and determine a plan of action for updating to the new UI.
 
 - If you have not made any changes to your Hubs Cloud client look and feel, your Hubs Cloud instance will be updated on or after March 25th to have the new UI.
 

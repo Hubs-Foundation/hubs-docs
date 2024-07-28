@@ -65,9 +65,11 @@ If you try to import an object and it loads as a broken link, it could be an uns
 
 ## Images aren't displaying 
 
-Some older systems have trouble rendering 2D objects in the scene. If you suspect this is happening, try reloading the page with the following flag at the end of the URL: __?disablebatching__. For example:
+Some older systems have trouble rendering 2D objects in the scene. If you suspect this is happening, try reloading the page with the following flag at the end of the URL: __?disablebatching__. 
 
-    https://hubs.mozilla.com/sgKNM3h/smart-magnificent-gala?disablebatching
+<!-- For example:
+
+    https://hubs.mozilla.com/sgKNM3h/smart-magnificent-gala?disablebatching -->
 
 ## YouTube is not working
 

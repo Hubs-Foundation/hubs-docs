@@ -3,7 +3,7 @@ id: system-overview
 title: System Overview
 ---
 
-# [The Client](https://github.com/mozilla/hubs) 
+# [The Client](https://github.com/Hubs-Foundation/hubs) 
 Renders almost everything the user sees. The html pages are served by Reticulum but come from the client.
 
 The front-end is built with React for 2D components and Three.js and A-Frame for the 3D scene. The 3D content is synced across clients using networked aframe. Physics run on the client using Ammo.js/Wasm.
@@ -16,7 +16,7 @@ Game networking is implemented using the networked-aframe library. Currently, au
 ### Ammo.js/Wasm
 All physics simulation is done on the clients -- there is no server-side physics simulation of any kind. The servers are basically a message bus that takes the client messages, does slight modifications and adds authorization, then broadcasts the messages and their updates to all connected peers. Things like ownership over objects and other incidental concerns to orchestrate the in-game experience among peers is all based upon the client protocol implementation.
 
-# [Reticulum](https://github.com/mozilla/reticulum)
+# [Reticulum](https://github.com/Hubs-Foundation/reticulum)
 A mesh network of erlang/elixir/phoenix nodes, and is responsible for all non-voice/video traffic between users including:
  * Avatar transforms
  * Auth/magic sign in links
@@ -31,7 +31,7 @@ Habitat provides packaging and orchestration. Deployment is orchestrated by Habi
 
 Every AWS EC2 instance is running Habitat and Habitat runs packages such as Hubs, Reticulum, Dialog etc.
 
-# [Dialog](https://github.com/mozilla/dialog)
+# [Dialog](https://github.com/Hubs-Foundation/dialog)
 Voice, video and audio traffic is handled via WebRTC Server based on the open source “mediasoup” project. (We formerly used the “Janus” project as our WebRTC server). It uses an SFU (Selective Forwarding Unit) topology where each participant is sending their data to a central routing machine which then sends back all participants data to each participant.
 
 # Postgres DB

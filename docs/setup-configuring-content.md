@@ -38,7 +38,7 @@ Together, the Admin Panel and Spoke allow you to fully control the content that 
 
 ## Default Content
 
-Each new hub comes with a selection of logos, themes, scenes, and avatars that have been developed by the Mozilla Hubs team. In total, this default content consumes ~60mbs and ~220 mbs of data for the Starter and paid plans, respectively. To learn how to remove these default assets, see [Managing Data Limits](#managing-content-storage).
+Each new hub comes with a selection of logos, themes, scenes, and avatars that have been developed by the Hubs team. In total, this default content consumes ~60mbs and ~220 mbs of data for the Starter and paid plans, respectively. To learn how to remove these default assets, see [Managing Data Limits](#managing-content-storage).
 
 **Download Paid Plan Default Assets: [Themes](img/defaultTheme.json) | [Logos](img/defaultLogos.zip) | [Scenes](img/defaultScenes.pack) | [Avatars](img/defaultAvatars.pack)**
 
@@ -50,7 +50,7 @@ Each new hub comes with a selection of logos, themes, scenes, and avatars that h
 
 ## Importing and Migrating Content
 
-The Import Content tool on the Admin Panel makes it easy to share and rehost assets developed by Mozilla or other members of the Hubs community.
+The Import Content tool on the Admin Panel makes it easy to share and rehost assets developed by Hubs or other members of the Hubs community.
 
 <img src="img/import-content.png" alt="Import content tab">
 

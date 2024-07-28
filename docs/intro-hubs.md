@@ -5,7 +5,7 @@ sidebar_label: Getting Started With Hubs
 ---
 
 
-In the following guide we'll show you the basics of Hubs! (Prefer a video? [Click here](https://www.youtube.com/watch?v=5QnOsyyebEQ).)
+<!-- In the following guide we'll show you the basics of Hubs! (Prefer a video? [Click here](https://www.youtube.com/watch?v=5QnOsyyebEQ).)
 
 To get started, head to [hubs.mozilla.com](https://hubs.mozilla.com/). Make your own room by clicking “Create a Room.” 
 
@@ -15,7 +15,7 @@ To get started, head to [hubs.mozilla.com](https://hubs.mozilla.com/). Make your
   Your browser does not support HTML5 video.
 </video>
 
- <p style="text-align: center; font-style:italic;">🎉 Congratulations - you now have your very own virtual space! 🎉<p>
+ <p style="text-align: center; font-style:italic;">🎉 Congratulations - you now have your very own virtual space! 🎉<p> -->
 
 ## Enter the Room
 
