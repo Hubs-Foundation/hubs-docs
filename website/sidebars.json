@@ -9,11 +9,8 @@
     ],
     "Setting Up Your Hub": [
       "setup-configuring-content",
-      "setup-custom-domain",
-      "setup-custom-client",
       "setup-faq",
-      "setup-contact",
-      "setup-learning"
+      "setup-contact"
     ],
     "Hubs Fundamentals": [
       "hubs-create-join-rooms",

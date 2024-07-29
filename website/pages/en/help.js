@@ -34,7 +34,11 @@ function Help(props) {
 
           <strong>Email Us</strong>
           <p>
-            We have a few ways that you can contact us via email. You can{" "}
+            You can contact us via {" "}
+            <a href="mailto:info@hubsfoundation.org">
+              email
+            </a>{" "}. 
+            {/* You can{" "}
             <a href="mailto:info@hubsfoundation.org">
               get subscription support,
             </a>{" "}
@@ -46,7 +50,7 @@ function Help(props) {
             <a href="mailto:info@hubsfoundation.org">
               using hubs for enterprise
             </a>
-            .
+            . */}
           </p>
 
           <strong>Message Us</strong>
