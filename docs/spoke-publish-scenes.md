@@ -24,8 +24,7 @@ If you’ve added models from the search panel in Spoke, attributions for the co
 You will have the options to : 
 
 * Allow Remixing with Creative Commons CC-BY 3.0 - allows users to use your scene as a base template for their own 
-* Allow Mozilla to promote my scene - this lets mozilla add the scene to the publicly accessible scene database if it meet
-
+* Allow Hubs Foundation to promote my scene - this lets Hubs Foundation add the scene to the publicly accessible scene database if it meet
 
 ## Export as .glb file
 

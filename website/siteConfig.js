@@ -59,7 +59,8 @@ const siteConfig = {
 
   algolia: {
     apiKey: '227afb429135813e4d9d2339ea8a18c7',
-    indexName: 'mozilla_hub',
+    //indexName: 'mozilla_hub', //saved just to make sure my change doesn't break the docs
+    indexName: 'hubsfoundation_docs',
     algoliaOptions: {}, // Optional, if provided by Algolia
   },
 
