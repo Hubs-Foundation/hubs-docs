@@ -12,3 +12,6 @@ website/node_modules
 website/i18n/*
 
 results
+
+.env
+package.json
