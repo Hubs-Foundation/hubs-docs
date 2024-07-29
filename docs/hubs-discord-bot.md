@@ -6,7 +6,7 @@ title: Discord Bot
 ## About
 The [Hubs Discord Bot](https://github.com/Hubs-Foundation/hubs-discord-bot) makes it easy to connect Hubs rooms to your Discord chat server. When a Hubs room is associated with a Discord channel, users will be assigned abilities in the Hubs room based on their Discord roles. For example, Discord owners and moderators will be able to change settings on a Hubs room and be able to moderate users in the room.
 
-<!-- ![Hubs Discord bot](img/discord-bot.jpeg) -->
+![Hubs Discord bot](img/discord-bot.jpeg)
 
 ## Features
 * Allows you to authenticate users joining your Hubs room.
