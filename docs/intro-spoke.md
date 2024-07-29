@@ -6,7 +6,7 @@ sidebar_label: Building Scenes with Spoke
 
 Want to build custom VR worlds for Hubs? Meet [Spoke](https://github.com/Hubs-Foundation/Spoke)! 👋
 
-Spoke is an online 3D scene editor developed by the Hubs Mixed Reality team. With Spoke, you can build environments using 3D models, architecture kit pieces, lights, images, videos, and more. Once your scene is ready, you can upload it to Hubs, or export it as a glTF 3D model.
+Spoke is an online 3D scene editor developed by the Hubs Community. With Spoke, you can build environments using 3D models, architecture kit pieces, lights, images, videos, and more. Once your scene is ready, you can upload it to Hubs, or export it as a glTF 3D model.
 
 <video autoplay loop muted controls >
   <source src="img/architecture-kit.mp4" type="video/mp4">
