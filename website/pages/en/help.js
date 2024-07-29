@@ -47,7 +47,7 @@ function Help(props) {
               questions about hubs cloud,
             </a>{" "}
             or contact us about{" "}
-            <a href="mailto:info@hubsfoundation.org">
+            <a href="mailto:%69%6e%66%6f%40%68%75%62%73%66%6f%75%6e%64%61%74%69%6f%6e%2e%6f%72%67">
               using hubs for enterprise
             </a>
             . */}
