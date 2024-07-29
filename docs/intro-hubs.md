@@ -5,17 +5,18 @@ sidebar_label: Getting Started With Hubs
 ---
 
 
-<!-- In the following guide we'll show you the basics of Hubs! (Prefer a video? [Click here](https://www.youtube.com/watch?v=5QnOsyyebEQ).)
+<!-- In the following guide we'll show you the basics of Hubs! (Prefer a video? [Click here](https://www.youtube.com/watch?v=5QnOsyyebEQ).) -->
 
-To get started, head to [hubs.mozilla.com](https://hubs.mozilla.com/). Make your own room by clicking “Create a Room.” 
+We are finishing a beginners guide. Until then, here are a few [links](https://hubsfoundation.org/getting-started/) to get you started. Please visit the [Hubs Discord](https://discord.gg/hubs-498741086295031808) for additional guidance. The community is there is help answer questions.
 
-<video autoplay loop muted controls >
+The folllowing information is from the original guide. It will be useful once you've gotten your hubs server up and running. Make your own room by clicking “Create a Room.” 
+
+<!-- <video autoplay loop muted controls >
   <source src="img/create-a-room.mp4" type="video/mp4">
   <img src="img/intro-hubs-enter-room-min.jpeg" alt="Screenshot of how to enter a Hubs room">
   Your browser does not support HTML5 video.
-</video>
-
- <p style="text-align: center; font-style:italic;">🎉 Congratulations - you now have your very own virtual space! 🎉<p> -->
+</video> -->
+ <!-- <p style="text-align: center; font-style:italic;">🎉 Congratulations - you now have your very own virtual space! 🎉<p> -->
 
 ## Enter the Room
 

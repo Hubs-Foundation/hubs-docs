@@ -4,11 +4,11 @@ title: Getting Started With Hubs Cloud
 sidebar_label: Getting Started
 ---
 
-After successful Hubs Cloud deployment on AWS or DigitalOcean, navigate to your hub's hosted domain name (eg. myhub.com or hub.mydomain.com). 
+After successful Hubs deployment, navigate to your hub's hosted domain name (eg. myhub.com or hub.mydomain.com). 
 
-In the upper right corner, click "Sign In" and enter your admin email address you specified during CloudFormation. In your email inbox, click the received "magic link" to login (Issues with login? Check out the [AWS Troubleshooting Guide](./hubs-cloud-aws-troubleshooting.md)).
+In the upper right corner, click "Sign In" and enter your admin email address you specified during CloudFormation. In your email inbox, click the received "magic link" to login.
 
-Once you've logged into Hubs Cloud for the first time, you should see the Hubs Cloud Admin Console. It should look like this:
+Once you've logged into Hubs for the first time, you should see the Hubs Admin Console. It should look like this:
 
 ![Hubs Cloud Admin Landing](img/hubs-cloud-admin-landing.jpeg)
 
@@ -32,6 +32,5 @@ Here's some things you can do to continue setting up your hub:
 - [Customize the Look and Feel](./hubs-cloud-customizing-look-and-feel.md) to make your hub fit your brand or style.
 - [Enable the Scene Editor](./hubs-cloud-enable-scene-editor.md) to let visitors create their own scenes.
 - [Enable permissive rooms](./hubs-cloud-permissive-rooms.md) to let visitors add media to their rooms.
-- [Set up the media browser](./hubs-cloud-enable-media-browser.md) so visitors can add content from sites like Sketchfab.
 - [Learn how to manage content](./hubs-cloud-managing-content.md) so visitors can contribute content to your hub.
 - [Add Administrators](./hubs-cloud-adding-administrators.md) if you'd like others to help you set up your hub.

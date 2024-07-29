@@ -6,27 +6,12 @@ title: Discord Bot
 ## About
 The [Hubs Discord Bot](https://github.com/Hubs-Foundation/hubs-discord-bot) makes it easy to connect Hubs rooms to your Discord chat server. When a Hubs room is associated with a Discord channel, users will be assigned abilities in the Hubs room based on their Discord roles. For example, Discord owners and moderators will be able to change settings on a Hubs room and be able to moderate users in the room.
 
-![Hubs Discord bot](img/discord-bot.jpeg)
+<!-- ![Hubs Discord bot](img/discord-bot.jpeg) -->
 
 ## Features
 * Allows you to authenticate users joining your Hubs room.
 * Saves a record of text chat and photos created in the Hubs room.
 * Posts in the Discord channel when someone joins or leaves the Hubs room.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5HtRJolThZ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!-- ## Set Up 
-
-If your room is hosted on hubs.mozilla.com:
-
-1. [Click here](https://discordapp.com/oauth2/authorize?client_id=509129921826914304&permissions=536890368&scope=bot) to invite the Hubs Discord bot to your Discord server.
-2. Choose the channel(s) you want Hubs to run in or create new one(s).
-3. Give the bot appropriate permissions (see below) on these channels.
-3. Create a webhook named "Hubs" in the channels you want it to run in. (Go to the channel's Settings-->Integrations) It will use this 
-webhook to bridge chat and send Hubs status updates. 
-4. Try out the bot! Type !hubs in a channel the bot is in to see some things you can do.  -->
-
-<!-- Using Hubs Cloud? You can [add the bot to your Hubs Cloud server](./hubs-cloud-discord-bot.md). -->
 
 ### User Permissions
 Your room's user permissions will inherit the permissions that their Discord role has in the channel that the bot is bound to. Specifically

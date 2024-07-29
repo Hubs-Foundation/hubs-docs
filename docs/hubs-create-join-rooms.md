@@ -5,11 +5,12 @@ title: Create and Join Rooms
 
 ## Create a New Room
 
-To create your own room, head to [Hubs-Foundation's Demo Hub](https://hubs.Hubs-Foundation.com/demo) and click "Create a Room". Your new space is private; no one else can join until you invite them.
+To create your own room click "Create a Room". Your new space is private; no one else can join until you invite them.
 
 ## Join an Existing Room
 
-You can join an existing Hubs room using either a URL or a numeric code. If you have a URL, navigate to the URL in your browser. If you have a numeric code, visit [hubs.link](https://hubs.link) to use it.
+You can join an existing Hubs room using either a URL or a numeric code. If you have a URL, navigate to the URL in your browser. 
+<!-- If you have a numeric code, visit [hubs.link](https://hubs.link) to use it. -->
 
 ## Enter a Room
 
@@ -19,23 +20,25 @@ Before entering a Hubs room you are in the room's lobby. You can see and hear wh
 
 Click "Enter Room" and follow the prompts to select a username/avatar and set up your mic. On the final prompt select "Enter on Screen", or "Enter on Phone" if on mobile.
 
-<video autoplay loop muted controls >
+![Screencapture from an event in Hubs](img/dressingRoom1.jpeg)
+
+<!-- <video autoplay loop muted controls >
   <source src="img/hubs-enter-room.mp4" type="video/mp4">
   <img src="img/intro-hubs-enter-room-min.PNG" alt="Hubs Lobby">
   Your browser does not support HTML5 video.
-</video>
+</video> -->
 
 ### On a Standalone VR Headset
 
 If you opened the URL on your desktop or smartphone, choose "Enter on Standalone VR" to create a code that makes it easy to open on your standalone headset (e.g., Oculus Quest, Oculus Go, Samsung Gear).
 
-Open the browser in your VR headset, navigate to [hubs.link](https://hubs.link) and enter the code.
+<!-- Open the browser in your VR headset, navigate to [hubs.link](https://hubs.link) and enter the code.
 
 <video autoplay loop muted controls >
   <source src="img/hubs-enter-standalone-vr.mp4" type="video/mp4">
   <img src="img/intro-hubs-enter-room-min.PNG" alt="Hubs Lobby">
   Your browser does not support HTML5 video.
-</video>
+</video> -->
 
 ### On a Wired-in VR Headset
 

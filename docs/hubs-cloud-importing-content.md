@@ -6,7 +6,7 @@ sidebar_label: Importing Content
 
 The two forms of content you can import into Hubs Cloud are **avatars** and **scenes**. Avatars are 3D figures like robots, humans, and ducks that can be worn by visitors to represent themselves, and scenes are 3D environments like interiors and landscapes that provide visual grounding for a room.
 
-Hubs-Foundation offers a number of [Asset Packs](./hubs-cloud-asset-packs.md) you can import to add some initial content to your hub. Additionally, you can import any custom content you've created, either on [hubsfoundation.org](https://hubsfoundation.org), or using the tools like the [Scene Editor](./hubs-cloud-enable-scene-editor.md) available on your hub. For more information about the Scene Editor, see [Spoke Documentation](http://hubs.local:3000/docs/docs/spoke-creating-projects.html)[^1].
+You can import any custom content you've created, either on [hubsfoundation.org](https://hubsfoundation.org), or using the tools like the [Scene Editor](./hubs-cloud-enable-scene-editor.md) available on your hub. For more information about the Scene Editor, see [Spoke Documentation](http://hubs.local:3000/docs/docs/spoke-creating-projects.html)[^1].
 
 ### Admin Import Tool
 

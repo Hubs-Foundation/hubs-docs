@@ -18,7 +18,7 @@ Host a conference, teach a class, showcase art, or just hang out with friends. H
 
 Hubs works across platforms. Got a VR headset? Awesome! If not, you can use your desktop computer, laptop, tablet, or mobile devices to explore in 2D ([see supported browsers](hubs-create-join-rooms.html#for-2d-experience)).
 
-<!-- ![Screencapture from an event in Hubs](img/hubs-scenes3.jpeg) -->
+![Screencapture from an event in Hubs](img/hubs-scenes3.jpeg)
 
 ## Customizing Hubs
 
