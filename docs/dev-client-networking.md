@@ -637,7 +637,8 @@ Event handlers that queue messages for later processing can be found in
 By default, `networked instanciated entities` which are created with
 the built-in [`createNetworkedEntity()`](#createnetworkedentity) function,
 are removed when their creator (client) is disconnects. In order to persist
-these entities the entity must be pinned. Only
+these entities the entity must be [pinned](https://docs.hubsfoundation.org/hubs-features.html). Only
+
 `networked instanciated entities` can be `pinned`.
 
 To `pin` an `network instantiated entities`, a client calls the built-in
