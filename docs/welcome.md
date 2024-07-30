@@ -4,7 +4,7 @@ title: Welcome to Hubs
 sidebar_label: Welcome
 ---
 
-<!-- **Important Notice:** Mozilla Hubs will shut down on May 31, 2024. For more information about the shutdown and how you can support Hubs' life beyond Mozilla, please read this article: https://hubs.mozilla.com/labs/sunset/ -->
+
 
 Hubs is a virtual collaboration platform that runs in your browser. With Hubs you can create your own 3D spaces with a single click. Invite others to join using a URL. No installation or app store required.
 
