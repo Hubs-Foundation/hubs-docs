@@ -35,13 +35,13 @@ Complex 3D models can cause performance challenges in your scenes. Two main fact
 
 To reduce the image texture size of a glb model, you can either [covert to a gltf file](), so that there is a folder with all the texture files and reduce the size of the image textures using a tool like photoshop (reduce the size of the images by half, or by a quarter for example). 
 
-<!-- We've also made a [video of other things you can do to optimize the size of your textures in Blender](https://www.youtube.com/watch?v=6uhAp1m1SXQ). -->
+We've also made a [video of other things you can do to optimize the size of your textures in Blender](https://www.youtube.com/watch?v=6uhAp1m1SXQ).
 
 #### Reduce number of triangles
 
 There is no golden rule of thumb for what number of triangles in a model is ideal, however, we recommend using models with only tens of thousands, rather than hundreds of thousands of triangles. Many complex 3D models can have their triangle count reduced without greatly impacting the way that the model looks. You can do this using the Mesh Decimation tool in Blender. 
 
-<!-- For instructions, check out [this video](https://www.youtube.com/watch?v=IIQNj-6_tQE_) -->
+For instructions, check out [this video](https://www.youtube.com/watch?v=IIQNj-6_tQE_)
 
 ## Oculus Quest & Mobile Notes
 
