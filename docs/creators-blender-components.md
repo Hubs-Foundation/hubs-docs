@@ -39,7 +39,9 @@ The second option is called ‘**Increment**’ and lets you specify the number 
 ![UV Scroll Example 2](img/components_UVscroll_02.gif)
 - The same scroll speed as above with an increment value of 0.1.
 
-We can take advantage of this effect by using long strips of animations in a sort of virtual flip-book, allowing the playback of things such as blinking lights, all the way to full-blown GIF animations.  For additional information about advanced uses of the ‘UV Scroll’ component, see Jim’s excellent Creator Labs write-up [HERE](https://hubs.mozilla.com/labs/animating-textures-with-the-uv-scroll-component-pt1/).
+We can take advantage of this effect by using long strips of animations in a sort of virtual flip-book, allowing the playback of things such as blinking lights, all the way to full-blown GIF animations. 
+
+<!-- For additional information about advanced uses of the ‘UV Scroll’ component, see Jim’s excellent Creator Labs write-up [HERE](https://hubs.mozilla.com/labs/animating-textures-with-the-uv-scroll-component-pt1/). -->
 
 
 ## Avatar
@@ -110,7 +112,7 @@ To make a media frame, create an ‘Empty’ in your Blender scene.  Since media
 
 The ‘**Media Type**’ dropdown will let you specify which type of media your frame will accept.  This can be limited to only 2D media, specific types of 2D media, 3D models, or any type of media.
 
-For more information about the ‘Media Frame’ component, see Laurie ONeill’s article on Creator Labs [HERE](https://hubs.mozilla.com/labs/working-with-media-frames/).
+<!-- For more information about the ‘Media Frame’ component, see Laurie ONeill’s article on Creator Labs [HERE](https://hubs.mozilla.com/labs/working-with-media-frames/). -->
 
 
 ### Particle Emitter
@@ -399,7 +401,7 @@ Adding an ‘Audio Target’ component to an empty will also automatically add a
 
 An ‘Audio Zone’ is a special volume in your Hubs scene inside which you can override audio settings.  It is useful for creating private spaces in your scene outside of which audio cannot be heard from within the defined volume.  Audio zones affect both spoken audio as well as media audio that are within the audio zone.
 
-For more information about the ‘Audio Zone’ component and how it works, see [Matt’s article on Creator Labs](https://hubs.mozilla.com/labs/creating-speaker-stages-and-manipulating-audio-in-hubs/).
+<!-- For more information about the ‘Audio Zone’ component and how it works, see [Matt’s article on Creator Labs](https://hubs.mozilla.com/labs/creating-speaker-stages-and-manipulating-audio-in-hubs/). -->
 
 ### Image
 
@@ -578,7 +580,7 @@ The Audio Settings options are:
 
 **Media Cone Outer Gain**:  A double value describing the amount of volume reduction outside the cone defined by the ‘Media Cone Outer Gain’ attribute.  Its default value is 0, meaning that no sound can be heard.
 
-If you’d like an example of what some sound combinations can sound like, head on over to [THIS](https://hubs.mozilla.com/scenes/hitpNgs) super handy Hubs scene that has a number of videos, each with different ‘Audio Params’ overrides that you can listen to while you walk around so you can get an idea how the settings affect the volume as you move around the scene.
+<!-- If you’d like an example of what some sound combinations can sound like, head on over to [THIS](https://hubs.mozilla.com/scenes/hitpNgs) super handy Hubs scene that has a number of videos, each with different ‘Audio Params’ overrides that you can listen to while you walk around so you can get an idea how the settings affect the volume as you move around the scene. -->
 
 ### Environment Settings
 
@@ -646,7 +648,9 @@ Contrary to popular assumption, Hubs avatars do not navigate the 3D scene using 
 ![Navigation Mesh Example 1](img/components_navigationMesh_01.png)
 - A sample Hubs scene with a ‘Navigation Mesh’ (shown in green).
 
-The ‘Navigation Mesh’ component gets attached to a duplicated section of floor that has areas cut out for walls and other scene objects that you don’t want avatars to be able to walk through.  Navigation meshes must be one mesh object (you cannot have multiple nav meshes in a scene) and all vertices must be welded together so that there are no discontinuous pieces.  It’s generally a good idea to also attach a ‘Visible’ component to your nav mesh with its visibility toggled off (unchecked).  For more information about making custom nav meshes for your scene, check out Jim’s comprehensive article on Creator Labs [HERE](https://hubs.mozilla.com/labs/what-is-a-nav-mesh/).
+The ‘Navigation Mesh’ component gets attached to a duplicated section of floor that has areas cut out for walls and other scene objects that you don’t want avatars to be able to walk through.  Navigation meshes must be one mesh object (you cannot have multiple nav meshes in a scene) and all vertices must be welded together so that there are no discontinuous pieces.  It’s generally a good idea to also attach a ‘Visible’ component to your nav mesh with its visibility toggled off (unchecked).  
+
+<!-- For more information about making custom nav meshes for your scene, check out Jim’s comprehensive article on Creator Labs [HERE](https://hubs.mozilla.com/labs/what-is-a-nav-mesh/). -->
 
 ### Reflection Probes
 
@@ -655,5 +659,5 @@ The ‘Reflection Probe’ element is used to create areas in your scene inside 
 ![Reflection Probe Example 1](img/components_reflectionProbe_01.png)
 - The ‘Reflection Probe’ component and its settings.
 
-For more information about the ‘Reflection Probe’ element, see [Jim’s excellent article on Creator Labs](https://hubs.mozilla.com/labs/baked-lighting-for-better-looking-hubs-scenes/) titled “Baked Lighting for Better-Looking Hubs Scenes”.
+<!-- For more information about the ‘Reflection Probe’ element, see [Jim’s excellent article on Creator Labs](https://hubs.mozilla.com/labs/baked-lighting-for-better-looking-hubs-scenes/) titled “Baked Lighting for Better-Looking Hubs Scenes”. -->
 

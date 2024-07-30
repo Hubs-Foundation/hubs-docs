@@ -77,27 +77,27 @@ class Footer extends React.Component {
           <div>
             <h5>Community</h5>
             <a href="http://discord.gg/wHmY4nd">Discord Chat</a>
-            <a
+            {/* <a
               href="https://twitter.com/mozillahubs"
               target="_blank"
               rel="noreferrer noopener"
             >
               Twitter
-            </a>
+            </a> */}
           </div>
           <div>
             <h5>More</h5>
-            <a href="https://hubs.mozilla.com/">Hubs</a>
-            <a href="https://hubs.mozilla.com/spoke/">Spoke</a>
-            <a href="https://github.com/mozilla/hubs/">GitHub</a>
+            <a href="https://hubsfoundation.org">Hubs</a>
+            <a href="https://github.com/Hubs-Foundation/Spoke">Spoke</a>
+            <a href="https://github.com/Hubs-Foundation/hubs">GitHub</a>
             {this.props.config.twitterUsername && (
               <div className="social">
-                <a
+                {/* <a
                   href={`https://twitter.com/${this.props.config.twitterUsername}`}
                   className="twitter-follow-button"
                 >
                   Follow @{this.props.config.twitterUsername}
-                </a>
+                </a> */}
               </div>
             )}
             {this.props.config.facebookAppId && (

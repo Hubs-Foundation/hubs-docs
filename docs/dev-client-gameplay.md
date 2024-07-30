@@ -35,7 +35,7 @@ hundreds more from the community.
 
 Originally built with `A-Frame`, Hubs switched to `bitECS` and using `Three.js`
 directly. Motivation, goals, and non-goals about the transition can be found
-in this PR from June, 2022. [#5536](https://github.com/mozilla/hubs/pull/5536)
+in this PR from June, 2022. [#5536](https://github.com/Hubs-Foundation/hubs/pull/5536)
 
 TODO: Write the scope in this document based on that PR
 
@@ -114,8 +114,8 @@ TODO: Add APIs to register custom add-ons.
 ### Directories
 
 Most of the built-in add-on source codes are found in 
-[`src/components`](https://github.com/mozilla/hubs/tree/master/src/components) and
-[`src/bit-systems`](https://github.com/mozilla/hubs/tree/master/src/bit-systems).
+[`src/components`](https://github.com/Hubs-Foundation/hubs/tree/master/src/components) and
+[`src/bit-systems`](https://github.com/Hubs-Foundation/hubs/tree/master/src/bit-systems).
 Also find the files imported from them. If you want to read the built-in add-on
 code check the directories.
 
@@ -754,7 +754,7 @@ consistency unless any strong reasons.
 
 ### HubsWorld
 
-`HubsWorld` defined in [`src/app.ts`](https://github.com/mozilla/hubs/blob/master/src/app.ts)
+`HubsWorld` defined in [`src/app.ts`](https://github.com/Hubs-Foundation/hubs/blob/master/src/app.ts)
 extends [`bitECS World`](https://github.com/NateTheGreatt/bitECS/blob/master/docs/INTRO.md#-world).
 It manages some extra Hubs Client specific resources and also provides some
 useful data. For example you can get elapsed and delta time from it.
@@ -772,7 +772,7 @@ associated `Object3D` is allowed.)
 TODO: Write the benefit from this limitation
 
 You need to call `addObject3DComponent()` defined in
-[`src/utils/jsx-entity.ts`](https://github.com/mozilla/hubs/blob/master/src/utils/jsx-entity.ts)
+[`src/utils/jsx-entity.ts`](https://github.com/Hubs-Foundation/hubs/blob/master/src/utils/jsx-entity.ts)
 to associate an `Object3D` with an entity.
 
 ```typescript
@@ -799,7 +799,7 @@ addObject3DComponent(world, eid, new Group());
 ```
 
 `addObject3DComponent()` adds the built-in component `Object3DTag` defined in
-[`src/bit-components.js`](https://github.com/mozilla/hubs/blob/master/src/bit-components.js)
+[`src/bit-components.js`](https://github.com/Hubs-Foundation/hubs/blob/master/src/bit-components.js)
 to an entity and stores an `Object3D` in the special `eid2obj` map managed in
 `HubsWorld`.
 
@@ -941,7 +941,7 @@ hand and to version control.
 
 ### renderAsEntity()
 
-Our `renderAsEntity()` function defined in [`src/utils/jsx-entity.js`](https://github.com/mozilla/hubs/blob/master/src/utils/jsx-entity.ts)
+Our `renderAsEntity()` function defined in [`src/utils/jsx-entity.js`](https://github.com/Hubs-Foundation/hubs/blob/master/src/utils/jsx-entity.ts)
 parses `EntityDef`, adds entities to the world, and assign components to the
 entities.
 
@@ -1102,10 +1102,10 @@ as Hubs bitECS component definition.
 
 ### Hubs Blender add-on and Spoke
 
-[`Hubs Blender add-on`](https://github.com/MozillaReality/hubs-blender-exporter)
+[`Hubs Blender add-on`](https://github.com/Hubs-Foundation/hubs-blender-exporter)
 can export `glTF` file with Hubs bitECS component data.
 
-[Our online authoring tool Spoke](https://hubs.mozilla.com/spoke/) also
+[Our online authoring tool Spoke](https://github.com/Hubs-Foundation/Spoke) also
 includes component data in the gltf files that it exports and uploads.
 
 

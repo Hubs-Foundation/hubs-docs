@@ -4,7 +4,6 @@ title: Welcome to Hubs
 sidebar_label: Welcome
 ---
 
-
 Hubs is a virtual collaboration platform that runs in your browser. With Hubs you can create your own 3D spaces with a single click. Invite others to join using a URL. No installation or app store required.
 
 ![Screencapture from an event in Hubs](img/hubs-business.jpeg)
@@ -17,7 +16,7 @@ Host a conference, teach a class, showcase art, or just hang out with friends. H
 
 Hubs works across platforms. Got a VR headset? Awesome! If not, you can use your desktop computer, laptop, tablet, or mobile devices to explore in 2D ([see supported browsers](hubs-create-join-rooms.html#for-2d-experience)).
 
-![Screencapture from an event in Hubs](img/hubs-scenes3.jpeg)
+<!-- ![Screencapture from an event in Hubs](img/hubs-scenes3.jpeg) -->
 
 ## Customizing Hubs
 

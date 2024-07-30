@@ -8,9 +8,15 @@
       "intro-events"
     ],
     "Setting Up Your Hub": [
+      "setup-choosing",
+      "setup-creating",
+      "setup-updating",
       "setup-configuring-content",
+      "setup-custom-domain",
+      "setup-custom-client",
       "setup-faq",
-      "setup-contact"
+      "setup-contact",
+      "setup-learning"
     ],
     "Hubs Fundamentals": [
       "hubs-create-join-rooms",
@@ -21,7 +27,8 @@
       "hubs-controls",
       "hubs-discord-bot",
       "hubs-troubleshooting",
-      "hubs-faq"
+      "hubs-faq",
+      "download-data"
     ],
     "Spoke Documentation": [
       "spoke-creating-projects",
@@ -59,7 +66,9 @@
     "Hubs Cloud": [
       "hubs-cloud-intro",
       "hubs-cloud-getting-started",
+      "hubs-cloud-faq",
       "hubs-cloud-importing-content",
+      "hubs-cloud-asset-packs",
       "hubs-cloud-customizing-look-and-feel",
       "hubs-cloud-customizing-themes",
       "hubs-cloud-managing-content",
@@ -68,7 +77,27 @@
       "hubs-cloud-permissive-rooms",
       "hubs-cloud-third-party-integrations",
       "hubs-cloud-enable-scene-editor",
-      "hubs-cloud-custom-smtp"
-    ]
+      "hubs-cloud-custom-smtp",
+      "hubs-cloud-discord-bot",
+      "hubs-cloud-accessing-servers",
+      "hubs-cloud-content-cdn",
+      "hubs-cloud-custom-clients",
+      "hubs-cloud-branding"
+    ],
+    "Hubs Cloud AWS": [
+      "hubs-cloud-aws-quick-start",
+      "hubs-cloud-aws-domain-recipes",
+      "hubs-cloud-aws-existing-domain",
+      "hubs-cloud-aws-existing-email-provider",
+      "hubs-cloud-aws-updating-the-stack",
+      "hubs-cloud-aws-backup-and-restore",
+      "hubs-cloud-aws-troubleshooting",
+      "hubs-cloud-aws-known-issues",
+      "hubs-cloud-aws-architecture",
+      "hubs-cloud-aws-costs",
+      "hubs-cloud-aws-estimated-cost-charts",
+      "hubs-cloud-aws-estimated-ccu-limits"
+    ],
+    "Hubs Cloud DigitalOcean": ["hubs-cloud-do-quick-start"]
   }
 }

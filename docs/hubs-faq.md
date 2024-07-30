@@ -11,7 +11,7 @@ Once a room is full, all additional users (participant #26 and beyond) can still
 
 If you want to scale Hubs for a larger event we recommend splitting crowds into multiple rooms with smaller groups, or live streaming the event, depending on the use case. 
 
-For more information on setting up Hubs for large events, we recommend exploring [Hubs Cloud](https://hubs.mozilla.com/cloud) as an option for your organization's event needs.
+<!-- For more information on setting up Hubs for large events, we recommend exploring [Hubs Cloud](https://hubs.mozilla.com/cloud) as an option for your organization's event needs. -->
 
 ## How long does a Hubs room last? 
 
@@ -33,9 +33,9 @@ To use a PowerPoint in Hubs, you can convert it to a PDF file and import it dire
 
 ## Is it possible to have my video or slides show up in a good place (like on a wall) automatically?
 
-Precise positioning using the [object controls](./hubs-features.html#object-menu) in Hubs can be a bit tricky at the moment. ([We are working on it!](https://github.com/mozilla/hubs/issues/1324))
+Precise positioning using the [object controls](./hubs-features.html#object-menu) in Hubs can be a bit tricky at the moment. ([We are working on it!](https://github.com/Hubs-Foundation/hubs/issues/1324))
 
-If precise positioning is important, you may prefer to build your media into the scene using [Spoke](https://hubs.mozilla.com/spoke), Hubs' web-based scene editing tool. Spoke has controls that let you fine tune object placement.
+If precise positioning is important, you may prefer to build your media into the scene using [Spoke](https://github.com/Hubs-Foundation/Spoke), Hubs' web-based scene editing tool. Spoke has controls that let you fine tune object placement.
 
 In the meantime, you may find it easier to resize and place objects when using Hubs in VR. If you are setting up a room on desktop, we recommend directly facing the surface you wish to place your media on when importing the files. To move the media into position, you may find you have more control if you click on the object with your mouse to grab it, and then move it into place using the WASD keys.
 
@@ -49,7 +49,7 @@ There is a maximum number of lines that can be included in drawings using the pe
 
 ## Can I create custom environments?
 
-Environments are completely customizable using [Spoke](https://hubs.mozilla.com/spoke), Hubs' web-based scene editing tool. [Learn more here.](intro-spoke.html)
+Environments are completely customizable using [Spoke](https://github.com/Hubs-Foundation/Spoke), Hubs' web-based scene editing tool. [Learn more here.](intro-spoke.html)
 
 ## How do I record my event in Hubs?
 
@@ -57,7 +57,7 @@ We recommend using screen recording software like [OBS](https://obsproject.com/)
 
 ## Can I add custom interactive objects to my room?
 
-[Spoke](https://hubs.mozilla.com/spoke) allows you to create model spawners in your room, enabling users to generate copies of 3D models in the room.
+[Spoke](https://github.com/Hubs-Foundation/Spoke) allows you to create model spawners in your room, enabling users to generate copies of 3D models in the room.
 
 It is not possible at the moment to add scripting or further interactivity to objects in Spoke or Hubs.
 
@@ -102,28 +102,30 @@ Check out the [troubleshooting](hubs-troubleshooting.html#unable-to-connect-erro
 
 Check out the [troubleshooting](hubs-troubleshooting.html#there-is-echo-in-the-room) section.
 
-## How much does Hubs cost for an event?
+<!-- ## How much does Hubs cost for an event? -->
 
-Creating private rooms on [hubs.mozilla.com](https://hubs.mozilla.com/) is free!
+<!-- Creating private rooms on [hubs.mozilla.com](https://hubs.mozilla.com/) is free! -->
 
-If you are interested in hosting an event, or would like to create a customized Hubs environment on your own infrastructure/domain, check out [Hubs Cloud](https://hubs.mozilla.com/cloud) or fill out the [Hubs Events form](https://mzl.la/hubsevents) so that we can provided tailored information for your event needs.
+<!-- If you are interested in hosting an event, or would like to create a customized Hubs environment on your own infrastructure/domain, check out [Hubs Cloud](https://hubs.mozilla.com/cloud) or fill out the [Hubs Events form](https://mzl.la/hubsevents) so that we can provided tailored information for your event needs. -->
 
 ## Can I prevent unregistered attendees from attending my event? 
 
-Hubs rooms can only be accessed by individuals with the URL. Authentication can be done either the [Hubs Discord Bot](hubs-discord-bot.html), or using an approved list of users in [Hubs Cloud](https://hubs.mozilla.com/cloud).
+Hubs rooms can only be accessed by individuals with the URL. 
 
-## Can I run custom code in a Hubs room?
+<!-- Authentication can be done either the [Hubs Discord Bot](hubs-discord-bot.html), or using an approved list of users in [Hubs Cloud](https://hubs.mozilla.com/cloud). -->
+
+<!-- ## Can I run custom code in a Hubs room?
 
 You can't run custom code in the main Hubs website (hubs.mozilla.com) but you can add your own if you self-host using Hubs Cloud (see previous answers). To add custom code you will need to create your own custom fork of the Hubs Cloud client.
 
-For more information, see our documentation on [custom clients](./hubs-cloud-custom-clients.html).
+For more information, see our documentation on [custom clients](./hubs-cloud-custom-clients.html). -->
 
-##  Is it possible for me to create a custom version of Hubs which has different features or styling? 
+<!-- ##  Is it possible for me to create a custom version of Hubs which has different features or styling? 
 
-See previous answer. 
+See previous answer.  -->
 
-## Can I pay Mozilla to do X, Y, Z?
-It's not possible to pay Mozilla for custom work, however, our code is open source and we welcome external contributors in [GitHub](http://github.com/mozilla/hubs). You can post in the #work-for-hire channel of our [Discord chat server](https://discord.gg/wHmY4nd) if you are interested in paying someone to build something for you.
+## Can I pay Hubs-Foundation to do X, Y, Z?
+It's not possible to pay Hubs-Foundation for custom work, however, our code is open source and we welcome external contributors in [GitHub](http://github.com/Hubs-Foundation/hubs). You can post in the #work-for-hire channel of our [Discord chat server](https://discord.gg/wHmY4nd) if you are interested in paying someone to build something for you.
 
 ## Can I run my virtual event in Hubs?
 Yes, check out the information [here](./intro-events.html) for more information on how to get started: 
@@ -132,11 +134,11 @@ If you have questions about whether Hubs will be a good fit for your event, drop
 
 ## Have you considered adding feature X? 
 
-We keep track of bugs and feature requests in GitHub. If there is a feature you would like, see if someone has already mentioned it in our [list of bugs/feature requests](https://github.com/mozilla/hubs/issues). If you find someone else has already asked for the feature, let us know in a comment that you would like it too. If it's not already mentioned, feel free to submit a "feature request." Note, please include as much detail as possible to feature requests to let us know how you see this feature benefiting your use case.
+We keep track of bugs and feature requests in GitHub. If there is a feature you would like, see if someone has already mentioned it in our [list of bugs/feature requests](https://github.com/Hubs-Foundation/hubs/issues). If you find someone else has already asked for the feature, let us know in a comment that you would like it too. If it's not already mentioned, feel free to submit a "feature request." Note, please include as much detail as possible to feature requests to let us know how you see this feature benefiting your use case.
 
-## Where can I find the Mozilla Hubs Privacy Policy?
+## Where can I find the Hubs-Foundation Hubs Privacy Policy?
 
-https://www.mozilla.org/en-US/privacy/hubs/
+https://hubsfoundation.org/privacy-policy/
 
 ## Need help with something else?
 

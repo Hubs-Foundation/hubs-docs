@@ -8,9 +8,9 @@ sidebar_label: Introduction
 
 **NOTICE: HUBS CLOUD WILL BE REPLACED BY COMMUNITY EDITION.
 PRO TIER IS AVAILABLE NOW TO EASILY DEPLOY CUSTOM CLIENTS ON YOUR OWN DOMAINS
-READ MORE [HERE](https://hubs.mozilla.com/#subscribe)**
+<!-- READ MORE [HERE](https://hubs.mozilla.com/#subscribe)** -->
 
-[Hubs Cloud](https://hubs.mozilla.com/cloud) allows you to run your own hub on a private server.
+<!-- [Hubs Cloud](https://hubs.mozilla.com/cloud) allows you to run your own hub on a private server.
 
 
 ### Set up your own Hubs Cloud server:
@@ -24,7 +24,7 @@ READ MORE [HERE](https://hubs.mozilla.com/#subscribe)**
 - Customize the branding, styling, and colors.
 - Customize features such as security and media.
 - Customize the content library of avatars and scenes.
-- Run a custom version of the software to add features and functionality.
+- Run a custom version of the software to add features and functionality. -->
 
 **Currently, Hubs Cloud is offered on AWS and DigitalOcean.**
 

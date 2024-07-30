@@ -8,7 +8,7 @@ Some developer-oriented options that are not available in the preferences panel 
 
 Examples:
 ```
-https://hubs.mozilla.com/12345/my-room-name?allow_multi
+https://mydomain.com/12345/my-room-name?allow_multi
 https://localhost:8080/?hub_id=12345&allow_multi
 ```
 

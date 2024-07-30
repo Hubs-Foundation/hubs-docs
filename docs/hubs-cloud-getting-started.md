@@ -12,7 +12,7 @@ Once you've logged into Hubs Cloud for the first time, you should see the Hubs C
 
 ![Hubs Cloud Admin Landing](img/hubs-cloud-admin-landing.jpeg)
 
-If so, congratulations! You've successfully deployed your own personal Social VR hub, powered by Hubs by Mozilla.
+If so, congratulations! You've successfully deployed your own personal Social VR hub, powered by Hubs by Hubs-Foundation.
 
 You can always get back to the Admin Console by navigating to your site and looking for the "Admin" link in the top navigation bar:
 

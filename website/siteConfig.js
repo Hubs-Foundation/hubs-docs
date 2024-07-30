@@ -15,15 +15,15 @@ const users = [
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
     image: '/img/undraw_open_source.svg',
-    infoLink: 'https://hubs.mozilla.com/',
+    infoLink: 'https://hubsfoundation.org/',
     pinned: true,
   },
 ]
 
 const siteConfig = {
-  title: 'Hubs by Mozilla', // Title for your website.
+  title: 'Hubs', // Title for your website.    
   tagline: 'Hold tight as we get our docs in a row 🦆🦆🦆',
-  url: 'https://hubs.mozilla.com', // Your website URL
+  url: 'https://hubsfoundation.org', // Your website URL
   baseUrl: '/docs/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -31,7 +31,7 @@ const siteConfig = {
 
   // Used for publishing and more
   projectName: 'hubs-docs',
-  organizationName: 'MozillaReality',
+  organizationName: 'Hubs-Foundation',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -39,7 +39,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { doc: 'welcome', label: 'Docs' },
-    { href: 'https://github.com/mozilla/hubs', label: 'GitHub' },
+    { href: 'https://github.com/Hubs-Foundation/hubs', label: 'GitHub' },
     { page: 'help', label: 'Help' },
   ],
 
@@ -78,7 +78,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © 2023 Mozilla Corporation. Hubs Documentation available under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license.`,
+  copyright: `Copyright © 2024 Hubs Foundation. Hubs Documentation available under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license.`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -96,7 +96,7 @@ const siteConfig = {
   // remove 'docs' folder from the URL
   docsUrl: '',
 
-  editUrl: 'https://github.com/MozillaReality/hubs-docs/edit/master/docs/',
+  editUrl: 'https://github.com/Hubs-Foundation/hubs-docs/edit/master/docs/',
 
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',

@@ -34,19 +34,23 @@ function Help(props) {
 
           <strong>Email Us</strong>
           <p>
-            We have a few ways that you can contact us via email. You can{" "}
-            <a href="mailto:hubs-feedback@mozilla.com">
+            You can contact us via {" "}
+            <a href="mailto:%69%6e%66%6f%40%68%75%62%73%66%6f%75%6e%64%61%74%69%6f%6e%2e%6f%72%67">
+              email
+            </a>{" "}. 
+            {/* You can{" "}
+            <a href="mailto:%69%6e%66%6f%40%68%75%62%73%66%6f%75%6e%64%61%74%69%6f%6e%2e%6f%72%67">
               get subscription support,
             </a>{" "}
             ask{" "}
-            <a href="mailto:hubs-support@mozilla.com">
+            <a href="mailto:%69%6e%66%6f%40%68%75%62%73%66%6f%75%6e%64%61%74%69%6f%6e%2e%6f%72%67">
               questions about hubs cloud,
             </a>{" "}
             or contact us about{" "}
-            <a href="mailto:enterprise-hubs@mozilla.com">
+            <a href="mailto:%69%6e%66%6f%40%68%75%62%73%66%6f%75%6e%64%61%74%69%6f%6e%2e%6f%72%67">
               using hubs for enterprise
             </a>
-            .
+            . */}
           </p>
 
           <strong>Message Us</strong>
@@ -60,11 +64,11 @@ function Help(props) {
             question.
           </p>
 
-          <strong>Additional Documentation</strong>
+          {/* <strong>Additional Documentation</strong>
           <p>
             We also have{" "}
             <a href="https://hubs.mozilla.com/labs/">
-              a blog called Creator Labs
+              a blog called Creator Labs - Update coming soon.
             </a>{" "}
             and{" "}
             <a href="https://youtube.com/playlist?list=PLCxaiaRxTL6_V88JFYb6tOPkHCKjnH2BK">
@@ -72,9 +76,9 @@ function Help(props) {
             </a>{" "}
             where you can discover deep-dives and guides about important Hubs
             topics.
-          </p>
+          </p> */}
 
-          <strong>Feature Requests and Improvement Ideas</strong>
+          {/* <strong>Feature Requests and Improvement Ideas</strong>
           <p>
             <a href="https://connect.mozilla.org/t5/ideas/idb-p/ideas/label-name/hubs">
               Mozilla Connect
@@ -82,25 +86,25 @@ function Help(props) {
             is an open forum for you to suggest new features and ideas for how
             we can improve Hubs for your use case. Sign in with your Mozilla
             Account and select "Submit an idea" to get started.
-          </p>
+          </p> */}
 
           <strong>Bug Reports and Discussions</strong>
           <p>
             We track bugs and features on GitHub. You can{" "}
-            <a href="https://github.com/mozilla/hubs/issues">
+            <a href="https://github.com/Hubs-Foundation/hubs/issues">
               view existing tickets,
             </a>{" "}
             or open a{" "}
-            <a href="https://github.com/mozilla/hubs/issues/new/choose">
+            <a href="https://github.com/Hubs-Foundation/hubs/issues/new/choose">
               new issue or feature request
             </a>
             . If you would like to discuss a code-related topics with the Hubs
             team or the community you can browse our GitHub{" "}
-            <a href="https://github.com/mozilla/hubs/discussions">
+            <a href="https://github.com/Hubs-Foundation/hubs/discussions">
               discussion board
             </a>
             , or{" "}
-            <a href="https://github.com/mozilla/hubs/discussions/new">
+            <a href="https://github.com/Hubs-Foundation/hubs/discussions/new">
               start a new discussion
             </a>
             .

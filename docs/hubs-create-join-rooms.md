@@ -5,7 +5,7 @@ title: Create and Join Rooms
 
 ## Create a New Room
 
-To create your own room, head to [Mozilla's Demo Hub](https://hubs.mozilla.com/demo) and click "Create a Room". Your new space is private; no one else can join until you invite them.
+To create your own room, head to [Hubs-Foundation's Demo Hub](https://hubs.Hubs-Foundation.com/demo) and click "Create a Room". Your new space is private; no one else can join until you invite them.
 
 ## Join an Existing Room
 

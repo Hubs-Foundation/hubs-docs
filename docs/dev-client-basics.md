@@ -36,7 +36,7 @@ and [`WebAudio`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
 The `Media Capture and Streams API` allows microphones, cameras, and
 screencapture to be accessed within the browser. Data is captured and encoded
 locally before being sent (as `WebRTC` streams) to a backend service
-([`Dialog`](https://github.com/mozilla/dialog)), where they are forwarded to
+([`Dialog`](https://github.com/Hubs-Foundation/dialog)), where they are forwarded to
 other clients connected to the same room. Incoming streams are decoded and
 transformed (e.g. by `PannerNode` s and `GainNodes` from the `WebAudio` API)
 before being played through the user&rsquo;s speakers.
@@ -44,7 +44,7 @@ before being played through the user&rsquo;s speakers.
 [`Web Sockets`](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) :
 The Hubs client is web app, which means its code is downloaded when you visit a
 hubs-powered site. After its initial load, the hubs client exchanges many, many
-messages to the backend web server, [`Reticulum`](https://github.com/mozilla/reticulum).
+messages to the backend web server, [`Reticulum`](https://github.com/Hubs-Foundation/reticulum).
 To download assets like 3D model files and 2D images, the client makes `HTTP`
 requests. To exchange game state information like, &ldquo;where my avatar is
 moving&rdquo;, the client sends messages over a `Web Socket` connection
@@ -63,15 +63,15 @@ usually written in typescript.
 
 There are three main sections of application code:
 
-The [`admin`](https://github.com/mozilla/hubs/tree/master/admin) directory
+The [`admin`](https://github.com/Hubs-Foundation/hubs/tree/master/admin) directory
 contains a separate application that powers the Hubs admin panel. Note that
 this directory will likely undergo changes in the near future.
 
-The [`react-components`](https://github.com/mozilla/hubs/tree/master/src/react-components)
+The [`react-components`](https://github.com/Hubs-Foundation/hubs/tree/master/src/react-components)
 directory contains all of the 2D UI shown in menus, modals, and toolbars
 throughout the client. It is built with [`React`](https://react.dev/).
 
-The [`src`](https://github.com/mozilla/hubs/tree/master/src) directory contains
+The [`src`](https://github.com/Hubs-Foundation/hubs/tree/master/src) directory contains
 of the code that powers the 3D simulation. The entry points for various pages
 are defined in `webpack.config.js`.
 
