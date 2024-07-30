@@ -7,7 +7,7 @@ title: Room Settings
 
 There are lots of scenes to choose from in our featured scenes browser. You can also upload your own using our scene editor, [Spoke](./intro-spoke.html). If you are a room moderator, find the scene browser by opening the dropdown menu and selecting "Choose a Scene". 
 
-Note that only featured scenes have been tested for performance across devices. For more information on how featured scenes are selected take a look at our [Featured Content Guidelines](./creators-content-guidelines.html). 
+<!-- Note that only featured scenes have been tested for performance across devices. For more information on how featured scenes are selected take a look at our [Featured Content Guidelines](./creators-content-guidelines.html).  -->
 
 <video autoplay loop muted controls >
   <source src="img/change-the-scene.mp4" type="video/mp4">

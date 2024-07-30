@@ -3,7 +3,7 @@ id: setup-configuring-content
 title: Managing Your Hub's Content
 ---
 
-_This page serves as a manual for many of the features that are available to Hubs subscribers to manage the content on their Hub._
+_This page serves as a manual for many of the features that are available to Hubs users to manage the content on their Hub._
 
 **Table of Contents**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Introduction](#introduction)\
@@ -40,11 +40,9 @@ Together, the Admin Panel and Spoke allow you to fully control the content that 
 
 Each new hub comes with a selection of logos, themes, scenes, and avatars that have been developed by the Hubs team. In total, this default content consumes ~60mbs and ~220 mbs of data for the Starter and paid plans, respectively. To learn how to remove these default assets, see [Managing Data Limits](#managing-content-storage).
 
-**Download Paid Plan Default Assets: [Themes](img/defaultTheme.json) | [Logos](img/defaultLogos.zip) | [Scenes](img/defaultScenes.pack) | [Avatars](img/defaultAvatars.pack)**
-
-[<img src="img/defaultAvatars.png" alt="The default avatars">](img/defaultAvatars.pack)
+[<img src="img/defaultAvatars.png" alt="The default avatars">](#)
 <br></br>
-[<img src="img/defaultScenes.png" alt="The default scenes">](img/defaultScenes.pack)
+[<img src="img/defaultScenes.png" alt="The default scenes">](#)
 
 ---
 
@@ -54,25 +52,19 @@ The Import Content tool on the Admin Panel makes it easy to share and rehost ass
 
 <img src="img/import-content.png" alt="Import content tab">
 
-If you are interested in our recommended assets, please see [our asset pack suggestions](./hubs-cloud-asset-packs.html). It is also easy to find scenes and avatars on [Mozilla's Demo Hub](https://hubs.mozilla.com/Pvg5MMt/hubs-demo). While browsing scenes and avatars from the community in Mozilla's Demo Hub, you can copy the url of any shared assets and import them onto your server.
-
-<img src="img/browsing-assets.png" alt="Browsing for assets">
-
 It is important to note that only a few url types are supported by the import tool...
 
-- Hosted Avatar Urls (ex. https://hubs.mozilla.com/avatars/4Ka33qb)
-- Hosted Scene Urls (ex. https://hubs.mozilla.com/scenes/Rpt8DJS)
-- Hosted .pack files (ex. https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/avatars-animals.pack)
-
-If you would like to upload .glb or .spoke files, please do so using Spoke or when creating an avatar in-world. Please note, there is a difference between a **scene URL** and a **room URL**. For more information, [see this guide](https://hubs.mozilla.com/labs/what-is-a-scene/).
+- Hosted Avatar Urls (ex. yourdomain.com/avatars/4Ka33qb)
+- Hosted Scene Urls (ex. hyourdomain.com/scenes/Rpt8DJS)
+- Hosted .pack files (ex. raw.githubusercontent.com/hubs/master/asset-packs/avatars-animals.pack)
 
 #### How to Use the "Import Content" Tool
 
-<video loop muted controls >
+<!-- <video loop muted controls >
   <source src="img/import-content.mp4" type="video/mp4">
   <img src="img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser">
   Your browser does not support HTML5 video.
-</video>
+</video> -->
 
 1. **Copy and paste the link(s) to the asset(s) you would like to import and select "Preview Import".**
 2. **In the import preview, verify that the asset thumbnail looks correct and select any tags you would like to apply to the asset (for more on asset tags, see [Managing Scenes and Avatars - Asset Tags](#asset-tags)).**
@@ -101,7 +93,7 @@ Asset State is the primary method of controlling a piece of media's discoverabil
 
 <img src="img/state-example.png" alt="An example of state">
 
-By default, any assets uploaded by users who select "Allow Mozilla to promote my scene/avatar" in Spoke or in-world using the "Create Avatar" button will be assigned the "Pending" state and await admin approval in the "Pending" tab before being made discoverable. While "Pending", the user who uploaded the asset can still access it.
+By default, any assets uploaded by users who select "Allow Hubs to promote my scene/avatar" in Spoke or in-world using the "Create Avatar" button will be assigned the "Pending" state and await admin approval in the "Pending" tab before being made discoverable. While "Pending", the user who uploaded the asset can still access it.
 
 <img src="img/upload-pending.png" alt="An asset uploaded via spoke for approval">
 
@@ -170,7 +162,7 @@ After this is complete, you will see that the avatar has been grey-ed out and th
 
 ## Accounts and Identities
 
-The Accounts tab of the Admin Panel indexes all users who have signed-in to your hub with an email address. For privacy reasons, all emails are hashed to protect user data, however it is possible to search for specific email addresses to verify individual user accounts. When you edit a user's account, you have the option to make them an admin in order for them to have access to the Admin Panel. Making a user an Admin will NOT let them manage your Hubs Subscription. PLEASE NOTE: You should never remove the account using the email associated with your Mozilla account!!!
+The Accounts tab of the Admin Panel indexes all users who have signed-in to your hub with an email address. For privacy reasons, all emails are hashed to protect user data, however it is possible to search for specific email addresses to verify individual user accounts. When you edit a user's account, you have the option to make them an admin in order for them to have access to the Admin Panel. Making a user an Admin will NOT let them manage your Hubs Subscription. PLEASE NOTE: You should never remove the account using the email associated with your Hubs account!!!
 
 <img src="img/accounts-screen.png" alt="Deleting assets in spoke">
 
@@ -250,7 +242,7 @@ App Settings allow you to control the default behavior, settings, and permission
 | Community Links       | Displays the link to Community on the homepage and under the Support section of the in-world app with the Discord Logo.                                                                             |
 | Company Logo          | Displays the Company Logo uploaded under the Brand tab on the homepage, loading screen, and in-world.                                                                                               |
 | Issue Report Link     | Displays the link to Issue Report under the search bar on the in-app scene/avatar browser and under the Support section of the in-world app with the 'i' logo.                                      |
-| Avatar Pipelines Link | Displays the link to Mozilla Hubs' avatar pipeline documentation in the in-app avatar creation tool.                                                                                                |
+| Avatar Pipelines Link | Displays the link to the Hubs' avatar pipeline documentation in the in-app avatar creation tool.                                                                                                |
 | Model Collection Link | Displays the link to Model Collection when a user attempts to upload a custom asset url in-world .                                                                                                  |
 | Powered By Hubs       | Displays the "Powered By Hubs Cloud" tag on the homepage and loading screens.                                                                                                                       |
 | Public Rooms          | Allows non-administrators to set rooms to be public, featuring them on the homepage.                                                                                                                |

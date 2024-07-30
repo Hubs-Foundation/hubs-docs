@@ -42,7 +42,7 @@ When you upload textures into Hubs The preview will be updated. You do not need 
 
 To customize your avatar's shape, you can modify our basic robot template, or upload a .glb file of your choice. If you use the robot template, your avatar will have hands and a body and a head that grows/shrinks when you speak. If you use a plain .glb file, this item is considered the head of the avatar and the whole object will grow and shrink when you speak. 
 
-You can follow along with Jim and Dom in this recorded live stream here to walk through the whole process: https://youtu.be/qBvZhh6KVcg?t=561
+<!-- You can follow along with Jim and Dom in this recorded live stream here to walk through the whole process: https://youtu.be/qBvZhh6KVcg?t=561 -->
 
 ### Modify Base Robot Template
 
@@ -50,7 +50,7 @@ We offer the following resources if you'd like to modify our base Robot avatar:
 
 * [Blender Source Files](https://github.com/Hubs-Foundation/hubs-avatar-pipelines/tree/master/Blender/AvatarBot) are available of our Robot avatar. **For specific information about how to use these .blend files, be sure to check out the readme within the [Blender/AvatarBot](https://github.com/Hubs-Foundation/hubs-avatar-pipelines/tree/master/Blender/AvatarBot) folder.**
 
-* [Exported GLBs](Exported%20GLB%20models)/[Exported OBJ](https://github.com/Hubs-Foundation/hubs-avatar-pipelines/tree/master/Other%20model%20formats) are available if you'd like to bring them into your editor of choice.
+* [Exported OBJ Files](https://github.com/Hubs-Foundation/hubs-avatar-pipelines/tree/master/Other%20model%20formats) are available if you'd like to bring them into your editor of choice.
 
 We recommend using [Blender 2.83](https://builder.blender.org/download/) (or whatever the most recent release is) for custom models since we have provided example files that you may use as a guide. (Typically, skeleton setup varies between modeling appications which can make importing/exporting skeletons a bit tricky due to unexpected changes in bone rotations, but it is still possible to use something other than Blender.) Note: the .blend files were created with [Blender 2.8](https://builder.blender.org/download/) due to the built-in glTF exporter. The glTF importer/exporter for Blender is currently in development. Expect some bugs and [please report them!](https://github.com/KhronosGroup/glTF-Blender-IO/issues)
 
@@ -60,7 +60,7 @@ Hubs avatars are meant for VR, which means that you should work in real world un
 
 Files with the suffix *_base* refer to the most barebones, basic robot avatar template that can be used as a reference when creating new avatar models. Typically, the Blender workflow would be to either 'Link' or 'Append' the objects from [AvatarBot_base_for_export.blend](https://github.com/Hubs-Foundation/hubs-avatar-pipelines/tree/master/Blender/AvatarBot) in order to use the existing armature (skeleton) and any animations that go along with it, using them as a basis for your own model that you would attach to it.
 
-The armature is based largely upon the same hierarchy and naming conventions of the skeleton provided by [High Fidelity](https://docs.highfidelity.com/en/rc80/create/avatars/avatar-standards.html#skeleton). This also happens to have a similar structure to VRChat in terms of bone orientations.
+The armature is based largely upon the same hierarchy and naming conventions of the skeleton originally provided by High Fidelity. This also happens to have a similar structure to VRChat in terms of bone orientations.
 However, in our current implementation in Hubs, we have eliminated some of the bones within the hierarchy, namely the lower body and arm joints since we are not using any sort of inverse kinematics (IK) at the moment. This may change in future iterations.
 
 ### Use a Regular .glb File

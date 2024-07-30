@@ -24,8 +24,6 @@ We are happy to receive contributions to the Hubs platform in a number of differ
 ### 💻 Code Contributions
 Hubs has a client-server architecture that gives multiple users the ability to connect to a shared room on the server. If you are interested in contributing to the Hubs client, follow the instructions in the [Readme](https://github.com/Hubs-Foundation/hubs#readme) to get started. If you want to contribute to the networking or infrastructure, consider looking at the [reticulum](https://github.com/Hubs-Foundation/reticulum) or [Dialog](https://github.com/Hubs-Foundation/dialog) repositories. If you are interested in working on the code for Spoke, the 3D editor used to create custom environments for Hubs rooms, explore the [Spoke](https://github.com/Hubs-Foundation/spoke) repository.
 
-For more information on the inner workings of Hubs and the architectural decisions behind the project, check out [this presentation on the Hubs Code Base](https://vimeo.com/365531296) by Engineering Lead Greg Fodor.
-
 Issues that are open are tagged. If you explore a bug or feature request that you'd like to fix, make a comment on the case so we know you're looking into it! We try to use the '[good first issue](https://github.com/Hubs-Foundation/hubs/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)' tag to identify some cases that may be easier than others to begin with as you get started with the code base. 
 
 Steps to contributing code to the Hubs project:

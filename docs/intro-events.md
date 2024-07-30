@@ -72,7 +72,7 @@ We recommend that events that are semi-public or public have a prominent link to
 <!-- You can learn more about Hubs-Foundation's own [Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/) or provide a link to your own when you create an event.  -->
 We also recommend adding an image to your event rooms that includes a link to your code of conduct, as well as information about how to report violations. 
 
-If you are requesting support from Hubs-Foundation to promote or assist with running your event, a code of conduct link is required.
+<!-- If you are requesting support from Hubs-Foundation to promote or assist with running your event, a code of conduct link is required. -->
 
-## More Information
-If you have additional questions about hosting events or conferences using Hubs, please get in touch by [filling out the Hubs event interest form](https://airtable.com/shrAtlBbxEKkLbMsd) or join the [Hubs Community Discord Server](https://discord.gg/wHmY4nd), and check out the #conferences channel.
+<!-- ## More Information
+If you have additional questions about hosting events or conferences using Hubs, please get in touch by [filling out the Hubs event interest form](https://airtable.com/shrAtlBbxEKkLbMsd) or join the [Hubs Community Discord Server](https://discord.gg/wHmY4nd), and check out the #conferences channel. -->

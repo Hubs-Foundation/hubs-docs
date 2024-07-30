@@ -67,7 +67,7 @@ function Help(props) {
           {/* <strong>Additional Documentation</strong>
           <p>
             We also have{" "}
-            <a href="https://hubs.mozilla.com/labs/">
+            <a href="https://hubsfoundation.org/labs/">
               a blog called Creator Labs - Update coming soon.
             </a>{" "}
             and{" "}
@@ -80,11 +80,11 @@ function Help(props) {
 
           {/* <strong>Feature Requests and Improvement Ideas</strong>
           <p>
-            <a href="https://connect.mozilla.org/t5/ideas/idb-p/ideas/label-name/hubs">
-              Mozilla Connect
+            <a href="https://hubsfoundation.org/t5/ideas/idb-p/ideas/label-name/hubs">
+              Hubs Foundation Connect
             </a>{" "}
             is an open forum for you to suggest new features and ideas for how
-            we can improve Hubs for your use case. Sign in with your Mozilla
+            we can improve Hubs for your use case. Sign in with your Hubs Foundation
             Account and select "Submit an idea" to get started.
           </p> */}
 

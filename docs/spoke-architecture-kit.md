@@ -11,7 +11,7 @@ This kit contains over 400 different pieces that are designed to be used togethe
 
 ## How to use the architecture kit
 
-Head to [Spoke](https://hubs.mozilla.com/spoke) and start a new project. In the asset panel, find the section labeled "Architecture Kit."
+Head to Spoke and start a new project. In the asset panel, find the section labeled "Architecture Kit."
 
 ![Spoke Properties Panel](img/spoke-architecture-kit-asset-panel.png)
 
@@ -29,9 +29,3 @@ By default kit pieces like walls don't connect in the corners. You might find th
 
 ![Spoke Properties Panel](img/spoke-architecture-kit-trim.png)
 
-## Examples of rooms built with the architecture kit
-
-The following are just a few examples of scenes created using the architecture kit
-* [Hubs Commons](https://hubs.mozilla.com/scenes/T5QUL3L/hubs-commons) 
-* [Catacomb](https://hubs.mozilla.com/scenes/kDTJ34d/catacomb)
-* [Spiral Tower](https://hubs.mozilla.com/scenes/uNVZeKd/spiral-tower)

@@ -78,7 +78,7 @@ class Footer extends React.Component {
             <h5>Community</h5>
             <a href="http://discord.gg/wHmY4nd">Discord Chat</a>
             {/* <a
-              href="https://twitter.com/mozillahubs"
+              href="https://twitter.com/hubsfoundation"
               target="_blank"
               rel="noreferrer noopener"
             >
