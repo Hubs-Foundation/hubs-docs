@@ -7,7 +7,7 @@ sidebar_label: Getting Started With Hubs
 
 <!-- In the following guide we'll show you the basics of Hubs! (Prefer a video? [Click here](https://www.youtube.com/watch?v=5QnOsyyebEQ).) -->
 
-We are finishing a beginners guide. Until then, here are a few [links](https://hubsfoundation.org/getting-started/) to get you started. Please visit the [Hubs Discord](https://discord.gg/hubs-498741086295031808) for additional guidance. The community is there is help answer questions.
+We are finishing a beginners guide. Until then, here are a few [links](https://hubsfoundation.org/getting-started/) to get you started. Please visit the [Hubs Discord](https://discord.gg/hubs-498741086295031808) for additional guidance. The community is there to help answer questions.
 
 The folllowing information is from the original guide. It will be useful once you've gotten your hubs server up and running. Make your own room by clicking “Create a Room.” 
 
