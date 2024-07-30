@@ -9,7 +9,7 @@ _These are the best ways to get in touch with us and the community if you need h
 
 ## Email Us
 
-For questions about Hubs that you would prefer to discuss privately, please contact us [via email](mailto:info@hubsfoundation.org).
+For questions about Hubs that you would prefer to discuss privately, please contact us [via email](mailto:%69%6e%66%6f%40%68%75%62%73%66%6f%75%6e%64%61%74%69%6f%6e%2e%6f%72%67).
 
 ## Message Us
 
