@@ -27,7 +27,8 @@ const siteConfig = {
   tagline: 'Hold tight as we get our docs in a row 🦆🦆🦆',
   //url: 'https://hubsfoundation.org', // Your website URL
   url: 'https://hubs-docs.netlify.app/', //website URL for temporary publish
-  baseUrl: '/docs/', // Base URL for your project */
+  //baseUrl: '/docs/', // Base URL for your project */
+  baseUrl: '/', // Base URL for temporary publish
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
