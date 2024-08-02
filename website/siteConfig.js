@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-require('dotenv').config();
+//require('dotenv').config();
 
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
