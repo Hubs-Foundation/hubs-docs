@@ -69,6 +69,9 @@
       "hubs-cloud-third-party-integrations",
       "hubs-cloud-enable-scene-editor",
       "hubs-cloud-custom-smtp"
+    ],
+    "Contributing": [
+      "github-tutorial-1"
     ]
   }
 }
