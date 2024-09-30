@@ -12,6 +12,6 @@
     "docusaurus": "^1.14.0"
   },
   "dependencies": {
-    "@docusaurus/plugin-google-gtag": "^2.0.0-beta.9"
+    "@docusaurus/plugin-google-gtag": "^2.4.0"
   }
 }
