@@ -149,6 +149,13 @@ https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/social-h
 https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/gallery-scenes.pack
 
 
+**HAIR Cohort 1 Scenes** - A collection scenes developed by the first cohort of the Hubs Arist-In-Residence Program.
+
+![HAIR Cohort 1 Scenes](img/assetPacks_scenes_HAIRCohortOneScenes_600x200.png)
+
+https://raw.githubusercontent.com/mozilla/hubs-cloud/master/asset-packs/hair-one-scenes.pack
+
+
 ## More packs
 
 The full set of packs managed by Mozilla can be found in our [Hubs Cloud Github Repo](https://github.com/mozilla/hubs-cloud/tree/master/asset-packs).
