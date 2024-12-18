@@ -48,7 +48,8 @@
       "system-overview",
       "build-custom-client",
       "contributing",
-      "hubs-query-string-parameters"
+      "hubs-query-string-parameters",
+      "github-workflows"
     ],
     "Hubs Client development": [
       "dev-client-basics",
