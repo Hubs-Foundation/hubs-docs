@@ -24,8 +24,8 @@ Options:
   - The username of the account for the registry you want to push to.
   - Create a repository secret named `REGISTRY_USERNAME` to set a default username to use.
 * The registry password. [REQUIRED]
-  - The password of the account for the registry you want to push to.
-  - Create a repository secret named `REGISTRY_PASSWORD` to set a default password to use.
+  - The password of the account (or the access token) for the registry you want to push to.
+  - Create a repository secret named `REGISTRY_PASSWORD` to set a default password/access token to use.
 * The registry namespace. [REQUIRED]
   - This is often the same as the username, but some registries allow you to manually specify a namespace.
   - Create a repository variable named `REGISTRY_NAMESPACE` to set a default namespace to use.
