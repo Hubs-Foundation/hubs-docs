@@ -128,3 +128,24 @@ For more information about adding new docs, click [here](https://docusaurus.io/d
 
 Full documentation can be found on the [website](https://docusaurus.io/).
 
+## Contributing to Hubs Docs
+
+We welcome contributions from the community! Here’s how you can help:
+
+### 📝 Fixing Documentation  
+If you notice typos, unclear sections, or outdated information:
+1. Fork this repository.
+2. Create a new branch:  
+   ```sh
+   git checkout -b improve-docs
+   ```
+3. Make your edits.
+4. Submit a Pull Request (PR) for review.
+
+## 📄 Adding New Docs
+To add new documentation:
+
+1. Create a new .md file in the docs/ folder.
+2. Update website/sidebar.json to include your new page.
+3. Open a PR for review.
+
