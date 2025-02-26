@@ -4,6 +4,66 @@ title: Introduction to Behavior Graphs
 ---
 
 > **NOTE:** _As of this documentation being created, Behavior Graphs are undergoing rapid development. This has the effect of making it challenging to update this documentation quickly enough to make sure it has parity with the current state of the tech behind it. Thank you for your patience and please consider contributing edits to this documentation as needed._
+# Introduction to Behavior Graphs
+
+## What Are Behavior Graphs?
+
+Imagine you're playing with LEGO blocks. Each block has a different function—some light up, some make sounds, and some move when you press a button. Instead of wiring them together with real wires, you connect them with **invisible instructions** that tell them what to do when something happens.
+
+That’s exactly how **Behavior Graphs** work in **Hubs**! 🎮✨  
+
+A **Behavior Graph** is like a **flowchart of actions** that tell objects in a virtual world how to behave. Instead of writing long, complicated code, you connect **blocks (nodes)** with lines to create **actions and reactions**.
+
+---
+
+## How Do Behavior Graphs Work?
+
+### 1️⃣ Events Start the Action  
+An **event** is something that **triggers** an action.  
+Examples of events in Hubs:
+- Clicking an object  
+- Entering a specific area  
+- A timer running out  
+
+### 2️⃣ Actions Happen Next  
+Once an event occurs, an **action** takes place.  
+Examples:
+- Clicking a lamp turns it **on**  
+- Walking into a room makes a **sound play**  
+- Picking up an object makes it **float**  
+
+### 3️⃣ Logic Helps Make Decisions  
+Sometimes, we don’t want an action to happen **every time**.  
+We use **logic blocks** (like IF statements) to decide:  
+- *IF it’s night, THEN turn on the lights*  
+- *IF a player jumps, THEN make a sound*  
+
+---
+
+## Why Use Behavior Graphs?
+
+✅ No coding required! Perfect for designers and artists. 🎨  
+✅ Makes interactions easy to create and modify. 🔧  
+✅ Everything is **built inside Blender** and exported as part of the scene.  
+
+---
+
+## Example: A Magic Door 🚪
+
+Let's say we want to make a door open when a player stands in front of it.
+
+| Event | Action | Logic (Optional) |
+|-------|--------|-----------------|
+| "Player is near the door" | "Door slides open" | "Only open if the player has a key" |
+
+💡 You just made a simple Behavior Graph!
+
+---
+
+## Final Thoughts
+
+Behavior Graphs help bring virtual worlds to life! Whether you're making doors open, lights blink, or objects move, these **visual scripting tools** give you the power to create dynamic interactions without writing code.  
+
 
 If 3d models represent the visual and aesthetic side of an experience in Hubs, Behavior Graphs represent the design of the affordances (interactive possibilities) and any sequence(s) of events that might occur within that experience.
 
