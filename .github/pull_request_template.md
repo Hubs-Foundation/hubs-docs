@@ -1,9 +1,9 @@
 ## What?
-<!-- Explain what your pull request does -->
+<!-- REQUIRED — Explain what your pull request does -->
 
 
 ## Why?
-<!-- Explain why you're opening this pull request, what limitations does it address, etc..  If you're fixing a bug with an open bug report you can just link to the bug report -->
+<!-- REQUIRED — Explain why you're opening this pull request, what limitations does it address, etc..  If you're fixing a bug with an open bug report you can just link to the bug report -->
 
 
 ## Open questions
