@@ -28,11 +28,11 @@ To start using [GitHub](https://github.com), you need to create an account:
 
 ## 2. Understanding Key GitHub Concepts
 Before we dive into contributing to a GitHub project, let's go over some key concepts:
-* **Repository**: This is where your project lives. It contains all your files and revision history. In our next step(s), we would fork the first repository that we would like to contribute to!
-* **Commits**: A commit is a snapshot of your project at a certain point in time.
-For each commit, you can see how you / other users make file changes so that everyone can keep track of how things were changed.
-* **Branches**: Branches allow you to work on different versions of your project. It is the other important feature of git for contributing to a project. 
-* **Pull Requests**: When you want to contribute to a project, you can make a pull request so that the project owner can then merge your changes from one branch to another (hence, asking the project owner to `pull` the changes from yours commits)
+* **Repository**: This is where your project lives. It contains all your files and revision history. Typically, there's an upstream repository on GitHub, and contributers fork the upstream repository into a repository they own on GitHub. You might also clone a repository to your local machine.  Git has extensive tools to compare repositories and synchronize them. You can freely push changes from one repository you own to another repository you own. 
+* **Commits**: A commit is a set of changes to files.  It is linked to previous commits, so a commit implicitly refers to a snapshot of your project at a certain point in time.
+A commit can be compared to other commits so that everyone can keep track of which files were changed, and how.
+* **Branches**: Branches allow you to work on different versions of your project. A branch is a sequence of commits.  A commit may be in more than one branch at a time.  A branch exists in one repository, and often there are same-named branches in other repositories. 
+* **Pull Requests**: When you want to contribute to a project, you can make a pull request (PR) — a set of commits you propose adding to the upstream repository. You specify what branch of your repository the commits will come from, and a branch of the upstream repository where you propose adding them.  The project core team can then review your changes and request modifications if necessary.  When your pull request is ready, a core team member will `pull` the changes from yours request.  If the upstream repository has a branch named `development`, your will make pull requests targeting that.  Otherwise, your pull request will target a branch named `main` or `master`.
 
 ## 3. Forking the project that you would like to contribute
 
@@ -40,7 +40,8 @@ We would be using https://github.com/Hubs-Foundation/hubs-docs/ as an example th
 
 ![Forking a repository](img/github-3-1.png)
 
-Click on the **Fork** button to Fork your own copy of the **Repository**
+1. Navigate to the main page of the upstream repository on `github.com`.
+2. Click on the **Fork** button to copy the **Repository** into a new repository, that you will own.
 
 ![Setting on creating the new fork](img/github-3-2.png)
 
@@ -57,7 +58,7 @@ You can name the new branch as the new feature you are proposing in your case.
 
 ## 5. Adding/editing files and commits changes to the branch
 
-You can go to the file and click on the edit the file button. 
+You can navigate to the file on `github.com` and click on the edit the file button. 
 
 ![Modifiying files](img/github-5-1.png)
 
@@ -71,12 +72,13 @@ For adding a new file, similarly head to the folder (we are adding github-tutori
 
 After each changes, add “commit message” and then click “commit changes”. 
 
-The commit message is not compulsory, but it is good to add remarks/ notes on the changes for later-on references.
+The commit message should complete the sentence “If applied, this commit will ...”
 
 ## 6. Creating Pull Request
 
 ![Compare and Pull Request](img/github-6-1.png)
-Once ready, you can go to the forked repository and click on "Compare and Pull Request"
+Once ready, you can go to the forked repository and click on "Compare and Pull Request".
+Select the branch where you made changes as the source.
 
 ![Commiting changes](img/github-6-2.png)
 Similarly, adding an title and description so that the Repository's owner can get to know what those proposed commits are.
