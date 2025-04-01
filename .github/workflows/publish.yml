@@ -35,5 +35,5 @@ jobs:
           mkdir -p ~/.ssh
           echo "${{ secrets.WEBCONTAINERS_KEY }}" >  ~/.ssh/WEBCONTAINERS_KEY
           chmod 600 ~/.ssh/WEBCONTAINERS_KEY
-          echo ${{ vars.KNOWN_HOSTS }} > ~/.ssh/known_hosts
+          echo "${{ vars.KNOWN_HOSTS }}" > ~/.ssh/known_hosts
           rsync -v --rsh='ssh -i  ~/.ssh/WEBCONTAINERS_KEY' --archive --delete-after $source $dest
