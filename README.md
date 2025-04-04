@@ -1,6 +1,6 @@
 # Hubs Docs
 
-This repo is for the documentation for Hubs, and related products such as Hubs Cloud and Spoke. 
+This repository contains documentation for Hubs and related products, including Hubs Cloud and Spoke. It provides guides for developers, contributors, and users on setting up, customizing, and troubleshooting Hubs.
 
 The documentation is under active development. If there are any changes or updates you recommend, feel free to submit a pull request or let us know in our [Discord Server](http://discord.gg/wHmY4nd).
 
@@ -127,4 +127,25 @@ For more information about adding new docs, click [here](https://docusaurus.io/d
 ## Full Documentation
 
 Full documentation can be found on the [website](https://docusaurus.io/).
+
+## Contributing to Hubs Docs
+
+We welcome contributions from the community! Here’s how you can help:
+
+### 📝 Fixing Documentation  
+If you notice typos, unclear sections, or outdated information:
+1. Fork this repository.
+2. Create a new branch:  
+   ```sh
+   git checkout -b improve-docs
+   ```
+3. Make your edits.
+4. Submit a Pull Request (PR) for review.
+
+## 📄 Adding New Docs
+To add new documentation:
+
+1. Create a new .md file in the docs/ folder.
+2. Update website/sidebar.json to include your new page.
+3. Open a PR for review.
 
