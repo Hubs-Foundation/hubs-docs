@@ -3,4 +3,6 @@ id: build-custom-client
 title: Build a Custom Client
 ---
 
-If you are running a server using Hubs Cloud, you can deploy your custom client to your server. See [Hubs Cloud Custom Clients](./hubs-cloud-custom-clients.md) to see how.
+*under re-construction*
+
+[//]: # (If you are running a server using Community Edition, you can deploy your custom client to your server. See [Community Edition Custom Clients]&#40;./hubs-cloud-custom-clients.md&#41; to see how.)

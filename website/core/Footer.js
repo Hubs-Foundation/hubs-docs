@@ -70,8 +70,8 @@ class Footer extends React.Component {
             <a href={this.docUrl("system-overview.html", this.props.language)}>
               For Developers
             </a>
-            <a href={this.docUrl("hubs-cloud-intro.html", this.props.language)}>
-              Hubs Cloud
+            <a href={this.docUrl("admin-intro.html", this.props.language)}>
+              Administration
             </a>
           </div>
           <div>

@@ -1,5 +1,5 @@
 ---
-id: hubs-cloud-permissive-rooms
+id: admin-permissive-rooms
 title: Recipe: Permissive Rooms
 sidebar_label: Recipe: Permissive Rooms
 ---
@@ -10,12 +10,12 @@ Room Permissions can be set on a room-by-room basis to allow more access to room
 
 However, sometimes you want to enable all permissions for all visitors for newly created rooms. For example, you may trust all visitors to your hub use features like media spawning and drawing responsibly.
 
-To change the default permissions of new rooms to be more permissive. First, open the [Admin Console](./hubs-cloud-getting-started.md) then choose **App Settings**:
+To change the default permissions of new rooms to be more permissive. First, open the [Admin Console](./admin-getting-started) then choose **App Settings**:
 
-![Hubs Cloud App Settings](img/hubs-cloud-app-settings.jpeg)
+![Administration App Settings](img/hubs-cloud-app-settings.jpeg)
 
 Then, under **Rooms**, enable the **Permissive Rooms** option and click **Save**:
 
-![Hubs Cloud Permissive Rooms](img/hubs-cloud-permissive-rooms.jpeg)
+![Administration Permissive Rooms](img/hubs-cloud-permissive-rooms.jpeg)
 
 Once selected, new rooms will have all permissions turned on by default for all visitors, not just the room creator and promoted members.

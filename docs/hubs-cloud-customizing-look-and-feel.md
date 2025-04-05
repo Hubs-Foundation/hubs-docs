@@ -8,7 +8,7 @@ sidebar_label: Customizing Look & Feel
 
 You can completely completely customize the look and feel of your hub by adding custom colors and branding.
 
-First, open the [Admin Console](./hubs-cloud-getting-started.md) then choose **App Settings**:
+First, open the [Admin Console](./admin-getting-started) then choose **App Settings**:
 
 ![Hubs Cloud App Settings](img/hubs-cloud-app-settings.jpeg)
 
