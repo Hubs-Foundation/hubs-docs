@@ -57,19 +57,16 @@
       "dev-client-interactivity",
       "dev-client-networking"
     ],
-    "Hubs Cloud": [
-      "hubs-cloud-intro",
-      "hubs-cloud-getting-started",
-      "hubs-cloud-importing-content",
-      "hubs-cloud-customizing-look-and-feel",
-      "hubs-cloud-customizing-themes",
-      "hubs-cloud-managing-content",
-      "hubs-cloud-adding-administrators",
-      "hubs-cloud-limiting-user-access",
-      "hubs-cloud-permissive-rooms",
-      "hubs-cloud-third-party-integrations",
-      "hubs-cloud-enable-scene-editor",
-      "hubs-cloud-custom-smtp"
+    "Administration": [
+      "admin-intro",
+      "admin-getting-started",
+      "admin-importing-content",
+      "admin-customizing-themes",
+      "admin-managing-content",
+      "admin-adding-administrators",
+      "admin-limiting-user-access",
+      "admin-permissive-rooms",
+      "admin-enable-scene-editor"
     ]
   }
 }

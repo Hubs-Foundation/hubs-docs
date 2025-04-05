@@ -10,7 +10,7 @@ Your hub includes integrations for searching useful content for visitors to spaw
 
 However, before these various content tabs will be enabled for your hub, you will need to add the necessary API keys to enable the integrations.
 
-In the [Admin Console](./hubs-cloud-getting-started.md) choose **Server Settings**:
+In the [Admin Console](./admin-getting-started) choose **Server Settings**:
 
 ![Hubs Cloud ](img/hubs-cloud-server-settings.jpeg)
 
