@@ -4,7 +4,7 @@ title: Welcome to Hubs
 sidebar_label: Welcome
 ---
 
-**Important Notice:** A significant portion of this documentation contains outdated information.  There are ongoing efforts to update it.  Got questions?  Our community Discord is standing by.  https://discord.gg/hubs-498741086295031808
+**Important Notice:** A significant portion of this documentation contains outdated information.  There are ongoing efforts to update it. Chiefly, Hubs by Mozilla and Hubs Cloud are obsolete.  Hubs Community Edition has the same user experience.  Got questions?  Our community Discord is standing by.  https://discord.gg/hubs-498741086295031808
 
 Hubs is a virtual collaboration platform that runs in your browser. With Hubs you can create your own 3D spaces with a single click. Invite others to join using a URL. No installation or app store required.
 
@@ -24,7 +24,7 @@ Hubs works across platforms. Got a VR headset? Awesome! If not, you can use your
 
 Hubs is open source and customizable. Upload [personalized avatars](intro-avatars.html) or create unique environments using [Spoke](intro-spoke.html).
 
-Want more control over your Hubs interface? You can self-host your own version of the platform using [Hubs Cloud](hubs-cloud-intro.html). Add custom branding, use your own domain name, limit access to approved users, and build your own features and functionality.
+Want more control over your Hubs interface? You can self-host your own version of the platform using [Community Edition](admin-intro.html). Add custom branding, use your own domain name, limit access to approved users, and build your own features and functionality.
 
 ### What is Spoke?
 

@@ -19,7 +19,7 @@ A connectivity issue may result in one person in the room being unable to hear o
 
 If your wired-in headset isn't connecting, we recommend checking the following:
 
-* Does your browser support WebVR? We recommend Firefox for wired-in WebVR experiences. See if your set-up works at https://webvr.info/samples/XX-vr-controllers.html.
+* Does your browser support WebXR? We recommend Chrome for wired-in WebXR experiences. See if your set-up works at https://immersive-web.github.io/webxr-samples/input-profiles.html
 * Is your browser up to date?
 * Do you have SteamVR (Vive / Windows Mixed Reality) or Oculus App (Rift) installed and up to date?
 * Does your VR headset require other supporting software (e.g., Windows Mixed Reality Portal)? Is this installed and up to date? 
