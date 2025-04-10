@@ -44,6 +44,12 @@
       "content-guidelines",
       "intro-behavior-graphs"
     ],
+    "Install Community Edition": [
+      "install-overview",
+      "install-domain-porkbun",
+      "install-domain-namecheap",
+      "install-kubernetes-digitalocean"
+    ],
     "For Developers": [
       "system-overview",
       "build-custom-client",
