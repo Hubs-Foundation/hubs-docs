@@ -5,7 +5,7 @@ title: Creating Custom Avatars
 
 In Hubs you can choose how you want to represent yourself. Select from any of the featured or newest avatars, or create your own. 
 
-Get started quickly using one of these web based tools: [Quick Customized Avatars](https://hubs.mozilla.com/labs/quick-customized-avatars-in-hubs/).
+<!-- Get started quickly using one of these web based tools: [Quick Customized Avatars](https://hubs.mozilla.com/labs/quick-customized-avatars-in-hubs/). -->
 
 Depending on how involved you'd like to get in the avatar creation process, you might choose to simply 're-skin' one of the base avatar bodies, or upload your own 3D model.
 
@@ -32,7 +32,8 @@ The most straightforward way to customize an avatar for Hubs is to upload a cust
 
 ### Create a robot texture
 
-The easiest way to design a new skin for a robot avatar is to use our avatar re-skinning tool 'Quilt' to mix together image files, preview  what they look like on a robot and export a single texture map file. Try it yourself at [tryquilt.io](http://tryquilt.io/). 
+The easiest way to design a new skin for a robot avatar is to use our avatar re-skinning tool 'Quilt' to mix together image files, preview  what they look like on a robot and export a single texture map file. 
+<!-- Try it yourself at [tryquilt.io](http://tryquilt.io/).  -->
 
 ![Examples of robot avatars](img/intro-hubs-tryquilt.jpeg)
 

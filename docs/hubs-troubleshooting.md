@@ -13,7 +13,7 @@ Choppy sounding audio could indicate that your device/network is having trouble 
 
 ## I can't hear someone / someone can't hear me
 
-A connectivity issue may result in one person in the room being unable to hear one or more other participants in a space. We first recommend that you confirm that you can hear other sounds in the room (for example, the sound an object makes when you add it to the room, a video in the room, or the chat sound) and that your Hubs audio preferences aren't set to 0 volume. Also confirm that you are not muted and that you have allowed microphone permissions for Hubs. If you aren't getting any audio at all, try reconnecting to the room with a different audio output device. If you are willing, we also ask that you fill out [this form](https://forms.gle/o6tV9R2ujgDY7gpc8) with network connectivity logs, which will help us diagnose system issues related to audio and connectivity.
+A connectivity issue may result in one person in the room being unable to hear one or more other participants in a space. We first recommend that you confirm that you can hear other sounds in the room (for example, the sound an object makes when you add it to the room, a video in the room, or the chat sound) and that your Hubs audio preferences aren't set to 0 volume. Also confirm that you are not muted and that you have allowed microphone permissions for Hubs. If you aren't getting any audio at all, try reconnecting to the room with a different audio output device.
 
 ## Wired-in headset is not working
 
@@ -65,9 +65,7 @@ If you try to import an object and it loads as a broken link, it could be an uns
 
 ## Images aren't displaying 
 
-Some older systems have trouble rendering 2D objects in the scene. If you suspect this is happening, try reloading the page with the following flag at the end of the URL: __?disablebatching__. For example:
-
-    https://hubs.mozilla.com/sgKNM3h/smart-magnificent-gala?disablebatching
+Some older systems have trouble rendering 2D objects in the scene. If you suspect this is happening, try reloading the page with the following flag at the end of the URL: __?disablebatching__. 
 
 ## YouTube is not working
 

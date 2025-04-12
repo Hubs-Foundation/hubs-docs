@@ -1,0 +1,39 @@
+name: publish
+on:
+  push:
+    paths-ignore: ["README.md", "CONTRIBUTING.md", "LICENSE"]
+  pull_request:
+    paths-ignore: ["README.md", "CONTRIBUTING.md", "LICENSE"]
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build_sync:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./website
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: include dependencies
+        run: npm ci
+      - name: build HTML
+        run: npm run build
+      - name: sync publish
+        if: ${{ github.ref == 'refs/heads/master' && github.repository == 'Hubs-Foundation/hubs-docs' }}
+        env:
+          source: build/hubs-docs/
+          dest: webcontainers@hubsfoundation.org:wordpress/hubs-docs
+        run: |
+          env
+          mkdir -p ~/.ssh
+          echo "${{ secrets.WEBCONTAINERS_KEY }}" >  ~/.ssh/WEBCONTAINERS_KEY
+          chmod 600 ~/.ssh/WEBCONTAINERS_KEY
+          echo "${{ vars.KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+          rsync -v --rsh='ssh -i  ~/.ssh/WEBCONTAINERS_KEY' --archive --delete-after $source $dest

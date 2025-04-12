@@ -8,7 +8,7 @@ Some developer-oriented options that are not available in the preferences panel 
 
 Examples:
 ```
-https://hubs.mozilla.com/12345/my-room-name?allow_multi
+https://mydomain.com/12345/my-room-name?allow_multi
 https://localhost:8080/?hub_id=12345&allow_multi
 ```
 
@@ -29,4 +29,7 @@ https://localhost:8080/?hub_id=12345&allow_multi
 - `default_material_quality` - Either "high", "medium", or "low". Set a default material quality for users with non-mobile devices that take effect when a user has not set a specific preference.
 - `default_mobile_material_quality` - Either "high", "medium", or "low". Set a default material quality for users with mobile devices that take effect when a user has not set a specific preference.
 - `envSettingsDebug` - Show a debug panel for the environment-settings component allowing you to configure tonemapping and exposure settings.
-- `debugLocalScene` - Override what happens when dropping glb files into the scene, instead loading them as the scene (locally, without uploading). This is useful for quickly itterating on scene changes.
+- `debugLocalScene` - Override what happens when dropping glb files into the scene, instead loading them as the scene (locally, without uploading). This is useful for quickly itterating on scene changes. 
+- `debugNavmesh` - Helps you to visually distinguish navmesh in your scene, a white series of zigzag lines help you in distinction
+
+Note: Once you access a room with `debugLocalScene`, there is no scene linked to that room, so to access the same room again normally, you need to change the scene (using Room Info & Settings Panel) while you are in that room

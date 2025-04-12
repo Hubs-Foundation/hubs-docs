@@ -39,7 +39,9 @@ We've also made a [video of other things you can do to optimize the size of your
 
 #### Reduce number of triangles
 
-There is no golden rule of thumb for what number of triangles in a model is ideal, however, we recommend using models with only tens of thousands, rather than hundreds of thousands of triangles. Many complex 3D models can have their triangle count reduced without greatly impacting the way that the model looks. You can do this using the Mesh Decimation tool in Blender. For instructions, check out [this video](https://www.youtube.com/watch?v=IIQNj-6_tQE_)
+There is no golden rule of thumb for what number of triangles in a model is ideal, however, we recommend using models with only tens of thousands, rather than hundreds of thousands of triangles. Many complex 3D models can have their triangle count reduced without greatly impacting the way that the model looks. You can do this using the Mesh Decimation tool in Blender. 
+
+For instructions, check out [this video](https://www.youtube.com/watch?v=IIQNj-6_tQE_)
 
 ## Oculus Quest & Mobile Notes
 

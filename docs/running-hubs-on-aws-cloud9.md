@@ -3,12 +3,12 @@ id: running-hubs-on-aws-cloud9
 title: Running Hubs on AWS cloud
 ---
 
-Issue: https://github.com/mozilla/hubs/issues/411
+Issue: https://github.com/Hubs-Foundation/hubs/issues/411
 
 - Create a new environment. You'll probably need an m3.medium instance at least, since yarn can consume a lot of memory at times.
 - Upgrade nodejs: `$ nvm install 9`
 - [Install yarn](https://yarnpkg.com/en/docs/install#centos-stable)
-- Run `$ git clone https://github.com/mozilla/hubs`
+- Run `$ git clone https://github.com/Hubs-Foundation/hubs`
 - Setup Hubs:
   - `$ cd hubs`
   - `$ yarn install`

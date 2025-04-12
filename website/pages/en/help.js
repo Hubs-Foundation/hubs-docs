@@ -5,19 +5,19 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const React = require('react');
+const React = require("react");
 
-const CompLibrary = require('../../core/CompLibrary.js');
+const CompLibrary = require("../../core/CompLibrary.js");
 
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
 function Help(props) {
-  const {config: siteConfig, language = ''} = props;
-  const {baseUrl, docsUrl} = siteConfig;
-  const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
-  const langPart = `${language ? `${language}/` : ''}`;
-  const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
+  const { config: siteConfig, language = "" } = props;
+  const { baseUrl, docsUrl } = siteConfig;
+  const docsPart = `${docsUrl ? `${docsUrl}/` : ""}`;
+  const langPart = `${language ? `${language}/` : ""}`;
+  const docUrl = (doc) => `${baseUrl}${docsPart}${langPart}${doc}`;
 
   return (
     <div className="docMainWrapper wrapper">
@@ -28,35 +28,86 @@ function Help(props) {
           </header>
 
           <p>
-            If our <a href="/docs/">documentation</a> doesn't answer your questions,{" "}
-            here are a few options for contacting us:
+            If our <a href="/docs/">documentation</a> doesn't answer your
+            questions, here are a few options for contacting us:
           </p>
 
-          <strong>Bug Reports and Feature Requests</strong>
+          <strong>Email Us</strong>
           <p>
-            We track bugs and features on GitHub.
-            You can <a href="https://github.com/mozilla/hubs/issues">view existing tickets,</a>{" "}
-            or open a <a href="https://github.com/mozilla/hubs/issues/new/choose">new issue or feature request</a>.
+            You can contact us via {" "}
+            <a href="mailto:%69%6e%66%6f%40%68%75%62%73%66%6f%75%6e%64%61%74%69%6f%6e%2e%6f%72%67">
+              email
+            </a>{" "}. 
+            {/* You can{" "}
+            <a href="mailto:%69%6e%66%6f%40%68%75%62%73%66%6f%75%6e%64%61%74%69%6f%6e%2e%6f%72%67">
+              get subscription support,
+            </a>{" "}
+            ask{" "}
+            <a href="mailto:%69%6e%66%6f%40%68%75%62%73%66%6f%75%6e%64%61%74%69%6f%6e%2e%6f%72%67">
+              questions about hubs cloud,
+            </a>{" "}
+            or contact us about{" "}
+            <a href="mailto:%69%6e%66%6f%40%68%75%62%73%66%6f%75%6e%64%61%74%69%6f%6e%2e%6f%72%67">
+              using hubs for enterprise
+            </a>
+            . */}
           </p>
 
-          <strong>Discussions</strong>
+          <strong>Message Us</strong>
           <p>
-            If you want to discuss a topic with the Hubs team or the community, or you need help with{" "}
-            troubleshooting, you can browse our GitHub{" "}
-            <a href="https://github.com/mozilla/hubs/discussions">discussion board</a>, or{" "}
-            <a href="https://github.com/mozilla/hubs/discussions/new">start a new discussion</a>.
+            Our{" "}
+            <a href="https://discord.gg/hubs-498741086295031808">
+              Discord Server
+            </a>{" "}
+            is the best way to quickly message us with your questions. Explore
+            the Community and Support Forums to find the best channel for your
+            question.
           </p>
 
-          <strong>Community Chat</strong>
+          {/* <strong>Additional Documentation</strong>
           <p>
-            Prefer to chat in real time? Visit our{" "}
-            <a href="https://discord.gg/wHmY4nd">Discord chat server</a>.
-          </p>
+            We also have{" "}
+            <a href="https://hubsfoundation.org/labs/">
+              a blog called Creator Labs - Update coming soon.
+            </a>{" "}
+            and{" "}
+            <a href="https://youtube.com/playlist?list=PLCxaiaRxTL6_V88JFYb6tOPkHCKjnH2BK">
+              a YouTube channel
+            </a>{" "}
+            where you can discover deep-dives and guides about important Hubs
+            topics.
+          </p> */}
 
-          <strong>Email</strong>
+          {/* <strong>Feature Requests and Improvement Ideas</strong>
           <p>
-            If you need to share sensitive information in order to get help, you can email us at{" "}
-            <a href="mailto:hubs@mozilla.com">hubs@mozilla.com</a>.
+            <a href="https://hubsfoundation.org/t5/ideas/idb-p/ideas/label-name/hubs">
+              Hubs Foundation Connect
+            </a>{" "}
+            is an open forum for you to suggest new features and ideas for how
+            we can improve Hubs for your use case. Sign in with your Hubs Foundation
+            Account and select "Submit an idea" to get started.
+          </p> */}
+
+          <strong>Bug Reports and Discussions</strong>
+          <p>
+            We track bugs and features on GitHub. You can{" "}
+            <a href="https://github.com/Hubs-Foundation/hubs/issues">
+              view existing tickets,
+            </a>{" "}
+            or open a{" "}
+            <a href="https://github.com/Hubs-Foundation/hubs/issues/new/choose">
+              new issue or feature request
+            </a>
+            . If you would like to discuss a code-related topics with the Hubs
+            team or the community you can browse our GitHub{" "}
+            <a href="https://github.com/Hubs-Foundation/hubs/discussions">
+              discussion board
+            </a>
+            , or{" "}
+            <a href="https://github.com/Hubs-Foundation/hubs/discussions/new">
+              start a new discussion
+            </a>
+            .
           </p>
         </div>
       </Container>
