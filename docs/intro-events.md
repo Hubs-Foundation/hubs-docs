@@ -74,5 +74,5 @@ We also recommend adding an image to your event rooms that includes a link to yo
 
 <!-- If you are requesting support from Hubs-Foundation to promote or assist with running your event, a code of conduct link is required. -->
 
-<!-- ## More Information
-If you have additional questions about hosting events or conferences using Hubs, please get in touch by [filling out the Hubs event interest form](https://airtable.com/shrAtlBbxEKkLbMsd) or join the [Hubs Community Discord Server](https://discord.gg/wHmY4nd), and check out the #conferences channel. -->
+## More Information
+If you have additional questions about hosting events or conferences using Hubs please join the [Hubs Community Discord Server](https://discord.gg/wHmY4nd)
