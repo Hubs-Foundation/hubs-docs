@@ -13,7 +13,7 @@ _This page serves as a manual for many of the features that are available to Hub
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Managing Content Storage](#managing-content-storage)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Accounts and Identities](#accounts-and-identities)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Projects](#projects)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Logos and Brand Themeing | Paid Plans](#logos-and-brand-themeing--paid-plans)\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Logos and Brand Themeing](#logos-and-brand-themeing--paid-plans)\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[App Settings](#app-settings)
 
 ---
@@ -38,7 +38,10 @@ Together, the Admin Panel and Spoke allow you to fully control the content that 
 
 ## Default Content
 
-Each new hub comes with a selection of logos, themes, scenes, and avatars that have been developed by the Hubs team. In total, this default content consumes ~60mbs and ~220 mbs of data for the Starter and paid plans, respectively. To learn how to remove these default assets, see [Managing Data Limits](#managing-content-storage).
+Each new hub comes with a selection of logos, themes, scenes, and avatars that have been developed by the Hubs team.
+To learn how to remove these default assets, see [Managing Content Storage](#managing-content-storage).
+
+[//]: # (In total, this default content consumes ~60mbs and ~220 mbs of data for the Starter and paid plans, respectively.)
 
 [<img src="img/defaultAvatars.png" alt="The default avatars">](#)
 <br></br>
@@ -201,13 +204,13 @@ The Projects tab allows you to moderate any Spoke projects that have been create
 
 ---
 
-## Logos and Brand Themeing | Paid Plans
+## Logos and Brand Themeing
 
 Depending on your subscription plan, your hub will allow you to customize the user interface's (UI) colors and logos. Under the "Setup" category in the Admin Panel, you can use the "Brand" tab to upload custom images. Supported file types are listed next to each logo type.
 
 <img src="img/logos-tab.png" alt="Deleting assets in spoke">
 
-In the "Themes" tab, you are able to upload your own JSON theme-ing object to fully customize the UI colors of your hub. For more information on updating your hub's theme, check out [this guide](./hubs-cloud-customizing-themes.html).
+In the "Themes" tab, you are able to upload your own JSON theme-ing object to fully customize the UI colors of your hub. For more information on updating your hub's theme, check out [this guide](./admin-customizing-themes.html).
 
 <img src="img/themes-tab.png" alt="Deleting assets in spoke">
 
@@ -217,34 +220,34 @@ In the "Themes" tab, you are able to upload your own JSON theme-ing object to fu
 
 App Settings allow you to control the default behavior, settings, and permissions of your hub and its user interface.
 
-#### Translations
+#### Translations (site identification)
 
-| Setting          | Description                                                                                                     |
-| ---------------- | --------------------------------------------------------------------------------------------------------------- |
-| App Name         | The application name visible on the magic link email and room sharing preview.                                  |
-| App Description  | The description above the "Create Room" button on the homepage (ex. subdomain.myhubs.net/) .                    |
-| App Tagline      | The tagline underneath the company logo on scene urls.                                                          |
-| Company Name     | The name included in Spoke and the in-app avatar creation tool when allowing the app owner to promote an asset. |
-| Share Hashtag    | Hashtag included when sharing a scene to twitter.                                                               |
-| Contact Email    | The email listed on the static page displayed when a room owner closes the room.                                |
-| Community Prompt | _This feature is deprecated and should not be utilized._                                                        |
+| Setting          | Description                                                                                                    |
+| ---------------- |----------------------------------------------------------------------------------------------------------------|
+| App Name         | The site name visible in the browser tab, on the magic link email, and room sharing preview                    |
+| App Description  | The description above the "Create Room" button on the homepage                                                 |
+| App Tagline      | The tagline underneath the company logo on scene urls                                                          |
+| Company Name     | The name included in Spoke and the in-app avatar creation tool when allowing the app owner to promote an asset |
+| Share Hashtag    | Hashtag included when sharing a photo, video or scene                                                          |
+| Contact Email    | The email listed on the static page displayed when a room owner closes the room                                |
+| Community Prompt | _This feature is deprecated and should not be utilized._                                                       |
 
 #### Features
 
 | Setting               | Description                                                                                                                                                                                         |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Account Creation      | This feature prevents unpromoted users from creating accounts. This will prevent them from signing-in to Spoke and associating their email with any created rooms.                                  |
 | Terms of Use          | Displays the link to the Terms of Use across the app. This includes the homepage, the Support section of the in-world settings panel, and the page displayed when a room is closed by a room owner. |
 | Privacy Notice        | Displays the link to the Privacy Notice on the homepage and under the Support section of the in-world settings panel.                                                                               |
-| Controls Links        | Displays the link to Controls under the Support section of the in-world settings panel with a life-perserver logo.                                                                                  |
-| Docs Links            | Displays the link to Docs under the Support section of the in-world settings panel with a life-perserver logo and the name "Help".                                                                  |
-| Features Links        | _This feature is deprecated and should not be utilized._                                                                                                                                            |
+| Controls Links        | Displays the link to Controls under the Support section of the in-world settings panel with a life-perserver logo. Is often [the Controls page on this site](./hubs-controls)                       |
+| Docs Links            | Displays the link to Docs under the Support section of the in-world settings panel with a life-perserver logo and the name "Help". Is often [the root of this site](.)                              |
+| Features Links        | _This feature is not currently functional._                                                                                                                                                         |
 | Community Links       | Displays the link to Community on the homepage and under the Support section of the in-world app with the Discord Logo.                                                                             |
 | Company Logo          | Displays the Company Logo uploaded under the Brand tab on the homepage, loading screen, and in-world.                                                                                               |
 | Issue Report Link     | Displays the link to Issue Report under the search bar on the in-app scene/avatar browser and under the Support section of the in-world app with the 'i' logo.                                      |
-| Avatar Pipelines Link | Displays the link to the Hubs' avatar pipeline documentation in the in-app avatar creation tool.                                                                                                |
+| Avatar Pipelines Link | Displays the link to the Hubs' avatar pipeline documentation in the in-app avatar creation tool.                                                                                                    |
 | Model Collection Link | Displays the link to Model Collection when a user attempts to upload a custom asset url in-world .                                                                                                  |
-| Powered By Hubs       | Displays the "Powered By Hubs Cloud" tag on the homepage and loading screens.                                                                                                                       |
+| Powered By Hubs       | Displays the "Powered By Hubs" tag on the homepage and loading screens.                                                                                                                             |
 | Public Rooms          | Allows non-administrators to set rooms to be public, featuring them on the homepage.                                                                                                                |
 | Homepage Room ID      | Replaces the homepage with a individual room.                                                                                                                                                       |
 | Scene Editor          | Allows all users to create Spoke projects. This feature will not operate when account creation is disabled. This feature is an important method of managing data usage.                             |

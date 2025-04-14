@@ -10,11 +10,10 @@ sidebar_label: FAQ
 
 The max room size is the same as hubs.mozilla.com: 25 avatars per room + 75 to the lobby ([More on room capacity here](./hubs-faq.md#what-is-the-capacity-of-a-hubs-room)).
 
-Try out Hubs via hubs.mozilla.com and when you're familiar and interested in using it for big events, exclusive personal meetups, or for a business, check out [Hubs Cloud](./hubs-cloud-intro.md).
+Try out Hubs via hubs.mozilla.com and when you're familiar and interested in using it for big events, exclusive personal meetups, or for a business, check out [Hubs Cloud](./admin-intro).
 
 Documentation for customizing your Hubs Cloud instance:
 
-- [Branding + look and feel](./hubs-cloud-customizing-look-and-feel.md)
 - [Customizing hub url](./hubs-cloud-aws-domain-recipes.md)
 - Managing accounts via the Admin Panel - _documentation coming soon_
 - [Customizing the user interface and client code](./hubs-cloud-custom-clients.md)
@@ -61,7 +60,7 @@ See ["Check "What is my hubs stack's admin email address?" docs](./hubs-cloud-aw
 
 ## How do I lockdown my rooms to specific people?
 
-[See Limiting User Access docs](./hubs-cloud-limiting-user-access.md)
+[See Limiting User Access docs](./admin-limiting-user-access)
 
 ## Don't see your question?
 

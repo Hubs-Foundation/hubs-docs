@@ -16,7 +16,7 @@ Hubs is a platform where you can create private rooms and meet with friends in a
 
 Events in Hubs work best for meetups that are designed to have attendees engaged and participating actively with one another, or as a shared viewing environment for streamed video content. 
 
-<!-- If you are interested in hosting a large event with multiple tracks, you may be interested in exploring [Hubs Cloud](./hubs-cloud-getting-started.html).  -->
+<!-- If you are interested in hosting a large event with multiple tracks, you may be interested in exploring [Hubs Cloud](./admin-getting-started.html).  -->
 Hubs Cloud allows you to customize your deployment of the Hubs platform, so that you manage and maintain the system, offers configuration tools for rooms and accounts, and is better suited for larger events. For events that have larger participant interest, we recommend creating several viewing rooms and streaming the primary content to a service like [Twitch](https://twitch.tv).
 
 ## Setting up a Room
@@ -31,29 +31,37 @@ You can specify whether users in the room are able to create and move objects, p
 ## Choosing a Scene
 With Hubs, you can create your own scenes to use as the environment for your rooms. Any scene can be used to create multiple rooms, and you can remix existing scenes that have been shared with a Creative Commons license in [Spoke](./intro-spoke.html) to make edits and personalize spaces. 
 
-<!-- For events, we've provided a few example scenes below to get you started. 
+For events, we've provided a few example scenes below to get you started.
 
-[Conference Room A](https://hubs.mozilla.com/scenes/GvQthTN/conference-room-a) - A smaller meeting room for professional meetings of up to ten users
+[Outdoor Festival](https://demo.hubsfoundation.org/scenes/YTI2JjJ/outdoor-festival) — A large area that accommodates many users
 
-[Lake Office](https://hubs.mozilla.com/scenes/QiUmYC3/lake-office) - An open space with low audio attenuation designed to make it easier to break off into smaller groups around the room
+[Synth City](https://demo.hubsfoundation.org/scenes/Z7gRMsp/synthcity) — A simple space with an old-graphics feel
 
-[Living Room](https://hubs.mozilla.com/scenes/y7wBpta/better-lit-living-room) - A more casual space that works well for smaller group discussions and for streaming panelists
+[Whatever](https://demo.hubsfoundation.org/scenes/oUROpMa/whatever) — A cozy island
 
-[Conference Presentation Hall](https://hubs.mozilla.com/scenes/HHKr45j/conference-presentation-hall) - A larger meeting space with room for slides and a speaker on stage
 
-[Outdoor Meetup Space](https://hubs.mozilla.com/scenes/2rEmqCK/outdoor-meetup) - A large, outdoor space with spaces to put large video streams 
+[//]: # ([Conference Room A]&#40;https://hubs.mozilla.com/scenes/GvQthTN/conference-room-a&#41; - A smaller meeting room for professional meetings of up to ten users)
 
-[Conference Lobby Hall](https://hubs.mozilla.com/scenes/u3ezwKe/customizable-conference-lobby) - A large space with room to move around to different places and converse, with places to link other rooms
+[//]: # ([Lake Office]&#40;https://hubs.mozilla.com/scenes/QiUmYC3/lake-office&#41; - An open space with low audio attenuation designed to make it easier to break off into smaller groups around the room)
 
-From each of the above scene URLs, you can "Create a room with this scene" directly from the scene page. Alternatively, you can paste the scene URL into an existing room that you have already created and [change the scene from within the room by following these steps](./hubs-room-settings.html#change-the-scene). -->
+[//]: # ([Conference Presentation Hall]&#40;https://hubs.mozilla.com/scenes/HHKr45j/conference-presentation-hall&#41; - A larger meeting space with room for slides and a speaker on stage)
+
+[//]: # ([Conference Presentation Hall]&#40;https://hubs.mozilla.com/scenes/HHKr45j/conference-presentation-hall&#41; - A larger meeting space with room for slides and a speaker on stage)
+
+[//]: # ([Outdoor Meetup Space]&#40;https://hubs.mozilla.com/scenes/2rEmqCK/outdoor-meetup&#41; - A large, outdoor space with spaces to put large video streams )
+
+[//]: # ([Conference Lobby Hall]&#40;https://hubs.mozilla.com/scenes/u3ezwKe/customizable-conference-lobby&#41; - A large space with room to move around to different places and converse, with places to link other rooms)
+
+From each of the above scene URLs, you can "Create a room with this scene" directly from the scene page. Alternatively, you can paste the scene URL into an existing room that you have already created and [change the scene from within the room by following these steps](./hubs-room-settings.html#change-the-scene).
 
 ## Invitations
-By default, Hubs rooms [are private, available only to people who you share the URL with](https://blog.mozvr.com/creating-privacy-centric-virtual-spaces/). When planning an event with Hubs, it's important to consider who you want to invite, and only share the link with the attendees you want to have in the space with you. Keep in mind that those attendees will also be able to share the URL, so communicate whether or not how private you would like your event to remain. 
+By default, Hubs rooms [are private, available only to people who you share the URL with](https://web.archive.org/web/20240717220007/https://blog.mozvr.com/creating-privacy-centric-virtual-spaces/). When planning an event with Hubs, it's important to consider who you want to invite, and only share the link with the attendees you want to have in the space with you. Keep in mind that those attendees will also be able to share the URL, so communicate whether or not how private you would like your event to remain. 
 
-<!-- ### Discord Integration
-For an additional authentication mechanism, you can use [Discord](https://discordapp.com) and our [Hubs Discord Bot](https://hubs.mozilla.com/discord) to create rooms. This will require that users are a) a member of your Discord server, b) allowed in the channel the room has been bound to and c) signed in before they can access the Hubs room. 
+[//]: # (### Discord Integration)
 
-Read more about the [Discord Bot](./hubs-discord-bot.html). -->
+[//]: # (For an additional authentication mechanism, you can use [Discord]&#40;https://discordapp.com&#41; and our [Hubs Discord Bot]&#40;https://hubs.mozilla.com/discord&#41; to create rooms. This will require that users are a&#41; a member of your Discord server, b&#41; allowed in the channel the room has been bound to and c&#41; signed in before they can access the Hubs room. )
+
+[//]: # (Read more about the [Discord Bot]&#40;./hubs-discord-bot.html&#41;.)
 
 ### Embedded Rooms
 You can also embed rooms that you own into an existing webpage via an iframe. For larger events that have multiple rooms open at the same time, it can be helpful to embed rooms into a central location to help people find occupied rooms and enter from a single location.
@@ -69,10 +77,10 @@ If you are using the Discord Bot for moderation, you can remove a user permanent
 
 ### Code of Conduct
 We recommend that events that are semi-public or public have a prominent link to the code of conduct guidelines for the space. 
-<!-- You can learn more about Hubs-Foundation's own [Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/) or provide a link to your own when you create an event.  -->
+<!-- You can learn more about Hubs Foundation's own [Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/) or provide a link to your own when you create an event.  -->
 We also recommend adding an image to your event rooms that includes a link to your code of conduct, as well as information about how to report violations. 
 
-<!-- If you are requesting support from Hubs-Foundation to promote or assist with running your event, a code of conduct link is required. -->
+<!-- If you are requesting support from Hubs Foundation to promote or assist with running your event, a code of conduct link is required. -->
 
 ## More Information
 If you have additional questions about hosting events or conferences using Hubs please join the [Hubs Community Discord Server](https://discord.gg/wHmY4nd)

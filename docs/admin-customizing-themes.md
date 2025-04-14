@@ -1,5 +1,5 @@
 ---
-id: hubs-cloud-customizing-themes
+id: admin-customizing-themes
 title: Customizing Themes
 sidebar_label: Customizing Themes
 ---

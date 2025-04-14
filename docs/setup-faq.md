@@ -7,7 +7,7 @@ title: Frequently Asked Questions
 
 Since currently hosting is the responsibility of the user, there is no limit to the number of Hubs you can build. 
 
-### What happen's if I exceed my Hub's content storage limit?
+### What happens if I exceed my Hub's content storage limit?
 
 Your Hub's content storage limit is the total of all data associated with your Hub, largely composed of media uploaded via Spoke and the Admin Panel. If you have exceed the storage limit, you will experience errors when attempting to upload additional media via Spoke and the Admin Panel.
 
