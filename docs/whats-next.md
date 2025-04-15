@@ -1,8 +1,11 @@
-# **What’s next?**
+---
+id: whats-next
+title: What’s next?
+---
 
-## My Hubs is up and running, now what do I do?
+### My Hubs is up and running, now what do I do?
 
-# **Create a room**
+## **Create a room**
 
 You may want to select the button **Create Room**!
 
@@ -15,17 +18,17 @@ And this is what you’ll see, the fallback space. It’s gray ground with a dar
 
 Eager to put up a scene? There are Hubs scenes available! Hop down to the [Importing Scenes and Avatars section]().
 
-# **Where is the Admin Panel?**
+## **Where is the Admin Panel?**
 
 It is at your domain address with admin tacked on the end. Like this:
 
-mycoolhubs.space/admin
+`mycoolhubs.space/admin`
 
-# **Admin Panel** 
+## **Admin Panel** 
 
 There isn’t much content available right now in the form of scenes and avatars, but it will work in a little while when the content has been *placed on other Hubs*. Hubs Foundation is working on fixing that!
 
-# **Safety & Security Settings**
+## **Safety & Security Settings**
 
 These settings are recommended for safety and security but also for minimizing cost. You don’t want a band of roaming squatters to move unseen into your Hubs and drive up your DO costs. So these settings are for “shutting the lights off when you leave”. It should leave your Hubs inaccessible to others UNTIL you change the settings again.
 
@@ -35,7 +38,7 @@ These settings are recommended for safety and security but also for minimizing c
 * When in doubt, delete and change your API at DO or delete your kubernetes cluster.   
 * NEVER share your config file with anyone. 
 
-# **Room Settings**
+## **Room Settings**
 
 Select the **3 dots**, select **Room Info and Settings**.
 
@@ -47,7 +50,7 @@ Select Edit.
 
 Scroll down to modify the Room Access and Room Member Permissions. These options are all your choices.
 
-# **Scene Editor \<- this is Spoke\!**
+## **Scene Editor \<- this is Spoke\!**
 
 When you open New Project, you might see this:   
 Errors loading project. Blah blah 1 error reticulum blah. Possibly a CORS error.
@@ -56,13 +59,13 @@ Errors loading project. Blah blah 1 error reticulum blah. Possibly a CORS error.
 
 You can ignore this for now. It is Hubs saying that it can’t find the crater.glb file that used to be there as default. Just click Ok and carry on.
 
-# **Bring your own glb file (BYOG)**
+## **Bring your own glb file (BYOG)**
 
 Now that you are the captain of your own Hubs, you’ll need to get used to bringing your own supplies. That is, bring in your .glb files. 
 
 We have a few starter files.
 
-##   Importing Scenes and Avatars
+###   Importing Scenes and Avatars
 
 ![Capture of available scenes.](img/whatsnext/image6.png) ![Capture of available avatars.](img/whatsnext/image7.png)
 
@@ -82,7 +85,7 @@ Repeat for each asset you want to import.
 
 For more information on importing and managing content for your Hubs instance, see [Importing Content](https://docs.hubsfoundation.org/hubs-cloud-importing-content.html) and [Managing Content](https://docs.hubsfoundation.org/hubs-cloud-managing-content.html) in the Hubs Docs.
 
-## Start a Scene From Blender
+### Start a Scene From Blender
 
 ![Capture from Blender software showing a starter scene including the ground, a media frame, and a sky texture with other elements.](img/whatsnext/image8.png)
 
@@ -102,7 +105,7 @@ The file contains:
 * A 'Reflection Probe' with its own generated cubemap that matches the resolution of the 'EnvMap' (required or it won't work\!).  
 * Two materials with a pre-baked lightmap image already applied and the appropriate nodes added to the shader graph.
 
-# **Testing sound & screenshare**
+## **Testing sound & screenshare**
 
 Share the link to one of your new rooms with a friend, ask them to use their microphone, see if you can hear each other.
 
@@ -110,17 +113,17 @@ Select the Share button and see if screen shares work.
 
 If you don’t have a friend available, just duplicate the tab, and you will be in there twice.
 
-# **If you have not used Hubs before…**
+## **If you have not used Hubs before…**
 
 * You should visit the [Hubs docs](https://docs.hubsfoundation.org).
 
 ![Capture from Hubs documentation (docs), Welcome to Hubs page.](img/whatsnext/image9.png)
 
-# **Updating Hubs**
+## **Updating Hubs**
 
 Hubs software is updated from time to time. Announcements will be in the Hubs Discord.
 
-## How to update your Hubs CE instance
+### How to update your Hubs CE instance
 
 The manual method:
 
@@ -131,25 +134,29 @@ The manual method:
 * Select **File, Save**. This will keep all of the changes you just made.  
 * Now we need to apply your changes to Kubernetes on DO. **Copy and paste** this into the terminal and **hit enter on your keyboard**
 
- kubectl apply \-f hcce.yaml
+  ```shell
+  kubectl apply -f hcce.yaml
+  ```
 
 * Now we need to restart your Hubs instance so it picks up the changes.  **Copy and paste** this into the terminal and **hit enter on your keyboard**
 
- 		kubectl rollout restart deployment \-n hcce
+  ```shell
+  kubectl rollout restart deployment -n hcce
+  ```
 
-💡Tip: Your Hubs instance will now update any time you run the above two commands until you regenerate your hcce.yaml file.  To return your hcce.yaml file to the way it was, simply regenerate it and disable the default-ssl-certificate line in it.
+> 💡 Tip: Your Hubs instance will now update any time you run the above two commands until you regenerate your hcce.yaml file.  To return your hcce.yaml file to the way it was, simply regenerate it and disable the default-ssl-certificate line in it.
 
 The automatic method:
 
 *Coming soon.*
 
-## How to update your Hubs CE deployment scripts (Zip Version)
+### How to update your Hubs CE deployment scripts (Zip Version)
 
 Updating your Hubs deployment scripts from the repository at Github (the zip file you originally downloaded).
 
 * Copy **input-values.yaml** from your **community\_edition** folder and paste it into a safe space. We’ll use your **Desktop** folder as an example.  
 
-* [Download and extract a new copy of the zip file](https://docs.google.com/document/d/1BXSxTNFLjx8dtz26_OAFJParGdz8qTE2XvVAxwoJwrQ/edit#heading=h.3ld0snzgptsm) to the same spot you did initially.  
+* [Download and extract a new copy of the zip file](./beginners-guide-to-CE.html#9-download-hubs-ce) to the same spot you did initially.  
 
 * Select OK when asked to overwrite the files.  
 
@@ -159,40 +166,51 @@ Updating your Hubs deployment scripts from the repository at Github (the zip fil
 
 * Delete the old **input-values.yaml** file that is in your Desktop folder.
 
-## How to update your Hubs CE deployment scripts (Git Version)
+### How to update your Hubs CE deployment scripts (Git Version)
 
 * If you are using the master branch with uncommitted changes:  
 * Stash your changes by running this command:
 
-	git stash
+    ```shell
+    git stash
+    ```
 
 * Pull in the new updates by running this command:
 
-  git pull \--rebase
+    ```shell
+    git pull --rebase
+    ```
 
 * Reapply your changes by running this command:
 
-	git stash pop stash@{0}
+    ```shell
+    git stash pop stash@{0}
+    ```
 
 * If you run into a merge conflict, run this command:
 
-	git mergetool
+    ```shell
+    git mergetool
+    ```
 
 * If you are using a custom branch:  
   * Commit or stash your changes if needed.  
   * Change back to master.  
   * Pull in the new updates by running this command:
 
-    git pull \--rebase
-
+    ```shell
+    git pull --rebase
+    ```
   * Change back to your custom branch  
   * Merge the master branch into your custom branch.
 
-## [After updating your Hubs CE deployment scripts](#after-updating-your-hubs-ce-deployment-scripts) {#after-updating-your-hubs-ce-deployment-scripts}
+### After updating your Hubs CE deployment scripts
 
 * Regenerate your Kubernetes config file for DO. **Copy and paste or type the following text** and **hit enter on your keyboard:**
 
+  ```shell
   npm run gen-hcce
+  ```
 
 * In VS Code, select **hcce.yaml**  
 * Select **Control \+ F** on your keyboard and search for this text: **default-ssl-certificate.**  
@@ -200,20 +218,24 @@ Updating your Hubs deployment scripts from the repository at Github (the zip fil
 * Select **File, Save**. This will keep all of the changes you just made.  
 * Now we need to apply your changes to Kubernetes on DO. **Copy and paste or type** this into the terminal and **hit enter on your keyboard**
 
-  kubectl apply \-f hcce.yaml
+  ```shell
+  kubectl apply -f hcce.yaml
+  ```
 
 * Now we need to restart your Hubs instance so it picks up the changes.  **Copy and paste or type** this into the terminal and **hit enter on your keyboard**
 
- 		kubectl rollout restart deployment \-n hcce
+  ```shell
+  kubectl rollout restart deployment -n hcce
+  ```
 
-# **Persistent Storage for Hubs on DigitalOcean**
+## **Persistent Storage for Hubs on DigitalOcean**
 
 Community member Doug Reeder has written [a guide](https://hominidsoftware.com/tech-personal-growth/Hubs-on-DigitalOcean/) for customizing the persistent storage for Hubs on DigitalOcean. Note: this guide is not written for beginners but if you need help, please ask in Discord. 
 
-# **Backups**
+## **Backups**
 
-DO does provide a system to save backups at our [How to backup your Hubs instance instructions](https://docs.google.com/document/d/1-ZTcQ7G6WS9tMP2Y_HFAewVaHoOrbYGtP16UUoQu67Y/edit?usp=sharing).
+DO does provide a system to save backups at our [How to backup your Hubs instance instructions](./how-to-backup-your-Hubs-instance.md).
 
-# **Generating new SSL Certificates**
+## **Generating new SSL Certificates**
 
 🤔 Note: Your SSL certificates expire **every 90 days**. Don’t worry. We’ve [got instructions for you when that happens](https://docs.google.com/document/d/1Ne4Aqe-YY9shvi8La_5dF2Qq3VOoLIrfbpFgE15RjRQ/edit?usp=sharing).

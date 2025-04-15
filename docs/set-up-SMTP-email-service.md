@@ -1,17 +1,20 @@
-# **Set up SMTP email service**
+---
+id: set-up-SMTP-email-service
+title: Set up SMTP email service
+---
 
 Hubs software needs to send out emails with magic links to verify that your visitors are real people and \*not\* sentient AI bots here to destroy humanity. 🤖 
 
 If there are emails that need to be sent, there needs to be a controlling entity that does the work of sending the emails around. You will control that email service.
 
-Tip: Do not be confused that there are 2 types of email when setting up Hubs.
+> 💡 Tip: Do not be confused that there are 2 types of email when setting up Hubs.
 
 * Your admin email is the main email account you’ve been using to set up accounts. It will control your Hubs. To help you, we’ve tried to refer to your controlling email as your admin email. Your admin email could be hosted nearly anywhere (work email, home email, etc.). We used gmail in our testing.  
 * This set of instructions (Set up SMTP email service) is about setting up the magic link emails. These are the automatic emails sent via SMTP services when a user tries to log into Hubs.
 
 You can pick any email service that provides SMTP. These instructions will use Scaleway. 
 
-Scaleway offers a free service for 300 emails maximum per month. (See our [FAQs](https://docs.google.com/document/d/17TSXEuisDYRl8MEJIbv_envxqoEm3f3Z_E9U3Ci7_oU/pub) if you need more than 300 emails per month.)  We find this reasonable. Additionally, Scaleway is based in France, [has a satisfactory Privacy Policy](https://www.scaleway.com/en/privacy-policy/), and has [an environmentally-friendly approach](https://www.scaleway.com/en/about-us/).)
+Scaleway offers a free service for 300 emails maximum per month. (See our [FAQs](./faq.html#i-need-more-than-300-emails-per-month) if you need more than 300 emails per month.)  We find this reasonable. Additionally, Scaleway is based in France, [has a satisfactory Privacy Policy](https://www.scaleway.com/en/privacy-policy/), and has [an environmentally-friendly approach](https://www.scaleway.com/en/about-us/).)
 
 # **Part 1 Set up an account at Scaleway**
 
@@ -86,7 +89,12 @@ a. For Enter domain name, **enter your porkbun domain.** For example: mycoolhubs
 
 The domain can only contain alphanumeric characters, dots, and dashes. 
 
-b. At Estimated monthly cost, this would be your estimated number of emails beyond 300 transactional emails. 🤔 Advice:  You can enter zero here OR whatever you think you’ll need beyond 300 emails. Select the checkbox for I have read and accept Scaleway’s antispam policy. Select **Validate domain name**. 
+b. At Estimated monthly cost, this would be your estimated number of emails beyond 300 transactional emails.
+
+> 🤔 Advice:  You can enter zero here OR whatever you think you’ll need beyond 300 emails.
+
+Select the checkbox for I have read and accept Scaleway’s antispam policy.
+Select **Validate domain name**.
 
 ![Capture of Scaleway Add a New Domain page. Field for domain name, monthly number of emails and, checkbox for "I have read and accept Scaleway's antispam policy" and "Validate domain name" button are highlighted in purple.](img/smtp/image15.png)
 
@@ -132,13 +140,13 @@ c. Scaleway’s Value is Porkbun’s Answer
 
 d. You will cut and paste entries for each of 4 entries: 1 for SPF, 1 for DKIM, 1 for MX, and 1 for DMARC. 
 
-💡 Tip: You may want to have 3 screens simultaneously open on your computer: 1\. These instructions 2\. Scaleway 3\. Porkbun
+> 💡 Tip: You may want to have 3 screens simultaneously open on your computer: 1\. These instructions 2\. Scaleway 3\. Porkbun
 
 i. SPF 
 
 1. At Porkbun, from the Type menu, select **TXT** 💡Tip: be sure to change *from* CNAME *to* TXT.  
 2. At Scaleway, there is no entry to copy this time At Porkbun, **leave Host blank**.  
-3. At Scaleway, copy the **Value data**. 🤔Advice: we think it is the upper Value as you should have no SPF Name yet. At Porkbun, paste it into **Answer**.  
+3. At Scaleway, copy the **Value data**. 🤔 Advice: we think it is the upper Value as you should have no SPF Name yet. At Porkbun, paste it into **Answer**.  
 4. Leave TTL as 600\.  
 5. For Notes:💡This is optional. We used Scaleway SPF entry  
 6. Select **Add.**  
@@ -251,7 +259,7 @@ ii. TLS connection ports \- ignore
 
 iii. Default ports \- **copy and save 2587**  
 
-1. 🤔 Advice: When collecting email parameters: check what ports your email provider supports for SMTP. The standard ports are 25, 465 and 587, but your Kubernetes provider may block those ports as a spam-fighting measure. If your email provider supports non-standard ports, use one of them. (For Scaleway, use port 2587.)  
+> 🤔 Advice: When collecting email parameters: check what ports your email provider supports for SMTP. The standard ports are 25, 465 and 587, but your Kubernetes provider may block those ports as a spam-fighting measure. If your email provider supports non-standard ports, use one of them. (For Scaleway, use port 2587.)  
 
 iv. Username \- **copy and save**  
 v. For Password, select **Generate an API key for your IAM application.**
@@ -264,7 +272,7 @@ v. For Password, select **Generate an API key for your IAM application.**
 
 4. For Create an Application, **Enter a name** and optional description.    
 
-a. 🤔Advice: For Name, we used MyHubsCE.  
+a. 🤔 Advice: For Name, we used MyHubsCE.  
 
 b. 🤔 Advice: For Description, we used Our Hubs SMTP application.  
 
@@ -284,7 +292,7 @@ d. Select **Create application**.
 
 7. At Create A Policy, **enter a name** and optional description.  
 
-a. 🤔Advice: For Name, we used MyHubsCEPolicy.  
+a. 🤔 Advice: For Name, we used MyHubsCEPolicy.  
 
 b. 🤔 Advice: For Description, we used Our Hubs SMTP policy.  
 
@@ -302,7 +310,7 @@ e. Select **Add rules**.
 
 9. At Create Rules, Rule \#1, Permission sets, in the Products Menu, select **Managed Services**, in the Permission sets, select **TransactionalEmailFullAccess.** 
 
-🤔Advice: Be careful to select TransactionalEmailFullAccess\!\! There are other accesses that look very similar, but won’t work\!
+> 🤔 Advice: Be careful to select TransactionalEmailFullAccess\!\! There are other accesses that look very similar, but won’t work\!
 
 Select **Validate.**
 
@@ -330,7 +338,8 @@ a. For Select API key bearer, Select **An application**.
 
 b. Select **your named application** from the dropdown menu.  
 
-c. For the Optional description. Enter any text here. 🤔 Advice: We entered Our Hubs CE SMTP API token.  
+c. For the Optional description. Enter any text here.
+> 🤔 Advice: We entered Our Hubs CE SMTP API token.  
 
 d. For Expiration, the default should be Never. Leave it on that setting.  
 
@@ -350,7 +359,7 @@ Yay\! You’ve done it\! Your new API key will be assigned to your domain.
 
 ![Capture of Scaleway, Identity and Access Management (IAM), Policies page. Transactional Email menu on the left is highlighted in purple.](img/smtp/image52.png)  
 
-Return to the Beginner’s Guide. 
+[Return to the Beginner’s Guide](./beginners-guide-to-CE.md#6-set-up-smtp-email-service-verify-domain--get-credential)
 
 # **Sources**
 
