@@ -16,7 +16,7 @@ You can pick any email service that provides SMTP. These instructions will use S
 
 Scaleway offers a free service for 300 emails maximum per month. (See our [FAQs](./faq.html#i-need-more-than-300-emails-per-month) if you need more than 300 emails per month.)  We find this reasonable. Additionally, Scaleway is based in France, [has a satisfactory Privacy Policy](https://www.scaleway.com/en/privacy-policy/), and has [an environmentally-friendly approach](https://www.scaleway.com/en/about-us/).)
 
-# **Part 1 Set up an account at Scaleway**
+## **Part 1 Set up an account at Scaleway**
 
 1. Go to [Scaleway](https://www.scaleway.com/en/transactional-email-tem/). Select **Get started**.
 
@@ -71,7 +71,7 @@ If the 4-digit code does not show on your transaction, you may need to contact y
 
 ![Capture of Scaleway demographic question of "What will be you using Scaleway for?"  "Other" choice is checked. For "Tell us more..." text: Sending Magic link emails. is entered. "Start exploring" purple button is at the center bottom.](img/smtp/image12.png)
 
-# **Part 2 Connect Scaleway to Porkbun**
+## **Part 2 Connect Scaleway to Porkbun**
 
 1. At the Scaleway Console, Organization Dashboard, you will be offered more options to further verify your account. This is optional. 
 
@@ -98,7 +98,7 @@ Select **Validate domain name**.
 
 ![Capture of Scaleway Add a New Domain page. Field for domain name, monthly number of emails and, checkbox for "I have read and accept Scaleway's antispam policy" and "Validate domain name" button are highlighted in purple.](img/smtp/image15.png)
 
-# **Part 3 Domain verification and adding A Records**
+## **Part 3 Domain verification and adding A Records**
 
 In this step, you will add in the SPF, DKIM, MX, and DMARC records between Scaleway and Porkbun.
 
@@ -244,7 +244,7 @@ b. If you have a green dot next to your domain name, it is verified. You will be
 
 ![Capture of Scaleway, Transactional Email page. For Domains, the Name field is blurred. There is a small green dot, indicating verified, to the left of the blurred field.](img/smtp/image35.png)
 
-# **Part 4 Generate SMTP API token**
+## **Part 4 Generate SMTP API token**
 
 1. At Transactional Email. Select **your domain** (the one you purchased at Porkbun. You will arrive at the Email activity tab.
 
@@ -361,7 +361,7 @@ Yay\! You’ve done it\! Your new API key will be assigned to your domain.
 
 [Return to the Beginner’s Guide](./beginners-guide-to-CE.md#6-set-up-smtp-email-service-verify-domain--get-credential)
 
-# **Sources**
+## **Sources**
 
 [How to generate API keys for API and SMTP sending with IAM](https://www.scaleway.com/en/docs/managed-services/transactional-email/how-to/generate-api-keys-for-tem-with-iam/)
 
