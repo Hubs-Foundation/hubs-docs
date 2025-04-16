@@ -1,6 +1,9 @@
-# **Download and install doctl**
+---
+id: download-and-install-doctl
+title: Download and install doctl
+---
 
-# **Part 1 Download doctl**
+## **Part 1 Download doctl**
 
 1. A. Go to [How to Install and Configure doctl](https://docs.digitalocean.com/reference/doctl/how-to/install/#step-1-install-doctl). Select **GitHub Download (Windows)**.
 
@@ -22,11 +25,11 @@
 
 ![Capture of "Code" folder directly on C drive of a Windows computer.](img/doctl/image5.png)
 
-6. Create a new folder called Code. Paste in the doctl.exe file.
+6. Create a new folder called Code. Paste in the `doctl.exe` file.
 
 ![Capture of doctl file placed within Code folder.](img/doctl/image6.png)
 
-# **Part 2 Install to paths**
+## **Part 2 Install to paths**
 
 7. In Windows 11, enter **System** in your taskbar. Select **System Information**.
 
@@ -60,7 +63,7 @@
 
 Then select **OK** four (4) times to leave these screens.
 
-# **Part 3 Verify doctl is working**
+## **Part 3 Verify doctl is working**
 
 14. To verify that doctl was installed, in Windows 11, enter **command** in your taskbar and for Command Prompt, select the **Command Prompt image** or **Open.**
 
@@ -70,8 +73,8 @@ Then select **OK** four (4) times to leave these screens.
 
 ![Capture of Command Prompt on a Windows computer. Text is white on a black background. Top border is gray.](img/doctl/image16.png)
 
-Enter **doctl version** and **hit enter on your keyboard**. If you see doctl version #.## you did it!
+Enter **`doctl version`** and **hit enter on your keyboard**. If you see doctl version #.## you did it!
 
 ![Capture of Command Prompt.  After entering "doctl version" and hitting enter, Text: doctl version 1.107.0-release, Git commit hash: 42fc8b6f.](img/doctl/image17.png)
 
-**Return to the Beginner’s Guide.**
+[Return to the Beginner’s Guide](./beginners-guide-to-CE.html#8-download-and-install-doctl) 
