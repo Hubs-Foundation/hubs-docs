@@ -1,6 +1,6 @@
 ---
 id: admin-intro
-title: Introduction to Administration
+title: Introduction to Hubs Administration
 sidebar_label: Introduction
 ---
 
