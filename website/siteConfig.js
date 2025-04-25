@@ -40,6 +40,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+    { href: 'https://hubsfoundation.org/', label: 'Hubs Foundation' },
     { doc: 'welcome', label: 'Docs' },
     { href: 'https://github.com/Hubs-Foundation/hubs', label: 'GitHub' },
     { page: 'help', label: 'Help' },
