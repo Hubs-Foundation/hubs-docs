@@ -4,13 +4,15 @@ title: Adding Administrators
 sidebar_label: Adding Administrators
 ---
 
+## Powers
+
 Administrators for your hub have full access rights. They can:
 
 - Have access to the [Admin Console](./admin-getting-started) to update system settings and app configuration.
 - [Manage the content library](./admin-managing-content) and [import content](./admin-importing-content).
 - Have access to the [Scene Editor](./spoke-creating-projects.md) to create and publish new scenes, regardless of settings.
 
-### Granting Admin Access
+## Granting Admin Access
 
 Community Edition does not store any personally identifying information in the database.
 To promote a user to administrator, first get from them the email address they use with your Hubs instance.

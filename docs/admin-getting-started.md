@@ -4,6 +4,8 @@ title: Getting Started With Administration
 sidebar_label: Getting Started
 ---
 
+## Admin Panel
+
 After successful Hubs deployment, navigate to your hub's hosted domain name (e.g. `myhub.com` or `hub.mydomain.com`). 
 
 In the upper right corner, click "Sign In" and enter the email address you set as `ADM_EMAIL` in `input-values.yaml`.
@@ -19,6 +21,8 @@ If so, congratulations! You've successfully deployed your own personal Social VR
 You can always get back to the Admin Console by navigating to your site and looking for the "Admin" link in the top navigation bar:
 
 ![Administration Admin Bar](img/navbar-admin.jpeg)
+
+## Creating a room
 
 Now that your site is up and running, you can create a room by clicking on the "Create a Room" link from the homepage:
 

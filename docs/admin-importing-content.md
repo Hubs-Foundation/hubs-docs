@@ -8,7 +8,7 @@ The two forms of content you can import into Community Edition are **avatars** a
 
 You can import any custom content you've created, either on [demo.hubsfoundation.org](https://demo.hubsfoundation.org), or using the tools like the [Scene Editor](./admin-enable-scene-editor) available on your hub. For more information about the Scene Editor, see [Spoke Documentation](./spoke-creating-projects.md)[^1].
 
-### Admin Import Tool
+## Admin Import Tool
 
 To start importing content, navigate to the "Import Content" tool from the Admin Console. If you don't remember how to get to the Admin Console, see the [Getting Started](./admin-getting-started) Guide.
 
@@ -28,7 +28,7 @@ Once you've specified the content URL, you will see a preview of the content you
 
 When ready, click the Import button to begin importing your content.
 
-### Special tags
+## Special tags
 You should also set the proper tags for the imported items for your hub to be ready to use:
 
 - Import at least one **Default** avatar, which new visitors will have by default.
@@ -38,6 +38,6 @@ You should also set the proper tags for the imported items for your hub to be re
 
 For more information about special tags, see [Managing Content](./admin-managing-content).
 
-### Updating Imported Content
+## Updating Imported Content
 
 To refresh content you've imported, simply import it again. If you've previously imported the same content, the existing avatar or scene in your hub will be updated in-place with the newest version of the imported content.

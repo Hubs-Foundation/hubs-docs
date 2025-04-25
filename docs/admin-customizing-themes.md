@@ -14,7 +14,7 @@ _Theming refers to the colors used in your hub's interface. For each color in th
 
 ---
 
-# Theme JSON
+## Theme JSON
 
 You can add completely customized color schemes from the [Admin Panel](./setup-configuring-content.md) by copying and pasting a theme JSON, like the example below:
 
@@ -204,27 +204,27 @@ You can add completely customized color schemes from the [Admin Panel](./setup-c
 
 Use the boolean attributes, `"default"` and `"darkModeDefault"` to set a default theme from your custom themes array.
 
-# Theme Variables Guide
+## Theme Variables Guide
 
 While not exhuastive, these diagrams will outline a few key variables that you can use in your themes.
 
-## Entry Screen
+### Entry Screen
 
 <img src="img/theme-entry-screen.png" alt="Theme variable correlation on entry screen">
 
-## Bottom Toolbar
+### Bottom Toolbar
 
 <img src="img/theme-toolbar.png" alt="Theme variable correlation on bottom toolbar">
 
-## Menus
+### Menus
 
 <img src="img/theme-menus.png" alt="Theme variable correlation on menus">
 
-# In-App Themes
+## In-App Themes
 
 The in-world User Interface (e.g the menu you get when hovering your cursor over an object and pressing spacebar) is themed with the following variables: `"action-color", "action-label-color", "action-color-disabled", "action-color-highlight", "action-text-color", "action-subtitle-color", "notice-background-color", "notice-text-color", "favorited-color".`
 
-# Learn about Themes
+## Learn about Themes
 
 There are some great tools you can use to learn more about theme-ing your hub.
 
