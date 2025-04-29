@@ -33,7 +33,6 @@ The most straightforward way to customize an avatar for Hubs is to upload a cust
 ### Create a robot texture
 
 The easiest way to design a new skin for a robot avatar is to use our avatar re-skinning tool 'Quilt' to mix together image files, preview  what they look like on a robot and export a single texture map file. 
-<!-- Try it yourself at [tryquilt.io](http://tryquilt.io/).  -->
 
 ![Examples of robot avatars](img/intro-hubs-tryquilt.jpeg)
 

@@ -2,7 +2,7 @@
 
 This repo is for the documentation for Hubs, and related products such as Community Edition and Spoke.
 
-The documentation is under active development. If there are any changes or updates you recommend, feel free to submit a pull request or let us know in our [Discord Server](http://discord.gg/wHmY4nd).
+The documentation is under active development. If there are any changes or updates you recommend, feel free to submit a pull request or let us know in our [Discord Server](https://discord.gg/wHmY4nd).
 
 This website was created with [Docusaurus](https://docusaurus.io/). 
 

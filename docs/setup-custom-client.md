@@ -36,7 +36,7 @@ If you need more assistance, we recommend following along with our [Custom Clien
 
 3. Change directory into the folder of your project and run `npm run dev` to start a development server. Once the code has compiled, you will be able to access this development server at `localhost:8080` on your web browser.
 
-4. Add your customizations to the Hubs code. See the [For Developers](http://localhost:3000/docs/system-overview.html) section of these docs for information about how to get started with your customizations.
+4. Add your customizations to the Hubs code. See the [For Developers](./system-overview.html) section of these docs for information about how to get started with your customizations.
 
 &nbsp;&nbsp;&nbsp;<u>**Troubleshooting**</u>
 
