@@ -12,9 +12,8 @@ You may want to select the button **Create Room**!
 ![Capture of Hubs domain page as it appears to the Admin. "Create Room" blue button is highlighted in purple.](img/whatsnext/image1.png)
 
 And this is what you’ll see, the fallback space. It’s gray ground with a dark gray sky. The avatars are the fallback box avatars.
-!
 
-[Capture of Hubs room with a dark gray sky and lighter gray ground. All avatars are boxes. These are the default settings.](img/whatsnext/image2.png)
+![Capture of Hubs room with a dark gray sky and lighter gray ground. All avatars are boxes. These are the default settings.](img/whatsnext/image2.png)
 
 Eager to put up a scene? There are Hubs scenes available! Hop down to the [Importing Scenes and Avatars section](#importing-scenes-and-avatars).
 
@@ -83,7 +82,7 @@ Repeat for each asset you want to import.
 
 *Note: If you left-click one of the assets and it takes you to the lobby of the Hubs room you will need to close that tab and re-open the browser from here.*
 
-For more information on importing and managing content for your Hubs instance, see [Importing Content](https://docs.hubsfoundation.org/hubs-cloud-importing-content.html) and [Managing Content](https://docs.hubsfoundation.org/hubs-cloud-managing-content.html) in the Hubs Docs.
+For more information on importing and managing content for your Hubs instance, see [Importing Content](./admin-importing-content.md) and [Managing Content](./admin-managing-content.md) in the Hubs Docs.
 
 ### Start a Scene From Blender
 

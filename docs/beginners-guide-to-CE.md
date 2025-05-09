@@ -431,7 +431,7 @@ f. Select **Generate Token**.
 
 ![Capture of DigitalOcean, Create A New Personal Access Token page, continued. For Scopes, Full Access and "Generate Token" green button are highlighted in purple.](img/beginnersguide/image64.png)
 
-g. **Copy and save** your Token somewhere securely. If you ever change computers to control your Hubs, you’ll either need this Token or you’ll need to [generate a new Token](https://docs.google.com/document/u/0/d/17TSXEuisDYRl8MEJIbv_envxqoEm3f3Z_E9U3Ci7_oU/edit).
+g. **Copy and save** your Token somewhere securely. If you ever change computers to control your Hubs, you’ll either need this Token or you’ll need to [generate a new Token](./faq.md#can-i-change-my-token-from-do-if-my-token-has-been-compromised).
 
 ![Capture of DigitalOcean Applications & API dashboard page. Token code is show under "Don't forget to copy your new personal access token". Copy icon is highlighted in purple.](img/beginnersguide/image65.png)
 

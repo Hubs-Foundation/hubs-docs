@@ -136,10 +136,10 @@ Then **copy and paste** this into the terminal, substitute `<podname>` with the 
 kubectl exec <podname> -c reticulum -n hcce -- nc -zv <SMTP_SERVER> <SMTP_PORT>
 ```
 
-If your email server is reachable from your Kubernetes cluster, the output in the terminal will be something like:  
+If your email server is reachable from your Kubernetes cluster, the output in the terminal will be something like:<br>
 `example.com (xx.xx.xx.xx:2587) open`
 
-If it's not reachable, the command will hang for a long time and the resulting output in the terminal when it finally returns will be something like:  
+If it's not reachable, the command will hang for a long time and the resulting output in the terminal when it finally returns will be something like:<br>
 `nc: example.example.example.com (xx.xx.xx.xx:587): Operation timed out`
 
 #### Sending an actual email
