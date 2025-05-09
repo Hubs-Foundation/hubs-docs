@@ -21,9 +21,9 @@ We investigated [Brevo](https://www.brevo.com/) (formerly Sendinblue) but it doe
 
 [Mailtrap](http://mailtrap.io) starts right off the bat with collecting your email to share with Facebook. If that doesn’t bother you, you will still have to disclose your purpose and LinkedIn account to Mailtrap in the step of verifying your domain with them. That verification took us about 2 hours total: to wait and write back our justification by email to a specific customer service person. In the end, we found Mailtrap to be fussy.
 
-[Amazon Web Services (AWS)](https://docs.aws.amazon.com/ses/latest/dg/send-email.html) \- This costs money but does appear to be very cheap, well under US$1 per month. The main problems appear to be:
+[Amazon Web Services (AWS)](https://docs.aws.amazon.com/ses/latest/dg/send-email.html) - This costs money but does appear to be very cheap, well under US$1 per month. The main problems appear to be:
 
-1. Setting up your account and appearing legitimate to AWS.  
+1. Setting up your account and appearing legitimate to AWS.
 2. [Getting out of the sandbox environment](https://docs.aws.amazon.com/ses/latest/dg/request-production-access.html) by proving that your intended use is legitimate.
 
 We ended up going with [Scaleway](https://www.scaleway.com/en/transactional-email-tem/) because it aligns with our purpose.
@@ -34,9 +34,9 @@ We ended up going with [Scaleway](https://www.scaleway.com/en/transactional-emai
 
 ### Why do my magic link emails never arrive?
 
-DigitalOcean may be [blocking your SMTP for spam](https://docs.digitalocean.com/support/why-is-smtp-blocked/). In our testing, we found that DO inconsistently blocked port 587\. (This blockage could happen with any Kubernetes provider.) Check what ports your email provider supports for SMTP. The standard ports are 25, 465 and 587, but your Kubernetes provider may block those ports as a spam-fighting measure. If your email provider supports non-standard ports, use one of them. (For Scaleway, use port 2587.)  Refer to these instructions for [How to check that your SMTP server is reachable](#checking-that-my-smtp-is-reachable-from-my-kubernetes-cluster).
+DigitalOcean may be [blocking your SMTP for spam](https://docs.digitalocean.com/support/why-is-smtp-blocked/). In our testing, we found that DO inconsistently blocked port 587. (This blockage could happen with any Kubernetes provider.) Check what ports your email provider supports for SMTP. The standard ports are 25, 465 and 587, but your Kubernetes provider may block those ports as a spam-fighting measure. If your email provider supports non-standard ports, use one of them. (For Scaleway, use port 2587.)  Refer to these instructions for [How to check that your SMTP server is reachable](#checking-that-my-smtp-is-reachable-from-my-kubernetes-cluster).
 
-To fix this, start by updating your `input-values.yaml` file and change your SMTP\_PORT to **2587** (for example, for Scaleway).
+To fix this, start by updating your `input-values.yaml` file and change your SMTP_PORT to **2587** (for example, for Scaleway).
 
 This is similar to the [Beginner’s Guide, Step 12 Generate your config file](./beginners-guide-to-CE.html#12-generate-your-config-file), section c, iv, ii.  However, **you are ONLY changing the SMTP port number.**  Don’t forget to  save the file in VS Code.
 
@@ -48,7 +48,7 @@ Then, complete the [After updating your Hubs CE deployment scripts](./whats-next
 
 Yes. Sure. Go ahead.
 
-### I keep getting logged out of Porkbun\!
+### I keep getting logged out of Porkbun!
 
 We found that Porkbun kept logging us out in the middle of the purchase step. 
 
@@ -64,7 +64,7 @@ You might need to either fight with your cookies to get that worked out OR just 
 
 ### Why do the instructions say US$ 36 per month minimum?
 
-DigitalOcean’s single node option is US$24 per month and this is their lowest price offering. They also charge a mandatory extra US$12 per month for load balancing. So $24 plus $12 equals $36.  
+DigitalOcean’s single node option is US$24 per month and this is their lowest price offering. They also charge a mandatory extra US$12 per month for load balancing. So $24 plus $12 equals $36.
 
 We are still working on estimating what a 1 hour meetup in Hubs for 5-6 people would cost.
 
@@ -120,7 +120,7 @@ kubectl delete pv ret-pv -n hcce
 kubectl apply -f hcce.yaml
 ```
 
-###  Checking that my SMTP is reachable from my Kubernetes cluster.
+### Checking that my SMTP is reachable from my Kubernetes cluster.
 
 #### Quick check
 
@@ -130,7 +130,7 @@ The first thing to check is whether the SMTP port is reachable from your Kuberne
 kubectl get pods -n hcce
 ```
 
-Then **copy and paste** this into the terminal, substitute \<podname\> with the value you got from the previous command, substitute \<SMTP\_SERVER\> and \<SMTP\_PORT\> with the values from `input-values.yaml`, and **hit enter**:
+Then **copy and paste** this into the terminal, substitute `<podname>` with the value you got from the previous command, substitute `<SMTP_SERVER>` and `<SMTP_PORT>` with the values from `input-values.yaml`, and **hit enter**:
 
 ```shell
 kubectl exec <podname> -c reticulum -n hcce -- nc -zv <SMTP_SERVER> <SMTP_PORT>
@@ -158,28 +158,28 @@ To get the name of your reticulum pod, **copy and paste** this into the terminal
 kubectl get pods -n hcce
 ```
 
-Then connect to a shell in your reticulum pod, **copy and paste** this into the terminal, substitute \<podname\> with the value you got from the previous command, and **hit enter**:
+Then connect to a shell in your reticulum pod, **copy and paste** this into the terminal, substitute `<podname>` with the value you got from the previous command, and **hit enter**:
 
 ```shell
 kubectl exec -it <podname> -c reticulum -n hcce -- bash
 ```
 
-Then copy the following into a text editor (for example, Notepad) and substitute \<SMTP\_SERVER\> \<SMTP\_PORT\> and \<ADM\_EMAIL\> with the values from `input-values.yaml`:
+Then copy the following into a text editor (for example, Notepad) and substitute `<SMTP_SERVER>` `<SMTP_PORT>` and `<ADM_EMAIL>` with the values from `input-values.yaml`:
 
 ```shell
 nc <SMTP_SERVER> <SMTP_PORT> << EOF  
-HELO <SMTP_SERVER>  
-MAIL FROM: probe@example.com  
-RCPT TO: <ADM_EMAIL>  
-DATA  
-From: probe@example.com (netcat)  
-To: whomever  
+HELO <SMTP_SERVER>
+MAIL FROM: probe@example.com
+RCPT TO: <ADM_EMAIL>
+DATA
+From: probe@example.com (netcat)
+To: whomever
 Subject: probe email
 
 Sent using netcat.
 
-.  
-QUIT  
+.
+QUIT
 EOF
 ```
 
@@ -190,8 +190,8 @@ Finally, **copy and paste** the command from the text editor into the terminal a
 If sending an email works from your Kubernetes cluster, the output in the terminal will be something like:
 
 ```
-220 example.example.example.com ESMTP Service Ready  
-250 2.0.0 Hello <SMTP_SERVER>  
+220 example.example.example.com ESMTP Service Ready
+250 2.0.0 Hello <SMTP_SERVER>
 ….
 ```
 
@@ -199,7 +199,7 @@ If it's not sendable, the command will hang for a long time and there will be no
 
 ### General SMTP testing
 
-For general testing of what your SMTP server accepts, **swaks** ([https://jetmore.org/john/code/swaks/](https://jetmore.org/john/code/swaks/)) is a general-purpose tool that can connect using TLS and authenticate with the SMTP server. It requires perl which is not available in Kubernetes nodes of Hubs, but is installed on most \*nix machines.
+For general testing of what your SMTP server accepts, **swaks** ([https://jetmore.org/john/code/swaks/](https://jetmore.org/john/code/swaks/)) is a general-purpose tool that can connect using TLS and authenticate with the SMTP server. It requires perl which is not available in Kubernetes nodes of Hubs, but is installed on most *nix machines.
 
 ### What about persistent volumes?
 
@@ -207,11 +207,11 @@ Persistent volumes allow for your Hubs to save scenes, avatars, and room object 
 
 ### Installing doctl for Mac and Linux
 
-For Mac, watch this video here: [https://youtu.be/x9Ld6Mi64pk?si=NvoTy98O2g\_rh0OV\&t=866](https://youtu.be/x9Ld6Mi64pk?si=NvoTy98O2g_rh0OV&t=866)
+For Mac, watch this video here: [https://youtu.be/x9Ld6Mi64pk?si=NvoTy98O2g_rh0OV&t=866](https://youtu.be/x9Ld6Mi64pk?si=NvoTy98O2g_rh0OV&t=866)
 
-For Linux: [https://docs.digitalocean.com/reference/doctl/how-to/install/\#step-1-install-doctl](https://docs.digitalocean.com/reference/doctl/how-to/install/#step-1-install-doctl)
+For Linux: [https://docs.digitalocean.com/reference/doctl/how-to/install/#step-1-install-doctl](https://docs.digitalocean.com/reference/doctl/how-to/install/#step-1-install-doctl)
 
-### Help\!  My Hubs is down with the error: This site can't be reached ERR\_CONNECTION\_RESET
+### Help!  My Hubs is down with the error: This site can't be reached ERR_CONNECTION_RESET
 
 Note: This is a technical fix. Stop by a live event for assistance if you need help running these commands.
 
@@ -235,7 +235,7 @@ How do you know what version of kubernetes you have at DO?
 
 ![Capture of DigitalOcean, MANAGE, Kubernetes Clusters. Name of cluster blurred and highlighted in purple.](img/faq/image4.png)
 
-2. Select **Overview**, **VERSION** section, there is a number for Current Version, Kubernetes.
+2\. Select **Overview**, **VERSION** section, there is a number for Current Version, Kubernetes.
 
 ![Capture of DigitalOcean, MANAGE, Kubernetes Clusters. Overview tab highlighted in purple. Text: Scroll down.](img/faq/image5.png)
 
@@ -251,7 +251,7 @@ In our testing, you will be safe with the default versions you are offered. Stil
 
 Extracting is slightly different if you are Linux, rather than Windows. We’re going to assume that you know how to do this.
 
-Node.js \- your Linux distribution might already have this, so you would just need to install this. 
+Node.js - your Linux distribution might already have this, so you would just need to install this.
 
 If you do need to install Node.js, at the Node.js website, you would click on **copy to clipboard** and then paste it into your terminal.
 
