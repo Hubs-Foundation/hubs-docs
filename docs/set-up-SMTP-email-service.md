@@ -85,6 +85,8 @@ If the 4-digit code does not show on your transaction, you may need to contact y
 
 4\. At Add a New Domain
 
+<ul>
+
 a. For Enter domain name, **enter your porkbun domain.** For example: mycoolhubs.space 
 
 The domain can only contain alphanumeric characters, dots, and dashes. 
@@ -97,6 +99,8 @@ Select the checkbox for I have read and accept Scaleway’s antispam policy.
 Select **Validate domain name**.
 
 ![Capture of Scaleway Add a New Domain page. Field for domain name, monthly number of emails and, checkbox for "I have read and accept Scaleway's antispam policy" and "Validate domain name" button are highlighted in purple.](img/smtp/image15.png)
+
+</ul>
 
 ## **Part 3 Domain verification and adding A Records**
 
@@ -234,13 +238,17 @@ Example email:
 
 a. At Scaleway, on the Transactional Email page, you may have a red dot for your domain name with a popup that says Your domain is unverified.  Check your email for more details.
 
-i. If you see a notification that your DKIM entry “missing or incorrect DNS records on your domain”, you may check that you entered the data correctly at Porkbun.
+<ul>
 
-ii. Also, make sure you carefully follow the steps within these instructions at Step 3, f.
+  i. If you see a notification that your DKIM entry “missing or incorrect DNS records on your domain”, you may check that you entered the data correctly at Porkbun.
 
-iii. If you’ve cleared up any problems, just refresh this page at Scaleway and the red dot should turn into a green dot.
+  ii. Also, make sure you carefully follow the steps within these instructions at Step 3, f.
 
-![Capture of Scaleway, Transactional Email page. For Domains, the Name field is blurred. There is a small red dot, indicating not verified, to the left of the blurred field.](img/smtp/image34.png)
+  iii. If you’ve cleared up any problems, just refresh this page at Scaleway and the red dot should turn into a green dot.
+
+  ![Capture of Scaleway, Transactional Email page. For Domains, the Name field is blurred. There is a small red dot, indicating not verified, to the left of the blurred field.](img/smtp/image34.png)
+
+</ul>
 
 b. If you have a green dot next to your domain name, it is verified. You will be notified by email as well.
 
@@ -255,18 +263,22 @@ b. If you have a green dot next to your domain name, it is verified. You will be
 2\. Select the **Overview** tab.
 a. At SMTP configuration, these listed items listed below are shown. **Copy and save the server, default port, and username somewhere securely.**
 
-i. Server - **copy and save**
+<ul>
 
-ii. TLS connection ports - ignore
+  i. Server - **copy and save**
 
-iii. Default ports - **copy and save 2587**
+  ii. TLS connection ports - ignore
 
-> 🤔 Advice: When collecting email parameters: check what ports your email provider supports for SMTP. The standard ports are 25, 465 and 587, but your Kubernetes provider may block those ports as a spam-fighting measure. If your email provider supports non-standard ports, use one of them. (For Scaleway, use port 2587.)
+  iii. Default ports - **copy and save 2587**
 
-iv. Username - **copy and save**
-v. For Password, select **Generate an API key for your IAM application.**
+  > 🤔 Advice: When collecting email parameters: check what ports your email provider supports for SMTP. The standard ports are 25, 465 and 587, but your Kubernetes provider may block those ports as a spam-fighting measure. If your email provider supports non-standard ports, use one of them. (For Scaleway, use port 2587.)
 
-![Capture of Scaleway, Overview tab, SMTP configuration. Server and Username text is blurred.](img/smtp/image37.png)
+  iv. Username - **copy and save**
+  v. For Password, select **Generate an API key for your IAM application.**
+
+  ![Capture of Scaleway, Overview tab, SMTP configuration. Server and Username text is blurred.](img/smtp/image37.png)
+
+</ul>
 
 3\. For **Identify and Access Management,** select **Create an application.**
 
@@ -274,15 +286,19 @@ v. For Password, select **Generate an API key for your IAM application.**
 
 4\. For Create an Application, **Enter a name** and optional description.
 
-a. 🤔 Advice: For Name, we used MyHubsCE.
+<ul>
 
-b. 🤔 Advice: For Description, we used Our Hubs SMTP application.
+  a. 🤔 Advice: For Name, we used MyHubsCE.
 
-c. For key value tags and attach a policy, skip this.
+  b. 🤔 Advice: For Description, we used Our Hubs SMTP application.
 
-d. Select **Create application**.
+  c. For key value tags and attach a policy, skip this.
 
-![Capture of Scaleway, Identity and Access Management (IAM) page, Applications, Create an Application page. "Enter a name and optional description" and "Create application" purple button highlighted in purple.](img/smtp/image39.png)
+  d. Select **Create application**.
+
+  ![Capture of Scaleway, Identity and Access Management (IAM) page, Applications, Create an Application page. "Enter a name and optional description" and "Create application" purple button highlighted in purple.](img/smtp/image39.png)
+
+</ul>
 
 5\. At Identity and Access Management (IAM), your application should be listed. Select the **Policies** tab.
 
@@ -294,17 +310,21 @@ d. Select **Create application**.
 
 7\. At Create A Policy, **enter a name** and optional description.
 
-a. 🤔 Advice: For Name, we used MyHubsCEPolicy.
+<ul>
 
-b. 🤔 Advice: For Description, we used Our Hubs SMTP policy.
+  a. 🤔 Advice: For Name, we used MyHubsCEPolicy.
 
-c. For key value tags, skip this.
+  b. 🤔 Advice: For Description, we used Our Hubs SMTP policy.
 
-d. For Select a principal, Principal Type, select **the drop down arrow** and select **Application**, then at Select or type an application, select **whatever name you created for your application** (in these instructions, Part 4, Step 4). For our example, we selected MyHubsCE.
+  c. For key value tags, skip this.
 
-e. Select **Add rules**.
+  d. For Select a principal, Principal Type, select **the drop down arrow** and select **Application**, then at Select or type an application, select **whatever name you created for your application** (in these instructions, Part 4, Step 4). For our example, we selected MyHubsCE.
 
-![Capture of Scaleway, Identity and Access Management (IAM), Policies, Create a Policy page. Examples name "MyHubsCEPolicy" and description "Our Hubs SMTP policy" filled in. For Select a principal (optional), Principle Type is Application and for Select or type an application, MyHubsCE is chosen. "Add rules" purple button is highlighted in purple.](img/smtp/image42.png)
+  e. Select **Add rules**.
+
+  ![Capture of Scaleway, Identity and Access Management (IAM), Policies, Create a Policy page. Examples name "MyHubsCEPolicy" and description "Our Hubs SMTP policy" filled in. For Select a principal (optional), Principle Type is Application and for Select or type an application, MyHubsCE is chosen. "Add rules" purple button is highlighted in purple.](img/smtp/image42.png)
+
+</ul>
 
 8\. At Create rules, Rule #1, Scope, select **Access to resources**. At Select or Type Project name, select **All current and future projects**. Select **Validate**.
 
@@ -336,18 +356,22 @@ Select **Validate.**
 
 14\. At the Generate an API key popup,
 
-a. For Select API key bearer, Select **An application**.
+<ul>
 
-b. Select **your named application** from the dropdown menu.
+  a. For Select API key bearer, Select **An application**.
 
-c. For the Optional description. Enter any text here.
-> 🤔 Advice: We entered Our Hubs CE SMTP API token.
+  b. Select **your named application** from the dropdown menu.
 
-d. For Expiration, the default should be Never. Leave it on that setting.
+  c. For the Optional description. Enter any text here.
+  > 🤔 Advice: We entered Our Hubs CE SMTP API token.
 
-e. For Will this API key be used for Object Storage, select No, skip for now (default). Select **Generate API key.**
+  d. For Expiration, the default should be Never. Leave it on that setting.
 
-![Capture of Scaleway, Identity and Access Management (IAM), Policies page, API keys tab, Generate an API key page. For Select API key bearer, "An application" "MyHubsCE" and description "Our Hubs CE SMTP API token" included. "Generate API key" purple button highlighted in purple.](img/smtp/image49.png)
+  e. For Will this API key be used for Object Storage, select No, skip for now (default). Select **Generate API key.**
+
+  ![Capture of Scaleway, Identity and Access Management (IAM), Policies page, API keys tab, Generate an API key page. For Select API key bearer, "An application" "MyHubsCE" and description "Our Hubs CE SMTP API token" included. "Generate API key" purple button highlighted in purple.](img/smtp/image49.png)
+
+</ul>
 
 15\. At Credentials Usage, Copy and **save your Access Key ID** and **Secret Key** somewhere securely. Select **Close**.
 

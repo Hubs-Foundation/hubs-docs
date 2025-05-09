@@ -129,15 +129,19 @@ c. For License Agreement, select  **I accept the agreement**. Select **Next**.
 
 d. For Select Additional Tasks, select these statements:
 
-i. **Add “Open with Code” action to Windows Explorer file context menu**
+<ul>
 
-ii. **Add “Open with Code” action to Windows Explorer directory context menu**
+  i. **Add “Open with Code” action to Windows Explorer file context menu**
 
-iii. The other two statements, Register Code and Add to Path, should be checked by default.
+  ii. **Add “Open with Code” action to Windows Explorer directory context menu**
 
-iv. Select ‘**Next**’.
+  iii. The other two statements, Register Code and Add to Path, should be checked by default.
 
-![Capture of Setup, Microsoft Visual Studio Code (User) Select Additional Tasks prompt. Under Others, all boxes checked. Text: Make sure these are checked! for Add "Open with Code" action to the Windows Explorer file context menu and Add "Open with Code" action to Windows Explorer directory context menu.  Next button in lower right highlighted in purple.](img/beginnersguide/image18.png)
+  iv. Select ‘**Next**’.
+
+  ![Capture of Setup, Microsoft Visual Studio Code (User) Select Additional Tasks prompt. Under Others, all boxes checked. Text: Make sure these are checked! for Add "Open with Code" action to the Windows Explorer file context menu and Add "Open with Code" action to Windows Explorer directory context menu.  Next button in lower right highlighted in purple.](img/beginnersguide/image18.png)
+
+</ul>
 
 e. Select **Install**
 
@@ -224,11 +228,15 @@ b. For Create your account, select Sign up with Google, Sign up with Github or *
 
 c. **Enter in a required email address and password.** Keep these passwords somewhere safe. Select **Sign Up**.
 
-![Capture of DigitalOcean Sign Up with Email prompt with fields for full name, email address, and password. Sign up green button is at bottom center of prompt.](img/beginnersguide/image34.png)
+<ul>
 
-i. Notification to check your email for a confirmation link:
+  ![Capture of DigitalOcean Sign Up with Email prompt with fields for full name, email address, and password. Sign up green button is at bottom center of prompt.](img/beginnersguide/image34.png)
 
-![Capture of DigitalOcean Confirm your email address notification. Text: We sent an email to [blurred email address].  Please confirm your email address by clicking the link we just sent to your inbox. Resend verification email blue button is at lower center of prompt box.](img/beginnersguide/image35.png)
+  i. Notification to check your email for a confirmation link:
+
+  ![Capture of DigitalOcean Confirm your email address notification. Text: We sent an email to [blurred email address].  Please confirm your email address by clicking the link we just sent to your inbox. Resend verification email blue button is at lower center of prompt box.](img/beginnersguide/image35.png)
+
+</ul>
 
 d. Check your email and **select the confirmation link** that starts with [cloud.digitalocean.com/account_verification](http://cloud.digitalocean.com/account_verification). The link logs you into your DO account. You may close the *other* DO page now.
 
@@ -236,25 +244,29 @@ d. Check your email and **select the confirmation link** that starts with [cloud
 
 e. On this new page, you are asked some demographic questions that you must answer before selecting Submit:
 
-i. What do you plan to build on DigitalOcean?<br>
-Choices are An API, Data analytics infrastructure, Web3 or decentralized application, A website or content site, AI and machine learning, Video or livestreaming platform.
+<ul>
 
-> 🤔 Advice: We recommend **Web3 or decentralized application**
+  i. What do you plan to build on DigitalOcean?<br>
+  Choices are An API, Data analytics infrastructure, Web3 or decentralized application, A website or content site, AI and machine learning, Video or livestreaming platform.
 
-ii. What is your role or business type?<br>
-Choices are Digital agency / MSP, Freelancer or Consultant, Software company, E-commerce company, Hobbyist or Student, Other.
+  > 🤔 Advice: We recommend **Web3 or decentralized application**
 
-iii. What is your monthly spend on cloud infrastructure across cloud platforms? (provide an estimate)<br>
-Choices are $0-$50, $50-$500, $500-$1,000,$1,000-$5,000, $5,000-$10,000, $10,000-$100,000, More than $100,000.
+  ii. What is your role or business type?<br>
+  Choices are Digital agency / MSP, Freelancer or Consultant, Software company, E-commerce company, Hobbyist or Student, Other.
 
-iv. How many employees work at your company?<br>
-Choices are I work alone, 2-9, 10-99, 100-499, 500-999, 1000+
+  iii. What is your monthly spend on cloud infrastructure across cloud platforms? (provide an estimate)<br>
+  Choices are $0-$50, $50-$500, $500-$1,000,$1,000-$5,000, $5,000-$10,000, $10,000-$100,000, More than $100,000.
 
-v. How do you prefer to manage cloud resources?<br>
-Choices are: Cloud console, CLI or API, SDK, Infrastructure as Code, I’m not sure.
-> 🤔 Advice: We recommend **I’m not sure**.
+  iv. How many employees work at your company?<br>
+  Choices are I work alone, 2-9, 10-99, 100-499, 500-999, 1000+
 
-![Capture of DigitalOcean demographic questions prompt.](img/beginnersguide/image37.png)
+  v. How do you prefer to manage cloud resources?<br>
+  Choices are: Cloud console, CLI or API, SDK, Infrastructure as Code, I’m not sure.
+  > 🤔 Advice: We recommend **I’m not sure**.
+
+  ![Capture of DigitalOcean demographic questions prompt.](img/beginnersguide/image37.png)
+
+</ul>
 
 f. For Verifying your Payment Information, **select** either **‘Add a Card’** or **‘Connect via PayPal’.**
 
@@ -498,40 +510,52 @@ b. Select **input-values.yaml**  We will be working lines 1-21.
 
 c. Enter these values as described below. Warning: Only change the lines that you are instructed to change. Do not change any line that you do not know what it does. In all cases, make sure your entry is between the quote marks (“) in VS Code with no extra spaces.
 
-i. For HUB_DOMAIN: your domain purchased from Porkbun
+<ul>
 
-ii. For ADM_EMAIL: Your **real, private** account.
-> 🤔 Advice: This email account becomes the Admin of everything so choose the email you can reliably get into.
+  i. For HUB_DOMAIN: your domain purchased from Porkbun
 
-![Capture of VS Code, input-values.yaml file. Line 2: ADM_EMAIL: "admin@example.com" is highlighted with text: Click here and type your domain.](img/beginnersguide/image75.png)
+  ii. For ADM_EMAIL: Your **real, private** account.
+  > 🤔 Advice: This email account becomes the Admin of everything so choose the email you can reliably get into.
 
-iii. For Namespace: ”hcce’”<- Leave that
+  ![Capture of VS Code, input-values.yaml file. Line 2: ADM_EMAIL: "admin@example.com" is highlighted with text: Click here and type your domain.](img/beginnersguide/image75.png)
 
-iv. For the SMTP_SERVER and the following SMTP lines, retrieve your Scaleway **Host**, **Port**, **Username**, and **Secret Key** entries that you saved from Step 7.
+  iii. For Namespace: ”hcce’”<- Leave that
 
-a. Server -> SMTP_SERVER: paste in **the server** you saved from Step 7 Set up SMTP email service, Part 4, Step 1.
+  iv. For the SMTP_SERVER and the following SMTP lines, retrieve your Scaleway **Host**, **Port**, **Username**, and **Secret Key** entries that you saved from Step 7.
 
-b. Port -> SMTP_PORT: enter **2587**
+  <ul>
 
-c. Username -> SMTP_USER: paste in the **Username** you saved from Step 7, Set up SMTP email service Part 4, Step 1
+  a. Server -> SMTP_SERVER: paste in **the server** you saved from Step 7 Set up SMTP email service, Part 4, Step 1.
 
-d. Password -> SMTP_PASS: paste in the **Secret Key** you saved from Step 7 Set up SMTP email, Part 4, Step 15.
-> 💡 Tip: Make sure you are using your Scaleway Username and Secret Key, not your Access Key ID.
+  b. Port -> SMTP_PORT: enter **2587**
 
+  c. Username -> SMTP_USER: paste in the **Username** you saved from Step 7, Set up SMTP email service Part 4, Step 1
 
+  d. Password -> SMTP_PASS: paste in the **Secret Key** you saved from Step 7 Set up SMTP email, Part 4, Step 15.
+  > 💡 Tip: Make sure you are using your Scaleway Username and Secret Key, not your Access Key ID.
+
+</ul>
+
+</ul>
 
 d. For SKETCHFAB_API_KEY: ”?”
 
 Get your API from your Sketchfab account. Wait, doesn’t this link your Sketchfab account to *any* use in your Hub? No, this API key allows access to Sketchfab, it doesn’t connect with any value to your personal Sketchfab account. Why are you doing this?
 > 🤔 Advice: Sketchfab linkage is one of the most fun aspects of Hubs. You and your users will enjoy this feature.
 
-i. Log into [Sketchfab](https://sketchfab.com/). Select your **profile icon** in the upper right corner. Select ‘**Settings**’.
+<ul>
+<ul>
 
-![Capture of VS Code, input-values.yaml file. Line 2: ADM_EMAIL: "admin@example.com" is highlighted with text: Click here and type your domain.](img/beginnersguide/image76.png)
+  i. Log into [Sketchfab](https://sketchfab.com/). Select your **profile icon** in the upper right corner. Select ‘**Settings**’.
 
-ii. Select Password & API. Copy the Token and paste it between the quotation marks, replacing the question mark.
+  ![Capture of VS Code, input-values.yaml file. Line 2: ADM_EMAIL: "admin@example.com" is highlighted with text: Click here and type your domain.](img/beginnersguide/image76.png)
 
-![Capture from Sketchfab, My Settings page. "Password & API" on left menu is highlighted. "API token" with token code blurred in the center is highlighted with purple.](img/beginnersguide/image77.png)
+  ii. Select Password & API. Copy the Token and paste it between the quotation marks, replacing the question mark.
+
+  ![Capture from Sketchfab, My Settings page. "Password & API" on left menu is highlighted. "API token" with token code blurred in the center is highlighted with purple.](img/beginnersguide/image77.png)
+
+</ul>
+</ul>
 
 e. Change `NODE_COOKIE`, `GUARDIAN_KEY`, & `PHX_KEY` to unique random values, using a password generator if you have one handy.
 
