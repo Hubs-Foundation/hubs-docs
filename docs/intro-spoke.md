@@ -31,5 +31,4 @@ Invite people to meet in your new space by publishing your content to Hubs immed
 ## Getting started
 
 To build your first custom 3D environments take a look at the [Spoke documentation](./spoke-creating-projects.html).
-
-[//]: # (check out Spoke's [interactive tutorial]&#40;https://hubs.mozilla.com/spoke/projects/tutorial&#41; or )
+Or, check out Spoke's interactive tutorial by pasting `/spoke/projects/tutorial` into the URL bar, after the host name, on a Hubs instance.
