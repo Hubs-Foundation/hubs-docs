@@ -62,7 +62,7 @@ Text:
 
 ![Capture of an example text notification of Scaleway charge with example verification code of C-4550.](img/smtp/image9.png)
 
-Pending charge at credit card site:  
+Pending charge at credit card site:<br>
 ![Capture of credit card site details of Scaleway charge showing the verification code of C-4550 in the Description field.](img/smtp/image10.png)
 
 If the 4-digit code does not show on your transaction, you may need to contact your bank or credit card company.![Capture of Scaleway confirmation page to submit the verification code. Instructions indicate that the code is the transaction label. For example, from the prior captures, the code would be 4550.](img/smtp/image11.png)
@@ -213,7 +213,7 @@ Select **the disk to save.**
 
 Porkbun will then add your domain on the end automatically once you’ve added it. That is fine.
 
-The final displayed result at Porkbun will be:  
+The final displayed result at Porkbun will be:<br>
    7yadyayayayayayaydydyaady._domainkey.mycoolhubs.space
 
 ![Capture of Porkbun DNS Management, A records. The A record corrected with domain name.](img/smtp/image30.png)

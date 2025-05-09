@@ -236,21 +236,21 @@ d. Check your email and **select the confirmation link** that starts with [cloud
 
 e. On this new page, you are asked some demographic questions that you must answer before selecting Submit:
 
-i. What do you plan to build on DigitalOcean?  
+i. What do you plan to build on DigitalOcean?<br>
 Choices are An API, Data analytics infrastructure, Web3 or decentralized application, A website or content site, AI and machine learning, Video or livestreaming platform.
 
 > 🤔 Advice: We recommend **Web3 or decentralized application**
 
-ii. What is your role or business type?  
+ii. What is your role or business type?<br>
 Choices are Digital agency / MSP, Freelancer or Consultant, Software company, E-commerce company, Hobbyist or Student, Other.
 
-iii. What is your monthly spend on cloud infrastructure across cloud platforms? (provide an estimate)  
+iii. What is your monthly spend on cloud infrastructure across cloud platforms? (provide an estimate)<br>
 Choices are $0-$50, $50-$500, $500-$1,000,$1,000-$5,000, $5,000-$10,000, $10,000-$100,000, More than $100,000.
 
-iv. How many employees work at your company?  
+iv. How many employees work at your company?<br>
 Choices are I work alone, 2-9, 10-99, 100-499, 500-999, 1000+
 
-v. How do you prefer to manage cloud resources?  
+v. How do you prefer to manage cloud resources?<br>
 Choices are: Cloud console, CLI or API, SDK, Infrastructure as Code, I’m not sure.
 > 🤔 Advice: We recommend **I’m not sure**.
 
