@@ -11,12 +11,11 @@ You may want to select the button **Create Room**!
 
 ![Capture of Hubs domain page as it appears to the Admin. "Create Room" blue button is highlighted in purple.](img/whatsnext/image1.png)
 
-And this is what you’ll see, the fallback space. It’s gray ground with a dark gray sky. The avatars are the fallback box avatars.  
-!
+And this is what you’ll see, the fallback space. It’s gray ground with a dark gray sky. The avatars are the fallback box avatars.
 
-[Capture of Hubs room with a dark gray sky and lighter gray ground. All avatars are boxes. These are the default settings.](img/whatsnext/image2.png)
+![Capture of Hubs room with a dark gray sky and lighter gray ground. All avatars are boxes. These are the default settings.](img/whatsnext/image2.png)
 
-Eager to put up a scene? There are Hubs scenes available! Hop down to the [Importing Scenes and Avatars section]().
+Eager to put up a scene? There are Hubs scenes available! Hop down to the [Importing Scenes and Avatars section](#importing-scenes-and-avatars).
 
 ## **Where is the Admin Panel?**
 
@@ -32,11 +31,11 @@ There isn’t much content available right now in the form of scenes and avatars
 
 These settings are recommended for safety and security but also for minimizing cost. You don’t want a band of roaming squatters to move unseen into your Hubs and drive up your DO costs. So these settings are for “shutting the lights off when you leave”. It should leave your Hubs inaccessible to others UNTIL you change the settings again.
 
-* Set the Hubs room(s) to Invite Only  
-* Set the room(s) occupancy to zero (0).   
-* Set up Monitoring Alerts at Digital Ocean. OR just log into DO and check what’s going on in Billing.  
-* When in doubt, delete and change your API at DO or delete your kubernetes cluster.   
-* NEVER share your config file with anyone. 
+* Set the Hubs room(s) to Invite Only
+* Set the room(s) occupancy to zero (0).
+* Set up Monitoring Alerts at Digital Ocean. OR just log into DO and check what’s going on in Billing.
+* When in doubt, delete and change your API at DO or delete your kubernetes cluster.
+* NEVER share your config file with anyone.
 
 ## **Room Settings**
 
@@ -50,9 +49,9 @@ Select Edit.
 
 Scroll down to modify the Room Access and Room Member Permissions. These options are all your choices.
 
-## **Scene Editor \<- this is Spoke\!**
+## **Scene Editor <- this is Spoke!**
 
-When you open New Project, you might see this:   
+When you open New Project, you might see this:<br>
 Errors loading project. Blah blah 1 error reticulum blah. Possibly a CORS error.
 
 ![Capture from Hubs, Spoke Editor. Popup box with Error loading project notification.  It is logical because the default Spoke scene cannot find the default crater dot glb files. You may select the "OK" button in the lower right corner.](img/whatsnext/image5.png)
@@ -65,25 +64,25 @@ Now that you are the captain of your own Hubs, you’ll need to get used to brin
 
 We have a few starter files.
 
-###   Importing Scenes and Avatars
+### Importing Scenes and Avatars
 
 ![Capture of available scenes.](img/whatsnext/image6.png) ![Capture of available avatars.](img/whatsnext/image7.png)
 
 You can visit the links below to browse content that has been made available on the Hubs Foundation’s official instance.
 
-* [Browse Scenes](https://demo.hubsfoundation.org/erGY8df/asset-browser/media/scenes?filter=featured)  
+* [Browse Scenes](https://demo.hubsfoundation.org/erGY8df/asset-browser/media/scenes?filter=featured)
 * [Browse Avatars](https://demo.hubsfoundation.org/erGY8df/asset-browser/media/avatars?filter=featured)
 
-To import the content, right click on the asset you would like and select “Copy Link” or “Copy Link Address”.  
-At your Hubs Admin Panel, Import Content, paste the copied link into the “Avatar or Scene URLs or .pack file” field.  
-Select “Preview Import”.  
-Configure the import settings. Unselect or select checkboxes for “Set to Default” and “Featured” for scenes and “Set to Default”, “Set to Base” and “Featured” for avatars.  
-Select “Import 1 Item”.  
+To import the content, right click on the asset you would like and select “Copy Link” or “Copy Link Address”.<br>
+At your Hubs Admin Panel, Import Content, paste the copied link into the “Avatar or Scene URLs or .pack file” field.<br>
+Select “Preview Import”.<br>
+Configure the import settings. Unselect or select checkboxes for “Set to Default” and “Featured” for scenes and “Set to Default”, “Set to Base” and “Featured” for avatars.<br>
+Select “Import 1 Item”.<br>
 Repeat for each asset you want to import.
 
 *Note: If you left-click one of the assets and it takes you to the lobby of the Hubs room you will need to close that tab and re-open the browser from here.*
 
-For more information on importing and managing content for your Hubs instance, see [Importing Content](https://docs.hubsfoundation.org/hubs-cloud-importing-content.html) and [Managing Content](https://docs.hubsfoundation.org/hubs-cloud-managing-content.html) in the Hubs Docs.
+For more information on importing and managing content for your Hubs instance, see [Importing Content](./admin-importing-content.md) and [Managing Content](./admin-managing-content.md) in the Hubs Docs.
 
 ### Start a Scene From Blender
 
@@ -95,14 +94,14 @@ If starting from nothing is your thing in Blender, you should check out former H
 
 The file contains:
 
-* A simple environment containing a ground plane, a wall with a media frame, and an emissive Hubs logo.  
-* A navigation mesh (including the source mesh which still contains the boolean cutout shapes used to create this mesh).  
-* A spawn point.  
-* A 'Scene Preview Camera' “empty” with a camera parented to it, so you can preview where it's looking.  
-* A background sky texture (used to light the scene).  
-* An equirectangular camera properly positioned to render out the background HDR image.  Remember to hide your geometry first\!  
-* An 'Environment Settings' component containing a sample 'Background Image' (created from the background sky texture) and a smaller 'EnvMap' version of this HDR image.  
-* A 'Reflection Probe' with its own generated cubemap that matches the resolution of the 'EnvMap' (required or it won't work\!).  
+* A simple environment containing a ground plane, a wall with a media frame, and an emissive Hubs logo.
+* A navigation mesh (including the source mesh which still contains the boolean cutout shapes used to create this mesh).
+* A spawn point.
+* A 'Scene Preview Camera' “empty” with a camera parented to it, so you can preview where it's looking.
+* A background sky texture (used to light the scene).
+* An equirectangular camera properly positioned to render out the background HDR image.  Remember to hide your geometry first!
+* An 'Environment Settings' component containing a sample 'Background Image' (created from the background sky texture) and a smaller 'EnvMap' version of this HDR image.
+* A 'Reflection Probe' with its own generated cubemap that matches the resolution of the 'EnvMap' (required or it won't work!).
 * Two materials with a pre-baked lightmap image already applied and the appropriate nodes added to the shader graph.
 
 ## **Testing sound & screenshare**
@@ -127,11 +126,11 @@ Hubs software is updated from time to time. Announcements will be in the Hubs Di
 
 The manual method:
 
-* In VS Code, select **hcce.yaml**  
-* Select **Control \+ F** on your keyboard and search for this text: **IfNotPresent**  
-* Replace each instance of the above text with:  
- **Always**  
-* Select **File, Save**. This will keep all of the changes you just made.  
+* In VS Code, select **hcce.yaml**
+* Select **Control + F** on your keyboard and search for this text: **IfNotPresent**
+* Replace each instance of the above text with:
+ **Always**
+* Select **File, Save**. This will keep all of the changes you just made.
 * Now we need to apply your changes to Kubernetes on DO. **Copy and paste** this into the terminal and **hit enter on your keyboard**
 
   ```shell
@@ -154,21 +153,21 @@ The automatic method:
 
 Updating your Hubs deployment scripts from the repository at Github (the zip file you originally downloaded).
 
-* Copy **input-values.yaml** from your **community\_edition** folder and paste it into a safe space. We’ll use your **Desktop** folder as an example.  
+* Copy **input-values.yaml** from your **community_edition** folder and paste it into a safe space. We’ll use your **Desktop** folder as an example.
 
-* [Download and extract a new copy of the zip file](./beginners-guide-to-CE.html#9-download-hubs-ce) to the same spot you did initially.  
+* [Download and extract a new copy of the zip file](./beginners-guide-to-CE.html#9-download-hubs-ce) to the same spot you did initially.
 
-* Select OK when asked to overwrite the files.  
+* Select OK when asked to overwrite the files.
 
-* Paste or type the values you had to your old **input-values.yaml** into your new **input-values.yaml** file.  
+* Paste or type the values you had to your old **input-values.yaml** into your new **input-values.yaml** file.
 
-* Select **File, Save**. This will keep all of the changes you just made.  
+* Select **File, Save**. This will keep all of the changes you just made.
 
 * Delete the old **input-values.yaml** file that is in your Desktop folder.
 
 ### How to update your Hubs CE deployment scripts (Git Version)
 
-* If you are using the master branch with uncommitted changes:  
+* If you are using the master branch with uncommitted changes:
 * Stash your changes by running this command:
 
     ```shell
@@ -193,15 +192,15 @@ Updating your Hubs deployment scripts from the repository at Github (the zip fil
     git mergetool
     ```
 
-* If you are using a custom branch:  
-  * Commit or stash your changes if needed.  
-  * Change back to master.  
+* If you are using a custom branch:
+  * Commit or stash your changes if needed.
+  * Change back to master.
   * Pull in the new updates by running this command:
 
     ```shell
     git pull --rebase
     ```
-  * Change back to your custom branch  
+  * Change back to your custom branch
   * Merge the master branch into your custom branch.
 
 ### After updating your Hubs CE deployment scripts
@@ -212,10 +211,10 @@ Updating your Hubs deployment scripts from the repository at Github (the zip fil
   npm run gen-hcce
   ```
 
-* In VS Code, select **hcce.yaml**  
-* Select **Control \+ F** on your keyboard and search for this text: **default-ssl-certificate.**  
-* Enter a \# (number sign) at the beginning of the text line, to the left of the dashes. It will be correct if the line turns green; this means the line has been disabled.  
-* Select **File, Save**. This will keep all of the changes you just made.  
+* In VS Code, select **hcce.yaml**
+* Select **Control + F** on your keyboard and search for this text: **default-ssl-certificate.**
+* Enter a # (number sign) at the beginning of the text line, to the left of the dashes. It will be correct if the line turns green; this means the line has been disabled.
+* Select **File, Save**. This will keep all of the changes you just made.
 * Now we need to apply your changes to Kubernetes on DO. **Copy and paste or type** this into the terminal and **hit enter on your keyboard**
 
   ```shell

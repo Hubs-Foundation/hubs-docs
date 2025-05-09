@@ -18,7 +18,7 @@ These instructions are written for users, newbies, or non-developers. This Hubs 
 
 This Hubs build at DO supports 30-60 maximum concurrent users. Of course, heavy concurrent use *can* lower that number. YMMV
 
-The cost is US$36 per month minimum, plus \~US$1 annual for the first year domain (August 2024 prices).
+The cost is US$36 per month minimum, plus ~US$1 annual for the first year domain (August 2024 prices).
 
 Scaleway provides you magic link log-in emails (SMTP), and Porkbun provides a web domain with DNS service.
 
@@ -49,13 +49,13 @@ Check our [FAQs](./faq.md). Also, our community [Discord](https://discord.gg/hub
 
 🤔 Advice icons mean that we think this is the best choice.
 
-💡Tips are extra information\! Not necessary, but helpful.
+💡Tips are extra information! Not necessary, but helpful.
 
 ☑️ Check your work. Extra instructions to make sure everything is working.
 
 ## **Section 1 Download stuff and open accounts**
 
-### 1\. Download and install Node.js
+### 1. Download and install Node.js
 
 a. Go to [Node.js package manager](https://nodejs.org/en/download/package-manager).
 
@@ -107,7 +107,7 @@ k. For Completed the Node.js Setup Wizard, select **Finish**.
 
 ![Capture of Node.js Setup, Completed the Wizard screen. "Finish" button in lower right is highlighted in purple.](img/beginnersguide/image13.png)
 
-### 2\.  Download and install VS Code
+### 2.  Download and install VS Code
 
 a. Go to [Visual Studio Code](https://code.visualstudio.com/). This page should automatically detect what your system is and offer you the matching VS Code version. Select **Download for Windows**.
 
@@ -115,7 +115,7 @@ If you don’t like all of the extra tracking that Microsoft inserts into VS Cod
 
 ![Capture of Visual Studio Code home page. Download for Windows blue button highlighted in purple.](img/beginnersguide/image14.png)
 
-It is \~95MB.  💡 Your version number might not match this shown version. Don’t worry. It’s fine that you download the most recent version.
+It is ~95MB.  💡 Your version number might not match this shown version. Don’t worry. It’s fine that you download the most recent version.
 
 ![Capture of VSCodeUserSetup-x64-1.90.1 dot exe downloading file process. ](img/beginnersguide/image15.png)
 
@@ -129,15 +129,19 @@ c. For License Agreement, select  **I accept the agreement**. Select **Next**.
 
 d. For Select Additional Tasks, select these statements:
 
-i. **Add “Open with Code” action to Windows Explorer file context menu**
+<ul>
 
-ii. **Add “Open with Code” action to Windows Explorer directory context menu**
+  i. **Add “Open with Code” action to Windows Explorer file context menu**
 
-iii. The other two statements, Register Code and Add to Path, should be checked by default.
+  ii. **Add “Open with Code” action to Windows Explorer directory context menu**
 
-iv. Select ‘**Next**’.
+  iii. The other two statements, Register Code and Add to Path, should be checked by default.
 
-![Capture of Setup, Microsoft Visual Studio Code (User) Select Additional Tasks prompt. Under Others, all boxes checked. Text: Make sure these are checked! for Add "Open with Code" action to the Windows Explorer file context menu and Add "Open with Code" action to Windows Explorer directory context menu.  Next button in lower right highlighted in purple.](img/beginnersguide/image18.png)
+  iv. Select ‘**Next**’.
+
+  ![Capture of Setup, Microsoft Visual Studio Code (User) Select Additional Tasks prompt. Under Others, all boxes checked. Text: Make sure these are checked! for Add "Open with Code" action to the Windows Explorer file context menu and Add "Open with Code" action to Windows Explorer directory context menu.  Next button in lower right highlighted in purple.](img/beginnersguide/image18.png)
+
+</ul>
 
 e. Select **Install**
 
@@ -153,7 +157,7 @@ f. After Visual Studio Code has installed, select **Finish**.
 
 > 🤔 Advice: If at any time when you go to use VS Code, the Terminal Window is not appearing for you (the part where you will enter commands), select **View**, **Terminal**.
 
-### 3\. Purchase a web domain at Porkbun
+### 3. Purchase a web domain at Porkbun
 
 a. Go to [Porkbun.com](https://porkbun.com/).
 
@@ -210,7 +214,7 @@ h. Complete your purchase. Complete the email verification step. Enter **your ve
 
 > 🤔 Advice: Activate two factor authentication (2FA) for your account.
 
-### 4\.  Create a A DigitalOcean Account
+### 4.  Create a A DigitalOcean Account
 
 a. Go to [DigitalOcean](https://www.digitalocean.com/). Select **Get started**. DigitalOcean (DO) “only bills for the services you use” so there is no initial startup charge.
 
@@ -224,37 +228,45 @@ b. For Create your account, select Sign up with Google, Sign up with Github or *
 
 c. **Enter in a required email address and password.** Keep these passwords somewhere safe. Select **Sign Up**.
 
-![Capture of DigitalOcean Sign Up with Email prompt with fields for full name, email address, and password. Sign up green button is at bottom center of prompt.](img/beginnersguide/image34.png)
+<ul>
 
-i. Notification to check your email for a confirmation link:
+  ![Capture of DigitalOcean Sign Up with Email prompt with fields for full name, email address, and password. Sign up green button is at bottom center of prompt.](img/beginnersguide/image34.png)
 
-![Capture of DigitalOcean Confirm your email address notification. Text: We sent an email to [blurred email address].  Please confirm your email address by clicking the link we just sent to your inbox. Resend verification email blue button is at lower center of prompt box.](img/beginnersguide/image35.png)
+  i. Notification to check your email for a confirmation link:
 
-d. Check your email and **select the confirmation link** that starts with [cloud.digitalocean.com/account\_verification](http://cloud.digitalocean.com/account_verification). The link logs you into your DO account. You may close the *other* DO page now.
+  ![Capture of DigitalOcean Confirm your email address notification. Text: We sent an email to [blurred email address].  Please confirm your email address by clicking the link we just sent to your inbox. Resend verification email blue button is at lower center of prompt box.](img/beginnersguide/image35.png)
+
+</ul>
+
+d. Check your email and **select the confirmation link** that starts with [cloud.digitalocean.com/account_verification](http://cloud.digitalocean.com/account_verification). The link logs you into your DO account. You may close the *other* DO page now.
 
 ![Capture of example email from Digital Ocean. Text: To finish creating your DigitalOcean account, confirm your email address by clicking on this link. (link provided). Happy coding, Team DigitalOcean](img/beginnersguide/image36.png)
 
 e. On this new page, you are asked some demographic questions that you must answer before selecting Submit:
 
-i. What do you plan to build on DigitalOcean?  
-Choices are An API, Data analytics infrastructure, Web3 or decentralized application, A website or content site, AI and machine learning, Video or livestreaming platform.
+<ul>
 
-> 🤔 Advice: We recommend **Web3 or decentralized application**
+  i. What do you plan to build on DigitalOcean?<br>
+  Choices are An API, Data analytics infrastructure, Web3 or decentralized application, A website or content site, AI and machine learning, Video or livestreaming platform.
 
-ii. What is your role or business type?  
-Choices are Digital agency / MSP, Freelancer or Consultant, Software company, E-commerce company, Hobbyist or Student, Other.
+  > 🤔 Advice: We recommend **Web3 or decentralized application**
 
-iii. What is your monthly spend on cloud infrastructure across cloud platforms? (provide an estimate)
-Choices are $0-$50, $50-$500, $500-$1,000,$1,000-$5,000, $5,000-$10,000, $10,000-$100,000, More than $100,000.
+  ii. What is your role or business type?<br>
+  Choices are Digital agency / MSP, Freelancer or Consultant, Software company, E-commerce company, Hobbyist or Student, Other.
 
-iv. How many employees work at your company?  
-Choices are I work alone, 2-9, 10-99, 100-499, 500-999, 1000+
+  iii. What is your monthly spend on cloud infrastructure across cloud platforms? (provide an estimate)<br>
+  Choices are $0-$50, $50-$500, $500-$1,000,$1,000-$5,000, $5,000-$10,000, $10,000-$100,000, More than $100,000.
 
-v. How do you prefer to manage cloud resources?  
-Choices are: Cloud console, CLI or API, SDK, Infrastructure as Code, I’m not sure.  
-> 🤔 Advice: We recommend **I’m not sure**.
+  iv. How many employees work at your company?<br>
+  Choices are I work alone, 2-9, 10-99, 100-499, 500-999, 1000+
 
-![Capture of DigitalOcean demographic questions prompt.](img/beginnersguide/image37.png)
+  v. How do you prefer to manage cloud resources?<br>
+  Choices are: Cloud console, CLI or API, SDK, Infrastructure as Code, I’m not sure.
+  > 🤔 Advice: We recommend **I’m not sure**.
+
+  ![Capture of DigitalOcean demographic questions prompt.](img/beginnersguide/image37.png)
+
+</ul>
 
 f. For Verifying your Payment Information, **select** either **‘Add a Card’** or **‘Connect via PayPal’.**
 
@@ -272,7 +284,7 @@ h. Once you have completed setting up your payment method, you are taken to a we
 
 ![Capture of Welcome to DigitalOcean Explore our Control Panel page. Explore our Control panel choice is in center right of page highlighted in purple.](img/beginnersguide/image40.png)
 
-### 5\. Create a Kubernetes cluster at DO
+### 5. Create a Kubernetes cluster at DO
 
 a. DO will create for you a default project called  “first-project”. From the MANAGE menu, select **Kubernetes**.
 
@@ -291,7 +303,7 @@ Choices are in North America, Europe, Asia, and Australia.
 ![Capture of DigitalOcean Create a Kubernetes cluster page. Other datacenter choices include: New York, Toronto, San Francisco, London, Frankfurt, Singapore, Bangalore, and Sydney.](img/beginnersguide/image44.png)
 
 d. For Choose cluster capacity, Select a scaling type, select **Fixed** or **Autoscale**.
-> 🤔 Advice: Fixed will help control your costs, but Autoscale will make sure that the servers are up if and when you need them. You decide: Fixed \= cheaper but slightly less reliable, Autoscale \= more expensive but more reliable. We are selecting Fixed in these instructions.
+> 🤔 Advice: Fixed will help control your costs, but Autoscale will make sure that the servers are up if and when you need them. You decide: Fixed = cheaper but slightly less reliable, Autoscale = more expensive but more reliable. We are selecting Fixed in these instructions.
 
 Note: You may ignore this warning:  You have reached the 3 Droplet on your account. Request increase.
 
@@ -303,17 +315,18 @@ f. For Machine Type:  Leave selected as **Basic, Regular SSD**
 g. For Node plan: Select **$24/month per node** ($0.036/hour) of 4GB total RAM / 2 vCPUs / 80 GB storage (June 2024 specifications) Tip 💡Hubs Community Edition needs 3-3.5 GB RAM to run. Choosing 4 GB RAM gets you *the minimum you need*.  If you run into too many problems, re-think this choice.
 
 > 💡 Tip: DigitalOcean charges an extra $12/month for mandatory load balancing.   
-So a $24 choice here will be $24 \+ $12 a month for a total of $36 a month.
+So a $24 choice here will be $24 + $12 a month for a total of $36 a month.
 
 h. For Nodes: Select **the negative sign to reduce this from 3 to 1**.
+
 > 🤔 Advice:  One node is enough. **Warning:** if you increase the nodes to 2 or more, you will need to [set up external storage](https://hominidsoftware.com/tech-personal-growth/Hubs-on-DigitalOcean/) to prevent data loss.
 
-    Note: This warning should have changed to: You are near the 3 Droplet limit on your account. Request increase. You can continue to ignore this warning.
+Note: This warning should have changed to: You are near the 3 Droplet limit on your account. Request increase. You can continue to ignore this warning.
 
 ![Capture of DigitalOcean Close a cluster capacity options. "Fixed size" is highlighted in purple. Node pool name has example of hcce-cluster-myownhubs-june2024, with "Enter your own name choice" prompt. Node plan of $24/month per node is highlighted in bright purple. Nodes of 1 is highlighted in purple.](img/beginnersguide/image45.png)
 
-i. For Select Additional options- If you need high Availability you can select the checkbox for Add high availability.
-> 🤔 Advice: Do not buy this (it is an extra $40/month\!), but you do what’s right for you. If you need to automate your database management, select the checkbox for Add database operator.  🤔 Advice: You do not need this.
+i. For Select Additional options - If you need high Availability you can select the checkbox for Add high availability.
+> 🤔 Advice: Do not buy this (it is an extra $40/month!), but you do what’s right for you. If you need to automate your database management, select the checkbox for Add database operator.  🤔 Advice: You do not need this.
 
 ![Capture of Digital Ocean, Select additional option page. Nothing is highlighted here.](img/beginnersguide/image46.png)
 
@@ -328,15 +341,15 @@ m. Select **Create Cluster**.
 
 ![Capture of Digital Ocean finalize cluster options. Name can only contain lowercase letters and dashes. Tags are optional. Total monthly cost estimates are show. "Create Cluster" green button at the bottom left is highlighted in purple.](img/beginnersguide/image47.png)
 
-In a few moments, your Kubernetes Cluster will be up and running. Hooray\! Congratulations\! You bought hosting services on the cloud.
+In a few moments, your Kubernetes Cluster will be up and running. Hooray! Congratulations! You bought hosting services on the cloud.
 
 ![Capture of DigitalOcean, Kubernetes Clusters dashboard page. Example named cluster and region shown with Created time and tags.](img/beginnersguide/image48.png)
 
-### 6\. Set up SMTP email service, verify domain, & get credential.
+### 6. Set up SMTP email service, verify domain, & get credential.
 
-1. Follow [these instructions](./set-up-SMTP-email-service.md) for Parts 1- 4.
+1. Follow [these instructions](./set-up-SMTP-email-service.md) for Parts 1 - 4.
 
-### 7\. Download and install Kubectl
+### 7. Download and install Kubectl
 
 This software controls Kubernetes (k8s).
 
@@ -348,13 +361,13 @@ c. Refer to our [FAQs](./faq.md) for advice on making sure that your kubectl ver
 
 ![Capture of kubernetes.io page, Install and Set Up kubectl on Windows. Under Install kubectl binary with curl on Windows, "Download the latest 1.30 patch release: (link) kubectl 1.30.0 " highlighted with  purple.](img/beginnersguide/image49.png)
 
-### 8\. Download and Install Doctl
+### 8. Download and Install Doctl
 
 Doctl is the same idea as kubectl, it controls Digital Ocean via the command line interface.
 
 Follow [instructions 1 through 10 here](./download-and-install-doctl.md).
 
-### 9\. Download Hubs CE
+### 9. Download Hubs CE
 
 a. Go to the [Hubs Foundation Github repository for hubs-cloud](https://github.com/Hubs-Foundation/hubs-cloud).
 
@@ -403,7 +416,7 @@ i. Visual Studio Code will open. Select ‘Yes, I trust the authors’.
 
 ## **Section 2 Connect DO**
 
-### 10\. Generate DO API token
+### 10. Generate DO API token
 
 You need to get a ‘password’ in the form of an API Token from DO so that your modified Hubs code can be accepted by DO. You’ll insert that token into doctl so that DigitalOcean can understand it.
 
@@ -430,13 +443,13 @@ f. Select **Generate Token**.
 
 ![Capture of DigitalOcean, Create A New Personal Access Token page, continued. For Scopes, Full Access and "Generate Token" green button are highlighted in purple.](img/beginnersguide/image64.png)
 
-g. **Copy and save** your Token somewhere securely. If you ever change computers to control your Hubs, you’ll either need this Token or you’ll need to [generate a new Token](https://docs.google.com/document/u/0/d/17TSXEuisDYRl8MEJIbv_envxqoEm3f3Z_E9U3Ci7_oU/edit).
+g. **Copy and save** your Token somewhere securely. If you ever change computers to control your Hubs, you’ll either need this Token or you’ll need to [generate a new Token](./faq.md#can-i-change-my-token-from-do-if-my-token-has-been-compromised).
 
 ![Capture of DigitalOcean Applications & API dashboard page. Token code is show under "Don't forget to copy your new personal access token". Copy icon is highlighted in purple.](img/beginnersguide/image65.png)
 
-### 11\. Authenticate doctl
+### 11. Authenticate doctl
 
-a. Copy and paste or type **the following text** into the terminal window of VS Code, changing \<NAME\>’to any generic name (e.g. MyHubsCE) and hit enter on your keyboard. No need to keep the less than or greater than symbols: \< \>
+a. Copy and paste or type **the following text** into the terminal window of VS Code, changing `<NAME>` to any generic name (e.g. MyHubsCE) and hit enter on your keyboard. No need to keep the less than or greater than symbols: `< >`
 
 ```shell
 doctl auth init --context <NAME>
@@ -448,13 +461,13 @@ For example: `doctl auth init --context MyHubsCE`
 
 b. The terminal will prompt `> Enter your access token:`  **Paste in the DO API token.** Hit enter on your keyboard.
 
-☑️ Green check mark means success\!
+☑️ Green check mark means success!
 
 ![Capture of VS Code notification screen with text "Validating your token..." with a green check mark.](img/beginnersguide/image67.png)
 
-c. Then type or paste this line, putting the name you used from Step 13a above for \<NAME\>
+c. Then type or paste this line, putting the name you used from Step 13a above for `<NAME>`
 
-`doctl auth switch --context <NAME>`  \*Make sure you type two dashes just before the text ‘context’
+`doctl auth switch --context <NAME>`  *Make sure you type two dashes just before the text ‘context’
 
 For example `doctl auth switch --context MyHubsCE`
 
@@ -483,7 +496,7 @@ h. Skip DO’s Step 4 called Deploy a workload, select **Great, I’m done**.
 
 ## **Section 3 Upload your Hubs**
 
-### 12\. Generate your config file
+### 12. Generate your config file
 
 Here is where you are going to change your Hubs code so that all of the accounts and parts work under your authority (passwords, tokens, etc.).
 
@@ -497,42 +510,54 @@ b. Select **input-values.yaml**  We will be working lines 1-21.
 
 c. Enter these values as described below. Warning: Only change the lines that you are instructed to change. Do not change any line that you do not know what it does. In all cases, make sure your entry is between the quote marks (“) in VS Code with no extra spaces.
 
-i. For HUB_DOMAIN: your domain purchased from Porkbun
+<ul>
 
-ii. For ADM_EMAIL: Your **real, private** account.
-> 🤔 Advice: This email account becomes the Admin of everything so choose the email you can reliably get into.
+  i. For HUB_DOMAIN: your domain purchased from Porkbun
 
-![Capture of VS Code, input-values.yaml file. Line 2: ADM_EMAIL: "admin@example.com" is highlighted with text: Click here and type your domain.](img/beginnersguide/image75.png)
+  ii. For ADM_EMAIL: Your **real, private** account.
+  > 🤔 Advice: This email account becomes the Admin of everything so choose the email you can reliably get into.
 
-iii. For Namespace: ”hcce’”\<- Leave that
+  ![Capture of VS Code, input-values.yaml file. Line 2: ADM_EMAIL: "admin@example.com" is highlighted with text: Click here and type your domain.](img/beginnersguide/image75.png)
 
-iv. For the SMTP_SERVER and the following SMTP lines, retrieve your Scaleway **Host**, **Port**, **Username**, and **Secret Key** entries that you saved from Step 7.
+  iii. For Namespace: ”hcce’”<- Leave that
 
-a. Server -> SMTP_SERVER: paste in **the server** you saved from Step 7 Set up SMTP email service, Part 4, Step 1.
+  iv. For the SMTP_SERVER and the following SMTP lines, retrieve your Scaleway **Host**, **Port**, **Username**, and **Secret Key** entries that you saved from Step 7.
 
-b. Port -> SMTP_PORT: enter **2587**
+  <ul>
 
-c. Username -> SMTP_USER: paste in the **Username** you saved from Step 7, Set up SMTP email service Part 4, Step 1
+  a. Server -> SMTP_SERVER: paste in **the server** you saved from Step 7 Set up SMTP email service, Part 4, Step 1.
 
-d. Password -> SMTP_PASS: paste in the **Secret Key** you saved from Step 7 Set up SMTP email, Part 4, Step 15.
-> 💡 Tip: Make sure you are using your Scaleway Username and Secret Key, not your Access Key ID.
+  b. Port -> SMTP_PORT: enter **2587**
 
+  c. Username -> SMTP_USER: paste in the **Username** you saved from Step 7, Set up SMTP email service Part 4, Step 1
 
+  d. Password -> SMTP_PASS: paste in the **Secret Key** you saved from Step 7 Set up SMTP email, Part 4, Step 15.
+  > 💡 Tip: Make sure you are using your Scaleway Username and Secret Key, not your Access Key ID.
 
-d. For SKETCHFAB\_API\_KEY: ”?”
+</ul>
+
+</ul>
+
+d. For SKETCHFAB_API_KEY: ”?”
 
 Get your API from your Sketchfab account. Wait, doesn’t this link your Sketchfab account to *any* use in your Hub? No, this API key allows access to Sketchfab, it doesn’t connect with any value to your personal Sketchfab account. Why are you doing this?
 > 🤔 Advice: Sketchfab linkage is one of the most fun aspects of Hubs. You and your users will enjoy this feature.
 
-i. Log into [Sketchfab](https://sketchfab.com/). Select your **profile icon** in the upper right corner. Select ‘**Settings**’.
+<ul>
+<ul>
 
-![Capture of VS Code, input-values.yaml file. Line 2: ADM_EMAIL: "admin@example.com" is highlighted with text: Click here and type your domain.](img/beginnersguide/image76.png)
+  i. Log into [Sketchfab](https://sketchfab.com/). Select your **profile icon** in the upper right corner. Select ‘**Settings**’.
 
-ii. Select Password & API. Copy the Token and paste it between the quotation marks, replacing the question mark.
+  ![Capture of VS Code, input-values.yaml file. Line 2: ADM_EMAIL: "admin@example.com" is highlighted with text: Click here and type your domain.](img/beginnersguide/image76.png)
 
-![Capture from Sketchfab, My Settings page. "Password & API" on left menu is highlighted. "API token" with token code blurred in the center is highlighted with purple.](img/beginnersguide/image77.png)
+  ii. Select Password & API. Copy the Token and paste it between the quotation marks, replacing the question mark.
 
-e. Change NODE\_COOKIE, GUARDIAN\_KEY, & PHX\_KEY to unique random values, using a password generator if you have one handy.
+  ![Capture from Sketchfab, My Settings page. "Password & API" on left menu is highlighted. "API token" with token code blurred in the center is highlighted with purple.](img/beginnersguide/image77.png)
+
+</ul>
+</ul>
+
+e. Change `NODE_COOKIE`, `GUARDIAN_KEY`, & `PHX_KEY` to unique random values, using a password generator if you have one handy.
 
 f. For now, leave all of the other fields unchanged. Here is an example, filled in:
 
@@ -566,7 +591,7 @@ npm run gen-hcce
 
 ![Capture from VS Code, terminal window. Text after community-edition, "npm run gen-hcce" highlighted in purple.](img/beginnersguide/image82.png)
 
-### 13\. Using Kubectl to deploy to DigitalOcean
+### 13. Using Kubectl to deploy to DigitalOcean
 
 Now it is time to upload your custom hcce.yaml file to DigitalOcean.
 
@@ -643,7 +668,7 @@ h. ☑️ [Extra instructions to check that your SMTP email is working](./faq.ht
 
 Congratulations!! If you have got your external IP, you have your Hubs running on a DigitalOcean Kubernetes cluster. Next, we will work on accessing it!
 
-### 14\. Add new A records
+### 14. Add new A records
 
 This step will be very similar to Step 7, Part 3. You will add 4 more new A records. You will copy from Scaleway and paste into Porkbun.
 
@@ -696,7 +721,7 @@ l. If you go ahead to the site by selecting **Advanced…** (in this Firefox exa
 
 In the next Step, you’ll generate the proper security certificates.
 
-### 15\. Generate certificates
+### 15. Generate certificates
 
 These steps add SSL certificates to your domain so that your admin log-in adds security certificates to the domain and thus everyone else will not receive security warnings.
 
@@ -710,7 +735,7 @@ b. **Copy and paste** this into the terminal and hit **enter** on your keyboard:
 npm run gen-ssl
 ```
 
-> 💡 Tip: It will take time for everything to be up and running, it might take \~5 minutes. Dots may appear, this is normal. This capture below shows the end of the generating certificates process.
+> 💡 Tip: It will take time for everything to be up and running, it might take ~5 minutes. Dots may appear, this is normal. This capture below shows the end of the generating certificates process.
 
 ![Capture from VS code, terminal window. After entering "npm run gen-ssl" resulting text includes "Generating SSL certificate for: assets..." and "Generated SSL certificate for: cors..."](img/beginnersguide/image94.png)
 
@@ -744,13 +769,13 @@ i. Check your email inbox. You should receive the magic link email. Select **the
 
 ![Capture from Firefox browser showing user logged in as Admin to their Hubs domain main page.](img/beginnersguide/image100.png)
 
-j. You should be able to now test your Hubs. Select **Create Room**. At this point your room may just be a dark horizon but it works\!
+j. You should be able to now test your Hubs. Select **Create Room**. At this point your room may just be a dark horizon but it works!
 
 ![Capture from Chromium browser. Default hubs space is gray with a dark horizon and box avatars. This is a working Hubs instance!](img/beginnersguide/image101.png)
 
 ## **Section 4 Kick the tires and light the fires**
 
-### 16\. Create Firewall
+### 16. Create Firewall
 
 Now you have to whitelist a few ports so that the voice chat and screen share/video share work properly.
 
@@ -777,7 +802,6 @@ e. For Inbound Rules, delete the SSH rule that comes predefined by selecting **D
 f. Create three (3) new Inbound Rules. These will whitelist these ports for Hubs to use them.
 
 i. First rule
-
 1. For Type, select **Custom**.
 2. For Protocol: select **TCP**
 3. For Port Range: enter **4443**
@@ -813,7 +837,7 @@ h. Select **Create Firewall.**  There will be a notification that the ‘Firewal
 
 i. You may log out of Scaleway, Porkbun, and DigitalOcean. You may close VS Code.
 
-## Your Hubs is up\!
+## Your Hubs is up!
 
 * Go to your domain and log in.
 * Visit [**What's next?**](./whats-next.md) for tips on room settings, importing scenes, and backups.
@@ -825,14 +849,14 @@ i. You may log out of Scaleway, Porkbun, and DigitalOcean. You may close VS Code
 ## **Sources**
 
 1. [Hrithik Tiwari’s original DigitalOcean instructions](https://github.com/Hubs-Foundation/hubs-blender-files/blob/main/creator-labs-files/CL-archive/ghost-to-md-output/2024-05-13-hubs-community-edition-how-to-deploy-on-digital-ocean.md).
-2. \[Video\] [DigitalOcean Quick Start with Hrithik Tiwari \- Community Edition Setup Session \- April 3, 2024](https://youtu.be/x9Ld6Mi64pk?si=ittf6QprKsHOiof2)
+2. \[Video\] [DigitalOcean Quick Start with Hrithik Tiwari - Community Edition Setup Session - April 3, 2024](https://youtu.be/x9Ld6Mi64pk?si=ittf6QprKsHOiof2)
 3. [Using Sendgrid for SMTP](https://discord.com/channels/498741086295031808/819203046931693589/840151692275613697)
 4. \[Video\] [Doctl for Windows installation video](https://youtu.be/6EubUwP5gN0?si=zNZeX2ZJcXNBOksA)
 5. \[Video\] [Visual Studio code tutorial](https://youtu.be/B-s71n0dHUk?si=SM_htKj7Bw0K5FXV)
 6. \[Video\] [Config file tutorial from Stan](https://youtu.be/j8dQEEEX4OA?si=AWndPWsuU7rAX5GC&t=822)
-7. [Installing WSL in Windows](https://learn.microsoft.com/en-us/windows/wsl/install) \- didn’t use WSL after all
-8. [Username and password advice for Linux](https://learn.microsoft.com/en-us/windows/wsl/setup/environment#set-up-your-linux-username-and-password) \- didn’t use after all
-9. Using [SendGrid for SMTP](https://discord.com/channels/498741086295031808/819203046931693589/840153117105455134)\- Tutorial from Fabien
+7. [Installing WSL in Windows](https://learn.microsoft.com/en-us/windows/wsl/install) - didn’t use WSL after all
+8. [Username and password advice for Linux](https://learn.microsoft.com/en-us/windows/wsl/setup/environment#set-up-your-linux-username-and-password) - didn’t use after all
+9. Using [SendGrid for SMTP](https://discord.com/channels/498741086295031808/819203046931693589/840153117105455134) - Tutorial from Fabien
 10. [Brevo How to Authenticate your domain](https://help.brevo.com/hc/en-us/articles/12163873383186-Authenticate-your-domain-with-Brevo-Brevo-code-DKIM-record-DMARC-record)
 11. [Setting up AWS SES](https://github.com/Hubs-Foundation/hubs-blender-files/blob/main/creator-labs-files/CL-archive/ghost-to-md-output/2023-10-16-community-edition-case-study-quick-start-on-gcp-w-aws-services.md)
 12. [Community Edition Case Study: Quick Start on Google Cloud with AWS Services](https://github.com/Hubs-Foundation/hubs-blender-files/blob/main/creator-labs-files/CL-archive/ghost-to-md-output/2023-10-16-community-edition-case-study-quick-start-on-gcp-w-aws-services.md)

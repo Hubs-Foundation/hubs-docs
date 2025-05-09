@@ -19,14 +19,14 @@ With DigitalOcean, you have two choices to make backups: Backups or Snapshots.
 
 Backups are an automated system. It saves the backup for you at a time you select.
 
-* Weekly backups \- kept for 4 weeks. $4.80/month (20% of the droplet)  
-* Daily backups \- kept for 7 days $7.20/month (30% of cost of droplet)
+* Weekly backups - kept for 4 weeks. $4.80/month (20% of the droplet)
+* Daily backups - kept for 7 days $7.20/month (30% of cost of droplet)
 
 Snapshots are a one-time save on demand.
 
-* Snapshots \- rate $0.06 per GiB per month, you do these on demand, they are not automatic
+* Snapshots - rate $0.06 per GiB per month, you do these on demand, they are not automatic
 
-Note: these prices are only quotes as of November 2024\. With all of these DO quotes, the costs are dependent on either what droplet costs you are paying or how much you have saved in memory (gigabytes).
+Note: these prices are only quotes as of November 2024. With all of these DO quotes, the costs are dependent on either what droplet costs you are paying or how much you have saved in memory (gigabytes).
 
 At DO, both Backups and Snapshots save ONE backup of everything within DO’s own computers. What you pay for is either the frequency of automatic saving (for Backups) or the file space (for Snapshots).
 
@@ -42,16 +42,16 @@ Both Backups and Snapshots work the same in DO. You set up the service. It runs.
 
 ## **Weekly Backups** 
 
-            
-1. At Digital Ocean, select **Backups & Snapshots**. 
 
-2. Select the **Backups** tab. Select **Setup Automated Backups**.
+1\. At Digital Ocean, select **Backups & Snapshots**.
+
+2\. Select the **Backups** tab. Select **Setup Automated Backups**.
 
 ![Capture of DigitalOcean, Manage, Backups & Snapshots page. "Backups" and "Setup Automated Backups" highlighted in purple.](img/backups/image1.png)
 
 3\. At Enable Automated Backups:
 
-A. Select your **droplet**. 💡It probably starts with “hcce-”.  
+A. Select your **droplet**. 💡It probably starts with “hcce-”.
 
 B. Select either **Weekly Backups** or **Daily Backups**. 
 
@@ -65,7 +65,7 @@ Notification box, “Backups enabled on hcce-cluster…..”
 
 ![Capture of DigitalOcean, Manage, Backups & Snapshots, Enable Automated Backups page. Notification briefly appears in upper right corner with green text.](img/backups/image3.png)
 
-4\. When the backup is made, it will be listed underneath Automated Backups.  Note: in our testing, it took \~5 minutes to save a backup, maybe faster. But it was immediate. We can’t guarantee that for you because we were purposely trying to get a backup. YMMV.
+4\. When the backup is made, it will be listed underneath Automated Backups.  Note: in our testing, it took ~5 minutes to save a backup, maybe faster. But it was immediate. We can’t guarantee that for you because we were purposely trying to get a backup. YMMV.
 
 ![Capture of DigitalOcean, Manage, Backups & Snapshots page. "Backups tab. More menu highlighted in purple. Choices are Convert to snapshot, Create Droplet, and Restore Droplet. "1 Backup" also highlighted in purple.](img/backups/image4.png)
 
@@ -73,9 +73,9 @@ Notification box, “Backups enabled on hcce-cluster…..”
 
 1\. To restore, from the Backups tab, your droplet, select **1 backup** from the 1 you have done. In the future, if you picked Weekly, you’ll have 4 backups to choose from.  If you picked Daily, you’ll have 7 to choose from. Select **Restore Droplet**.
 
-Notification box: Are you sure that you want to restore \[your droplet\] with \[your saved image\]? Note: restoring will replace the current Droplet with an older image. Select **Restore Droplet**.  
+Notification box: Are you sure that you want to restore \[your droplet\] with \[your saved image\]? Note: restoring will replace the current Droplet with an older image. Select **Restore Droplet**.
 
-![Capture of DigitalOcean, Manage, Backups & Snapshot page. "Backups" tab. Restore droplet popup with "Restore droplet" blue button highlighted in purple.](img/backups/image5.png)  
+![Capture of DigitalOcean, Manage, Backups & Snapshot page. "Backups" tab. Restore droplet popup with "Restore droplet" blue button highlighted in purple.](img/backups/image5.png)
 
 We found it took 5-10 minutes for the droplet to appear again. Easy peasy.
 
@@ -100,13 +100,13 @@ Notification that saving is done: Snapshot created. On the Droplets tab, your sa
 
 ## **Restoring your Hubs data from a Snapshot**
 
-1. To restore, from the Snapshots tab, Droplets tab, select **More** dropdown menu. Select **Restore Droplet**.
+1\. To restore, from the Snapshots tab, Droplets tab, select **More** dropdown menu. Select **Restore Droplet**.
 
 ![Capture of DigitalOcean, Manage, Backups & Snapshots, Snapshots tab. More menu highlighted in purple. Choices are Rename, Create Droplet, Add to region, Transfer Snapshot, Restore Droplet, and Delete. "Restore Droplet" is highlighted in purple.](img/backups/image9.png)
 
 Notification box: Are you sure that you want to restore \[your old droplet\] from \[your saved snapshot\]? Note: restoring will replace the current Droplet with an older image. 
 
-2. Select **Restore Droplet**.
+2\. Select **Restore Droplet**.
 
 ![Capture of DigitalOcean, Manage, Backups & Snapshots page. "Snapshots" tab. Restore droplet popup with "Restore droplet" blue button highlighted in purple.](img/backups/image10.png)
 
@@ -114,7 +114,7 @@ Notification that Restoring is in progress.
 
 ![Capture of DigitalOcean, Manage, Backups & Snapshots, Snapshots page. Notification of "Restoring" on right side of page highlighted in purple.](img/backups/image11.png)
 
-All done! Notification: Droplet Restored from Snapshot.  
+All done! Notification: Droplet Restored from Snapshot.
 
 ![Capture of DigitalOcean, Manage, Backups & Snapshots, Snapshots page. Notification of "Restoring" on right side of page highlighted in purple.](img/backups/image12.png)
 
@@ -124,7 +124,7 @@ It will take a short while for everything to be restored. DO might indicate that
 
 ## **FAQs for Backups**
 
-###  What about SnapShooter?
+### What about SnapShooter?
 
 SnapShooter is a service offered by DO that will take care of all backups for you. As one Community Member put it, it lets your money do the work for you. In our testing, the cheapest workable option for Hubs instances would be $66/month. If you like setting things once and then forgetting about it, this service would work.
 

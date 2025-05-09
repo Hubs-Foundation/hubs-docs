@@ -42,21 +42,22 @@ If you opened the URL on your desktop or smartphone, choose "Enter on Standalone
 
 ### On a Wired-in VR Headset
 
-We recommend [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) for wired-in headsets (e.g., Oculus Rift, Windows Mixed Reality, Vive). To use a desktop VR device with your headset, the Oculus app (Oculus Rift) or SteamVR (Windows Mixed Reality, Vive) must also be open.
+[//]: # (We recommend [Mozilla Firefox]&#40;https://www.mozilla.org/en-US/firefox/new/&#41; for wired-in headsets &#40;e.g., Oculus Rift, Windows Mixed Reality, Vive&#41;.)
+To use a desktop VR device with your headset, the Oculus app (Oculus Rift) or SteamVR (Windows Mixed Reality, Vive) must also be open.
 
 On your computer, click "Enter Room" and follow the prompts to select a username/avatar and set up your mic. On the final prompt before entering you should see an option to select "Connected VR Headset".
 
 For troubleshooting information visit Hubs [troubleshooting](./hubs-troubleshooting.html) page.
 
-<!-- ![Enter room on Wired in device](img/hubs-enter-connected-vr.jpeg)
+[//]: # ([Enter room on Wired in device]&#40;img/hubs-enter-connected-vr.jpeg&#41;)
 
-### On Cardboard
+[//]: # (### On Cardboard)
 
-Using Google Chrome on your mobile device, select "Enter Room" and follow the prompts to select a username/avatar and set up your mic. On the final prompt select "Enter on Google Cardboard". -->
+[//]: # (Using Google Chrome on your mobile device, select "Enter Room" and follow the prompts to select a username/avatar and set up your mic. On the final prompt select "Enter on Google Cardboard".)
 
 ## Supported Devices & Browsers
 
-Since Hubs runs in the browser, it works across many different platforms.
+Since Hubs runs in the browser, it works across most modern platforms.
 
 ### For 2D Experience
 
@@ -70,14 +71,14 @@ Currently, Hubs is supported on the following browsers:
 | Linux | Firefox |
 | Android | Firefox, Chrome |
 | iOS | Safari |
-| Standalone VR | Oculus Browser, Firefox Reality |
+| Standalone VR | Oculus Browser, Wolvic |
 
 ### For VR Experience
 
-For Desktop VR (Oculus Rift, Windows Mixed Reality, or Vive) Hubs works when used with a WebVR compatible browser (e.g., Firefox). Users must also have either the Oculus app (Oculus Rift), or SteamVR installed (Windows Mixed Reality, Vive).
+For Desktop VR (Oculus Rift, Windows Mixed Reality, or Vive) Hubs works when used with a WebXR compatible browser (e.g., Chrome). Users must also have either the Oculus app (Oculus Rift), or SteamVR installed (Windows Mixed Reality, Vive).
 
-For Standalone VR devices (Pico Neo 2, Oculus Quest and Oculus Go) Hubs works in the Mozilla Firefox Reality Browser or the Oculus Browser.
+For Standalone VR devices (Pico Neo and Oculus Quest) Hubs works in the Oculus Browser and Wolvic.
 
 Mobile phone powered VR systems, such as Samsung Gear and Google Cardboard, work using Google Chrome browser.
 
-Note that some features may be limited on low-powered devices such as mobile phones.
+Note that some features may be limited on low-powered devices such as mobile phones and older devices.
