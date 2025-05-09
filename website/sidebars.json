@@ -8,6 +8,12 @@
       "intro-events"
     ],
     "Setting Up Your Hub": [
+      "beginners-guide-to-CE",
+      "set-up-SMTP-email-service",
+      "download-and-install-doctl",
+      "whats-next",
+      "faq",
+      "how-to-backup-your-Hubs-instance",
       "setup-configuring-content",
       "setup-faq",
       "setup-contact"
