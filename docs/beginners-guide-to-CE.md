@@ -323,7 +323,7 @@ h. For Nodes: Select **the negative sign to reduce this from 3 to 1**.
 
 Note: This warning should have changed to: You are near the 3 Droplet limit on your account. Request increase. You can continue to ignore this warning.
 
-![Capture of DigitalOcean Close a cluster capacity options. "Fixed size" is highlighted in purple. Node pool name has example of hcce-cluster-myownhubs-june2024, with "Enter your own name choice" prompt. Node plan of $24/month per node is highlighted in bright purple. Nodes of 1 is highlighted in purple.](img/beginnersguide/image45.png)
+![Capture of DigitalOcean Choose a cluster capacity options. "Fixed size" is highlighted in purple. Node pool name has example of hcce-cluster-myownhubs-june2024, with "Enter your own name choice" prompt. Node plan of $24/month per node is highlighted in bright purple. Nodes of 1 is highlighted in purple.](img/beginnersguide/image45.png)
 
 i. For Select Additional options - If you need high Availability you can select the checkbox for Add high availability.
 > 🤔 Advice: Do not buy this (it is an extra $40/month!), but you do what’s right for you. If you need to automate your database management, select the checkbox for Add database operator.  🤔 Advice: You do not need this.
