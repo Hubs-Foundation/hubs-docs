@@ -9,7 +9,7 @@ sidebar_label: Getting Started With Hubs
 
 We are finishing a beginners guide. Until then, here are a few [links](https://hubsfoundation.org/getting-started/) to get you started. Please visit the [Hubs Discord](https://discord.gg/hubs-498741086295031808) for additional guidance. The community is there to help answer questions.
 
-The folllowing information is from the original guide. It will be useful once you've gotten your hubs server up and running. Make your own room by clicking “Create a Room.” 
+The following information is from the original guide. It will be useful once you've gotten your hubs server up and running. Make your own room by clicking “Create a Room.”
 
 <!-- <video autoplay loop muted controls >
   <source src="img/create-a-room.mp4" type="video/mp4">
