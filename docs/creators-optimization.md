@@ -1,6 +1,7 @@
 ---
 id: spoke-optimization
 title: Optimizing Scenes
+description: Measuring and improving performance across many devices.
 ---
 
 ## Improving Performance

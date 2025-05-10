@@ -1,9 +1,10 @@
 ---
 id: hubs-troubleshooting
 title: Troubleshooting
+description: Dealing with some common connection and performance problems in Hubs
 ---
 
-## Getting stuck on loading screen 
+## Getting stuck on loading screen
 
 Rooms may have complex 3D models or objects in them which can increase the load time, particularly on less powerful devices (i.e., mobile phones and standalone VR headsets). If you are getting stuck on the loading screen, try refreshing the page or loading the scene on another browser or device. 
 

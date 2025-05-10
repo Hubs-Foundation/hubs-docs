@@ -1,6 +1,7 @@
 ---
 id: hubs-faq
 title: FAQ
+description: How to present content and smoothly run events in Hubs
 ---
 
 ## What is the capacity of a Hubs room?

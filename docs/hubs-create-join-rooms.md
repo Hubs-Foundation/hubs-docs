@@ -1,6 +1,7 @@
 ---
 id: hubs-create-join-rooms
 title: Create and Join Rooms
+description: The process and details of creating and joining a Hubs room
 ---
 
 ## Create a New Room

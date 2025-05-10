@@ -1,6 +1,7 @@
 ---
 id: creators-using-the-blender-gltf-exporter
 title: Using the Blender glTF Exporter
+description: 3-D models can be created using the advanced tools of Blender, and exported to a format that Hubs can read.
 ---
  Note: The following documentation assumes you are using the latest stable release of Blender. Using older versions or experimental builds of Blender may work, but is not guaranteed.
  
@@ -9,7 +10,7 @@ To ensure you are using the latest release of Blender, look at the top right of 
 ![Blender Splash Screen Image](img/BlenderSplash.jpg)
 
 
-### What things will export to glTF?
+## What things will export to glTF?
 Not everything you make in Blender can be exported to the glTF (glb) format. This is constantly changing due to ongoing improvements to the Blender glTF importer/exporter add-on, as well as changes to the glTF file format itself. Generally speaking, you can export models with or without textures and/or vertex colors, models with skeletal armatures, models with shape keys (morphing), and models with animation. Things that will *not* export properly (unless things change at some point): Blender's particle systems, cached vertex animations (like fluid or cloth simulations), and certain types of shaders, to name a few.
 
 If you have questions or problems getting certain parts of your Blender file to export, please refer to the following for more information:
@@ -18,7 +19,7 @@ If you have questions or problems getting certain parts of your Blender file to 
 
 [Blender glTF Importer/Exporter Github repository](https://github.com/KhronosGroup/glTF-Blender-IO)
 
-### How to make sure your Blender model(s) export correctly
+## How to make sure your Blender model(s) export correctly
 There are a few things to check to make sure what you see in Blender is what you'll get in Spoke and Hubs. This is not an exhaustive list, but it contains some common things that can cause unexpected results.
 
 **+ The scale should read 1, 1, 1.**
@@ -67,7 +68,7 @@ Any parameters not mentioned are probably best left to their defaults.
 It's worth noting that because this exporter (and the glTF format) is still subject to its own bug fixes and redesign, some of the settings and/or their defaults may change in the future.
 
 
-### Setting up materials that Spoke and Hubs will display correctly
+## Setting up materials that Spoke and Hubs will display correctly
 
 Blender's documentation has all of the latest information about how materials should be configured for glTF. This information can be found easily by searching for 'glTF' in their docs. Here's the [link to Blender's glTF documentation](https://docs.blender.org/manual/en/dev/addons/import_export/scene_gltf2.html?highlight=gltf#gltf-2-0)
 

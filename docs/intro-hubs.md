@@ -1,7 +1,8 @@
 ---
 id: intro-hubs
 title: Getting Started with Hubs
-sidebar_label: Getting Started With Hubs 
+sidebar_label: Getting Started With Hubs
+description: How to enter a Hubs room, move around, basic interaction, add media, and invite friends.
 ---
 
 

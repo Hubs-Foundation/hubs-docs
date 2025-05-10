@@ -1,14 +1,15 @@
 ---
 id: github-workflows
 title: GitHub Workflows
+description: Continuous Integration rebuilds the containers used in the deployment of Hubs
 ---
 
-# Custom Docker Build Push
+## Custom Docker Build Push
 In some repositories you will find a GitHub Workflow/Action named custom-docker-build-push for building custom docker images and pushing them to a docker/container registry of your choice.  Simply run this Action on any branch, with the appropriate details filled in (either through the predefined defaults or by the overrides), and you will end up with a docker image of that branch that can be used in any Community Edition instance.
 
 The Action allows you almost complete control over where your docker images are sent and how they are tagged.  The details required for this to work can either be provided at runtime or by preset defaults that you set up.
 
-## Options/Setup
+### Options/Setup
 
 The following properties can be configured/overridden.  Any values that are manually specified for that run will always be used.  Any fields not passed values will fall back on predefined variables/secrets (if they have been created).
 

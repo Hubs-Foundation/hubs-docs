@@ -3,9 +3,8 @@ id: dev-client-basics
 title: Hubs Client development Basics
 ---
 
-The Hubs client is a web application that runs in each user&rsquo;s web
-browser. It contains the HTML, CSS, and Javascript necessary to simulate a
-networked 3D world and display interactive 2D menus. This document provides
+The Hubs client is a web application that runs in each user&rsquo;s web browser. It contains the HTML, CSS, and Javascript necessary to simulate a networked 3D world and display interactive 2D menus.
+This document provides
 an overview of the Hubs client: the technologies it uses, the backend services
 it connects to, and how its code is organized.
 

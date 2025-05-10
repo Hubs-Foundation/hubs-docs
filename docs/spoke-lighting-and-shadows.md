@@ -1,6 +1,7 @@
 ---
 id: lighting-and-shadows
 title: Lighting and Shadows
+description: Types of lights, shadow settings, and performance impacts in Spoke
 ---
 
 ## Lights

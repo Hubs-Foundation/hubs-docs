@@ -1,6 +1,7 @@
 ---
 id: spoke-grid
 title: Grid
+description: Grid and Snap Mode of Spoke
 ---
 
 ![Screenshot of Spoke](img/spoke-grid.png)

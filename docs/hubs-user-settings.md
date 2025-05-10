@@ -1,6 +1,7 @@
 ---
 id: hubs-user-settings
 title: User Settings
+description: Changing name, avatar, and preferences; features available only when you sign in
 ---
 
 ## Changing Name and Avatar
