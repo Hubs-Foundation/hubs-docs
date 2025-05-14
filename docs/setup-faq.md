@@ -1,7 +1,7 @@
 ---
 id: setup-faq
 title: Frequently Asked Questions
-description: terminology, limits and custom versions of Hubs
+description: The terminology and limits of Hubs, and custom versions
 ---
 
 ## Can I have more than one Hub with my account?

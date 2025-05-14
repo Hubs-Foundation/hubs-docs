@@ -1,7 +1,7 @@
 ---
 id: github-workflows
 title: GitHub Workflows
-description: Continuous Integration rebuilds the containers used in the deployment of Hubs
+description: Explanations of workflows for Hubs deployments including instructions for use. 
 ---
 
 ## Custom Docker Build Push
