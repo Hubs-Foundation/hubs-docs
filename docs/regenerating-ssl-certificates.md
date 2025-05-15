@@ -3,9 +3,6 @@ id: regenerating-ssl-certificates
 title: Regenerating SSL Certificates
 ---
 
-<!-- align all images to the left by default -->
-<div class="image-align-left">
-
 ![Capture of Hubs instance with expired SSL certificates. Yellow triangle with text: Warning: Potential Security Risk Ahead.](img/sslcertificateregen/image1.png)
 
 The SSL certificates you generated in the Beginner's Guide will last you 90 days, but then you will need to regenerate them. Why do they expire every 90 days? We don’t know and we had to google that question. [Here’s the answer](https://letsencrypt.org/2015/11/09/why-90-days/): To limit damage from key compromise and to encourage all of us to implement automation. 
@@ -99,5 +96,3 @@ You can regenerate your SSL certificates with the following steps. This is very 
 ## Can I regenerate my certificates before they expire?
 
 Yes.  If you are within 45 days of your certificates expiring you can regenerate them.
-
-</div>
