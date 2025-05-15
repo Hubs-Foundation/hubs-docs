@@ -1,6 +1,7 @@
 ---
 id: regenerating-ssl-certificates
 title: Regenerating SSL Certificates
+description: Shows how to check a Hubs instance's SSL certificates and regenerate them when necessary.
 ---
 
 ![Capture of Hubs instance with expired SSL certificates. Yellow triangle with text: Warning: Potential Security Risk Ahead.](img/sslcertificateregen/image1.png)
