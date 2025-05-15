@@ -2,6 +2,7 @@
 id: admin-getting-started
 title: Getting Started With Administration
 sidebar_label: Getting Started
+description: Signing in and creating and configuring a room
 ---
 
 ## Admin Panel

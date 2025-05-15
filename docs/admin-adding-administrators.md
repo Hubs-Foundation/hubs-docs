@@ -2,6 +2,7 @@
 id: admin-adding-administrators
 title: Adding Administrators
 sidebar_label: Adding Administrators
+description: Administrative powers and granting them to accounts
 ---
 
 ## Powers

@@ -1,6 +1,7 @@
 ---
 id: intro-behavior-graphs
 title: Introduction to Behavior Graphs
+description: Behavior graphs allow for adding interactivity to Hubs through a graphical system of connected nodes or blocks from within Blender.
 ---
 
 > **NOTE:** _As of this documentation being created, Behavior Graphs are undergoing rapid development. This has the effect of making it challenging to update this documentation quickly enough to make sure it has parity with the current state of the tech behind it. Thank you for your patience and please consider contributing edits to this documentation as needed._

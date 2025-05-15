@@ -1,6 +1,7 @@
 ---
 id: creators-blender-components
 title: Blender Add-on Components
+description: Many Hubs Components can be added to a scene when creating it in Blender.
 ---
 
 ## Overview

@@ -1,6 +1,7 @@
 ---
 id: hubs-faq
 title: FAQ
+description: Common questions about using Hubs
 ---
 
 ## What is the capacity of a Hubs room?
