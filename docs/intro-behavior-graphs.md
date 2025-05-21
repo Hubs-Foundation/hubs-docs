@@ -3,18 +3,25 @@ id: intro-behavior-graphs
 title: Introduction to Behavior Graphs
 ---
 
-> **NOTE:** _As of this documentation being created, Behavior Graphs are undergoing rapid development. This has the effect of making it challenging to update this documentation quickly enough to make sure it has parity with the current state of the tech behind it. Thank you for your patience and please consider contributing edits to this documentation as needed._
+> **NOTE:** _Behavior Graphs are an evolving system. This documentation may lag behind the latest feature set. Please contribute edits or examples if you find missing or outdated information._
 
-If 3d models represent the visual and aesthetic side of an experience in Hubs, Behavior Graphs represent the design of the affordances (interactive possibilities) and any sequence(s) of events that might occur within that experience.
+## What Are Behavior Graphs?
 
-Behavior graphs allow for control over many aspects of a Hubs experience by exposing Hubs-specific features normally only accessible via altering the Hubs code base. Things like teleporting, audio zones, video playback, or in-world events like when a person joins or leaves a room can all be accessed through a graphical system of connected nodes or blocks (like a flowchart) from within Blender.
+If 3D models represent the **visual appearance** of a Hubs scene, Behavior Graphs define the **interactions** — how things respond, move, react, and change.
+
+They let you build interactive logic inside Blender using a visual editor, without writing code. You connect “blocks” (nodes) like a flowchart to create behaviors. For example:
+- A door opens when a player enters a zone
+- A lamp turns on when clicked
+- A sound plays when someone joins the room
+
+Behavior Graphs expose powerful Hubs-specific features that would normally require modifying the codebase — such as teleporting, audio zones, video playback, and object animations.
 
 ![Behavior Graph Example 1](img/BehaviorGraph_Example.png)\
 _An example of a simple **Behavior Graph** that moves an object 2 meters each time it's clicked._
 
-They may also be used to control aspects of the visual elements within a scene such as the lighting, an object’s material properties, the speed of an animation, or an object's position/rotation/scale to name just a few.
+Even visual properties — like lighting, colors, and animation speed — can be controlled. This makes your `.glb` models **self-contained**: logic, visuals, and interactivity all bundled together.
 
-All of the logic created within the Blender scene gets exported along with everything else. This is powerful because a single `.glb` file can contain all of the instructions for how it should behave. _Having self-contained behaviors allows for modular design._ For example, a lamp model could contain everything it needs to be interacted with--switched on/off, dimmed, colored, or even broken. Any copy of the lamp could be interacted with the same way.
+> For example, a lamp model could contain all its behavior: on/off toggle, color change, 
 
 The logic involved in setting up these behaviors can be as simple as a video appearing when a button is pressed or as complex as an escape room filled with interdependent puzzles where the whole room animates on cue. Whatever you choose to create, the logic comes from basic (and sometimes familiar) building blocks like _if/then_ statements, variables, and math functions.
 
@@ -146,107 +153,118 @@ Each **Variable Type** has a color associated with its **Inputs** and **Outputs*
 
 For objects that have Hubs components attached to them, there are a couple nodes that allow you to operate on a component called `Get Component Property` and `Set Component Property`.\
 These nodes are useful because they universally give you access to most editable components without the need for individual unique nodes that would only serve a single function. It also means that any new components that get added to the system can be accessed the same way.
+### Getting and Setting Component Properties
+
+When you add a component to an object — such as **Rigidbody** — you can access its properties using the `Get Component Property` and `Set Component Property` nodes.
 
 ![Get/Set Component Properties](img/BG-GetSetComponents.png)\
-_When you add a component to an object, such as the **Rigidbody** component, it can be accessed from the `Get Component Property` and `Set Component Property` nodes. The fields automatically populate with whatever data is exposed in the component, in this case, **Mass**._
+_Example: A Rigidbody component's “Mass” property is exposed through the `Get/Set Component Property` nodes._
 
-In the above example, you can imagine how cumbersome it might be to have separate nodes for all of those rigidbody properties--(_Get Mass, Get Body Type, Get Gravity, etc..._). That list alone contains 11 different properties (with more to come!) Having a universal way to access Hubs components helps keep graphs from becoming a tangled mess as well.
-
-### Other node types
-
-Most nodes don't actually **do** anything on their own, hence their lack of **Flow Inputs**/**Outputs**. What they have, instead, are inputs and outputs related to the _type of data_ they work with.
-
-For example, let's take one of the _Math_ nodes as an example, in this case, `Add`.
-
-The `Add` node, relies on the attached nodes to operate. So it's not until `Variable Set` is triggered that the `Add` does its operation, when `Variable Set` is looking for an _input_ value.
-
-![Get/Set Variable](img/BG-OtherNodes.png)\
-_Many nodes, such as the various **Math** nodes act as a utility to do calculations or otherwise manipulate data._
-
-### Custom Events
-
-Sometimes, while triggering things to happen within a graph or between graphs, it can be useful to create a **Custom Event**. A **Custom Event** is just a signal that acts like a trigger to start a flow of logic. These can also have **Parameters** attached to them so that you can send data along with the **Custom Event**.\
-For example, you might have a clickable object where you not only want to know _when_ it was clicked, but also _who clicked it_. The player data could be sent along with the **Custom Event** so that it can be passed along to some other node(s).
-
-![Custom Events List](img/BG-CustomEventsList.png)\
-_Here, we have a **Custom Event** called _'SomebodyWon'_ that has two parameters, _'PlayerName'_ and _'TeamColor'_._
-
-In a Behavior Graph, a `Trigger` node lets you trigger the **Custom Event** and input any **Parameters** you want to pass along with the event.
-
-![Custom Event Trigger](img/BG-CustomEventTrigger.png)\
-_A `Trigger` node showing a **Custom Event** called _'SomebodyWon'_. The two **Parameters** ('PlayerName' and 'TeamColor') show up as inputs on the `Trigger` node._
-
-Elsewhere, you can use an `On Trigger` event to initiate some new flow of logic where you use the **Parameters** for other things. In this example, we've passed along _'PlayerName'_ and _'TeamColor'_ with our _'SomebodyWon'_ **Custom Event**.
-
-![On Trigger event](img/BG-CustomEventOnTrigger.png)\
-_An `On Trigger` event node using our 'SomebodyWon' **Custom Event** and its **Parameters** to set the **Color** and **Text** properties of a Text component. (A **Concat** node is used to append ' is the winner!' to the user's PlayerName before it gets displayed at text.)_
-
-In the image above, you can see how the **Parameters** show up as _outputs_ on the `On Trigger` node. In the example, the _'TextColor'_ is used to set the color of a Text component while _'PlayerName'_ is used to set the Text component's _'Text'_ property.
+Without this system, you'd need separate nodes for each property (like `Get Mass`, `Get Body Type`, etc.). That could quickly clutter your graph. By using generalized nodes that adapt based on the component, Behavior Graphs stay cleaner and easier to manage — especially as more properties and components are added.
 
 ---
 
-## Working with Behavior Graphs
+### Utility Nodes: Working with Data
 
-### Behavior Graph Editor
+Many nodes in Behavior Graphs don't perform actions by themselves — instead, they help manage **data**. These include Math nodes, logic comparisons, and variable manipulation.
 
-Behavior Graphs have their own editor in Blender, unsurprisingly called the **Behavior Graph Editor**. This editor can be accessed from any window by using the **Editor Type** button found in the upper left of most windows in Blender:
+For example, the `Add` node simply adds two values — but it won’t do anything until another node (like `Set Variable`) calls for its result.
+
+![Get/Set Variable](img/BG-OtherNodes.png)\
+_Example: A Math `Add` node passes its result into a `Set Variable` node when triggered._
+
+---
+
+### 🔁 Custom Events
+
+Custom Events are a way to create your own triggers and pass data between parts of your graph — or even across different objects.
+
+Let’s say you want to trigger a “win” event that not only fires when someone wins, but also passes:
+- The player's name
+- Their team color
+
+That’s where **Parameters** come in — data you can send along with a Custom Event.
+
+![Custom Events List](img/BG-CustomEventsList.png)\
+_Example: A `SomebodyWon` event with parameters `PlayerName` and `TeamColor`._
+
+To trigger a Custom Event, use a `Trigger` node. The event’s parameters appear as inputs.
+
+![Custom Event Trigger](img/BG-CustomEventTrigger.png)\
+_Triggering `SomebodyWon`, passing `PlayerName` and `TeamColor`._
+
+Then, somewhere else in your graph, use an `On Trigger` node to respond to that event. The parameters show up as **outputs** — you can feed them into other actions, like setting text or colors.
+
+![On Trigger event](img/BG-CustomEventOnTrigger.png)\
+_When `SomebodyWon` is triggered, the graph updates a text label to show the winner’s name and apply the team color._
+
+This system gives you a powerful, modular way to manage events and share context across objects or logic flows.
+
+---
+## 🛠 Working with Behavior Graphs in Blender
+
+### 📐 Opening the Behavior Graph Editor
+
+Behavior Graphs are edited in Blender through the **Behavior Graph Editor**, a dedicated node editor similar to the Shader or Geometry Node editors.
+
+You can open it by changing the editor type in any Blender window:
 
 ![Behavior Graph Editor Access](img/BG-EditorAccess.png)\
-_The **Behavior Graph Editor** can occupy most windows in Blender by changing the **Editor Type** in the menu where all the other editors are accessed._
+_Select **Behavior Graph Editor** from the dropdown in any Blender panel._
 
-The **Behavior Graph Editor** works similarly to other node-based editors in Blender such as the _Shader Editor_ or the _Geometry Node Editor_.
+---
 
-The editor doesn't allow you to do much of anything until you **create a new Behavior Graph**. This is done by:
+### ➕ Creating a New Behavior Graph
 
-First **selecting some object in your scene**, then either:
+Before adding nodes, you’ll need to create a new graph and attach it to an object in your scene.
 
-1. Pressing the **New** button at the top center of the **Behavior Graph Editor**
+#### Two ways to create a Behavior Graph:
+1. **Select an object**, open the Behavior Graph Editor, and click `New`.
+   ![New Behavior Graph, method 1](img/BG-NewButton.png)
 
-![New Behavior Graph, method 1](img/BG-NewButton.png)\
- **-OR-** 2. Opening the **Object Properties**, going to the **Object** tab, scrolling to the **Behavior Graph** section and clicking the **New** button.
-![New Behavior Graph, method 2](img/BG-PropertiesNewGraph.png)
+2. Or go to the object’s **Object Properties** panel → scroll to **Behavior Graph** → click `New`.
+   ![New Behavior Graph, method 2](img/BG-PropertiesNewGraph.png)
 
-Once a **Behavior Graph** is created, it can be assigned to other objects (or changed to a different graph) as well via the **Browse Node Tree** button, usually found next to wherever graphs are listed.
+Once created, a graph can be reassigned to other objects using the **Browse Node Tree** button.
 
 ![Assign Behavior Graph](img/BG-AssignGraph.png)\
-_Behavior Graphs can be assigned to new objects, or changed to a different graph._
+_You can reuse or switch graphs on different objects using this dropdown._
 
-The **Behavior Graph** can be renamed by clicking on its name in most fields where it appears. Making meaningful names for graphs is essential for keeping things organized.
+Graphs can also be renamed by clicking their name. **Meaningful names help keep large projects organized.**
 
-**A single object can have multiple Behavior Graphs assigned to it.** This helps when organizing the structure of your logic so that various functions can be more modular in their design. For example, an object might have one graph that handles visual changes (like a material color) while another graph on the object handles the object's movement. You might then have another graph that handles input events that the other graphs listen for. Keeping functionality separate can avoid confusion and dependency problems.
+> 🧠 Tip: A single object can have **multiple Behavior Graphs**. One might handle visuals (like material changes), another motion, and a third for input events. Keeping responsibilities separated like this avoids complex, tangled logic.
 
-> Knowing when to separate functions into separate behavior graphs requires some experimentation since, like text-based programming or scripting, there are many valid ways to organize code. But as you experiment you will likely find intuitive design patterns that tend to get repeated.
-> For example, making use of the _'Self'_ context of nodes to make behaviors that are universal no matter what kind of object they are applied to.
+---
 
-### Adding/Deleting Nodes
+### 🧱 Adding and Editing Nodes
 
-Once a **Behavior Graph** has been created, nodes can be created by using the **Add** menu (or the typical `Shift`+`a` shortcut).
+Once a graph is active, you can add nodes via the `Add` menu or with `Shift + A`.
 
 ![Adding a Node](img/BG-AddNode.png)\
-_A list of **node types** appears when using the **Add** menu._
+_Choose node types from the **Add** menu._
 
-> **NOTE:** *The node types may likely change over time as the Behavior Graph system matures. For example, all of the many *Math* nodes may end up being consolidated into a single, universal *Math* node. This is important to remember if you see something missing that was once in this list.*
+> ⚠️ Node lists may evolve — for example, the many current Math nodes could be consolidated in the future.
 
-### Manipulating Nodes
+---
 
-Nodes can be moved around using the typical Blender controls for similar editors, namely the _move_ tool.
+### ✏️ Manipulating Nodes
 
-Nodes may also be resized by dragging their edges, which you may find useful when using long object or variable names that might be difficult to read when a node is small.
+- **Move**: Drag nodes freely in the canvas  
+- **Resize**: Pull node edges to expand/shrink, helpful for long names  
+- **Select multiple**: Use `Shift + click` or drag a box  
+- **Arrange**: Use rotate/scale to reposition clusters  
+- **Recenter**: Press `A` to select all → **View > Frame Selected** or **Frame All**
 
-Muitple nodes can be selected at once by `Shift`-clicking or by dragging a selection box around them. The selection tools are found in the _Tools_ menu, by pressing `t` in the editor.
+To delete, press `X`. Cut/copy/paste works with standard shortcuts.
 
-When selecting multiple nodes simultaneously, you may also use _rotate_ and _scale_ to maniuplate their juxtapositions to one another. These are often overlooked but can help to 'spread out' nodes that are clustered too closely to decipher easily.
+---
 
-Since the editor itself is a sort of 'infinite canvas', nodes can get lost fairly easily. Pressing `a` to select all nodes, then **Frame Selected** from the **View** menu to focus on them helps to reorient your view. You may also use **Frame All** from the same menu.
+### ⚠️ Known Editor Gotchas
 
-To **delete a node**, you can select the node(s) and press `x`.
+> ✅ Here are some quirks you might encounter in the current BG editor:
 
-Nodes may also be **cut**, **copied**, and **pasted** using standard hotkeys.
-
-> ### **THINGS TO LOOK OUT FOR:**
->
-> - Deleting a node that is connected to other nodes will sever any and all connections.
-> - Pressing `m` on a node to **mute** as other editors allow does _not_ actually stop the node from activating. In other words, it only provides a visual 'mute' in the editor but not at export or runtime. There are currently no plans to support 'muting' but that may change.
-> - Sometimes node wires, especially **Flow** lines can get attached to the wrong inputs on a node, such as a _float_ or _entity_ input. This will cause errors on export, but not always. This is considered a bug and will hopefully be fixed in the near future.
-> - **Flow** lines that are connected to _Reroute_ nodes and nothing else (aka, a disconnected flow line) will cause errors on export and/or runtime.
-> - If a node ever appears to be missing some input or output, especially when using Custom Events or Variables, you can usually correct it by remaking the node or by changing one of its fields temporarily until the inputs/outputs show up again. This is a bug that will hopefully get fixed in the near future.
+- **Deleting a node** also removes its connected wires
+- Pressing `M` **mutes visually** — but does **not** disable functionality
+- **Wires may attach to wrong sockets** (e.g., Flow line to Float input) — this can cause export/runtime bugs
+- **Disconnected Reroute nodes** can cause silent errors
+- **Missing inputs/outputs** on nodes (especially for Variables/Events)? Try deleting + re-adding, or changing one dropdown temporarily to refresh
