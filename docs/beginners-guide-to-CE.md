@@ -670,7 +670,7 @@ Congratulations!! If you have got your external IP, you have your Hubs running o
 
 ### 14. Add new A records
 
-This step will be very similar to Step 6, Part 3. You will add 4 more new A records. You will copy from Scaleway and paste into Porkbun.
+This step will be very similar to Step 6, Part 3. You will add 4 more new A records. You will copy from your terminal and paste into Porkbun.
 
 a. Log in to [Porkbun](https://porkbun.com/).
 
