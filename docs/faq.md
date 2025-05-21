@@ -44,13 +44,13 @@ Then, complete the [After updating your Hubs CE deployment scripts](./whats-next
 
 ## **Web Domain**
 
-### Can I use another web domain service instead of Porkbun? 
+### Can I use another web domain service instead of Porkbun?
 
 Yes. Sure. Go ahead.
 
 ### I keep getting logged out of Porkbun!
 
-We found that Porkbun kept logging us out in the middle of the purchase step. 
+We found that Porkbun kept logging us out in the middle of the purchase step.
 
 Additionally, Porkbun might log  you out in the middle of your domain setup.
 
@@ -78,7 +78,7 @@ Yes and no.
 
 Yes, DO gives you US$200 in credits to use over your first 60 days. You would only owe DO if your charges totaled up *to more than* US$200. Our testing found that US$200 was more than enough to cover 60 days of beginner use. But we don’t know your use. YMMV.
 
-We’ve heard that DO does find (and charge) accounts that try to string multiple “new” accounts along to get a free ride. You’ve been warned. 
+We’ve heard that DO does find (and charge) accounts that try to string multiple “new” accounts along to get a free ride. You’ve been warned.
 
 ### Can I change the cluster capacity setting of Fixed or Autoscale later?
 
@@ -167,7 +167,7 @@ kubectl exec -it <podname> -c reticulum -n hcce -- bash
 Then copy the following into a text editor (for example, Notepad) and substitute `<SMTP_SERVER>` `<SMTP_PORT>` and `<ADM_EMAIL>` with the values from `input-values.yaml`:
 
 ```shell
-nc <SMTP_SERVER> <SMTP_PORT> << EOF  
+nc <SMTP_SERVER> <SMTP_PORT> << EOF
 HELO <SMTP_SERVER>
 MAIL FROM: probe@example.com
 RCPT TO: <ADM_EMAIL>
@@ -221,7 +221,7 @@ Try turning your Droplet off and on again in DigitalOcean, and then running this
 kubectl rollout restart deployment -n hcce
 ```
 
-### I’m interested in automatic backups. How can I do this with DO? 
+### I’m interested in automatic backups. How can I do this with DO?
 
 We’ve investigated SnapShooter, which is a service within DO.
 
@@ -229,7 +229,7 @@ We’ve investigated SnapShooter, which is a service within DO.
 
 In Step 8 of the Beginner’s Guide, you should get a version of kubectl that is within one version (within 1 number) of your version of kubernetes on DigitalOcean. For example, if you have 1.30 version of kubernetes, you need version 1.29, 1.30, or 1.31 of kubectl.
 
-How do you know what version of kubernetes you have at DO? 
+How do you know what version of kubernetes you have at DO?
 
 1\. When logged into DO, from the Manage menu, select **Kubernetes**, select **your cluster name.**
 
@@ -263,7 +263,7 @@ Note: This is a technical fix. Stop by a live event for assistance if you need h
 
 ![Capture of Hubs Spoke, Publish Scene From Blender. Scene thumbnail image, Name, Attribution, and other options with Publish blue button.](img/faq/image7.png)
 
-Error code: 
+Error code:
 
 Failed to fetch “https://……………/scenes”: Cause: Network Error: 500 Unknown Error. Possibly a CORS error.
 

@@ -21,7 +21,7 @@ title: Download and install doctl
 
 ![Capture of extract doctl folder. Icon is a small window with a white background and blue center. Other info includes dates, file type, and file size in KB.](img/doctl/image4.png)
 
-5. Select the **doctl.exe file** and **move it (cut and paste is OK) to a separate folder** just for code that is on your Local Disk (C :) drive. 
+5. Select the **doctl.exe file** and **move it (cut and paste is OK) to a separate folder** just for code that is on your Local Disk (C :) drive.
 
 ![Capture of "Code" folder directly on C drive of a Windows computer.](img/doctl/image5.png)
 
@@ -69,7 +69,7 @@ Then select **OK** four (4) times to leave these screens.
 
 ![Capture of Windows search field with text: command. Result of Command Prompt shown. "Open" is highlighted in purple.](img/doctl/image15.png)
 
-15. There should be a flashing cursor. 
+15. There should be a flashing cursor.
 
 ![Capture of Command Prompt on a Windows computer. Text is white on a black background. Top border is gray.](img/doctl/image16.png)
 
@@ -77,4 +77,4 @@ Enter **`doctl version`** and **hit enter on your keyboard**. If you see doctl v
 
 ![Capture of Command Prompt.  After entering "doctl version" and hitting enter, Text: doctl version 1.107.0-release, Git commit hash: 42fc8b6f.](img/doctl/image17.png)
 
-[Return to the Beginner’s Guide](./beginners-guide-to-CE.html#8-download-and-install-doctl) 
+[Return to the Beginner’s Guide](./beginners-guide-to-CE.html#8-download-and-install-doctl)

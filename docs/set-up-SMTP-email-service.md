@@ -3,16 +3,16 @@ id: set-up-SMTP-email-service
 title: Set up SMTP email service
 ---
 
-Hubs software needs to send out emails with magic links to verify that your visitors are real people and \*not\* sentient AI bots here to destroy humanity. 🤖 
+Hubs software needs to send out emails with magic links to verify that your visitors are real people and \*not\* sentient AI bots here to destroy humanity. 🤖
 
 If there are emails that need to be sent, there needs to be a controlling entity that does the work of sending the emails around. You will control that email service.
 
 > 💡 Tip: Do not be confused that there are 2 types of email when setting up Hubs.
 
-* Your admin email is the main email account you’ve been using to set up accounts. It will control your Hubs. To help you, we’ve tried to refer to your controlling email as your admin email. Your admin email could be hosted nearly anywhere (work email, home email, etc.). We used gmail in our testing.  
+* Your admin email is the main email account you’ve been using to set up accounts. It will control your Hubs. To help you, we’ve tried to refer to your controlling email as your admin email. Your admin email could be hosted nearly anywhere (work email, home email, etc.). We used gmail in our testing.
 * This set of instructions (Set up SMTP email service) is about setting up the magic link emails. These are the automatic emails sent via SMTP services when a user tries to log into Hubs.
 
-You can pick any email service that provides SMTP. These instructions will use Scaleway. 
+You can pick any email service that provides SMTP. These instructions will use Scaleway.
 
 Scaleway offers a free service for 300 emails maximum per month. (See our [FAQs](./faq.html#i-need-more-than-300-emails-per-month) if you need more than 300 emails per month.)  We find this reasonable. Additionally, Scaleway is based in France, [has a satisfactory Privacy Policy](https://www.scaleway.com/en/privacy-policy/), and has [an environmentally-friendly approach](https://www.scaleway.com/en/about-us/).)
 
@@ -87,9 +87,9 @@ If the 4-digit code does not show on your transaction, you may need to contact y
 
 <ul>
 
-a. For Enter domain name, **enter your porkbun domain.** For example: mycoolhubs.space 
+a. For Enter domain name, **enter your porkbun domain.** For example: mycoolhubs.space
 
-The domain can only contain alphanumeric characters, dots, and dashes. 
+The domain can only contain alphanumeric characters, dots, and dashes.
 
 b. At Estimated monthly cost, this would be your estimated number of emails beyond 300 transactional emails.
 
@@ -306,7 +306,7 @@ a. At SMTP configuration, these listed items listed below are shown. **Copy and 
 
 6\. Leave the three default policies there. Select **Create policy**.
 
-![Capture of Scaleway, Identity and Access Management (IAM) page, Policies tab. "Create policy" purple button highlighted in purple near top right.](img/smtp/image41.png) 
+![Capture of Scaleway, Identity and Access Management (IAM) page, Policies tab. "Create policy" purple button highlighted in purple near top right.](img/smtp/image41.png)
 
 7\. At Create A Policy, **enter a name** and optional description.
 
@@ -383,7 +383,7 @@ Result:
 
 Yay! You’ve done it! Your new API key will be assigned to your domain.
 
-![Capture of Scaleway, Identity and Access Management (IAM), Policies page. Transactional Email menu on the left is highlighted in purple.](img/smtp/image52.png)  
+![Capture of Scaleway, Identity and Access Management (IAM), Policies page. Transactional Email menu on the left is highlighted in purple.](img/smtp/image52.png)
 
 [Return to the Beginner’s Guide](./beginners-guide-to-CE.md#6-set-up-smtp-email-service-verify-domain--get-credential)
 

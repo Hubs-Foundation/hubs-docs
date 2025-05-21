@@ -196,10 +196,10 @@ f. At Your Cart, select **Continue Create account / Login**.
 
 ![Capture of Porkbun, cart page with "Continue. Create Account/Login" button at the lower right highlighted in purple.](img/beginnersguide/image29.png)
 
-g. Under Create a New Account, **type in your information** to these required fields:  
+g. Under Create a New Account, **type in your information** to these required fields:<br>
 Username, Password, Primary email address, First or Given Name, Address, Country, City, Zip / Postal, Phone Code, Phone Number
 
-Select the checkbox for **You must agree to the following by checking the checkbox before continuing.**   
+Select the checkbox for **You must agree to the following by checking the checkbox before continuing.**<br>
 You may say yes or no to awesome emails.
 
 Save your username and password somewhere.
@@ -314,7 +314,7 @@ f. For Machine Type:  Leave selected as **Basic, Regular SSD**
 
 g. For Node plan: Select **$24/month per node** ($0.036/hour) of 4GB total RAM / 2 vCPUs / 80 GB storage (June 2024 specifications) Tip 💡Hubs Community Edition needs 3-3.5 GB RAM to run. Choosing 4 GB RAM gets you *the minimum you need*.  If you run into too many problems, re-think this choice.
 
-> 💡 Tip: DigitalOcean charges an extra $12/month for mandatory load balancing.   
+> 💡 Tip: DigitalOcean charges an extra $12/month for mandatory load balancing.<br>
 So a $24 choice here will be $24 + $12 a month for a total of $36 a month.
 
 h. For Nodes: Select **the negative sign to reduce this from 3 to 1**.
