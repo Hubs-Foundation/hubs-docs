@@ -111,7 +111,7 @@ k. For Completed the Node.js Setup Wizard, select **Finish**.
 
 a. Go to [Visual Studio Code](https://code.visualstudio.com/). This page should automatically detect what your system is and offer you the matching VS Code version. Select **Download for Windows**.
 
-If you don’t like all of the extra tracking that Microsoft inserts into VS Code Studio, you can download [VS Codium](https://vscodium.com/).
+If you don’t like all of the extra tracking that Microsoft inserts into VS Code, you can download [VS Codium](https://vscodium.com/).
 
 ![Capture of Visual Studio Code home page. Download for Windows blue button highlighted in purple.](img/beginnersguide/image14.png)
 
