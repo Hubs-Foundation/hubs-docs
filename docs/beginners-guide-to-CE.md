@@ -521,17 +521,17 @@ c. Enter these values as described below. Warning: Only change the lines that yo
 
   iii. For Namespace: ”hcce’”<- Leave that
 
-  iv. For the SMTP_SERVER and the following SMTP lines, retrieve your Scaleway **Host**, **Port**, **Username**, and **Secret Key** entries that you saved from Step 7.
+  iv. For the SMTP_SERVER and the following SMTP lines, retrieve your Scaleway **Host**, **Port**, **Username**, and **Secret Key** entries that you saved from Step 6.
 
   <ul>
 
-  a. Server -> SMTP_SERVER: paste in **the server** you saved from Step 7 Set up SMTP email service, Part 4, Step 1.
+  a. Server -> SMTP_SERVER: paste in **the server** you saved from Step 6 Set up SMTP email service, Part 4, Step 1.
 
   b. Port -> SMTP_PORT: enter **2587**
 
-  c. Username -> SMTP_USER: paste in the **Username** you saved from Step 7, Set up SMTP email service Part 4, Step 1
+  c. Username -> SMTP_USER: paste in the **Username** you saved from Step 6, Set up SMTP email service Part 4, Step 1
 
-  d. Password -> SMTP_PASS: paste in the **Secret Key** you saved from Step 7 Set up SMTP email, Part 4, Step 15.
+  d. Password -> SMTP_PASS: paste in the **Secret Key** you saved from Step 6 Set up SMTP email, Part 4, Step 15.
   > 💡 Tip: Make sure you are using your Scaleway Username and Secret Key, not your Access Key ID.
 
 </ul>
@@ -670,7 +670,7 @@ Congratulations!! If you have got your external IP, you have your Hubs running o
 
 ### 14. Add new A records
 
-This step will be very similar to Step 7, Part 3. You will add 4 more new A records. You will copy from Scaleway and paste into Porkbun.
+This step will be very similar to Step 6, Part 3. You will add 4 more new A records. You will copy from Scaleway and paste into Porkbun.
 
 a. Log in to [Porkbun](https://porkbun.com/).
 
@@ -682,7 +682,7 @@ c. Select **Details**, select **DNS Records**.
 
 ![Capture from Porkbun. For DNS Records, upward facing arrow highlighted in purple.](img/beginnersguide/image88.png)
 
-d. Back in Step 7, we asked you to delete any records with the text pixie in them that appear by default. If you didn’t do that OR the pixie records have re-appeared, **delete any existing A records** that you didn’t create. You will create additional new A records in this step.
+d. Back in Step 6, we asked you to delete any records with the text pixie in them that appear by default. If you didn’t do that OR the pixie records have re-appeared, **delete any existing A records** that you didn’t create. You will create additional new A records in this step.
 
 ![Capture from Porkbun. For DNS Records, upward facing arrow highlighted in purple.](img/beginnersguide/image89.png)
 
@@ -823,7 +823,7 @@ iii. Third rule
 
 ![Capture from DigitalOcean, Networking, Create Firewall page. For Inbound Rules, values entered for TCP Port 4443, TCP Port 5329, and UDP Ports 35000-60000.](img/beginnersguide/image107.png)
 
-g. At Apply to Droplets, **type in the name you entered at Step 6,e.** Hint: it probably starts with hcce.
+g. At Apply to Droplets, **type in the name you entered at Step 5,e.** Hint: it probably starts with hcce.
 
 ![Capture from DigitalOcean, Networking, Create Firewall page. Apply to Droplets field. "h" entered as an example and highlighted with purple.](img/beginnersguide/image108.png)
 
