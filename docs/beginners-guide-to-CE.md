@@ -725,7 +725,7 @@ In the next Step, you’ll generate the proper security certificates.
 
 These steps add SSL certificates to your domain so that your admin log-in adds security certificates to the domain and thus everyone else will not receive security warnings.
 
-> 🤔 Note: Your SSL certificates expire **every 90 days**. Don’t worry. We’ve [got instructions for you when that happens](https://docs.google.com/document/d/1Ne4Aqe-YY9shvi8La_5dF2Qq3VOoLIrfbpFgE15RjRQ/edit?usp=sharing).
+> 🤔 Note: Your SSL certificates expire **every 90 days**. Don’t worry. We’ve [got instructions for you when that happens](./regenerating-ssl-certificates.md).
 
 a. Return to VS Code.
 
