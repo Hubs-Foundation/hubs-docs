@@ -237,4 +237,4 @@ DO does provide a system to save backups at our [How to backup your Hubs instanc
 
 ## **Generating new SSL Certificates**
 
-🤔 Note: Your SSL certificates expire **every 90 days**. Don’t worry. We’ve [got instructions for you when that happens](https://docs.google.com/document/d/1Ne4Aqe-YY9shvi8La_5dF2Qq3VOoLIrfbpFgE15RjRQ/edit?usp=sharing).
+🤔 Note: Your SSL certificates expire **every 90 days**. Don’t worry. We’ve [got instructions for you when that happens](./regenerating-ssl-certificates.md).
