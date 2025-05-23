@@ -18,3 +18,41 @@ a{
 
 @media only screen and (min-width: 1500px) {
 }
+
+/* alignment options */
+
+.image-align-left,
+.image-align-left img{
+    margin-left: unset;
+    margin-right: auto;
+}
+
+.image-align-center,
+.image-align-center img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-align-right,
+.image-align-right img{
+    margin-left: auto;
+    margin-right: unset;
+}
+
+.video-align-left,
+.video-align-left video{
+    margin-left: unset;
+    margin-right: auto;
+}
+
+.video-align-center,
+.video-align-center video{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video-align-right,
+.video-align-right video{
+    margin-left: auto;
+    margin-right: unset;
+}

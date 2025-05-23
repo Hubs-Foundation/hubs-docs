@@ -15,6 +15,7 @@ This website was created with [Docusaurus](https://docusaurus.io/).
 * [Editing Content](#editing-content)
 * [Adding Content](#adding-content)
 * [Full Documentation](#full-documentation)
+* [Custom Features](#custom-features)
 
 ## Get Started in 5 Minutes
 
@@ -128,3 +129,53 @@ For more information about adding new docs, click [here](https://docusaurus.io/d
 
 Full documentation can be found on the [website](https://docusaurus.io/).
 
+## Custom Features
+
+### Image/Video alignment
+
+Images and videos can have their alignment customized by surrounding them in `<div>` tags that utilize one or more of the custom alignment CSS classes that have been added to `website/static/css/custom.css`.
+
+For example:
+```markdown
+<div class="image-align-left">
+
+![Example Image Alt Text](img/example_image.png)
+
+</div>
+```
+
+Interior `<div>` tags will override exterior ones so you can give all images/videos a default alignment and then override it for specific ones.
+
+For example:
+```markdown
+<div class="image-align-left">
+
+![Example Image Alt Text 1](img/example_image1.png)
+
+<div class="image-align-right">
+
+![Example Image Alt Text 2](img/example_image2.png)
+
+</div>
+
+![Example Image Alt Text 3](img/example_image3.png)
+
+</div>
+```
+
+> [!Note]
+> Images/Videos may need to have their width reduced in order to be small enough to align.  You can reduce their width by adding `style="max-width: <your-width>"` to the enclosing `<div>` tag.  E.g. `<div class="video-align-left" style="max-width: 50%;">`
+
+> [!Note]
+> If you have a caption for an image/video, you may want to align it as well by adding the `text-align` property to the style part of your `<div>` tag.  E.g. `<div class="video-align-right" style="max-width: 50%; text-align: right;">`
+
+The available alignment classes are as follows:
+```
+image-align-left
+image-align-center
+image-align-right
+
+video-align-left
+video-align-center
+video-align-right
+```
