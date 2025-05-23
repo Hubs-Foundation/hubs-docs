@@ -7,15 +7,15 @@ These instructions are written for users, newbies, or non-developers. These inst
 
 ### Why would I need to create backups of my Hubs instance?
 
-The Beginner’s Guide instructions and Hubs code have persistent volumes already turned on to store all of your data between DigitalOcean (DO) pod reboots. But if your node(s) get turned off or if DO screws up, you might lose all of your data.  It has been known to happen. 
+The Beginner’s Guide instructions and Hubs code have persistent volumes already turned on to store all of your data between DigitalOcean (DO) pod reboots. But if your node(s) get turned off or if DO screws up, you might lose all of your data.  It has been known to happen.
 
-Backups allow you to have copies so that you can restore your Hubs instance.  This will save all of your instances, your avatars, and your projects in Spoke, your assets in Spoke, and will save pinned objects in room in the location where you pinned them. 
+Backups allow you to have copies so that you can restore your Hubs instance.  This will save all of your instances, your avatars, and your projects in Spoke, your assets in Spoke, and will save pinned objects in room in the location where you pinned them.
 
 A backup of your Hubs instance stores all of those files into one thing– the backup.  You cannot sort or clean out from within the back up. You can’t clean out old files that you know you don’t want. It’s an all or nothing type of thing.
 
 ## **Prices**
 
-With DigitalOcean, you have two choices to make backups: Backups or Snapshots.  
+With DigitalOcean, you have two choices to make backups: Backups or Snapshots.
 
 Backups are an automated system. It saves the backup for you at a time you select.
 
@@ -30,17 +30,17 @@ Note: these prices are only quotes as of November 2024. With all of these DO quo
 
 At DO, both Backups and Snapshots save ONE backup of everything within DO’s own computers. What you pay for is either the frequency of automatic saving (for Backups) or the file space (for Snapshots).
 
-## Which should I pick, [Backups](#weekly-backups) or [Snapshots](#snapshots)? 
+## Which should I pick, [Backups](#weekly-backups) or [Snapshots](#snapshots)?
 
 Backups make sense if you are a medium-to-heavy user of Hubs or if your use is critical.  For example, if you are a college professor and you have 25 student projects coming due all at once through your Hubs, you might want Daily Backups.  If you are a solo user, but your project has high value (like an art showing or a work meeting) you might want Daily or Weekly Backups.
 
-Snapshots make more sense if you are a light user of Hubs. If you can remember to save and put a copy away and if it doesn’t bother you to lose some of your Hubs work in-between when you remember to save, snapshots might be better for you.  
+Snapshots make more sense if you are a light user of Hubs. If you can remember to save and put a copy away and if it doesn’t bother you to lose some of your Hubs work in-between when you remember to save, snapshots might be better for you.
 
 > 💡 Tip: Snapshots do backup volumes. Automated backups do not. These are not persistent volumes; these are extra volumes for off node storage that a user might purchase.
 
 Both Backups and Snapshots work the same in DO. You set up the service. It runs. It’s nearly one-click to restore your work from Backup.  You are NOT saving anything to your own computer. Because these are saved in a different place than your personal droplet/cluster, the backup is pretty safely stored at DO.
 
-## **Weekly Backups** 
+## **Weekly Backups**
 
 
 1\. At Digital Ocean, select **Backups & Snapshots**.
@@ -53,9 +53,9 @@ Both Backups and Snapshots work the same in DO. You set up the service. It runs.
 
 A. Select your **droplet**. 💡It probably starts with “hcce-”.
 
-B. Select either **Weekly Backups** or **Daily Backups**. 
+B. Select either **Weekly Backups** or **Daily Backups**.
 
-C. For Backup Window, Select your preferred **Day of the Week**, and select your preferred **Time of day**. You can leave this on the defaults or change it to when it works for you. 
+C. For Backup Window, Select your preferred **Day of the Week**, and select your preferred **Time of day**. You can leave this on the defaults or change it to when it works for you.
 
 D. Select **Enable Backups**.
 
@@ -83,7 +83,7 @@ We found it took 5-10 minutes for the droplet to appear again. Easy peasy.
 
 A snapshot is a one-time memory save that you can manually do anytime. The process is very similar to Backups.
 
-1\. At Digital Ocean, select **Backups & Snapshots**. 
+1\. At Digital Ocean, select **Backups & Snapshots**.
 
 2\. Select the **Snapshots** tab. Select your **droplet**, enter a **snapshot file name**. Select **Take Snapshot**.
 > 🤔 Advice: we saved it with the current date (i.e. 2024-11-06-documentation-day).
@@ -104,7 +104,7 @@ Notification that saving is done: Snapshot created. On the Droplets tab, your sa
 
 ![Capture of DigitalOcean, Manage, Backups & Snapshots, Snapshots tab. More menu highlighted in purple. Choices are Rename, Create Droplet, Add to region, Transfer Snapshot, Restore Droplet, and Delete. "Restore Droplet" is highlighted in purple.](img/backups/image9.png)
 
-Notification box: Are you sure that you want to restore \[your old droplet\] from \[your saved snapshot\]? Note: restoring will replace the current Droplet with an older image. 
+Notification box: Are you sure that you want to restore \[your old droplet\] from \[your saved snapshot\]? Note: restoring will replace the current Droplet with an older image.
 
 2\. Select **Restore Droplet**.
 
