@@ -6,7 +6,7 @@ description: A Hubs room can be linked to a Discord channel, which gives more po
 
 ## About
 
-The [Hubs Discord Bot](https://github.com/Hubs-Foundation/hubs-discord-bot) makes it easy to connect Hubs rooms to your Discord chat server. When a Hubs room is created by the bot from within a Discord channel, users will be assigned abilities in the Hubs room based on their Discord roles. For example, Discord owners and moderators will be able to change settings on a Hubs room and be able to moderate users in the room.  Chat messages/images will also be bridged both ways between Discord and the Hubs room.  If a Room URL not created by the bot is added to a Discord channel topic, the chat will be bridged, but it will use the standard Hubs permissions.
+The [Hubs Discord Bot](https://github.com/Hubs-Foundation/hubs-discord-bot) makes it easy to connect Hubs rooms to your Discord chat server. When a Hubs room is created by the bot from within a Discord channel, users will be required to authenticate via Discord and then assigned abilities in the Hubs room based on their Discord roles. For example, Discord owners and moderators will be able to change settings on a Hubs room and be able to moderate users in the room.  Chat messages/images will also be bridged both ways between Discord and the Hubs room.  If a Room URL not created by the bot is added to a Discord channel topic, the chat will be bridged, but it will use the standard Hubs permissions.
 
 ![Hubs Discord bot](img/discord-bot.jpeg)
 
