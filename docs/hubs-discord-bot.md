@@ -1,7 +1,7 @@
 ---
 id: hubs-discord-bot
 title: Discord Bot
-description: A Hubs room can be linked to a Discord channel, which gives more powerful tools to moderators.
+description: A Hubs room can be linked to a Discord channel, which bridges the chat and/or gives more powerful tools to moderators.
 ---
 
 ## About
