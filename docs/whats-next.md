@@ -23,7 +23,7 @@ It is at your domain address with admin tacked on the end. Like this:
 
 `mycoolhubs.space/admin`
 
-## **Admin Panel** 
+## **Admin Panel**
 
 There isn’t much content available right now in the form of scenes and avatars, but it will work in a little while when the content has been *placed on other Hubs*. Hubs Foundation is working on fixing that!
 
@@ -60,7 +60,7 @@ You can ignore this for now. It is Hubs saying that it can’t find the crater.g
 
 ## **Bring your own glb file (BYOG)**
 
-Now that you are the captain of your own Hubs, you’ll need to get used to bringing your own supplies. That is, bring in your .glb files. 
+Now that you are the captain of your own Hubs, you’ll need to get used to bringing your own supplies. That is, bring in your .glb files.
 
 We have a few starter files.
 
@@ -229,7 +229,7 @@ Updating your Hubs deployment scripts from the repository at Github (the zip fil
 
 ## **Persistent Storage for Hubs on DigitalOcean**
 
-Community member Doug Reeder has written [a guide](https://hominidsoftware.com/tech-personal-growth/Hubs-on-DigitalOcean/) for customizing the persistent storage for Hubs on DigitalOcean. Note: this guide is not written for beginners but if you need help, please ask in Discord. 
+Community member Doug Reeder has written [a guide](https://hominidsoftware.com/tech-personal-growth/Hubs-on-DigitalOcean/) for customizing the persistent storage for Hubs on DigitalOcean. Note: this guide is not written for beginners but if you need help, please ask in Discord.
 
 ## **Backups**
 

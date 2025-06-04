@@ -111,7 +111,7 @@ k. For Completed the Node.js Setup Wizard, select **Finish**.
 
 a. Go to [Visual Studio Code](https://code.visualstudio.com/). This page should automatically detect what your system is and offer you the matching VS Code version. Select **Download for Windows**.
 
-If you don’t like all of the extra tracking that Microsoft inserts into VS Code Studio, you can download [VS Codium](https://vscodium.com/).
+If you don’t like all of the extra tracking that Microsoft inserts into VS Code, you can download [VS Codium](https://vscodium.com/).
 
 ![Capture of Visual Studio Code home page. Download for Windows blue button highlighted in purple.](img/beginnersguide/image14.png)
 
@@ -196,10 +196,10 @@ f. At Your Cart, select **Continue Create account / Login**.
 
 ![Capture of Porkbun, cart page with "Continue. Create Account/Login" button at the lower right highlighted in purple.](img/beginnersguide/image29.png)
 
-g. Under Create a New Account, **type in your information** to these required fields:  
+g. Under Create a New Account, **type in your information** to these required fields:<br>
 Username, Password, Primary email address, First or Given Name, Address, Country, City, Zip / Postal, Phone Code, Phone Number
 
-Select the checkbox for **You must agree to the following by checking the checkbox before continuing.**   
+Select the checkbox for **You must agree to the following by checking the checkbox before continuing.**<br>
 You may say yes or no to awesome emails.
 
 Save your username and password somewhere.
@@ -314,7 +314,7 @@ f. For Machine Type:  Leave selected as **Basic, Regular SSD**
 
 g. For Node plan: Select **$24/month per node** ($0.036/hour) of 4GB total RAM / 2 vCPUs / 80 GB storage (June 2024 specifications) Tip 💡Hubs Community Edition needs 3-3.5 GB RAM to run. Choosing 4 GB RAM gets you *the minimum you need*.  If you run into too many problems, re-think this choice.
 
-> 💡 Tip: DigitalOcean charges an extra $12/month for mandatory load balancing.   
+> 💡 Tip: DigitalOcean charges an extra $12/month for mandatory load balancing.<br>
 So a $24 choice here will be $24 + $12 a month for a total of $36 a month.
 
 h. For Nodes: Select **the negative sign to reduce this from 3 to 1**.
@@ -521,17 +521,17 @@ c. Enter these values as described below. Warning: Only change the lines that yo
 
   iii. For Namespace: ”hcce’”<- Leave that
 
-  iv. For the SMTP_SERVER and the following SMTP lines, retrieve your Scaleway **Host**, **Port**, **Username**, and **Secret Key** entries that you saved from Step 7.
+  iv. For the SMTP_SERVER and the following SMTP lines, retrieve your Scaleway **Host**, **Port**, **Username**, and **Secret Key** entries that you saved from Step 6.
 
   <ul>
 
-  a. Server -> SMTP_SERVER: paste in **the server** you saved from Step 7 Set up SMTP email service, Part 4, Step 1.
+  a. Server -> SMTP_SERVER: paste in **the server** you saved from Step 6 Set up SMTP email service, Part 4, Step 1.
 
   b. Port -> SMTP_PORT: enter **2587**
 
-  c. Username -> SMTP_USER: paste in the **Username** you saved from Step 7, Set up SMTP email service Part 4, Step 1
+  c. Username -> SMTP_USER: paste in the **Username** you saved from Step 6, Set up SMTP email service Part 4, Step 1
 
-  d. Password -> SMTP_PASS: paste in the **Secret Key** you saved from Step 7 Set up SMTP email, Part 4, Step 15.
+  d. Password -> SMTP_PASS: paste in the **Secret Key** you saved from Step 6 Set up SMTP email, Part 4, Step 15.
   > 💡 Tip: Make sure you are using your Scaleway Username and Secret Key, not your Access Key ID.
 
 </ul>
@@ -670,7 +670,7 @@ Congratulations!! If you have got your external IP, you have your Hubs running o
 
 ### 14. Add new A records
 
-This step will be very similar to Step 7, Part 3. You will add 4 more new A records. You will copy from Scaleway and paste into Porkbun.
+This step will be very similar to Step 6, Part 3. You will add 4 more new A records. You will copy from your terminal and paste into Porkbun.
 
 a. Log in to [Porkbun](https://porkbun.com/).
 
@@ -682,7 +682,7 @@ c. Select **Details**, select **DNS Records**.
 
 ![Capture from Porkbun. For DNS Records, upward facing arrow highlighted in purple.](img/beginnersguide/image88.png)
 
-d. Back in Step 7, we asked you to delete any records with the text pixie in them that appear by default. If you didn’t do that OR the pixie records have re-appeared, **delete any existing A records** that you didn’t create. You will create additional new A records in this step.
+d. Back in Step 6, we asked you to delete any records with the text pixie in them that appear by default. If you didn’t do that OR the pixie records have re-appeared, **delete any existing A records** that you didn’t create. You will create additional new A records in this step.
 
 ![Capture from Porkbun. For DNS Records, upward facing arrow highlighted in purple.](img/beginnersguide/image89.png)
 
@@ -823,7 +823,7 @@ iii. Third rule
 
 ![Capture from DigitalOcean, Networking, Create Firewall page. For Inbound Rules, values entered for TCP Port 4443, TCP Port 5329, and UDP Ports 35000-60000.](img/beginnersguide/image107.png)
 
-g. At Apply to Droplets, **type in the name you entered at Step 6,e.** Hint: it probably starts with hcce.
+g. At Apply to Droplets, **type in the name you entered at Step 5,e.** Hint: it probably starts with hcce.
 
 ![Capture from DigitalOcean, Networking, Create Firewall page. Apply to Droplets field. "h" entered as an example and highlighted with purple.](img/beginnersguide/image108.png)
 
