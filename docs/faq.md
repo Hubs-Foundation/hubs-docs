@@ -120,6 +120,9 @@ If it's not reachable, the command will hang for a long time and the resulting o
 
 #### Sending an actual email
 
+##### Using an existing pod
+
+
 If you want to be extra sure, and your email provider does not require TLS or authentication, you can send an actual email.
 
 > 🤔 Advice: Scaleway does require authentication, so even with a successful test of the port, it will be normal to receive output like:
@@ -175,7 +178,12 @@ If it's not sendable, the command will hang for a long time and there will be no
 
 ### General SMTP testing
 
-For general testing of what your SMTP server accepts, **swaks** ([https://jetmore.org/john/code/swaks/](https://jetmore.org/john/code/swaks/)) is a general-purpose tool that can connect using TLS and authenticate with the SMTP server. It requires perl which is not available in Kubernetes nodes of Hubs, but is installed on most *nix machines.
+For general testing of what your SMTP server accepts, **swaks** ([https://jetmore.org/john/code/swaks/](https://jetmore.org/john/code/swaks/)) is a general-purpose tool that can connect using TLS and authenticate with the SMTP server. It requires Perl which is not available in the existing pods of Hubs, but is installed on most *nix machines. 
+
+You can temporarily add a pod to your cluster from which you can run `swaks`:
+```yaml
+kubectl run -it busybox --image=busybox --restart=Never -n hcce
+```
 
 
 ### Installing doctl for Mac and Linux
