@@ -1,6 +1,7 @@
 ---
 id: whats-next
 title: What’s next?
+description: Instructions for new Hubs instance actions including how to create a room, import a scene, update the Hubs code that runs an instance, and admin settings via the Admin Panel and for data backups.
 ---
 
 ### My Hubs is up and running, now what do I do?

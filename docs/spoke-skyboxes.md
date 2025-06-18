@@ -1,6 +1,7 @@
 ---
 id: spoke-skyboxes
 title: Skyboxes
+description: Skyboxes simulate the sky or other backdrops around scenes.  Modifiable skybox properties include time of day, latitude, scattering, and horizon distances. A 360 image can also be a skybox.
 ---
 
 Skyboxes can significantly impact the ambience of your scene. Unless you have started from a template that removed the default elements, you should have a skybox in your scene when you begin. 

@@ -2,7 +2,7 @@
 id: welcome
 title: Welcome to Hubs
 sidebar_label: Welcome
-description: Hubs is a virtual collaboration platform that runs in your browser. With Hubs you can create your own 3D spaces with a single click. Invite others to join using a URL. No installation or app store required.
+description: Hubs is an open-source virtual collaboration platform that runs in a browser, no special software needed. Hubs Docs is the documentation and instructions for how to set up and use Hubs. Hubs contains Spoke, a web-based scene editor so that users can create directly in the browser.
 ---
 
 **Important Notice:** A significant portion of this documentation contains outdated information.  There are ongoing efforts to update it. Chiefly, Hubs by Mozilla and Hubs Cloud are obsolete.  Hubs Community Edition has the same user experience.  Got questions?  Our community Discord is standing by.  https://discord.gg/hubs-498741086295031808

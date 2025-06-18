@@ -1,6 +1,7 @@
 ---
 id: spoke-controls
 title: Spoke Controls
+description: Spoke controls can be a little disorienting at first. Mouse and keyboard use is defined.
 ---
 
 We recommend using spoke on a desktop or laptop computer as some features are not accessible without a mouse and keyboard. 

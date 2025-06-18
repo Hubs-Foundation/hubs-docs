@@ -1,7 +1,7 @@
 ---
 id: physics-and-navigation
 title: Physics and Navigation
-description: Constraining where avatars can and can't go
+description: Spoke scenes require a floorplan to work (or Hubs does not know where to place, aka spawn, arriving avatars). Floorplans consist of navigation meshes (nav mesh) and collision meshes.
 ---
 
 # The Floorplan Element

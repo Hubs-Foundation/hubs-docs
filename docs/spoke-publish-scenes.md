@@ -1,6 +1,7 @@
 ---
 id: spoke-publish-scenes
 title: Publish Scenes
+description: Publishing a Spoke scene creates a unique URL that can optionally be shared or you can create a Hubs room immediately to go in to look around.  Spoke scenes can be exported as glb or spoke files.
 ---
 
 You can publish a scene either directly to Hubs, or you can export it as a .glb file or as a legacy Spoke scene. 

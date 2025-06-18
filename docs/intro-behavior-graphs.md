@@ -1,7 +1,7 @@
 ---
 id: intro-behavior-graphs
 title: Introduction to Behavior Graphs
-description: Behavior graphs allow for adding interactivity to Hubs through a graphical system of connected nodes or blocks from within Blender.
+description: Behavior graphs (BG) are a form of visual scripting or a graphical depictions of interactions possible with Hubs. This documentation uses Blender to add or modify things like teleporting, video playback, lights, animation speed, and object location. Behavior graphs are in current development. While building a behavior graph does not require complex programming, hosting a BG-enabled Hubs instance is not for the fearful; behavior graphs break some Hubs features while adding other features.  We will get the bugs worked out eventually. 
 ---
 
 > **NOTE:** _As of this documentation being created, Behavior Graphs are undergoing rapid development. This has the effect of making it challenging to update this documentation quickly enough to make sure it has parity with the current state of the tech behind it. Thank you for your patience and please consider contributing edits to this documentation as needed._

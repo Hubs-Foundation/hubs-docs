@@ -1,6 +1,7 @@
 ---
 id: spoke-adding-scene-content
 title: Adding Content
+description: Entire Hubs scenes should not be larger than 128MB in size. However, users can adding a wide variety of content including 3D models, images, videos, video, audio, particle emitters, links, and media frames. There are also 3D model spawners and audio zones.
 ---
 
 Once you have created your scene, you can start customizing it by adding content. Spoke and Hubs support a wide variety of media. Note that to publish to Hubs, Spoke projects have a size limit of 128MB.

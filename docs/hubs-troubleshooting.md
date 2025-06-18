@@ -1,7 +1,7 @@
 ---
 id: hubs-troubleshooting
 title: Troubleshooting
-description: Dealing with some common connection and performance problems in Hubs
+description: Frequently asked questions regarding user issues like microphones, screen sharing, and objects disappearing.
 ---
 
 ## Getting stuck on loading screen

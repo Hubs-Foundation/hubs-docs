@@ -2,7 +2,7 @@
 id: intro-hubs
 title: Getting Started with Hubs
 sidebar_label: Getting Started With Hubs
-description: How to enter a Hubs room, move around, basic interaction, add media, and invite friends.
+description: Once inside of Hubs, the user interface in the 3D viewport area contains options including muting/unmuting, sharing a screen, placing objects, reacting with emojis, opening a chat window, inviting other users into the space, and the exit (Leave) button.
 ---
 
 
