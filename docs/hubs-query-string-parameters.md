@@ -2,7 +2,7 @@
 id: hubs-query-string-parameters
 title: Hubs Query String Parameters
 sidebar_label: Hubs Query String Parameters
-description: Hubs allow for some programming based settings that do not appear in room settings. Text commands such as forcing mobile material quality and debugging the Local Scene.  Most users will not need to use these commands.
+description: Hubs allows for some programming based settings that do not appear in room settings, including commands such as forcing mobile material quality and debugging the Local Scene.  Most users will not need to use these commands.
 ---
 
 Some developer-oriented options that are not available in the preferences panel in Hubs are available as query string parameters. These are intended mainly for development or debugging and are not something most users will need to use.
