@@ -2,6 +2,7 @@
 id: hubs-cloud-aws-architecture
 title: AWS System Architecture
 sidebar_label: System Architecture
+description: Information on setting up Hubs Cloud on AWS
 ---
 
 ![AWS Architecture](img/hubs-cloud-aws-architecture.jpeg)

@@ -1,6 +1,7 @@
 ---
 id: faq
 title: Troubleshooting and FAQs
+description: A set of frequently asked questions on how to set up or troubleshoot your Hubs Community Edition instance
 ---
 
 ## **Email**

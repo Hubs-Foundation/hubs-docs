@@ -2,6 +2,7 @@
 id: hubs-cloud-aws-costs
 title: AWS Cost Information
 sidebar_label: Costs and Minimizing Costs Information
+description: Information on the costs for using Hubs Cloud on AWS and how they can be minimized
 ---
 
 This document explains how Hubs Cloud costs work. Although your hub is designed to minimize AWS costs as much as possible, we go into detail on how to minimize them even further for your stack.

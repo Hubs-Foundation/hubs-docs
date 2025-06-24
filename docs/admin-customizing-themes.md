@@ -2,6 +2,7 @@
 id: admin-customizing-themes
 title: Customizing Themes
 sidebar_label: Customizing Themes
+description: Instructions on how to theme your Hubs instance.
 ---
 
 _Theming refers to the colors used in your hub's interface. For each color in the UI, there is a variable that stores the color value and is applied to UI Elements such as buttons, input fields, menus, etc._

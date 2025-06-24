@@ -1,6 +1,7 @@
 ---
 id: contributing
 title: Contributing
+description: Outlines how people can get involved and contribute to the project
 ---
 
 This page outlines opportunities for people who want to contribute to the Hubs project. We welcome external contributions that align with the project's mission around enabling collaboration and communication through shared 3D spaces. You can find information about how to contribute to Hubs and the supporting projects that make up the platform here. 

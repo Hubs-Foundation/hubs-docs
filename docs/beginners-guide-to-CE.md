@@ -1,6 +1,7 @@
 ---
 id: beginners-guide-to-CE
 title: Beginner’s Guide to CE
+description: A detailed guide on how to set up a Hubs Community Edition instance
 ---
 
 These instructions are written for users, newbies, or non-developers. This Hubs Community Edition installation uses Scaleway for an email service, Porkbun for a web domain, and DigitalOcean (DO) for hosting. If you vary from this path, your mileage may vary (YMMV).

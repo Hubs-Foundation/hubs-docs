@@ -2,6 +2,7 @@
 id: admin-intro
 title: Introduction to Hubs Administration
 sidebar_label: Introduction
+description: Gives basic information on what you can do with Community Edition and where to get it
 ---
 
 Your instance of Hubs Community Edition can be customized to match your organization, branding and needs.

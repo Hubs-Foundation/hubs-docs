@@ -2,6 +2,7 @@
 id: admin-limiting-user-access
 title: Limiting User Access to your Hub
 sidebar_label: Limiting Access
+description: Information regarding user authorization and how you can control who can access your Hubs instance
 ---
 
 This guide shows you how to lockdown your hub and rooms by **account only access** (accounts created by your admin from an email list) or by **using the Hubs Discord bot**.

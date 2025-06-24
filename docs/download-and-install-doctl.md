@@ -1,6 +1,7 @@
 ---
 id: download-and-install-doctl
 title: Download and install doctl
+description: Explains how to set up doctl so you can administer your Kubernetes cluster on DigitalOcean
 ---
 
 ## **Part 1 Download doctl**
