@@ -1,7 +1,7 @@
 ---
 id: how-to-backup-your-Hubs-instance
 title: How to back up your Hubs instance
-description: Information on how to backup and restore your Hubs instance on DigitalOcean
+description: Information on how to backup and restore your Kubernetes node on DigitalOcean, and thereby your Hubs instance
 ---
 
 These instructions are written for users, newbies, or non-developers. These instructions only apply to single-node clusters, where data is stored on the node ("hostPath" volumes).  If you arrived here from the [Beginner’s Guide](./beginners-guide-to-CE.md) which guided you generally to a one node setup, you are fine to follow these.
