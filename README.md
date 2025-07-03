@@ -149,3 +149,14 @@ To add new documentation:
 2. Update website/sidebar.json to include your new page.
 3. Open a PR for review.
 
+### Docusaurus Header
+
+Each documentation file should begin with a **Docusaurus frontmatter block**, like:
+
+```md
+---
+id: my-doc-id
+title: My Document Title
+sidebar_label: My Label
+---
+```
