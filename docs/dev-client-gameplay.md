@@ -1,6 +1,7 @@
 ---
 id: dev-client-gameplay
 title: Core Concepts for Gameplay Code
+description: The core concepts for writing gameplay code in the Hubs client
 ---
 
 ## Intro

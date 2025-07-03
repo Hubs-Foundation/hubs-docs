@@ -1,6 +1,7 @@
 ---
 id: physics-and-navigation
 title: Physics and Navigation
+description: Constraining where avatars can and can't go
 ---
 
 # The Floorplan Element

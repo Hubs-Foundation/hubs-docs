@@ -1,6 +1,7 @@
 ---
 id: spoke-user-interface
 title: User Interface
+description: Menus, tools, mouse actions, info panels, assets and publishing in Spoke
 ---
 
 ![Hubs Image](img/spoke-user-interface.jpeg)

@@ -1,9 +1,10 @@
 ---
 id: hubs-troubleshooting
 title: Troubleshooting
+description: Dealing with some common connection and performance problems in Hubs
 ---
 
-## Getting stuck on loading screen 
+## Getting stuck on loading screen
 
 Rooms may have complex 3D models or objects in them which can increase the load time, particularly on less powerful devices (i.e., mobile phones and standalone VR headsets). If you are getting stuck on the loading screen, try refreshing the page or loading the scene on another browser or device. 
 
@@ -19,7 +20,7 @@ A connectivity issue may result in one person in the room being unable to hear o
 
 If your wired-in headset isn't connecting, we recommend checking the following:
 
-* Does your browser support WebVR? We recommend Firefox for wired-in WebVR experiences. See if your set-up works at https://webvr.info/samples/XX-vr-controllers.html.
+* Does your browser support WebXR? We recommend Chrome for wired-in WebXR experiences. See if your set-up works at https://immersive-web.github.io/webxr-samples/input-profiles.html
 * Is your browser up to date?
 * Do you have SteamVR (Vive / Windows Mixed Reality) or Oculus App (Rift) installed and up to date?
 * Does your VR headset require other supporting software (e.g., Windows Mixed Reality Portal)? Is this installed and up to date? 

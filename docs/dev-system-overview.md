@@ -1,6 +1,7 @@
 ---
 id: system-overview
 title: System Overview
+description: The components and technologies that make up Hubs
 ---
 
 # [The Client](https://github.com/Hubs-Foundation/hubs) 

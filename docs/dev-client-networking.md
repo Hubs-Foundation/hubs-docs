@@ -1,6 +1,7 @@
 ---
 id: dev-client-networking
 title: Hubs Client development Networking
+description: The way that entity state is networked across clients and optionally persisted to the database.
 ---
 
 ## Intro

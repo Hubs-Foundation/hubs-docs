@@ -23,10 +23,10 @@ const users = [
 ]
 
 const siteConfig = {
-  title: 'Hubs', // Title for your website.    
+  title: 'Hubs', // Title for your website.
   tagline: 'Hold tight as we get our docs in a row 🦆🦆🦆',
-  url: 'https://hubsfoundation.org', // Your website URL
-  baseUrl: '/docs/', // Base URL for your project */
+  url: 'https://docs.hubsfoundation.org/', // Your website URL
+  baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -40,6 +40,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+    { href: 'https://hubsfoundation.org/', label: 'Hubs Foundation' },
     { doc: 'welcome', label: 'Docs' },
     { href: 'https://github.com/Hubs-Foundation/hubs', label: 'GitHub' },
     { page: 'help', label: 'Help' },
@@ -80,7 +81,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © 2024 Hubs Foundation. Hubs Documentation available under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license.`,
+  copyright: `Copyright © 2024–2025 Hubs Foundation. Hubs Documentation available under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license.`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

@@ -1,6 +1,7 @@
 ---
 id: hubs-features
 title: Hubs Features
+description: 'Hubs user interface: menus for objects, avatars, the camera, and drawing; controls; and spawners'
 ---
 
 ![Hubs User Interface](img/hubs-user-interface.png)
