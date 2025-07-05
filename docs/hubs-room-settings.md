@@ -1,7 +1,7 @@
 ---
 id: hubs-room-settings
 title: Room Settings
-description: Hubs rooms options include creating a custom name, setting access and permissions, what favorite room does, and closing a room.
+description: Hubs room options like creating a custom name, setting access and permissions, what favorite room does, and closing a room.
 ---
 
 ## Change the Scene
