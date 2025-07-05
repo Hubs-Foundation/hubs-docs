@@ -1,7 +1,7 @@
 ---
 id: hubs-user-settings
 title: User Settings
-description: Instructions for how a user can change their avatar and set preferences for things like sound and movement. Benefits for using a user account (via an email address) are listed.
+description: Instructions for how a user can change their name/avatar and set preferences for things like sound and movement. Benefits for using a user account (via an email address) are listed.
 ---
 
 ## Changing Name and Avatar
