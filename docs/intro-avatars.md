@@ -1,7 +1,7 @@
 ---
 id: intro-avatars
 title: Creating Custom Avatars
-description: Instructions on how to re-skin a robot or box avatar.
+description: An introduction to customizing your avatar with instructions on how to re-skin a robot or box avatar.
 ---
 
 In Hubs you can choose how you want to represent yourself. Select from any of the featured or newest avatars, or create your own. 
