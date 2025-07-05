@@ -2,7 +2,7 @@
 id: intro-hubs
 title: Getting Started with Hubs
 sidebar_label: Getting Started With Hubs
-description: Once inside of Hubs, the user interface in the 3D viewport area contains options including muting/unmuting, sharing a screen, placing objects, reacting with emojis, opening a chat window, inviting other users into the space, and the exit (Leave) button.
+description: The basics of using Hubs.  Including how to create and enter a room, the basic controls and user interface in the 3D viewport area, interacting with objects and avatars, various ways to communicate and express yourself (or not), how to invite other users into the space, and how to leave.
 ---
 
 
