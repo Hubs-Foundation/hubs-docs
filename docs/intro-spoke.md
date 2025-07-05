@@ -2,7 +2,7 @@
 id: intro-spoke
 title: Building Scenes with Spoke
 sidebar_label: Building Scenes with Spoke
-description: Spoke is an online 3D scene editor that allows users to create, discover, and share environments. Using a basic interface, users can upload, drag and drop, and edit assets like 3D models, sounds, lights, and links. Spoke is a good interface for beginners.
+description: Explains how Spoke is an online 3D scene editor that allows users to create, discover, and share environments. That using a basic interface, users can upload, drag and drop, and edit assets like 3D models, sounds, lights, and links. Thus, Spoke is a good interface for beginners.
 ---
 
 Want to build custom VR worlds for Hubs? Meet [Spoke](https://github.com/Hubs-Foundation/Spoke)! 👋
