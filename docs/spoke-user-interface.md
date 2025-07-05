@@ -1,7 +1,7 @@
 ---
 id: spoke-user-interface
 title: User Interface
-description: How to use the Spoke drop down menus, transformation and grid tools, and hierarchy, properties, and asset panels.
+description: How to use the Spoke drop down menus, transformation and grid tools, and the hierarchy, properties, and asset panels.
 ---
 
 ![Hubs Image](img/spoke-user-interface.jpeg)
