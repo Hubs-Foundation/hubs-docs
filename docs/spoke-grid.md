@@ -1,7 +1,7 @@
 ---
 id: spoke-grid
 title: Grid
-description: Spoke contains a default one-half meter grid and snapping to that grid. Those settings can be changed.
+description: Explains how the grid and snapping works in Spoke, their defaults, and how they can be configured.
 ---
 
 ![Screenshot of Spoke](img/spoke-grid.png)
