@@ -2,7 +2,7 @@
 id: intro-events
 title: Hosting Events in Hubs
 sidebar_label: Hosting Events in Hubs
-description: This guide will talk you through the process of using Hubs for an event. This guide has different sections that can help you get started with creating and configuring a room, choosing a custom scene, inviting people, and moderating your event.
+description: This guide will talk you through the process of using Hubs for an event. It has different sections that can help you get started with creating and configuring a room, choosing a custom scene, inviting people, and moderating your event.
 ---
 
 <!-- This guide will talk you through the process of using Hubs for an event on [Mozilla Hubs](https://hubs.mozilla.com). We've broken this guide down into different sections that can help you get started with creating and configuring a room, choosing a custom scene, inviting people, and moderating your event.  -->
