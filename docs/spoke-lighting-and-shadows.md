@@ -1,7 +1,7 @@
 ---
 id: lighting-and-shadows
 title: Lighting and Shadows
-description: Lighting settings can be changed in Spoke, including types of light sources like ambient and spot lights. Shadows also can be changed. Lighting results can vary between desktop and mobile devices.
+description: Information regarding the lighting and shadow settings that can be changed in Spoke, including the types of light sources like ambient and spot lights, and how lighting results can vary between desktop and mobile devices.
 ---
 
 ## Lights
