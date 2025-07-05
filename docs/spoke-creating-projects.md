@@ -1,7 +1,7 @@
 ---
 id: spoke-creating-projects
 title: Create Project
-description: New scenes or builds in Spoke are called projects.  Scenes can be newly created directly with Spoke or can be remixed from other Hubs rooms or imported from Spoke files.
+description: Gives an introduction to Spoke projects and scenes, and how to start a new one, remix an existing one, or import a one from a file.
 ---
 In Spoke, you can either create a new project from Scratch, remix an existing Hubs scene, or import a Spoke project someone sends you. 
 
