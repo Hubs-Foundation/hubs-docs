@@ -1,7 +1,7 @@
 ---
 id: physics-and-navigation
 title: Physics and Navigation
-description: Spoke scenes require a floorplan to work (or Hubs does not know where to place, aka spawn, arriving avatars). Floorplans consist of navigation meshes (nav mesh) and collision meshes.
+description: Explains how Spoke's Floorplan element controls generation of the navigation mesh (where you can walk) and collision mesh (what objects collide with) and how to tweak the settings for best results.
 ---
 
 # The Floorplan Element
