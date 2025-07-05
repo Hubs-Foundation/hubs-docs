@@ -1,7 +1,7 @@
 ---
 id: spoke-architecture-kit
 title: Architecture Kit
-description: The Spoke Architecture Kit includes over 400 building pieces so that users can easily create their own models and scenes.  Kit pieces are single-sided by default but can be made double-sided. Trim pieces help cover wall gaps.
+description: Information regarding the Spoke Architecture Kit, which includes over 400 building pieces for users to create their own scenes with, and how to use it.  Tips include making pieces visible from both sides and using trim pieces to hide gaps.
 ---
 
 With the launch of the Architecture Kit, creators now have an additional way to build custom content for their 3D scenes without using an external tool. The Architecture Kit is designed to make it easier to take existing components that have already been optimized for VR and make it easy to configure those pieces to create original models and scenes. 
