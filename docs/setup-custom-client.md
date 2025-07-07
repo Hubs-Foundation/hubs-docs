@@ -1,6 +1,7 @@
 ---
 id: setup-custom-client
 title: Custom Clients (Pro Plan)
+description: This guide walks you through the steps of setting up and removing a custom client on your Hub for Professional plan subscribers.
 ---
 
 _This guide walks you through the steps of setting up and removing a custom client on your Hub for Professional plan subscribers._

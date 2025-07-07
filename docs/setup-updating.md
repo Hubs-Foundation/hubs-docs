@@ -1,6 +1,7 @@
 ---
 id: setup-updating
 title: Updating/Cancelling Your Subscription
+description: How to upgrade, cancel, and request a refund of Hubs Cloud subscriptions.
 ---
 
 _This guide walks you through the process of updating and cancelling your subscription. If you experience unexpected results at any point of the process, please refer to [the support page](./setup-contact.html) for more information._

@@ -1,6 +1,7 @@
 ---
 id: setup-learning
 title: Learning More About Hubs
+description: Links to a YouTube channel and blog to learn more about Hubs.
 ---
 
 ## YouTube

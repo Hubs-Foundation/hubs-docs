@@ -1,6 +1,7 @@
 ---
 id: setup-custom-domain
 title: Custom Domains (Pro Plan)
+description: This guide walks you through the steps of adding, updating, and removing a custom domain on your Hub.
 ---
 
 _This guide walks you through the steps of adding, updating, and removing a custom domain on your Hub. This feature is available on Professional plans._
