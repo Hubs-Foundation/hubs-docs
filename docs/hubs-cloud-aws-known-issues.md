@@ -2,7 +2,7 @@
 id: hubs-cloud-aws-known-issues
 title: AWS Known Issues
 sidebar_label: Known Issues
-description: Some known issues that you might encounter with Hubs Cloud on AWS and how to solve them
+description: Some known issues that you might encounter with Hubs Cloud on AWS and how to solve them.
 ---
 
 #### I get the error "Value for parameter availabilityZone is invalid. Subnets can currently only be created in the following availability zones: X, Y

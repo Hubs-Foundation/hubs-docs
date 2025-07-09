@@ -2,7 +2,7 @@
 id: hubs-cloud-aws-quick-start
 title: AWS Quick Start
 sidebar_label: AWS Quick Start
-description: A brief guide on how to get your Hubs Cloud instance up and running on AWS
+description: A brief guide on how to get your Hubs Cloud instance up and running on AWS.
 ---
 
 ## Before creating the Hubs Cloud Stack

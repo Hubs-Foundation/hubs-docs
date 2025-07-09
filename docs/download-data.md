@@ -2,7 +2,7 @@
 id: download-data
 title: Downloading Your Hubs Data
 sidebar_label: Downloading Your Data
-description: Outlines the basics of the Data Download Tool
+description: Outlines the basics of the Data Download Tool.
 ---
 
 _This manual outlines the basics of the Data Download Tool._

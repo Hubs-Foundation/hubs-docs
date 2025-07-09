@@ -1,7 +1,7 @@
 ---
 id: build-custom-client
 title: Build a Custom Client
-description: How to customize the code of your Hubs instance
+description: How to customize the code of your Hubs instance.
 ---
 
 *under re-construction*

@@ -2,7 +2,7 @@
 id: hubs-cloud-aws-estimated-ccu-limits
 title: AWS Estimated CCU Limits
 sidebar_label: Estimating CCU Limits
-description: Information on estimating the costs for concurrent users on your Hubs Cloud instance
+description: Information on estimating the costs for concurrent users on your Hubs Cloud instance.
 ---
 
 This document explains how to estimate what your Hubs Cloud server's CCU (concurrent users) limit is based on the instance type used, for both the entire server and individual rooms.

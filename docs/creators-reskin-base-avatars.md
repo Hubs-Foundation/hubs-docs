@@ -1,7 +1,7 @@
 ---
 id: creators-reskin-base-avatars
 title: Reskin Avatars
-description: Explains how to change the texture on an avatar and provides resources to do this
+description: Explains how to change the texture on an avatar and provides resources to do this.
 ---
 
 Depending on how involved you'd like to get in the avatar creation process, you might choose to simply 're-skin' the existing robot avatar by painting your own texture maps, or create your own fully custom 3D model.

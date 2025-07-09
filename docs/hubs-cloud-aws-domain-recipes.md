@@ -2,7 +2,7 @@
 id: hubs-cloud-aws-domain-recipes
 title: Domain Recipes
 sidebar_label: Domain Recipes
-description: Information on how to set up the external services needed by Hubs Cloud
+description: Information on how to set up the external services needed by Hubs Cloud.
 ---
 
 This guide provides a few recipes for registering and purchasing necessary domains before creating your Hub Cloud stack.

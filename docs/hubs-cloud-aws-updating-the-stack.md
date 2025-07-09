@@ -2,7 +2,7 @@
 id: hubs-cloud-aws-updating-the-stack
 title: Updating the Stack
 sidebar_label: Updating the Stack
-description: Instructions on how to update your Hubs Cloud instance on AWS
+description: Instructions on how to update your Hubs Cloud instance on AWS.
 ---
 
 You can change various settings of your hub's stack by performing a stack Update. You will not experience any downtime when making these changes. To Update your stack:

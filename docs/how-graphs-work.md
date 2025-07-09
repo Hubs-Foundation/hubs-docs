@@ -1,7 +1,7 @@
 ---
 id: how-graphs-work
 title: How Behavior Graphs Work
-description: Details on using Behavior Graphs
+description: Details on using Behavior Graphs.
 ---
 
 First of all, if you happen to have experience with a visual node-based system such as those within a game engine, you will likely find Behavior Graphs relatively easy to learn. It is worth noting that although the Behavior Graph editor looks similar to Blender's other node-based editors (*Shaders, Compositor, Geometry Nodes*), they have some unique characteristics that are necessary to understand.
