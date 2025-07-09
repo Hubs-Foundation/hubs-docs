@@ -1,7 +1,7 @@
 ---
 id: setup-faq
 title: Frequently Asked Questions
-description: The terminology and limits of Hubs, and custom versions
+description: Frequently asked questions about Hubs basic use: accounts, exceeding Hubs limits, and the Hubs GitHub repository.
 ---
 
 ## Can I have more than one Hub with my account?

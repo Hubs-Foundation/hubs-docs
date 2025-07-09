@@ -1,7 +1,7 @@
 ---
 id: hubs-room-settings
 title: Room Settings
-description: Changing the scene, room name, access, and permissions. Moderating users. Discord authentication.
+description: Hubs room options like creating a custom name, setting access and permissions, what favorite room does, and closing a room.
 ---
 
 ## Change the Scene

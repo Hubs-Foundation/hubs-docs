@@ -1,6 +1,7 @@
 ---
 id: spoke-controls
 title: Spoke Controls
+description: A reference of all the controls and hotkeys for the mouse and keyboard that Spoke uses.
 ---
 
 We recommend using spoke on a desktop or laptop computer as some features are not accessible without a mouse and keyboard. 

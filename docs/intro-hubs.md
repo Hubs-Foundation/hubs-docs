@@ -2,7 +2,7 @@
 id: intro-hubs
 title: Getting Started with Hubs
 sidebar_label: Getting Started With Hubs
-description: How to enter a Hubs room, move around, basic interaction, add media, and invite friends.
+description: The basics of using Hubs.  Including how to create and enter a room, the basic controls and user interface in the 3D viewport area, interacting with objects and avatars, various ways to communicate and express yourself (or not), how to invite other users into the space, and how to leave.
 ---
 
 

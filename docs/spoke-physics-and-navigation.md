@@ -1,7 +1,7 @@
 ---
 id: physics-and-navigation
 title: Physics and Navigation
-description: Constraining where avatars can and can't go
+description: Explains how Spoke's Floorplan element controls generation of the navigation mesh (where you can walk) and collision mesh (what objects collide with) and how to tweak the settings for best results.
 ---
 
 # The Floorplan Element

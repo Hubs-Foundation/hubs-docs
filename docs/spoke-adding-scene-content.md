@@ -1,6 +1,7 @@
 ---
 id: spoke-adding-scene-content
 title: Adding Content
+description: Explains various different types of content you can add to your scene in Spoke, how to do it, and what restrictions there are.  Different types of content include 3D models, images, videos, audio, particle emitters, links, media frames, and more.
 ---
 
 Once you have created your scene, you can start customizing it by adding content. Spoke and Hubs support a wide variety of media. Note that to publish to Hubs, Spoke projects have a size limit of 128MB.

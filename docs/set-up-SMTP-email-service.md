@@ -1,6 +1,7 @@
 ---
 id: set-up-SMTP-email-service
 title: Set up SMTP email service
+description: Instructions on how to set up a simple mail transfer protocol (SMTP) email service to verify user accounts. Details include setting up an account at Scaleway, connecting it to Porkbun for domain verification and generating an API token. These items are needed for setting up your own Hubs instance.
 ---
 
 Hubs software needs to send out emails with magic links to verify that your visitors are real people and \*not\* sentient AI bots here to destroy humanity. 🤖

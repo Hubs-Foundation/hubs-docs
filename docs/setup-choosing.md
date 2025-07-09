@@ -1,6 +1,7 @@
 ---
 id: setup-choosing
 title: Choosing A Subscription
+description: A guide explaining the supported regions and subscription plans offered via Hubs Cloud.
 ---
 
 _Hubs currently offers three managed subscription plans that allow users to customize the default behavior of their hub and manage content, such as virtual worlds and avatars, without the hassle of running their own server. If you are not ready to sign up for a plan, you can create a [default room](https://hubs.mozilla.com/) or [custom scene](https://hubs.mozilla.com/spoke) for free on Mozilla's Demo Hub._

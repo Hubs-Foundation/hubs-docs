@@ -2,6 +2,7 @@
 id: hubs-query-string-parameters
 title: Hubs Query String Parameters
 sidebar_label: Hubs Query String Parameters
+description: A reference for programmatic controls that can be applied to URLs, such as forcing the material quality or debugging a local scene.
 ---
 
 Some developer-oriented options that are not available in the preferences panel in Hubs are available as query string parameters. These are intended mainly for development or debugging and are not something most users will need to use.

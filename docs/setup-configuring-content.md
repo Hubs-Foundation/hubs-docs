@@ -1,6 +1,7 @@
 ---
 id: setup-configuring-content
 title: Managing Your Hub's Content
+description: A manual for managing Hubs content like scenes, avatars, accounts, projects, logos, branding, and settings.
 ---
 
 _This page serves as a manual for many of the features that are available to Hubs users to manage the content on their Hub._

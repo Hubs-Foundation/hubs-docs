@@ -1,7 +1,7 @@
 ---
 id: spoke-user-interface
 title: User Interface
-description: Menus, tools, mouse actions, info panels, assets and publishing in Spoke
+description: How to use the Spoke drop down menus, transformation and grid tools, and the hierarchy, properties, and asset panels.
 ---
 
 ![Hubs Image](img/spoke-user-interface.jpeg)
