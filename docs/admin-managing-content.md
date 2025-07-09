@@ -2,6 +2,7 @@
 id: admin-managing-content
 title: Managing Content
 sidebar_label: Managing Content
+description: Explains how assets are managed and how to control via the Admin Panel where they show up in the user interface.
 ---
 
 In Hubs and Spoke, visitors can create their own avatars and scenes. They can then offer to share that content with others, which will let visitors discover the content through tools like the Media Browser.

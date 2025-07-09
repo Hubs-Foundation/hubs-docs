@@ -2,6 +2,7 @@
 id: hubs-cloud-branding
 title: Brand Guidelines
 sidebar_label: Advanced: Brand Guidelines
+description: Instructions on the use of Hubs branding.
 ---
 
 __Important Stuff To Keep In Mind__

@@ -2,6 +2,7 @@
 id: admin-enable-scene-editor
 title: "Recipe: Enable Scene Editor"
 sidebar_label: "Recipe: Enable Scene Editor"
+description: Shows how to enable the scene editor for non-administrators.
 ---
 
 Hubs Cloud includes an unbranded version of [Spoke](./spoke-creating-projects.md) called the **Scene Editor** can you can use to create custom 3D scenes.
