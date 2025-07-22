@@ -1,19 +1,25 @@
 ---
 id: contributing
 title: Contributing
-description: Outlines how people can get involved and contribute to the project.
+description: Outlines the many ways people can get involved and contribute to the project.
 ---
 
-This page outlines opportunities for people who want to contribute to the Hubs project. We welcome external contributions that align with the project's mission around enabling collaboration and communication through shared 3D spaces. You can find information about how to contribute to Hubs and the supporting projects that make up the platform here. 
+This page outlines opportunities for people who want to contribute to the Hubs project. We welcome external contributions that align with the project's mission around enabling collaboration and communication through shared 3D spaces. You can find information about how to contribute to Hubs and the supporting projects that make up the platform here.
 
-Contributors are expected to abide by the project's [Code of Conduct](https://github.com/Hubs-Foundation/hubs/blob/master/CODE_OF_CONDUCT.md) and to be respectful of the project and people working on it. 
+If you're starting a large change, you might want first to discuss it in one of the Discord development channels.
+
+Contributors are expected to abide by the project's [Code of Conduct](https://github.com/Hubs-Foundation/hubs/blob/master/CODE_OF_CONDUCT.md) and to be respectful of the project and people working on it.
 
 The following GitHub projects are part of the Hubs platform and governed by these contributing guidelines: 
 
-* https://github.com/Hubs-Foundation/hubs/ - the core Hubs project
-* https://github.com/Hubs-Foundation/spoke - 3D editor for creating scenes
-* https://github.com/Hubs-Foundation/dialog - networking
-* https://github.com/Hubs-Foundation/reticulum - server infrastructure for Hubs
+* https://github.com/Hubs-Foundation/hubs/ - the Hubs client webapp
+  * https://github.com/Hubs-Foundation/hubs-duck-addon — a simple example add-on to spawn a duck
+  * https://github.com/Hubs-Foundation/hubs-behavior-graphs-addon — the Hubs implementation of  [behavior graphs](intro-behavior-graphs.html) / [Khronos glTF Interactivity](https://www.khronos.org/blog/gltf-interactivity-specification-released-for-public-comment)
+  * https://github.com/Hubs-Foundation/hubs-portals-addon  — a simple portal system
+  * https://github.com/Hubs-Foundation/hubs-postprocessing-addon — Three.js [post-processing](https://github.com/pmndrs/postprocessing) effects
+* https://github.com/Hubs-Foundation/spoke - a user-friendly 3D editor for creating scenes
+* https://github.com/Hubs-Foundation/dialog - a WebRTC audio and video communication server
+* https://github.com/Hubs-Foundation/reticulum - the server app for Hubs, the Admin Panel, and Spoke
 * https://github.com/Hubs-Foundation/hubs-ops - operations infrastructure for Hubs
 * https://github.com/Hubs-Foundation/hubs-discord-bot - Hubs' Discord integration
 
@@ -31,9 +37,10 @@ Steps to contributing code to the Hubs project:
 
 1. Clone the repo you want to contribute to and get things running locally
 2. Find an issue or improvement that you want to fix - give us a heads up that you're working on it by dropping in a comment on the issue.
-3. Fix the bug! Test out your changes on your local setup and let us know if you have questions or want another opinion about the fix. 
-4. Submit your PR for a code review and someone from the team will take a look and give feedback. Make sure you follow up! We'll close the PR if it seems like you've abandoned it by not responding to any questions or comments we leave in the review. If your PR adds a new feature, consider requesting the 'What's New' tag. With the 'What's New' tag, any text in the main body of the PR up to (and including) an image will be added to the Hubs website. Gifs are especially appreciated! [This pull request](https://github.com/Hubs-Foundation/hubs/pull/1536) shows an example of how the 'What's New' tag can be used.
-5. Celebrate! 🎉 You're helping Hubs-Foundation's mission to make the web an open and accessible place for social experiences! 
+3. Write one or more automated tests, if there is test infrastructure for that part of the code.
+4. Fix the bug or implement the feature! Test out your changes on your local setup and let us know if you have questions or want another opinion about the fix.
+5. Submit your PR for a code review and someone from the team will take a look and give feedback. Make sure you follow up! We'll close the PR if it seems like you've abandoned it by not responding to any questions or comments we leave in the review. If your PR adds a new feature, consider requesting the 'What's New' tag. With the 'What's New' tag, any text in the main body of the PR up to (and including) an image will be added to the Hubs website. Gifs are especially appreciated! [This pull request](https://github.com/Hubs-Foundation/hubs/pull/1536) shows an example of how the 'What's New' tag can be used.
+6. Celebrate! 🎉 You're helping Hubs-Foundation's mission to make the web an open and accessible place for social experiences!
 
 
 
@@ -41,6 +48,8 @@ Steps to contributing code to the Hubs project:
 Reporting bugs, feature requests, and questions that you have about the platform helps the team prioritize the work that we're doing and make Hubs better! We welcome user-submitted issues and use GitHub's built-in issue tracking for our bug reporting process. 
 
 * If you are filing a bug, please include information about the operating system, device, and browser that you were using when you saw the bug. _Example: Seen on Windows 10 with Firefox 66.0.5 on Oculus Rift_
+
+* A good format is a sequence of steps, ending with the expected result, and the actual result.
 
 * The more detail the better! If you are able to reproduce a bug on multiple different browsers or on both desktop and mobile, that information is helpful for us to know about
 
@@ -55,15 +64,29 @@ We will do our best to respond to and tag inbound issues as they are submitted i
 | P2 | Address when able. Affects some users regularly but mildly, or is a hard-to-repro failure seen rarely that is fixed with an easy workaround. | Lobby camera in Camera mode does not show emojis shared from iOS. <br><br> One user reports getting disconnected after ten minutes in a particular room, but no one else experiences it and they are able to refresh to re-enter.
 | P3 | Address when able after P2 bugs are fixed. Affects a small set of users inconsistently in a non-breaking way with an easy workaround. | Every so often, a standalone VR headset will show up as a mobile phone in the user list. Refreshing fixes it. |
 
-### 🎨 3D Art
-If you are a 3D artist and want to support what we're doing with Hubs, consider creating and releasing content under a Creative Commons license or creating scenes using the [Spoke web editor](https://github.com/Hubs-Foundation/Spoke) and releasing them as remixable environments. Content with low polygon counts that are optimized to run well on the web are much appreciated! In particular, we'd love to see scenes that capture a wide range of experiences. 
+## 🎨 3D Art
+If you are a 3D artist and want to support what we're doing with Hubs, consider creating and releasing content under a Creative Commons license or creating scenes using the [Spoke web editor](https://docs.hubsfoundation.org/spoke-creating-projects.html) and releasing them as remixable environments. Content with low polygon counts that are optimized to run well on the web are much appreciated! In particular, we'd love to see scenes that capture a wide range of experiences.
 
-### 📜 Documentation 
-Our documentation for Hubs is hosted on the [GitHub Hubs Wiki](https://github.com/Hubs-Foundation/hubs/wiki) section of the project. The documentation for Spoke is hosted on the [GitHub Spoke Wiki](https://github.com/Hubs-Foundation/spoke/wiki) For contributing corrections or additional pages for the Wiki, please file an issue as a suggestion in the corresponding repository with your proposed content and we will review it and add it to the wiki when all looks good! 
+## 📜 Documentation
+Our documentation for Hubs and Spoke is hosted on the GitHub [Hubs-docs repository](https://github.com/Hubs-Foundation/hubs-docs). For contributing corrections or additional pages, please file a pull request or issue as a suggestion with your proposed content and we will review it and add it when all looks good!
 
-### 🌐 Localization 
-Hubs is currently en-US only, but if you would like to work with us on localization efforts, submit a suggestion through the GitHub issues and we'll work with you from there. 
+## 🌐 Localization
+The Hubs client has localizations (not all complete) to the following languages:
+* Catalan
+* German
+* Spanish
+* French
+* Italian
+* Japanese
+* Korean
+* Portuguese
+* Russian
+* Chinese (simplified)
+* Chinese (traditional)
 
-### 🦆 General Help
-We believe in the power of community (that's why we're building this, after all!) and know that not all forms of support will come from something outlined here. Feel free to jump into our public [Discord chat server](https://discord.gg/wHmY4nd) to chat with us and ask about how you can get involved! See our [help page](./help.html) for other ways to contact us.
+We welcome additions and updates to these.
+(Note that machine-generated translations can help, but by themselves are rarely what users need.)
+
+## 🦆 General Help
+We believe in the power of community (that's why we're building this, after all!) and know that not all forms of support will come from something outlined here. Feel free to jump into our public [Discord chat server](https://discord.gg/wHmY4nd) to chat with us and ask about how you can get involved! See our [help page](https://docs.hubsfoundation.org/help.html) for other ways to contact us.
 
