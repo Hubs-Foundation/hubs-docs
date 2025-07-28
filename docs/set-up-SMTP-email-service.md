@@ -51,7 +51,7 @@ Scaleway account registration email:
 
 ![Capture of Scaleway Enter your billing information page. Fields for Street address, Postal code, City, Country, and Region are blurred. "Add billing address" button is highlighted.](img/smtp/image8.png)
 
-8\. To use SMTP services from Scaleway, you must validate a payment method. Scaleway only has a pay by credit card option. For Enter your billing information, **enter your credit card number, expiration date, CVV or CVC, Name on card,** and select **Add payment method.**
+<a id="part-1-step-8">8\.</a> To use SMTP services from Scaleway, you must validate a payment method. Scaleway only has a pay by credit card option. For Enter your billing information, **enter your credit card number, expiration date, CVV or CVC, Name on card,** and select **Add payment method.**
 
 There will be a notification that your account is free, however, Scaleway will charge you a one (1) euro charge that you will need to use to verify the billing connection between Scaleway and your payment source. 
 
@@ -78,7 +78,7 @@ If the 4-digit code does not show on your transaction, you may need to contact y
 
 ![Capture of Scaleway, Project details, Create your first Project page. Project name, Project description, and Continue are highlighted.](img/smtp/image14.png)
 
-10\. At Project use case, Configure your project dashboard, select **Other or I don’t know**. Select **Start working**.  🤔 Advice: if you have not entered the credit card information in Part 1, Step 8, Scaleway will not allow you to proceed to use their services (buttons will be grayed out or not available).
+10\. At Project use case, Configure your project dashboard, select **Other or I don’t know**. Select **Start working**.  🤔 Advice: if you have not entered the credit card information in [Part 1, Step 8](#part-1-step-8), Scaleway will not allow you to proceed to use their services (buttons will be grayed out or not available).
 
 ![Capture of Scaleway, Project use case, Configure your Project Dashboard page. Other or I don't know and Start working are highlighted.](img/smtp/image15.png)
 
@@ -261,7 +261,7 @@ At Scaleway, on the Transactional Email page, you may have a red dot for your do
 
 If you see a notification that your DKIM entry “missing or incorrect DNS records on your domain”, you may check that you entered the data correctly at Porkbun.
 
-Also, make sure you carefully follow the steps within these instructions at Part 3, step 5 about [DKIM entries]().
+Also, make sure you carefully follow the steps within these instructions at Part 3, step 5 about [DKIM entries](#warning-about-dkim-entries-and-porkbun).
 
 If you’ve cleared up any problems, just refresh this page at Scaleway and the red dot should turn into a green dot.
 
@@ -299,7 +299,7 @@ If you have a green dot next to your domain name, it is verified. You will be no
 
    ![Capture of Scaleway, Identity and Access Management (IAM) page. Applications tab is highlighted. Create an application is highlighted.](img/smtp/image44.png)
 
-6\. For Create an Application, **Enter a name** and optional description.    
+<a id="part-4-step-6">6\.</a> For Create an Application, **Enter a name** and optional description.    
    a. 🤔Advice: For Name, we used MyHubsCE.  
    b. 🤔 Advice: For Description, we used My Hubs SMTP application.  
    c. Skip the Enter key value tags and Attach a policy sections.  
@@ -315,7 +315,7 @@ If you have a green dot next to your domain name, it is verified. You will be no
    a. 🤔Advice: For Name, we used MyHubsCEPolicy.  
    b. 🤔 Advice: For Description, we used My Hubs SMTP policy.  
    c. For key value tags, skip this.  
-   d. For Select a principal, select **the drop down menu,** and pick **Application**. Then select **whatever name you created for your application** (in these instructions, Part 4, Step 6). For our example, we selected MyHubsCE.  
+   d. For Select a principal, select **the drop down menu,** and pick **Application**. Then select **whatever name you created for your application** (in these instructions, [Part 4, Step 6](#part-4-step-6)). For our example, we selected MyHubsCE.  
    e. Select **Add rules**.
 
 ![Capture of Scaleway, Create a Policy page. Enter a name and optional description, Select a principal, and Add rules button are highlighted.](img/smtp/image47.png)
@@ -346,17 +346,17 @@ If you have a green dot next to your domain name, it is verified. You will be no
 
 15\. At the Generate an API key popup, Generate key, 
 
-    a. For Select API key bearer, Select **An application.**
+a. For Select API key bearer, Select **An application.**
 
-    b. Select **your named application** from the dropdown menu.
+b. Select **your named application** from the dropdown menu.
 
-    c. For the Description, **enter optional text** here. 🤔 Advice: We entered My Hubs CE SMTP API token. 
+c. For the Description, **enter optional text** here. 🤔 Advice: We entered My Hubs CE SMTP API token. 
 
-    d. For Expiration, the default should be Never. Leave it on that setting.
+d. For Expiration, the default should be Never. Leave it on that setting.
 
-    e. For Will this API key be used for Object Storage, select **No, skip for now** (default). 
+e. For Will this API key be used for Object Storage, select **No, skip for now** (default). 
 
-    f. Select **Generate API key.**
+f. Select **Generate API key.**
 
 ![Capture of Scaleway, Generate an API key page. For Generate key, Select API key bearer, An application with the MyHubsCE is highlighted. Description field with text: My Hubs CE SMTP API token is highlighted.  Generate API key is highlighted.](img/smtp/image54.png)
 
@@ -371,6 +371,8 @@ Result:
 Yay\! You’ve done it\! Your new API key will be assigned to your domain. You may logout of Scaleway and return to the [Beginner’s Guide](https://docs.hubsfoundation.org/beginners-guide-to-CE.html#7-download-and-install-kubectl). 
 
 # **Sources**
+
+[Scaleway Transactional Email Quickstart guide](https://www.scaleway.com/en/docs/transactional-email/quickstart/)
 
 [How to generate API keys for API and SMTP sending with IAM](https://www.scaleway.com/en/docs/managed-services/transactional-email/how-to/generate-api-keys-for-tem-with-iam/)
 
