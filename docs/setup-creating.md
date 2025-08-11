@@ -36,11 +36,6 @@ _This guide walks you through the steps of setting up your Hubs Subscription. If
 
 1. **Navigate to middle column of [the subscription page](https://hubs.mozilla.com/#subscribe), confirm that you are located in a supported region, and select "Subscribe".**
 
-<video loop muted controls >
-  <source src="img/click-subscribe.mp4" type="video/mp4">
-  <img src="img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser">
-  Your browser does not support HTML5 video.
-</video>
 <br/><br/>
 
 2. **If you already have a Mozilla account, select "Sign In" and complete the login process. If you do not have an account, enter your information into the corresponding boxes.**
