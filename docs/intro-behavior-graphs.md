@@ -33,14 +33,26 @@ _A random sampling of Behavior Graph nodes. Each node usually performs a relativ
 While behavior graphs are not intended to replace code modifications, in some cases it may make more sense than forking the Hubs code base just to create a simple interaction or minor modification to an experience. Behavior graphs also serve artists and designers, many of whom may have very little to no experience with coding, by introducing them to the ways in which the Hubs runtime environment functions.
 
 Behavior Graphs also offer an opportunity to experiment and prototype an idea that might otherwise require a lot of work (forking, coding, building, etc.) only to discover the idea wasn’t viable to begin with. For example, a novel control scheme or an alternative camera view might be attempted with behavior graphs, tested, then later reworked in code after the idea is proven fruitful.
+### ✅ `docs/intro-behavior-graphs.md`
+
+```md
+# 🧠 Introduction to Behavior Graphs
+
+**Behavior Graphs** are a visual node-based system for defining interactivity in Hubs scenes. They allow creators to build logic into objects using a simple and intuitive interface—no coding required.
+
+Behavior Graphs are authored in [Blender](https://www.blender.org/) and exported as part of `.glb` files, which are then used in Spoke or directly in Hubs scenes.
 
 ---
 
-# How Behavior Graphs Work
+## 📌 Why Use Behavior Graphs?
 
-First of all, if you happen to have experience with a visual node-based system such as those within a game engine, you will likely find Behavior Graphs relatively easy to learn. It is worth noting that although the Behavior Graph editor looks similar to Blender's other node-based editors (_Shaders, Compositor, Geometry Nodes_), they have some unique characteristics that are necessary to understand.
+Behavior Graphs empower creators to:
 
-This introduction to Behavior Graphs is intended to serve as an overview of the system rather than a step-by-step guide on their use. The following section explains the various parts that comprise Behavior Graphs and how they work together.
+- Define interactions (e.g., clicking an object triggers animation)
+- Respond to user presence or events (e.g., proximity triggers)
+- Modify object states (e.g., show/hide elements)
+- Trigger sound or visual effects
+- Chain together logic and create reusable interaction patterns
 
 # Graph Types
 
@@ -268,3 +280,65 @@ To delete, press `X`. Cut/copy/paste works with standard shortcuts.
 - **Wires may attach to wrong sockets** (e.g., Flow line to Float input) — this can cause export/runtime bugs
 - **Disconnected Reroute nodes** can cause silent errors
 - **Missing inputs/outputs** on nodes (especially for Variables/Events)? Try deleting + re-adding, or changing one dropdown temporarily to refresh
+They provide a **low-code or no-code alternative** to writing raw JavaScript or scripting logic manually.
+
+---
+
+## 🎛️ Core Concepts
+
+| Concept             | Description                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| **Nodes**           | Represent logic units like triggers, conditions, actions, or modifiers.    |
+| **Connections**     | Arrows between nodes define the flow of execution or data.                  |
+| **Inputs/Outputs**  | Nodes have ports for incoming/outgoing signals, numbers, text, etc.         |
+| **Graphs**          | Each object in the scene can include one or more graphs for behavior.       |
+
+---
+
+## 🛠️ Authoring Behavior Graphs
+
+1. **Open Blender**
+2. **Import the Hubs Behavior Graph Add-on** (if not pre-installed)
+3. **Select an object**, then open the Behavior Graph Editor
+4. **Create nodes** from the Add menu (e.g., `OnClick`, `PlayAnimation`)
+5. **Connect nodes** to define the logic
+6. **Export the object** as a `.glb` with the graph embedded
+
+These exported models can be imported into Spoke or placed directly in your Hubs scene.
+
+---
+
+## 📦 Supported Node Types
+
+- **Triggers**: OnClick, OnHover, OnStart, OnProximity
+- **Actions**: Show, Hide, PlaySound, Animate, MoveTo
+- **Logic**: If, Delay, Repeat, Random
+- **Variables**: SetValue, GetValue, Compare
+
+The available nodes may vary slightly depending on the Blender plugin version.
+
+---
+
+## 🔎 Viewing and Debugging Graphs
+
+While authored in Blender, exported `.glb` files include the behavior graph data in the metadata.
+
+Future add-ons (in development) will allow you to:
+
+- Inspect graphs in Hubs
+- Export behavior graphs to readable JSON
+- Visualize connections and errors during runtime
+
+---
+
+## 📚 Additional Resources
+
+- [Hubs Blender Exporter Repo](https://github.com/MozillaReality/hubs-blender-exporter)
+- [Spoke Editor](https://hubs.mozilla.com/spoke)
+- [Blender Behavior Graph Docs](https://github.com/MozillaReality/hubs-blender-exporter/wiki/Behavior-Graphs)
+- [Hubs Docs Main Page](../README.md)
+
+---
+
+_For contributions to this document, please follow our [Pull Request Guidelines](https://github.com/Hubs-Foundation/policies-procedures-guidelines-public/blob/main/pull-request-guidelines.md) and [Commit Message Standards](https://github.com/Hubs-Foundation/policies-procedures-guidelines-public/blob/main/commit-message-guidelines.md)._
+
