@@ -1,6 +1,7 @@
 ---
 id: running-hubs-on-aws-cloud9
 title: Running Hubs on AWS cloud
+description: Instructions how to run Hubs Cloud on AWS Cloud service.
 ---
 
 Issue: https://github.com/Hubs-Foundation/hubs/issues/411

@@ -1,6 +1,7 @@
 ---
 id: lighting-and-shadows
 title: Lighting and Shadows
+description: Information regarding the lighting and shadow settings that can be changed in Spoke, including the types of light sources like ambient and spot lights, and how lighting results can vary between desktop and mobile devices.
 ---
 
 ## Lights

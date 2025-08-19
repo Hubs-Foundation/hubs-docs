@@ -2,11 +2,12 @@
 id: hubs-cloud-asset-packs
 title: Recommended Asset Packs
 sidebar_label: Asset Packs
+description: A list of asset packs you can import into your Hubs instance and instructions for how to make your own.
 ---
 
 We've compiled some avatar and scene collections you can easily import into your hub. This content is [Creative Commons 3](https://creativecommons.org/licenses/by/3.0/us/) licensed. License compliance with attribution is handled automatically by Hubs Cloud when the content is surfaced to users.
 
-To import these packs, simply specify the URL for the pack specified below in the [Import Content](./hubs-cloud-importing-content.md) tool in the [Admin Console](./hubs-cloud-getting-started.md). Once you input the URL you will be able to preview the contents of the pack and choose which items to import.
+To import these packs, simply specify the URL for the pack specified below in the [Import Content](./admin-importing-content) tool in the [Admin Console](./admin-getting-started). Once you input the URL you will be able to preview the contents of the pack and choose which items to import.
 
 ## Avatar Packs
 

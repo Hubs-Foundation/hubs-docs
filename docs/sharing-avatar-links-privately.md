@@ -2,6 +2,7 @@
 id: sharing-avatar-links-privately
 title: Sharing Avatar Links Privately
 sidebar_label: Sharing Avatar Links Privately
+description: Explains how avatars can be shared via direct links and Hubs rooms can be created as dressing rooms so that users in a particular room are given access to use specific avatars that may otherwise be unavailable to the general public.
 ---
 
 **Do you have a hubs room where you want specific avatars to be available for specific people but not others?

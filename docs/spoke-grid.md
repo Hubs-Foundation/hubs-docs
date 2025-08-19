@@ -1,6 +1,7 @@
 ---
 id: spoke-grid
 title: Grid
+description: Explains how the grid and snapping works in Spoke, their defaults, and how they can be configured.
 ---
 
 ![Screenshot of Spoke](img/spoke-grid.png)

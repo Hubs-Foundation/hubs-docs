@@ -1,6 +1,7 @@
 ---
 id: hubs-faq
 title: FAQ
+description: Common questions about using Hubs
 ---
 
 ## What is the capacity of a Hubs room?
@@ -112,17 +113,24 @@ Check out the [troubleshooting](hubs-troubleshooting.html#there-is-echo-in-the-r
 
 Hubs rooms can only be accessed by individuals with the URL. 
 
-<!-- Authentication can be done either the [Hubs Discord Bot](hubs-discord-bot.html), or using an approved list of users in [Hubs Cloud](https://hubs.mozilla.com/cloud). -->
+ Authentication can be done using the [Hubs Discord Bot](hubs-discord-bot.html).
 
-<!-- ## Can I run custom code in a Hubs room?
+[//]: # ( , or using an approved list of users in [Hubs Cloud]&#40;https://hubs.mozilla.com/cloud&#41;.)
 
-You can't run custom code in the main Hubs website (hubs.mozilla.com) but you can add your own if you self-host using Hubs Cloud (see previous answers). To add custom code you will need to create your own custom fork of the Hubs Cloud client.
+[//]: # (## Can I run custom code in a Hubs room?)
 
-For more information, see our documentation on [custom clients](./hubs-cloud-custom-clients.html). -->
+[//]: # ()
+[//]: # (You can't run custom code in the main Hubs website &#40;hubs.mozilla.com&#41; but you can add your own if you self-host using Hubs Cloud &#40;see previous answers&#41;. To add custom code you will need to create your own custom fork of the Hubs Cloud client.)
 
-<!-- ##  Is it possible for me to create a custom version of Hubs which has different features or styling? 
+[//]: # ()
+[//]: # (For more information, see our documentation on [custom clients]&#40;./hubs-cloud-custom-clients.html&#41;. )
 
-See previous answer.  -->
+
+[//]: # (##  Is it possible for me to create a custom version of Hubs which has different features or styling? )
+
+[//]: # ()
+[//]: # (See previous answer.  )
+
 
 ## Can I pay Hubs-Foundation to do X, Y, Z?
 It's not possible to pay Hubs-Foundation for custom work, however, our code is open source and we welcome external contributors in [GitHub](http://github.com/Hubs-Foundation/hubs). You can post in the #work-for-hire channel of our [Discord chat server](https://discord.gg/wHmY4nd) if you are interested in paying someone to build something for you.
@@ -136,7 +144,7 @@ If you have questions about whether Hubs will be a good fit for your event, drop
 
 We keep track of bugs and feature requests in GitHub. If there is a feature you would like, see if someone has already mentioned it in our [list of bugs/feature requests](https://github.com/Hubs-Foundation/hubs/issues). If you find someone else has already asked for the feature, let us know in a comment that you would like it too. If it's not already mentioned, feel free to submit a "feature request." Note, please include as much detail as possible to feature requests to let us know how you see this feature benefiting your use case.
 
-## Where can I find the Hubs-Foundation Hubs Privacy Policy?
+## Where can I find the Hubs Foundation Hubs Privacy Policy?
 
 https://hubsfoundation.org/privacy-policy/
 

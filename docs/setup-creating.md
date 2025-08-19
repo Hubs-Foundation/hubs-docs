@@ -1,6 +1,7 @@
 ---
 id: setup-creating
 title: Creating Your Hub
+description: This guide explains the steps of setting up a Hubs Cloud subscription. 
 ---
 
 _This guide walks you through the steps of setting up your Hubs Subscription. If you experience unexpected results at any point of the process, please refer to [the support page](./setup-contact.html) for more information._

@@ -22,6 +22,26 @@ _An example of a simple **Behavior Graph** that moves an object 2 meters each ti
 Even visual properties — like lighting, colors, and animation speed — can be controlled. This makes your `.glb` models **self-contained**: logic, visuals, and interactivity all bundled together.
 
 > For example, a lamp model could contain all its behavior: on/off toggle, color change, 
+---
+id: intro-behavior-graphs
+title: Introduction to Behavior Graphs
+description: An overview of Behavior graphs, a form of visual scripting or graphical depiction of interactions possible with Hubs that is currently in development, and how they can be created in Blender to affect things like teleporting, video playback, lights, animation speed, and object location.
+
+---
+
+> **NOTE:** _As of this documentation being created, Behavior Graphs are undergoing rapid development. This has the effect of making it challenging to update this documentation quickly enough to make sure it has parity with the current state of the tech behind it. Thank you for your patience and please consider contributing edits to this documentation as needed._
+
+If 3d models represent the visual and aesthetic side of an experience in Hubs, Behavior Graphs represent the design of the affordances (interactive possibilities) and any sequence(s) of events that might occur within that experience.
+
+Behavior graphs allow for control over many aspects of a Hubs experience by exposing Hubs-specific features normally only accessible via altering the Hubs code base. Things like teleporting, audio zones, video playback, or in-world events like when a person joins or leaves a room can all be accessed through a graphical system of connected nodes or blocks (like a flowchart) from within Blender.
+
+![Behavior Graph Example 1](img/BehaviorGraph_Example.png)\
+_An example of a simple **Behavior Graph** that moves an object 2 meters each time it's clicked._
+
+They may also be used to control aspects of the visual elements within a scene such as the lighting, an object’s material properties, the speed of an animation, or an object's position/rotation/scale to name just a few.
+
+All of the logic created within the Blender scene gets exported along with everything else. This is powerful because a single `.glb` file can contain all of the instructions for how it should behave. _Having self-contained behaviors allows for modular design._ For example, a lamp model could contain everything it needs to be interacted with--switched on/off, dimmed, colored, or even broken. Any copy of the lamp could be interacted with the same way.
+
 
 The logic involved in setting up these behaviors can be as simple as a video appearing when a button is pressed or as complex as an escape room filled with interdependent puzzles where the whole room animates on cue. Whatever you choose to create, the logic comes from basic (and sometimes familiar) building blocks like _if/then_ statements, variables, and math functions.
 

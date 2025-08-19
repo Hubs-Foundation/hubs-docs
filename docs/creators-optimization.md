@@ -1,6 +1,7 @@
 ---
 id: spoke-optimization
 title: Optimizing Scenes
+description: Measuring and improving performance across many devices.
 ---
 
 ## Improving Performance
@@ -49,11 +50,13 @@ Note that some scenes might look different
 
 
 
-<!-- 
-## Developing for Mobile Devices & Quest
 
+[//]: # (## Developing for Mobile Devices & Quest)
 
-### AO
+[//]: # ()
+[//]: # ()
+[//]: # (### AO)
 
-
-gifs can be hard on your scene -->
+[//]: # ()
+[//]: # ()
+[//]: # (gifs can be hard on your scene)

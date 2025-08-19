@@ -1,6 +1,7 @@
 ---
 id: hubs-controls
 title: Controls
+description: Keyboard, mouse, and controllers for personal computers, PC headsets, standalone headsets, phone headsets, and gamepads
 ---
 <!-- 
 https://truben.no/table/ to edit these tables

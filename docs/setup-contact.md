@@ -1,6 +1,7 @@
 ---
 id: setup-contact
 title: Contact Us
+description: Our contact information including email, our Discord server, and how to submit ideas for Hubs.
 ---
 
 _These are the best ways to get in touch with us and the community if you need help or are interested in learning more about Hubs._

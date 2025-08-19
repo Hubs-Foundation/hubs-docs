@@ -2,6 +2,7 @@
 id: hubs-cloud-aws-quick-start
 title: AWS Quick Start
 sidebar_label: AWS Quick Start
+description: A brief guide on how to get your Hubs Cloud instance up and running on AWS.
 ---
 
 ## Before creating the Hubs Cloud Stack
@@ -60,7 +61,7 @@ sidebar_label: AWS Quick Start
 1. Set up AWS Simple Email Service (SES) in **N. Virginia (us-east-1)** for **_all_** deploy regions to get out of the SES Sandbox [Follow #2 Send request to AWS for limit increase](./hubs-cloud-aws-troubleshooting.md#youre-in-the-aws-sandbox-and-people-dont-receive-magic-link-emails)
    - For immediate entry to your HC instance, verify individual email addresses [Follow #1 Verify individual email addresses for administrators](./hubs-cloud-aws-troubleshooting.md#youre-in-the-aws-sandbox-and-people-dont-receive-magic-link-emails)
 2. Follow guide in **Admin Panel** > **Content CDN** menu to setup Cloudflare workers to decrease costs
-3. Proceed with process to add scenes and avatars in the [Getting Started with Hubs Cloud](./hubs-cloud-getting-started.md) guide!
+3. Proceed with process to add scenes and avatars in the [Getting Started with Hubs Cloud](./admin-getting-started) guide!
 
 **Congrats you've successfully set everything up!**
 

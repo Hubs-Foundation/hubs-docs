@@ -1,6 +1,7 @@
 ---
 id: creators-advanced-avatar-customization
 title: Advanced Avatar Customization
+description: Re-skinning an existing avatar, or creating one from scratch
 ---
 
 ## Advanced Re-skinning 
