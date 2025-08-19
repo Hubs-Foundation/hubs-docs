@@ -1,5 +1,6 @@
 ---
 id: intro-behavior-graphs
+<<<<<<< HEAD
 title: Introduction to Behavior Graphs
 ---
 
@@ -27,10 +28,16 @@ id: intro-behavior-graphs
 title: Introduction to Behavior Graphs
 description: An overview of Behavior graphs, a form of visual scripting or graphical depiction of interactions possible with Hubs that is currently in development, and how they can be created in Blender to affect things like teleporting, video playback, lights, animation speed, and object location.
 
+=======
+title: Behavior Graphs
+sidebar_label: Behavior Graphs
+description: Introduction to behavior graphs in Hubs
+>>>>>>> 410b358 (docs: finalize readme and revert behavior graph doc)
 ---
 
-> **NOTE:** _As of this documentation being created, Behavior Graphs are undergoing rapid development. This has the effect of making it challenging to update this documentation quickly enough to make sure it has parity with the current state of the tech behind it. Thank you for your patience and please consider contributing edits to this documentation as needed._
+Behavior graphs are a visual way to define interactive and animated behaviors in your Hubs scene. Using the behavior graph editor, you can chain together logic, animation, and triggers to build immersive WebXR experiences without writing code.
 
+<<<<<<< HEAD
 If 3d models represent the visual and aesthetic side of an experience in Hubs, Behavior Graphs represent the design of the affordances (interactive possibilities) and any sequence(s) of events that might occur within that experience.
 
 Behavior graphs allow for control over many aspects of a Hubs experience by exposing Hubs-specific features normally only accessible via altering the Hubs code base. Things like teleporting, audio zones, video playback, or in-world events like when a person joins or leaves a room can all be accessed through a graphical system of connected nodes or blocks (like a flowchart) from within Blender.
@@ -61,9 +68,13 @@ Behavior Graphs also offer an opportunity to experiment and prototype an idea th
 **Behavior Graphs** are a visual node-based system for defining interactivity in Hubs scenes. They allow creators to build logic into objects using a simple and intuitive interface—no coding required.
 
 Behavior Graphs are authored in [Blender](https://www.blender.org/) and exported as part of `.glb` files, which are then used in Spoke or directly in Hubs scenes.
+=======
+## 🧩 What Are Behavior Graphs?
+>>>>>>> 410b358 (docs: finalize readme and revert behavior graph doc)
 
----
+Behavior graphs are node-based systems used in Hubs Cloud to define how objects respond to user input or scene changes. Each node represents an action, condition, or event.
 
+<<<<<<< HEAD
 ## 📌 Why Use Behavior Graphs?
 
 Behavior Graphs empower creators to:
@@ -193,9 +204,33 @@ When you add a component to an object — such as **Rigidbody** — you can acce
 _Example: A Rigidbody component's “Mass” property is exposed through the `Get/Set Component Property` nodes._
 
 Without this system, you'd need separate nodes for each property (like `Get Mass`, `Get Body Type`, etc.). That could quickly clutter your graph. By using generalized nodes that adapt based on the component, Behavior Graphs stay cleaner and easier to manage — especially as more properties and components are added.
+=======
+For example:
 
----
+- A **trigger** node can listen for when a user clicks on an object.
+- An **action** node can play a sound, move an object, or change visibility.
+- A **condition** node can check if a variable is true before continuing.
 
+## 🎯 Use Cases
+
+Behavior graphs can be used to:
+
+- Trigger audio or visual effects when users interact with objects.
+- Create escape room logic (e.g., puzzles, doors).
+- Build branching narratives and guided tours.
+- Animate props and scenes.
+
+## 🛠️ Editing Behavior Graphs
+
+To work with behavior graphs:
+>>>>>>> 410b358 (docs: finalize readme and revert behavior graph doc)
+
+1. Use the **Spoke** scene editor to design your scene.
+2. Add a behavior graph component to an entity.
+3. Launch the **Behavior Graph Editor**.
+4. Add nodes, connect them, and test logic visually.
+
+<<<<<<< HEAD
 ### Utility Nodes: Working with Data
 
 Many nodes in Behavior Graphs don't perform actions by themselves — instead, they help manage **data**. These include Math nodes, logic comparisons, and variable manipulation.
@@ -204,9 +239,19 @@ For example, the `Add` node simply adds two values — but it won’t do anythin
 
 ![Get/Set Variable](img/BG-OtherNodes.png)\
 _Example: A Math `Add` node passes its result into a `Set Variable` node when triggered._
+=======
+> 📘 **Note:** Behavior Graphs are supported in Hubs Cloud instances that enable them. Some features may not be available in the public Mozilla Hubs.
 
----
+## 📤 Exporting and Testing
 
+- After building your graph in Spoke, export and upload the scene to your Hubs instance.
+- Test your behaviors in the scene by interacting with relevant entities.
+- Use the browser console for debugging if needed.
+>>>>>>> 410b358 (docs: finalize readme and revert behavior graph doc)
+
+## 🧠 Additional Resources
+
+<<<<<<< HEAD
 ### 🔁 Custom Events
 
 Custom Events are a way to create your own triggers and pass data between parts of your graph — or even across different objects.
@@ -362,3 +407,8 @@ Future add-ons (in development) will allow you to:
 
 _For contributions to this document, please follow our [Pull Request Guidelines](https://github.com/Hubs-Foundation/policies-procedures-guidelines-public/blob/main/pull-request-guidelines.md) and [Commit Message Standards](https://github.com/Hubs-Foundation/policies-procedures-guidelines-public/blob/main/commit-message-guidelines.md)._
 
+=======
+- [Spoke Documentation](https://github.com/MozillaReality/Spoke)
+- [Hubs Docs](https://hubs.mozilla.com/docs/)
+- Behavior Graph samples and templates (coming soon)
+>>>>>>> 410b358 (docs: finalize readme and revert behavior graph doc)
