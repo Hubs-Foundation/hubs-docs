@@ -11,6 +11,13 @@ Thanks for sharing both files. Based on the current state of:
 This repo is for the documentation for Hubs, and related products such as Community Edition and Spoke.
 
 The documentation is under active development. If there are any changes or updates you recommend, feel free to submit a pull request or let us know in our [Discord Server](https://discord.gg/wHmY4nd).
+The documentation is under active development. If there are any changes or updates you recommend, feel free to submit a pull request or let us know in our [Discord Server](http://discord.gg/wHmY4nd).
+Thanks for sharing both files. Based on the current state of:
+
+* `README.md` (which should be the project overview and contribution entry point), and
+* `intro-behavior-graphs.md` (which should only contain documentation about Behavior Graphs),
+
+I'll now provide corrected versions of both files, fixing the mistake that was noted by Exairnous: moving the **Behavior Graph** content **out of the README** and back into `intro-behavior-graphs.md`, and ensuring the `README.md` contains the correct project-level information including the Docusaurus header.
 
 This website was created with [Docusaurus](https://docusaurus.io/). 
 
