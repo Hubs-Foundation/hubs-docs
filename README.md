@@ -144,7 +144,7 @@ sidebar_label: My Doc Label
 ---
 ```
 
-Please **do not remove** or skip this header. The `id` should be unique, and the `description` is optional but encouraged.
+Please **do not remove** or skip this header. The `id` should be unique, and the `description` is required.
 
 ---
 
