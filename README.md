@@ -55,8 +55,6 @@ my-docusaurus/
     siteConfig.js
 ```
 
-# Docusaurus information
-
 ## Editing Content
 
 ### Editing an existing docs page
