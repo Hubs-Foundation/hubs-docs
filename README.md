@@ -1,13 +1,12 @@
 # Hubs Docs
 
-This repo is for the documentation for Hubs, and related products such as Community Edition and Spoke.
+This repository contains documentation for Hubs and related products such as Hubs Cloud, Spoke, and the Community Edition.
 
 The documentation is under active development. If there are any changes or updates you recommend, feel free to submit a pull request or let us know in our [Discord Server](https://discord.gg/wHmY4nd).
 
-This website was created with [Docusaurus](https://docusaurus.io/). 
+This website was created with [Docusaurus](https://docusaurus.io/).
 
-
-# Docusaurus information 
+# Docusaurus information
 ## What's In This Document
 
 * [Get Started in 5 Minutes](#get-started-in-5-minutes)
@@ -127,4 +126,78 @@ For more information about adding new docs, click [here](https://docusaurus.io/d
 ## Full Documentation
 
 Full documentation can be found on the [website](https://docusaurus.io/).
+
+## Contributing to Hubs Docs
+
+We welcome contributions from the community! Here’s how you can help:
+
+## 📄 Docusaurus Header
+
+Every markdown file should begin with a Docusaurus header block. This is **not Markdown**, but frontmatter metadata used by Docusaurus.
+
+```yaml
+---
+id: my-doc-id
+title: My Doc Title
+description: A short description of the doc
+sidebar_label: My Doc Label
+---
+```
+
+Please **do not remove** or skip this header. The `id` should be unique, and the `description` is required.
+
+---
+
+## 📝 Fixing Documentation
+
+### Step 1: Clone the Repo
+
+```bash
+git clone https://github.com/Hubs-Foundation/hubs-docs.git
+cd hubs-docs
+```
+
+### Step 2: Create a Branch
+
+```bash
+git checkout -b fix-typos-or-additions
+```
+
+### Step 3: Make Changes
+
+Make changes to `.md` files in the `docs/` directory. Remember to:
+
+- Add a Docusaurus header at the top
+- Write atomic commit messages (see [Commit Message Guidelines](https://github.com/Hubs-Foundation/policies-procedures-guidelines-public/blob/main/commit-message-guidelines.md))
+- Follow the [Markdown syntax guide](https://commonmark.org/help/)
+
+### Step 4: Submit Pull Request
+
+- Push your branch to GitHub
+- Open a PR
+- Explain:
+  - What you changed
+  - Why it matters
+  - How to test (if applicable)
+
+See our [Pull Request Guidelines](https://github.com/Hubs-Foundation/policies-procedures-guidelines-public/blob/main/pull-request-guidelines.md) for details.
+
+---
+
+## 🛠 Local Development
+
+To run the site locally:
+
+```bash
+npm ci
+npm run start
+```
+
+---
+
+## 📚 Resources
+
+- [Docusaurus Docs](https://docusaurus.io/docs)
+- [Markdown Help](https://commonmark.org/help/)
+- [Hubs Foundation GitHub](https://github.com/Hubs-Foundation)
 
