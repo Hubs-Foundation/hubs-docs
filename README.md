@@ -189,7 +189,7 @@ See our [Pull Request Guidelines](https://github.com/Hubs-Foundation/policies-pr
 To run the site locally:
 
 ```bash
-npm install
+npm ci
 npm run start
 ```
 
