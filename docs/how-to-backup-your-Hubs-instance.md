@@ -1,132 +1,77 @@
 ---
+
 id: how-to-backup-your-Hubs-instance
+
 title: How to back up your Hubs instance
+
 description: Information on how to backup and restore your Kubernetes node on DigitalOcean, and thereby your Hubs instance.
+
 ---
 
-These instructions are written for users, newbies, or non-developers. These instructions only apply to single-node clusters, where data is stored on the node ("hostPath" volumes).  If you arrived here from the [Beginner’s Guide](./beginners-guide-to-CE.md) which guided you generally to a one node setup, you are fine to follow these.
+These instructions are written for users, newbies, or non-developers.
 
 ### Why would I need to create backups of my Hubs instance?
 
-The Beginner’s Guide instructions and Hubs code have persistent volumes already turned on to store all of your data between DigitalOcean (DO) pod reboots. But if your node(s) get turned off or if DO screws up, you might lose all of your data.  It has been known to happen.
+Backups allow you to have copies so that you can restore your Hubs instance in case anything goes wrong.  This will save all of your instances, your avatars, and your projects in Spoke, your assets in Spoke, and will save pinned objects in room in the location where you pinned them.
 
-Backups allow you to have copies so that you can restore your Hubs instance.  This will save all of your instances, your avatars, and your projects in Spoke, your assets in Spoke, and will save pinned objects in room in the location where you pinned them.
+A backup of your Hubs instance stores all of those files into one thing that you can restore from at any time.
 
-A backup of your Hubs instance stores all of those files into one thing– the backup.  You cannot sort or clean out from within the back up. You can’t clean out old files that you know you don’t want. It’s an all or nothing type of thing.
+##**How to do a backup**
 
-## **Prices**
+1. Open VS Code.Make sure you are in the community-edition folder. This is similar to [Step 12h](https://docs.hubsfoundation.org/beginners-guide-to-CE.html#12-generate-your-config-file) in the Beginner’s Guide. 
 
-With DigitalOcean, you have two choices to make backups: Backups or Snapshots.
+   ![Capture of VS Code, Terminal window, community-edition folder.](img/backups/image1.png)  
 
-Backups are an automated system. It saves the backup for you at a time you select.
+2. Enter  
+     
+   `npm run backup`  
+   1. In case you see Error: Cannot find module 'yaml', you need to do a clean install like you did in the [Beginner’s Guide, Step 12i](https://docs.hubsfoundation.org/beginners-guide-to-CE.html#12-generate-your-config-file). 
 
-* Weekly backups - kept for 4 weeks. $4.80/month (20% of the droplet)
-* Daily backups - kept for 7 days $7.20/month (30% of cost of droplet)
+   ![Capture of VS Code, Terminal window, npm run backup returning an error of Cannot find module 'yaml'](img/backups/image2.png)
 
-Snapshots are a one-time save on demand.
+2. In the community-edition folder, you should see a folder called data_backups. That is where the backups are stored. There is one folder per backup. The backup is named data_backup with a time stamp which is a long number representing the date as time in seconds; the bigger the number, the later in time the backup.
 
-* Snapshots - rate $0.06 per GiB per month, you do these on demand, they are not automatic
+   ![Capture of VS Code, File Explorer, data backups folder, data backup\_175391XXXXX file](img/backups/image3.png)  
+     
+   In case you are confused, in the File Explorer, select the file using the secondary mouse button (right click) and choose Reveal. The modified date field should reflect the date when the backup was last modified.  
+     
+3. In our testing, this took five to fifteen minutes. When it is done, the terminal will be back in the state where it is ready to accept a command.  
+     
 
-Note: these prices are only quotes as of November 2024. With all of these DO quotes, the costs are dependent on either what droplet costs you are paying or how much you have saved in memory (gigabytes).
+##**How to restore a backup**
 
-At DO, both Backups and Snapshots save ONE backup of everything within DO’s own computers. What you pay for is either the frequency of automatic saving (for Backups) or the file space (for Snapshots).
+1. Open VS Code. Be sure to be in the community-edition folder. These instructions will, by default, restore the latest or most recent backup. 
 
-## Which should I pick, [Backups](#weekly-backups) or [Snapshots](#snapshots)?
+2. Enter   
+     
+   `npm run restore-backup`
 
-Backups make sense if you are a medium-to-heavy user of Hubs or if your use is critical.  For example, if you are a college professor and you have 25 student projects coming due all at once through your Hubs, you might want Daily Backups.  If you are a solo user, but your project has high value (like an art showing or a work meeting) you might want Daily or Weekly Backups.
+   However, you can restore a specific backup by specifying which backup for the process to use. In that case, you’ll add the actual file name like this: `data_backup_<XXX>`
 
-Snapshots make more sense if you are a light user of Hubs. If you can remember to save and put a copy away and if it doesn’t bother you to lose some of your Hubs work in-between when you remember to save, snapshots might be better for you.
+     
+   For example: 
 
-> 💡 Tip: Snapshots do backup volumes. Automated backups do not. These are not persistent volumes; these are extra volumes for off node storage that a user might purchase.
+   `npm run restore-backup data_backup_1753910374452`
 
-Both Backups and Snapshots work the same in DO. You set up the service. It runs. It’s nearly one-click to restore your work from Backup.  You are NOT saving anything to your own computer. Because these are saved in a different place than your personal droplet/cluster, the backup is pretty safely stored at DO.
+   ![Capture of VS Code, Terminal window, beginning restore. Text of deployment apps "coturn" and other apps deleted.](img/backups/image4.png)
 
-## **Weekly Backups**
+4. With respect to size and internet connection speed, this will take a few minutes. In our testing, it took us between five and 30 minutes. 
+
+5. Once the script is finished, the terminal will display ‘instance restarted’.   
+
+   ![Capture of VS Code, Terminal window, text "instance restarted" highlighted.](img/backups/image5.png)
+
+Your instance is back up and running. All of your data should be there. Close VS Code.
 
 
-1\. At Digital Ocean, select **Backups & Snapshots**.
+##**After Restoring**
 
-2\. Select the **Backups** tab. Select **Setup Automated Backups**.
+It will take a short while for everything to be restored. It takes a few minutes for Hubs to restart itself.
 
-![Capture of DigitalOcean, Manage, Backups & Snapshots page. "Backups" and "Setup Automated Backups" highlighted in purple.](img/backups/image1.png)
+##**FAQs for Backups**
 
-3\. At Enable Automated Backups:
+###Error codes
 
-A. Select your **droplet**. 💡It probably starts with “hcce-”.
+If VS Code returns an error script like this below, the solution is to re-run the last command (either the backup or the restore command) until it works.
 
-B. Select either **Weekly Backups** or **Daily Backups**.
-
-C. For Backup Window, Select your preferred **Day of the Week**, and select your preferred **Time of day**. You can leave this on the defaults or change it to when it works for you.
-
-D. Select **Enable Backups**.
-
-![Capture of DigitalOcean, Manage, Backups & Snapshot, Enable Automated Backups page. Droplet and either Weekly or Daily Backups  highlighted in purple. "Enable Backups" blue button highlighted in purple.](img/backups/image2.png)
-
-Notification box, “Backups enabled on hcce-cluster…..”
-
-![Capture of DigitalOcean, Manage, Backups & Snapshots, Enable Automated Backups page. Notification briefly appears in upper right corner with green text.](img/backups/image3.png)
-
-4\. When the backup is made, it will be listed underneath Automated Backups.  Note: in our testing, it took ~5 minutes to save a backup, maybe faster. But it was immediate. We can’t guarantee that for you because we were purposely trying to get a backup. YMMV.
-
-![Capture of DigitalOcean, Manage, Backups & Snapshots page. "Backups tab. More menu highlighted in purple. Choices are Convert to snapshot, Create Droplet, and Restore Droplet. "1 Backup" also highlighted in purple.](img/backups/image4.png)
-
-## **Restoring your Hubs data from a Backup**
-
-1\. To restore, from the Backups tab, your droplet, select **1 backup** from the 1 you have done. In the future, if you picked Weekly, you’ll have 4 backups to choose from.  If you picked Daily, you’ll have 7 to choose from. Select **Restore Droplet**.
-
-Notification box: Are you sure that you want to restore \[your droplet\] with \[your saved image\]? Note: restoring will replace the current Droplet with an older image. Select **Restore Droplet**.
-
-![Capture of DigitalOcean, Manage, Backups & Snapshot page. "Backups" tab. Restore droplet popup with "Restore droplet" blue button highlighted in purple.](img/backups/image5.png)
-
-We found it took 5-10 minutes for the droplet to appear again. Easy peasy.
-
-## **Snapshots**
-
-A snapshot is a one-time memory save that you can manually do anytime. The process is very similar to Backups.
-
-1\. At Digital Ocean, select **Backups & Snapshots**.
-
-2\. Select the **Snapshots** tab. Select your **droplet**, enter a **snapshot file name**. Select **Take Snapshot**.
-> 🤔 Advice: we saved it with the current date (i.e. 2024-11-06-documentation-day).
-
-![Capture of DigitalOcean, Manage, Backups & Snapshots page. "Snapshots", with the droplet name blurred.  "Take Snapshot" highlighted in purple.](img/backups/image6.png)
-
-Notification that saving is in progress.
-
-![Capture of DigitalOcean, Manage, Backups & Snapshots page. For Snapshots, a blue progress bar shows the progress of saving the droplet.](img/backups/image7.png)
-
-Notification that saving is done: Snapshot created. On the Droplets tab, your saved snapshot will appear. At Droplets: the snapshot name, the file size, which region it was saved to (by default it is saved to the same region where you chose to have your original droplet/cluster with DO), when it was created, and a More dropdown menu.
-
-![Capture of DigitalOcean, Manage, Backups & Snapshots, Shapshots page. Notification briefly appears in upper right corner with green text.](img/backups/image8.png)
-
-## **Restoring your Hubs data from a Snapshot**
-
-1\. To restore, from the Snapshots tab, Droplets tab, select **More** dropdown menu. Select **Restore Droplet**.
-
-![Capture of DigitalOcean, Manage, Backups & Snapshots, Snapshots tab. More menu highlighted in purple. Choices are Rename, Create Droplet, Add to region, Transfer Snapshot, Restore Droplet, and Delete. "Restore Droplet" is highlighted in purple.](img/backups/image9.png)
-
-Notification box: Are you sure that you want to restore \[your old droplet\] from \[your saved snapshot\]? Note: restoring will replace the current Droplet with an older image.
-
-2\. Select **Restore Droplet**.
-
-![Capture of DigitalOcean, Manage, Backups & Snapshots page. "Snapshots" tab. Restore droplet popup with "Restore droplet" blue button highlighted in purple.](img/backups/image10.png)
-
-Notification that Restoring is in progress.
-
-![Capture of DigitalOcean, Manage, Backups & Snapshots, Snapshots page. Notification of "Restoring" on right side of page highlighted in purple.](img/backups/image11.png)
-
-All done! Notification: Droplet Restored from Snapshot.
-
-![Capture of DigitalOcean, Manage, Backups & Snapshots, Snapshots page. Notification of "Restoring" on right side of page highlighted in purple.](img/backups/image12.png)
-
-## **After Restoring**
-
-It will take a short while for everything to be restored. DO might indicate that the droplet is available and running but it takes a few minutes for Hubs to restart itself.  If you try your Hubs immediately, you will get broken webpages.
-
-## **FAQs for Backups**
-
-### What about SnapShooter?
-
-SnapShooter is a service offered by DO that will take care of all backups for you. As one Community Member put it, it lets your money do the work for you. In our testing, the cheapest workable option for Hubs instances would be $66/month. If you like setting things once and then forgetting about it, this service would work.
-
-However, the process to setup and restore from either Backups or Snapshots is not hard to do, comparatively.
+   ![Capture of Terminal window, error code repeating "Unhandled error"](img/backups/image6.png)  
