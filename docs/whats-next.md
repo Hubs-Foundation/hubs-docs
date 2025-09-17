@@ -230,7 +230,7 @@ Updating your Hubs deployment scripts from the repository at Github (the zip fil
 
 ## **Persistent Storage for Hubs on DigitalOcean**
 
-As of September 2025, your data will be stored safely in Volumes Block Storage, rather than on the node itself.  You can see the volumes (think hard drives) in DigitalOcean by selecting  Volumes Block Storage in the MANAGE menu.  These are managed by you via kubectl, so looky no touchy here, unless you are cleaning up unattached volumes.
+For an instance installed or updated as of September 2025, your data will be stored safely in Volumes Block Storage, rather than on the node itself.  You can see the volumes (think hard drives) in DigitalOcean by selecting  Volumes Block Storage in the MANAGE menu.  These are managed by you via kubectl, so looky no touchy here, unless you are cleaning up unattached volumes.
 
 ![Capture of DigitalOcean, Manage, Volumes Block Storage section. Two named volumes are attached to a Droplet.](img/whatsnext/image10.png)
 
