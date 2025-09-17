@@ -19,7 +19,7 @@ These instructions are written for users, newbies, or non-developers. This Hubs 
 
 This Hubs build at DO supports 30-60 maximum concurrent users. Of course, heavy concurrent use *can* lower that number. YMMV
 
-The cost is US$36 per month minimum, plus ~US$1 annual for the first year domain (August 2024 prices).
+The cost is $38 USD per month minimum, plus ~$1 USD annual for the first year domain (August 2025 prices).
 
 Scaleway provides you magic link log-in emails (SMTP), and Porkbun provides a web domain with DNS service.
 
