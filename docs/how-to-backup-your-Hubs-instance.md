@@ -18,7 +18,7 @@ A backup of your Hubs instance stores all of those files into one directory that
 
 ## **How to do a backup**
 
-1. Open VS Code. Make sure you are in the community-edition folder. This is similar to [the Beginner's Guide, Step 12h](https://docs.hubsfoundation.org/beginners-guide-to-CE.html#12-generate-your-config-file). 
+1. Open VS Code. Make sure you are in the community-edition folder. This is similar to [the Beginner's Guide, Step 12h](https://docs.hubsfoundation.org/beginners-guide-to-CE.html#12-generate-your-config-file).
 
    ![Capture of VS Code, Terminal window, community-edition folder.](img/backups/image1.png)  
 
@@ -40,7 +40,7 @@ A backup of your Hubs instance stores all of those files into one directory that
 
 ## **How to restore a backup**
 
-1. Open VS Code. Be sure to be in the community-edition folder. These instructions will, by default, restore the latest or most recent backup. 
+1. Open VS Code. Be sure to be in the community-edition folder. These instructions will, by default, restore the latest or most recent backup.
 
 2. Enter   
      
@@ -60,12 +60,9 @@ A backup of your Hubs instance stores all of those files into one directory that
 
    ![Capture of VS Code, Terminal window, text "instance restarted" highlighted.](img/backups/image5.png)
 
-Your instance is back up and running. All of your data should be there. Close VS Code.
+:tada: Your instance is back up and running. All of your data should be there. Close VS Code.
 
-
-## **After Restoring**
-
-It will take a short while for everything to be restored. It takes a few minutes for Hubs to restart itself.
+Note: It will take a short while for everything to be restored. It takes a few minutes for Hubs to restart itself.
 
 ## **FAQs for Backups**
 
