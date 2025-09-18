@@ -70,7 +70,7 @@ Additional object properties can be set in the properties panel. This includes t
 
 Objects are added to Spoke and can be customized by changing their properties. Different types of objects have different properties available to them (for example, a light will have an "intensity" property, but a 3D model won’t). Most objects will have transform properties, which represent the physical position in the space.
 ## Assets Panel
-![Assets Panel](img/spoke-assets-panel.jpeg)
+![Capture of Spoke interface, Assets Panel. Boxes for assets include model, image, and link.](img/spoke-assets-panel.png)
 
 You can find content to add to your scene in the assets panel. You can click on assets to add them to the scene. Assets can also be dragged from the assets panel and dropped onto the viewport, hierarchy panel, or properties panel. 
 
@@ -85,28 +85,43 @@ Elements are the basic building blocks in Spoke. You'll find lights, media, spaw
 Upload and search your own 3D models, images, videos, and audio.
 
 #### Architecture Kit
+> This has not yet been implemented for Hubs Cloud Community Edition.
+
 The Architecture Kit contains pieces that can be put together to construct a wide variety of structures. This kit contains floors, walls, stairs, and more.
 
 #### Rock Kit
+> This has not yet been implemented for Hubs Cloud Community Edition.
+
 The Rock Kit contains a collection of realistic rock models that can be used to add detail to terrain, construct platforms, or anything else you might need a rock for.
 
 #### Sketchfab
 Sketchfab is an online marketplace for 3D models. It contains a wide variety of high quality models to help you fill out your scene.
+Searching for “game ready”, “low-poly”, or “Mozilla Hubs” will find a number of optimized models.
 
-#### Google Poly
-Google Poly is another source for 3D models. Most models are in a flat low poly style.
+> 💡The administrator of your instance must have generated an API key, and configured the instance with it, for this to work.
+
 
 #### Bing Images
+> This has not yet been implemented for Hubs Cloud Community Edition.
+
 Search Bing for images from around the web.
 
 #### Bing Videos
+> This has not yet been implemented for Hubs Cloud Community Edition.
+
 Search Bing for videos from around the web.
 
-#### Twitch
-Find live streams of games and more on Twitch.
+[//]: # (#### Twitch)
+
+[//]: # (Find live streams of games and more on Twitch.)
+
+#### Hubs Sound Pack
+> This has not yet been implemented for Hubs Cloud Community Edition.
 
 #### Tenor Gifs
 Find animated gifs to add to your scene on Tenor.
+
+> 💡The administrator of your instance must have generated an API key, and configured the instance with it, for this to work.
 
 ## Experimental Features
 
