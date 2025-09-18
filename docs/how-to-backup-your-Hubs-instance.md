@@ -60,7 +60,7 @@ A backup of your Hubs instance stores all of those files into one directory that
 
    ![Capture of VS Code, Terminal window, text "instance restarted" highlighted.](img/backups/image5.png)
 
-:tada: Your instance is back up and running. All of your data should be there. Close VS Code.
+Your instance is back up and running. All of your data should be there. Close VS Code.
 
 Note: It will take a short while for everything to be restored. It takes a few minutes for Hubs to restart itself.
 
