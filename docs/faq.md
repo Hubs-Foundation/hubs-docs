@@ -63,9 +63,9 @@ You might need to either fight with your cookies to get that worked out OR just 
 
 ## **DigitalOcean**
 
-### Why do the instructions say US$ 36 per month minimum?
+### Why do the instructions say US$38 per month minimum?
 
-DigitalOcean’s single node option is US$24 per month and this is their lowest price offering. They also charge a mandatory extra US$12 per month for load balancing. So $24 plus $12 equals $36.
+DigitalOcean’s single node option is US$24 per month and this is their lowest price offering. They also charge a mandatory extra US$12 per month for load balancing. Plus $2 per month for data storage. So $24 plus $12 plus $2 equals $38.
 
 We are still working on estimating what a 1 hour meetup in Hubs for 5-6 people would cost.
 
@@ -97,29 +97,6 @@ Yes. According to [DO documentation on APIs](https://docs.digitalocean.com/refer
 
 The pods need to be rebuilt at DO. You need to delete your deployment at DO and apply again. In the Beginner’s Guide, this is Step 13 c (delete deployment), d (apply deployment), and e (get deployment).
 
-### At Step 13, I have FailedScheduling and/or unbound immediate PersistentVolumeClaims messages.
-
-Note: This is a technical fix. Stop by a live event for assistance if you need help running these commands.
-
-![Capture from VS Code, terminal window. Notification includes language like Warning Failed Scheduling and Normal Not Trigger Scale Up.](img/faq/image2.png)
-
-This image shows the default-scheduler and cluster-autoscaler (which control the pgsql and reticulum pods) have not started up.
-
-To resolve this, restart your pods by entering each of these commands in a Command prompt:
-
-```shell
-kubectl delete --all pods -n hcce
-
-kubectl delete pvc pgsql-pvc -n hcce
-
-kubectl delete pv pgsql-pv -n hcce
-
-kubectl delete pvc ret-pvc -n hcce
-
-kubectl delete pv ret-pv -n hcce
-
-kubectl apply -f hcce.yaml
-```
 
 ### Checking that my SMTP is reachable from my Kubernetes cluster.
 
@@ -202,9 +179,6 @@ If it's not sendable, the command will hang for a long time and there will be no
 
 For general testing of what your SMTP server accepts, **swaks** ([https://jetmore.org/john/code/swaks/](https://jetmore.org/john/code/swaks/)) is a general-purpose tool that can connect using TLS and authenticate with the SMTP server. It requires perl which is not available in Kubernetes nodes of Hubs, but is installed on most *nix machines.
 
-### What about persistent volumes?
-
-Persistent volumes allow for your Hubs to save scenes, avatars, and room object data. This installation uses 10 GB for persistent volumes and there is plenty of space for that within the 80 GB in the one node DO recommendations: 4GB total RAM / 2 vCPUs / 80 GB storage (June 2024 specifications).
 
 ### Installing doctl for Mac and Linux
 
@@ -222,9 +196,42 @@ Try turning your Droplet off and on again in DigitalOcean, and then running this
 kubectl rollout restart deployment -n hcce
 ```
 
-### I’m interested in automatic backups. How can I do this with DO?
 
-We’ve investigated SnapShooter, which is a service within DO.
+## **Persistent Volume Data Storage**
+
+### What about persistent volumes?
+
+Persistent volumes allow for your Hubs to save scenes, avatars, and room object data. This installation uses two 10 GB for persistent volumes. You can upgrade (use more, buy more of) this storage later. Note: we have not tested this at DigitalOcean. We recommend that you backup before attempting this.
+
+### Deletion Warning
+
+With the persistent storage on the volume block storage, running kubectl delete -f hcce.yaml will delete your data. 
+
+Technical Note: If the default StorageClass has a Reclaim Policy of Retain, the volumes will remain, but will no longer be attached. This can be changed in the input-values.yaml file with the PERSISTENT_STORAGE_VOLUME_CLASS. The volumes will retain after the delete command and they will be listed as unattached volumes.
+
+### At Step 13, I have FailedScheduling and/or unbound immediate PersistentVolumeClaims messages.
+
+Note: This is a technical fix. Stop by a live event for assistance if you need help running these commands. This is a partial delete of your Hubs instance. You will be deleting your persistent volumes where your data is stored. We've only seen this error with brand new instances where no data would be lost anyways.
+
+![Capture from VS Code, terminal window. Notification includes language like Warning Failed Scheduling and Normal Not Trigger Scale Up.](img/faq/image2.png)
+
+This image shows the default-scheduler and cluster-autoscaler (which control the pgsql and reticulum pods) have not started up.
+
+To resolve this, restart your pods by entering each of these commands in a Command prompt:
+
+```shell
+kubectl delete --all pods -n hcce
+
+kubectl delete pvc pgsql-pvc -n hcce
+
+kubectl delete pv pgsql-pv -n hcce
+
+kubectl delete pvc ret-pvc -n hcce
+
+kubectl delete pv ret-pv -n hcce
+
+kubectl apply -f hcce.yaml
+```
 
 ## **Kubernetes and kubectl versions**
 
