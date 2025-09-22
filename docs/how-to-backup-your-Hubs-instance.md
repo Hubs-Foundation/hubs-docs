@@ -4,7 +4,7 @@ id: how-to-backup-your-Hubs-instance
 
 title: How to back up your Hubs instance
 
-description: Information on how to backup and restore your Kubernetes node on DigitalOcean, and thereby your Hubs instance.
+description: Information on how to backup and restore your Hubs instance.
 
 ---
 
