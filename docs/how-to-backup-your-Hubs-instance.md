@@ -8,7 +8,7 @@ These instructions are written for users, newbies, or non-developers.
 
 ### Why would I need to create backups of my Hubs instance?
 
-Backups allow you to have copies so that you can restore your Hubs instance in case anything goes wrong. This will save all of your instance, things like your avatars, and your projects in Spoke, your assets in Spoke, and will save pinned objects in room in the location where you pinned them.
+Backups allow you to have copies so that you can restore your Hubs instance in case anything goes wrong. This will save all of your instance, things like your avatars, and your projects in Spoke, your assets in Spoke, and pinned objects in room in the location where you pinned them.
 
 A backup of your Hubs instance stores all of those files into one directory that you can restore from at any time.
 
