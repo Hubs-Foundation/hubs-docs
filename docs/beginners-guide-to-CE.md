@@ -320,7 +320,7 @@ So a $24 choice here will be $24 + $12 a month for a total of $36 a month.
 
 h. For Nodes: Select **the negative sign to reduce this from 3 to 1**.
 
-> 🤔 Advice:  One node is enough. **Warning:** if you increase the nodes to 2 or more, you will need to [set up external storage](https://hominidsoftware.com/tech-personal-growth/Hubs-on-DigitalOcean/) to prevent data loss.
+> 🤔 Advice:  One node is enough.
 
 Note: This warning should have changed to: You are near the 3 Droplet limit on your account. Request increase. You can continue to ignore this warning.
 
