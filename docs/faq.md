@@ -65,9 +65,7 @@ You might need to either fight with your cookies to get that worked out OR just 
 
 ### Why do the instructions say US$38 per month minimum?
 
-DigitalOcean’s single node option is US$24 per month and this is their lowest price offering. They also charge a mandatory extra US$12 per month for load balancing. Plus $2 per month for data storage. So $24 plus $12 plus $2 equals $38.
-
-We are still working on estimating what a 1 hour meetup in Hubs for 5-6 people would cost.
+DigitalOcean’s single node option is US$24 per month and this is their lowest price offering. They also charge a mandatory extra US$12 per month for load balancing. Plus $2 per month for 10 Gigabytes of data storage. So $24 plus $12 plus $2 equals $38.
 
 ### I don’t see my $200 credit on my account with DigitalOcean.
 
