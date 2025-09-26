@@ -8,9 +8,9 @@ These instructions are written for users, newbies, or non-developers.
 
 ### Why would I need to create backups of my Hubs instance?
 
-Backups allow you to have copies so that you can restore your Hubs instance in case anything goes wrong. This will save all of your instance, things like your avatars, and your projects in Spoke, your assets in Spoke, and pinned objects in room in the location where you pinned them.
+Backups allow you to have copies so that you can restore your Hubs instance in case anything goes wrong or shut down your Hubs instance and later set it up again like it was. This will save all of your instance, things like your avatars, and your projects in Spoke, your assets in Spoke, and will save pinned objects in room in the location where you pinned them.
 
-A backup of your Hubs instance stores all of those files into one directory that you can restore from at any time.
+A backup of your Hubs instance stores all of those files into one directory on your local computer that you can restore from at any time.
 
 ## **How to do a backup**
 
@@ -37,7 +37,9 @@ A backup of your Hubs instance stores all of those files into one directory that
 
 ## **How to restore a backup**
 
-1. Open VS Code. Be sure to be in the community-edition folder. These instructions will, by default, restore the latest or most recent backup.
+1. Open VS Code. Make sure you are in the community-edition folder. This is similar to [the Beginner's Guide, Step 12h](https://docs.hubsfoundation.org/beginners-guide-to-CE.html#12-generate-your-config-file).
+
+   ![Capture of VS Code, Terminal window, community-edition folder.](img/backups/image1.png)
 
 2. Enter
 
