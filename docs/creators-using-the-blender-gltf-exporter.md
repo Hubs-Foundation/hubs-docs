@@ -28,7 +28,7 @@ It's easy to scale things in Blender and then forget to **apply that scale (CTRL
 
 **+ Object should be at or near the world origin (0, 0, 0)**
 
-Not having your object near the origin of the world is a very common problem with models that come from third party sites like Sketchfab or Google Poly, especially if they are animated. You can tell you're having this problem when your model gets dropped into Hubs and it is far from where the loading cube was located.
+Not having your object near the origin of the world is a very common problem with models that come from third party sites like Sketchfab, especially if they are animated. You can tell you're having this problem when your model gets dropped into Hubs and it is far from where the loading cube was located.
 
 **+ Apply any modifiers that you want to see**
 

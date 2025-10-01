@@ -30,7 +30,7 @@ Very large, detailed images and videos can reduce performance on the web. If you
 
 Complex 3D models can cause performance challenges in your scenes. Two main factors contribute to an object's complexity, firstly, the texture assets in a model, secondly, the number of triangles in the model itself. Typically the more realistic a model appears, the more complex the model is (although this is not always the case). 
 
-3D models found using the Sketchfab and Google Poly browser in Spoke and Hubs are already filtered based on objects' sizes/complexity. However, if you want to improve the performance of another downloadable model, you can either reduce the objects texture size, or you can reduce the number of triangles. You can use a tool like [Blender]() to do this. 
+3D models found using the Sketchfab browser in Spoke and Hubs are already filtered based on objects' sizes/complexity. However, if you want to improve the performance of another downloadable model, you can either reduce the objects texture size, or you can reduce the number of triangles. You can use a tool like [Blender]() to do this.
 
 #### Reduce texture size
 
