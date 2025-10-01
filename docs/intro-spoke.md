@@ -19,7 +19,7 @@ No external software or 3D modeling experience required &mdash; build 3D scenes 
 
 ## 🔭 Discover
 
-Explore images, videos, and 3D models from around the web, all without opening up a new tab. With media integrations from Sketchfab and Google Poly, you'll be on your way to creating a scene in no time.
+Explore images, videos, and 3D models from around the web, all without opening up a new tab. With media integrations from Sketchfab, you'll be on your way to creating a scene in no time.
 
 ## 🎉 Share
 

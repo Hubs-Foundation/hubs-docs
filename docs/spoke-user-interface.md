@@ -111,10 +111,6 @@ Search Bing for images from around the web.
 
 Search Bing for videos from around the web.
 
-[//]: # (#### Twitch)
-
-[//]: # (Find live streams of games and more on Twitch.)
-
 #### Hubs Sound Pack
 > This has not yet been implemented for Hubs Cloud Community Edition.
 

@@ -44,10 +44,6 @@ Create a [Azure Cognitive Services](https://azure.microsoft.com/en-us/services/c
 
 Note: these APIs are **not free** above 1000 transactions per month. You will be charged for their usage by your Hubs Cloud instance in your Azure account.
 
-### Twitch
-
-Sign up as a [Twitch Developer](https://dev.twitch.tv/) and [Get a Client ID](https://dev.twitch.tv/docs/v5).
-
 ### Twitter
 
 Enable visitors to tweet out videos and photos they've taken.
