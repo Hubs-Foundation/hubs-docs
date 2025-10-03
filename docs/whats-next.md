@@ -230,11 +230,11 @@ Updating your Hubs deployment scripts from the repository at Github (the zip fil
 
 ## **Persistent Storage for Hubs on DigitalOcean**
 
-Community member Doug Reeder has written [a guide](https://hominidsoftware.com/tech-personal-growth/Hubs-on-DigitalOcean/) for customizing the persistent storage for Hubs on DigitalOcean. Note: this guide is not written for beginners but if you need help, please ask in Discord.
+For an instance installed or updated as of September 2025, your data will be stored safely in Volumes Block Storage, rather than on the node itself.  You can see the volumes (think hard drives) in DigitalOcean by selecting  Volumes Block Storage in the MANAGE menu.  These are managed by you via kubectl. You can see them on the DO website but there are few actionable options available, unless you are cleaning up unattached volumes.
 
-## **Backups**
+![Capture of DigitalOcean, Manage, Volumes Block Storage section. Two named volumes are attached to a Droplet.](img/whatsnext/image10.png)
 
-DO does provide a system to save backups at our [How to backup your Hubs instance instructions](./how-to-backup-your-Hubs-instance.md).
+Note: Backups and snapshots at DO will not work with this persistent storage.  See our [How to backup your Hubs instance](./how-to-backup-your-Hubs-instance.md) instructions for how to do that.
 
 ## **Generating new SSL Certificates**
 

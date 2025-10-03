@@ -1,6 +1,7 @@
 ---
 id: beginners-guide-to-CE
 title: Beginner’s Guide to CE
+description: A detailed guide on how to set up a Hubs Community Edition instance.
 ---
 
 These instructions are written for users, newbies, or non-developers. This Hubs Community Edition installation uses Scaleway for an email service, Porkbun for a web domain, and DigitalOcean (DO) for hosting. If you vary from this path, your mileage may vary (YMMV).
@@ -18,7 +19,7 @@ These instructions are written for users, newbies, or non-developers. This Hubs 
 
 This Hubs build at DO supports 30-60 maximum concurrent users. Of course, heavy concurrent use *can* lower that number. YMMV
 
-The cost is US$36 per month minimum, plus ~US$1 annual for the first year domain (August 2024 prices).
+The cost is $38 USD per month minimum, plus ~$1 USD annual for the first year domain (August 2025 prices).
 
 Scaleway provides you magic link log-in emails (SMTP), and Porkbun provides a web domain with DNS service.
 
@@ -39,7 +40,7 @@ We estimate that proficient users might get this done in 45 minutes to 2 hours. 
 
 ### How much will this cost?
 
-We estimate US$1 per year for the first year of a domain and US$36 per month minimum. Your email SMTP service might be free or might cost a small amount of money (US$1-$5 per month). It might be safe to estimate US$40 per month.
+We estimate $1 USD per year for the first year of a domain and ~$5 USD for renewals each year.  ~$38 USD per month minimum for the services at DigitalOcean (this will include 1 node - $24 USD, 1 load balancer - $12 USD, and ~$2 USD for storage, one dollar for each 10 Gi volume). Your email SMTP service might be free or might cost a small amount of money ($1-$5 USD per month). It might be safe to estimate $40 USD per month.
 
 ### Got questions?
 
@@ -319,7 +320,7 @@ So a $24 choice here will be $24 + $12 a month for a total of $36 a month.
 
 h. For Nodes: Select **the negative sign to reduce this from 3 to 1**.
 
-> 🤔 Advice:  One node is enough. **Warning:** if you increase the nodes to 2 or more, you will need to [set up external storage](https://hominidsoftware.com/tech-personal-growth/Hubs-on-DigitalOcean/) to prevent data loss.
+> 🤔 Advice:  One node is enough.
 
 Note: This warning should have changed to: You are near the 3 Droplet limit on your account. Request increase. You can continue to ignore this warning.
 

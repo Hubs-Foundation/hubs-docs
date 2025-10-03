@@ -2,6 +2,7 @@
 id: admin-importing-content
 title: Importing Content
 sidebar_label: Importing Content
+description: Details the ways you can add content to your Hubs instance.
 ---
 
 The two forms of content you can import into Community Edition are **avatars** and **scenes**. Avatars are 3D figures like robots, humans, and ducks that can be worn by visitors to represent themselves, and scenes are 3D environments like interiors and landscapes that provide visual grounding for a room.

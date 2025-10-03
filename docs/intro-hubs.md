@@ -47,7 +47,7 @@ Take a moment to take a look around the user interface. You can mute your mic, t
 
 ### Import Media
 
-In Hubs you can import 3D models, images, videos and PDFs from all over the web including SketchFab, Google Poly, SoundCloud, Vimeo, Twitch, Crunchyroll, and more. 
+In Hubs you can import 3D models, images, videos and PDFs from all over the web including SketchFab, SoundCloud, Vimeo, Crunchyroll, and more.
 
 Try searching for content in the Media Browser (the magic wand button at the top of the screen). 
 

@@ -2,6 +2,7 @@
 id: hubs-cloud-aws-troubleshooting
 title: AWS Troubleshooting
 sidebar_label: AWS Troubleshooting
+description: Problems (and their solutions) that you might run into with your Hubs Cloud instance on AWS.
 ---
 
 ## Deployment
