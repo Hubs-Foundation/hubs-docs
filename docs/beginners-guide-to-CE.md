@@ -526,13 +526,13 @@ c. Enter these values as described below. Warning: Only change the lines that yo
 
   <ul>
 
-  a. Server -> SMTP_SERVER: paste in **the server** you saved from Step 6 Set up SMTP email service, Part 4, Step 1.
+  a. Server -> SMTP_SERVER: paste in **the server** you saved from Step 6 Set up SMTP email service, Part 4, Step 24a.
 
   b. Port -> SMTP_PORT: enter **2587**
 
-  c. Username -> SMTP_USER: paste in the **Username** you saved from Step 6, Set up SMTP email service Part 4, Step 1
+  c. Username -> SMTP_USER: paste in the **Username** you saved from Step 6, Set up SMTP email service Part 4, Step 24d.
 
-  d. Password -> SMTP_PASS: paste in the **Secret Key** you saved from Step 6 Set up SMTP email, Part 4, Step 15.
+  d. Password -> SMTP_PASS: paste in the **Secret Key** you saved from Step 6 Set up SMTP email, Part 4, Step 37.
   > 💡 Tip: Make sure you are using your Scaleway Username and Secret Key, not your Access Key ID.
 
 </ul>
