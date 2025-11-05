@@ -1,10 +1,10 @@
 ---
 id: set-up-SMTP-email-service
 title: Set up SMTP email service
-description: Instructions on how to set up a simple mail transfer protocol (SMTP) email service to verify user accounts. Details include setting up an account at Scaleway, connecting it to Porkbun for domain verification and generating an API token. These items are needed for setting up your own Hubs instance
+description: Instructions on how to set up a simple mail transfer protocol (SMTP) email service to verify user accounts. Details include setting up an account at Scaleway, connecting it to Porkbun for domain verification and generating an API token. These items are needed for setting up your own Hubs instance.
 ---
 
-Hubs software needs to send out emails with magic links to verify that your visitors are real people and \*not\* sentient AI bots here to destroy humanity. 🤖 
+Hubs software needs to send out emails with magic links to verify that your visitors are real people and \*not\* sentient AI bots here to destroy humanity. 🤖
 
 If there are emails that need to be sent, there needs to be a controlling entity that does the work of sending the emails around. You will control that email service.
 
@@ -13,9 +13,9 @@ If there are emails that need to be sent, there needs to be a controlling entity
 * Your admin email is the main email account you have been using to set up accounts. It will control your Hubs. To help you, we have tried to refer to your controlling email as your admin email. Your admin email could be hosted nearly anywhere (work email, home email, etc.). We used gmail in our testing.  
 * This set of instructions (Set up SMTP email service) is about setting up the magic link emails. These are the automatic emails sent via SMTP services when a user tries to log into Hubs.
 
-You can pick any email service that provides SMTP. These instructions will use Scaleway. 
+You can pick any email service that provides SMTP. These instructions will use Scaleway.
 
-Scaleway offers a free service for 300 emails maximum per month. \(See our [FAQs](https://docs.google.com/document/d/17TSXEuisDYRl8MEJIbv_envxqoEm3f3Z_E9U3Ci7_oU/pub) if you need more than 300 emails per month.)  We find this reasonable. Additionally, Scaleway is based in France, [has a satisfactory Privacy Policy](https://www.scaleway.com/en/privacy-policy/), and has [an environmentally-friendly approach](https://www.scaleway.com/en/about-us/).
+Scaleway offers a free service for 300 emails maximum per month. (See our [FAQs](./faq.html#i-need-more-than-300-emails-per-month) if you need more than 300 emails per month.)  We find this reasonable. Additionally, Scaleway is based in France, [has a satisfactory Privacy Policy](https://www.scaleway.com/en/privacy-policy/), and has [an environmentally-friendly approach](https://www.scaleway.com/en/about-us/).)
 
 ## **Part 1 Set up an account at Scaleway**
 
@@ -53,21 +53,21 @@ Scaleway account registration email:
 
 <a id="part-1-step-8">8\.</a> To use SMTP services from Scaleway, you must validate a payment method. Scaleway only has a pay by credit card option. For Enter your billing information, **enter your credit card number, expiration date, CVV or CVC, Name on card,** and select **Add payment method.**
 
-There will be a notification that your account is free, however, Scaleway will charge you a one (1) euro charge that you will need to use to verify the billing connection between Scaleway and your payment source. 
+There will be a notification that your account is free, however, Scaleway will charge you a one (1) euro charge that you will need to use to verify the billing connection between Scaleway and your payment source.
 
-![Capture of Scaleway Add your payment method page. Card number, Expiration date, Expiration date, CVV/CVC, and Name on card fields, and Add payment method button are highlighted.](img/smtp/image9.png)
+![Capture of Scaleway Add your payment method page. Card number, Expiration date, CVV/CVC, and Name on card fields, and Add payment method button are highlighted.](img/smtp/image9.png)
 
 This is an example Mastercard credit card confirmation screen.
 
 ![Capture of Mastercard credit card confirmation screen. Text explains that the receiver at a phone number will receive a text with verification code. "Continue" button in blue is in the low center of the page.](img/smtp/image10.png)
 
-Note: Scaleway requests Enter the 4-digit code included in the temporary one euro charge ID. It will be similar to this format: SCW\* C-7699. This can be a problematic step. In our testing, it worked fine for one user, showing up immediately in a text alert and also as a pending charge at the credit card account site. The four digit code in this example was 4550\.
+Note: Scaleway requests Enter the 4-digit code included in the temporary one euro charge ID. It will be similar to this format: SCW\* C-7699. This can be a problematic step. In our testing, it worked fine for one user, showing up immediately in a text alert and also as a pending charge at the credit card account site. The four digit code in this example was 4550.
 
 Text:
 
 ![Capture of an example text notification of Scaleway charge with example verification code of C-4550.](img/smtp/image11.png)
 
-Pending charge at credit card site:  
+Pending charge at credit card site:<br>
 ![Capture of credit card site details of Scaleway charge showing the verification code of C-4550 in the Description field.](img/smtp/image12.png)
 
 If the 4-digit code does not show on your transaction, you may need to contact your bank or credit card company.![Capture of Scaleway confirmation page to submit the verification code. Instructions indicate that the code is the transaction label. For example, from the prior captures, the code would be 4550.](img/smtp/image13.png)
@@ -84,7 +84,7 @@ If the 4-digit code does not show on your transaction, you may need to contact y
 
 ![Capture of Scaleway, Project use case, Configure your Project Dashboard page. Other or I don't know and Start working are highlighted.](img/smtp/image15.png)
 
-This what the Scaleway Console page could look like:
+This is what the Scaleway Console page could look like:
 
 ![Capture of Scaleway Console. Project HubsCEproject shown with tabs for Overview, Settings, and SSH keys.](img/smtp/image16.png)
 
@@ -108,11 +108,11 @@ This what the Scaleway Console page could look like:
   
   > 💡Tip: You can enter zero here OR whatever you think you’ll need beyond 300 emails. In our example, we entered 5\. 
 
-  c. Select **Validate domain name**. 
+  c. Select **Validate domain name**.
 
 ![Capture of Scaleway, Add your domain page. Domain name, Monthly number of emails, and Validate domain name are highlighted.](img/smtp/image19.png)
 
-14\. At Verification, Choose your configuration mode, Configure your DNS records manually may be default selected. That is OK.
+14\. At Verification, **Choose your configuration mode**, **Configure your DNS records manually** may be default selected. That is OK.
 
 > 💡Tip: Scaleway says “The verification of your domain might take 48 hours.” We found that it was quick.
 
@@ -124,21 +124,21 @@ Lower on this same page, Scaleway shows the Add SPF record, Add DKIM record, Add
 
 Now you will add in the SPF, DKIM, MX, and DMARC records from Scaleway to Porkbun DNS records.
 
-15\. Log into [Porkbun.com](https://porkbun.com/), if you are not already logged in. Under ACCOUNT, select **Domain Management.**
+15\. Log into [Porkbun.com](https://porkbun.com/), if you are not already logged in. Under ACCOUNT, select **Domain Management**.
 
 ![Capture of Porkbun Account page, Domain Management from drop down menu.](img/smtp/image21.png)
 
-16\. For your domain, select **Details**. 
+16\. For your domain, select **Details**.
 
-![Capture of Porkbun Domain Management page. "Details" button to the right bottom is highlighted in purple.](img/smtp/image22.png)
-
+![Capture of Porkbun Domain Management page. Details button to the right bottom is highlighted in purple.](img/smtp/image22.png)
+ 
 17\. Select **DNS Records** (the active link is the little edit symbol).
 
-![Capture of Porkbun, Domain Management, Details page. "DNS Records" pop out button is highlighted in purple.](img/smtp/image23.png)
+![Capture of Porkbun, Domain Management, Details page. DNS Records pop out button is highlighted in purple.](img/smtp/image23.png)
 
 Your DNS Records popup, the top will look like this:
 
-![Capture of Porkbun Manage DNS Records popup page. Fields for Type, Host, Answer, and TTL are empty. "Add" blue button is at lower right of popup.](img/smtp/image24.png)
+![Capture of Porkbun Manage DNS Records popup page. Fields for Type, Host, Answer, and TTL are empty. Add blue button is at lower right of popup.](img/smtp/image24.png)
 
 At the bottom of the popup, you should have 2 existing default records, possibly with the word “pixie” in them.
 
@@ -146,21 +146,23 @@ At the bottom of the popup, you should have 2 existing default records, possibly
 
 18\. Delete any records that have “pixie” in them. Select **the trashcan icon.** Porkbun will not need them.
 
-![Capture of Porkbun Manage DNS Records popup page. Example of why and how to delete any default DNS records that Porkbun has already made. A trashcan icon the right is highlighted with an arrow.](img/smtp/image26.png) 
+![Capture of Porkbun Manage DNS Records popup page. Example of why and how to delete any default DNS records that Porkbun has already made. A trashcan icon is highlighted with an arrow.](img/smtp/image26.png) 
 
 19\. Now, you will copy and paste *from* Scaleway *to* Porkbun. 
 
-You will cut and paste entries for each of 4 entries: 1 for SPF, 1 for DKIM, 1 for MX, and 1 for DMARC. > > 💡 Tip: You may want to have 3 screens simultaneously open on your computer: 1\. These instructions 2\. Scaleway 3\. Porkbun
+You will cut and paste entries for each of 4 entries: 1 for SPF, 1 for DKIM, 1 for MX, and 1 for DMARC. 
+
+> 💡 Tip: You may want to have 3 screens simultaneously open on your computer: 1. These instructions 2. Scaleway 3. Porkbun
 
 ## SPF
 
-1\. At Porkbun, at the top of the DNS Records popup, at the Type menu, select **TXT** (see second capture below).  
-2\. At Porkbun, leave **Host** blank.  
-3\. At Scaleway, copy the **Value**. At Porkbun, paste it into **Answer/Value**.  
-4\. Leave TTL as 600\.  
-5\. Leave Priority blank.  
-6\. For Notes: This is optional. We used Scaleway SPF entry  
-7\. Select **Add.**
+1. At Porkbun, at the top of the DNS Records popup, at the Type menu, select **TXT** (see second capture below).  
+2. At Porkbun, leave **Host** blank.  
+3. At Scaleway, copy the **Value**. At Porkbun, paste it into **Answer/Value**.  
+4. Leave TTL as 600.  
+5. Leave Priority blank.  
+6. For Notes: This is optional. We used Scaleway SPF entry  
+7. Select **Add.**
 
 ![Capture of Scaleway Add a new email domain page, Add SPF record (\#2) section. The copy icon for the Value is highlighted.](img/smtp/image27.png)
 
@@ -172,21 +174,21 @@ The DKIM, MX, and DMARC entries follow the same procedure.
 
 ## DKIM
 
-1\. At Porkbun, from the Type menu, select **TXT.**  
-2\. At Scaleway, copy the **Name data.** At Porkbun, paste it into **Host**.  
-3\. At Scaleway, copy the **Value data**. At Porkbun, paste it into **Answer/Value**.  
-4\. Leave TTL as 600\.  
-5\. Leave Priority blank.  
-6\. For Notes: This is optional. We used Scaleway DKIM entry  
-7\. Select **Add.**
+1. At Porkbun, from the Type menu, select **TXT.**  
+2. At Scaleway, copy the **Name data.** At Porkbun, paste it into **Host**.  
+3. At Scaleway, copy the **Value data**. At Porkbun, paste it into **Answer/Value**.  
+4. Leave TTL as 600.  
+5. Leave Priority blank.  
+6. For Notes: This is optional. We used Scaleway DKIM entry  
+7. Select **Add.**
 
 ### WARNING about DKIM entries and Porkbun
 
 In our testing, we found that Porkbun added an extra domain name to the end of the DKIM record, Host field.
 
-For example, if Scaleway offers this link: 7yadyayayayayayaydydyaady.\_domainkey.mycoolhubs.space
+For example, if Scaleway offers this link: 7yadyayayayayayaydydyaady._domainkey.mycoolhubs.space
 
-Porkbun is going to automatically change it to: 7yadyayayayayayaydydyaady.\_domainkey.mycoolhubs.space.mycoolhubs.space
+Porkbun is going to automatically change it to: 7yadyayayayayayaydydyaady._domainkey.mycoolhubs.space.mycoolhubs.space
 
 This will not work.
 
@@ -202,7 +204,7 @@ At Porkbun, to delete the extra domain (the mycoolhubs.space part) at the end of
 
 **Cut like this from Scaleway** and **paste like this into the Porkbun host field** (notice no domain is after domainkey):
 
-7yadyayayayayayaydydyaady.\_domainkey
+7yadyayayayayayaydydyaady._domainkey
 
 > 💡 Tip: don’t copy the period after domainkey
 
@@ -221,31 +223,31 @@ After either Method 1 or Method 2, to save, select **the floppy disk**.
 Porkbun will then add your domain on the end automatically once you’ve added it. That is fine.
 
 For example, the final displayed result at Porkbun will be:  
-7yadyayayayayayaydydyaady.\_domainkey.mycoolhubs.space
+7yadyayayayayayaydydyaady._domainkey.mycoolhubs.space
 
 ![Capture of Porkbun DNS Management, A records. The A record corrected with domain name.](img/smtp/image34.png)
 
 ## MX
 
-1\. At Porkbun, from the Type menu, select **MX**   
-2\. At Scaleway, there is no **Name data.** Leave **Host** blank.  
-3\. At Scaleway, copy the **Value data**. At Porkbun, paste it into **Answer/Value**.  
-4\. Leave TTL as 600\.  
-5\. Leave Priority blank.  
-6\. For Notes: This is optional. We used Scaleway MX entry  
-7\. Select **Add**.
+1. At Porkbun, from the Type menu, select **MX**   
+2. At Scaleway, there is no **Name data.** Leave **Host** blank.  
+3. At Scaleway, copy the **Value data**. At Porkbun, paste it into **Answer/Value**.  
+4. Leave TTL as 600.  
+5. Leave Priority blank.  
+6. For Notes: This is optional. We used Scaleway MX entry  
+7. Select **Add**.
 
 ## DMARC 
 
-1\. At Porkbun, from the Type menu, select **TXT.**  
-2\. At Scaleway, copy the **Name data.** At Porkbun, paste it into **Host**.  
-3\. At Scaleway, copy the **Value data**. At Porkbun, paste it into **Answer/Value**.  
-4\. Leave TTL as 600\.  
-5\. Leave Priority blank.  
-6\. For Notes: This is optional. We used Scaleway DMARC entry  
-7\. Select **Add**.
+1. At Porkbun, from the Type menu, select **TXT.**  
+2. At Scaleway, copy the **Name data.** At Porkbun, paste it into **Host**.  
+3. At Scaleway, copy the **Value data**. At Porkbun, paste it into **Answer/Value**.  
+4. Leave TTL as 600.  
+5. Leave Priority blank.  
+6. For Notes: This is optional. We used Scaleway DMARC entry  
+7. Select **Add**.
 
-Once your 4 entries are in, the lower part of the page will look similar to this below. 
+Once your 4 entries are in, the lower part of the page will look similar to this below.
 
 >💡 Tip: We added optional ‘Notes’ to our entries. We found that it helped to keep track of what each entry was.
 
@@ -265,7 +267,7 @@ At Scaleway, on the Transactional Email page, you may have a red dot for your do
 
 ![Capture of Scaleway, Transactional Email page. For Domains, the Name field is blurred. There is a small red dot, indicating not verified, to the left of the blurred field.](img/smtp/image38.png)
 
-If you see a notification that your DKIM entry “missing or incorrect DNS records on your domain”, you may check that you entered the data correctly at Porkbun.
+If you see a notification that your DKIM entry is “missing or incorrect DNS records on your domain”, you may check that you entered the data correctly at Porkbun.
 
 Also, make sure you carefully follow the steps within these instructions at Part 3, Step 19 about [DKIM entries](#warning-about-dkim-entries-and-porkbun).
 
@@ -287,25 +289,25 @@ If you have a green dot next to your domain name, it is verified. You will be no
 
 24\. At SMTP configuration, the listed items are shown below. **Copy and save the server, default port, and username somewhere securely.**
 
-   a. Server \- **copy and save**
+   a. Server - **copy and save**
 
-   b. TLS connection ports \- ignore
+   b. TLS connection ports - ignore
 
-   c. Default ports \- **copy and save 2587**  
+   c. Default ports - **copy and save 2587**  
    
    > 🤔 Advice: When collecting email parameters: check what ports your email provider supports for SMTP. The standard ports are 25, 465 and 587, but your Kubernetes provider may block those ports as a spam-fighting measure. If your email provider supports non-standard ports, use one of them. (For Scaleway, use port 2587.)
 
-   d. Username \- **copy and save**
+   d. Username - **copy and save**
 
 ![Capture of Scaleway, domain page, Overview tab, API key and SMTP configuration sections. Server, Default ports, Username are highlighted. Also, Generate an API key for your IAM application is highlighted.](img/smtp/image42.png)
 
-25\. For Password, go to the API key section. Select **Generate an API key for your IAM application.** 
+25\. For Password, go to the API key section. Select **Generate an API key for your IAM application**. 
 
 > 💡 Tip: In case you log off and restart here, you are heading to the Scaleway, Security & Identity menu, IAM section.
 
 ![Capture of Scaleway Console menu. Security & Identify and IAM section are highlighted.](img/smtp/image43.png)
 
-26\. For **Identify and Access Management, Applications tab,** select **Create application.**
+26\. For **Identify and Access Management, Applications tab,** select **Create application**.
 
    ![Capture of Scaleway, Identity and Access Management (IAM) page. Applications tab is highlighted. Create an application is highlighted.](img/smtp/image44.png)
 
@@ -315,7 +317,7 @@ If you have a green dot next to your domain name, it is verified. You will be no
 
    b. For Description, we used My Hubs SMTP application.  
 
-   c. Skip the Enter key value tags and Attach a policy sections.  
+   c. Skip the **Enter key value tags** and **Attach a policy** sections.  
 
    d. Select **Create application**.
 
@@ -333,25 +335,25 @@ If you have a green dot next to your domain name, it is verified. You will be no
 
    c. For key value tags, skip this.  
 
-   d. For Select a principal, select **the drop down menu,** and pick **Application**. Then select **whatever name you created for your application** (in these instructions, [Part 4, Step 27](#part-4-step-27)). For our example, we selected MyHubsCE.  
+   d. For Select a principal, select **the drop down menu**, and pick **Application**. Then select **whatever name you created for your application** (in these instructions, [Part 4, Step 27](#part-4-step-27)). For our example, we selected MyHubsCE.  
 
    e. Select **Add rules**.
 
 ![Capture of Scaleway, Create a Policy page. Enter a name and optional description, Select a principal, and Add rules button are highlighted.](img/smtp/image47.png)
 
-30\. At Create rules, Rule \#1, Scope, select **Access to resources**. At Select or Type Project name, select **All current and future projects**. Select **Validate**.
+30\. At Create rules, Rule #1, Scope, select **Access to resources**. At Select or Type Project name, select **All current and future projects**. Select **Validate**.
 
-![Capture of Scaleway, Create a Policy page. For Rule \#1, Scope, Access to resources is set to All current and future projects and highlighted. Validate button is highlighted.](img/smtp/image48.png)
+![Capture of Scaleway, Create a Policy page. For Rule #1, Scope, Access to resources is set to All current and future projects and highlighted. Validate button is highlighted.](img/smtp/image48.png)
 
-31\. At Create Rules, Rule \#1, Permission sets, in the Products Menu, select **Domains & Web Hosting**, in the Permission sets, select **TransactionalEmailFullAccess.** 
+31\. At Create Rules, Rule #1, Permission sets, in the Products Menu, select **Domains & Web Hosting**, in the Permission sets, select **TransactionalEmailFullAccess.** 
 
-> 🤔 Advice: Be careful to select TransactionalEmailFullAccess. There are other accesses that look very similar, but won’t work\! Select **Validate**.
+> 🤔 Advice: Be careful to select TransactionalEmailFullAccess. There are other accesses that look very similar, but won’t work! Select **Validate**.
 
-![Capture of Scaleway, Rule\#1 page, Permission sets. Domains & Web Hosting, TransactionalEmailFullAccess and the Validate button are highlighted.](img/smtp/image49.png)
+![Capture of Scaleway, Rule #1 page, Permission sets. Domains & Web Hosting, TransactionalEmailFullAccess and the Validate button are highlighted.](img/smtp/image49.png)
 
 32\. In Add a condition using CEL, select **Validate**. (You do not need to change or add anything here.)
 
-![Capture of Scaleway, Rule\#1 page.Validate button is highlighted.](img/smtp/image50.png)
+![Capture of Scaleway, Rule #1 page.Validate button is highlighted.](img/smtp/image50.png)
 
 33\. Select **Create policy.**
 
@@ -367,7 +369,7 @@ If you have a green dot next to your domain name, it is verified. You will be no
 
 36\. At the Generate an API key popup, Generate key, 
 
-a. For Select API key bearer, Select **An application.**
+a. For Select API key bearer, Select **An application**.
 
 b. Select **your named application** from the dropdown menu.
 
@@ -383,15 +385,15 @@ f. Select **Generate API key.**
 
 37\. At Credentials Usage, Copy and **save your Access Key ID** and **Secret Key** somewhere securely. Select **Close**.
 
-![Capture of Scaleway, Identity and Access Management (IAM), Policies page, API keys tab, Generate an API key page. Access Key ID and Secret ID codes are blurred. Copy text button to the right of the codes and "Close" gray button are highlighted.](img/smtp/image55.png)
+![Capture of Scaleway, Identity and Access Management (IAM), Policies page, API keys tab, Generate an API key page. Access Key ID and Secret ID codes are blurred. The copy text button to the right of the codes and the Close gray button are highlighted.](img/smtp/image55.png)
 
 Result:
 
 ![Capture of Scaleway, Identity and Access Management (IAM), Policies page, API keys tabs. New MyHubsCE key shown.](img/smtp/image56.png)
 
-Yay\! You’ve done it\! Your new API key will be assigned to your domain. You may logout of Scaleway and return to the [Beginner’s Guide](https://docs.hubsfoundation.org/beginners-guide-to-CE.html#7-download-and-install-kubectl). 
+Yay! You’ve done it! Your new API key will be assigned to your domain. You may logout of Scaleway and return to the [Beginner’s Guide](https://docs.hubsfoundation.org/beginners-guide-to-CE.html#7-download-and-install-kubectl). 
 
-# **Sources**
+## **Sources**
 
 [Scaleway Transactional Email Quickstart guide](https://www.scaleway.com/en/docs/transactional-email/quickstart/)
 
