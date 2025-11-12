@@ -51,7 +51,7 @@ Scaleway account registration email:
 
 ![Capture of Scaleway Enter your billing information page. Fields for Street address, Postal code, City, Country, and Region are blurred. "Add billing address" button is highlighted.](img/smtp/image8.png)
 
-<a id="part-1-step-8">8\.</a> To use SMTP services from Scaleway, you must validate a payment method. Scaleway only has a pay by credit card option. For Enter your billing information, **enter your credit card number, expiration date, CVV or CVC, Name on card,** and select **Add payment method.**
+<a id="part-1-step-8">8\.</a> To use SMTP services from Scaleway, you must validate a payment method. Scaleway only has a pay by credit card option. For Add your payment method, enter your credit card number, expiration date, CVV or CVC, Name on card, and select **Add payment method.**
 
 There will be a notification that your account is free, however, Scaleway will charge you a one (1) euro charge that you will need to use to verify the billing connection between Scaleway and your payment source.
 
@@ -61,7 +61,7 @@ This is an example Mastercard credit card confirmation screen.
 
 ![Capture of Mastercard credit card confirmation screen. Text explains that the receiver at a phone number will receive a text with verification code. "Continue" button in blue is in the low center of the page.](img/smtp/image10.png)
 
-Note: Scaleway requests Enter the 4-digit code included in the temporary one euro charge ID. It will be similar to this format: SCW\* C-7699. This can be a problematic step. In our testing, it worked fine for one user, showing up immediately in a text alert and also as a pending charge at the credit card account site. The four digit code in this example was 4550.
+Note: Scaleway requests Enter the 4-digit code included in the temporary one euro charge ID. It will be similar to this format: SCW\* C-7699. This can be a problematic step. It can show up immediately in a text alert or a pending charge at the credit card account site. If the 4-digit code does not show on your transaction, you may need to contact your bank or credit card company. The four digit code in this example below was 4550.
 
 Text:
 
@@ -70,7 +70,8 @@ Text:
 Pending charge at credit card site:<br>
 ![Capture of credit card site details of Scaleway charge showing the verification code of C-4550 in the Description field.](img/smtp/image12.png)
 
-If the 4-digit code does not show on your transaction, you may need to contact your bank or credit card company.![Capture of Scaleway confirmation page to submit the verification code. Instructions indicate that the code is the transaction label. For example, from the prior captures, the code would be 4550.](img/smtp/image13.png)
+At Scaleway Console, after entering the 4-digit code, select **Verify payment method**.
+![Capture of Scaleway confirmation page to submit the verification code. Instructions indicate that the code is the transaction label. For example, from the prior captures, the code would be 4550.](img/smtp/image13.png)
 
 9\. At Create your first Project, enter a Project name and Project description. Select **Continue**. 
 
@@ -100,7 +101,7 @@ This is what the Scaleway Console page could look like:
 
 13\. At Add a new email domain: 
 
-  a. Add your domain, for Add a domain external to Scaleway enter **your porkbun domain.** For example: mycoolhubs.space  
+  a. Add your domain, for Add a domain external to Scaleway, enter **your porkbun domain.** For example: mycoolhubs.space  
 
   > 💡Tip: The domain can only contain alphanumeric characters, dots, and dashes. 
 
@@ -351,7 +352,7 @@ If you have a green dot next to your domain name, it is verified. You will be no
 
 ![Capture of Scaleway, Rule #1 page, Permission sets. Domains & Web Hosting, TransactionalEmailFullAccess and the Validate button are highlighted.](img/smtp/image49.png)
 
-32\. In Add a condition using CEL, select **Validate**. (You do not need to change or add anything here.)
+32\. In Add a condition using CEL, you do not need to change or add anything here. Select **Validate**. 
 
 ![Capture of Scaleway, Rule #1 page.Validate button is highlighted.](img/smtp/image50.png)
 
@@ -375,7 +376,7 @@ b. Select **your named application** from the dropdown menu.
 
 c. For the Description, **enter optional text** here. We entered My Hubs CE SMTP API token. 
 
-d. For Expiration, the default should be Never. Leave it on that setting.
+d. For Expiration, set it to **Never**. 
 
 e. For Will this API key be used for Object Storage, select **No, skip for now** (default). 
 
@@ -383,7 +384,7 @@ f. Select **Generate API key.**
 
 ![Capture of Scaleway, Generate an API key page. For Generate key, Select API key bearer, An application with the MyHubsCE is highlighted. Description field with text: My Hubs CE SMTP API token is highlighted.  Generate API key is highlighted.](img/smtp/image54.png)
 
-37\. At Credentials Usage, Copy and **save your Access Key ID** and **Secret Key** somewhere securely. Select **Close**.
+37\. At Credentials Usage, Copy and save your **Access Key ID** and **Secret Key** somewhere securely. Select **Close**.
 
 ![Capture of Scaleway, Identity and Access Management (IAM), Policies page, API keys tab, Generate an API key page. Access Key ID and Secret ID codes are blurred. The copy text button to the right of the codes and the Close gray button are highlighted.](img/smtp/image55.png)
 
