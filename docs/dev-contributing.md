@@ -12,16 +12,19 @@ Contributors are expected to abide by the project's [Code of Conduct](https://gi
 
 The following GitHub projects are part of the Hubs platform and governed by these contributing guidelines: 
 
-* https://github.com/Hubs-Foundation/hubs/ - the Hubs client webapp
-  * https://github.com/Hubs-Foundation/hubs-duck-addon — a simple example add-on to spawn a duck
-  * https://github.com/Hubs-Foundation/hubs-behavior-graphs-addon — the Hubs implementation of  [behavior graphs](intro-behavior-graphs.html) / [Khronos glTF Interactivity](https://www.khronos.org/blog/gltf-interactivity-specification-released-for-public-comment)
-  * https://github.com/Hubs-Foundation/hubs-portals-addon  — a simple portal system
-  * https://github.com/Hubs-Foundation/hubs-postprocessing-addon — Three.js [post-processing](https://github.com/pmndrs/postprocessing) effects
+* https://github.com/Hubs-Foundation/hubs/ - the Hubs client & Admin Panel webapps
 * https://github.com/Hubs-Foundation/spoke - a user-friendly 3D editor for creating scenes
 * https://github.com/Hubs-Foundation/dialog - a WebRTC audio and video communication server
 * https://github.com/Hubs-Foundation/reticulum - the server app for Hubs, the Admin Panel, and Spoke
 * https://github.com/Hubs-Foundation/hubs-ops - operations infrastructure for Hubs
 * https://github.com/Hubs-Foundation/hubs-discord-bot - Hubs' Discord integration
+
+**Add-ons** — experimental, and only work in the `addons` branch of hubs at present
+
+* https://github.com/Hubs-Foundation/hubs-duck-addon — a simple example add-on to spawn a duck
+* https://github.com/Hubs-Foundation/hubs-behavior-graphs-addon — the Hubs implementation of  [behavior graphs](intro-behavior-graphs.html) / [Khronos glTF Interactivity](https://www.khronos.org/blog/gltf-interactivity-specification-released-for-public-comment)
+* https://github.com/Hubs-Foundation/hubs-portals-addon  — a simple portal system
+* https://github.com/Hubs-Foundation/hubs-postprocessing-addon — Three.js [post-processing](https://github.com/pmndrs/postprocessing) effects
 
 
 ## Quick Start
@@ -37,7 +40,7 @@ Steps to contributing code to the Hubs project:
 
 1. Clone the repo you want to contribute to and get things running locally
 2. Find an issue or improvement that you want to fix - give us a heads up that you're working on it by dropping in a comment on the issue.
-3. Write one or more automated tests, if there is test infrastructure for that part of the code.
+3. Write one or more automated tests, similar to existing tests, if there is test infrastructure for that part of the code. This is not required, but will help you and help reviewers, and thus speed the evaluation of your changes.
 4. Fix the bug or implement the feature! Test out your changes on your local setup and let us know if you have questions or want another opinion about the fix.
 5. Submit your PR for a code review and someone from the team will take a look and give feedback. Make sure you follow up! We'll close the PR if it seems like you've abandoned it by not responding to any questions or comments we leave in the review. If your PR adds a new feature, consider requesting the 'What's New' tag. With the 'What's New' tag, any text in the main body of the PR up to (and including) an image will be added to the Hubs website. Gifs are especially appreciated! [This pull request](https://github.com/Hubs-Foundation/hubs/pull/1536) shows an example of how the 'What's New' tag can be used.
 6. Celebrate! 🎉 You're helping Hubs-Foundation's mission to make the web an open and accessible place for social experiences!
