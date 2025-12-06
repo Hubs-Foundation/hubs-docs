@@ -6,7 +6,7 @@ description: Outlines the many ways people can get involved and contribute to th
 
 This page outlines opportunities for people who want to contribute to the Hubs project. We welcome external contributions that align with the project's mission around enabling collaboration and communication through shared 3D spaces. You can find information about how to contribute to Hubs and the supporting projects that make up the platform here.
 
-If you're starting a large change, you might want first to discuss it in one of the Discord development channels.
+If you're starting a large change, you might want to first discuss it in one of the [Discord](https://discord.com/invite/hubs-498741086295031808) development channels.
 
 Contributors are expected to abide by the project's [Code of Conduct](https://github.com/Hubs-Foundation/hubs/blob/master/CODE_OF_CONDUCT.md) and to be respectful of the project and people working on it.
 
@@ -49,7 +49,7 @@ Reporting bugs, feature requests, and questions that you have about the platform
 
 * If you are filing a bug, please include information about the operating system, device, and browser that you were using when you saw the bug. _Example: Seen on Windows 10 with Firefox 66.0.5 on Oculus Rift_
 
-* A good format is a sequence of steps, ending with the expected result, and the actual result.
+* Make sure to include the sequence of steps to reproduce the bug, ending with the actual result, and then describe what you expected to happen instead in the next section.
 
 * The more detail the better! If you are able to reproduce a bug on multiple different browsers or on both desktop and mobile, that information is helpful for us to know about
 
@@ -71,7 +71,7 @@ If you are a 3D artist and want to support what we're doing with Hubs, consider 
 Our documentation for Hubs and Spoke is hosted on the GitHub [Hubs-docs repository](https://github.com/Hubs-Foundation/hubs-docs). For contributing corrections or additional pages, please file a pull request or issue as a suggestion with your proposed content and we will review it and add it when all looks good!
 
 ## 🌐 Localization
-The Hubs client has localizations (not all complete) to the following languages:
+The Hubs client has localizations (not all complete) for the following languages:
 * Catalan
 * German
 * Spanish
@@ -85,7 +85,7 @@ The Hubs client has localizations (not all complete) to the following languages:
 * Chinese (traditional)
 
 We welcome additions and updates to these.
-(Note that machine-generated translations can help, but by themselves are rarely what users need.)
+(Note that machine-generated translations can help, but by themselves are rarely what users need.  Also, make sure to follow our [AI usage policy](https://github.com/Hubs-Foundation/policies-procedures-guidelines-public/blob/main/ai-usge-policy.md) when working with anything machine-generated)
 
 ## 🦆 General Help
 We believe in the power of community (that's why we're building this, after all!) and know that not all forms of support will come from something outlined here. Feel free to jump into our public [Discord chat server](https://discord.gg/wHmY4nd) to chat with us and ask about how you can get involved! See our [help page](https://docs.hubsfoundation.org/help.html) for other ways to contact us.
