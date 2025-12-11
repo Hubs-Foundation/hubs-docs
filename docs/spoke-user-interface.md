@@ -104,6 +104,13 @@ Models that can't be downloaded, or have too many faces to perform well, are not
 
 > 💡The administrator of your instance must have generated an API key, and configured the instance with it, for this to work.
 
+#### Icosa Gallery
+Icosa is an open-source gallery of 3D models.
+The models from Google Poly are available, and newer ones can be uploaded.
+The Poly models lean toward low-poly and small textures, and usually perform well.
+
+The search function in Spoke filters for GLTF/GLB files of no more than medium complexity and a license that allows remixing.
+Thus, some models won't be displayed, that can be found searching [Icosa Gallery](https://icosa.gallery/) directly.
 
 #### Bing Images
 > This has not yet been implemented for Hubs Cloud Community Edition.
