@@ -27,13 +27,13 @@ __Scale [Y]:__ Reveals the scale gizmo, drag the center cube of the gizmo to sca
 __Toggle Transform Space [Z]:__ - regarding the transform space-- It's changing the transform gizmo to be oriented to the World XYZ vs. the Object's XYZ. You won't really see a difference until you rotate the object.
 like, rotate a car 45 degrees. Then, to go 'forward', you'd want to switch to the object's local axis
 
-__Transform Pivot [X]:__ Sometimes placing an object can be tough if the model's pivot point is set incorrectly. You can change how the pivot is caluclated using this dropdown menu. Can be set to center, bottom, or selection. 
+__Transform Pivot [X]:__ Sometimes placing an object can be tough if the model's pivot point is set incorrectly. You can change how the pivot is calculated using this dropdown menu. Can be set to center, bottom, or selection.
 
 __Toggle Snap mode [C]:__  Sometimes you may want to move and object with a prevision position or rotation. To do this toggle the snapping mode by clicking on the magnet icon. You can set the translation and rotation snap settings by using the dropdown menus. 
 
 __Snap Mode Controls:__ determines how precisely your transformation tools are applied
 
-__Toggle Grid Visibility:__ Shows/hides the grid on 3D grid. In placement mode, objects canbe placed on top of other objects or the grid. When building verticailly it can be useful to change the grid height 
+__Toggle Grid Visibility:__ Shows/hides the grid on 3D grid. In placement mode, objects can be placed on top of other objects or the grid. When building vertically it can be useful to change the grid height.
 
 - Press `=` to increase grid height 
 - Press `-` to decrease grid height
@@ -61,7 +61,7 @@ When you have one or more objects selected, the transform gizmo will appear.
 ## Hierarchy Panel
 ![Hierarchy Panel](img/spoke-hierarchy-panel.jpeg)
 
-Objects you add to the scene show up in the hierarchy panel. Double click the object focus it in the viewport. You can drag objects inside the hierarchy panel to reorder or reparent them. You can also drag drop items from the assets panel and files from your computer into the hierarchy panel to add them to your scene.
+Objects you add to the scene show up in the hierarchy panel. Double-click the object focus it in the viewport. You can drag objects inside the hierarchy panel to reorder or re-parent them. You can also drag drop items from the assets panel and files from your computer into the hierarchy panel to add them to your scene.
 
 ## Properties Panel
 ![Properties Panel](img/spoke-properties-panel.jpeg)
@@ -96,10 +96,21 @@ The Rock Kit contains a collection of realistic rock models that can be used to 
 
 #### Sketchfab
 Sketchfab is an online marketplace for 3D models. It contains a wide variety of high quality models to help you fill out your scene.
-Searching for “game ready”, “low-poly”, or “Mozilla Hubs” will find a number of optimized models.
+
+Under the “Collections” tab, you'll find models designed to be used with Hubs.
+You can also search for “game ready”, “low-poly”, or “Mozilla Hubs” to find a number of optimized models.
+
+Models that can't be downloaded, or have too many faces to perform well, are not listed.
 
 > 💡The administrator of your instance must have generated an API key, and configured the instance with it, for this to work.
 
+#### Icosa Gallery
+Icosa is an open-source gallery of 3D models.
+The models from Google Poly are available, and newer ones can be uploaded.
+The Poly models lean toward low-poly and small textures, and usually perform well.
+
+The search function in Spoke filters for GLTF/GLB files of no more than medium complexity and a license that allows remixing.
+Thus, some models won't be displayed, that can be found searching [Icosa Gallery](https://icosa.gallery/) directly.
 
 #### Bing Images
 > This has not yet been implemented for Hubs Cloud Community Edition.
