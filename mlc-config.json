@@ -1,0 +1,23 @@
+{
+  "ignorePatterns": [ "spoke-optimization.html" ],
+  "replacementPatterns": [
+    {
+      "pattern": "^/img/",
+      "replacement": "{{BASEURL}}/website/static/img/"
+    },
+    {
+      "pattern": "^img/",
+      "replacement": "{{BASEURL}}/website/static/img/"
+    },
+    {
+      "pattern": "^(./)?([^:#.]+?)(#[\\w._~!$&'*()*+,;=-]*)?$",
+      "replacement": "$2.md$3"
+    },
+    {
+      "pattern": "^([^:#]+?).html?($|#)",
+      "replacement": "$1.md$2"
+    }
+  ],
+  "aliveStatusCodes": [200, 203],
+  "retryOn429": true
+}
