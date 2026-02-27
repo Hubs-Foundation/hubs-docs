@@ -254,7 +254,7 @@ function xxx(world: HubsWorld) {
 If you want to allow your custom components to be created from `JSX` and/or
 `glTF`, you also need to edit the core `src/utils/jsx-entity.ts` file for a
 mapping from their key in the inflator. It will be explained later
-[here](#entitydef-jsx-prefab) and [here](#inflators-for-gltf) for each.
+[Entitydef JSX prefab](#entitydef-jsx-prefab) and [Inflators for glTF](#inflators-for-gltf) for each.
 
 TODO: Write an outline of concepts in the form of an example before breaking
 down the individual concepts.
