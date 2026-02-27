@@ -65,6 +65,6 @@ description: A brief guide on how to get your Hubs Cloud instance up and running
 
 **Congrats you've successfully set everything up!**
 
-#### Any issues deploying?
+### Any issues deploying?
 
 Check out [AWS Troubleshooting](./hubs-cloud-aws-troubleshooting.md) for solutions to common problems.
