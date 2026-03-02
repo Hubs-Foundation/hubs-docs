@@ -27,6 +27,12 @@ We investigated [Brevo](https://www.brevo.com/) (formerly Sendinblue) but it doe
 1. Setting up your account and appearing legitimate to AWS.
 2. [Getting out of the sandbox environment](https://docs.aws.amazon.com/ses/latest/dg/request-production-access.html) by proving that your intended use is legitimate.
 
+[SMTP2GO](https://www.smtp2go.com/pricing/) requires you to be able to **receive** email sent **to your hubs domain**. This requires either you running an MTA like Postfix, or a MX record pointing to someone else's MTA that handles incoming email for you.
+
+[Mailgun](https://www.mailgun.com/pricing/) has a free plan which allows sending up to 100 emails per day. 
+You can also setup up inbound "routes" for your Hubs domain, which can be forwarded to another email address.
+
+
 We ended up going with [Scaleway](https://www.scaleway.com/en/transactional-email-tem/) because it aligns with our purpose.
 
 ### I need more than 300 emails per month.
