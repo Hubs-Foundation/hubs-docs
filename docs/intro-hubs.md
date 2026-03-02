@@ -12,12 +12,12 @@ We are finishing a beginners guide. Until then, here are a few [links](https://h
 
 The following information is from the original guide. It will be useful once you've gotten your hubs server up and running. Make your own room by clicking “Create a Room.”
 
-<!-- <video autoplay loop muted controls >
+ <video autoplay loop muted controls poster="img/intro-hubs-create-room-min.jpg" >
   <source src="img/create-a-room.mp4" type="video/mp4">
-  <img src="img/intro-hubs-enter-room-min.jpeg" alt="Screenshot of how to enter a Hubs room">
+  <img src="img/intro-hubs-create-room-min.jpg" alt="Screenshot of how to enter a Hubs room">
   Your browser does not support HTML5 video.
-</video> -->
- <!-- <p style="text-align: center; font-style:italic;">🎉 Congratulations - you now have your very own virtual space! 🎉<p> -->
+</video>
+<p style="text-align: center; font-style:italic;">🎉 Congratulations - you now have your very own virtual space! 🎉<p>
 
 ## Enter the Room
 
