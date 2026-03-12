@@ -80,7 +80,7 @@ It is important to note that only a few url types are supported by the import to
 
 The Admin Panel is used to manage any scenes or avatars that have been uploaded to your hub. In the left-hand toolbar, you can see eight tabs corresponding to scenes and avatars...
 
-<img src="img/admin-tabs.png" alt="The default avatars">
+<img src="img/admin-tabs.png" alt="Admin panel tabs for scenes and avatars">
 
 Each of these tabs filters assets based on their state and tags. At the top of each tab, you can search by id or name to see if any assets are included in that category.
 

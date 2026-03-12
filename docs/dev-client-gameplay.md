@@ -72,8 +72,7 @@ choices. Our choices should not be interpreted fanatically.
 We need to store game state somehow, and conventions are useful. We use
 `Three.js`, which means a lot of game state is stored in various `Object3D`
 subtypes. We store the rest in `bitECS` entities and components, or `map` s
-from entity to struct in cases where `bitECS` components won&rsquo;t do.
-Refer to [this section for this design decision](#avoid-duplicating-state).
+from entity to struct in cases where `bitECS` components won&rsquo;t do. Refer to the section on [Avoid duplicating state](#avoid-duplicating-state) for more details. 
 
 In other words, our game state is not &ldquo;purely&rdquo; in ECS, nor do we
 care to make it so. The PR linked above states the (relatively humble) goals
@@ -249,11 +248,9 @@ function xxx(world: HubsWorld) {
 }
 ```
 
-(`addObject3DComponent` will be explained in [the later sections](#entitydef-jsx-prefab).)
+(`addObject3DComponent` will be explained in the section on [EntityDef / JSX prefab](#entitydef-jsx-prefab).)
 
-If you want to allow your custom components to be created from `JSX` and/or
-`glTF`, you also need to edit the core `src/utils/jsx-entity.ts` file for a
-mapping from their key in the inflator. It will be explained later
+If you want to allow custom components to be created from JSX or glTF, edit the core `src/utils/jsx-entity.ts` file to map the component key to its inflator. It will be explained later
 [Entitydef JSX prefab](#entitydef-jsx-prefab) and [Inflators for glTF](#inflators-for-gltf) for each.
 
 TODO: Write an outline of concepts in the form of an example before breaking
