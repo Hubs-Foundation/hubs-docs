@@ -10,7 +10,7 @@ description: A set of frequently asked questions on how to set up or troubleshoo
 
 **Your email address becomes the admin account of your Hubs.** Said another way, the admin account controls all of the Hubs settings, it allows your CE to work with DigitalOcean. It’s very important. The security features of Hubs predict that if you cannot log in as your own admin, you are in trouble.
 
-### I tried setting up an SMTP email service but my gmail account keeps getting rejected to be the admin or controlling account.
+### I tried setting up an SMTP email but I had issues.
 
 Yes, this problem happened to us too.  We initially tried [Elastic Email](https://elasticemail.com/), but it only sends out emails *to the single admin* (that is, to one account, which could be a gmail account) and won’t send any other emails to any other users at the free level. If only one person EVER needs to log-in (and that one person must be the admin), Elastic Email could work for that specific use. However, we find it to be a real downer because anyone else joining your Hubs cannot log in.
 
@@ -27,13 +27,16 @@ We investigated [Brevo](https://www.brevo.com/) (formerly Sendinblue) but it doe
 1. Setting up your account and appearing legitimate to AWS.
 2. [Getting out of the sandbox environment](https://docs.aws.amazon.com/ses/latest/dg/request-production-access.html) by proving that your intended use is legitimate.
 
-[SMTP2GO](https://www.smtp2go.com/pricing/) requires you to be able to **receive** email sent **to your hubs domain**. This requires either you running an MTA like Postfix, or a MX record pointing to someone else's MTA that handles incoming email for you.
+[SMTP2GO](https://www.smtp2go.com/pricing/) also rejects gmail accounts and thus requires you to either have an email at a custom/work domain or to be able to **receive** email sent **to your hubs domain**, which requires either you running an MTA like Postfix, or a MX record pointing to someone else's MTA that handles incoming email for you.  If these requirements aren't an issue for you, SMTP2GO should work.
 
-[Mailgun](https://www.mailgun.com/pricing/) has a free plan which allows sending up to 100 emails per day. 
-You can also setup up inbound "routes" for your Hubs domain, which can be forwarded to another email address.
+### What are some SMTP providers that work well with Hubs?
 
+*The following have mainly been reviewed for technical compatibility, so you should double check their legal policies.*
 
-We ended up going with [Scaleway](https://www.scaleway.com/en/transactional-email-tem/) because it aligns with our purpose.
+[Scaleway](https://www.scaleway.com/en/transactional-email-tem/) has a free plan for 300 emails per month and is the one we ended up going with because it generally aligns with our purpose.
+
+[Mailgun](https://www.mailgun.com/pricing/) has a free plan which allows sending up to 100 emails per day.<br>
+Note: You can also setup up inbound "routes" for your Hubs domain, which can be forwarded to another email address.
 
 ### I need more than 300 emails per month.
 
