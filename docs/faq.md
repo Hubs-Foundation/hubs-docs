@@ -27,7 +27,7 @@ We investigated [Brevo](https://www.brevo.com/) (formerly Sendinblue) but it doe
 1. Setting up your account and appearing legitimate to AWS.
 2. [Getting out of the sandbox environment](https://docs.aws.amazon.com/ses/latest/dg/request-production-access.html) by proving that your intended use is legitimate.
 
-[SMTP2GO](https://www.smtp2go.com/pricing/) also rejects gmail accounts and thus requires you to either have an email at a custom/work domain or to be able to **receive** email sent **to your hubs domain**, which requires either you running an MTA like Postfix, or a MX record pointing to someone else's MTA that handles incoming email for you.  If these requirements aren't an issue for you, SMTP2GO should work.
+[SMTP2GO](https://www.smtp2go.com/pricing/) does not allow you to administer an account from a free email account such as GMail, and thus requires you to be able to receive email at a custom or work domain.  If this requirement isn't an issue for you, SMTP2GO should work.
 
 ### What are some SMTP providers that work well with Hubs?
 
@@ -36,7 +36,7 @@ We investigated [Brevo](https://www.brevo.com/) (formerly Sendinblue) but it doe
 [Scaleway](https://www.scaleway.com/en/transactional-email-tem/) has a free plan for 300 emails per month and is the one we ended up going with because it generally aligns with our purpose.
 
 [Mailgun](https://www.mailgun.com/pricing/) has a free plan which allows sending up to 100 emails per day.<br>
-Note: You can also setup up inbound "routes" for your Hubs domain, which can be forwarded to another email address.
+Note: You can also setup inbound "routes" for your Hubs domain, which can be forwarded to another email address.
 
 ### I need more than 300 emails per month.
 
