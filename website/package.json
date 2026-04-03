@@ -2,6 +2,7 @@
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "docusaurus-start",
+    "prestart": "git config --local core.hooksPath .githooks",
     "build": "docusaurus-build",
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
@@ -9,7 +10,8 @@
     "rename-version": "docusaurus-rename-version"
   },
   "devDependencies": {
-    "docusaurus": "^1.14.7"
+    "docusaurus": "^1.14.7",
+    "markdown-link-check": "^3.14.2"
   },
   "dependencies": {
     "@docusaurus/plugin-google-gtag": "^2.0.1",

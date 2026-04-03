@@ -45,9 +45,9 @@ When you connect to a room, you are connecting to a load-balanced node on this
 mesh over [WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)s.
 Messages are relayed between all users in that room across the mesh via a
 [pub/sub system](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)
-called [Phoenix Channels](https://hexdocs.pm/phoenix/Phoenix.Channel.html).
+called [Phoenix Channels](https://hexdocs.pm/phoenix/channels.html).
 
-TODO: Write what Phoneix node is?
+TODO: Write what Phoenix node is?
 
 
 ### Phoenix
@@ -61,7 +61,7 @@ Real-time data is managed by [Phoenix Channels](https://hexdocs.pm/phoenix/Phoen
 The relevant channel for entity state networking is the `HubChannel` defined in
 [`src/utils/hub-channel.js`](https://github.com/Hubs-Foundation/hubs/blob/master/src/utils/hub-channel.js).
 
-TODO: Write what Phoneix Channels are?
+TODO: Write what Phoenix Channels are?
 
 
 ### Data sync frequency
@@ -144,13 +144,13 @@ if (!hasComponent(world, Owned, eid)) return;
 ## Simple example
 
 Let's write a simple networked component example. You need some additional
-works to let your [component]((./dev-client-gameplay.html#prefab)) support
+works to let your [component](./dev-client-gameplay.md#entitydef-jsx-prefab) support
 network.
 
 Assume `Foo` component is defined with some properties, an
-[inflator]((./dev-client-gameplay.html#prefab)) for it is written, and the
+[inflator](./dev-client-gameplay.md#entitydef-jsx-prefab) for it is written, and the
 inflator is registered in the built-in
-[jsxInflators map](./dev-client-gameplay.html#entitydef-jsx-prefab).
+[jsxInflators map](./dev-client-gameplay.md#entitydef-jsx-prefab).
 
 ```typescript
 // src/components/foo.ts
@@ -197,9 +197,9 @@ const jsxInflators: Required<{ [K in keyof JSXComponentData]: InflatorFn }> = {
 ...
 ```
 
-First, write a [prefab](./dev-client-gameplay.html#prefab) for `Foo` component
-with `networked` key, [which will be explained later](#entitydef-jsx-prefab),
-and register it in the built-in [`prefabs`](#prefab) map. This prefab is used
+First, write a [prefab](./dev-client-gameplay.md#entitydef-jsx-prefab) for `Foo` component
+with `networked` key, [which will be explained later](./dev-client-gameplay.md#entitydef-jsx-prefab),
+and register it in the built-in [`prefabs`](./dev-client-gameplay.md#entitydef-jsx-prefab) map. This prefab is used
 to set up entities with associated components in both local and remote clients.
 
 ```typescript
@@ -269,7 +269,7 @@ component. Hubs Clients make their components data synched with remote clients.
 
 ### Prefab
 
-[Prefabs](./dev-client-gameplay.html#prefab) for networked entities must be
+[Prefabs](./dev-client-gameplay.md#entitydef-jsx-prefab) for networked entities must be
 registered in the built-in `prefabs` map defined in
 registered in the built-in `prefabs` map defined in
 [`src/prefabs/prefabs.ts`](https://github.com/Hubs-Foundation/hubs/blob/master/src/prefabs/prefabs.ts),

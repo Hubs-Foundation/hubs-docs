@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# checks for broken links
+./website/node_modules/markdown-link-check/markdown-link-check -c mlc-config.json -q docs .github/pull_request_template.md README.md CONTRIBUTING.md
