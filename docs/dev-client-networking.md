@@ -95,7 +95,7 @@ Hubs Client manages who the creator of `networked instanciated entities`,
 `networked entities` instanciated by it are removed from the room.
 
 In order to keep these entities stayed in the room even after their authors
-leave a room, the entity must be [`pinned`](https://docs.hubsfoundation.org/hubs-features.html).
+leave a room, the entity must be [`pinned`](./hubs-features.html).
 
 Pinned entities are stored in database in Reticulum.
 
@@ -638,7 +638,7 @@ Event handlers that queue messages for later processing can be found in
 By default, `networked instanciated entities` which are created with
 the built-in [`createNetworkedEntity()`](#createnetworkedentity) function,
 are removed when their creator (client) is disconnects. In order to persist
-these entities the entity must be [pinned](https://docs.hubsfoundation.org/hubs-features.html). Only
+these entities the entity must be [pinned](./hubs-features.html). Only
 
 `networked instanciated entities` can be `pinned`.
 
