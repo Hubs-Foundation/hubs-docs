@@ -15,9 +15,9 @@ _This guide walks you through the process of updating and cancelling your subscr
 
 ## Upgrading Your Subscription
 
-You can easily upgrade your Starter Hub to a paid plan at any time. The easiest way is through the Upgrade button on the subscription dashboard, which will then follow the same process as [creating a new paid subscription](http://localhost:3000/docs/setup-creating.html#how-to-subscribe---paid-plans).
+You can easily upgrade your Starter Hub to a paid plan at any time. The easiest way is through the Upgrade button on the subscription dashboard, which will then follow the same process as [creating a new paid subscription](./setup-creating.html#how-to-subscribe---paid-plans).
 
-[<img src="img/upgrade-button.png" alt="The subscription dashboard">](http://localhost:3000/docs/setup-creating.html#how-to-subscribe---paid-plans)
+[<img src="img/upgrade-button.png" alt="The subscription dashboard">](./setup-creating.html#how-to-subscribe---paid-plans)
 
 ## Cancelling Your Subscription
 
