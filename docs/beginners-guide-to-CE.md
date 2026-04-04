@@ -823,7 +823,7 @@ ii. Second rule
 iii. Third rule
 1. For Type, select **Custom**.
 2. For Protocol: select **UDP**
-3. For Port Range: enter **35000-60000**
+3. For Port Range: enter **40000-65535**
 4. For Sources: leave as default (All IPv4 and AllIPv6)
 
 ![Capture from DigitalOcean, Networking, Create Firewall page. For Inbound Rules, values entered for TCP Port 4443, TCP Port 5329, and UDP Ports 35000-60000.](img/beginnersguide/image107.png)
