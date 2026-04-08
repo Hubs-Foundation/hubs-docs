@@ -19,7 +19,7 @@ _This guide walks you through the steps of setting up and removing a custom clie
 
 ## Introduction
 
-Deploying a custom client to your Hub allows you to fully control the appearance and functionality of [the Hubs 3D engine and frontend code](https://github.com/mozilla/hubs). This feature is intended for subscribers with at least a beginner level of javascript development experience. Please be advised that deploying a custom client disables the automatic updates that the Hubs Team regularly deploys to subscription instances. You can follow our regular updates [here](https://github.com/mozilla/hubs/releases).
+Deploying a custom client to your Hub allows you to fully control the appearance and functionality of [the Hubs client source code](https://github.com/mozilla/hubs). This feature is intended for subscribers with at least a beginner level of javascript development experience. Please be advised that deploying a custom client disables the automatic updates that the Hubs Team regularly deploys to subscription instances. You can follow our regular updates in [Hubs GitHub Releases](https://github.com/mozilla/hubs/releases).
 
 If you need more assistance, we recommend following along with our [Custom Client Tutorial Video](https://www.youtube.com/watch?v=dJAy1gk5Ow0).
 

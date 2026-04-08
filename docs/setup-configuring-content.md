@@ -62,7 +62,7 @@ It is important to note that only a few url types are supported by the import to
 - Hosted Scene Urls (ex. hyourdomain.com/scenes/Rpt8DJS)
 - Hosted .pack files (ex. raw.githubusercontent.com/hubs/master/asset-packs/avatars-animals.pack)
 
-#### How to Use the "Import Content" Tool
+### How to Use the "Import Content" Tool
 
 <!-- <video loop muted controls >
   <source src="img/import-content.mp4" type="video/mp4">
@@ -80,13 +80,13 @@ It is important to note that only a few url types are supported by the import to
 
 The Admin Panel is used to manage any scenes or avatars that have been uploaded to your hub. In the left-hand toolbar, you can see eight tabs corresponding to scenes and avatars...
 
-<img src="img/admin-tabs.png" alt="The default avatars">
+<img src="img/admin-tabs.png" alt="Admin panel tabs for scenes and avatars">
 
 Each of these tabs filters assets based on their state and tags. At the top of each tab, you can search by id or name to see if any assets are included in that category.
 
 <img src="img/search-bar.png" alt="The default avatars">
 
-#### Asset State
+### Asset State
 
 Asset State is the primary method of controlling a piece of media's discoverability. An asset can have any of four states...
 
@@ -103,7 +103,7 @@ By default, any assets uploaded by users who select "Allow Hubs to promote my sc
 
 Any assets uploaded via the admin panel are automatically assigned the "Active" state, including them in the "Approved" tab and making them discoverable to other users.
 
-#### Asset Tags
+### Asset Tags
 
 Asset tags allow you to control how discoverable an "Active" asset is. To edit tags, an asset's state must be "Active", including the asset in the "Approved" tab of the admin panel. There are three tags you can add to an asset...
 
@@ -115,13 +115,13 @@ Asset tags are case-sensitive, so be sure to use the exact spelling and capitali
 
 <img src="img/tags-examples.png" alt="Examples of tags applied to avatars">
 
-#### Asset Order
+### Asset Order
 
 Assets with the "Featured" tag can be given an order number to control the sequence in which they are displayed to users browsing for scenes and avatars. Order filters from low-to-high, meaning any asset with the order number "1" will be displayed first. Two assets can be given the same order number; if two assets have the same order number, the most recently uploaded asset will display first.
 
 <img src="img/order-example.png" alt="Order control form">
 
-#### Asset Description and Attribution
+### Asset Description and Attribution
 
 To properly describe and credit creators of a certain asset, you can add in description and attribution details that will display whenever a user is encountering that asset.
 
@@ -141,7 +141,7 @@ In addition to regularly checking your usage limit, there are a number of featur
 
 You can also lower your content storage by removing unwanted assets in Spoke and the Admin Panel. PLEASE NOTE: When removing assets with the following methods, it may take up to 3-days for your subscription dashboard to update your content usage.
 
-#### Deleting Assets In Spoke
+### Deleting Assets In Spoke
 
 Assets in Spoke are associated with individual email accounts (you will not be able to delete the assets of another user if you do not have access to their email account).
 
@@ -153,7 +153,7 @@ Assets in Spoke are associated with individual email accounts (you will not be a
 
 <img src="img/delete-asset.png" alt="Deleting assets in spoke">
 
-#### Deleting Assets In The Admin Panel
+### Deleting Assets In The Admin Panel
 
 1. **Navigate to the "Scenes" or "Avatars" tabs in the left-hand toolbar.**
 2. **Click "Edit" on any avatar or scene you wish to remove and set its State to "Removed".**
@@ -170,7 +170,7 @@ The Accounts tab of the Admin Panel indexes all users who have signed-in to your
 
 <img src="img/accounts-screen.png" alt="Deleting assets in spoke">
 
-#### Adding Admin Accounts
+### Adding Admin Accounts
 
 If the account you wish to promote has not yet been created, use the create account form to create a new account with the user's email.
 
@@ -191,7 +191,7 @@ If the account you wish to promote has already been created, use thefind account
 </video>
 <br></br>
 
-#### Identities
+### Identities
 
 _Identities is a deprecated method for associating an account with a username. This feature is functional, but should not be utilized._
 
@@ -221,7 +221,7 @@ In the "Themes" tab, you are able to upload your own JSON theme-ing object to fu
 
 App Settings allow you to control the default behavior, settings, and permissions of your hub and its user interface.
 
-#### Translations (site identification)
+### Translations (site identification)
 
 | Setting          | Description                                                                                                    |
 | ---------------- |----------------------------------------------------------------------------------------------------------------|
@@ -233,7 +233,7 @@ App Settings allow you to control the default behavior, settings, and permission
 | Contact Email    | The email listed on the static page displayed when a room owner closes the room                                |
 | Community Prompt | _This feature is deprecated and should not be utilized._                                                       |
 
-#### Features
+### Features
 
 | Setting               | Description                                                                                                                                                                                         |
 | --------------------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -255,7 +255,7 @@ App Settings allow you to control the default behavior, settings, and permission
 | Lobby Ghosts          | Allows users who choose "Spectate" when entering room to move throughout the space as an invisible listener.                                                                                        |
 | Public API Access     | Allows admins to create API tokens and submit requests to [the Hubs API](https://www.youtube.com/watch?v=1J84biwO_bk).                                                                              |
 
-#### Rooms
+### Rooms
 
 | Setting                  | Description                                                                                                                 |
 | ------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
@@ -265,11 +265,11 @@ App Settings allow you to control the default behavior, settings, and permission
 | Default Room Size        | The default room size of newly created room urls.                                                                           |
 | Maximum Room Size        | The maximum room size allowed across your application. This feature is an important tool to manage your server's CCU limit. |
 
-#### Links
+### Links
 
 These URLs correspond to the links enabled in the "Features" tab of App Settings.
 
-#### Auth
+### Auth
 
 | Setting                  | Description                                                       |
 | ------------------------ | ----------------------------------------------------------------- |
