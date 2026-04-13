@@ -1,7 +1,7 @@
-from node:16
+from node:22
 workdir docs
 copy . .
-run cd website && npm install && npm run build
+run cd website && npm ci && npm run build
 
 from nginx:alpine
 workdir /var/www/docs
