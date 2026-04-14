@@ -44,15 +44,17 @@ my-docusaurus/
     doc-2.md
     doc-3.md
   website/
-    core/
+    blog/
     node_modules/
+    src/
     pages/
     static/
       css/
       img/
+    docusaurus.config.js
     package.json
-    sidebar.json
-    siteConfig.js
+    package-lock.json
+    sidebars.js
 ```
 
 ## Editing Content
@@ -105,18 +107,18 @@ title: This Doc Needs To Be Edited
 My new content here..
 ```
 
-1. Refer to that doc's ID in an existing sidebar in `website/sidebar.json`:
+1. Refer to that doc's ID in an existing sidebar in `website/sidebars.js`:
 
 ```javascript
-// Add newly-created-doc to the Getting Started category of docs
-{
-  "docs": {
-    "Getting Started": [
-      "quick-start",
-      "newly-created-doc" // new doc here
-    ],
-    ...
-  },
+const sidebars = {
+  docs: [
+    {
+      type: 'category',
+      label: 'Introduction',
+      items: [
+        'welcome',
+        'intro-hubs',
+        'intro-spoke',
   ...
 }
 ```
