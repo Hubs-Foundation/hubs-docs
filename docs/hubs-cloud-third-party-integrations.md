@@ -1,7 +1,7 @@
 ---
 id: hubs-cloud-third-party-integrations
-title: Recipe: 3rd Party Integrations
-sidebar_label: Recipe: 3rd Party Integrations
+title: "Recipe: 3rd Party Integrations"
+sidebar_label: "Recipe: 3rd Party Integrations"
 ---
 
 Your hub includes integrations for searching useful content for visitors to spawn into their rooms using the Media Browser. There is built-in support for a variety of sites and search engines, such as [Sketchfab](https://www.sketchfab.com). You can also tweet to share content directly from your hub.

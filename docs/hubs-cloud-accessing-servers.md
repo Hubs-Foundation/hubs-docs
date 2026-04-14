@@ -1,7 +1,7 @@
 ---
 id: hubs-cloud-accessing-servers
 title: SSH Access
-sidebar_label: Advanced: SSH Access
+sidebar_label: "Advanced: SSH Access"
 description: Advanced instructions on interfacing with Hubs Cloud at a developer level.
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: hubs-cloud-discord-bot
-title: Recipe: Discord Bot
-sidebar_label: Recipe: Discord Bot
+title: "Recipe: Discord Bot"
+sidebar_label: "Recipe: Discord Bot"
 ---
 
 > Discord bot for Community Edition is under **construction**!

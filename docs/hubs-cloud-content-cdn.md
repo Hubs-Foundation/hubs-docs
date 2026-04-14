@@ -1,7 +1,7 @@
 ---
 id: hubs-cloud-content-cdn
 title: Content CDN
-sidebar_label: Advanced: Content CDN
+sidebar_label: "Advanced: Content CDN"
 description: Information on setting up a CDN for Hubs Cloud.
 ---
 

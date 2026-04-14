@@ -1,7 +1,7 @@
 ---
 id: admin-permissive-rooms
-title: Recipe: Permissive Rooms
-sidebar_label: Recipe: Permissive Rooms
+title: "Recipe: Permissive Rooms"
+sidebar_label: "Recipe: Permissive Rooms"
 description: Explains how to change what permissions new rooms have by default.
 ---
 
