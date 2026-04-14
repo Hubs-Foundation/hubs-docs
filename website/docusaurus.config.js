@@ -101,6 +101,11 @@ const config = {
             label: 'Docs',
           },
           {
+            to: '/help',
+            label: 'Help',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/Hubs-Foundation/hubs',
             label: 'GitHub',
             position: 'right',
