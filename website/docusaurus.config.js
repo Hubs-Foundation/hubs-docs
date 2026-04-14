@@ -92,18 +92,18 @@ const config = {
           {
             href: 'https://hubsfoundation.org/',
             label: 'Hubs Foundation',
-            position: 'left',
+            position: 'right',
           },
           {
             type: 'doc',
             docId: 'welcome',
-            position: 'left',
+            position: 'right',
             label: 'Docs',
           },
           {
             to: '/help',
             label: 'Help',
-            position: 'left',
+            position: 'right',
           },
           {
             href: 'https://github.com/Hubs-Foundation/hubs',
@@ -122,19 +122,60 @@ const config = {
                 label: 'Welcome',
                 to: '/',
               },
+              {
+                label: 'Setting Up Your Hub',
+                to: '/beginners-guide-to-CE',
+              },
+              {
+                label: 'Hubs Fundamentals',
+                to: '/hubs-create-join-rooms',
+              },
+              {
+                label: 'Spoke Documentation',
+                to: '/spoke-creating-projects',
+              },
+              {
+                label: 'For Creators',
+                to: '/creators-advanced-avatar-customization',
+              },
+              {
+                label: 'For Developers',
+                to: '/system-overview',
+              },
+              {
+                label: 'Administration',
+                to: '/admin-intro',
+              }
             ],
           },
           {
             title: 'Community',
             items: [
               {
+                label: 'Discord Chat',
+                href: 'https://discord.gg/wHmY4nd',
+              }
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Hubs',
+                href: 'https://hubsfoundation.org/'
+              },
+              {
+                label: 'Spoke',
+                href: 'https://github.com/Hubs-Foundation/Spoke'
+              },
+              {
                 label: 'GitHub',
                 href: 'https://github.com/Hubs-Foundation/hubs',
               },
-            ],
-          },
+            ]
+          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Hubs Foundation. Hubs Documentation available under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license.`,
+        copyright: `Copyright © 2024–${new Date().getFullYear()} Hubs Foundation; under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license.`,
       },
       prism: {
         theme: lightCodeTheme,
