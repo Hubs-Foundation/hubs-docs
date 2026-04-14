@@ -20,10 +20,12 @@ const sidebars = {
         'set-up-SMTP-email-service',
         'download-and-install-doctl',
         'whats-next',
+        'setup-learning',
         'faq',
         'how-to-backup-your-Hubs-instance',
         'regenerating-ssl-certificates',
         'setup-configuring-content',
+        'hubs-cloud-asset-packs',
         'setup-faq',
         'setup-contact'
       ],
