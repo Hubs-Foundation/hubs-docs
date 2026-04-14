@@ -181,6 +181,8 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      respectPrefersColorScheme: true,
+      image: 'img/favicon.ico', // social media card image
     }),
 };
 
