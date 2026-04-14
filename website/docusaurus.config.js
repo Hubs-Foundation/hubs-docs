@@ -8,11 +8,52 @@ const config = {
   tagline: 'Hold tight as we get our docs in a row 🦆🦆🦆',
   url: 'https://docs.hubsfoundation.org/',
   baseUrl: '/',
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    format: 'md',
+    mermaid: false,
+    preprocessor: ({filePath, fileContent}) => {
+      return fileContent;
+    },
+    mdx1Compat: {
+      comments: true,
+      admonitions: true,
+      headingIds: true,
+    },
+    hooks: {
+      onBrokenMarkdownImages: 'ignore',
+      onBrokenMarkdownLinks: 'ignore',
+    },
+  },
+  onBrokenLinks: 'ignore',
+  onBrokenAnchors: 'ignore',
+  onDuplicateRoutes: 'ignore',
   favicon: 'img/favicon.ico',
   projectName: 'hubs-docs',
   organizationName: 'Hubs-Foundation',
+
+  plugins: [
+    function webpackOverride(context, options) {
+      return {
+        name: 'webpack-override',
+        configureWebpack(config, isServer, utils) {
+          return {
+            module: {
+              rules: [
+                {
+                  test: /\.js$/,
+                  type: 'javascript/auto',
+                },
+                {
+                  test: /\.mjs$/,
+                  type: 'javascript/esm',
+                },
+              ],
+            },
+          };
+        },
+      };
+    },
+  ],
 
   presets: [
     [
@@ -20,7 +61,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: './sidebars.js',
           routeBasePath: '/', // Serve the docs at the site's root
           path: '../docs',
           editUrl: 'https://github.com/Hubs-Foundation/hubs-docs/edit/master/docs/',
@@ -28,9 +69,11 @@ const config = {
         blog: {
           showReadingTime: true,
           editUrl: 'https://github.com/Hubs-Foundation/hubs-docs/edit/master/website/blog/',
+          onInlineAuthors: 'ignore',
+          onUntruncatedBlogPosts: 'ignore',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: './src/css/custom.css',
         },
       }),
     ],

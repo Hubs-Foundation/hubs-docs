@@ -29,6 +29,7 @@
     "react-dom": "^19.2.5"
   },
   "overrides": {
-    "webpackbar": "^7.0.0"
+    "webpack": "5.105.4",
+    "webpackbar": "5.0.2"
   }
 }

@@ -1,6 +1,7 @@
 ---
 id: welcome
 title: Welcome to Hubs
+slug: /
 sidebar_label: Welcome
 description: Hubs is an open-source virtual collaboration platform that runs in a browser, no special software or devices needed. Hubs Docs is the documentation and instructions for how to set up and use Hubs. Hubs contains Spoke, a web-based scene editor so that users can create directly in the browser.
 ---
