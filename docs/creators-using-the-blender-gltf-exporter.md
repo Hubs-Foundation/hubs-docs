@@ -17,14 +17,14 @@ If you have questions or problems getting certain parts of your Blender file to 
 
 [glTF file format overview](https://www.khronos.org/gltf/)
 
-[Blender glTF Importer/Exporter Github repository](https://github.com/KhronosGroup/glTF-Blender-IO)
+[Blender glTF Importer/Exporter GitHub repository](https://github.com/KhronosGroup/glTF-Blender-IO)
 
 ## How to make sure your Blender model(s) export correctly
 There are a few things to check to make sure what you see in Blender is what you'll get in Spoke and Hubs. This is not an exhaustive list, but it contains some common things that can cause unexpected results.
 
 **+ The scale should read 1, 1, 1.**
 
-It's easy to scale things in Blender and then forget to **apply that scale (CTRL+a)**. If your object's scale reads something other than 1, 1, 1 then you can end up with an exported model that doesn't match the size or proportion you expected. One way to avoid this common pitfall is to do all your scaling while in Edit mode. Scaling in Edit mode doesn't alter the object scale values.
+It's easy to scale things in Blender and then forget to **apply that scale (CTRL+a)**. If your object's scale reads something other than 1, 1, 1, then you can end up with an exported model that doesn't match the size or proportion you expected. One way to avoid this common pitfall is to do all your scaling while in Edit mode. Scaling in Edit mode doesn't alter the object scale values.
 
 **+ Object should be at or near the world origin (0, 0, 0)**
 
@@ -49,26 +49,26 @@ Spoke and Hubs expect you to use .glb files. A single .glb file contains all mes
 **+ Understanding the Exporter Settings**
 
 There are quite a few settings to understand in the glTF exporter, but fortunately, they are divided into sections to make it a little easier. In many cases, the defaults work just fine. However, there are a few worth noting when troubleshooting:
-- (Include) 'Selected Objects' - Checking this allows you to only export the selected items you want. It's easy to forget this is turned on--(and even easier to forget to select things first!)
-- (Include) 'Custom Properties' - This one is necessary if you're using things like the custom Hubs comoponents add-on (more on this later) but in most cases is not necessary.
-- (Geometry) 'Apply Modifiers' - See info above. In most cases you'll want to leave this OFF.
-- (Geometry) 'UVs, Normals, Tangents' - Best left ON. There may be unusual cases where you don't want these but it would be rare.
-- (Geometry) 'Vertex Colors' - If you choose to paint vertex colors on your model, which can be a cheap, fast way of applying basic color instead of a texture, you'll need this ON. Otherwise, you can turn it OFF with no apparent effect.
-- (Geometry) 'Materials' - Pretty much all models require materials to display properly so you will need this ON.
-- (Geometry) 'Compression' - This might seem like a good idea, but as of this writing, Hubs does not support objects with Google Draco mesh compression. Leave this OFF.
-- (Animation) 'Limit to Playback Range' - Make sure your playback range is set properly to see the full animation get exported.
-- (Animation) 'Always Sample Animations' - This one has been found to significantly increase the file size in some cases. Try turning this OFF. If your animation(s) still work without it, leave it OFF.
-- (Animation) 'NLA Strips' - You must have this ON if you've stashed a bunch of animation tracks on your object(s).
-- Shape Keys - You must have this turned ON if you have an object that requires shape keys (also known as morph targets or blend shapes in other software).
-- (Shape Keys) 'Shape Key Normals' - This one can be turned OFF as long as your morphs don't do anything special with the object's normals. If you see odd shading occur when the morphs happen, try toggling this.
-- Skinning - You must have this turned ON if your object is bound to a skeletal armature.
+- (Include) 'Selected Objects' — Checking this allows you to only export the selected items you want. It's easy to forget this is turned on—(and even easier to forget to select things first!)
+- (Include) 'Custom Properties' — This one is necessary if you're using things like the custom Hubs components add-on (more on this later) but in most cases is not necessary.
+- (Geometry) 'Apply Modifiers' — See info above. In most cases you'll want to leave this OFF.
+- (Geometry) 'UVs, Normals, Tangents' — Best left ON. There may be unusual cases where you don't want these but it would be rare.
+- (Geometry) 'Vertex Colors' — If you choose to paint vertex colors on your model, which can be a cheap, fast way of applying basic color instead of a texture, you'll need this ON. Otherwise, you can turn it OFF with no apparent effect.
+- (Geometry) 'Materials' — Pretty much all models require materials to display properly so you will need this ON.
+- (Geometry) 'Compression' — This might seem like a good idea, but as of this writing, Hubs does not support objects with Google Draco mesh compression. Leave this OFF.
+- (Animation) 'Limit to Playback Range' — Make sure your playback range is set properly to see the full animation get exported.
+- (Animation) 'Always Sample Animations' — This one has been found to significantly increase the file size in some cases. Try turning this OFF. If your animation(s) still work without it, leave it OFF.
+- (Animation) 'NLA Strips' – You must have this ON if you've stashed a bunch of animation tracks on your object(s).
+- Shape Keys – You must have this turned ON if you have an object that requires shape keys (also known as morph targets or blend shapes in other software).
+- (Shape Keys) 'Shape Key Normals' – This one can be turned OFF as long as your morphs don't do anything special with the object's normals. If you see odd shading occur when the morphs happen, try toggling this.
+- Skinning – You must have this turned ON if your object is bound to a skeletal armature.
 Any parameters not mentioned are probably best left to their defaults.
 It's worth noting that because this exporter (and the glTF format) is still subject to its own bug fixes and redesign, some of the settings and/or their defaults may change in the future.
 
 
 ## Setting up materials that Spoke and Hubs will display correctly
 
-Blender's documentation has all of the latest information about how materials should be configured for glTF. This information can be found easily by searching for 'glTF' in their docs. Here's the [link to Blender's glTF documentation](https://docs.blender.org/manual/en/dev/addons/import_export/scene_gltf2.html?highlight=gltf#gltf-2-0)
+Blender's documentation has all the latest information about how materials should be configured for glTF. This information can be found easily by searching for 'glTF' in their docs. Here's the [link to Blender's glTF documentation](https://docs.blender.org/manual/en/dev/addons/import_export/scene_gltf2.html?highlight=gltf#gltf-2-0)
 
 Instead of repeating that information, here are some helpful tips:
 
