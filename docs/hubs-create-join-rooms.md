@@ -24,8 +24,8 @@ Click "Enter Room" and follow the prompts to select a username/avatar and set up
 ![Screencapture from an event in Hubs](img/dressingRoom1.jpeg)
 
 <video autoplay loop muted controls poster="img/intro-hubs-enter-room-min.jpg" >
-  <source src="img/hubs-enter-room.mp4" type="video/mp4">
-  <img src="img/intro-hubs-enter-room-min.jpg" alt="Hubs Lobby">
+  <source src="img/hubs-enter-room.mp4" type="video/mp4"/>
+  <img src="img/intro-hubs-enter-room-min.jpg" alt="Hubs Lobby"/>
   Your browser does not support HTML5 video.
 </video>
 

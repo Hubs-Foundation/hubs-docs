@@ -199,10 +199,10 @@ f. At Your Cart, select **Continue Create account / Login**.
 
 ![Capture of Porkbun, cart page with "Continue. Create Account/Login" button at the lower right highlighted in purple.](img/beginnersguide/image29.png)
 
-g. Under Create a New Account, **type in your information** to these required fields:<br>
+g. Under Create a New Account, **type in your information** to these required fields:<br/>
 Username, Password, Primary email address, First or Given Name, Address, Country, City, Zip / Postal, Phone Code, Phone Number
 
-Select the checkbox for **You must agree to the following by checking the checkbox before continuing.**<br>
+Select the checkbox for **You must agree to the following by checking the checkbox before continuing.**<br/>
 You may say yes or no to awesome emails.
 
 Save your username and password somewhere.
@@ -249,21 +249,21 @@ e. On this new page, you are asked some demographic questions that you must answ
 
 <ul>
 
-  i. What do you plan to build on DigitalOcean?<br>
+  i. What do you plan to build on DigitalOcean?<br/>
   Choices are An API, Data analytics infrastructure, Web3 or decentralized application, A website or content site, AI and machine learning, Video or livestreaming platform.
 
   > 🤔 Advice: We recommend **Web3 or decentralized application**
 
-  ii. What is your role or business type?<br>
+  ii. What is your role or business type?<br/>
   Choices are Digital agency / MSP, Freelancer or Consultant, Software company, E-commerce company, Hobbyist or Student, Other.
 
-  iii. What is your monthly spend on cloud infrastructure across cloud platforms? (provide an estimate)<br>
+  iii. What is your monthly spend on cloud infrastructure across cloud platforms? (provide an estimate)<br/>
   Choices are $0-$50, $50-$500, $500-$1,000,$1,000-$5,000, $5,000-$10,000, $10,000-$100,000, More than $100,000.
 
-  iv. How many employees work at your company?<br>
+  iv. How many employees work at your company?<br/>
   Choices are I work alone, 2-9, 10-99, 100-499, 500-999, 1000+
 
-  v. How do you prefer to manage cloud resources?<br>
+  v. How do you prefer to manage cloud resources?<br/>
   Choices are: Cloud console, CLI or API, SDK, Infrastructure as Code, I’m not sure.
   > 🤔 Advice: We recommend **I’m not sure**.
 
@@ -317,7 +317,7 @@ f. For Machine Type:  Leave selected as **Basic, Regular SSD**
 
 g. For Node plan: Select **$24/month per node** ($0.036/hour) of 4GB total RAM / 2 vCPUs / 80 GB storage (June 2024 specifications) Tip 💡Hubs Community Edition needs 3-3.5 GB RAM to run. Choosing 4 GB RAM gets you *the minimum you need*.  If you run into too many problems, re-think this choice.
 
-> 💡 Tip: DigitalOcean charges an extra $12/month for mandatory load balancing.<br>
+> 💡 Tip: DigitalOcean charges an extra $12/month for mandatory load balancing.<br/>
 So a $24 choice here will be $24 + $12 a month for a total of $36 a month.
 
 > 🤔 Advice: See our FAQ [Can I select a lower price, smaller RAM/vCPU Node plan with DigitalOcean?](./faq.md#can-i-select-a-lower-price-smaller-ramvcpu-node-plan-with-digitalocean) for our further advice about selecting node and memory plans.
@@ -380,7 +380,7 @@ a. Go to the [Hubs Foundation Github repository for hubs-cloud](https://github.c
 
 b. Select **Code**.
 
-![Capture at Github, Hubs Foundation, hubs-cloud repository. Text prompt: "Make sure you see community-edition listed as a folder in the middle left." "<> Code" green button at the right is highlighted in purple.](img/beginnersguide/image50.png)
+![Capture at Github, Hubs Foundation, hubs-cloud repository. Text prompt: "Make sure you see community-edition listed as a folder in the middle left." "\<\> Code" green button at the right is highlighted in purple.](img/beginnersguide/image50.png)
 
 c. Select **Download ZIP**.
 
@@ -524,7 +524,7 @@ c. Enter these values as described below. Warning: Only change the lines that yo
 
   ![Capture of VS Code, input-values.yaml file. Line 2: ADM_EMAIL: "admin@example.com" is highlighted with text: Click here and type your domain.](img/beginnersguide/image75.png)
 
-  iii. For Namespace: ”hcce’”<- Leave that
+  iii. For Namespace: ”hcce’” ⬅ Leave that
 
   iv. For the SMTP_SERVER and the following SMTP lines, retrieve your Scaleway **Host**, **Port**, **Username**, and **Secret Key** entries that you saved from Step 6.
 

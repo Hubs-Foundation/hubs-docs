@@ -49,21 +49,19 @@ Spoke and Hubs expect you to use .glb files. A single .glb file contains all mes
 **+ Understanding the Exporter Settings**
 
 There are quite a few settings to understand in the glTF exporter, but fortunately, they are divided into sections to make it a little easier. In many cases, the defaults work just fine. However, there are a few worth noting when troubleshooting:
-<ul>
-  <li>(Include) 'Selected Objects' - Checking this allows you to only export the selected items you want. It's easy to forget this is turned on--(and even easier to forget to select things first!)
-  <li>(Include) 'Custom Properties' - This one is necessary if you're using things like the custom Hubs comoponents add-on (more on this later) but in most cases is not necessary.
-  <li>(Geometry) 'Apply Modifiers' - See info above. In most cases you'll want to leave this OFF.
-  <li>(Geometry) 'UVs, Normals, Tangents' - Best left ON. There may be unusual cases where you don't want these but it would be rare.
-  <li>(Geometry) 'Vertex Colors' - If you choose to paint vertex colors on your model, which can be a cheap, fast way of applying basic color instead of a texture, you'll need this ON. Otherwise, you can turn it OFF with no apparent effect.
-  <li>(Geometry) 'Materials' - Pretty much all models require materials to display properly so you will need this ON.
-  <li>(Geometry) 'Compression' - This might seem like a good idea, but as of this writing, Hubs does not support objects with Google Draco mesh compression. Leave this OFF.
-  <li>(Animation) 'Limit to Playback Range' - Make sure your playback range is set properly to see the full animation get exported.
-  <li>(Animation) 'Always Sample Animations' - This one has been found to significantly increase the file size in some cases. Try turning this OFF. If your animation(s) still work without it, leave it OFF.
-  <li>(Animation) 'NLA Strips' - You must have this ON if you've stashed a bunch of animation tracks on your object(s).
-  <li>Shape Keys - You must have this turned ON if you have an object that requires shape keys (also known as morph targets or blend shapes in other software).
-  <li>(Shape Keys) 'Shape Key Normals' - This one can be turned OFF as long as your morphs don't do anything special with the object's normals. If you see odd shading occur when the morphs happen, try toggling this.
-  <li>Skinning - You must have this turned ON if your object is bound to a skeletal armature.
-</ul>
+- (Include) 'Selected Objects' - Checking this allows you to only export the selected items you want. It's easy to forget this is turned on--(and even easier to forget to select things first!)
+- (Include) 'Custom Properties' - This one is necessary if you're using things like the custom Hubs comoponents add-on (more on this later) but in most cases is not necessary.
+- (Geometry) 'Apply Modifiers' - See info above. In most cases you'll want to leave this OFF.
+- (Geometry) 'UVs, Normals, Tangents' - Best left ON. There may be unusual cases where you don't want these but it would be rare.
+- (Geometry) 'Vertex Colors' - If you choose to paint vertex colors on your model, which can be a cheap, fast way of applying basic color instead of a texture, you'll need this ON. Otherwise, you can turn it OFF with no apparent effect.
+- (Geometry) 'Materials' - Pretty much all models require materials to display properly so you will need this ON.
+- (Geometry) 'Compression' - This might seem like a good idea, but as of this writing, Hubs does not support objects with Google Draco mesh compression. Leave this OFF.
+- (Animation) 'Limit to Playback Range' - Make sure your playback range is set properly to see the full animation get exported.
+- (Animation) 'Always Sample Animations' - This one has been found to significantly increase the file size in some cases. Try turning this OFF. If your animation(s) still work without it, leave it OFF.
+- (Animation) 'NLA Strips' - You must have this ON if you've stashed a bunch of animation tracks on your object(s).
+- Shape Keys - You must have this turned ON if you have an object that requires shape keys (also known as morph targets or blend shapes in other software).
+- (Shape Keys) 'Shape Key Normals' - This one can be turned OFF as long as your morphs don't do anything special with the object's normals. If you see odd shading occur when the morphs happen, try toggling this.
+- Skinning - You must have this turned ON if your object is bound to a skeletal armature.
 Any parameters not mentioned are probably best left to their defaults.
 It's worth noting that because this exporter (and the glTF format) is still subject to its own bug fixes and redesign, some of the settings and/or their defaults may change in the future.
 
@@ -81,16 +79,16 @@ While 'unlit' is a somewhat confusing name, it refers to materials where the lig
 Part of why this is difficult is because you must use the 'Background' node in your shader graph--but the 'Background' node is not listed with all the other nodes by default. Instead, you must find that node by switching the Shader editor to 'World' mode, then copy/paste it into your object's shader graph. You can add it to your Quick Favorites menu to make it easy to find later:
 
 <video autoplay loop muted controls >
-  <source src="img/BlenderShaderBackground.mp4" type="video/mp4">
-  <img src="img/intro-custom-avatar.jpeg" alt="Blender - Finding Background Node">
+  <source src="img/BlenderShaderBackground.mp4" type="video/mp4"/>
+  <img src="img/intro-custom-avatar.jpeg" alt="Blender - Finding Background Node"/>
   Your browser does not support HTML5 video.
 </video>
 
 Once you have the Background node, you can plug your texture into it, and send that to the Material Output. When you export to glb and bring the object into Spoke or Hubs, it will be 'unlit' (or fully lit, depending how you think of it.)
 
 <video autoplay loop muted controls >
-  <source src="img/BlenderShaderBackground2.mp4" type="video/mp4">
-  <img src="img/intro-custom-avatar.jpeg" alt="Blender - Using Background Node">
+  <source src="img/BlenderShaderBackground2.mp4" type="video/mp4"/>
+  <img src="img/intro-custom-avatar.jpeg" alt="Blender - Using Background Node"/>
   Your browser does not support HTML5 video.
 </video>
 

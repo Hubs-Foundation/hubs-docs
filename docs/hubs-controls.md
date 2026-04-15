@@ -71,7 +71,7 @@ https://magnetikonline.github.io/markdown-toc-generate/ to generate a table of c
     </tr>
     <tr>
         <td>Toggle fly mode</td>
-        <td>G or type <code>/fly</code> in chat
+        <td>G or type <code>/fly</code> in chat</td>
         <td></td>
     </tr>
     <tr>

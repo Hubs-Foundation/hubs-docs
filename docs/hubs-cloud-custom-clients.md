@@ -19,7 +19,7 @@ Your fork is a copy of the hubs repository on your github account.
 1. Click the "Fork" button in the upper right hand corner
 1. You'll be redirected to [github.com/Hubs-Foundation/hubs/fork](https://github.com/Hubs-Foundation/hubs/fork) 
 1. Make sure to UNCHECK the 'Copy the master branch only' option so that you have access to all the branches
-1. Go to your newly forked repo (upper left should say "<your github username> / hubs" NOT "Hubs-Foundation/hubs")
+1. Go to your newly forked repo (upper left should say "\<your github username\> / hubs" NOT "Hubs-Foundation/hubs")
 1. Click green "Code button" to open the **clone** options for your repo
 1. **Copy** the url, you'll need this copied url for the next steps (everyone new to git use HTTPS)
 

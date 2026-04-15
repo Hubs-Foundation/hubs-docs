@@ -67,7 +67,7 @@ Text:
 
 ![Capture of an example text notification of Scaleway charge with example verification code of C-4550.](img/smtp/image11.png)
 
-Pending charge at credit card site:<br>
+Pending charge at credit card site:<br/>
 ![Capture of credit card site details of Scaleway charge showing the verification code of C-4550 in the Description field.](img/smtp/image12.png)
 
 At Scaleway Console, after entering the 4-digit code, select **Verify payment method**.

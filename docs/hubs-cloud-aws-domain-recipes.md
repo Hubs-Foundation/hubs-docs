@@ -25,7 +25,7 @@ You'll need to follow instructions in [Route 53 Hosted Zones](https://console.aw
 
 For specific instructions for YOUR DOMAIN REGISTRAR and changing your domain registrar's domain nameservers to Route 53, web search:
 
-- Keywords: **<YOUR DOMAIN REGISTRAR\>, DNS hosting, setup Route 53 Hosted Zones, change YOUR DOMAIN REGISTRAR nameservers**
+- Keywords: **\<YOUR DOMAIN REGISTRAR\>, DNS hosting, setup Route 53 Hosted Zones, change YOUR DOMAIN REGISTRAR nameservers**
 - `How to change my nameservers on <YOUR DOMAIN REGISTRAR> website`
 - `Change <YOUR DOMAIN REGISTRAR> DNS for a domain`
 - `Point my <YOUR DOMAIN REGISTRAR> domain to Route 53 Hosted Zones`

@@ -26,8 +26,8 @@ The most straightforward way to customize an avatar for Hubs is to upload a cust
   8. Save the avatar.
 
 <video autoplay loop muted controls >
-  <source src="img/hubs-reskin-avatar.mp4" type="video/mp4">
-  <img src="img/intro-custom-avatar.jpeg" alt="Screenshot of avatar customization screen">
+  <source src="img/hubs-reskin-avatar.mp4" type="video/mp4"/>
+  <img src="img/intro-custom-avatar.jpeg" alt="Screenshot of avatar customization screen"/>
   Your browser does not support HTML5 video.
 </video>
 

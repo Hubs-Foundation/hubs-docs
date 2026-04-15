@@ -50,9 +50,9 @@ Select Edit.
 
 Scroll down to modify the Room Access and Room Member Permissions. These options are all your choices.
 
-## **Scene Editor <- this is Spoke!**
+## **Scene Editor ← this is Spoke!**
 
-When you open New Project, you might see this:<br>
+When you open New Project, you might see this:<br/>
 Errors loading project. Blah blah 1 error reticulum blah. Possibly a CORS error.
 
 ![Capture from Hubs, Spoke Editor. Popup box with Error loading project notification.  It is logical because the default Spoke scene cannot find the default crater dot glb files. You may select the "OK" button in the lower right corner.](img/whatsnext/image5.png)
@@ -74,11 +74,11 @@ You can visit the links below to browse content that has been made available on 
 * [Browse Scenes](https://demo.hubsfoundation.org/erGY8df/asset-browser/media/scenes?filter=featured)
 * [Browse Avatars](https://demo.hubsfoundation.org/erGY8df/asset-browser/media/avatars?filter=featured)
 
-To import the content, right click on the asset you would like and select “Copy Link” or “Copy Link Address”.<br>
-At your Hubs Admin Panel, Import Content, paste the copied link into the “Avatar or Scene URLs or .pack file” field.<br>
-Select “Preview Import”.<br>
-Configure the import settings. Unselect or select checkboxes for “Set to Default” and “Featured” for scenes and “Set to Default”, “Set to Base” and “Featured” for avatars.<br>
-Select “Import 1 Item”.<br>
+To import the content, right click on the asset you would like and select “Copy Link” or “Copy Link Address”.<br/>
+At your Hubs Admin Panel, Import Content, paste the copied link into the “Avatar or Scene URLs or .pack file” field.<br/>
+Select “Preview Import”.<br/>
+Configure the import settings. Unselect or select checkboxes for “Set to Default” and “Featured” for scenes and “Set to Default”, “Set to Base” and “Featured” for avatars.<br/>
+Select “Import 1 Item”.<br/>
 Repeat for each asset you want to import.
 
 *Note: If you left-click one of the assets and it takes you to the lobby of the Hubs room you will need to close that tab and re-open the browser from here.*

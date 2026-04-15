@@ -13,11 +13,11 @@ We are finishing a beginners guide. Until then, here are a few [links](https://h
 The following information is from the original guide. It will be useful once you've gotten your hubs server up and running. Make your own room by clicking “Create a Room.”
 
  <video autoplay loop muted controls poster="img/intro-hubs-create-room-min.jpg" >
-  <source src="img/create-a-room.mp4" type="video/mp4">
-  <img src="img/intro-hubs-create-room-min.jpg" alt="Screenshot of how to enter a Hubs room">
+  <source src="img/create-a-room.mp4" type="video/mp4"/>
+  <img src="img/intro-hubs-create-room-min.jpg" alt="Screenshot of how to enter a Hubs room"/>
   Your browser does not support HTML5 video.
 </video>
-<p style="text-align: center; font-style:italic;">🎉 Congratulations - you now have your very own virtual space! 🎉<p>
+<p style="text-align: center; font-style:italic;">🎉 Congratulations - you now have your very own virtual space! 🎉</p>
 
 ## Enter the Room
 
@@ -54,7 +54,7 @@ Try searching for content in the Media Browser (the magic wand button at the top
 You can also add media by dragging and dropping a file into the room, or by copying (ctrl+c or command+c) a URL and then pasting it in the room (ctrl+v or command+v).
 
 <video autoplay loop muted controls >
-  <source src="img/object-creation.mp4" type="video/mp4">
+  <source src="img/object-creation.mp4" type="video/mp4"/>
   Your browser does not support HTML5 video.
 </video>
 
@@ -81,8 +81,8 @@ You can change your scene to suit the mood of your event. There are lots of envi
 Note, only room moderators can change the scene. You also need to be signed in using your email address. Logging in is not required to use Hubs but doing so provides benefits such as being able to save favorite rooms, and upload custom avatars. All we need is an email address to authenticate your account &mdash; no additional information is required.   
 
 <video autoplay loop muted controls >
-  <source src="img/change-the-scene.mp4" type="video/mp4">
-  <img src="img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser">
+  <source src="img/change-the-scene.mp4" type="video/mp4"/>
+  <img src="img/intro-hubs-scene-browser-min.jpeg" alt="Screenshot of the Scene Browser"/>
   Your browser does not support HTML5 video.
 </video>
 

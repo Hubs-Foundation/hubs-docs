@@ -22,8 +22,8 @@ Select "New Project" and you'll be able to pick existing scenes from the communi
  From here you can customize your scene entirely to your liking! Try [adding content](./spoke-adding-scene-content.md) to your scene, or building a house with our [architecture kit](./spoke-architecture-kit.md).
 
  <video autoplay loop muted controls >
-  <source src="img/spoke-rock-kit.mp4" type="video/mp4">
-  <img src="img/spoke-interface.jpeg" alt="Screenshot of the Spoke Interface">
+  <source src="img/spoke-rock-kit.mp4" type="video/mp4"/>
+  <img src="img/spoke-interface.jpeg" alt="Screenshot of the Spoke Interface"/>
   Your browser does not support HTML5 video.
 </video>
 

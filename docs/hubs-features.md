@@ -25,17 +25,17 @@ description: "Hubs user interface: menus for objects, avatars, the camera, and d
 6. __Chat:__ Enables you to communicate via text chat, create objects or enter commands. Commands include:
 
 
-    /leave - Disconnect from the room.
-    /grow - Increase your avatar's size.
-    /shrink - Decrease your avatar's size.
-    /duck - Create a duck object.
-    /debug - Toggle physics debug rendering.
-    /vrstats - Toggle stats in VR.
-    /scene <scene url> - Change the scene (moderators only).
-    /rename <new name> - Rename the room (moderators only).
-    /audiomode - Toggle left-right spatialization, but keep distance-based attenuation (experimental).
-    /audioNormalization <factor> - Equalize audio levels (experimental)
-    /fly - Toggle fly mode.
+    /leave - Disconnect from the room.\
+    /grow - Increase your avatar's size.\
+    /shrink - Decrease your avatar's size.\
+    /duck - Create a duck object.\
+    /debug - Toggle physics debug rendering.\
+    /vrstats - Toggle stats in VR.\
+    /scene \<scene url\> - Change the scene (moderators only).\
+    /rename \<new name\> - Rename the room (moderators only).\
+    /audiomode - Toggle left-right spatialization, but keep distance-based attenuation (experimental).\
+    /audioNormalization \<factor\> - Equalize audio levels (experimental)\
+    /fly - Toggle fly mode.\
 
 7. __Leave:__ Leave the current room that you are in 
 

@@ -58,8 +58,8 @@ You can use the Media Frame element to designate areas you would like media obje
 ![mediaframe element in spoke](https://user-images.githubusercontent.com/4493657/142088604-0c8cac09-f8c7-401a-b363-799f319565e9.png)
 
 <video autoplay loop muted controls >
-  <source src="img/media-frame-demo.mp4" type="video/mp4">
-  <img src="img/media-frame-demo.png" alt="Using Media Frames">
+  <source src="img/media-frame-demo.mp4" type="video/mp4"/>
+  <img src="img/media-frame-demo.png" alt="Using Media Frames"/>
   Your browser does not support HTML5 video.
 </video>
 
@@ -75,14 +75,14 @@ Audio Zones work based on the audio source and the audio listener's positions an
 
 <img src="img/audio-zones-example-2.jpg" alt="drawing" width="65%"/>
 
-<center>_InOut zone that blocks all the audio sources coming from the inside._</center>
+_InOut zone that blocks all the audio sources coming from the inside._
 
 <img src="img/audio-zones-example-3.jpg" alt="drawing" width="65%"/>
 
-<center>_OutIn zone that blocks all the audio sources coming from the outside._</center>
+_OutIn zone that blocks all the audio sources coming from the outside._
 
 Audio zones can be inside other audio zones, in that case the applied parameters will be a reduction of the most restrictive parameters.
 
 <img src="img/audio-zones-example-1.jpg" alt="drawing" width="65%"/>
 
-<center>_If there are two audio-zones in between the listener and the source and the first one has gain == 0.1 and the other has gain == 0.5, gain == 0.1 is applied to the source._</center>
+_If there are two audio-zones in between the listener and the source and the first one has gain == 0.1 and the other has gain == 0.5, gain == 0.1 is applied to the source._

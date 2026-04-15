@@ -16,7 +16,7 @@ Your Hub's content storage limit is the total of all data associated with your H
 
 Exceeding the optimal number of concurrent users will greatly affect the stability and performance of your hub. Most often, new users will receive a persistent 503 error when attempting to connect.
 
-<img src="img/503-error.png" alt="The 503 error displayed when over ccu limit">
+![The 503 error displayed when over ccu limit](img/503-error.png)
 
 ## What is the difference between a 'hub, a 'room', a 'space', and a 'scene'?
 

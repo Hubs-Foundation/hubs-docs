@@ -476,8 +476,8 @@ Make sure that the UV’s of the face you are sending the video to are unwrapped
 The ‘Video Texture Target’ component can also be used on Avatars.  In this case, the video feed source is your device’s camera or webcam and not a virtual scene camera with the ‘Video Texture Source’ component.  To enable the camera in Hubs while using an avatar with a video texture target, press Share > Avatar Camera in the bottom UI bar.  This will replace the original texture with your camera feed, allowing for some fun webcam-enabled avatars.
 
 <video autoplay loop muted controls >
-  <source src="img/components_videoAvatars_feature2.mp4" type="video/mp4">
-  <img src="img/components_videoTextureTarget_videoThumbnail.png" alt="Hubs Video Avatar">
+  <source src="img/components_videoAvatars_feature2.mp4" type="video/mp4" />
+  <img src="img/components_videoTextureTarget_videoThumbnail.png" alt="Hubs Video Avatar" />
   Your browser does not support HTML5 video.
 </video>
 

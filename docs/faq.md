@@ -35,7 +35,7 @@ We investigated [Brevo](https://www.brevo.com/) (formerly Sendinblue) but it doe
 
 [Scaleway](https://www.scaleway.com/en/transactional-email-tem/) has a free plan for 300 emails per month and is the one we ended up going with because it generally aligns with our purpose.
 
-[Mailgun](https://www.mailgun.com/pricing/) has a free plan which allows sending up to 100 emails per day.<br>
+[Mailgun](https://www.mailgun.com/pricing/) has a free plan which allows sending up to 100 emails per day.<br/>
 Note: You can also setup inbound "routes" for your Hubs domain, which can be forwarded to another email address.
 
 ### I need more than 300 emails per month.
@@ -167,10 +167,10 @@ Then **copy and paste** this into the terminal, substitute `<podname>` with the 
 kubectl exec <podname> -c reticulum -n hcce -- nc -zv <SMTP_SERVER> <SMTP_PORT>
 ```
 
-If your email server is reachable from your Kubernetes cluster, the output in the terminal will be something like:<br>
+If your email server is reachable from your Kubernetes cluster, the output in the terminal will be something like:<br/>
 `example.com (xx.xx.xx.xx:2587) open`
 
-If it's not reachable, the command will hang for a long time and the resulting output in the terminal when it finally returns will be something like:<br>
+If it's not reachable, the command will hang for a long time and the resulting output in the terminal when it finally returns will be something like:<br/>
 `nc: example.example.example.com (xx.xx.xx.xx:587): Operation timed out`
 
 #### Sending an actual email
