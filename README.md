@@ -63,7 +63,7 @@ my-docusaurus/
 
 Edit docs by navigating to `docs/` and editing the corresponding document:
 
-`docs/doc-to-be-edited.md`
+`docs/doc-to-be-edited.mdx`
 
 ```markdown
 ---
@@ -74,13 +74,19 @@ title: This Doc Needs To Be Edited
 Edit me...
 ```
 
-For more information about docs, click [here](https://docusaurus.io/docs/en/navigation)
+See the [MDX syntax guide](https://github.com/micromark/mdx-state-machine#72-deviations-from-markdown) to understand how MDX differs from [standard Markdown](https://commonmark.org/help/).
+
+The main things to watch out for are:
+1. all tags must be closed, even void tags, for example: `<img src="foo.jpeg" alt="bar"/>`
+2. left angle brackets that don't start a tag must be escaped with a backslash
+3. left curly braces must be escaped with a backslash
+
 
 ### Editing an existing blog post
 
 Edit blog posts by navigating to `website/blog` and editing the corresponding post:
 
-`website/blog/post-to-be-edited.md`
+`website/blog/post-to-be-edited.mdx`
 ```markdown
 ---
 id: post-needs-edit
@@ -90,13 +96,13 @@ title: This Blog Post Needs To Be Edited
 Edit me...
 ```
 
-For more information about blog posts, click [here](https://docusaurus.io/docs/en/adding-blog)
+For more information about blog posts, see [Adding a Blog in the Docusarus docs](https://docusaurus.io/docs/en/adding-blog).
 
 ## Adding Content
 
 ### Adding a new docs page to an existing sidebar
 
-1. Create the doc as a new markdown file in `/docs`, example `docs/newly-created-doc.md`:
+1. Create the doc as a new MDX file in `/docs`, example `docs/newly-created-doc.mdx`:
 
 ```md
 ---
@@ -123,11 +129,11 @@ const sidebars = {
 }
 ```
 
-For more information about adding new docs, click [here](https://docusaurus.io/docs/en/navigation)
+For more information about IDs and navigation, see [Navigation and Sidebars in the Docusaurus docs](https://docusaurus.io/docs/en/navigation).
 
 ## Full Documentation
 
-Full documentation can be found on the [website](https://docusaurus.io/).
+Full documentation can be found on the [Docusaurus website](https://docusaurus.io/docs).
 
 ## Contributing to Hubs Docs
 
@@ -135,7 +141,7 @@ We welcome contributions from the community! Here’s how you can help:
 
 ## 📄 Docusaurus Header
 
-Every markdown file should begin with a Docusaurus header block. This is **not Markdown**, but frontmatter metadata used by Docusaurus.
+Every MDX file should begin with a Docusaurus header block. This is **not Markdown**, but frontmatter metadata used by Docusaurus in YAML format.
 
 ```yaml
 ---
@@ -147,6 +153,7 @@ sidebar_label: My Doc Label
 ```
 
 Please **do not remove** or skip this header. The `id` should be unique, and the `description` is required.
+If the description contains a colon, the description should be wrapped in quotes.
 
 ---
 
@@ -167,11 +174,11 @@ git checkout -b fix-typos-or-additions
 
 ### Step 3: Make Changes
 
-Make changes to `.md` files in the `docs/` directory. Remember to:
+Make changes to `.mdx` files in the `docs/` directory. Remember to:
 
 - Add a Docusaurus header at the top
 - Write atomic commit messages (see [Commit Message Guidelines](https://github.com/Hubs-Foundation/policies-procedures-guidelines-public/blob/main/commit-message-guidelines.md))
-- Follow the [Markdown syntax guide](https://commonmark.org/help/)
+- Follow the [MDX syntax guide](https://github.com/micromark/mdx-state-machine#72-deviations-from-markdown)
 
 ### Step 4: Submit Pull Request
 
