@@ -31,13 +31,18 @@ Hubs Cloud DigitalOcean can be found on [DigitalOcean Marketplace](https://marke
    - We recommend using [SendGrid](https://www.sendgrid.com) and using port 2525 to prevent firewall blocking. To use SendGrid for SMTP, create an account and then go to the [SMTP Integration](https://app.sendgrid.com/guide/integrate/langs/smtp) to get an SMTP username and password.
    - SendGrid has an additional step to [authenticate your domain](https://sendgrid.com/docs/ui/account-and-settings/how-to-set-up-domain-authentication) before your emails will start being sent.
 
-6. [Create a writable DigitalOcean API token](https://cloud.digitalocean.com/account/api/tokens/new). This token will be needed during setup for configuring DNS, firewall, etc as it allows the setup script to update your project/droplet as needed.
+6. [Create a database server](https://cloud.digitalocean.com/databases/new) using Postgres 11.
+   - This may default to the latest Postgres version which may not be compatible with the latest Hubs code.
+   - Name the server something similar to the droplet name.
+   - Attach the database server to your droplet.
+
+7. [Create a writable DigitalOcean API token](https://cloud.digitalocean.com/account/api/tokens/new). This token will be needed during setup for configuring DNS, firewall, etc as it allows the setup script to update your project/droplet as needed.
 
    - The token **won't** be saved and you can remove it from your account once your hub is up.
 
-7. Once your droplet has started, SSH in as root to complete the setup process. Ex: `ssh root@x.x.x.x` You can find the ip address of your droplet at the top of the droplet detail page in the DigitalOcean dashboard. Depending on how you configured authentication when creating your droplet you will need to either provide the one time password given to you or simply use a pre-configured ssh key.
+8. Once your droplet has started, SSH in as root to complete the setup process. Ex: `ssh root@x.x.x.x` You can find the ip address of your droplet at the top of the droplet detail page in the DigitalOcean dashboard. Depending on how you configured authentication when creating your droplet you will need to either provide the one time password given to you or simply use a pre-configured ssh key.
 
-8. Upon login the Hubs Cloud setup wizard will start automatically. This will guide you through all the rest of the steps required to get you Hubs Cloud instance up and running. If you ever need to change the settings you entered during setup or if you exited it for any other reason you can re-run it by running `/opt/polycosm/setup.sh`
+9. Upon login the Hubs Cloud setup wizard will start automatically. This will guide you through all the rest of the steps required to get you Hubs Cloud instance up and running. If you ever need to change the settings you entered during setup or if you exited it for any other reason you can re-run it by running `/opt/polycosm/setup.sh`
    - You will need to provide a database or create a DigitalOcean Managed Database during setup. DigitalOcean Managed Databases start at \$15/mo [See pricing for all DigitalOcean services here](https://www.digitalocean.com/pricing/).
 
 DigitalOcean is currently an **alpha** pre-release. If you run into any issues, see the [help page](./help.html) for ways you can get in touch.
