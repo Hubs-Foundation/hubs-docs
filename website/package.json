@@ -7,7 +7,7 @@
     "npm": ">=9.0.1",
     "typescript": ">=5.0.4"
   },
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -22,7 +22,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "@docusaurus/core": "^3.10.0",
     "@docusaurus/plugin-content-blog": "^3.10.0",

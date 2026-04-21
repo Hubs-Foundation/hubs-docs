@@ -49,6 +49,7 @@ Spoke and Hubs expect you to use .glb files. A single .glb file contains all mes
 **+ Understanding the Exporter Settings**
 
 There are quite a few settings to understand in the glTF exporter, but fortunately, they are divided into sections to make it a little easier. In many cases, the defaults work just fine. However, there are a few worth noting when troubleshooting:
+
 - (Include) 'Selected Objects' — Checking this allows you to only export the selected items you want. It's easy to forget this is turned on—(and even easier to forget to select things first!)
 - (Include) 'Custom Properties' — This one is necessary if you're using things like the custom Hubs components add-on (more on this later) but in most cases is not necessary.
 - (Geometry) 'Apply Modifiers' — See info above. In most cases you'll want to leave this OFF.
@@ -62,6 +63,7 @@ There are quite a few settings to understand in the glTF exporter, but fortunate
 - Shape Keys – You must have this turned ON if you have an object that requires shape keys (also known as morph targets or blend shapes in other software).
 - (Shape Keys) 'Shape Key Normals' – This one can be turned OFF as long as your morphs don't do anything special with the object's normals. If you see odd shading occur when the morphs happen, try toggling this.
 - Skinning – You must have this turned ON if your object is bound to a skeletal armature.
+
 Any parameters not mentioned are probably best left to their defaults.
 It's worth noting that because this exporter (and the glTF format) is still subject to its own bug fixes and redesign, some of the settings and/or their defaults may change in the future.
 

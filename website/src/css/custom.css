@@ -8,8 +8,12 @@ video {
  max-width: 100%;
 }
 
-a{
- color: #0000FF
+a, a:hover,
+.navbar__link:hover, .navbar__link--active,
+.menu__link:hover .menu__link--active,
+.table-of-contents__link:hover, .table-of-contents__link--active,
+.breadcrumbs__item--active, .breadcrumbs__link--active {
+ color: #1754B5;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
