@@ -4,9 +4,8 @@ This repository contains documentation for Hubs and related products such as Hub
 
 The documentation is under active development. If there are any changes or updates you recommend, feel free to submit a pull request or let us know in our [Discord Server](https://discord.gg/wHmY4nd).
 
-This website was created with [Docusaurus](https://docusaurus.io/).
+This website was created with [Docusaurus v3](https://docusaurus.io/).
 
-# Docusaurus information
 ## What's In This Document
 
 * [Get Started in 5 Minutes](#get-started-in-5-minutes)
@@ -14,8 +13,17 @@ This website was created with [Docusaurus](https://docusaurus.io/).
 * [Editing Content](#editing-content)
 * [Adding Content](#adding-content)
 * [Full Documentation](#full-documentation)
+* [Contributing to Hubs Docs](#contributing-to-hubs-docs)
+* [Docusaurus Header](#ddocusaurus-header)
+* [Fixing Documentation](#fixing-documentation)
+* [Local Development](#local-development)
+* [Resources](#resources)
 
 ## Get Started in 5 Minutes
+
+1. Install tooling:
+
+We recommend using [Node.js v22 or later](https://docs.hubsfoundation.org/beginners-guide-to-CE.html#1-download-and-install-nodejs), but v20 should work for now.
 
 1. Make sure all the dependencies for the website are installed:
 
