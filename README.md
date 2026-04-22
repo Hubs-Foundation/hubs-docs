@@ -129,7 +129,7 @@ const sidebars = {
 }
 ```
 
-For more information about IDs and navigation, see [Navigation and Sidebars in the Docusaurus docs](https://docusaurus.io/docs/en/navigation).
+For more information about adding new docs, see [Create a doc](https://docusaurus.io/docs/create-doc).
 
 ## Full Documentation
 
