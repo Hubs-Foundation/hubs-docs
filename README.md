@@ -178,7 +178,7 @@ Make changes to `.mdx` files in the `docs/` directory. Remember to:
 
 - Add a Docusaurus header at the top
 - Write atomic commit messages (see [Commit Message Guidelines](https://github.com/Hubs-Foundation/policies-procedures-guidelines-public/blob/main/commit-message-guidelines.md))
-- Follow the [MDX syntax guide](https://github.com/micromark/mdx-state-machine#72-deviations-from-markdown)
+Follow the [Markdown syntax guide](https://commonmark.org/help/) for the basics, then check [the differences MDX introduces](https://docusaurus.io/docs/next/markdown-features/react#markdown-and-jsx-interoperability) for additional functionality and to avoid running into any gotchas.
 
 ### Step 4: Submit Pull Request
 
