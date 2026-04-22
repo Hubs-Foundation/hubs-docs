@@ -19,9 +19,8 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids"
   },
-  "keywords": [],
+  "keywords": ["immersive", "VR", "social", "collaboration", "webapp", "Hubs"],
   "author": "",
-  "license": "ISC",
   "type": "module",
   "dependencies": {
     "@docusaurus/core": "^3.10.0",
