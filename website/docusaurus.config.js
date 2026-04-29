@@ -175,7 +175,7 @@ const config = {
             ]
           }
         ],
-        copyright: `Copyright © 2024–${new Date().getFullYear()} Hubs Foundation; under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license.`,
+        copyright: `Copyright © 2024–2025 Hubs Foundation. Hubs Documentation available under the Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license.`,
       },
       prism: {
         theme: lightCodeTheme,
