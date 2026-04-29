@@ -10,6 +10,7 @@ p img {
 
 blockquote {
  background-color: rgba(255,229,100,.3);
+ padding: 15px 30px 15px 15px;
 }
 
 video {
