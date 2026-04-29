@@ -23,7 +23,9 @@ This website was created with [Docusaurus v3](https://docusaurus.io/).
 
 1. Install tooling:
 
-We recommend using [Node.js v22 or later](https://docs.hubsfoundation.org/beginners-guide-to-CE.html#1-download-and-install-nodejs), but v20 should work for now.
+We strongly recommend using [Node.js v24 or later](https://docs.hubsfoundation.org/beginners-guide-to-CE.html#1-download-and-install-nodejs), but v20 or v22 should work for now.
+We strongly recommend using NPM v11.10.0 or later, but v10 should work for now.
+TypeScript tools should work with v5.
 
 1. Make sure all the dependencies for the website are installed:
 
@@ -133,6 +135,7 @@ const sidebars = {
         'welcome',
         'intro-hubs',
         'intro-spoke',
+        'newly-created-doc', // new doc here
   ...
 }
 ```
