@@ -14,7 +14,7 @@ This website was created with [Docusaurus v3](https://docusaurus.io/).
 * [Adding Content](#adding-content)
 * [Full Documentation](#full-documentation)
 * [Contributing to Hubs Docs](#contributing-to-hubs-docs)
-* [Docusaurus Header](#ddocusaurus-header)
+* [Docusaurus Header](#docusaurus-header)
 * [Fixing Documentation](#fixing-documentation)
 * [Local Development](#local-development)
 * [Resources](#resources)
@@ -82,7 +82,7 @@ title: This Doc Needs To Be Edited
 Edit me...
 ```
 
-See the [MDX syntax guide](https://github.com/micromark/mdx-state-machine#72-deviations-from-markdown) to understand how MDX differs from [standard Markdown](https://commonmark.org/help/).
+See the [Markdown syntax guide](https://commonmark.org/help/) for the basics, then check [the differences MDX introduces](https://docusaurus.io/docs/next/markdown-features/react#markdown-and-jsx-interoperability) to avoid running into any gotchas.
 
 The main things to watch out for are:
 1. all tags must be closed, even void tags, for example: `<img src="foo.jpeg" alt="bar"/>`
@@ -104,7 +104,7 @@ title: This Blog Post Needs To Be Edited
 Edit me...
 ```
 
-For more information about blog posts, see [Adding a Blog in the Docusarus docs](https://docusaurus.io/docs/en/adding-blog).
+For more information about blog posts, see [Adding a Blog in the Docusarus docs](https://docusaurus.io/docs/blog).
 
 ## Adding Content
 

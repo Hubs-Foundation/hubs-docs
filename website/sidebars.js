@@ -20,14 +20,18 @@ const sidebars = {
         'set-up-SMTP-email-service',
         'download-and-install-doctl',
         'whats-next',
-        'setup-learning',
         'faq',
         'how-to-backup-your-Hubs-instance',
         'regenerating-ssl-certificates',
+        // 'setup-choosing',
+        // 'setup-creating',
+        // 'setup-updating',
         'setup-configuring-content',
-        'hubs-cloud-asset-packs',
+        // 'setup-custom-domain',
+        // 'setup-custom-client',
         'setup-faq',
-        'setup-contact'
+        'setup-contact',
+        // 'setup-learning',
       ],
     },
     {
@@ -42,7 +46,8 @@ const sidebars = {
         'hubs-controls',
         'hubs-discord-bot',
         'hubs-troubleshooting',
-        'hubs-faq'
+        'hubs-faq',
+        // 'download-data',
       ],
     },
     {
@@ -58,7 +63,7 @@ const sidebars = {
         'spoke-skyboxes',
         'lighting-and-shadows',
         'physics-and-navigation',
-        'spoke-publish-scenes'
+        'spoke-publish-scenes',
       ],
     },
     {
@@ -71,7 +76,7 @@ const sidebars = {
         'creators-blender-components',
         'spoke-optimization',
         'creators-content-guidelines',
-        'intro-behavior-graphs'
+        'intro-behavior-graphs',
       ],
     },
     {
@@ -82,7 +87,7 @@ const sidebars = {
         'build-custom-client',
         'contributing',
         'hubs-query-string-parameters',
-        'github-workflows'
+        'github-workflows',
       ],
     },
     {
@@ -92,7 +97,7 @@ const sidebars = {
         'dev-client-basics',
         'dev-client-gameplay',
         'dev-client-interactivity',
-        'dev-client-networking'
+        'dev-client-networking',
       ],
     },
     {
@@ -101,15 +106,48 @@ const sidebars = {
       items: [
         'admin-intro',
         'admin-getting-started',
+        // 'hubs-cloud-faq',
         'admin-importing-content',
+        // 'hubs-cloud-asset-packs',
+        // 'hubs-cloud-customizing-look-and-feel',
         'admin-customizing-themes',
         'admin-managing-content',
         'admin-adding-administrators',
         'admin-limiting-user-access',
         'admin-permissive-rooms',
-        'admin-enable-scene-editor'
+        // 'hubs-cloud-third-party-integrations',
+        'admin-enable-scene-editor',
+        // 'hubs-cloud-custom-smtp',
+        // 'hubs-cloud-discord-bot',
+        // 'hubs-cloud-accessing-servers',
+        // 'hubs-cloud-content-cdn',
+        // 'hubs-cloud-custom-clients',
+        // 'hubs-cloud-branding',
       ],
     },
+    // {
+      // type: 'category',
+      // label: 'Hubs Cloud AWS',
+      // items: [
+        // 'hubs-cloud-aws-quick-start',
+        // 'hubs-cloud-aws-domain-recipes',
+        // 'hubs-cloud-aws-existing-domain',
+        // 'hubs-cloud-aws-existing-email-provider',
+        // 'hubs-cloud-aws-updating-the-stack',
+        // 'hubs-cloud-aws-backup-and-restore',
+        // 'hubs-cloud-aws-troubleshooting',
+        // 'hubs-cloud-aws-known-issues',
+        // 'hubs-cloud-aws-architecture',
+        // 'hubs-cloud-aws-costs',
+        // 'hubs-cloud-aws-estimated-cost-charts',
+        // 'hubs-cloud-aws-estimated-ccu-limits',
+      // ],
+    // },
+    // {
+      // type: 'doc',
+      // id: 'hubs-cloud-do-quick-start',
+      // label: 'Hubs Cloud DigitalOcean'
+    // },
   ],
 };
 
