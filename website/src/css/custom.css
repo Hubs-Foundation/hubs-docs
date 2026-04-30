@@ -25,6 +25,27 @@ a, a:hover,
  color: #1754B5;
 }
 
+.footer {
+  background-color: #20232A;
+}
+
+.footer__title {
+    color: #FFFFFF;
+}
+
+.footer__copyright {
+    color: #707277;
+}
+
+.footer__link-item {
+    color: #A6A7AA;
+}
+
+.footer__link-item:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
