@@ -28,7 +28,7 @@ jobs:
       - name: sync publish
         if: ${{ github.ref == 'refs/heads/master' && github.repository == 'Hubs-Foundation/hubs-docs' }}
         env:
-          source: build/hubs-docs/
+          source: build/
           dest: webcontainers@hubsfoundation.org:wordpress/hubs-docs
         run: |
           env

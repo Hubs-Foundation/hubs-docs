@@ -1,0 +1,95 @@
+/* your custom css */
+
+html[data-theme='light']  {
+    --ifm-color-scheme: light;
+
+    --ifm-color-primary: #1754B5;
+
+    --ifm-link-color: #1754B5;
+    --ifm-link-hover-color: #1754B5;
+
+    --ifm-navbar-link-hover-color: #1754B5;
+
+    --ifm-menu-color-active: #1754B5;
+
+    --ifm-breadcrumb-color-active: #1754B5;
+
+    --ifm-toc-link-hover-color: #1754B5;
+}
+
+html[data-theme='dark'] {
+    --ifm-color-scheme: dark;
+
+    --ifm-color-primary: #5D93EA;
+
+    --ifm-link-color: #5D93EA;
+    --ifm-link-hover-color: #5D93EA;
+
+    --ifm-navbar-link-hover-color: #5D93EA;
+
+    --ifm-menu-color-active: #5D93EA;
+
+    --ifm-breadcrumb-color-active: #5D93EA;
+
+    --ifm-toc-link-hover-color: #5D93EA;
+}
+
+p img {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ max-width: 100%;
+}
+
+tbody {
+  vertical-align: baseline;
+}
+
+table td {
+  padding: 6px 10px;
+}
+
+blockquote {
+ background-color: rgba(255,229,100,.3);
+ padding: 15px 30px 15px 15px;
+}
+
+video {
+ max-width: 100%;
+}
+
+.footer {
+  background-color: #20232A;
+}
+
+.footer__title {
+    color: #FFFFFF;
+}
+
+.footer__copyright {
+    color: #707277;
+}
+
+.footer__link-item {
+    color: #A6A7AA;
+}
+
+.footer__link-item:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}

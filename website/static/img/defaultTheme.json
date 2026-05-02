@@ -1,5 +1,7 @@
 [
     {
+      "//": "This was used by Docusarus v1, but is not used by Docusarus v3",
+
       "id": "hubs-default",
       "default": false,
       "name": "Hubs Default",
