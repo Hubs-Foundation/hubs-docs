@@ -4,8 +4,8 @@ pkg_maintainer="Mozilla Mixed Reality <mixreality@mozilla.com>"
 
 pkg_version="1.0.0"
 pkg_license=('MPLv2')
-pkg_description="Docs for Hubs + Spoke by Mozilla"
-pkg_upstream_url="https://hubs.mozilla.com/docs"
+pkg_description="Docs for Hubs + Spoke"
+pkg_upstream_url="https://docs.hubsfoundation.org"
 pkg_deps=(
   core/node10
   core/coreutils
