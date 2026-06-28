@@ -8,6 +8,8 @@ on:
       - main
   workflow_dispatch:
 
+permissions: {}
+
 jobs:
   build_sync:
     runs-on: ubuntu-latest
@@ -16,9 +18,11 @@ jobs:
         working-directory: ./website
     steps:
       - name: checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          persist-credentials: false
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: 22
       - name: include dependencies
@@ -30,10 +34,11 @@ jobs:
         env:
           source: build/
           dest: webcontainers@hubsfoundation.org:wordpress/hubs-docs
+          VARS_KNOWN_HOSTS: ${{ vars.KNOWN_HOSTS }}
         run: |
           env
           mkdir -p ~/.ssh
           echo "${{ secrets.WEBCONTAINERS_KEY }}" >  ~/.ssh/WEBCONTAINERS_KEY
           chmod 600 ~/.ssh/WEBCONTAINERS_KEY
-          echo "${{ vars.KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+          echo "${VARS_KNOWN_HOSTS}" > ~/.ssh/known_hosts
           rsync -v --rsh='ssh -i  ~/.ssh/WEBCONTAINERS_KEY' --archive --delete-after $source $dest
