@@ -136,7 +136,7 @@ Hubs rooms can only be accessed by individuals with the URL.
 It's not possible to pay Hubs-Foundation for custom work, however, our code is open source and we welcome external contributors in [GitHub](http://github.com/Hubs-Foundation/hubs). You can post in the #work-for-hire channel of our [Discord chat server](https://discord.gg/wHmY4nd) if you are interested in paying someone to build something for you.
 
 ## Can I run my virtual event in Hubs?
-Yes, check out the information [here](./intro-events.html) for more information on how to get started: 
+Yes - see [Hosting Events in Hubs](./intro-events.html) for more information on how to get started: 
 
 If you have questions about whether Hubs will be a good fit for your event, drop by our office-hours or meetup to speak to  a member of our team. See our community [Discord chat server](https://discord.gg/wHmY4nd) for the schedule.
 

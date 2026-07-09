@@ -58,7 +58,7 @@ To temporarily kick a user from the room, open the avatar menu and select "Kick.
 
 When you create a room in Hubs, it is private by default. Sharing the link or access code with other people allows them to enter that specific room, so generally, you want to be careful with who has the link.  
 
-You can link a Hubs room to a channel in a Discord server and have your server members join with their Discord accounts. Banning a user from your server or removing them from the Discord channel will prevent them from being able to re-join the linked Hubs room, even if that user still has the link to the room. You can learn more about the Hubs Discord bot [here](./hubs-discord-bot.html). 
+You can link a Hubs room to a channel in a Discord server and have your server members join with their Discord accounts. Banning a user from your server or removing them from the Discord channel will prevent them from being able to re-join the linked Hubs room, even if that user still has the link to the room. You can learn more in the [Hubs Discord bot documentation](./hubs-discord-bot.html). 
 
 ## Favorite Rooms
 
