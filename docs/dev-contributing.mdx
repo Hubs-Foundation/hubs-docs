@@ -68,7 +68,7 @@ We will do our best to respond to and tag inbound issues as they are submitted i
 | P3 | Address when able after P2 bugs are fixed. Affects a small set of users inconsistently in a non-breaking way with an easy workaround. | Every so often, a standalone VR headset will show up as a mobile phone in the user list. Refreshing fixes it. |
 
 ## 🎨 3D Art
-If you are a 3D artist and want to support what we're doing with Hubs, consider creating and releasing content under a Creative Commons license or creating scenes using the [Spoke web editor](https://docs.hubsfoundation.org/spoke-creating-projects.html) and releasing them as remixable environments. Content with low polygon counts that are optimized to run well on the web are much appreciated! In particular, we'd love to see scenes that capture a wide range of experiences.
+If you are a 3D artist and want to support what we're doing with Hubs, consider creating and releasing content under a Creative Commons license or creating scenes using the [Spoke web editor](./spoke-creating-projects.html) and releasing them as remixable environments. Content with low polygon counts that are optimized to run well on the web are much appreciated! In particular, we'd love to see scenes that capture a wide range of experiences.
 
 ## 📜 Documentation
 Our documentation for Hubs and Spoke is hosted on the GitHub [Hubs-docs repository](https://github.com/Hubs-Foundation/hubs-docs). For contributing corrections or additional pages, please file a pull request or issue as a suggestion with your proposed content and we will review it and add it when all looks good!
@@ -91,5 +91,5 @@ We welcome additions and updates to these.
 (Note that machine-generated translations can help, but by themselves are rarely what users need.  Also, make sure to follow our [AI usage policy](https://github.com/Hubs-Foundation/policies-procedures-guidelines-public/blob/main/ai-usge-policy.md) when working with anything machine-generated)
 
 ## 🦆 General Help
-We believe in the power of community (that's why we're building this, after all!) and know that not all forms of support will come from something outlined here. Feel free to jump into our public [Discord chat server](https://discord.gg/wHmY4nd) to chat with us and ask about how you can get involved! See our [help page](https://docs.hubsfoundation.org/help.html) for other ways to contact us.
+We believe in the power of community (that's why we're building this, after all!) and know that not all forms of support will come from something outlined here. Feel free to jump into our public [Discord chat server](https://discord.gg/wHmY4nd) to chat with us and ask about how you can get involved! See our [help page](./help.html) for other ways to contact us.
 

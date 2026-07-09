@@ -14,7 +14,7 @@ A backup of your Hubs instance stores all of those files into one directory on y
 
 ## **How to do a backup**
 
-1. Open VS Code. Make sure you are in the community-edition folder. This is similar to [the Beginner's Guide, Step 12h](https://docs.hubsfoundation.org/beginners-guide-to-CE.html#12-generate-your-config-file).
+1. Open VS Code. Make sure you are in the community-edition folder. This is similar to [the Beginner's Guide, Step 12h](./beginners-guide-to-CE.html#12-generate-your-config-file).
 
    ![Capture of VS Code, Terminal window, community-edition folder.](img/backups/image1.png)
 
@@ -22,7 +22,7 @@ A backup of your Hubs instance stores all of those files into one directory on y
 
    `npm run backup`
 
-   a. In case you see Error: Cannot find module 'yaml', you need to do a clean install like you did in the [Beginner’s Guide, Step 12i](https://docs.hubsfoundation.org/beginners-guide-to-CE.html#12-generate-your-config-file). 
+   a. In case you see Error: Cannot find module 'yaml', you need to do a clean install like you did in the [Beginner’s Guide, Step 12i](./beginners-guide-to-CE.html#12-generate-your-config-file). 
 
    ![Capture of VS Code, Terminal window, npm run backup returning an error of Cannot find module 'yaml'](img/backups/image2.png)
 
@@ -37,7 +37,7 @@ A backup of your Hubs instance stores all of those files into one directory on y
 
 ## **How to restore a backup**
 
-1. Open VS Code. Make sure you are in the community-edition folder. This is similar to [the Beginner's Guide, Step 12h](https://docs.hubsfoundation.org/beginners-guide-to-CE.html#12-generate-your-config-file).
+1. Open VS Code. Make sure you are in the community-edition folder. This is similar to [the Beginner's Guide, Step 12h](./beginners-guide-to-CE.html#12-generate-your-config-file).
 
    ![Capture of VS Code, Terminal window, community-edition folder.](img/backups/image1.png)
 
