@@ -19,7 +19,14 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids"
   },
-  "keywords": ["immersive", "VR", "social", "collaboration", "webapp", "Hubs"],
+  "keywords": [
+    "immersive",
+    "VR",
+    "social",
+    "collaboration",
+    "webapp",
+    "Hubs"
+  ],
   "author": "",
   "type": "module",
   "dependencies": {
@@ -34,6 +41,7 @@
   },
   "overrides": {
     "webpack": "5.105.4",
-    "webpackbar": "5.0.2"
+    "webpackbar": "5.0.2",
+    "shell-quote": "1.9.0"
   }
 }
