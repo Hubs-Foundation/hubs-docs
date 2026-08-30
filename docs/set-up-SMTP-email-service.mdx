@@ -392,7 +392,7 @@ Result:
 
 ![Capture of Scaleway, Identity and Access Management (IAM), Policies page, API keys tabs. New MyHubsCE key shown.](img/smtp/image56.png)
 
-Yay! You’ve done it! Your new API key will be assigned to your domain. You may logout of Scaleway and return to the [Beginner’s Guide](https://docs.hubsfoundation.org/beginners-guide-to-CE.html#7-download-and-install-kubectl). 
+Yay! You’ve done it! Your new API key will be assigned to your domain. You may logout of Scaleway and return to the [Beginner’s Guide](./beginners-guide-to-CE.html#7-download-and-install-kubectl). 
 
 ## **Sources**
 
