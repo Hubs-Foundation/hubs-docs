@@ -47,7 +47,7 @@ const sidebars = {
         'hubs-discord-bot',
         'hubs-troubleshooting',
         'hubs-faq',
-        // 'download-data',
+        'download-data',
       ],
     },
     {
