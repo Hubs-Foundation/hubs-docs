@@ -19,12 +19,12 @@ You encountered an issue during Hubs Cloud stack deployment. By default, AWS rol
 3. Log, note, or screenshot those errors for troubleshooting
 4. Redeploy the stack again with the same parameters (sometimes it takes 2 times to go through), then if you get the same error...
 4. Search specific error _on this page (AWS Troubleshooting)_ 
-5. Search specific error on [Hubs Github Discussions](https://github.com/mozilla/hubs/discussions)
-6. Make a thread on [Hubs Github Discussions](https://github.com/mozilla/hubs/discussions), if none of the searches found a solution for you.
+5. Search specific error on [Hubs Github Discussions](https://github.com/Hubs-Foundation/hubs/discussions)
+6. Make a thread on [Hubs Github Discussions](https://github.com/Hubs-Foundation/hubs/discussions), if none of the searches found a solution for you.
 
 #### To turn rollback completely off
 
-1. Start the [AWS Hubs deployment process](https://hubs.mozilla.com/cloud) > Finish steps 1 and 2 > "Step 3 Configure stack options" > "Advanced options" > Expand "Stack creation options" > Select "Disabled" for "Rollback on failure"
+1. Start the AWS Hubs deployment process again and get to the step where you configure stack options. Go to "Advanced options" > Expand "Stack creation options" > Select "Disabled" for "Rollback on failure"
 2. Continue with the stack creation and discover which error the stack failed on
 3. Delete the stack in AWS CloudFormation manually to restart the deployment process
 
@@ -78,7 +78,7 @@ You finished deployment and can access the Hubs Admin console. The Hubs Admin co
       - **Limit type:** "SES Sending Limits"
       - **Mail Type:** "System Notifications"
       - **Website URL - optional**
-      - **Describe ... who have requested your mail:** "We authenticate users using email links only. Users who want to join and connect to the hosted Mozilla Hubs Room, will enter their email address to get this 'magic hub' link to authenticate. Anyone can choose to not enter their email and not join."
+      - **Describe ... who have requested your mail:** "We authenticate users using email links only. Users who want to join and connect to the hosted Hubs Room, will enter their email address to get this 'magic hub' link to authenticate. Anyone can choose to not enter their email and not join."
       - **Describe ... and complaint notifications:** "We've set up bounce and complaints to forward to an administrative email address. And we do not send any emails other than this 'magic' authentication email link to join a Hubs room. We don't store emails on our server."
       - **Will you comply with AWS Service Terms?:** "Yes"
     - Request 1
